@@ -1,0 +1,3 @@
+33	38	#LOW S/N
+37	04	#LARGE S/N
+#IN J-BAND

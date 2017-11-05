@@ -1,0 +1,129 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal Article
+% LaTeX Template
+% Version 1.3 (9/9/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[twocolumn]{article}
+
+\usepackage{lipsum} % Package to generate dummy text throughout this template
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\PrerenderUnicode{áéíóúñ}
+%\usepackage[spanish]{babel}
+%\usepackage{t1enc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{sidecap}
+\usepackage{amssymb,amsmath}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{float} 
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage{url}
+\usepackage[hmarginratio=1:1,top=15mm,columnsep=15pt,left=15mm]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{hyperref} % For hyperlinks in the PDF
+\usepackage{caption}
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+\def\textsubscript#1{\ensuremath{_{\mbox{\textscale{.6}{#1}}}}}
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+\usepackage{titlesec} % Allows customization of titles
+\graphicspath{ {pics/} }
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\cdot$}
+\renewcommand{\labelitemiii}{$\diamond$}
+\renewcommand{\labelitemiv}{$\ast$}
+
+
+%\usepackage{fancyhdr} % Headers and footers
+%\pagestyle{fancy} % All pages have headers and footers
+%\fancyhead{} % Blank out the default header
+%\fancyfoot{} % Blank out the default footer
+%\fancyhead[C]{Metallicity Gradients in ies $\bullet$ December 2015} % Custom header text
+%\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{\vspace{-20mm}\fontsize{16pt}{10pt}\selectfont\textbf{Notes for the Masters project}} % Article title
+
+\author{
+%\large
+\textsc{Lynge R. B. Lauritsen} \\
+\normalsize University of Copenhagen \\ % Your institution
+\date{March 2017}
+\vspace{-9mm}
+}
+%----------------------------------------------------------------------------------------
+
+\usepackage{amsmath}
+\begin{document}
+\begin{multicols}{1}
+\maketitle % Insert title
+\end{multicols}{}
+
+%\thispagestyle{fancy} % All pages have headers and footers
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+%\begin{abstract}
+
+%\noindent ABSTRACT
+
+%\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\begin{multicols}{2} % Two-column layout throughout the main article text
+
+\section{Week 1 - Calibrating the images}
+A major flaw in the REM data is the imprecision of the image calibration origination at the telescope. This leads to imprecise measurements necessitating individual additional calibration. It was suggested by Daniel to attempt to utilise the Astrometry.net software for this purpose. The software runs through the terminal and the images for the index-4000 to index-4004 are utilized in this project. Individual calibration utilises the command \emph{solve-field NGC3783310K.fits -no-plots --overwrite}.\\
+\\
+The use of Astrometry.net proved to be insufficient to determined the location of the stellar object. This problem was shown during the use of SExtractor to determine the flux flow. SExtractor is useful for determining a range of different parameters of the photometry. To increase the precision of the calibration the program pin-point was used. \\
+\\
+It has been possible through this program to obtain good results for the position of the stars in the image. These results tends to be shifted slightly along the RA however the RMS of the error in RA and DEC is of the orders 0.15 - 0.50 arcsec. The NGC 3783 however appears to be significantly biased towards a lower DEC angle. This is likely due to the inclination angle (i) between LOS and the NGC 3783. This would promote the stellar object orbiting the NGC at the lower DEC and screen the higher DEC stellar objects. 
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+
+
+%\end{multicols}
+
+\end{document}
