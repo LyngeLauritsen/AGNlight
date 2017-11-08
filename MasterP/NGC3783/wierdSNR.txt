@@ -1,0 +1,3 @@
+/../home/lynge/MasterP/NGC3783/NGC3783J/0035-NGC3783J.fits
+/../home/lynge/MasterP/NGC3783/NGC3783J/0034-NGC3783J.fits
+/../home/lynge/MasterP/NGC3783/NGC3783J/0033-NGC3783J.fits
