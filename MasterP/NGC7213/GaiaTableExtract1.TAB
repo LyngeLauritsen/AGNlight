@@ -1,0 +1,20 @@
+QueryResult
+
+# Config entry for original catalog server:
+serv_type: catalog
+long_name: 2MASS Catalog at CDS
+short_name: 2MASS@CDS
+url: http://vizier.u-strasbg.fr/viz-bin/asu-acl?-source=II/246&-c.ra=%ra&-c.dec=%dec&-c.rm=%r1/%r2&-out.max=%n
+symbol: Jmag {circle red {} {} {} {$Jmag > 0.}} {{(25-$Jmag)/2.} {}}
+copyright: 2MASS: IPAC,UMASS,NASA,Caltech on-line at CDS
+ra_col: 1
+dec_col: 2
+x_col: -1
+y_col: -1
+stc_col: -1
+system: 
+# End config entry
+
+2MASS	RAJ2000	DEJ2000	Jmag	e_Jmag	Hmag	e_Hmag	Kmag	e_Kmag	Qflg	Rflg	Bflg	Cflg	Xflg	Aflg
+-----	-------	-------	----	------	----	------	----	------	----	----	----	----	----	----
+22081218-4736000	22:08:12.183	-47:36:00.02	13.275	0.022	12.834	0.030	12.636	0.034	AAA	222	111	000	0	0
