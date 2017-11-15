@@ -1,0 +1,13 @@
+There are two types of files in the set with NGC3783.
+
+For the H,J and K bands:
+
+Date	HD101274-FLUX		Tycho-2 7740-22-1-FLUX		Tycho-2 7740-529-1-FLUX		SNR-of-AGN
+
+For the g,r,i and z bands
+
+Date	Mean_Flux_HD101274	syd_Flux_HD101274	Mean_Flux_Tycho-2 7740-22-1	std_Flux_Tycho-2 7740-22-1	Mean_SNR_on_night	std_SNR_on_night (possible empty array for filler)
+
+The two bands are different and the date in griz are the int(date). 
+
+The Flux is the flux determined using the mentioned star as reference star

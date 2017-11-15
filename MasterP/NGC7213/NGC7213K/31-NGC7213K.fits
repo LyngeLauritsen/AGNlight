@@ -1,2129 +1,0 @@
-SIMPLE  =                    T / file does conform to FITS standard             BITPIX  =                   16 / number of bits per data pixel                  NAXIS   =                    2 / number of data axes                            NAXIS1  =                  512 / length of data axis 1                          NAXIS2  =                  512 / length of data axis 2                          EXTEND  =                    T / FITS dataset may contain extensions            COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H BZERO   =             0.000000 / offset data range to that of unsigned short    BSCALE  =             1.000000 / default scaling factor                         EXPOSURE=   9.18000000000E+003 / [sec] Duration of exposure                     OBJECT  = 'NGC7213 '           / Target object name                             IMAGETYP= 'OBJECT  '           / [string] Image type                            OBSCODE =                   10 / [integer] REMOS observing code                 OBSTYPE = 'AGN     '           / [string] observation type                      OBSID   =               184884 / [integer] Observations ID number               SUBID   =                    1 / [integer] Observations sub ID number           PROPID  =                34901 / [integer] Observations sub ID number           OBID    =               209349 / [integer] Observations sub ID number           EXPTIME =   9.18000000000E+003 / [sec] Duration of exposure                     FILTER  = 'K       '           / Filter name                                    DATE-OBS= '2016-12-24T00:52:06.279' / [ISO 8601] UTC date/time of exposure startUT      = '00:52:06'           / [old format] UTC time of exposure start        MJD-OBS =       57746.03617800 / Modified Julian Day of image acquisition       RON     =            100.00000 / [float] Read-out Noise (e-)                    GAIN    =                5.000 / [float] e-/ADU conversion factor               SATUR   =          65536.00000 / [float] Saturation level in ADU                LINEAR  =          15000.00000 / [float] Linearity limit in ADU                 DIT     =                10.00 / [seconds] DIT in seconds                       NDIT    =                    1 / [integer] Numbers of DITs                      NINT    =                    1 / [integer] Numbers of DIT*NDIT series           DITHID  =                   99 / [integer] Frame number of dither sequence      NDITHERS=                    5 / [integer] Numbers of dither positions          OBSERVAT= 'ESO-LaSilla'        / Observatory name                               GEOLON  =            -70.73450 / [degress] Longitude of site                    GEOLAT  =            -29.25840 / [degress] Latitude of site                     GEOELEV =               2377.0 / [degress] Elevation of site                    TELESCOP= 'REM     '           / Telescope name                                 INSTRUME= 'REMIR   '           / Detector instrument name                       PI-COI  = '                          Darach_Watson' / [string] PI Name          PIHOME  = '                        Univ_Copenhagen' / [string] PI Institution   PIMAIL  = '               darach@dark-cosmology.dk' / [string] PI email address TEMPDATE= 'Sat Dec 24 00:50:01 2016' / [string] Date of start temperature       TEMPCHIP=              -180.00 / [K] Chip temperature at start                  TEMPCFC =              -179.90 / [K] Head temperature at start                  PRESDATE= 'Thu Dec 10 11:30:02 2015' / [string] Date of start pressure          PRESINST= 6.66000000000000E-02 / [double] Pressure at start                     PROCSTAT=                    0 / [integer] Processing status                    HUMIDITY=   6.50000000000E+001 / [%] Ambient atmospheric humidity               TEMP    =                12.30 / [K] Temperature at dome                        PRESSURE=   7.68900000000E+002 / [millibars] Ambient atmospheric pressure       WINDSPD =                 3.10 / [m/s] Wind speed                               WINDDIR =                0.000 / [deg] Average wind direction                   DEWPOINT=                  5.2 / [K] Dew point                                  DOMETEMP=                  0.0 / [K] Internal dome temperature                  OUTTEMP =                  0.0 / [K] Outside dome temperature                   DMSEEING=                 1.02 / [arcsec] Dimm seeing                           SUNALT  =               -13.10 / [deg] Sun altitude                             RA      = '22 09 04.00'        / [hms J2000] Target right ascension             DEC     = '-47 09 51.2'        / [dms +N J2000] Target declination              COORDERR=             0.000000 / [deg] Pointing Error (degrees)                 EQUINOX =               2000.0 / Equatorial coordinates are J2000               RADECSYS= 'FK5     '           / Equatorial coordinate system                   GALLONG =           349.588500 / [deg] Target galactic longitude (degrees)      GALLAT  =           -52.580400 / [deg] Target galactic latitude (degrees)       AZ      =              231.103 / [deg] Azimuth (degrees)                        ALT     =               39.108 / [deg] Altitude (degrees)                       HA      =              4.17710 / [deg] Hour Angle (hours)                       LST     =              2.33170 / [deg] Local Sidereal Time (hours)              DEROTANG=                 0.00 / [deg] Detorator Angle (degrees)                CURRAZ  =              231.216 / [deg] Azimuth (degrees)                        CURRALT =               39.190 / [deg] Altitude (degrees)                       RTOFFSET=                -97.0 / [deg] Rotation offset to the camera (degrees)  AIRMASS =   1.58530000000E+000 / Airmass (multiple of zenithal airmass)         PIXSCALE=                1.221 / [double] Pixel size (arcsec)                   DWANGLE =                 72.0 / [deg] Dithering wedge position (degrees)       CRVAL1  =   3.32301754466E+002 / X-axis coordinate value                        CRVAL2  =  -4.71743211309E+001 / Y-axis coordinate value                        CRPIX1  =   2.35000000000E+002 / X-axis reference pixel                         CRPIX2  =   3.28000000000E+002 / Y-axis reference pixel                         CDELT1  =   3.42815915596E-004 / [deg/pixel] X-axis plate scale                 CDELT2  =  -3.41972905396E-004 / [deg/pixel] Y-Axis Plate scale                 CROTA1  =   8.40458624858E+001 / [deg] Roll angle wrt X-axis                    CROTA2  =   8.40458624858E+001 / [deg] Roll angle wrt Y-axis                    CTYPE1  = 'RA---TAN'           / X-axis coordinate type                         CTYPE2  = 'DEC--TAN'           / Y-axis coordinate type                         CUNIT1  = 'degrees '           / [string] Units coordinate 1                    CUNIT2  = 'degrees '           / [string] Units coordinate 2                    CD1_1   =   3.55611051503E-005 / Change in RA---TAN along X-Axis                CD1_2   =   3.40128045938E-004 / Change in RA---TAN along Y-Axis                CD2_1   =   3.40966508306E-004 / Change in DEC--TAN along X-Axis                CD2_2   =  -3.54736577098E-005 / Change in DEC--TAN along Y-Axis                BURSTIME=              0.00000 / [double] Time from Burst (seconds)             FILTNUM =                    7 / [integer] Filter Number                        COMMENT                                                                         COMMENT Final filename: ./3.fits                                                COMMENT Image created by PREPROCESS version 2.04 on Sat Dec 24 00:53:05 2016    COMMENT   on the basis of 5 images through AVERAGE composition on those values  COMMENT     laying no more than 5.0 stdev times above the median                COMMENT     of all the contributing original pixels                             COMMENT   with recentering of point sources with BEST accuracy                  COMMENT   with NO flux normalization                                            COMMENT   with BACKGROUND flux offset                                           COMMENT The final image size is the same of the REFERENCE image                 COMMENT The following operations were performed on each original image:         COMMENT   sky subtraction using:                                                COMMENT     ./3sky.fits        ( 538560 bytes 24/Dec/2016 00:52:58)             COMMENT Image manipulation has been performed using drizzling (pixfrac=1.0)     COMMENT The following images were used for composition:                         COMMENT     ./3_1.fits         ( 535680 bytes 24/Dec/2016 00:52:57)             COMMENT     ./3_2.fits         ( 535680 bytes 24/Dec/2016 00:52:57)             COMMENT     ./3_3.fits         ( 535680 bytes 24/Dec/2016 00:52:57)             COMMENT     ./3_4.fits         ( 535680 bytes 24/Dec/2016 00:52:57)             COMMENT     ./3_5.fits         ( 535680 bytes 24/Dec/2016 00:52:57)             COMMENT The following are measured offsets, rotations and photometric ratios:   COMMENT   3_1.fits (   5 stars found )                                          COMMENT   3_2.fits (   +7.4,  +18.2,   -0.01deg on   3 stars with fr: 1.000 )   COMMENT   3_3.fits (  +27.2,  +17.1,   +0.04deg on   3 stars with fr: 0.899 )   COMMENT   3_4.fits (  +31.8,   -2.1,   +0.09deg on   3 stars with fr: 1.138 )   COMMENT   3_5.fits (  +15.3,  -12.9,   +0.09deg on   3 stars with fr: 1.001 )   COMMENT The following operations were performed on the final image:             COMMENT   none                                                                  COMMENT Photometric stability through all the used images: 7.6%                 PHOTSTAB=                  7.6                                                  COMMENT                                                                         COMMENT Astrometric reduction has been performed using:                         COMMENT   2MASS Allsky Release catalog  band (PARSED format)                    COMMENT   located at: /home/remir/observing/r2MASS_K.best                       COMMENT The original coordinates (CRVAL1,CRVAL2,CROTAx) were:                   COMMENT   (      332.3181100000,      -47.1666100000,      -97.0000000000 )     COMMENT The maximum pointing error of the telescope is assumed to be 0.080 deg  COMMENT The measured offset is -62.262 arcsec RA and -26.723 arcsec Dec and     COMMENT    is based on 3 matching stars out of 58 with 0.000 pixel accuracy     COMMENT                                                                         T_ELAPSD=                82.97 / [seconds] Elapsed time for the dithered sequencTOTEXPTM=                50.00 / [seconds] Total exposure time for the dithered JDMID   =          57746.03623 / [JD] Julian date of middle time of sequence    HISTORY File was processed by PinPoint 6.1.3 at 2017-11-09T22:25:20             DATE    = '24/12/16'           / [old format] UTC date of exposure start        TIME-OBS= '00:52:06'           / [old format] UTC time of exposure start        TIMESYS = 'UTC     '           / Default time system                            OBJCTRA = '22 09 04.00'        / [hms J2000] Target right ascension             OBJCTDEC= '-47 09 51.2'        / [dms +N J2000] Target declination              FWHM    =   1.89807539806E+000 / [pixels] Mean Full-Width-Half-Max of image starZMAG    =   1.30402388657E+001 / Mag zero point for 1 sec exposure              EPOCH   =               2000.0 / (incorrect but needed by old programs)         PA      =   2.75954137514E+002 / [deg, 0-360 CCW] Position angle of plate       HISTORY WCS updated by PinPoint 6.1.3 at 2017-11-09T22:25:20                    HISTORY   Matched 12 stars from the USNO UCAC4 Catalog                          HISTORY   Average residual was 0.21 arc-seconds                                 PLTSOLVD=                    T / Plate has been solved by PinPoint              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              L  ! ` $ 1  : = @ O & > Y L h € t k | Д Т и ЕK”ЋђќАу†Ѓw¬ичъNzЂ‘¬­›йРАјдР ) бъшјР
-АЬЬЕµqq{q].b.чщтмБЦЁ•’Јn>GfU<=8Z?!	 ы н х О Э ѕ ± Ў y Ѓ ~ џ | w | v M 2 s V + 1 2  $ ящ 
- яуяжяыяояШякяйяжяМяВяЬяаяЩяіяНяХя±я¤я©яПя»я„яЋя›я‡я€я†я§яјя¦яія§я•яЈя яЉя«я®я­яєяяќяpя“яўя™яЂя‡яnяQяeя•яxя«яѓяљяЌя¦яя|яћяџяЈя—я}я¤яЏяЉяЈя€я“яЋяЈяѓяЋя§я¶я€яoя»я“яИя©яњя¦яЈя”яЃя¦яІя·я¬я‚я®яєяЈя¬я–яnя|яњяЗя–я­яЅяіяЁя±яѕя№я¶я‰яЃяґяЌя®я~я¤яЇя•яwя…яЎяДяуя°яЎяяЇя‘я}я яЅяµя—яВя¶яҐя›яўя‰яЄяўяёяаяЄя«яљя±я»я©я я’яћя”яЎяЃяЏяњяџя°яФяЃяЋя€я‘яДяжяќяЌяџяУяЌя’яҐя•я—яЈя®яЖяЏяЃя–яЁяЈя°яјяІя†я›яvя™я’я›я№я„я§яјя—яґя~я я‹яљяЋяєяЕяя¬яя‡яќяђяЏя“я—яuя†я—яїя“я·яmяЋяuя¦яЃя„яџя|яeяiяzя¶яя~я‡я™яvяlяgяѓя}яlя|я‡яwя”я|я“я¦я”яВяєя”я я«яљя„я•я—яnя~я§яЅя·яЁя§яЋя¤яҐяЙяµяРяЯяИяЅямяЭяЦямяьямяняуяпяы  !    '   # / A H 8 5 2 Y ; U I ; U > ] ^ i 8 N W X u \ [ Y i X t o ‡ | | v r € • Ј ¶ ¦ є Ѓ  c „ e Ѓ ћ ® Є      k x ‚ „ ° ґ ‘ ‡ А Г “ ‰ g Љ ‰ F l » Й № µ ѕ И Ц · Ч т Ц н,яч %  яу .  9 	   D e – T „ p  © • Ґ й ш=O~’№аям%aђььъх0''Zl{ќи®©Шкй)щ^м9щЮВЅн°ЂbЂЉb]XK'5чф&зЕє№ЎЉЉdQ>n\" ж е ь х Г п г Ж › ¬ Џ Ѓ „ l q | g K c M R K /  # ) )   якяЪяЕяНяБядяєяЫяОяМяеяБяЬяРяЇяТяБягяґяўя“яДяБяІяЉя‘яіяЇяѕяҐяѕя›я}яћяЋяѕя¬я|я“яўяMяЂяЮя‹я†яЂяkяaяDяxя¤я№яЏяЇяxяiя“я‘яrяoяiяwяія„яyя•я¤я¶яЉяЎяђя¤яЅяVя{я›яќя¬я{яЎя•яџяЉя€я®я·яњя’я¶я”яЙя я’я±яћя‰яўя°я™я„я«я¬я“я€яќяЎя‚яІяµяќя•я­яя—я•яЏя‘я§яџя°яЋяЈяЊя яёяѕя я†я¤я–яћя‘я’яЅя”яЏя¤яЊяАяИя©я¬я‰яяћя™я яџяЈя§яЇя©я™яЖя¶я›я‰я€я‹яѓяЁяЫяіяҐяўяЈяѓяія–яўя•яtя›я¦яњяЏя‰я«яџяyяpяtя’яџяfя…яѓяrяђяіяІя¶яЃя’я яђя›я§я}я•яќя®яђя­я‹я•яўя”яяzя’я‡яЊя…я—яКяџя я№яqя…яyяmя…яяkяЇяoяtяія•яћя•яЂяyяvя‚яwяљя†я¬яќяyяmяZя`я„я~яџяЂя…яmя^яЌяЁяњяЋя©я›яЃяџя…я°яЌя‹я™я­яЉяњяћяёяАя™я¬я·я¤яЇя«я«яКяеяОяаяЪяЯябявясях  яняьяъ яц   *    J 3  ( B E O K F F = G H K S c Z J A _ n n y R l h — } D ` ‡ j • ” Џ   Є Ё ~ љ Z h ` n • Ћ •  яэяъ K “ “ m ” Ќ x  … a } џ № E b O U H ‹ Ф Ћ u Ѓ Б ё ¬ ¦ Я М р с	 * - #        ` . — ђ ? { І Ђ И › Е н9o “ЯУ,UtАШщ.{њ•§ЅП·дЯъп %_L4  
-Хжє­‰v¬s’\'P+#&(-кМШе›—Ўv‰hOV44<' ш о С Ф Ф Ѕ ќ · ° z ­  ћ | k X e E m Y ?          яЭяКяхяРяМяЇя®яЪяГяЛяЗяГя|яїяМяІяБяµяњя†яЄяїяЉя™я¦яѕя›я”яЎяіяія—яwяЇя“яЏя…яqя­я|яqяdя}яЂя†яЂя—яXяhя`яЈя§яџя–я‰яtяЂя…я‘я†яҐя—яwя„я}яљя•я¤я…яЁяfя€яќяќя”я»яГя™яќя‚я¬яяЁяЎя®я‘яЇяЈяќя©яЏя©я»яЗя—я–я¤яЊя”я‚яџя•я°яҐяЄяџя«я—яВяЕяђяЇяђяЇя•яўя}я”яҐяњя“я•яЂя№я«я|яќяЌя•яГяђя°яЈяџя§яяБяЁя я’я№яµяґяЁяѕя‡яЂяџяЪяЏяФя¶яЃя•яЋяљя•яѕя‰яҐя’яяёяТя¦я”яўяuяНя­яЎя©я¦яҐя}яpя|яя¤я”я‚яЃя—я…я’яЂяЏяЋяґяўя‡яєя­я¤я·яІя~я‰яџяxя¦яЏя›яµяАя„я‹я‚я›я™яeяtя яuяjяlяЏяќяџяяpя^яnяљяҐяxяoяђя|я_яmяљя’яя”я†яџяzя‹я©я‡яјя”яrя–яђяЂя†яsяmяwяSяhяЄя‹яlяўяiя]я{я«я§яjя›яvяћя‰яЛяЈя|яЌя©яјяњя°я“яЁяјяЎяњяВяСяЗяЁяѕяХяБяЩяряцягяфящ яфяс 
-  ям         < @ W F    > K f n R J X W o x ` 8 E G … Ђ X | µ  › Ў ѓ љ „ ± q y T d ќ k | i Ђ  )яу 
-  V ] g y ~ s e u q ‹ ђ Ё v f I w | Ў › ў  № Т © Ѕ ї д а ш п Ц  0   Q ян  E + Џ И Ґ џ  · т О'b4†ҐЄєQ–УДн1	?dn‚®»ќИ		ц'-&B@чЬФЛ±ѕўs bYYE=ь%эОЩ©‡±„O~k]Q) щ к Г  ± ќ ‹ w s І d o r L D 5  A  5 яЫяЧяа  яюяияЦяАяЙяЙяЙяЄяїяєя°яєязяДя«яјяУя‰я¶яЈя©яіяњя”я~яzя«я”яҐяќя’яЎяњяЈяЊяДяdя}я±яЈяrя{я„я[яя•яўяxяzяzя„яЃяoя†яяpя†яџяbя—яѓяfя‚я†яЂяёяhяgяѓяњя…я‘я¦яќя’я­я№я…я·яїя€яЏяґя–яљя~я§яљяя}я~яЋяћяіяя‡яЄяіяЌяЈя…яЁя­яІяёяФяјя›яЏяџяjя‘яіяЇя¤я±я›я†я№яМя›яЇяЈяґя№я®яЅя­яҐяЉяЏяЎяЉяЏя я¦я„яяЋяђяёя¶яЊя”яРя·яџяЗяћя‹я©яЏяљя§я—я”я‘я©яєяxяЎяrяґя№яїяЅяЄяГя{я•яtяЃяЋяЕяУяjя“я·яµяїяѓя†я¤яЅяХяняЈя±я‘я|яЋяҐя–яђяњяБя±я‹яpяЂя№я¤яuяfя±я‹я¤я‘я¦яЂя‰я‰яyя…я‚я”я{яhяaяљяҐяzяяњя|я|яёяСяєяјя‘я{яxяqяњяўя_яyяdяxя я–я‘яsяћяђяsя~яgяpяќяkяpяiяQя`я‚яqяpяaяяnя‰я…я€яuяiя\я€яgяя”я—яЉя€яЏя яєя‚я¬яЁяћяЏяЗяЖяЄяЄяЦяЯяѕядяЦяЦяЮяМяЅяЩяняояюяп  ямяя якях яю   %   , >  1 G I 4 4 B h U u ‹ Z C ~ o U c a Ќ † D y џ Ќ ‡ ” Џ | m T J Њ Є … I ? %яЫян  ' < T v p P d Ћ u Љ p | g R ђ a = o ё ї У Ъ О ё К Щ Ѕ Ю ° Ц « Г ( . F  C j v G  Ћ } b Њ Н а ц%Z;Џёї! d[Црю?PhІ¶z¦¤јСчэ4%0B@A$4>"фЪЧдѕoypNzO	мжБЮµП‰•њy\Y;6) ш г Ь р Д § ° І ” s y ‰ ? 9 U a M # % + (яд яо 	ямяПяЯяеяКятяЛя°я¦яЁяЛяІя«я®яµяҐяИяґя[яyяя±яПяІяћяyяЁяЉяЃя‰я~я•яrя†яѕяГяЇяyяЎя—яЏя©яЂяЁяГя‚я‚я{яЉяЋя[яOяiяfяsя€яkя‚я[яµя«я я€я|яЌя¶яЉяeяnяЏяЊяyя’яЋя‚яЁяћяЁя•яЃяљяЇяІя»яќя‘я§яєя‹я°яМяЁяїя я^яuяћяќя•яЋя–я|яјяЇя…яђяўяЈяҐя«яЎяЋя®яІя№яяvяџяђяјяКя¶яћя яњяЊяДя›яМя‰яєя”яёяҐя°яЅяЈяЋя—я§яЂяЌяяСяФяЇяsяsя¬яwяЋяіяyяwя~я’яДяЎяЈя}я яЛяїя°я§яќяђяЋяmяџяѕявя®я•я­я±яЎяОя¦яyя‚яЏяЎяЏя€яЅяЅяЃяsяўя€я“я–я”я|я‹яѓяzя™яІяєя©яcя я„яsяЊяeя·я©яaяя‰я•я’яёя›яqяgя€яЁяЉя™я—яRяhя}яђя”я‘я®я–яіяЂяњя{я›яpя“яoяeяyя¬я¤яЏяlяІяќя™яЉяfя_я_яpяЂя{яbяgяwяkяmяnяmяґяяЊя”яwя^я{яpяwяЋя†я}я™я“яѓяrяmяЂяЈяvяЈя›я¬яЋя™я§я®яЇяЗяйяЇя­яљяіяКяФя»яНяляЬянянячяйяи  яч  !  ' "  $ ; - , # ; ; / M f X g Ђ † w J [ Y F R j ™ p ѓ y † Ќ … ¤ Ѓ w Љ h ] q M J Z d япяьяу 9 ^ Z  f Q d   © љ p c G K S S U F ­ § … Ґ Г … Н ґ У ё Е © М     як  # X H њ   є є к$ яEѓЃ¬пLR^УBRRtdk„–ЃіШШоюъчп6@*р#ХЈ·ПЎі‡`OTL*	ясхЅў±ҐuЃig\=	? ю Б ® ї ѕ І ® } s Y W f A E ; 4 ) T .яэяеяѕяэяфя№яРяУятяШяЛяТяЏяХяЫяДяµя}я—яЋя©я†яія©яћяЁяЁяћяЌяxя¤я„яЇя–яџяҐяqяnя‰я—я„я}яmяxя…яxя”я‹яЋяeяhяtяњяЊяЏяўяљяNяxя~яUяiяUяjя№я±я—яzя‹яђяўя™яЂяљяЃяЉяЂяЈяvя›я«яvяvя…яЇя±яѓяЌя—я‘яЃяҐя“я‘яћя‹яЃя¤яЈя”я¶я›яЎяЎяђя•я•яuяФяЁяјя‘я|яќя°я·яЉяўяЕяћя}я› я я~яљяОяљяҐя‚я–я•я©я§я¤яqяђя«яљяЎяћяаяџяђя“я‚я|я‡я»яЇя•я—я“яФя®яzяџяЋяҐяЏяЈя­я¦я¶я’яsяњяќяЌяuя•яљяћяБяЄя яЋяЂя­яўя©я“я¬я¬яљя‰яVя^яЏя№яђяЋяpяЏя“я€яnяaяgя€яmяџяЊяЁяўя‹яЌя~я¶яЖяўяЉяxя¶яЋя„яuяЁя‚яЌяя†яњяЎя€яЌяtяwяЈяoяfяzяZя“я™яЈяњя†яoяЏяcя‹я•яяwяuя•я°яtяњяbяqяќя°я|я яpяUяѓяuяЂя„яhяxяeя•яjяqя{яќяmя”я–яЏяЃя{яЉяuяЌяЄяѓяfя“я‘яVя{яzя—я‡яШя’я‘я„я‰яЊя™яЌяЄяія…яЎяЁяЅяАяВяІяЦяШяѕявят ябядяцяС          0   -  I 6 ^ P # 3 U U b J t n L … ~ > e Њ „ ¤ ў › ў k Ѓ — q m o _ p < Q 1ят яеяФ  d _ ‘ r Ќ ™ € ‡ s  l W 1 ] Z ; ‹ ¬ ќ † ‹ ™ В К Х Ъ Ё № ј л g R ° e k n d F Ћ ¶ Ў ъ( Т ИPM^zАЬСЧTd¶Ђ&hink¦ ЖБУдв!C)/;+5.@чниКкў±Бa“ZHэ+#FышЯФЖїї¬€mYU я.%M Ш к Ц № Г ў ї ’ ^ r k K [ ` N 2 P "   . яняЯяЩяъяляВяµяЭяЧяКя»яУяРяВяПя¶я›я–яЙяќяѓяЉя®я}я‰я”яqяЋяЈя{яљя€я…яrяkяgяqяЌя^я‹яsяPяnя‡яІя”яЏя•я‡яЃя«я_я‘я‡яqяsяzяљя‡яhя>я[я—яєя яЉя~я{я™яЉяeяuя‚яЂяuяcяЏя¶яКяўяµяЊя‡яќя‡яvяЉя”яЂя`яzяЁя“яѓяaя{яіяЅя™я¤яЃяЈяАяІяєяґяЈя“я°я“яЏяџяІяџяЎя™я¬яґяЙя†я¬яяЕяўя‘я“я‰я“я яЂя›яўяяљя яµя”яБяҐяЁяЖя«я©яКяёя±я±яія±яяѕяљяЄяЄяјя·я§яґя€яЏяЏяАя™я™я›я‘я{яЌяЁяtя|яѓя№я«я«я–я‘я™яЂяЌяlя¤яЇяЉяяѓя{яzя~яЂяЎяќяѕя™я«яЇя‚яЏяaяmяpяyя‘я¤яЇя¶я|я†яќя®яtяoяяЈя{я—яЏяўя яѓя“яЃя¦яЉяЏяЅяЄяћяЋяtяЊяyя•я€яіяяЏяЊя…я|я“я†яnя{яdяtя‹я‘я—я§яmя‰яЋяЏя}яЉяtяЃя‚я«яЂя~я“яcя„яЌяЊяЌяoяЌяяXяYя’яZяWяiяkяiяЊяwя^яeяtяdя|я‘яVя]я†я‹я|я|я‚яsя{яАя»яЌя™я–яґя®яЄяЇяњяБяДя·яЇяЫяляояиягяйятяж яЫ      4 > !  ' P F ? ' ' R c I D E > > \ ‚ e e m ‚ ґ ќ Ћ ё ‹ E  Ќ “ k F k < r   ,яюящ   j ѓ m z Љ d X r N ? F $   ( @ \ i \ Ѓ · ¦ М Б ’ Ґ ћ • · а Ё i 2  i = u Њ ў f с р%@cџ2SЈ›ЦС2и/КДсеJЁ ]y’їДЄУсеКBNT7?{T/!"ЦэХКСнµ”yzzkKV)и5бНжЩ—„c]pX`( й п П Т ћ » “ „ q j } f Q M ~ w 1 5  яуяЪяЬядявяФяЮяЅяЬя®яАя¬яїяКя±яЄя°яѕя яЏяЈяҐя„яЎя„яђяЁяЎяљя«яҐяXя–яЈяyяTяtяyяђяЊя`яЉяЊя™яЃяlя]яcяnя‡яoяњяЏяxяlя‡я™яYяsяcя›яя{яfяxя’яtя”я’я§я—я“яpяsяЌяuя}я§яѓя‡яћя’яёяіяiяeяќя—я§яОя яgяtяЃяЈяЌяaя¶яЈяўяѕя€яІя’я—яџяЏяґя§я“яoя‹я”я®яОяАяѕя°я©яЃяяѓяЄяЁя¦я‚яњяoя…яЄя¦яҐяњя¬я±яўяІяШя§яћяОя„я­я—яЕяЖяБяНяЬя€яѕяњя©я§яЄяОя№яєяµя—яљя†я—я~яяЃя›я‡яЂя§я¦я»я•яіяЇяwя„яѓя{яaяwяЊя~яoя†яЋяђя€яsяѓя•я‘яљяњяuяЏяўяЄя›яzяpяmяxяwяЌяЉя{я»я§я“я“яўяЂяaя}я{яѓяґяВяПяЛяҐя®я}яІяўяґяҐя«яБя“яTяwяяsя‹я‰яuяnяЂяtяiяМяія­я™я№я‘яЉя†я«я’я я]яЈяyяЃяљяЎяgяsя`я…я€я|я‹я‰я‹яЉяЇя…я–я’яhяsяuя‚яzяvя€яgя9яXяtя|я{я}яґя™яUяgяђя€я‚яuяќяpяgяЉяЉя›яЌя|яђя®я™я¦я»яЛя°я©яђяВяШяЉяЗядяХяЪяЪяпяЭяюяыяю   +   G 2 + ' 0 4 ; 6 C % b P P \ Z E = M U t } ¦ њ † ѕ € b c r y } Q  q Љящ   7яф $ x t d h u I Q [ U ™ V 
-   O | W _ ђ { Џ ‰ ђ § ј ‡ џ – j Ћ   J Y | Q m є ­ м џ ыђВ%ќ ±ч0(xЗнa)r»TЌЕКА№Ло*Q-1/>Jn^UO'ищБТ№Дй¤БЉd]e/ь	ф¤ВРБ§њkX‘OLi ю ь а о · Ц „ Н ђ u k ® ® R G M  9 K 4 	яы яуякяХя»яЧяРяаяЮяЪяАяДя”яњяҐя¤яdя|я{я}я„я¤яzяvя‡я|я~яћя{я‘я‰яЂяњяxяbяЂяmяя™я‹яЏяpяcя†яjяЉяІяxя}яsя€яrяkяMяkя}я°я’я‹яљя‡яhяwяя}я›яЃяbяЃя“я€яКяЉя†яђяЌя~я‡яяЊя«я•яЈяІяђяЁяіяzя•я}яmя€яgяя¦я§яґяІя”я’я„яЌяџя°я‘яpяeя•я‚яяіяЎя­я†яІяѓя¦я»яЏя§яІя·яќяёя•я†яѓя©яџяњяЄя†яќя±яія–я›я•яљя‘я{яЛя¬я я§я‡яVя“я«я©яќя—я¬я‘яћяіяЊяёя»яѕя›я‹я|я‡яЉяєяyяzя‡я¦яґя‰я§я®я¬я¬я‰яЂя я©я–яwя«яАяЎяЌяњяЏяХяёяќяІяўя”я±яњя­яЎяОя›яСяњя~я•я}яљя·я‘я‡яђяІяЂяЊяЂя±я…я я–яЋяvяєяiя{я…я†яЋя—яяЋя®я“я•яЋяaя‰яjяЈя~яoя’яяoяQя‚яЁяяkя…яЉя|я…я¬я›я‹я–я‰я—яЕяћяlяcяЂя§яЂя•яqяtя—яzяЋяeя™я©яЉяzяkяNяUяrяuя‹я;я:яDя[яђя‘я—яѓяaяWя’яЈя…яlя_яwя†яoяOяrяљяђяeяЂяќяјя я¬яѕяІя»я°яјяАяСяЗяХяѕяЯяФяЩяЫярянящяу &      # 	  3 # ( ( яъ ; W F > 5 ? 3 ' E m x — љ … Ѓ ` m ^ u ] n [ Ј … m  &яш яя < w ` C g l ‰ k a C џ Uяб - яъ & R ћ ў ‹ ’ ђ љ — – ѓ · З Ј ў 4 L g r c ‚ | ‡PFz°гJsј|А:јfЧЂd‡®^z•А§Ощ0UBS8&G?3SтЩЕЕќ«~gPyMDэмЫьяЬЙ№є§¦®xEX]5<d э ё з й   і ґ j ¤ Z G s t V * C    язяияЗяЪяпяуяЗяўяОяУяРяЕя¶я¦яёяіяЄяЊя©яЏя€я—яpя9яqя›я‡яcяђя©яtяeя—яЈя|яJяFяOя‹яљяЂяWяsя€яZяiяLяlяlяhяЌяpяTя†яkяwяcяpяbяpя–яЉяЉя‰яЏяЊя„яyяђяГяЏя—яяЈя…яЈя’яzяsя…яЃя‚яЁя¶я–яЃяОяіяЋя|яЌя‹я’я–я яеяјя‘яћя•яiяўя†яRя„я›я~я‰яњяGяҐяђя«яsя›яІя°я—яoяiя©я«яђя”я”я§яњяћя‚яяfяљя®яђяzяtя’яђя•яЎяНя«я§яЊя–яНя¤я¤я•яҐя¬яияЁяџя№яћя¦я–яќяњяЈя±яЈя¦я§яџяЋя¬я§я—я…яґяћя–яђя‘яpяџя¬яљяЌяЊя–я№я›я€я”я’яtяяџяЉя’я»яЅя©я©яЋяђяГяГяјяЌяЉяўя“я`яЌя…яЊяґя›я«яoяЊяKя†яxя…яrяeяYяqя•яЈяlяvяЋя†я`я]я}яћяoяљяpя}я‚яЂяVяЊяРяќяsя§яѕяўяzяЂяя„я§яћяsя›яЎя{яЋя™яrяЌя†я’яЋяzя‚яmяaяЂяgяlяUя]яЉя–яЊяlя„я`яoяЃяoяuя{яzяyяsяhяjяyя^яfяmяZяЌяSяhяµяњяiя[яNяѓя¤яЊя•я‘яЋяyяђя¤яЎяѓяђя—я©я»ябяЪявяЪяЮяШяЧяУяЮявяояТяЯяяяЙяй      '   9  яо 6 % C , G 3 M > N w y t e • ‡ Z l ` r a S v l /яч   яя D o i a V z Q ^ a < ~ R  Y H  1 P m k ‹ | ѓ   ¬  M ’ ~ – ‘ 6 — ® 8 І и ш ъ.JRђ›)L©ЕКLn¬Э№Х*TtЇЯиm»пъ=*_P9:ю4+<0йУШЈЄіћiЃ€SxMAэЦоб№АЛТ“N€quM ф й Г ї Г ґ № § h e T A s I ;  яЧямяпяГязя°яїядяОяїя~яЄяПя­я~я¦я©яЎя§я‹я›яЉя–яЊяXяXя~я‚яVяxя€яѓяpяµяЈя“я}я~яњяkяcяbяTяAяmяЊяNя„я{яXя=яrя~яxя‡яyяzяђяiя§я‡яhяя~я~яyяxяvяkя‹я§я†яfя|я”яМяЈяЄя яhяNяfя|яЈя©я‘яmя‘яxя…яЏяяЃя‡яіяЅя…яЋя™я»я»яЌяvя’яЇяђя»я›я—я°яhя‹яhя€яЎя¤яіяњяљя№я©яўяўяЎя™яќяЛяІяЈя«я°яЉяhяЉяќя†я—я¬яУя…яЈя«я‹яЏяiяњяlяЌяія–яЊя†яІя‘яЁяя–я€яЗяєя¦я§яЄя—яЁя~я†яqяќяЏяІяАя­я¦яђя“я яЌя—я”яя›я‘я№я•я¤я›я¤яАя{яhяxяЎяЊяљяя»яМяџя~я–яѓяtя€яjяџя•я”я~я›я~я‹яЇя‘яІяЇя©яxяuяrяiяTя‘я~яlя~я—я„яrяxя}яќяЈяѕя‚яtяlяЏя‹яtяjя¤яЌяoяzя|я‡яЋяxя•яЊя]яpяwяeяёяќя†я„яbя‰яЋяЉя‚яЌяjяxяPяtя~яmяsяrяyяvяЊяяѓяЉя‹яЁя†я—яhя}я^я{я“яѕя†я_я^яЋяvя0яMяtяЃя`яRяVяљяЋяYяeя]я‹яЋя}я•я‹яmя~яWя–яЇяЎяЌя§я¬я«яЕяія±яІяТя°я№яГяИяЇяАяЩяаяЩябяЩ  яц    ях *ят   9 # ;яц < P @ c Y e 7 l _ p f Й Њ u O k ~ j 9 b _ G      # / ‰ v n E P N 9 W q ] `   K % ] { ? W V f m ‡ ѓ ” Џ  \ ѓ « 2 ‡ n ” Т СNp!V=Х 3‡“є¬?@мГ`„ШќЯК©ЧБзжэ(OeH;;<+CЙєЏѓ’vrpyL440мЈД}—Љ•„„zUM4_ в М У Г џ ќ y ’ Є › B ? $ X > !яЫяк "яфян  язяЭягяїяїяДя„яЂяњяЇяІя®яuяBя€я“яmяoяљяяaяяlяsяmяaяsя‰я‡яZяbя…яgя€я~яgяsяiяtяdяђяsяuя‘я©яaяgяЎяЂяЉяnяѓяTяiяГя»яbяЉяЄяЌя~яcяpя_яЊяXя™яЏя’яСя®я–яГяјя‡яћя“яzяљя„яяUяuяЃя†яєя«я’яЏяЉяЊяҐя‘яЃяWяќяfяЏяџя¤я~яtяmяґяАя‹я•я¦я¦я°яґяџя°яєяяЋя—я—я’яяkяmя яћя‰я†я¦я„я«я«яя¦яСя„яЏяґя°я±яјяћя“яЉяqя°я›яяЇяЁяЌяяўяЕяѓя”яјя­яЎя¦я›яНя®яџяЗяКяљяњя‹яќяҐя¶я€яђяяя‹я‹яЂя…яЯя яўя’я…яЊя’я‡я…яЂя–я‹я•яeя‰я¤я€яљя«я«яҐя”яcяћяВяџя”яЃя|я«я—яqяІяєя¦яЉя‰яxя„яЉя„яfяяЗяЇяЙя®я…я’яЂя‚яrяyяHя“яяљя—я…я я¦яЇяЋяrяTя¬яЋяvяgяvяaя„яњяяgяvя¦яџя”яЉяoя]яяyяZяЂяyяoя‡яvя›яJяpяsяkя„яЌя—яkя±яЌяЋяmяcяXя{я}яrяWяYя€яlяЃяhяoя†яzяyя‚яbяtя…я}яRяkя…я„яяЃяЂяяђя•яўяАя~яЋя™я–яІяЁяОядяЪяРяГяРяЇя–яБяйяПяµяЮяжямящяхяуяю яц       + % 0 < M P J @ n a  n · > . K : < _ h ‡ b b 2    " H S R † [ s _ % W b K =   [   I Ђ • j r P t ~ y Ј ” l ‹   ‘ ђ V Г ›/ Ф·zҐ5#‰kќпED10i°р~Њњ,ьЫТ°Ь3"=K%06G8>ърсЦ®ЙЄ{k\Ј]"***мЩј«“”Ёћ„g),% т ж В Б “ і ¤ i   q x { d F C ; . 7 яэяуяпяШяЗяНяЯявяЫяПя®яђя‰яєяЁяњяђяЌяrя}я”я~яWяaяsяcяlя|яaяcя[яZя…я”яWяFяYяYя[яbяЕяўяuяDяKяiяfяUяњяјяя~яSяfяЋяЌя я±я‚яyяrяoя“яЌяsяrяjя„я}яPяhяўяwяzяxя›яzяЎяНя§я°яяњяoяЉя®я®я®яvя€яЁя—яґяњя­яЎяuя‚яќя[яЋя›яяјя™я‘яљяЋя яµяЏяѓяѓяџяљяёя¤я‚яЏя®яІя­яЎяЉя­яќяqя›яkяяќя¦я‰я®я“яЃяЊяќя—яЇяЈя¤я’я®я±яЉяя©яћяќя…яvя‚я„яЈяВяљяЇя°яЎя„яЌяКя‹я®яАяЁяВяњяЋяЄяЏяЌя›я’я¤я”яЏя•я{яqя‰я¦я±яБя‚яЃяµяѓяfя¤я•я‘я~я§яяtяҐя’яyяaяwя•яiяpяњяњяЉя¬я я¶яћяxяpяoя\я›я®яВя†яїя›яhяbяZяnяgяЄяќяpя›яvяpя’я«я—яlя’яя”яія€яnя~я{яћя‘яЎяxяЖяzя‰яnяВяwяnяЋяwяwя»яЊя“яmяaяPяOя|я†я„я›яsяOяSяOяqя_яCя’яћя№яљяQяђя¶яђяZя‚яQяeяtя}яЏя[яaя<я_я¤я©яqяZяя~яpя\яcяVяkя[яЊяЄя…яsяdя|яhя“я‘я™яoя”яЋя‰я•яџя»яЮязяПяКяјяМяµяІяЕяСяХяИяЬяЦя®яияш  "яЫ 	   	    /  &   . ' 8 G > l x m { € 6 Y ~ Q L z ђ ‹ @ a 	 0   K … j G z љ x J  + 0 O `   7 яч N _ f ‚ n | ® † Ј Ђ b ] Y Ђ ж ц   ЦMp©›Y{uЏeсoBµёф1`Ж›не_идП&GM_AZRdF%гтНКЙљ™Y6;C''чќ Ў€|iVwQM ь У С ќ « Й … ” ‹ ` U E @  !     ямяляЩяаяняГяАяАяКя§я’я—яЙя¤яЃя\я|я¶я«яiяЏяvя|яvяDяYяVяJяoяzя‰яnя_яEяnяvя]я=яHяaяaяtяZя2яcя6яHяjяђяЃяwяWяњяkяQяyяIяMяjяKяqяjя€яsяяЃя‹яmяKя,я|яЂяrяcяoяnяЄяјяzяЉяЋяxяЋяbяzяyяЉя]яdя“яџя’я€яЈя”яѓяЈя•яЈяaяњяkяuяgяpя^яЂя{я„яrя{яЌя я—яђя я‡яZяЏяћя°я©яЎяљяЈяЄяЋя®яњяћя®я‰яія­яЏяњя‡яњяЇяҐя яќя­я—я’яzяЈяПя¤я¬я‘я”я яњяџяЋя¬я‹яЁя”я›яќяЅя—яЈяќяЁяЁяњя{яЇя­я¶яќяЎяЎяЗя“я¤яЏяkя‹я¤я яЃя’яyяєяЎяћя“я«яяђяzяЏяњяўя­яµяqя–яzя яЇя”я†яlя‰я”я•я‰яЊя„яrяTя„яѓя|я‡я­я‰яќя|яµя‰яЉяЏяљя‚яZяIя^яўяЂя‘яѕяњяџя яXяNя—я€я¬яя’яњяЂяXяmяeяmяЈяђя‡я‰яiяgяwяyя_яKя[яxя…яЌяяђя{яsяTя[я~я‘яѓяЉяnя|я8яcяkяAяPяyяѓя…я„я¤яљя[яiяbяUяgяtя‘я›яdя}яKяЋяeя]я9яEяZя|я`яuяlяrяЂяsяvяvяuяiя€я‚яµяvяЈяЁя¶яЩя я§яєяЕяЗяИяЅяЇявяЫяИяжябяКяХ  яс   яь  "  ) % +  "  R S _ Z _ f s f T [ K W u ‡ h N € 0 ( 
- ( 
- 5 : N Ђ C O T A J 3 ! = N M r U G a n ^ ћ Ђ Ђ n e N R ^ f ^ Љ О кI's8®Ър‘±ЪіЛM’•ъ1<N ј·Р'K{хблA*)т!,&PO<вЗДњdqvH')мрв—”f‚hLR@D0 а щ Э Н ї Ћ ’ v O w P H K ) + 4 яГяОяъявяРяНяМяЮяЉя”я|я·яЫяЇяfяsяyяЈяЋя—яЂяrяЋяЃя›яѓяnя|я‘я‰я€яfяSяZя^яgяiяgяяRяђя”яqя«яRяSя†яnяkяЋя†я¦я€яkя„яwя—яЏяWяЃяlя^яnяЂяtяkяvя=яrяzя\я}я’я|яuяAяpя|я>яKяmя€яќяяmя™яcя яXяkяkя†яѓя]яuяtя}яњя§яяњяўяЈя™я§яќяҐяЅя¶яЄя­яВяІяsя±я‰я’яЏяyяўяЌяЄяџяўя“я№я‹я‰яљя}яћя‡яMяяwя„яЂяЈяЎяљяѓяєя›яҐяЅяЙяЬяЅя яўя§яя¦яЇя±яЌяя¬яЛя°яЃяія±я®яґя—я}яzяЈя•я“яЋяќя‹я¦яuяЎя‘яћя®я°яЄя›я§яџяmяЌя яѓяЋяµя я•я‡я{яя}я™яЄяkяxяЋя~я‘я“я§я|яtяsяfяbя‰я¦я—я|яbя€я›яzя‡я{я–я‚я«я я”яlя’яcя„яїяЊя№я‘яяoяЂя—яnя¦яЊяЉя}яЎя›я~я‚я|я}яћяЌяyяyя‚яЈя›яSяЊя}яТя”я”яWя„яcяZя‚яiя’я•яsя–яјяhя`я>яЈяћяPя‡яЁя„я_яћяzяTяrя‚я‘яuяZяfяvяЋя`яoяCяJя|яЂяњяѓя…я‚яpя~яgя‹я”яjяљяfя^яPяvяќяњя‚я|я“яmяqя~я­яџяzя†я–яЋяїяяЋяјя°яІяЛяµяКяЩядяНяЗяУязяа яоятяьяХяеяь яшяюях  . $ !  5 8 + : E H : ; P 5яш O h l r k Њ I   / R 0 T k p 3 =   > G 7 )  #  L L O E H < 8 , F Z W J [ M o J q Ц ПpЉЕиҐ \€Ј*6њ-‰и-#xПБэомjь 2X(+&вФЖнџ‘zђ‹K0AмаНЖ‹ЊЋЈv\4]> с э ж Н н Ф З ¤ » – ћ t n P G N 0 8 N  яю   	яцяйяїяјяОяХяІя·яєя­яЊяўя\яoя>я<я8яZяYяWяiяtяtяµяEяџяЋяkяlяTяpя‚яmяuяJяmяmяЋяlяvя‹яrяpя“я’яlяnяeяfя яИяgяoяgя^яwяiяoя“я‰я‚яmяMя`яEяJяrя^яqяzя†яzя€я{яЏяЋя}яjяЃяjя…яія‰я“я|я†я~яЂяЃя`я…яђяњя•яcяћя¤яxя‘я‰яІя€я„я—яіяќя¤яђя¦яЁяќяhя†яя‚яЈя©я‹яЁяtяЏяёяЁяЌя‚я»яЉя€яrяѕя™яЊя„яѕя¤я°яя‘я’яµя»я±я†яrяўя•я•я”яҐяВяЛяџяЕя°яіяЋяaяљяя€яјя•я…яѓя’яџяЎя—я—я‚яњяЎя»я†яvя‰яxяѓяљя­я‹яћяґя–яґя•яџяя–яxя}я}яѓя¤я‘я—яzя…яяЅяzяЊя§я®я…яЋяљя†яyяlяќя“яЌяЃя я–я¬яvяzяPяvяЈя|яtя[я€яnяѓяxя‘яfяЌя‘яbя[яgяkяЊя\яvя°я”я…яђя~яЏяЋяќяђяzя™яѕяҐяњя‚яoя’я’я©я я‹я†я”я†я“яeяmяXя’я’я}я™я—яsя‘я|яvяАяyя¦яҐя‰яbяaя¦яjя‰яЋя—я]яlяЋя‹яmяkя{яfяPяiя^яkя}яGяgяyяzяwяwяjяLяbяUяЌя’яwя}я\яpяmя|я‰яhяxя{я`я}я’яяя’яћяВяІяЕяєя№яЕяШяКя®яЛяЬяЙяфяуядяьянядяШяд $ * яц   яя   1 M c i c H Q W H " 0  V t f  6 :  !яя  8 l 9 8 2 ] \ M ? # '  @ % , q C m } b > F " I Q > _ U [ ¬5 Ьp[’№%їЫ	°ѓ€ЗєоhgЄОЛ
-гхe‚wxщ	FADJ<#LѕЮрЅЙµ…‚yќN> ун»ЫЈЊ„P\{pT, д к Щ н С з Ќ ° ђ i C { k 7 J  яОяю яЪяУядяѕяЄя№яНяЭяЕяўяЂяЇяЋяЁя|яЋяЊя­яЃяUяfяNяѓяYяTяњя|я<яrяiяLяjя™яЏяqяoяtя|яnяxяwяdяEяzяGя\я]яcяbяWяBяhяfяYя™я·яЎя|яRяyя_я…яЏя…яЊяuяcя`яtяzяЃя<яDяяcя[яuяAяя•яhя№яЖяяЌяўяїяЖяђя€яЋяrяuяnя†я_яeяњяuя]яxя~яcяdяЋяїяЖяВяћяљяЄя’яЁяџя‚я|яЋя¦яЄя€яјя‡я›я€я«яґя©яЩя¶яyя–яАяЦя‡я‹я¬я’я‘яџяјяЖяЄяАя±яtяљя‹я¤я·яџяyя–я я§я®яИя¦яќя©я±я‰яЌяѓя›я¦я€я›я~я…я«я яїя”я§яЎяЁяµяЃяЉя€яљя‚яzяtя¤яњя®яЎяЌяјя‰яtя’яџяЇяҐяЅяЩяћя°я яЄя¬я–яЊя°я¶яsяxяЋя‡яeяrяНяяwя‹яtяxяЂя®я·яZяяZяbяЊяѓяЎяqяҐя}яVя…яbяpяkяЃяwяЛяКяЄя§яБя‚яjяrя’яnяjя…яxя‘яія–яяzяVя яxяЏя{яѓя±яzяiя‡я~я~яsяѓя‹я яЊя…я†яЎяҐяЄяXя€я€яђя€я~яtяjяgяwя€я“яlяmя}яЎя…яљяљяgя‡я€яnяwяVяwяoяqяbя яmяuяPяeяYя_я…яrя^яKяdя‚я±яkяSяЌяcяtя^я{яlяhяuя…яyяўя™яЎя¤яўя­я¬яЙяЖяТяЙяЮяняПяЫя¶яр  ям     ' яХ + B '  	 L W h K  + - - A C /   1 ^ ] + 5 )  & * B 4  k K  3 B F X яо яэяа  d M H < [ +   2 6 c 3 = V j<”ОШП°IгҐ¤’\Ф’ЫэЦjM­њ	7o+‹Вс4,/ь"нКЯІѕ„pw.„pZZЭЛКЙ©~› R]pF[2 р в г Т К Н ђ © … ђ Ѓ 9 \ ] 3 - A (   яъяЬяТявяіяЇяЖяјя­я я«яЋяя™я{яsя‰я•я}яnя]яЃяqя9яbяђяЋя­яQя!яTяMяoяљяyяbяя•яЉя}я|яYяYяIя~я[яpяuя›яfя†я‚яwя`яZяxяіяЅяяMяGяяlя’яЃя|я‹яЂяaяќяrя€яўя„яuяія3яEяXя‚я¦я?я=я—яяЏя–яќяdяPяѓя“яЊя•яЊя¦я°я“яaяkя†яя­я”яЋяqя‘я}яtяЈя§яzя§я­яя€я‹яVяљяїя“я›яВя±яpяЂя”яЊя™я яФя№я»яёяРя°яќяЋя–я°я–я·яя}яћяЈя‡я яІяџяёяЈяДяЯяµя›я¤яyя—яЈя—я·яўяnяІя¶я›я«я—яБя§яЌя—я«яІяѕяЏяљя¦я„я‹яvя“яЋя·я—яЄя“я®яњяђяДяҐяЇяўя±яЁяђяҐя«я¶яxяWяљя”яЊя“яўяЃяўя«яЌя›яЉяЈяoяoяЎяoяЃя`яeяkяzяіяЌя[я‚я°яњя|я°яѓя_я|яђяiяXяђя€я’я”я¦яўяћяpя’яkяµя]яnяЄяЏя¤яѓяЃя€яxяёяія»яЃя‚яpяQяbя©я›яЊя{яkяqяUя™я‹я_я~я…яxя{я яjя€я яѓяlяeя’я‹яќя‚я‚я]яЉяhя¦я„яbяyяЏя‡я…яpяGяkяѓяЌяяёяҐя…яЋя™яzя€я’яЌя€я‹яЃя{яvя‹я‡яѓяЌяЃяЌяzяzя†я’я•я№я„яњя—я°яЊяrяЎяЏяАя№яЦяЙяКясязягяЭяаяюямяЬяОяд яю яб яфяДяв  " $  яяяО      !        - " * E ( 2 4 H A U  7 8 8 яо     B T .  *   1   ( ' A ,NXЏb,7нp{sю†sЦ_вСр0jЃ…а—кYфеЯJ_?\`A;$64еФЙ®ЅІ¬њЏЃiJYFC7 р Э у ы е И В °    І Є ‚ E l e ? G J )  яХ яКяДяЮячяуявятяДяВя°яЕяёя№яѕяЄя—яuяmя–я~яѓяuяњя¬я яsя_яZяѓя‚я‹я~яzя±яњяbяXяuя„я|яяjяњяђяrя†яќя…яfя¤я…яSя\яђяЎя|я”яЃя¦я”яЎяzя~яЂяљяяКяђяlяЁяЊяяЂяЂя…я›яЉя‡яЊяЏяІя№я’яњя‹я©я·яpя“я§яГя“яіяУяћяЎя—яљя¶яѕя­я«яЈяЄяЉяҐя¬яЗяћя»яќя‹я±яВя®яёяЇя—я™я®я¶я™яИя№яВяЦя«яЙягяЖяЙяМя¤яџя±яџя§яёя¶я‘я¤яВя¶я«я™я­яія©яёя­яДяЙяІя­я¦яёяґяУяУяУядя¦яёяИяФяУяЫяАяЙяѕяТяіяСяјяЅязя·яєяјя»я·яЅяМяГя¶я№яЁяЖя§яєя«я¶яля°я©яКяЙяґя¬яµяЇя¶яЅяіяќя¦яЈя«яњя¶яШяѕя¬я†яђяЎяМяцяѕяЕяјяЅяјяіяўя¤я”яЌяЎя±яёяія‹яЌя±яМя§яГяўя¬я±яІя“я•яЉя–яЈяњя­яЛяёяЎяВяЩяҐя®ябяВяЄяОяЗяЅяІяґяЭяЈя№я¤я›яя›я©яіяєя~яяўя§яљя¤яяїя„яњяўяќя—яЎяяІя­я”яљя¦яЎяЎя¤яѕя·яБяЅяЁя§яяВя±я‹яяљяЃя¶яКяўяњя›яЊя†яЊяўя‹я…я°я™яzя•яЊяђя§яpя“яя’я„я”я–яћяўя­яёяЊяxя|я~яўяЄяљяљя–яЧяХяГяКяВяСяОяФяПяйяляГяМяЩяКяаядяСяйяы   яЯ       яу  (  3 ; - 2 ,   ! ( % &яь  0 P + A ; = яэ !яы "       . A -  "  < ] 0 + O ginlљ ћ®џ†ўљЛСпХ0	A>`ѓ_Ќ“дюЬ0R@7МЫЙі№Жј­Л»‘›|~kzu\WI$I5 Я У Ъ ц н у Ю · « µ Ї љ q ` ] h V i H - " U ) $ (      яЦяряаяОяХяОяОяЗяжяМяЪяїя­яµя¶я¶яҐяќяpяя§я®яuяxяnяЃя‚я…я–я›яpяЋя„яљяЈя©я№яЁяђяњя‘яЈяЎяљяЏя€я‹яrяљя•я‚я•яЈяЁяІяўя™яЁя­яІяДяИяЅя–яўяҐяДяўяєяія±я“я«яїяЇя‚я¦яГяґя№яГя­я«яЅяІя°яЛяФяСяЏяѕяЕяЛяєяјяЕяµя™яЈяјяЅяєяЅяЗяЦяЛяИяЙяЮяояЬяЗяаяФяжяЪяїяОяСяДяШяняДя яСяЪяЬяДя·яМя±я®яБяПяЫяТяЮягяБяЛяйякяЧяТяЧягяШяУяКяУяЫяЪяняЯяЦяЦя№яЭяХяСяПяФязяВяЩяЛяфявяЪяНяЙяйяПяРяйяТяҐя»яТяЮяУяЙяИяѕяЯяСяХяТяЦяЛяМявяМяеяляЭяНяЧябяЇяјяјяЅяёяТяВяЛяПяјяЅяёяЕяЧяТяРяМяняИяУяЫяПяЖяЧя№яВяСя»яБяґяДя©я°яєяЖяЗяјя­яТяГяёяЁяХяТяПяЛяЙя¶яЕяІяїяІяЖяияХяНяјя­я±яПяРяЕяЫяёяЖяВяїяјяія­я­яБяЙяІя±яБя»я»яХяАя¬яВяЬяЕяїяўя±яјя¦яЎя©яЇяяЖяµяЎяџяЊяґя»я»яЄя¶я©я·я±я§яЋя­яЈяЧя±я‚яЁяЎя я•я—я™я”яЋяsяmяЉя®яќяяЉя“яlяzяeяѓяЃяsяsяxя{яwяoя{яяЉя†я”яЌяnяsя„я‹я“я§я§яњя¦я§яљяЊяяЂяњя­яґяҐя¤яЈяЄя·яµяЇяЕяџяГяЧяёягяШяТяСяСяТяµяд   % явяДяТя«яТяЕяМягяЛяШягяы  яЩяЫяляЭяЗягяУяОягяЭя™я»яСяПяЕяЩяЮярябяияйяэяЩя“яјякІМ&a‘—sw’ѕпФ.DH‡Ћџ›°Ъпв%<H+ТЫвРЅ±џ©™Ј‰†І…1hfKD- щ я	 Ж Т и ї Ю Й · Б А ¶ Ў Ґ  s „ y ѓ J Y j K  4 A !    ят 
-язяйязяЬягябяјяЧяСя¤я‰яЄяёяЕя®я¬я®яЊя’яuя…я±яљяtя}я›яЋяЏя…яќя‡яyя‰яўяњя°яЁя®яћяўяЎя’я я“яЊяќяљяЁя¤я©я›яЈяЎя­яАя”яџяїя§яЊяЇяВяАяµя—яњяµяѕяНя±я¤я±я±я№я»яБяГя¶яЄяИяЇяЅя™я№яµя®я»яЌяяЁя№я·я©яПяЇяЙя¤яЦя®яФяґя¬я°яОяМяќя·яЖяАяДякяУяФяАявяЩяНяЖяЕяјяШяЩяИявяТяЦяПяжя№яНяРяЯяЮяВя¬я¬яАяЇяХяЦяДяляРяіяКяОяЗяЖяѕяПя»яОяЫяХя№яєяЗяХяпяеяЯяФя·яляжяшяйяАяЧяПяТяРяФяыямяияЩяШяМяКя®яеяЖяјяЦяСясяНядязяШяаяЬяИяХяСяФяЭяКяЖяќяНякя№якяЧяАяЙяїя®яЄяБяРя·я»яїяРяОяаяЯяЖяЛя·яѕяГяБяЧябяµяАяѕя№яјя»я·яДяЯяОя®яѕяПяБя·я¶яКяОя»яћяґяёяµяґяЪяНя·яКяЄяЕя¬яВяЩя·я¤яµяМяіяВяМяУяЩяёяґяБяВя±я№яЗяаяЗяјя»яЗяХяДя¶яСя°яГяНяїя¬я«яЕя­яЙя¬яџяЇя¬яЈяўяҐяОяПяѕя»яія«я¤я·яЕя“яЈяђяя¤я·я¦яѕя±яќя¶яёяЄяїя’яsяђяЊяЏя‰яѓя’яЌя~я‚я~яlяzяxяkя‰я‡я{яuя\яxяѓяя‘яўяЊя‡яЋяЌяtяhяѓя®я¦яљя¦я­яќя¤я»я¶я¬яДяКяІяїяЛяёяаяФяЙяОяЅяХяЧяв яэ  яхяФяКяјя™я§яёяРяХядяМяояаямяЬяШябяЛяГяїяјяБяТя±я­яиясяаяЧяЕяЪяФякяояфяФяѕяГяыћАБf}.Аф†…ИКЮ$жJr~[{ЙЕТнK\YЌпЫСєНљ°ў—xЂtЋN2cWEV& ь п Ь и м Г А » ѕ » Й ќ Ё џ ‚ t Ґ } L S / K 8 )  2 @  яьяхясяЮязяНяЛяВяЦяВя±яЛяФяҐя яЇя§яўя–я‘яЎя‚яЎя‘яЃя™я±яЉя–яЋяvяя‘я‹я–яЊя›яњя‰яўя±яІя¦я¦яяЉя­яІяўяЄяўяЉя”яЌя©яќя‰яЈя яњяЂяђяќя«яџя·яЁяЖяіяАяИя¦я®я™я”яµяЩяћя¤яляВя·яЁя‚я№яЇяРяЛяѕяБяґяµя·я·яєяУя¬яѕяўяНяИя¶яЁяПяЅяјяўяЙяХяЗяКяѕяАяЅяЕяЖяГяУябяїяЦяЮяЙяЩяЕяАяНяЦяЧяЪяЛяКяґяАяВяЦяФямяЙяЛяГяКяЙяпяЪявяМяМяЛяїяЙя»яФяЗяѕя№яЗяЅяёяХяПяйявяЯяНяТядяЪяфяеяЦя·яЙяЯяЖяЕяСясясяЖяИяаяжя»яґяТявяХяНямяЛяИяПяЛяФяЛя·яЗяЛяјяЛяКяЫяР яЫяШяЭяЛяХяХяДядяРяёяАяБяОяОяИя°яИя§яБя»яЖяѕяУяІяаяµяЕя®яЗяіяЧя№яЕяМяНяїя§я№яЕяЕя§яМяЯяНяВя©яАя»яЄяЙяѕяЦяАя­яАя¦яЕя±я±яЕягяШяШяРяІяТяОяРяЛяїяѕяјяµя№яДяЙяШяАяПяРяыяГяЇяїяйя¬яЅя¶я±я©яЈя›яљя¦я¤я–яђя°я¬я¶я«яњя°я»яАяћяёя¦я­яЎяЁя·яЅя я¤я„яџяЄяЙя»я†яЊя‹яЁяЁя–я­яЋя‘яvяЂя}яwя‚яяbяvяѓяЌяxя”яqяjяKяoяoя€яuяЉяrя‚яЂя„я{я—яuя±яія¦яњяЈяќя—я›яњя•я©я—я¶я§яћя®я­яАяЗя№яїяrяµяКяРяьяс  ягяѕяКяЛяИя·яФяЬябяоябяЖяГяЮяОябяоясяЕяХяЕядяляЫяЗяМяляЧяИяЅятяЛяЯяЩябяОяжядяф2	iЅѓРVД­ЏЫ7Lо @UZh®»бйя
-эLzVPйпЬ·Х¬АћЌ zna^RS`7# ъ ж м Ы Н И є М ± ™ ° ¬ § І ’ s X h E D . >  % яы  яйявяпявяЭяжяФяФяЮяНяВяЙяЖяОяБяЖяќяіяЁяЏя‘я’я•яЁяoя‡я§я„яvя‰я|я…я–яџяhяѓя„яўяњя¬я‘яѓяіяЂя}яЋяЊя«яЎя‘яя†яҐя я¤я‘я·яҐяћяѕя°я яЏяЇяµяїяЈяўя№яЕяўя®яЁяЛяіяќя—я¦яєяјяµяЕяАя·я±я·яЩяЅяЧяЖя яєяєяЩяЛя»яБяаяёя¤яЗяБяНяїяІяЗяНяќя«яЭядяняПя¬яЭяБявяРяляЧяКяКяДяЇяўяЛяТяШяШяЯяЫяНяЛяШячямяЬяЫяЦяЖяЫявяЬяЭяцяф яэяЩяЭяЧяОяКя№яСяйяляжяЛя№яЙяВяЩяпяЦяияияВяйяТяЦяняаяЮяЪяУяЦябяХяФяЧяЮяЭяъягягяТяОяЅяНяЖяКяЧяМяаяЕяБяфяляВяЅяЩяНяАязяЭяРяКяКяАяѕяЮя»яЛядяЫяцяНя©яМяВяЗяИяЙяЅяЩяЗяЙягяШяБяїяВяЇяѕяЗяІя®яіяЕяЁяўяёяГяµяія©яЛяЦяМяёяГяШя·я№яПякяЮяҐя­яОя­яЁя¶я»яОяєяВяЙя±я«яµяНя§яїя№яДяДяЁя§яќяОяўя«я·я­яДяКя­яЪяЩяРяЭя§я¶я­яАяБяЎяЎяЇя­я¤яѕяРяПяјя·яЁяЎяВяяќяїяВяёяґяєяїяіяћя©яљяЈяћя’яЊяћяњяІя—я›яєя‰я’яtя‰я„я}яzяЏяpяmяqя…яџяvяqяmя`яIяwяя}яlя‡я|яѓяЃяuяёяџяЈя“я®яќяіяЄя•я я‘яќя±я©яµя›яёяяћяЇяЖяјяЧя¬яИяГяъ   ! яСяЦяжяљя¦яїя»яЇя¬яХяВявяВяРяєяЅяЕяШяЧя·яѕяЦяияТяВя·яїяёя·яПяЦяУяёяиякяФяЖяБяМS[’ЇИ$ЕЂУяк.Ь]]]…Ўќ®НэщQUN&мЇ°њ№џЉo~lwg>LaP=$5 в Т с Щ ® Б » В µ ¦ Џ Ў — x Њ { d X X L H C #  якяк    яЩяЅяїяїяКяЩяУяМя»я¶я®я±яЅя“я‰яvяќяЌя‹яЌяя†яњяџя€яЏя“я¤яђя~я{я‚яµяnя’я’яЄя’я­яЄя™я–я›яЄяўяјя©я­я’яµяЄя яЌяяіяµяЁя—яџя±я–яџя«яўяЌяћяЂя¶я я¶яјя®яҐя§я±яКя№я§яћя­яЁяЈя“яГяІя яЇя·яµя№я¬я¤яБяЩяЦяµяЛяРяєя­яОяНя«яЅя¦яЕяУяЗяФяјяЯяѕя№яТягяЩяЫяПяВяГяЩя»яЦяНяГяґяЖяТяїяБяїяЙяРяпяЯяЕяЪяПяОягя·яЖяМяфяаяоясяияЭяЖяРяЦяИяіяРяМяняУяЕякявясяЪяЕяйягяняляжяеябяСяЇяХяуяеяЦяЧявяМятявяЬяОяґяХяСяОяРя®яБяїяШяПязяЗяОяЪяЕяля»я¶яЗяМяЦяЛяєяФяЁя»яжяЧядяКяФягяСяѕяРяГяГяИяЭя¶яџяГяЕяµя·яЖя¶яеяУяЖя»я±я¤я яДяµяЙя°яЯяАя№явяХяУяїяїяЅяПяСяЅяіяНяАяЗябя°яАяЗяУяґяґяѕя­яЅяЁяҐя яєяІяЮяНяВяІя­я›я®яµяјяРяЪяЅя¤я¤я¦яѕяґяЈя¬яґяНя¶я·яДя”я¤я·яія№яµя¶яЇяія¶я№яЈя©яЎя«я№я яЇяВяЙя«яІя¤яїяЖя™я­яЊя¤я…яЄяЎя™я”я…яћя’яђя‚яsя‰яЊяЏяЂя}я±я¦я яЃяwяQяjяYя[я{я‡я‰яuяfя‡яnяsя’яҐя‰яЌяћя•я‹яЈяГя°яљя”яіяµя­я°я±я—я·яКяєя¶яЙя¤яЙяНяч   яФяўяОяПя№яєяМя©яЗя¬яЪяХя¶яхяЬяПяМяїяАяУя¶яВя«я¶яШяЙяБяЛяЖямяИяўяСяЪяПя·яКяНя®яи—fђЈЙLЩѓЖЮ/52'bz№ЁЎєЗ	яе(BF73Т°Ј©ЌљЋvikwUYRC4 Э о н ж Ы Я в Ы Р ¤ ’   ѓ ѓ t | r M O 2 C F M _ 4 яояиящячябяХяТяХяЗяєяЄяЙяГяЖя¤яњя¤я®яЁя¬я¤я¤я«яЅя©я~я€яќяЈя¬я‘яЌя{я|яљяљяЈяЋяђя|яЋяЉяЌя”яuя†яЊя«я„я¶яњяЌя¬яЈяЁяљя©яќяђя¤я›яЌяҐяҐя¬яёяЗя«я№я§я¬яћяҐя«я¬яЄяЖяАяДя№яёя®я°я¤яІяўя©я–я±яїяСяЈя¬я®я№я¤яАяЗяєяСя№яДяРяКяР 	яТяЗяРяїя№ябяВягяГяЩя©я’я¬я®яІя»яИябящяляУяШяЪяляНяЩяПяЦяШяХяЫяРяеяеяТяЫяШясяЦяГяМяРяЩянясяояфяцяняФямяЮяёяСяМяЪяляХяЙязязяЭяаяЪяфяряЦяыялядяКягяЯяФяЬяРяДязяЫяМяСяэяляжяМяЬяШяѕяАяФявяДяёяЛяЗяОя­я№яєя№язяМяФяКяЛяЯяЛяХяЛяКяФяЭяТяёяЙяЬякяЭяјяКяХяОяХя»я©яГяМяЇяРяНяЗяОяАяАяѕяЭяМяїяїяЅяИя±я­я§яІяєяКяГя±яДядяЕяЇяНяЙяЅяАяПяИяЫяПяЁяНяАяЅяБяµяСяЛяИяШя№я·яія¶я¦яИяµяўя·яАяЦяІя«я®яРяВяЛяДяЦяВяґя©яНяЎя№яґяґя№яЩяЬяФяЫяОяАяМяЁяљяќяКяјяЋяћяёяґяЁяДяєяАяіяёя°яіяЇяєя¬я©яґя‰я’яяяўя­яҐяяяtяrя†яќя‡я^яЋя§я“яpяЂя[яjя†яѓяя‰яЂяђя~яяoяbяЊя—яiяnя•яѓя~я‘я›яЁя¦я”я–яіяЎя¶я­я яїяДяБяЅяПя®яҐяБяЭящятяшяОя¤яЅяКяГяѕяЩяНяЭяТяЫяЅяСяпя№яАяЙяєяПяЖявяѕяѕяЅя¤яЁя¬яЧяЛяЙяБяГяЛяАяєяµяіяКяЮяЮЊ†ѓы 1ф82Ck–±«џЕисУЭ#:WKµ®•Ї€Ђ{ul|TJ2B ы к л Г И з · Ь Н   ћ ў Џ m ~  x u M C :    >яьящяцяыясягявякяЬяТяняОяЛяАяДяїя°я©яјя§яјя©яҐяЇяКяЈяія‹яђя‰яџя‹яsя„яЉяЉя{яvя™я”яѓяЏяџяЄя™яџяyя‡яљяџя†я–яІяЖяія™яґяЏя~яЈя»яЈя–яњя”я‘я¬я·я»яіяГяЕяУяЄяЈя©яјяАя§я»яСяїяёяЧяєя·яБяЙя№яВя®я¶яЙя®яµя©яЁя¶я¬яџяСягяЦяАяКяКяйяШямяняаяТя±яЙя±япяТяКяЗяўяџяШяєяХятяЖяЛяµяВяХяжяµяИяШяХя±яЫяИяВяїяЯямявя№яЬяЭяХяз яЮяФяЙяРяйяпякяояЯягяРяїяПяМяаяЦяъяляцязяуяУяЩякярязяЧяПябяшяйяФяШяаяВяПявяЭяЩяхязяХяЙяСяШяЧяЭяЧяПяФяТяЭяОяЫядяияшяеяуяияїя»ядяЕяаяФяФяСяЫя·яГяуяШяЪяЮях  яУяФяЕяМяТяЅяПяЮяЮяЗябя¬я«яГяОяГяЕяВяОяРяГяЕя±яОя№яОяХяНяµяШябя­яєяМя»я·яЕяѕяЅяЫяєя±яІя°яЫякяОяЁя®яНяєяЙя»я»яЩяжя°яІяКяаяИя«яєяояОяЩяВяДяУяряДяХяЕя¦яµяјяЈяёя»яЗяїяія•яґяДяГя°яЇяБяЙя«я›я«яБяАяЁяЗяДяјя¶яЈяіяµяЇяґя®я©яЫя»яџя’я¤я‘я€яљя—я©яџяЈя~я~я}яЊяя—я‡яЏяЌяiя†яvяtя^яzяxяlяѓя‰я†яyя`яhя€я‹яЃяzяtяuя™яя•я•яxяЎя яҐяћя›яЌя™яІяјяЛяАяЕя«яњяҐяа    	яЧяЗяЗяПяЙяія°яёя»яјяіяСяЧяєя№я°я«я®я»яАя”я©я°я»яјя°яГяіяҐяЛяЩяАяѕяЛяЫяНяДя№яќy„]сa~ЅЯX1itg€­‰єзюжи7_73Йё‡њwn|]@[I%. к б в ї µ Ф Ѕ З ё † Ќ § ќ Љ X Z U X \ U > !    ячязяыязяюямяЫязяЬя±яЦяХяҐя«яГя·я°яҐя№яя}яЇяҐяњяђяЏяя›я”я€я~яbя{я’яђя–яЉяЊяќяvяЋя‚яћя«я‹я—я~яћяЈя¤яЁя¤я¶яИяРяҐя”я†я¬я·я‘я§яѕяњя­я“я…я®яЪяКяЈяЎяµя©я‰яѕя•я”яљяёяДяЎя›яЦя±я¶я»яЇяЯяОяШяЬя¬я¶я·яЖяµяКяЙяЕяЫя­я®я я·яСяРяЦяОяєяЅяСяіяГяєяКяЙя»яЖяГяТя№я­яФяЕяЕяЕяЗяЕяМяЛяояияляФяБяЗяшямяЖяЮяТямяУяЕябяхяєяляЫяХяРяїяЗяёяНяУяУяАяЬяШяиязязяЭябядяпякяЧяу ямяРяеяКяЄяНянянявяОяо 
-яуяцяаявязяЯяКяФяёяФявяЩямяцяШяШяЯяИяЯяЩясяЖяРяияЩяеяТяШяЬяШяХяМяЕяјяГяґяКяЦяХяЕяЪяЗяЪяияУя©яЖяјяВяёяґяЭяЖяЗяјяПяИяГяРяЕяУя·яСябяЭятяЛяЫяОяГяІя№яВяµяїяЧяжяПяµяМяСя®яОяЅяґяНя¦яКяЄяіяѕяЖя·яНяАяВяУяєя·яАя±яБяДяЛяКяНятяЭяјяўя¦яЁя«яІяБяАяїяСяТяАяДя¬яѕяГя»яЇяёяЖяВя©я·яСяЄя°яѕяГяЩяїя©я§яВяѕяАяЄяµяєя°яµя¦я¦я¤я§яњяЈяҐяЈя¤яџяЎя’яѓя…я–я™яЊя‡я{яqяЋяѓя~я™яЉя’яpяoяeяWяrяnяiяmя\яIяcяrяя‘я„я|я‘я’я—я—я„яЊяЋяЊя«яzя†яµяєяїяОяГяЖяЭяЅяґяЩ ящ яэяЩяїяЗя¶яІяЗяТяЪяФяОяМяЪяВяМяЙяаяРяЯяЙяБя‹я®яЁяљяµя«яМяАяЅяФяВя®яХяГяЅяЙяЗяБя€lАИ%hџцш"њVF™mё«±(([G+№¦“†bjfXG]5*, у б ї Ч ¶ « ° ± Г © „ ќ € ’ ` I : \ K F 5 ?    	япяияряпяТяХяОязяТяХяУяБяЄя»я®я’яµя‹яҐяўяЋя№яҐя‚я€яfя—я‘я№яґя—я{я‡я¦я—яћя—яЗяџяЌяўяuяvя“я¦яњяя­я•яuяЄяёяІяҐяєя я»яЋя¦яЈяџя›я®яКя¦я•яЈя¦яЄяіяµяЎя«я™я®я¤яќя«я¬я°яћя«яњяЁяЗяѕя¦я»я¬яХяКяїя©я¦яДяДяЭяјя¬я·яАя«яія§яЕя»яХяИяРя­яЈяХяЙяЭяВяПяАяГяґяХябяХяПяхяЗяаяОяЩяРяїяЯябяояФя®яЕяХяЫяЪяйяЪяїяЬяЭяЭяс   яняляияВяШяЮяж яая¶яЛяПяЮяйяаякяЛябяТяаяЩяЧяЪяХяйянябяЛяляаяТяРяцямяйякяЯяЫяБяЦяКяЗяеяШяЩяФяУяеягямяОябяюяйяЙявябяф яйяТяТяСяНяЯяЦяµяЅяЖяЛяеявяхяряШяняйяЩяГя¬яїяФяТяЖяХяКяФяХяАяНяія¦я­я¶яКяВяЖяЬягяЙяЕяСяляСяДяІяЅя­я·я¬яНяЛяДяЕя·яФяѕяµяШяЩявяЗяёяЇямяИя·яПяёяНя»я·яВяУяКяЮяУяВяФя№яВяПяКяГя·яµяЛя©я«яёяАя­я­яГяЧя‰я©яЈяЅяЙяОяЅяЖяЇя°яђя©яєяЅяїяґяКяѕя±я¶яВяўяёяЎяЕяШяВяЇяЅяЄя±я§я™я‹я”яёя­я¦яЛяія—я…яЏяЇя”я‚яѓя{я€яџя€яyя‹я©яtяkяsя|яlяqя†яwя[яiяrяvяmя‡яyяTяhяxя…я}я‚яћяЂяЌяќя™яђяўяјя­яБяПяія¬я°я¤я·яФ яцяыяпя№яЇяГя¶яЎяЁя®ярявяМяНяҐяџя™яБя±яҐяЅяґяїя¦яґя«я™яЋя я±я©яёядяМя¬яАяіяЪяРяЯяґяћЊ$7*©ъЦYс1AgЋ^Vѕ†ЊЮФп#&1¤Ћ„rkm7FE<: э щ д х о И з Д К Б „ “ Ћ _ r p o  ] , A ' 2      ягякяеябяЦяФяЗя¶яЕяЫяГяІяЎя·яґяя›я•яsяђя¦яўя°яЋя“я|яЊя‡я’я€я”я“я~яЂя‚я‚яя»яўя¦яЂя{я}я’яЎя§яЎяџяЌяЊя›яія¤я яІяЄяњя‡яЊяЈяЈяЁяєяБя«яЄяІяђяІяЇя«я­я­я­яµяХяІя©я¬яґяДяјяћяБяНяИяЁяІяЅяШяїяѕя»яЛяНяУяаяЫяЖя»яЖяЭягяРяґяќяІя§яёяжяКяСяСяНяШяЫяДятя¶яОяБяНяДяЇяґяЄяѕяЗяНяЭяТяЩяЦяжяБяУяОяПяе   ябяЗяЧяРяГявяЇя§яФясяСяЭяЖягяоявящ  яЬяФяШяЫяЯяйяЩяЯяцяжяпяФяЧяФяфяЩяТяхяОяМяБяфяъялявяЮяз яяягяЭятяЪяШядяЛядяЫяНяУякячязяьяЭяаяЯядяЛязяЖятяПяЬяпяЫяЙяияНяПяЕяѕяСяОяАяБяЕяиякяБяЮяГяБяГяЖяТяИяРяБяіяЧяЮяЦяжяЖяёяЛяВяЙяєяїяїяЄя’яџяёяЕяїя¤яћяЄяГя°яјяАяІя­яБяЙяОяТяЅяСяжяИяЫяЈя·яЧяѕяЛяо яЪяЧя¬яЩяГяЅяИяояЭяГяЖяЮя¶яЖяАяЗя»я»яСяГяєя¶яЫяµяТ яЗяµяЅяµяЗя¤я¶яДяИяія±я¬я№яҐя№яЇяЁя°яїяЎяАяЇя›я—я№я§яЌяњяЈяАяГя­я°яКяФя¬я яЈяєяјя„я€яЉяyя’яЊя«я‰я€яyяsяoяOяkя^я{яlяpяyяwя€яhяZяQяUяgяnяqяvя}яЏяЋяЈя’я—яђя я©я®яїяИяѕяёяµяЏя‡яІяояд яняШяія®яњя°яЄяќяЏя«яЄя»яБяЅя°яїя«яЇяґяЖяҐяґяЕя¶я°яКяія яяњя«я°я°яЗяѕя®яЩяояИяµjGZ‘-Ле08Ђ9cOЂЊ®ЄџЪяк ЫX&Юћdki=]DI@2 ш я Ш Н Ь µ Ѕ Ї њ ґ © ” Њ Ѓ u … U L Q L D O   яиямяжяряняЬямяМяЪяОяѕя·я»яєяЇяєяІяІяџяѓяќяћя”яeя‹яЌя{я~я›я’яyяяљяђяWя‹яЉяя‰яyяЎя—яЁя¬яµяЈя~яcя©я­я–я—яяљяЁяія©яєяЅя§яёяЎяҐяЈяЁя‘я”яґяШяАяЇяЊя›яЈя•я·яЇя©я’я°я№яћя°я я†яЈя¶я яќя±я©я°яЪяПя¬яЗяСя»я№яБяѕяѕя©яЇяєяИяҐяµяГяЛя°я»яёяЗяРяГяЅяёяЪяДяјяф яФявяЗяіяѕяГя·я®яНяФяМяГяРяКяЮявяЅяняВя¶ямяряЛяаядяЩяЮяТяеяУяЩяЮяСяЛяТяляляФяЫяияЧяУяХ яняляжяЧяуяЩямяЮяПядягяйяняо ябяЯяэяшяЪяо яУяЙябякяуяЬяПяЛядяЧяЭ   яь яэяЩяояпяияеяеякяШяСяЕятяэяЯяХяЭяЫяЗяГяПяЗяЮябяаяЫяИяОяеяйяСяЯяАяУяияЬяРяВяЮяъяМяХяЮяМя±яЇяАяШяјя¶я№яНяГяҐяМядяВя™яџяЁяЖяОяФяёяјяїяјяєяЗяПяЗяЇяЈяВяжяпяґяЄяЇяАяояЧяБяБяёяХяЮяХяГяіяµяєяЛяєяГяЅя¶яЛяјяґявяСяЮя№яјяДяЧяЫяИяШяўяўяњяўяЅяІяЗяЪяПя·яДяія¤яЁяњяія¬я»яЄя·яўяќяґяЧя¶я™яџяџяГяЕя’я—я¦яєяўя…яљяЋя®яћяЂяwя‚я€яЉяКяµя¦я•яђяя’я}яzя’яiяjя‘я‰яwяfяя}яzяяdяmяЂяяЎя…я¤яuя‘я‹яя†яІяЁя±я·яЙяЁяљя‘яїязяНякяеяЦяБя яЅя©я¤яЈяДя©я°яОяТяѕя»яјяКя«я©яјяаяµяГяёя™яіяБя±яІяЄя№яТяГя©я©я¤я›яҐя№яЈЌo„¬.6?SFZrov‡Т·пщъЫанґ&<ы*|caM\J5K( ъ щ
- Э р о Ъ Р № ® ™ љ Є Ё Ѓ … | Y Y \ U g : N    яяявяляэяЫяМяЖяСяёяБяДя±яРяіяіяҐя°я·яђяvя”яўяЏяЊяЎяxя~я›яџя†я‚яzяџя±я~яuяя‡я я‘яђяќяќяЄяќяГя­яќя–я“я’я„яѓяµя®я я„яЋяЈя‘я„яЊяzя’я«я яјяЋя¶яњя–я—яЁяЊя¦я»яХяЎяЇяія­я–я‚яђя№яЗяАя№яАяСяАяіяЁяГя¬яЅя±яМя яµя¦я·яєяќя·я›яҐяЇяЕяёяЅяІяґяФяЮяЦяУя№яћяГяЛя°яЛяФяфяЕя·яГяЬяРяйяЪяЅяєяияФяЪядяЬяияЩяИяїя¶язяжяФя±яБяЛяояЪяЫязяЧяЖяКяЮяЧяыяоясяияляСябяЖяР яОяряу   якя­яю ябясяяяИяЛяъяУяЩяЭяуясящяЗяОясябяЫяляы яЩяжяЮяЭяФяЕябяеябяУяаядякяуяФяСяйяпяряцяз якяКяпяУяґяГяЦяїяЮябяКяПяКяОяЙяКяЗядяйяјяГяЙяКяЖя­яЅяВяВяЖяјяГяЛяКяС яаяИ  яЯяЬяУяЯяОяБяєяњяЁяРяоя«я©яВяЭяДяѕя¦яЛятяµяСяЙяКя°я·яТяРяєя¬яФяКяЗя®яЎя·яЬяСяёя·яґяЦяАяГя¶яѕя»яжяГяІя»яјяЧяїяИя¬яЄяЈяµяИяЦяЛяФяёяіяМя®я»я¤яҐя¦яµяўяџяўяџя¤я§яђя°яҐя§яёяїя®яЕя§я·яҐя»яџя„я”яЌяїя—я„я‚я¶яЈя†я“я•я‹яЉя”я{яњяkяSяLяXяpяuяwяnяzяЌяiя|я‘яoяя‰я—я¤я’я…я•яія¤я„яђяћяЇя§яґяёя“яЏяЕяъяЩяцяйяЕя§я›я я—я®я№яЅя№я©яІяЈяҐя«яИяјя¶яія°я­яГяЇяЇя™яњяєя№я®яЇяЄяјяія©яІяАяЇя·я·яВ%ь€X1µ3:‰yЇ^l^џ¦¦й*эъпЮв)юрЬmqP5JHE! ц з  р о к К № И № ў v † x u g q J W 9 < Q . " язяЬяф  яъ яОяМяня§яЩяЛяµя я§я«яљяЈя‹я€я„яѓяЌяyяЂя”яЌяђя©яЇя›я–я¤яЎяyяyя…яяЊя–яџя‹яҐяЂя’я¬яяЇя|я–я¦яЉяЁя„я™яЏя§яЎяљя’я©яЎяљя§я¤яџяЇя¤я“я‚я”яіяµя­яґяџя©яјя«я’яЇя’яҐяія§я№яжяҐя°яБяЫяЧяЙяПяБяТяЩяєяєя°я°яёя­я®я·яНяЭяУяЮяУяшяШяГяКяМяЭяГяРяРя¬я®ячяЪяСя»яЙяќя·яИя№яМяЬя§яєяИяЗяйяйяЪяКяЕяияляиямяЬягяЗяжягяЫяЛяТяЯядяОяЧяуяЭяЗяєяСязятяч яояМяНяляеяьяьяп  яЩяѕяВяэясяШяРяЛяп ябяияеяСяк яаяйябяШяняряняаяНяПяУяТяНяРяЛяиязярясяЧяФяБяЖябяцябясяТяЙяСяУяеяияРяияияКязяЯяНяУ яЩяЛягябяѕяИяМя¶яВяМяМя°я¦яДяФяїяЩя°я»яНяПя¬яЪяп ядяЕяПяИядяИяряЕяЈяЅяёяЙяОя№я±яВя·яВяљяёяРяЦяєяЕяЬяМяОяБяІя§яАяія°яВяјяџяёяµяЙяФяЛя°я±яВяЙяМяЛяХяшяияЬя№яЁяґяёяЙя·я яњяЫяѕяДяјяјя­яІяВя¶яЎя¦яВяёяЖяБяјя®яЖя–я±я±я»яЇяПяПя—я°я№я·я¶я яґя я™я§яЁяВяћя–я–я™я™яЋя‹я†я™яwяЊяњяЃяmяsяNяbяvя{яtяqя‡яrя{я‹яя‡яwяrяpяЃя‹яЊяrяљя•яЉя‹яўя­я±яћя…я™я•яЄягясяэяняЧяµяіяљяГяГяВяЁяДяєяЙя¶я±яГя»я¶я”яЇяЄя№яёяЅяљя™я—яЕяляЦяАя»я°яЎяУяЖяБяХяґя«яґQЮз№lіЋҐSc’„uјІЎВЦРчЧЩЙьмЪъыеЇT…]% ч ж М У Р Ф Б В © w Ё | y u X Q Z _ L  : 5 & 7 = #  япяЯярякяЭягяЛяПяДяµяєяХяЅя яѕяўя†я¤яЏя€яyяdяsяxяuя“я®я¶яЏяЏяjяzяЉяўяҐя©яyяЋя‹я™яЏя–я«я€я·я±яђя€яzяђяЖяЈя©я§яџя’я–я“яЇя¦яњяўя‘я№яГяљя‘я“яјяЎяєяҐя­я¦яўяћяЙяСя­я›яІяѕя№яияРя¬я№я™яЎяѕяИябяЅя°яіяЛяИя°яєяќя¶я­яґяДяКя«я·яёяЧяОяЗяµяЧя»яБяѕяАяШяБяІяіяеягяПяВяТябяІяВяТяєяРяОяИябяЬяЯянявяЩяЙяЧяЛяЮяЛяЪяИяґяЪябяхяДяАяЖяЬятяиягяряМяФяЭяјяХяЮ яэяЬятядяЫяеядяияжямяСязяОяоясяляКяЗяЬяЯяШяЙяЫядяаяиязяшякябяИяеяРяёяХяЬ ясяКявялякяжяСяѕя»яјяыябяЖяЕяЧяЪяПяГяЙязяЦяИяЅяНяОяняЦяїяИяЙязяЮяїяАя°яБяЖяляЩяЮяТяВя№яГяФя яґяНяияДядяФяЪяѕяГязяЙяСяСяеяНяёягяйяИяШяЦяДяµяµя±я·я·яЅяЕяДяНяИяЬяЧягяЙя№яјя°яПяєяјяія·яЫя°я¶яХяЬяїя°яЇяєяЛяУяЬя®яѕяйяЙяјяІяДяїявяЖяРяГя±яЕяґяТяАя•яЄяЕяВяЁяџяБяѕяЈяѕяЎяЩяЖяІяїяРя±я’яёяџяѕя°яЅяҐяІяЗяВяЈяЋя яія¶яЄяћяЈя№яЇяўяёя§яяѓя‘яЊяѓяЃяnяdяaяvя“яZяaяeяeяnя{яя‹яЃяhяkяWя^яnя‚я…я¤я‘я›я“я’я­яҐя“яЃяЎяЈяГяряУяняюяЇяЎя я™я’яія©яГяЗяГяЛяІяґяІяЙяЄяўя™я­я¶я¶яњяќяћяЈяµяЯяАя»я®яСяШяїяАяїяҐя›яўяИ†4$h6O‚сWy®‰_Њ¬еьфмБК‰¶У	ЭАЉ9V;9 ш Ы	 Ь в Д ¤ © Ї Б ћ Ѓ q { s V [ C N N B A 0  яыяф  ягяФязяТяЫяУяЕяОя©я¬я°я¶яЖяўя‘я¦я‚яЏяя”яЋяsяћяkяrя“яЌяяяђяlя‡я…яџя§я«я„я|я¦я¦яЎя«яЏяЃяЋя”яѓяµя†яђя’я яxяЉяњяЇяјяџя¦яЈя­я…яІяµяІя•яџяЛяВяЈя»яТяЕяёяєяЅя»яґяЛяЙяЧяЗяєяєяЇяіяРяЖяўя±яїя¬яјяИяІяµяЖяТяЅяІяЗяИя»яжяЗяЧяЕяЬягя¬я–я·я»яґяСяЬя±яёяЙяЦяЫяЗяНяЮяія±яЭяояҐя¶ясяЯяЕяняОяїясяъяояЗяІяЦяОяОяжяЩяїявяйяняаяБя®яєяЙяЧямяЪяФяЙяЩяжядяШягячяМяКяиятяыяТяШяуяфяцямягяаяШяряЮякядяЪяоягяжяЩ яЩяШяж ядявяЮясязяЧяФяЫяйяыяцяцяюязяияѕяМятяЪядядяряняЕяИяХяМяБягяЧяЅяЭяВяЛяЛяЅя¶яЙяИяОяХяЯяЮяЧяЗяїяЗяЬяПяАяхятяФяґяіяЙяГяС ябяїяжя±яИяМяЗяФяЧяЇя±яПяџя¤я»яЩяПяРя­яєя±яѕяВяСяЗяµямя·яјяЙяЗяїяЛяеязяояБяіяёяЙяРяѕяЖя¬яЙяРяіяКяЇяія›яЏя§яїяЗя­я°яГяЅяёяНявяДяБяБяѕя­яјяТя«яЄяµя яєя«яёяЅяВя·яяія яЈяѕяСяЗяЁяДяЈяіяБяєя№яЌя•я§я¬я†яЏя›яµя·яЎя§я№я§я¤яКя°яія•яќя…я…яћяrяgя[я}яjяKяkя{яTяtяuяя{яdяmяsя„яpяЃяcяgяѓя›я’яpя–яµяќя‹яЊя~я›яВяуяняк яУяџя¬я«яҐяЅяґя·я©я­яѕяјяЄяµяВя¶яєя¶я¶я¦яЇя«я–яёяћяџяЅяПяЭяВяіяЄяЕя¤я©яЇяГя©я«%аW(}охЊЉ ‚rљХчълс!-#ППќ™”гї ›=) ш ф и Ч в И ґ Д « © € — Ђ ” R d d A 3 3 C          якяЛяЩяХяПядяпяТяКяУя°яµя»яЄя­я‹яѓяћя™я”яЉя‘я—я•яџя‡яЋяЈяЌяЊяџяЎя—яpя™яЊя•яўяЃя†яњяўяџя±я“яяя¦я¶яЈя{я—я¦я’яяЉя¦я­яҐяґя¬яёяµяІяќяЎяЁя яЏя яЄяђяҐя™яјяјя—яЇя±яѕя·я»яяњя°я°яНяГяИя±я«яіяЯяЬяЦя»яНяµя±я®я№яМяАяјяЖя»я¶яЖяїя яЅя»я¬яОя·яПяЛя§я¶яНяѕяФяЛяИяШяјяІяГяЦяПяќяЅяЅябяРятяїя•яАяояйяЯяаяХяйяКяЙяУяняняЛяЬяВя­яѕяВяОябяияуяояМяняЦяжяµяЗяЧяшяТяКяаяляЧяСяи ямяцяъяЭявяуяЩялягяХяцядяхяЦябяпяоясяЬяПяЩяЮяЮяеязявялягяЪяйяЮяЧяМяДяОяЛядяЦяХяияфяеяояйяияРяУяЩяеяПяаяЫяИяЅяМя»яйяјяГяЫяБяЅяГяЧяРяЦяСяЧяТяЖяМяєяєяєяЖяїяјяДяИя°яћяЗя·яОяЩяЖяіяЅяЙяУяИяЈяІя§яія№яёяјяїя¶яЅяСяйяАя№яєяАяГягяЩяДя°яјяТягяИяЖяВяАяЧяЅяЦяСяПяёяРяЇяґя¶яјяЄяёяЦя»я¬яҐяЭякяТяУяЦяЅяЁяѕяёя§яѕя№я©яіяџяјя¦яіяАя®яґяЛя¶яіяёяћя яЕяЛяћя¤яБяЇя§я¤я¤яҐяµяБяЏяљяќяЄя·яќя яЇяvяЄяњя–яЋяЊя€я†яnя…яoяlя‡яtяuяqя–я‡я›я‚яOя`я|я|яZяnя~яuяЌяyяяЂя’яvяoя›яҐяія¦яџя’я–я¬яЬягявяияЕяџяЅяіяЁя§яјяєя§яЄяЎя©яёя©яЋя°я›яџя—яЌя¤яєяЁяЁяќяёя¦яЁяЦяСяЄяєя·я¤я¦я•яНя¤яЂиK…=|ЙГbnЧzЉЯМЁШйЦЯтФёЈЎhЯЕ§ІD$# ц ь Ю Р ь Ы З Г Й Е љ { • q † n b Y c F , (ячяпяц яояряйяпяЦяѕяПя«я·яЛя°яБяОяЪяІя·я±я·яѕяя‚яњя“яЏяЎяЌя‰яљя—я}я‡яaя…яљя¦яЇя‰яђяѓя~яЉя я“яґяўя™я‰я”яя…я·яНя®я™яЎяЈяґяљя°яћяіяГя¤яБяіяќя·яђя‹яЇяѓяsя±яєяџя­яџяіяµя“яЄяЄяЎябяЕяЇяБяЫягя№ядяґя»яДя¤яВяЯяБяБяќя—яВягяїяБя№яЛяЮ яьяЮя¤яИяНя­яїяТяРяКяаяХяґяБяАяХяйяЖяМявяАя¤я·яёяБяСяШямяЦяЧяМяРяМяжяЯяРяЩяЩяаябявяНяляпяЧящяпяРяґяІяРяУяйямяЪядяеяЬяЗяРямяЧяОяы яФягяФяХяЭянядяцямядяб яЫявяёядяэяняФяЛямяцямяеяйяйяпяЪягявяЪяРягялязяЯяТяРярязяДяФяЭяряЮяЬяЭяЪяИя№яжяФяМяжяИяляиядяТя«яНяјяЙяВяТяУяєяЅяЙяЗяіяМяГяПяЮядяЗяЗяЦяПяЭяйяЧяИяНяВяєяЁя›яВявяляЖяія·яВя·яґя я¤яИяеяКя±яѕя®я‘я°яГяЕя­яёяУяЬяИяЕяОяОяµяч яЫяГяЬягяШягягяЧяЖяЫяРяЖяРяЅяГяВя·яСяїяЖяАяСяДя№яЄя¬яЩяЗяёяЅя¶яЁя±я¦яЛяЙяДяАяіяЅяЅяЙяхяЛяГяѕяАяАя±яЁя°яЄя±я¦я™я’я®яјяіяЇяЈя™я¦я­яЎяќя—яќяўя®яІяЄя€яя\яЂя§яёяЊя‰я…я„яzя•я”яўяЊяѓяcя[яbяtяqяoя^яqяaяPяcяgяjяwя‰я‹я”я¤я›яБяњя яѕянявясябяѕя—яЅяАяЄяўяЈя®яЖя±яЌяіяёя¶я·я°я я“яЁя¦я¬я™я—я­я№яСяЇя¤яЎяАя я§яёя®я«яҐяДя«яЇш~©ы(ЌЖїЌ§БҐ°УАЪдьШАоё·ДЕћ‹±Ћђ‘5 ю д Э С О и ї ¦ — ‘ t ђ Ћ — o e r Ѓ t c 5 , & 	  яшяеяжящябяЦяРяАяжяОяКяНяіяќяЎяҐя я±я•я я”яЌя|яrя€я•я’я‘яяЈяЈя‡яЂя„я’яђя‘я”яЋя‡яћя’я¬я‡я”яЋя~я§яѕя°я¬я©я»яЎя¬я–я‘яћя яЁяќя“я‘я©я¦я¬яґяЅя·я®яЁяЈяя¦яЁя¶я»яПяЕяѕяЄяЄяГяЖяЕяБя‘яёяЖяЖя№я¶я·я¬я–я¦я·яВяїябяЪяЩяДя№я™я™яЗяїяµяЖя¬я°яёяѕяИяўяМяјя›я®яєяМяНяЦяБяГяЫяјя¶яёяВя°яЅяИяЭяеяВяЗя»я·яВя»яГяйяФяСяІяГяИяаямяФяряЬяјяйящяНяАяКяФяТяФяИяМяЭяГяГяпяТяъяд якяпяШяжяХяУяЯямяаямяСяШяГясяюячяояЮяЯяляаяряЛяд 
-ятяпяЭяяяЪяж  яЮяЧяаяЯяшямяоявяйяняьяСяЦяЯяФяСяПяьяЫяЙяРяИядяаяРяМяЮяФяТяЛяПяДяЪяЕяУяЛя·яДяєяЖяќяџяїяХяеясячяЦяеяРяФяРяФя¬яЦяЕяЄя­яПяУя®я»яОяїяЄяґя®я®яЁя№яХяКяєяЕя·яЙяЭяЖяНяєяДяЪяняЩяЇяОяСяѕяІяГяПяРяµяПяИяГя±яµяѕяЧяЦяѕяИяАя¶яґяЅяЎяБя¬яЇяЈяёяУяѕяјяЕяРя­яѕяѕяЈяїяЪяСяЕяеяЯяЫя¤яЪяЖя»я°я»яЇя°я©я±яКяМяЛя«я§яёя¬яАя®я»яќя я¬я™яќяњяЎя°я—я™я«яЋя­яјя¬яџяҐя…я‘яЊяџяЃя…я­яЈя‹я”яpяdяwяPяQяЌя‘яvя^я[яmяmя~яxяNяyяЃя”я­яЈяљя¶яЉяЏяЕяияляяякяДя‘яЈя…яџя®яјя¶яРяЎя¦яЎя¶яГя®яЄяћяЄя“яђяЅя¶яЎя№яія‹я•яѓя†яґяіяіяІя‚я•яњя¬я¦яЋ0sњєэґыББЅ‹ЈЦВЯобщш№·ЇЂv~|…¤†t я	 й ж Х Ш Я Й И А ± Њ Ґ u w ^ j = Q \ ; < @ 7     ядячядяЧя­яИяИя яЖяРяЖя·яѕяҐяЅяБяІя›яЊяwя”я™яяnяbя‡яљяyяђя€яЏяЎяІяџяя‘яѓя–яљя‰яЈя™яџя”яЇя яђяњяЈя«яІяќяВяОя‡я яџяяђя”яёяјяЎяґя›я­яµяЗя©я»яґя¤я­яїяЯяЕяРяаяШяґяёяЛяЛяЖя®яЇяЎяКяБяєяјяЇя»яАя¬яРяМяХяіяёя›яГяЁя¦яИяµяеяаяРяЯяЙяЕя¶я¶яТя­яґяЅяЦяСяГяйяАяу яЙяУяЪя±яВяЭяЪяЮяЗя№яКяЦяияФяЗяТяЗяИяЫядяУяЯяЛяФяЮяКяЩяґяМяняцяряаяРяБяЧяЮяАясякяшящяЅяояХяЩяЮяЦяфягяЛязяяядяаяУязяЭяБяе яЯ яТяХяэяьякяЦягяУязяфяаяеяШяЩяжяыящякязяПяк яояыяяяъяняйяЕяОядяЬяТямяГяЕяЖяµяЕяияжяЧяХяНяФятяйяШяЧящяДяПяЬяНя№яИяВязяАяјяєяЩяФяЭяЭя°я¶я±яґяёяСяЙя·яјяБяµяЛяѕяЄяЗя»ядяћяУяЫяИя¤яїябяшяИяЕяПяШяЧяЫяИяјя·я№яДяВяєяУясязяЙяЗяЬяЙяіяВяєя°яµя±яняУяЅяµя№яГяМяМяМяЅя№яИяїяОя±я©яµяёяїяБяВяіяАяіяУяЗяІяНяАяЁя·яѕяКяКяАяЅяЕяія«яЏяяАяея©яОяТяјяЏяБя«яґяґя¦я®яіяЇя¬яќя§я­яќя©яњяћя яИяМя‘я”я|яђяЈя©яЏяяѓя‚яaяfя§яЈяxя]яѓя„яrяuя[я}я‚яЂяpяsяЌя|яђяЏя‘яЉя†я|яЂяЄяЪявяа яыяЅяҐяЊя{я¶яІя¬яҐяя­яВя±яµя§я®я©я“яЋяГя±яЎя­я¶я«яЄяїяїя«яГяКяЇяЇяЛяљя‹я яЇя Ю›ЄА4	„rїЋµќ¶ЙЪЪЈ·ѕ»°ґќ¤l’‰ђk т
- н п Ь Ь ° И » Ї — њ w m  g b T A U T 9  +яэ  яжяляМяЪяуяОяШяЕяЕяіяіяГяЁя“я¬я«я¤яўя¤яЏя•яљя™яЉяќяЊя“яqяkя›я§яЊяяYя~яџяЏяЖяЈя“яxя–яЎяѕяђя“яЌяЈя№яµяќяя”яІя№яСяґяґя®яВя»я¬яіяЄя§я±яЅя©яУяБяїя§я·яёяЛяХяАяКяёя·яМяѕяІя№я№яЧя®яЗяОяЎяЈя—я·я«я«я¦яя«я·яПяНя№яЙяЄяЁядяРя¦яжяжяля®яМяРя®яГяПяУяТяДя»яЧяКяЇяФяРяпяЭябяЙя°я¬яРяИяЦяЕяГяЗяєяХяОяЪяляТяеяЙяеяОяЙяЗяМяХяТяХяиягяЗ яфях яХяйяКяХяТягяБяиячяаяКяпямяияхяряЮядязялявяюяыяТяьяЯяХяиявякявядясядяняСяЪяЦяс 	яыяцяЫяСязягяФяМяЖяИяжяФяряаямяПяШяОяТ яжяСяЭяняНяаяэяляО ящяЪяЪяЖяРяЩяОя»яПяЧяШяУяіяВявяЁяЩя·ябяхязяУямяХяБяТяСяјя№яЙяЕяЧяПя¶яєяБяЬя¬яґяЧяЙяСяґяўяЈяєяфяпяьяЭяЦягякяГяЖябяЛябяЇяўяЁяґяЩяляЯяШяТяЛякяЩяЎя®я°яБяКя±яЙяёя»яµя°яїяЄяѕяРяУяМяИяХяія№яѕяБяГяЯяµяўя¬яПяРяКяЪяБяїяЎяёяЈя±я·яГяЅяџяєяТя·яія®яЇяДяЄяµяјяЈяЈяИяАя»я»яРяёяЁя№яАя±яўя¶яџяҐя¤яџяЏя–я©яјя“яџяІя—яя…яЂя‘я‘яЌяrя“я™я~я\яcяxяsяsяzя[яdяjяsяxяyяlяя€я‹яЌяbяVяўяЖяПяЛяеяйяПяЁя“яЉя©я¦яєяўяЂяя—яјяҐяЎя™я‰я®яљя№яОя«я¤яЁя—яУяИя»яµяЇяГяВяІяЈя¬яЈяµяЎя°яЊjEgЯЂ5*SіѕБгтиЬ•їѕҐЉС§ѓoatGsxc‡# ы С Е І ­ З Л і e z ‰ q { n _ H , < I F "   япяйяЬябяМяцябяїя№яЈя·яљя№я›я±яџя¤яЈяІя–яяљяЄя«я–я¦я“яЋяЃя…яћяЉя›я™я„я§яјя®яЈя›я¦я•яЏяя™яqяќяѓя„я°я–яІя‡я®яіяДяЄяЁяДя¶яіяџяМяµяњя“я«я‘яіяЗяГя¦яўяјяїяЁя±яАя·яМяИя°яўяДяДяЕяБяєяНяЗяІяґяТя»яµяЛяЎя°яОяія¤яЖяРяДяИя°я¶яґя№яАя®яБягяОяИяЅяјя¶я№яґяПяЩяняЩя»я·яМя”я±я±яеясяЛяЬябяНяВяДяЯябялявягягяаяаяляЪяёяйяЕяаяУях яыяЮяяяфяюяхятяпяжяиябяЮяОяКяОяояляь яуяУящя±яБяЬясящ яш яэ 	 яыяиячязяляояшяЪядяняэяйяа ятяаягяляфяУяЫяШяЬяТяМязяФяЩяхяДяБяёяняУяияЙяЧяЯявяЮяЫягякяЮяЫядяФя»яФяСяјяСяОяЫяШяЅяѕяШяЕяЪяляияПяАяияОяѕяТяЩя·яГяБяцякяЬягяСяЛя­я±яЗяСяЖя¶яВяґяГяєяіяЧяЙяЕяЪяЙяїязяшяЄя№яСяЕяДяЊя№яЫяЕяЗямяМя¶яёяёяЖяЩяїяЮя§я®я°яµяЙя©я©я°яВя№яІяЖя®яЕяПяСяѕяёяУяНяЗяЗяУяЖя›я¶яїяИяЩяЭяёяФяКя·я·яОяСяБяУя»яВя¶яіяЛяЧяѕяРяёяёяєя·яОяАяіяµяµя°яЕяїяҐяЉяђя™яЎяЄя¶я­яЅяїяЈя°яјя»я}я‡я­яІяњя–я—я`яЋяsяљяЈя¤яЉя‹яЌяoяsяљяя~яhяpяkя€яЉяdяpя~я}яoяЂя…я«яеяЪяаяШяґя‰я†яЎяЎя‘я–я±яєяІяЄяѕя„яњя©яЇяіяЇяїяќя¦яўяљя¬яёяЕяЄяЇяґяДя¦яАяёя§яќяЉяЎя°яТwЉEт5mj7Р ЫеҐЫќѕЗТ¶›lTYZV@\lT^ а р Л ї С Л і В ­ № z v љ Ѓ o e @ B $ & 2 A   яЫяИядяняЫябяеяОяЖяїяТя·яћяЅяЅя­я¦я¦я§я¬я›яђяџяќя™яќяѓя}я‹я‚я‘яя©я±я®я“я¦я­яЇя‘я}я“яљя•яљя“яяЌя¬яЇяѕя»я яЈяљяСяґяЏяЛяКя¤я›яЄяњяяґяПяНяїяјяБяКяВяжяЩяДяёяЄя¬я›яїяАя№яЄяѕяІя°яЈяќя¶яҐяђяЎя¶яНяєя·я®яіяјя§яµяїяёяія№яЄя№яЛяёя›яЛяСяЅяЪяшяОя¶яєяКяЩяФя­яИяПяЅяія№яІяВяПя·яјя»яЅяУяЖяМяЗяБя±яДяцяНяјяЛяИяОяЗяЭяОяУяЯяЫяияПяЬявядяЩяеяЩяЗязяьяияЪяТяЯяияЪяВяв яияжядяояЬяЪяЮячясяхядяПяСякяЮягявяпятяЗян яю явязяняцяляРяеяляйяфяуявяШяжяЧяаяУяМяЮ  яфягяояСяУяжяЮянях яЪякяйяЬяЬяеяЛяХядязяВядяХяияуяояКяРяГяЛяРяМяЬяЩядя·я·яїяДяВяБяЭяЦяІяОяАяЅяБя®яёяИяЧяыяояпяЙяЯяєя±яБяАяХяФяЦяДяияь  яЖяКяНяёя©яўяЅяОяИя·яУяЫяПяјяЖяОяјяГяљяґяЁя±яѕядяЪяФяїя¦я±яЕяЁяєяМя«я¬яБя¶яўя я®яґяДяҐяЪяНяУяая¶яГяМя»яМяЕяїябя»яЧяНя®яІяУяЯяМяАяќя“я¤яКя®яЕя©яГяѕяЖяЁяНя·яёя®я®я–я~яџяІяџя»я®яЄя©яЃяћя”яvяѓяћя‰я—я¦я®яґя—я—я‘я‡яяxя|я„яaяbяuя[яZя]я„яqяЉяЏяЌяoя™яљяЃяfя·яЪя№яШявяИяџяѓяњяўяўя¦яљяЋяЈя¶я±яґяџя¦яія©яЇяЇя°яЉяxяѓяђя¦яЎяљя¬я№яЅяЙяХяїяЈя¦яЂя€я я№№Г®Цо ЖлАЦУІ®ЏВЗё°x”Ћq-@0efBA
- н У Ѕ Ч К · – ћ r G ` j _ [ U = % , 5 %  яыяЮяФяЪяшяояЖяЅяФяйяРя№яЗяјя°яЄя¶яљяЕя•я‘яЈяЈяЊя±я”я„я€я~яrяЃяЃя’яnя‹яcя€яўя‘я†я|яЈя©я·яЇяҐяіяЈяўяђяЁя±я”я•яЇяЙяєя·яУяВя–яџяўяЙяЁя«яЖяіяЅяЖя¬я±яФяБяМяКяЁя®я№яґя°яїяёяЧяїяЯяїяїяўяћяЦяЗя©яјязяЧяТяЙяёяВяєя®яґяЄяѕяГяґяояЦяКяИяЇяѕяЕяћя±язяШяОяАя®яПяФяСяВяЮяояИяЦяЭядяРя¬яРяєяёяИяЫяРязяСяЗяјяѕяМяЭятяїяПяТяјяЧяТяЕявяЫяАяЅяХятяЪяЦяПяляЮяЧяхяй яѕяЮяУяеяСяХ   яПягязяЯяОяФячятяеяиягяжяаяУядялякяСяпяЯябяп язяШяу яЭяЩяш 	яжяШяс яыязязядяНяжящяляУяДяуяуякяЖяЕяШяеяэ яЬяйянязяЭяЭяъяХяИяЩяНяшяШяаяДяКяТя№яёяїяБяНябяГяёяЖяјяЇяёяИяЫя¦яШятяюяпяаяМядяПяОяДяНяКяДяРяШяЅяѕяјяЧяИяЮ  яуячяВяµяМяЖяВя№яїяєяЄя¶я¶яНя я©яµямяВяСя©яґяџя·яєя°я№я§я°яЙяИяЖяИяГяДяМяіяЅя«я”яҐяЄя¶яєяЕяРяРяґяПяєяОяЮяёяёяЕяГяµя­яГяџяіяѕяТяТяОя«я»я¤я«яМяНяЪяіяАяєя«яЅя»яНя«я·яІяњя«я°яВяўя›яЁя•я°я¦я—я›яќяЏя”я’яљя¤я¦я я“яћяђяЌяяџя•яѓяcяmяЂя‡яrяtя“я‘яwяѓя™яђя–я’яsя†яЅяГяАяЅяХяЛя¬яЁя®яЅяўяЁяЋяЊяЈяЁя¤я»яѕя±яЇя–яЈя”я“я¤я€яЇяІяѕяЎя•яўяГяМяБяХяВя¦яuя™яЄяЇяЇr±иg,SХщ«БхН…eЇ»ћЌg{L=%5эё@#F с Е Ё І Ґ ” © Є Њ o W } Ћ o N 7 .   # ! яч  яяяйяЪяРяБяБяЙяИяЪягяЅя№яЇяВя»яtяџя‡я‰яЉяЁя«яЁяЉяљяя‚яЊяѓяcяЃя­я‹я{яjя_яsя{яuяя‰яІяѕяЉяЋяџяЋя™я”яћя±яҐя™я›яёяЄя“яҐяЗя¶яИяїя№я·яБяОяВяВяјяДяґяЄяЄяАяПяМя®яЧяІя±яєя·яєяБяняОя·яВя¶я я§я№яВяµяАя№яМяЖяОяїя°я®яµяРяЗяЅяХя»яёяјяІя±яГяµяСялягяІяРяШязяТя№яҐяВяЦя°яИяјяґяЧя№яАяБяИяєякяФямяСяЯя±яряжяІяТяЭяЦяМяЈяТяояхяюяуябяЯяЗяЅяІя®яФякяхябяЫяЛяеямявяЫя­яЫяпяоячяы   
- 
-яьяЮяЯяЭязябяТяШяияЯ яьяШявяВягяжяЛяОяЭяуяияЯяЯявягяЭялясяъяфяэяюявяеяЦяХяаяЦяхяуяЬяжяфяБяѕяФяаяНятяЩяЛяЛяЮямяжяпячябяїяОяФяЮяЧя»яШяКяЫяЦяаяРяСяЫяЩяХятяХяМяжяЅяЙяєя»ямясяУяВяСяЭя¬я°яјяќяїяЗяЕяОяКяјя·яАяГяДяЖяВяїяіяЩяЕяїяТяАя«яГяЩя¶я»яјяИяЫяЇяµя№я№яіяїя№я¤яЋяѕя¬я«яЙяЅяЁяћя±я№яіяНяїяЖя®яфяПяїяЛяїя§яЇяёяЗяАяѕяБяіяБя·яјяЇяґяВяћя«яёяіяіяёя°яМяМяҐяўя®яБяѕя«яБя¬яЇяІя¦я№яґя»я±я°яёяСяЕяЗяїяҐя°я®я«я°яћя§яҐяІяЌяЃяђя™яљя†яЂя‰яwяoяyяЊяќяЌя}яeяaя”я©яjяqяЋя›яЌяwяЊя–яђяrяrя€яµяИяжяЬя№я№яµя яія¬яњя¦я’я™я–яЈяЈяЌя я±яЕя±я–яЉя“яЌяљя№яћяљяёя­яћяЦякяЧяїя·я·яҐя‹яЇяТя«¬гw”¶m1zYРОјОґЄДљPmyVюиьв?	- Ю Г ¬ Њ ћ °   Ў ‹ i q X J [ ! 2 0 6   яс яйяЯягяСяЩяйямяВяїяЗя¬яЁя§яНя–я†яќя†яЉя‘яЋя‚я›яЊя„яsяyяzя}яoяЉя“я‘я—я’я§яЁяљяЃяћяАя”я„яЊя¦я±я©яїяҐяЈяГяНяГя­я»я»я¬яЈяДяЁяДя¬яҐяіяВяЙяµя’яІяНяЄя·яЁяГяіяяњяИяЁяЄя яБяЁяЁя©яµяЄяѕяГяґяјя°яЄяія±яКяїяЎяРяВяѕяўяёяияВяИяЙяТяґяёяАя»я¶яјяјяРяДя»яПяЮяТяГяБяЄя®яРяЛяЬяЯяЦяФяЙяМяНяфявяХяЖяЧяжяИяДязяЧяАяУяЅяїяЛяПяЙяЖяхяыяДяФяаярямяЫяДяУяОяЯяйяЫяМяФяУяЭяРяа яъятяояфягяфяюяхяЙяЧяЭясяцяРяАяПяшяЧячяУяБяояФяФяжявяЖяОякябяэякявярямяЭяуяяятяЮяЩяХяЯяЧяаяЧябяЩяУяЗяЦяЯядяЙяЙязяРяШядяаябявягяТязяаяУячяУяМяЪяПяКяЯяЭяоящятяЧяШягяЬябяЙяФяаяОяІяПяјяЗяБяСяПямяЭяМяДяЇяЧяЮяїяОяГяРяУяЭягяЗяЙяКяЦяКяВяБя№яїяМяМяЛя·яёяїя№яІяЕяАяТяҐяµяЧяЄяВяЙяГяЅя·яДяєяЗяДяјяёя°яаяЭяЦямяНя·яГяМяїяОяЬягяБя»яЁяІяўяґяЛяЖяТяіяМяЕя±яўя¦яЈяЄяГя»я№я№яІяІя©яГя«яЈяШяЄя±яЕяјяЩяЅяМя¶я¶я·я¦яґяѕяМяИяШя¶яњяўя©яВя·яДя¤яЁяћя¦яЈя—яія яѓя’я©яЉя{яЉяІяЈя¬яЊя[яvяnяOяzяyяcяqяЉяљяќяяЃя[яnя¦яАяОяТяРя¦яЁяЋяЄяџяѓяќя‘я•я™я яёя€я’яЁя«я§яџяЇя’яѓяҐя©я„яpя—яЈя«яЄяіяБяЬяѕяія±яџя¦яЇяѕѕжKtjJТЮJ!…°xѓ‡§ЋdJ" -( ы В з Ѕ њ ў § Ћ v ѓ d A B 9 =    язяъяюяйяляаяЫяФяУяШяЙяТя»я®яёя©яёяЖя­яЃя“я‘я›яџяЉяЃя‚я‰яя}яѓяgяЉя|я|я™яњя}я’яљяњяЏя‹я‚я•я¤я‘я™яџяҐяЌяЎяµя яЎя№я°я›яќя я­я­яѕяѕяїя№яЖяўяђя’я§я±яДя№яЅя¤яЌяЇя±я¶яЙя»яЙяЅяИяХяЪяіяЇяГяѕя­яјя»я§я·яљяџяяўяµя±яўяЎяњяћяѕяйяАя¬яія»яЙяЦяЛяЙяОяЅяіяґяјя·яДяЅяЙяЮяЬяґяЭяЙяОяЕяЮяЛяЅяїядяЪяѕяјяДяЅякяЩяВяџя¶я¬я«яјяВяРяаяхяЦяСяЩягяШяДяМяМяЮяХя®яЅяјяѕя№япясяЗяЮяЙяЛяРяЧяФявялясяШяеяфяйяШяИяНяжябяйяЭядякякяьяояіяЭяаяуяЯяНяЬягяЬяаяжяФядяояняоядявяЧяЮяаяэяЦяеякяояеярярясяМяФяКяГявяЮяЯяХяЕяЯяхяЯяЮяляЧяЗяияФязяЙядяияЮякятяПяГяПяБя·яїяИяАяДяИяБяПяЗяНяЛяМяРяУяЖяЖяЦяЩяёяЄяєяляТяняјяїя©я©яКяіяЗяЖя№яўяПяАяЛяґяФяБяјя­я±я»явяЖя§яАяµяѕяЎяєяОя»яДяїяЎяҐяµяГя­я¶яЛяАяАя·яЗяЛяЩятяЯяЖяАяµяРяДя©яЖяВяЈяЕяКяЗя¶яПяіяБяйяыя»яўяПяїяБяУяёяЛя±яЕяКяџя±я°яіяќяЧяРяЖяѕя¶я±яѕяРяДяИяБяАя¬яўяџя–я§я“я®яІя¶яГя¶я¤я•яІяАя§яјяЄя¦яЁяЉяЇяљяћяќяwяЂя я–яzяmяnя{яЃя…я|яrяrяnяcяkяxяqяYя]яќяЁяАяЛяУяАяЎя’я’я‹яЈя я{яtя›я{я я—я†яўя®я‘яҐяіяЩяёя¦яњяяqяµяѕяя’яќя яАяІя¤я‘яЎя¤яГяЇ$^+’њSЏ§ЇРЋ™Иz‚inr6s#ЩшЭУ$) с д № Л µ — • } Ђ u k K F K " 6 -   	яЯяг  яэяйяъяЫяаяУяЖяія·яЅяѕяµяАяІя°яјяxяђяЙяАяњя‚яљяІя{я_яSяЊяxяЌяЋяЂяЂяЏя‡я‘я»я“яя›яЉяЈяя‡я‘яЋя¦я¤яђяљяЈя·я®яЁя®я’я яАяЈя±яєяДяВя¬яћя™яЄяќяЄя¶я«я­яЄя¦я·яќяПяҐя«я­я¤яіяГяЙя№яЇя®яйяєя±я¬яРяХяЩяРяџяЗяПяёя№яАяІяўяДя°яјяґяіяКядяЛяґядя®я¶яія№яеяПяґяІяЁя¶яєяіяДяЮяВяЩяЖя№яЖяЛяМяАяѕяєяКя№ямябяхяТяЛяа яЬяЕяСяФяШя¶яЖяжятяШяйяЭяЮяеяОяШяЧяРяєяЧяЭяцяеяНядяняйяЪяЦяняйял яо яфяШяшяХяЧяЫябяИяФявяхящяояюягяпяшяЬякяеяняь ясяРяЪявяа ябяЫяУякяьяяяюяяяъяеяЮяТяЪяняхяЫягягяШяОяЪятяФяХяФяХяСяняйячягяЬяНяёяєяУяЧяеяпяЧяЭяХяИяЖя©яЙяБяЅя¦яёяЪяЭяПяТяюяИясяЫяМяЖяОяОяЧяЮяуяЧявя·яЇя»яБяГяїяЪяЬяМявяЭяФяЛягяЦяјя­яГя«яПяУяУяДя°яЕяЕяїяЅяАяЬяФяЩяХя¬я±яЙяЧяЩяЅяІяіяЛяЛяБяЕяУяЪяЯяБяБяҐяёяІя«я°яЇя“яАяПяаяЛяЄя©яЦя¬я№яЇяИяґя±яЅяАя«я‘яІяЅяДяРяВяЛяПяУяВяШяЬя§яњяєяЫяУяІяЈя·я¬яџя«яЎяёяІяЦяЗя¶яЉяћяЌя§яґя¦я·яЙяўяўя¬я—я±яћяЋяЊя‘яЃяЌя›я„я|я{яЌя}яWя^яjя[яtяZяZяsяyяsяяsя…яЗяіяГя®яzяЌяџя›я¬я¦яЎя•яњяeяќя‹яЏя¤я«я°яњяўяХяѕяИя­яҐяџя±яіяяя№яґяМяЖяЖяўя‘я›я°я«*АЬ”iЛ”хПµYtv^)1Y0ЩгЭµ¬ ж Б ђ { ” њ u l b U W T J - 6    	ярярямяХяЫяяяияЭяБяЙяАя§яєя я­яБя©я¤я°яЋяЊя|я¬яўя†я—я}я‰я†я€яrя‚яЌя…яЋя…я‡яhя~я~яљя‰яЈя‘яЋяЉяђя‰я}яќяЅяџяџяњяЄяђяµяГяµяћя»яџяКя·яЗя¬я°яµяГяјя­яќяњяЗяћяґяіяія¦яВя«яЈяџя–яИяія±яІяџяґяОяСя°я яПяѕя±яГя®яґяЈяЕя№яЄя№я®яЧяДяјяВяЕя«я©яЅяОя©я­яАяµя’я¤яІяЁяґяѕяПяѕяДя±яїяјяёя¦яёяІя±яГяСяЪяМяГяВяБяЙяРяаяЪяеяСяБяЫяЗяКяЅяеяЇя±яСяьяйяйязяБяУяЖяНяЦяСяДяЫябяшяияияШябяХяеямяхяляПяХя©яОяуяпядячячяняЫясяЫяЦяЫяняряияряТяИяЭяеяеяйяиябякясяЮ 
-яяяпяЪяХяжяюяжякярякявяГяЛяеякякязяЮявясяЬяЪяШямядяЯяеяДяФяЧяЭяжяияСяСяХядяЕяКя·яНяНяюятяжяУясяШяНяЅяЬяЕяЩяЕяЕяБя¶яЇяЗяеяЫяПяѕяЕяЗяЭяПяФяЯябяСяряДя¶яФяДяЩяєяЮяЪяБя»яХяВяЙя·яҐяУяЛяѕяјяБяНяКяДяґяѕяФяЕя¶яОя¦яµяЫяХяєя№яГяїяея¶яљяДяџяЗяСяЫяЖяЎя­яБядяИяВяКяІяґяЫяЬяµя­я№яБя•яИяїяОяДя·яУяЗя·яµяДяГяДяЧятяЗяЩяФяЗяРяИя§я яІя°яµяяќяѕяГяДя›яЙя«яќяЎя¶яЗяґяЄяіяЕяґя·яАяКяґя§я­я¦я“я‘я›я–яўяЇя‘яmяtя‰я–яѓяpяfяkяyяЂя^я]яlяuяяwя–я®я¤я·я°я—яЌя„я“яљяњя•я я•яѓя‡я’я™я¦я™я~я|яґя‰яЁяЇя№яµяЇя›яџя­я”яўя›я±я°яіяЁя‹я‰я‡яЇя©>І1‹©K·ЧЊY‰ЋUfPJQ(кэ№”l ф О з ј Ћ m z v v r ` P J ?         яхяряОяУяФяТяЖя¦яЄя«яЎяЎя“яЄяўя›я—я}я}я†яyяўяћяЂя‚я—яЋяњяsяxя¤яяћяyя‡яlя‚яя„яwяЈя”я”я~яzяЋя‚я—яЏяўя’я—яЁяљя яќя©яєя¦я›яЈя»яЫяЭяМяіяіяµяЄяЁя«яЖяЗяЦяПяЇя»я°яЛяґяёяЙяЮяЧяєяІя»яМяёя±яµяБяВяБя©яЅяОяВяµя¶яґяҐяЬяЖяЙяЦяГяОяёяЁя±яЕяАяНяХяЕя»яІяѕя¬яЗяЧя№яЛяµяАяКяЪяПяєя­ягяЛяЬяїяµяІяЅяЛяМяДяШяОяЅявяЬяИяїяВяьяНяЪяЙяґяµяБяЗяеязяЮяЭя»яЦядявяыягяЙяпятямяТязяИяИяВяиякяцясяьядяояКяляиякяЪяБяыяъ 
-яЮяляцяняуяъяуяЭяияОяжякякядябяЛяш  яояФяЬякяЯяюяляьяЪяЖяЪязяпясяЫяжяЖяЗяОякящяЪяДяРяМяФябяряУяЦяМ яъяаяМямяЫяЭяЯяУяЮяыяжяШяаяжяРяаяЩяХяГяЪяШяЯяАяКя¶яіяРяСяјяНяпяНяЕяЦяПяАяјя№я¶я¤яАяЇяЗяВяЯяЧя·яЦяШяШяСяЛяМяРяЭя№яДяЦяЅяЪяЯяѕяїяКя°яЁя°яѕя»яїя»яЦя¶я‰яєяЁя§яКяуяМяДяїяўя¶яёяїяПя¶я©яЖяВяєяјяРяЅяѕяЗяѕяґя¦яДяЕяџяҐяїяЄя§яћяГяРяСяЪя«я¤яЬяияЖяЗяГя­яКяЇяДяµяёяѕяґяАя№яЎяОяѕяАяДя§яІяћяїяНяУяДяјяЇяіяЇяњя¤я°яµяЇяЅяљя›я™я яџяяЎя–я—яќя}яњяя€яgяqяdя|яzяmяpя•яЋяЂяЎяЈяЊяЌяњяўяђя|я–яќя°я›яЇяўяѓя¤яґя«я“я—яџяя©яџя±яҐяќя‡я€я§я¬я°я¦яґяИяЕяЕя©яљя“яЌя‡яЁяћшTДґцzS‘†ієђѓp`D\R7&ЦБвЧђЈh т г Ф З Є t r ` ^ u d P U V R    яъясяряПяХямяЭяйяїя±я№яАяєяЇя®яјяІяЇяџяЄяЄя”я°я–яsя‡я{я~яrяnяЊя“я‚я…яіяя€я‚я‹яЌяўя¤я¦я¦я­я—я—я‡яя•яўяҐя°я§яГяџяќя§я“я•я|яћяєя°яЄяїяЕяЛя»яјяія™яяія¶яЛяЪяЖяЯя©яЎя¶я°яВяШяРяЙяёя№яјя·яСяІяјяАяМяОя»я¶я¬я«яјяПя»яЁя«я·яСякядяУяНяѕяТя»яўяЄяМяіяКяЫяМяєяШя№яЗяёяЗяЖяЧяАяіяЗя¬яґяНяєя¤яЖяФяѕяБятяМяШяМя·ядяХяЄяеяПяЙяДяТяЪяШяАяµяляУяЗягякяПяВяаяпяЧялядяЬяЛяЯяюяЩякя¶яЦяшяуяЮяхякяьяыяыязяжязязяп  ябяяяч 	ямяЪяХяЭ  яЫяпяуяЮякяияЪяЮяцяшяЮяНядяЙяХяфяйячябяТявяЯяеяЪяиядяуяэ яЯяФяПяјяЭяЫяЩяЪямяеяЫяЯяНяЮяЗяСяЄяУягякя№яЦяЯяОяВяТяЪяЛядяіяСяЗясяґяДяЗядяРяЛяояжяЕяЗяГяФ яШяВяКяцяЪя°яњяЕяѕяНяїя«яЗяУяЕяєяАяДяѕяµяВяЦяѕяТяСяЕяУяАяџя®яєяЗяБяНяІя°я»яґяКяОя°я№яГяжяНяНя§яЖяМя¦яЅя яёяЬяДяВя­я№яёяєя®яЛябяПяАяёяАяµяґяЛяєяЙя»яќя«я·яВяЧяЩяёяЕяМяњяЅяµяШя©яµяКяЦя©я©яѕя©я®яОяЛяМяДяЖяґяЄяЙяИяґяЈяКяВяДяЕяҐяљяҐя®яМяКяЅя¬яµяЛяКяЄя я­я«я­яЖяАяВя–яЂя|яkяsяgя{я‚яяЉя{яbяHяdяpя›я°я™я№яя€я~я}я”яЊяњяЙяПяєя†яЉя—я~яЋя я яЈяЄя’я°яџяќя–яќя¦я©яЅяБя™яµяВяЇяўяґяҐя¬я«я®я®\{А№ИHҐћњxW”YjHBшцхјі‘wЊD У л М Й Ё  s P C S \ - K N A 1   яю яЭяЕяХяЯяЙяЬяЧяЙяРя¶яґяіяћя—я–яЄя—яўя¤яЄя”я’яљя–я–яrяЃя‚я‚яЈя›я„я‡я¤я€я‹яћя•яќяЃяЌяя°я»яІя·яјяЁяѓяљяҐяЖяФяєя°яµяМяЙя©я яЈяћя©я”яЄяВяЗяіяљя•яЇя№я»яґя™яЇяЗя·я¦я”яЎяМяЦяЇяГяЕя¦я»яєяїяЗяІяўяЕяГя»яКя¶я™я¤яУяјяґяЗяцяЄя№яЗяёя¶яґя·яјяИячяпяЅяГяЇяАяµяґяѕяЧяКя°яёяЕяЙяЗя¬яЙяУяПяЗяРяЧя¬яЁяЈяДяЫяЛяаяЅяРяТяІяШяРяѕяУяґяїяЛяряЭядяЪяЦяЧя»яняеягяЙяЩязяЮяиякяЧ 	 яеяјяСяиякям яЙяЮячякяэяыяРяТяжяЫяТяНяЧязявяй якядяыяг яъяфях  яь  яКяаямямяЩямятяцяЦяЛяхяФяЫяшяйяУ  яюяжяНяПямяНязяЯябяИяЖяВяФяцявяфяУяЗяјяЧяляУяШяЭяДяФяуякяЧяИяВяРябяЦяЛяСяїягяіяЧяояЕяЙяВяЈя¶яЪяЖяЙяОяДяЭяЄя¶я»яЛяЩяЯяТяУя­яУяЪяНяПя®яЕяСяєяИяНяЧяНяЛяДяјяіяПяЖяїяЛяЅя¶яҐяјяіяҐя¶яѕяЩяРяДяЬяПяґяКяВяЁяєявяГя·яЙя№я­яЇя¶яїяГяХя±яЛяЪяЩяУяВяОяЕяНяНяјяБяія­яЎяОяБяСяДя°яёя®яНяИяМяЧяБяДяМяІя°я±яўяИяАяВя©яВяДя№яіяєяИяЅя©яўя©я®яЙяГяЅяАяЎяџяІя±яЅяљяЌяЏя›я¤я‚яђя}яљя¤яѓя}яя‹я•я–я~я‹яђя{яSяIяiяcя‚я°яАяМяµя„яiя‰яЉя‹яџяЬядяАя©яvяўяя°яЃяя“я“я“я’я¶я§я§я«я°я№яДя°яЄяЖяћяґя–яіяґя™я«яя”А…жМoЅ†zЎµЌe}‰ќwСпХјЗдЖ…¶y. а Є ћ Ѕ “ } r \ R O , 3 ! - ; - #    якяПя»яЮяЫяЕяҐяЁяГяҐяїяѕяҐя яћя¤я„я®яќя‡я‰яя†яя‰яЉя¤я­я›я™я’яќяњя–яя™я®яzяwя‹я›яЄяМяОяЩяЇя›я¦я–яЎя©я®яІяєя­яГяГяЅяЅяРя»я·яёя·яёяСяБяІяЋяЈя»яґяѕяўя“я¤яўяњяЗяЇя°яїя§я°яЅяЅяёя©я·яЗя№я©яЁяѕяёяЗяµяЇяєяЕяЅя“я¶яДяЕяІяЅяОя¶яЖяХяСяБяєяХяЗяПяТяКяМяґяХяЙяЅя°яёя¶яЅя¬яКяФяФяїя№яЗяЬяСя”я яїяёяЩябяЖятяЪявяюяияія°яїя·яєяЙяФяЭяХяїя¶язяЗяМя№ 	яЧяУяРяЪяЦян  яЮяСябяияАяЧяо    яшяъяНяЩяиябя»я«яТявяояШяояТяЩяЪягяЯяжямямяц  япявямямяфягяжяк   ячяпячяуяЯя·яо ягяЮяЮяПяОяСяЮявяуяхяюяШяияжяЩяпямяФя»яјя»яГяЦятяЛяДяЛяДяёяЦ яеяЪягяЮяд яЬяОяряфяУяБяДяДяЯяЦяпязядяЯяВяіяЇяРяјяЙяЯяїяАяІяЫяЛяія«яЫяНяАяЧяЮяОяСяЧяЅяКяХяфяЕя»я­яґяґяа ягяёя·я·яГяКяАяПяЬяМяЖя§яЅяЛяАяБяВяМя­яЁя№яЕяЈяАя«яҐяБяВяШяЫяУяЛяАя№яДя№яияЕяГяїяєяЁя©я©яЁя°я№яЩяСяµя©я«яїяНяОяЯявяїя№я—яѕяЈя§я­я¬я¤яЇя®яГяёя¦я§я»я­я›яЕяГя№я®яµя°яљяЁяѕяµяЄя©яҐя°яџяЃя‘яЊяЁяђя€я}я”я©яњя•яЂя…яЌя€яЂяVяfя{яѓя®яЇяя яяЂяѓяЊяяѓя›яћя›я€яћяІяџя—яҐяЎяrяЌя—яІяІя±яґяЄяОяѕя яћя…яя¦яЙяХяТяЕя­я•яЏя­_Kr:&1<‘ќ±dsS!ЗЭаЙБ‘opK@ е Ѕ Ќ  c k u d . I #    &  $ яяяСяз    яВяБяёяГяАя«яµя¶яђяћяќя’яҐяЊя€яtяЋяљяsя€яќяђя‚я‰я‹я‰яђя™я‚яxя‹я‘яЊя‰я}я®яЈя›яљя яЃя¬яГяОяЁяЈя„яЎяћя¦яґяОя«яАя№яПя§я±яЕяАяКя—яСяєяІяЇя§яҐяНяєяІяїяјяЫяТяµя¶я›яіяЙя»яІякяµя яўяРя№яўяҐя®яБяЗяЗяИяОяНяИяєя»я·яКяХяЦяХяМяёя¤яЩяАяЗяЩяЖяБяЄяХяЛяЛяјяХя№яѕяўяИяШяЧяФяµяТяцяЪя¤я™яёяЄяѕяЫяЯяѕяВяЬяКяЪяјяГязямяЬяОяСяХяЦяЭяаяУяДяЫяМяМягякяУяеядяНяЕяРяЮяйяйяшяо  яояЪяШяЫяЯяХян якяфяуяЭяЪяз язяияЯядяТяияХяЮяГякяияк яЬяояеявягяэяеяцяЩяЬяШяв ягягячякяояцягяаяеяияояаяЪягятякяляхяЦябятябяЖяЕяЫяияияЯяоятяияЯяШяВяїяИяєяія»яЖяЛяЭяЪяѕяФяХяЗяРяАяМяРяРяУяЭяѕяЩяЛяБязяцяЫяВяЗя°яєяіяЇяЕяХяВя­яѕяГяЅяВягяФядяЮягяЙяіяёя®яАяґя¶ягяМяя¶яФяєякяцяЛяЕяКяЖяУяВяБяЕяќяЗяГя·яБяіяЬяёяµяЦя¶яЇяКяЬя¦яАя№яОяНя·яНяЙяГяЫяЗяѕяАяЦяКяСяФяПяєя®яНяЖяёя¶я№яая¶яѕя­яЯяЕя°яВя±яЈяРяФяўя—яЅяґя§я©яїяїяЕяВяРяµяЙяДя­я®яўя«яћяЉяѕяїяЅя©яЗя§я«яЈяяџяҐя«я®я“я~яЌяyяђя‹яћя­я•я‡я}яђя„я„яќяqя~я†яђя—яљя›я™яmяxяЎя}яђяЇя я”я|яЉяљя|я яЈяЊяcяkя¤я­я¶я я®яҐяљяќяҐя›я¦яЂя‰я›я¶яНяІя§я«яАя€Ma‡яїo#Ґљ§1=пф+ыбПј±|—oh\6 № Ў } v b X R E  I (  ( ящячяияеяаяФяѕяТяфяёя·яљяЋяќяЇя«яЇя­я­яўя†яѓяџяђяя…я¦я§яxя„яяћя‚я‹я‰я‹я‹я­яљяxя“я“яќяµяЏяxя·яёя–я¬я°яќяЈяЇя¤я«яћя¤я±яєяјя№я­я¬я¦я»яіяјяОяЈяёяЁя¦я®яЇяѕя±я¤я©яОяжяєяїя»яеяёяўяѕя°яЖяЖяМяЯяЅя°я„яЁяЛяЗяѕяЭяйяжяЗя­яИяБя°яёяЅя°яОяПяЇя№я№яєяТяКяляУяїяґя¶яµя–яУяряЛяДя±яИяЕяіяМяјяЗяЧяЩяЕяєяЕя¬яЛяЫякяСяЬяЕяЧяЭяїяРяЭяАяГящяГяЩяТяЯяЫяЫядяМяЩяИяйяИяэяжяЮягядяВя±яОяеянязяРяЫягяУябяНявяРяПяЩягяняШякящяляШяйямяшяьяшятяУяЦяжясяУяРяТяШямяеяъяцяШяЪяуяШяЩяфямяфяуяияпяХязяЗяФяЦяЗя±яляйяЬяняЮяЗяЙяСяхячягяИяАяЩяГя»яСяФяЬяТякяЖяНяЗяНягяПяЧяАяДяПяУяМяКя®яряШяЅяНяОяТяБяЪяБяЈяНяТяаяЯяїяСяЖяї IяЧяЛяФяМяѕяОяКякяёяШяУяїяИяјяГя«яІя»яЯясябяНяСяИяЕяІя«я·яФяУяжяряХяНяґяДя№яДяЇяЧяРяКяЖяДя¶я°яГяЩяЇяѕяКя®яљя®яВяЧяФя°яЈяЇя®яУяая№яОяОяЅя¤яЅя®я©яѕя·яєяЗяµяёяЗя¦яўяЄяЩяЇяќя¶я©яёяОяЦя¤яДяГяДяµяЖяШяЫя¶яБя«яЕяияФяея№яЪяјяђя“я·яКяѕяљяИяТяёяѕяќя{я‹я§яМяґя…я€я„яљяђяњяЉяђяKяѓяќя†яђяЂя„яzяaя~яяѕяјя—яwя‰яњяЊя‹я›яЋяzяЌя™яvяyя†я‚я‚я‰яЌя”я‰яѓяяќя…яҐя›я¦яЇя±я“яЈя§яЎяҐяЎя¤я¤я¬яЈGј¬ђ3xj]DlX3S:гПељѓ ЃG6GX& Ч Є Љ Ћ F < ) C # +    )  яЬязяоячякяеяЫяеяСяЦяЇяЄя№я­яЈяњя”яјя›яѓя‚я–яяuя‘я€яђяXяTяlяЏя†яњя„яpя‘я„яЎя­я«яЌяџя¶яіяҐяЁя’я™яљя°яєяіяџяЉяЁяЁяЌяВя®яєяАяВяАяЅяКя·яЄяПя®я”я§я®я®я«я¬яѕяЧяия»я¶я¶яГя§яГя яўяЛяµя№яјяІя»яєя¤я¬яЛяЮ яТяНяПяїяИяѕяјяґя®яЗя°яВяНяЗяєяРяЫяЪя©яКяШяЇяЇя¬яјя°яАя°яЖяѕяЩяМяКяФя№яія±яЧяПяЬявяБяІяТяКяЗяЬяµя·яШящяЧяєяПяІяЇяЖяіяЗявязятядяјяаяПяЗяЯяжяуящясяпям яУяняЯяуяцяцяЫяпяаяУяаяЯяРяЯяйяЮяЪяФязяВяаяЯяаясяняХякязяпяШяХяСяУяияЯ яхяЭ  яаярянятяжяйябяШяТязязяЯяЮязяК  ядяБяСядяЫяЯявяияляйяоялябяЙяэяШяЙягяЯяЩяКяжяУягяВяРяУяЧяѕякяъяМяѕяХяоясяцясяРяояоямяЮяПяХяЕяЙяЕяХяЬяЩяУяЩя¶яАяШяЛяМяЩяІяЖяИяГяЗяЕяЛяДя­яЄяґяТяШяБяЛяФявяьяОяІяїя¶я·яЦяЛяДяјяПяРяёяАяЅя¶яґя№яляияёяѕяёяГяѕяєяЛяДяєяМяпяЛя¬яµяјя¤яІя©яёя№я¬яХяЛяПяѕяІяҐяЅя¶яая·яіяЅя№яЎя±яЇяіяЄяџяґяІя¬яФяНяѕяШяУяНяёяАяУяїяЅя¶яВяія¬яДяѕяГяСяСяЪяИяЦяфя·я›яЄяњяҐя¶я¤я»я—яјяёя–яљя·яБяџя¦я©я¬я€я“яЎяЋя•я…я‚яyяwяuяqяkяzя‚яЊяµяІя«я|яnяXяsяaяwя€яћяІя¬яЂя€я—я‰яћяѓя”я–яЋяЃяњя•я±я“я©яђяўя·яјя»я±я§яЇя№яЄяїяія±яЊ¤{–ЊLчGkEV5,МХТНЎЎ|s_3- н ¤    € V C : > 9      яъяряняЧягяДяЙяЧяУя®я®яЌяВя‘яёя±я“яЁяЇя“я¤яЈя¤яlя‚я яЏя™я‡яwяђя{я€яѓяЄяЉя‰я‚яѓяџя~яЄя»я яЏя¶я№я‘я‰я‘яљя…яБя·я—яўяЧяµяѕя§я«яґяЗяИяѕяЎя¦яГяРяњяЁяґя¦я«яЎяїяНяВяґя¬яґя«яЁяЇя®я±яІяєя»яіяИяµяёяМяїяќяЁяЗяµя›я–я№яКяЩя»яЄя®я®я№яЄя№яБяЇя±яѕяјяФяЛяАяГяЕяґя¶яЅяИя±яИяІяТяјяЕяКяЗяКяЭяРя яёяНятяйяЧя®яМяШяБяёя»яцявяАяеякяАяЛяЙяДяляФяЕяКяРя»яИяЦяНядя±яЫянядячяоямябяпяБяЧянякядяФязяЦяпяжяДяЬягяеяФяЦягяЭяе яэяуямяъяЮяЭяуяняхяГяб яцялязяЬяэяэязяэ яйябяЪяжяняйяжятяЯяшямяЦяйяЭяКяЕяТяЫяШяеяжядяаяЮяЪяЬяКяЭ  яьяКяЭяПяЖяЅяЯявяХяЛягягяКя·яУягяїяжяляЗяПяняжяіяЗяеяфяаясяНя·яБяКяТяСяФяЯялядяЦяЪяДяЕя№яБяСяЯягяЯяѕяЖя яАя№яТяНя·яжяЩязяряжяеяИяіяДяЁяЅяПяЕя«яЅяФяЕяЩяОяІяФяѕяЗяЅя¶яµяія±яЖяЦяЦяЗяЯяЭяСя»яОяЛяЖя№я—я—яЩяСя±яіяµяБя©я®яИяГя»яЙяјя№яµяЕя¶я¬я¦яЁяСя¬я·яЖяІяєяАя·я¶яµя¬яИяЩяЛя№яјяЯяцяЕяЕя№яСяєяјяЖяСяФяЯяЛяІя¦яЗяіяёяЖяёя·я—яЄя—я°яўяћя­яЇяџяќяія§яўя·яЁя‡я•я•яЊя†я…я™яnяkяѓяњяЈяљя¤я~яtяzяЃя}я”я‡я я}яѓяsя›яђяћя—я“я„я¦я©яxяҐяЊя‡яЊяџя­я›яћя§я­яАяЖя±яђяxя©я¦яљя«KY'{Кb?хЫоЖ™јhҐtlL(F9O п Е ® ђ t 8 ( " / G 6 ящяпяняыявяМяЗяОяБяґя«яёяЇяЈяїя·яљя¬яЁя—яњя“яЉя’я…яЏя{я~я‹я‘яЏяђя«яЌяҐяњя™яЙяяЏяљяЉяЃяђя§я™я¤яія¤я¦я©яЁяґяІя›я№я±яўяјяДяµяєяЙяµяія­яЅяєяВяГя»яЁяЎяЎя я©я¬я‡я°яїяЙя±я•яБяёяМяЗяЙя·яџя·яњя®яЭяРяЯяМяњяЈяОяИяјяҐяћя¬яЪяЫяуязяІя°яєяёя»я№яѕяСяОяХямяФяЖяЕя¤я¦яЖяТяШяеяУяхяЗяЅяЕякя»яЧяБяёяСяХяПяЕяЛяНяГяЫяЮяЧя яёяґяБяЩяВяЛяЕяСяЧягяВя¦яёяНяКяУяЩяНяѕяЕяЭягяЧяФяряуяйяјяФяя яеябяЯясятяйяЬяняжяЯ ящяжяіямяияйяряцятяУяхяЮяаял  явябяЦядябяуяцясяЧядяи яюяЪяЯяэ яу яЯямягяЦяШяЭяуяфяъяПяЭяАяµяТяШяоягяЭяТяУяОяйяаябяЗядяжяуяИяКяЕяГяЧявяЛяЕя¬яТяАяляыяФяМя·яРяЦяияДяБяЕяЪяНя®я№яАяѕяЙяЛясяи f яеяХяЛяЦяЧяфяТяРяЛяЬяїяСяГяёя№яЖя¶яУяняКяФяуяеяЗяЗяФяЕяѕяГяєяАяјяСяРяГяЭяжяґяія¶яОяНяЅяІя»яРябяЭяЅяѕяЧяЗяИяґяЕяЙяйяЩя¶яСяВя«я§яДяИяЪя»яНяНяЅяЕя·яБяєяЗяѕяжя§я«яВя¶яНяІяЖяОя°яАягяЛяЗяЇяИя®я»яЛяµя°я»яДя·яїя¬я®яАяїяАяАя—яІя№яЅяУяЅя·я›яќяЇяЇя·яИяЭяЬяґяЙяјяЁяЎяґяГяіяЈя—я–я…яя|яЌя™я‘яuяЋяЇя‡яwяЊя–яpя~я•яџя¤яљяўя{яя‘яЃя’я®яџя™яsяЈяџяяЏяґяєя§я©я­яІяія§я¦яЛя©я«я‘я¬яјяБя±яґu7АPЅMґ:ю)5ЭЪљ®•ЃHdC!#9 щ у б a s | m  2 # "   
- яыягягяуяЧяЩядяёя‰яЏяёяњяђя·яДяњяЊя’я}я|яѓяЄя¬я„яЎя‹я—я~яЃяtяhяЂяќя‘яяЇяИя•яњя‹я¦яЏя±я†яЉя©я°я¤я§яўя«яЎя·я¬яІяЛяФявяЩяµя¬яєяјяАяЅяўяіяСяЙя°яГяЇяќя·яµя±яҐяјяАя»яЎя©яїяІя«яГяИяѕя©яЅяЎяЄяЁяДяИяїяАяґяґя»яґя·я¬яБяГяняВяЧяУяёяНя±яЦяОяЗяВяТяЙяГяИяАяЄяјя°яШяРяКяєя°яНяёяЙяНяТяЫяБяДяхяБяЙя»яЙяЛяИяЪяаябяКяЕяГяЙяТяЧяЧя»ябяряеякяхяняряияЪяХяТяЬячяЭямяеяляиягяЛяияЬяЦягяЪявяРяЕяЕяУяхяЬягяФяБяЭяјябяЮяОяЖяЭяХяЯясяЙяйявяфяияляЭяе яляПяжясяфяйяыяфяюящяЕячятялябяияляеятяТяПяб яфяСяХяюяэяпяЯякякяаябявяВяУяЕякяцяляУяюяхямяМяХяжятясяИяЗяЇя›яУяЭяхяжягямяСяСяИя¶яІя»яФяЪяСягяЗяЕ я¶яЛяГясяРяЦяЦяиясяьяЬяЛяѕяНяМяГяЗяЙяАяіяЙяуяјяИяЬяаяфявягяїяЬяЪяФяРяЖяМя·яБяОяЇя©яМяФяОяУяДяµявяЕяряЙяјяІяЦяПяБяМяАяјяєяГяШяќяЄяАяИяїяІяяНябяЗяЭяЄяёяїя°яєяояжяЖяХяАяЄя¶я©яАяГяЕяЅя№яѕяЅя°я°я°я§яїяПяіяіяҐя¶яЗяКяЅяія¦яГяБяКя§я§я®яјяЄяґяПяНяћяЄяљяІя›яАяШяДяЗяГяІяЈяя¤яЈя»яҐя—яЌяљя†я‘я‘я€я|яђя†яћяјя¶я®я’я~яiяwя‹яЏя яњяђяЉя‚яzя{я€я§яЌя‘яuя‚я…яћяЁя‘яЏя‡я“яЉяЎя«яяҐя­я¦я©яІя‘я‹я¬яЄяіHOE6!РФЮ+пнщК‹®^DM$ ь Щ ї u ? U ? + % яц   яхяЫ яФяЯяЖяйяКяЄяѕя®яЏя…я№я·я°я©яя©яћя…яjя”я€я„яmяpяsяoя{яђяtяXяЌя”яЉя›я›я…яя я§яњя«я“я€яЎя«яРяИя°яЁяІяяГяія·я«яЦяїяЎяІяЛяПяЕяГя»я»яГяІя¬яўяІяѕяЄяІяЧя©яїя№яµяҐя‘я«яія™яМяЙяЅяЎя я—я­яҐя§яЇяЇя±яЙяµяјя¶я№я·я»я°яЗяјя®я·я¦яЦяУя·яѕя±я™яДяЬя»яјяЗяЛяБяЦя»яВя±яµя°я¬я§яБяљя®яЦяНяАягяРявяЪяОяАя®яДяПяЪяЮяДя°яХяЦяЮяЧявявяИяБядяняХяЪяФя­яЫягяЫяМяМяЖяКяИяПяМяхязяжяйядяаяжяъяляжяШяЬялявяпясягяряМяцямяцяюяФяеяшяыяЯяШяйязяМягям   яеяЮяеящ яняЬяФяфяюяФяИягяЩяуящяаяб ящял 
-ящяЙяНямязяЫяНяеяТяБяЦяБяТя©яЭяр яЧящяь яляЮяЗяЕяКяЖяКяЩяѕямябяУяЪяОя©яДяТяјяУяДяУяиякязяєяУячяЛялябяРязясяжяаяїяпяЪяПяЖя»ясяєяЇявяЫяѕяёяґяМябяАяМяьяЦяЪяЭяЧяЕяГяЩяСяєяАяЄя¦я¬яСяРяЩяИя±я±яПяјяґяЅяјяЧяХяЅя·яШяНяїя№я±я¦яҐяЁя°я№яИяПяЭяЫяґя©я¤я·яАяѕя­я»яЭяДяЅяляАя»яНяНяРяОяЗяЙяИяГя¶яёя·яІя¶яќя™я¤яћяВяјяИяЦяїяАяЁяОяБяЅяёяҐяЖя№яІя№я©яЈяџя±яГяУяОяЧя®я®яАяўя»яєяјяјяія–я’яјя­я›я я¶яІя‹я†яя•я‡яЁяvя—я¦яљя†яЈя•яUяiя‘яЂяЌя•я‰яҐяњяlяЂяzя‘я‰я`яlяsя™яія»я¤яћя¬яґя¦яЎя¦яЎя’яџяЎя¦я•я•я~яЈяЅя¤Ћф ЦАТЬ=У'тђђ€zFA?  щ А i X L -  * ,  ятяояряпяЪягяАяЅя®я¶я¬яЅяґя•яЈя»я­яЌя‚яґяЁяЈя‡яя я€я‰яЉяя я‡яvяћяЎя—яћя›я—яќя{я‘яІя¤я{я‰яЋяўяЄя¤я®яћяЈяГяіяҐя©яЇя›я¶яЇя™яєяѕяГяђя‹яЇя¬я°яІяя¶яїяЛяАяГяґя№яМяєя­яЎяЈяјяѕяћяњя“яИяДя°я№яЛя¶яЬяЁяћя¶яДяіяІя»яёяБяПяЙяДя­яЕяГяОяєяБяуяОя·я¬яМя»я°яјяВяЁя°я®яЇя«яДяСяёяВяБяГяЕяЁя›яСяФяОяїягяФяПяНяЮядядяґяЅяЪяаяЩяµяЧяляляЕяХяЭяБяДяияЈяЖяЫяжяНяаяюящяОяАяЫяГяВяеяЧяЦявязяЫягякязяуяО  яояДяОяжямяняфячязяОяияоявяб  яшяЭяЬяаямяЪяСяуяжяь 	яляз яЯяШяч 
- язяюяэяеятяЯяфятяр  яряняюяЯящяжябяЬяЧяЯяЯяеямяПягяЮяуязяШяУябяЗяйя»яЙяШяУячяШяГяТяТягяУяняХяѕяЬяляЯяВяСяВяЧя»яКяУяЬяёяёяГяДя±яЩяЗяиядяАя№яБяжяЛя±яАяХяУяБяФябяЗя»яУяЦяРяФяЛяБяДяВяІяОяДяЙядяМяЇяЗяЖяёя¶яІяТяШяОя¦яЅяЖявя®я¶яКяРяМяшяШяЎя¬яЕяТяЫя±яЗяАяЙяФяеяняйяИяБяёя®яѕяјяУяЭяляТяЙя·я»яЅяµяУяПяЕяИяРяЕяОяОяґяМя»яўяЄяВяєяЪяДя№яНяКяДяТяГяВяляНяЗя§яИяЫяБяЇя«яЁяЅяЧяјяПявяія¦яЅя»яЈя¤я№я№я·я«яќя„я±я¶я¬я’яёяєя«яњя…я…я“яЋяІяќяЎяЎяўяђяЈяя’яcяњя›я§яЈя±я‚я|яdяwя›яЉя{яdя]яlя„я”яЄяµяќя¬яЄяЌя{яxя—яЏя™яЎя‡яђяЎяЄя©яђяЇжнКчЏ_”$OжЪЭП…Ј‘o0	@ ч ъ м Ю Б ¦ Z ^ f 1 $ "   япяфяЯяряЯяЙяДяєя¤я¤яћя©яёяія®яЅяЇяћяЌя‘яЊяЉя“яђяoя‰я‡яЎя«я›яЋя“яЁяёяЈяљя›яўяµяtяћяЎяµя©я«я”я¬я»яЈя”яЕяґя”я§яЙяДяјя«яіяёя¶яИя±яњяЌяяџяФяЛяµяЇяЅя©я•я’яЏя›я—я–я№яЖяРяТяЕяНяКяЇяЄя®яќя©я­я’я§я»яѕяіяїяТяґяБя®яДяЭяЖяЧя·я®яОяҐя¶яТяШя№яЖяЛяјяВяјя№я№яѕяЗяјяїяЦяія®яµяМяЧя¶яґяхяКя№яјяМя¬яГяЇяЗя·яЕяЅяИязяЩяЩяКяОяЛяФяЖяШяжяЗяЦя·ябяняйяБяЩяУяЭяОяаяХяЭяїя»яНяАяГяИяОяТяМяаяРяшяЯяжяЭяЯязяц яЕяЭяе  ясяйяшяЮяУявяняпяьядяцяЦяФяЙяз яюяяяиявяияюябячяхяк  яоязяИяФяияРяЬяЮяфяуячякяИяЦягямязядяжякячяд яз яоятязявясяШяДяЮяБяПяЮяЧяфяйяХяАяБяГяШяНяХяЧяПяїяЮяЫябяєяЛяЯяЧяЧяИяРяІяЗяБя©яОя·яїяНя№я®я®яІя®яЫяДяЛяЦяияјяѕямяПяКяНяИяТяіяЄяІя¦яКяЅядяЖяёяИя¶яІяУяЕяѕяСяХяДяЗяґяЩя°я©я­яДяОяВяёяМяИяЗяґяЅяХяЩяїя°я»яГяОяЗяЛяИяаяЦя©я яЭяНяЅябяТяАяЙяЗяПяѕя®я яЕяЦяІя­яЖяёя№яКяЅя¬яёяАяАя¦яїяЅяјяЈяЇяїя¬яКяВя№яҐя§яЁя±яЬяИя»яЄя®яћяіяПяАя¤яїяґя•яџяЛяЕяЇяЖяШя¬яћя¤я‡я№яјя·яҐяЄя®яЁя–я‡я’яЋяzяђяіяҐяќяЁяія‡яtя’яЃя¤я©я®яђяЎя{яoя¤яяя~я~яЂяqяzяwя~яњяЏя™я‘яљяћя–яљяћя¶яЁя яўя—яњя¤я”яџя±нZъбA	'цЙФСЁЛ„a? я ш а М ё њ « b D * / " " 	яояб яня¶я¬яВяЇяЭяјяАя¦я©яџя»я§яЄяІя|я“я{я~я‘я†яxяЌяЉя‹яљя™яђя“я€я я§я яoя®я«яЎяЅя§я‡яЎяҐя‰я‹яЏяЉяќя”я™яАяђя”яњя­яБяДяКяОя¶яљяЁяёя¶яљя‘яџяЁя®яѕяПяНяТяёя»яЎяІя я–яќяМяДяѕяЖяКя°я§я яДя©я№яЗя­яМяїяµяКямяеяєяЖя¶яџяИяТяіяЙяЕяЬяЕяєя°яШя№я©я¬я§яХяФя¦ядяСяМяѕяБяЪяЯяДя¬яјя№яОяОяФяєя­яїяёяКяГяБяДя¶яѕяЧяЭяХяѕя№яѕяЯяВяЎя¶яЧяйяјяДяЫяУя»яРяХяєяЯяЯяАямяЫяЕяёяЬяШяЖяЙязяняїяияэяЦяФяШяъямяКяЩясядяПяйяляТяуяПяЯяЫялягяияЮятяияцяиявяМяляФящятясяэяпяцязявякяЪябяШ яс   яуяаяуяжяц яьяРябябясяЩяЪяхяЭяшяо   ятяняияЦяжяЧяПяЫяцязяЩяеянячяЧяУяНяІя№яСяНяСяЬяСяєяґяЙяКяЖяИяУяШяаяГяЙяАя§я±яКяТя¶яќяВяСяЩя·яАя»яСя»яБяЯяТяЕяРяЧя«я¶яёяѕяРяЕя·яЄяФяОяЕяµяЖяЛяЙяНя·яМяЭяУяХяЫяЇяіяЄяЅямяДяЇяОяБя¶яіяҐя№яµя¶я¶я«яТяОя·я­яДяМяУяОя§яїяЎяЦяЯяЗяИяµяЇяЕяія»яёяёяІяЇяЁяћяГяЛяаяВяМяЄяєябяШяГяСя№яМя»яЗя¶яќяВя©яЇя»яЛяµяРяІяДяјяЄя№я№яЙя±я«яґяЅя¶яЕя±яўя«яЖя©яїяБя№яСя¬яПяВяКяВяЦя›я“яњяЄя®я’я“я€я«яњя‡яўяЅяёя“яѓя—яЏяЋяuя‹яґя¬яџяџя®яlяdя‘яtяDяЃя…яяoяѓя}яџя”яzя›яћяћяЋяЈяЋяћяґя‹я‹яҐяђя©яњя¦яґяўчЭъѕЈЁЫЬТЪ¤’Ё·Mk5$4 У О ± Њ ї – O  $ !яъяъяняЩяяягяфяВяяёяєяГя°я«яљя°яЁя яБя§я«яЋяћяrяwяЊя”яyяoя„яЉя›я–я†яѓяя…яЏя„я‚я„яЏяАя±я яЉя‘яґяяЏяљяВяТяЁяєяќяЈяёяТяїя·яѕяЁяЈя¦яЋя­яґяЇяµяЕяµя®яќя§яГяЩя®яЁя®я«яґяґяРя¬яіяЅя¬яіяѕяЅяѕя—яОячяєяЖя­я±яЁя¤я™яХяЖя”яЄяҐяЅяАяРяѕяЮяияЦяёя©яяіяОяЕяКяѕяРякяЙяБя·яУяВяѕяХяТяїяМяЩяіяЪягяАяФяДяАяјяЕяўя·яДяѕя­яЪяЯяѕяЗяґяјяѕяИяµяїяПяШяјяеяКямяЛяаяуяЩяйяЅяІяНяРяЩяВяая»яѕяЭяРяШяКяЯяпяиякяжяФящяЦяЮяЩяТябяШятяТякяЙяляляняфяхяЩяряфякягяФяаязябямяЭяЭяФяХяЯяОяРяЬяжяпяПяеяшяя  яЫяияеяУяШяжямядяФясячяпяряЦяЫябякяряТяйяуяжяфябяо 	 яЭяеятяКякяЧябяЛяВявяХяЗяЩявяЮяШяЙяТяДяЧяПяШяЪяВяОяЖяДяШяГяЅяАяјяІяДяИяУяСяЮяЧяЗяѕяЗяОяФяБяія›яПяРяЧяЗяСяДяЧяТяјяЄяЅяЙя·яСяМяЫя№явяЩяДя«яИяЅяНяЗяЦяѕяЅяЧяВяЦяРяЖяЗя­яСяТяѕяЄяїяґя»яГяЬяЦяМяМяЩяЗяАяўяєяияеягяЖяАяГяЇяџяГя±яДязя»яЎя­я¶яЇяБя¶я¶яЅяНяПяТяНязяїяАяЕяєяУя·яЄяЅяєяФяјяћяЅяИя¤яГяБяПяГя±яњяАяУяёяЮяЮяЖяЁя§я­яјяїя•я›яНя№я­я®яѕяіяЅяҐяћяќяЄяќя¦яяЂяћя©яёя я’яyяќяЏя‘яя•яЂя‹яєя№я©я—яяZяpяZяrяoя„я|яhя†яnяЃя©я“яџяІяіяіяЉя’я‚я•я©я яєяµя¬я”яЄя±яляА€ґВ‹sV ЩВДjЕ—O G щ ѕ с ” … … } ? D  яэ янящяяяЯясяШяСяєяјя±яѕяЇяјяїяҐяҐя§яћяЋяџяњя–яџя“яќя€яљя‘яЏя‹я™я”яЋя¦я›я|яЎя’я{я|яЊяЋя№яВяАя±я“яќя­яЅя·яЇяЇя«яяЁяЇяµя°я°я®я я¤яҐяРяЪяµяГяїяЉя¬яµяёяГя¶я¦яєяЖя я±яђяµя·яµяГяОяєя»яґя№я¶яµяЗяЕяЕя®я¬яµя«я®яИяИяљяЛяєяБяИяКяЅяАяµя±яОяХяєяїя®яёяЩяЛяЙяАяѕя·яјяМяГяћя»яТяМяУяЇяИяЅяДяРяйяЖяГяЛяОяµяЕя«яІяЫяЦяТязяФяЛяґяЇяёяЪяСяКяНяЗяєяМяЙябязябяЩяБяТяМяНяЅяЧябяЧятяЮярякяЧяМяпячяжятярякяьяляЮяЬяаяяяаяфяхязяЧяЩяг  
-яУяИяаяыяэящяЭяжячяйяряЯяГяКяНямяЫявях  яляняЧябябяЪяЯямяшячяХяфяряПяЦякяЪяЯяЦякябявябяИяСяжяРяеяЪяТяѕяЫяЪяНяАяУяОяМяёяПяШяхямящяляшяјяІяКя»яСяЗяСяВя»яПяЙяЙяр яЦяЬягяЦяЄяЙяЩяФя±яГяШяЯяЮяЧяТяояУяБяїяЯяНяИяОя»яїяЩякяТяВяРяїя·я·яДяаяАяжяјяВяёяµяЁяЙяЭяЧяРяБяСяѕяЛяКяЅя®я№яРяЗяІя±яая«яєяїяЦяБяКяЇяЗяЬяЦяЕяіяВяЭяКяОя°яГяХяМяЦяХяЅяСя¶яўя©я°яРямяШяµя±яГя¦яІяБяЛяЙяБяАяіяёяГяГяЦяЬяЬяЖяІяµяЖяжяЧяЗяМяґя®яВяБя­яМя№яўяНяЗя яЊяѕяµяАяЅя»яЄя­яґя±яЏя±я¶яЪя¶я«я«яґяћя™яќя явяЅяёя§яҐяЈяЗяіяЁяЊяpяџя‹яџя¤яЋяrя|яoяuяvяЊяjяfя‰яя–я}я¦я«яҐя­я я›я§яІяЄя–яяљяЁяЁя”яЎя—яТяАъЉҐЊ—DasекФ»¬ЋZ„ ъ  т т Т є Й ґ ® ў e V B 8 # 	 яСяРязяЗядяїяаяія­яЄя°я¦я яњяЉяЎяџяЇяЇяўя№яя–яЂяўя·яђя—яяія–яЌя¦я}яЈяІяёяЎяћяҐя я®яѕя·я•я·я¬я№яіяФяТя»яДя¬яјя¶яµя»я»яЄяяЇяёяАяёя¤яКя®яҐяія«я я•яИяМя¤я°я¶я»яМя±яњя€я¤яєяДя©яАя«я°яія¬я‘я©я±яОяТяОяХяМяЩя°яВяНявяЯяґя№яћяџяЄяЇяБяЩяµяИяБяЯяНяАяµяЇяПямяЕяДяИяЕяЄя°яёя©яѕяМяДя·яЁяЗяµяФя­яЦяЕяЬяляЧяКяСяжяпяјяСяЙяВяјяЬяҐяДяЇя№яЧяјя№яЙяЯяУяСяЙя¶яЙяЪяряйяЬяЖяЙяјяѕяЬяфявяйяРяАяч ябячяцяаяцяЧямярярязяияфяняЪяЭяь  ябяжявявяЫяЧязяфяпяШяляч 
-яцячяв яхяляЯяляы  яияЦятяэягяряпяяяЬяЩячяряЬяэятяЯяСяйяЬяТяЧяияояаяеяУягяаяЧяРяТяЧяЩяТяТяОяЧяЬяЫяФяЪяСяТяВяБя»яДяєячяХяЧяИя»яБяВя№яТярядяПяЕяШяµясябяаяУяВя№я№яЙя»яТягяГяЛяОяіяЕяЅяЗяѕяФяаяйяФяЅяёяКяЧяЯяЭяєяБя·яГя«яџяЇя№яЗяЯяПяУяРяЛяЖяЕяГяІяЪяЕяДяОяЫяЧяЙяЛяЗяАяаячяСяеяЕяФяРяЗяОяЅяСяГяХяЄяјяёяДяАяЦяоя®я®яЗяОяеяОяЩяКяНяЛяТя»я®я®яёя·яїя›яјяѕяуяёя°яФяµяГя·я№яїяјяПя¤яіяЗяЗяКя№яЩяЅя¦я¤я›я·я¤яЇя«яЅягяКяЅяґя­яПя®я№яІяЄя­я±яіяЇя я©я©яЉяxя–я™я­яєяїяЅяІяЈяњяЂя™яЈяґяЄя©яuяgяpяvяzя‚яrяsя}яpяsя”яџя™я§яџя©яЇяЎяяќяђяњя¤я›яљя«яія™я­яґxPЅB #*Зтх­ЊЂ­‰f$
- Щ Ч О с Р ” m O ясяюяЭяЩяДяЙяОяКяЕяБяАя¬яЎяњя®яГяЅя±яІяія®яя¤я‘яљя„я•я¦яЌя‹я›я’яія я}яuяђя¦яЎяЁяҐя†я¤я“я¤я¬я—я°я—я§яАяМя±яСяµяЇяђя¬яКяїя»яїяБяЄя“я«я¶яія©яЋяГяЄяЈяйя­яЉя€яЅяЕяєяЄяЙяҐяґя»я®яџяўяМяѕяЛяАя«яПяѕя®яія«яЁяµя®яБяНяФяОяРяЕя¦я¬я±яѕя©яЄяљяІяќяІяЁя±я¤я§яСяЙяПяУяЗяУяВяЇя®яµяЗяЖяЙяОя»яГяҐя©яПяДяРяаяЙяВяЧяХяЛяєяЗяёяФяУяКяРяДяЙязяРя»яСябятя¶яіяЯяПяЦяфяЬяЪяЩяГяЫяхятятяШяТяПяЗяДяЕяЦякявяняЧяаяПяЕяґясяЭяэячяЪяЭяуяияжяЭяЭяЫяа яияо 
-явяХягяляБяШязят  ялямявябяц яМяДяПяЮял  яцяш янямяжяЩяЫяяялякязяпяхяЭяЭяЯяЮяаяЩяЮяЬяУядяфящяэяЧяЪяЩяаяЮяЭяЩяїяЛяЦяЛяФяТяЩячякялямяЕяЪяюяЩяЛямяФяДяБяДяЛяЬякяйяТязяВя±я·яИяШяУя·яУяИяБяГяФяЗя·яЕяФяµя«яІяВяИяпясяВя¶ядяЖя№яКяИя®я№яДяІяНяШяняРяЙяцяЬяЪясяГяИяєяјяКяХяЇяВяµя¶яјяУяЮяРяБяФяаяПягя®я±яйяцяляіяЇяЩяНяЧя­яОяіяіяМяѕя«яЭяКяЅяБяЮяЅяЮяУяЦяЫя±яЅя°яГяФя¶яµя¬яѕяЕяЇя«яєяњя№яНяЪяЖяЯяСя»я®яДяІяІя°яКяФяѕяЈяБяЛяИя яЗяТяляЪя§яўяёя°яЁя¬яљяЅя«я¤я»яОяѕя я©я—яѓяћяЌяВяґяКя¬яўяЏя•я‹я¬я¦яҐяњя‘яfяfя_яaяzя€яyяrя‹яkяcяЂяґя»яќяџя„яxяЌя‡я©я›яўя©яЇя®яАя¤я¦яђяўм;Х±”	ЕљЉ„t! о к Щ С Ѕ щ Ъ џ µ ™ Ћ 6 'яЬяъяОяПяДяЄяІяїя¶я яёяёяјяЎяєяёяЅяєяѓя я‰яЊя™я¤яЋя„яђя¤я–яђяЅяќя¬я«яљяЁяЅяЎя¤яљяћя€я“я©яяѓя–яџя»яіяІяµя·яџя«я«я№я¶я±я®яПяРяПя»яНяЫяЅяАя©я¤яБяЄя¬яСя¤яяЏяЛяёя«яГяЅяџя±яАяПяФяЗяЅяєяФяЛя±яАяЪяЦяАяняЩяЖяБя°я°я­я®яЄяЎяяРяЅяХяЩяБяАя¶яѕя№яВяЙя·я«я¬яЇяЅяЭя©яјяЕяЧяГяёяЗяБяИяЄяµяјя°яІяІя–яВяОя яЩяФяГяФяЖяГяґяЈяКяТявяІяРяКяВяГяЬяѕяНяРяУяГяПяЇяКяЫяЮяЖяМяЭяКяеяРяРязяСяИяЬяТяЕяЗяШяьяояжябяРяЮяЮяИяїятяЭяРяЫяЪящ яыящ  яюярятяояъ  яЮявяЯяр   яр яфяйяЮяТядяЩяЮяЪяияРяъяеяХяю # яйяаяУ яЦяняРяЧяИяЬ яцякякяРяеяСяЕяШяНя·яЦяЬяаяБяЙяРяЖяЮяЧяКяСяЙяјягяшяДяПяПяЙячямяЬяєяПяряЩяБяЭяНяКяНяшякяТяјя»яЦяЅяЖяЫяЮяхяуяЩяНяБяЕякяУябяМяПяјя®яЪяЬяµяЁяЅяГяПяЮяШяаяРябяїяБяЫяпяіяР \ f (яр яШямяТя¬яКяРя«яИяХяТя«яЧяјяєяГяАяЙяДяГя·яѕя°яАяГяЕяєя®я¬яЦяЪяµяїяЮяЪяНяЛя°я№яІяєяТяИяія·яЄяјяіяАяµяАяЙя·я±я®яГяЪя·яЅя№яОяПяѕяµяЙяїяєяЕяИя°я•я¶яЗяВяЛяїя®я™яµя±яЇяНяЖяХя©яєяґяҐяІя·яҐяҐяГя¤я–яІя№я«я¶яЈяЄя‚я—я«я№яЅя«яЇя¶яҐяџяvя•яАяЇя©яЎя}яlяzяЌяяЂяfяkяsяWя^яyяљя©яяґя©я›я›яќяІя€я‘яўяКя·яёяџя‘я™яЁGhb+њ5'­»ЁЂz‹QЁЃ7 Э ” Е № ¬ є Ќ ‰ 7 A + яп яия°яЛяјяАяЛяКя·я›яЏя¶яЅяДяџя·яґя®яяўя‡я яќя›яЋя®яЌяЄяњяія™я‡я”яћяЊя‡я”я‰я—я…яЁя©яіяЉяЌяЎяЇя¦яІяўя»яµяЇя–я¶яґяѕяіяёяМяСяЭяЙя¤я·я«я®я±яДяБяЇя№я¶яќя¦я·я±я—яџяЎя¶яГяКяЎяЕяЩяХяґяЁяНя«я±яЄяЇяНяБяИя¬яёяЛяњяҐя§я¬я я§яџяДядяїя№яЇяИяАяБя¶яИяЖя»я©я¤яДяія®яЛяЪя¶яЗятяЬя»я­яАяЫягяНяјяВя«яёяНяЙяЅяДяЙя№яФяЗяѕяКяЅяІяЖя®я¶яјяЬяаяХяЧяЗяЅяаяЪяРяМяЦяСяшягяЯяшяЭяКяёяєяєяЧяЅя·яБяГяГяЪяжяпяЩяШяЯяояжясямяеяшяхяхяРяПяФяФяОябяЫяояеязяЬяЮяряо яияюяряЬямяпялямяшяхяпячядяЮяЮяс  ятяь яе ях яряц яФяХяЦяШяШяуяняШяЛяНяѕяЯяияДяаяЫяЧяКяЧяТяЪяДяРяВяЗяУяеясяКяДяСякяияюяаяјяУяЫяжяИяФяэяояЭяхяЕяФяШяИя№яЕяЅяРяАяЩячяДя¶яРяПя±яїяРяЪяКяЫяРяїяГяПяТяДядяЕяјяґяіяРяСяІяЬяЮяпяЕяЮядяпя№ "Џb ~ яуячяјяТяБяїяМяНяИягяУя¬яВяОяАя±яёя»яЇяўяЇяёяЕяЪяБяЙяєяіяЕяВяГя°я©яУяИяЪяРяјяЮяєяєя±яія«я«яБя±яЈяНяаяКяЬяжяЖяДяХятяНяЁяПя¶яАяИяРя°яЈяАяЖяѕяИяУяјя»яІяЙяТяіяЁяЙяЙяєя±яјяЅя¶яВя№яя±я¦я¶яКяАяҐя«яґяІя¤я§я­яГя§яµяЇяИяЙяЎя­яёя–яgяuяјяґяёяВяЁяxяkяmяџя…яsяkяzяSяNя[я‡я®я¤я¬яЄя©я…яЌя„яљя“яЏя­я”я„я’яЋяЂяџяХ=Vў‹Ин;«ynndrI и џ ¬ § П ј Ё t i U ` яфяаяТяЖяПяЛяїяЫя«яЄяДя¶яЏяђяџя§яҐя–я®я™яўяяЂяЌя“яћяtя”яњя‘яђя«я°я”яґяµя°я±я®яя•я®яџя•яЁя–яЁяєяЇя№яКяІяЋяџя—я§я§яёяґя®я®яѕя№яЙяЖяСяєяяёяФяІяїя“яЎя»яЁяКяТя§я¤яІяЕя±я»яљяћяјяАяІя°яНяГяґя±яИя«я§я§яДяДя¶яёя­я№яСяТяјяЖяяљя«я¦я»яєяУяЧяЯяхяМяѕя¬яГяНя®яўя«я№яЛяВяґяАя№я»яЦяЮязямящяШяГяІя±яЗяРяЙяЛяОяЙяЗяУяјя¶яНя№яіяСяИяЕяБяеямяЯяЛя¬яГяЗя»яИясяУяМязяјядявявязяряЩябяХяц явяЅяДяЬяФяЕяКясякядяСяаядяцяЯяыясяРяияйяияЯяЩяНяЩябяаяЯялясящявячяъяеядясяЯяКяЫяюяжяи яЮяаял янядявяфягяпяЭяняояэ яляУяДяаяКяТятяЭяКяЯядяЯяляЭяЫяоясяЙяЛяХял  яляИяБяНяНяСяУякябяСяПяФяьяЫязябяЦяИ яцяея»яµяїяЙяНяГяёяКяВяМяМяЭяПяЦяСяЮяШяѕяєяЯяїяЙяЙяУяхя¬яАяСявяРяІяёяЮяИяБяЕяЧябяЧяМяТяВяѕя№яФ  ъ е FябяжяояаяДяБяДяЅяЇяЬяЫяГяјяМяјяєяѕя¶яЩяОяЗяЎя«яГяЛяСяУяИяРя·яНяЙя»яБякяйяжяЭя»яЙяБяїяГя°я­я»яЦяЬяЇя·яТяГяСяМяЖяКяМяфяЯяјя©я¤яЛяєя»я№яЬяЅяМяµяЖя®я°яєя¤я»я°яАяЎяЇяБяЬяѕя­явяґяія»яїя·я±яУяЭяЄяЎяћя·яія§я§яІяВя»яїяјяЄяёя°я я¦яІя}яѓяїяАяўяµя­яyя|я’я‰яyяvя‚я~яHяTя€я€яЎяЌяЄяія”я‹я‡яЉяѓяяџяІя¬яЌя›я‘я яњяЇфРЩѕmoЙ—u±]3=S л Б С ¦ › Ї ¤ y R P # яжяЭяёязяёяЗяЫяѕяњяўяЇя§яАяіяџяџяЎяҐя›я¤я€я–я|я…я…яЏяяЄя„я…яяяЌя№яЊя”яіяЛяЈяЈяњяЈя±я яЏя·яёяїя±яЁяґя№я·яўяєя™яјяЖяХяКяСя¦яѕя»яБя°я±яћяЁяРяФяЁяИяЌя¤яґяКяРяУяјяЛя№я«я¦я™яЎя§яџяёяЄя»яїяїяЕяЙяґяµя‘яєяМяЫяВяУяЪяЕяґяґяУя«яГя±яЙяЮяРяБяЧяЇя±яЅя°я‘яЗяЖяѕяЮяЦяЮяКяЯяЩяЁяјяУяЙяеяЙя±я¶яјяія§я§яҐяВяњя№я±я©яКяЖя°яѕя¶яїяИяИяЕяАяљяµяПяРяЫяДяГяЛяйяЛя°яЫяеябябяЙяЫяжяХяХяуябяпяЮягя«яЫяОяхяпябяСяУядяжяряняЮяДяЦясяЮяпяУятяшяхяжяЙяВябякябяфящ  ягяШяИям яьядяЬяКяЪяф  ялязяЯяЮяХ яьяюямяъяшяхявяЬямяюяэяояУяРяНяЧяТяСябяФяЪябяИяРяХяаябязячякяЭяЧятякяОяцяЭяояп яияОяРякяояЫяЩяЦяЯяляЫяп  яНяИяЯяєяНяїяОяхящяМяУяЗяЛяВяОяАяЙяЭяЭяТяИяДяТядякяУяѕяЛяДяЬяЫяЬяКяУяЛяТя±яїя¤я°я·я¬яЛя№яµяЙяЬяцякяияєя·яБяУяЛяКяПяФя»яМяія©яПяЫяДяКяРяЪяияМяКяУяОяДяШя¬яЖяЧяѕяГяЗяТяОяЗяЅяРяпяЫяПяРя§яЦяРяЕяіяўяІя±яЛя»яЙя±яћяґяИяєяЕяИяНяЕяКяТяИяіяВяВяЦяОяЗяЛяјяјяЙяЅяІя·я©яСяеяЗяЩя№яЕяіяВя¶яТя¶яМяҐяµяёяіяЄяљяҐяіяКя§яіяѕяГяЈя•я—я·я«яџя№яЇя–яЎяҐяїяРяґя¶я©я–яЃя…яђяuяvяyяkяjяxяrяҐя¬я‘я‡яБяДяЇяЋяwя†я–яrя|я}яxя“яќя”я¤яЊЕ>5Р1• QЎ GnV0 м В Ї Ґ ~ Ѓ ~ r X ^ 8 явяДяЭяїяЪяЮяМяєя»яєяєяЁяЋя“я”яІя•я{я€яљяљя‰яҐя™яvяѓяљяћя™яђяЎяђя°яВяҐяћя€я©яјяєяћя­я”я¤яћяіяѕяРяБя¦я™яґя±яµяЇя№я§я•я–яіяЄяґяјя©яЛяСя°яҐяџяёяєяАяЈяјя°я­яКя®я±яМяѕяµя¦я·я©яёяїяПя±я¤яМяЗяҐяµяЇяѕяҐяЎяxя¤я»яєяЫяТяРяїяЕяЁяґяЁяБяЪяУяѕяЗяГяХяСяёяѕяДяВяєяѕяЁяАя»яОяФяДяЕя¬я·яМя·яХя»яїяЫяјяЇяєяЕяЇя·я™яЗяРяЫяВяБяОяЖяИя№яћяїяЭяЪяФяНяБяОяЯ яцяјяМяСяФяЪяЦяЪяЫяОяµяКяЖяДясяцяЅяТябяДяПяОяМяфяГяАяняЯяояаяГяияКя»яЧяЬяоятясяяяЧяпяхят 
-якягязяХяъясяыяжяїяТяъяз  яЯяняхям ясяРятяцяЪягяй яйягячяеяйяеяЪяРяЭяШяЭяЪяСяв яыябяЖяРяЧягясявяжяЩямяЅяГяЛяняЮяЛяаяЛяСяыякяЯяЙяТяЪяФяЕяЖяєяАяаядяняХяОяжяЛя¶яПяЧяпяЗяОябяБяЛягяРяТяСяЅя·яОяТяёяїяПяхяФяЖяєя¦я®яґяАяИяляЭягяФяХяОяѕяІяЖяЙяЗяёяСяјяїябя·я­яЗяТяЦя±яДяїяУяХяИяЯяГя№яБяХяФяХяЗяЖяЭядяГяЙяБяляеяая°яЛяѕяґяЁяВяЮяЭя№яЄяґя­яПя¦яўяВяКяНяая·яЅяаяФяЖя»яСяМяЁя№я­яЕяНяјяіяІяЄяёя°я§яіяКяЩяЗяЖяЗяІяЁяЕяНяИяОя№я¬я·я·я”яЄяјяЯяБяЙяБяѕя§я«яОяБяЅя¦яґя±яјя›я©я®я¬я“яя©яёяЄя№яЕя®я¤я€яўяЗяЅяПяПяБя–яvяsяҐя•я…яvяeяdяuяvяmя™я°я яўя…я{я|я‡я–яћя™я‰я яЉя—я~я…я¬яќфцл©bSPnqlo;' ц } ™ ђ o j N a 2 	 ( ямяШяЩядяїяГяГяЗяµяЈя«яќя›я·я¶я©я®яџяЉяќяњя™я“я—я€я•я‘я яЉяяЇяљяќя’яwяђяѓяЋяія·я¤я·яЖя°яўяєя§яµяБяїя«я“яЄяїя›яІя©яўяЄя¶яФяЛяЭяТяїяСяКя°яДяФя№яЛяЫяТяЈяёя°я«яЦя°я§я¦я±яїяЁя¶я­яҐя‘я”я­яѕя§я·яТяБяФя»яїягяДяЇяЛяШяБяЄяНяЮяІяўяГяГя«яУя№я­яјя¶яёяЎяІя»яєя»яЭявяјяЛяДяЁяјяНяЗяѕяБяЯяІя»я°яіяЪяЭяЅя«яќя°яљяЧяЕя¶яИягяСя№яґя§яляряТяБяаяВяґяЛяЕяХяеяИяєяОяАяСяНяТяСяГяЙяУяЭяпяЪяЭяРяТядяЫ яЧяСяйяЯяряйяїя№яДяшяояСяеяуярягяеямяЪятяЯябясяю &яояЯяеявяфятязякягяЮяЮякяляр  яияЩяа  яяяцяыяояояэятяЮягянябяр   ятяЯяаяеяпящябябямягяяяцягябякялябяТяБяЖяОяйяЮяИяняляЦяЦяЪяТяДяВяЙяЅяУяУяэяжяЧяЕяЦягяМяЛяЭямяЭяКяМяКяшяаялящяйяµяЙя±яЅяђяЏяКяЭяОяѕяґя­яЖяОяґяЖяняЗяЇяЛяНяЄяРяЅяїяЅяияЩя­яЖя­яНяґя·яєяБяУя¦я°я явяЙяТяжяІя°яёяИя®яґя№яФяЩяЁяєяБя¬я¦я±я·я¬яОяЦяШяФяБяДя§я±яЇяІя­я¬яЁяЕяЩяЛяЅяАяДяЦяЧяияБя»ядяШяГяМяЖяЅяІя§я«яґяЙяЙяЕяЈяЕяїя№яїяєяЖяµя›яВяѕяЅя»яСяЬяРяНяёяТяОяїя¶я™яНяКяџя§я·я№яґяќяґя­я­яўяҐяЁяўяДяІяќяЎя°я©яЅя®яђяЂяЊяЄяҐя›яїяЕя›яЋяўя—я‡яtяwя]я[яbяxяnяЇяјя°яђяwяЉяќяnяќя®я¬я‹я‹яzяqя‚яxя я‹Р7"¤9Џj
-fm_?'+  п џ ” | R [ a ? ,  " яЫяЮяТяЛяіяМяЖя»я№яѕя¦яѕяµя¶яћя–яЄя‘я“я“яќя­яґя™яјяљя}я¬я«яњяxяЎяя•яЌяћяђяћяОя№я¤яґяіяђяЋя¦я яЊяЄяУяЈяћя¤я¦я±яУя№яљя–я•я№яСяЖяЎяјяБяГяНяЗяІяіяЯяЗя№я№я№яЇяўяТяБя§я°яіяЎя†я±яіяЁя№яОя›я§я¦я§я№я¶яЕяЙяјя¶яія¬я¦яРяѕяёя»яЖя¶я©яИяАяґяДя¦яВяµяЈя­яєяЅяЛя±яШяияМяФяРяЪяЬяТяХяЛяКяЙяйя·я­яКяПяИяДяєяЇяјяЧяУя­я¦я«яШяїяаяЦяЪяАябямяЙяУяТяµяПяФялябя·яЕяШяБяЫяМядя±яИяЙяЙяПяЛяЬябякяЦяЩяДяЕяуяияцядяояняИяМяЛягязяпяпячядяаяСяЗяЩяпяаяфяляТяЮятягяк ящяюяэябяаяКянянязяжябяцяЦяйяЭясякясяКяе 	   яляояРяЬяъяхявяаяиягягявявякяияЩяЪяфяяяШякяЫясядяЖя№яАяФязяСяЯяШядящяЭяФяЯяЬяНяАяХяЙяУяЭяияЫяКя«яЙяляНяМя№яПяряЫяЙяТяжядяШяРяАяХяКя¬яМяКяёяЖяЪяжяПяЮяИяИя»яЗяБяСяїя№яКя±яНяјя·яДяНяАя яґяёя­я•яЪяРяЅяпяОябяАяАяЖяія°яЎяіяАяКяБяјя›яЗяЙяЗяѕя¶я№я№яјяМяєяєяЪяЬя»я»яНяЭяёяИяРяЩяЗяїяќя§я¦яЕяДяЗя¦яДяЬяМяжяЬяОяЇяҐяДяјяКяІяіяЭяжяГяЪяПя°яўя яґяМяЪя­яІя©яЈя±яѕяКяЇяБяМяЧяїяґя°яДяГяЄя›яЄяЏяќяЇя©яєяБяОяІяТя±яія°я¤яzяљяЄя¶яНяЈя·яія¬яњяҐяСяЗя©я¦яХя§я›яЉя€яђяmяzяiяbяSяNя€я—я°яЈяҐяћя‰я’я‚я‰я§я я’я‰яѓяђяњя–яЏя—6ќgо(‘5%yEE5I % ” { ќ s A g ` 0   ямяаяБя«я я«я±яЦяёяџя¦яЁя•я†яЌяљяЎя‘яђя‚я„яЂя‰яЌяµя§я›яµя–я‚я°яџяљя¦я§яІя¬я“яїяѕя«я’яЋяЇя|я™яЈя{яЎяІяБя¦я›я™я®я§яУяЄяЎя°я¶я¦яВяКяХяМяЛяДяЇяёя©я°я№я°яґяЖя‘яњя№я№яµяЗяёяЇя¬яБяєя®яєяБяДяДяАяДяїяЅяЖяАяЖяёя±яµя­яјя»яНяЕяЈяќя·яґя±я¬я®я яАяДяПяХяФяБяКяДяЄяЅяєяЖяµя±я¦яЛяАяЗяБяѕяМяЛяїяБя®яљяіяНяРяўя¶яМяеяЮяЗя·я±яЫяѕяУяаяЙяШяЗяїяНяЧяЕяЛяµяйяіяФяХяХя»яияояЯяЕяѕяГяИявяЫя·яляЩядязяпясяйяОякялярявятяъячяняЬяХязягяояЮяЫязячяояСяјяйяняшякяряф 	яи   язяняаяХяц ятявяояХях яэясяЩячяЦяПяПяРя·яДяЧяПяЮяляКяСяк яьятяЦявярягязяияоябяЮяс яАяСяеяХяРяЧяЗяКяЫядяЫяСяЖябяШяЯятяЫяУяФяЬяЩяжяияѕяЪяµяЩятяУяаяШяЛяВяЯ яВяРязяКяѕяєяГя­яряОяДяЦявявя№яЬяЗяЗяНяШяаяЛяєяМяЕяєяЙяНякяТя§яЄяїяёяґяћяЄяѕяЧядяХяҐя®яОяНяєя·яЙяґяјяМяЛя¦я®яТяУя»яБяАяКя»яЛяМяЙяВя¶я°яЄяєяИя·яїяАяДяКя«я­яџя®яМяјяФяЕяЧяЅя·яЄя°я·яіяХяєя№яїя¶яґяАяОя¶яКяГяєяКяјяЙямяЬяПяёяГяЪяЁяёяјяЧя®яЈяЇяµя­яѕяОяВяјяЗя¤яЇя·я»яєяЄяЗяїя«яЙяёя­яЇяЄяЈяИя¤яЎяјяЇяЉя©я·яёя‹яµяМяЗяБя­яЗя«я›я›я”яяoяtяlяeяrяhя_яЉяґяҐя­я«я¬яЉяђяђя‰яЃяўя‘я‘я…яyяxя–я„'3ґЁз нW-1T2 ґ – z w o K F ? яс ям яЗяМя›яАяЇяНяЙя°яЈя’я€я‰я¤яђя}я†яЁяяњя”яђяvяћяЁя‡я—я я—я”яћяЉяxя‚я”яЁя®я·яѕя¬я‡я™я‘я“яЌя”яћя±я°яќя±яљяљяЈяіяќяЏя¦я›я±я·я¶я¶яБя­яµяЕя–я®я·яїяеяія©яВяІяєя°яЅя·яЁяДя№яЎя­яҐя·я яЖяЦяПяЅя¦яІяІяЖя©яЈяБя©яКяЦя«я®яВяПяјя±я®яЁяѕя¦яҐя¦яОяЭяЫяЧяїяЛябяБяµяПяЫяЗяРяБя»яІяЩяБя©яЖяПя®яДяНяІяѕя»яАя­яРяУяїяЫязяряАяГяЇяЙягя­яМя«яОяНяµя®яЅявяЛяЬяЮярязяОяНяКяряЙяМягядя»яТяаябяФяОяЯяХяояСяЬяг  яняьяняЩяуязяИяЙяЬяНяЕяЬяпяъяЮяняЯян 	 яЭяьяияШяряоятяъяляйяцяыясяМянякяряУяПяЭяоязяж   яуяеяИяОяЬяЩяНявявялязяк ягяЮядяЭ яфяояЪяМяЫяЛяРяЙяУяФяояшясятяьяКяАяКякяРяФяЙяЦяСяШяк яйяТяАяОяОяЕяМякяеяЙяЙяСяЬяЧяеятяпяняРяБятявяияЅя¶яѕяАяІяЅяияЦяГяУяМяУяРяЦяјяЖя¦я»яИяНяЯяГяёя№яВя¬я¶яјяТяОяёяОяџяµяІяЫяКяЕяЖя¶яХяТяіяµяЕяПяЛяДяґяХяєя№яЧяµя¶яТяїяГяНяЬяЮяФ яШяїя»яНяјяґя«яДяЅяЕяДяїяєя°яЗяЄя¦яОяЬяїяЖяѕяУяИяДяія»я±яѕяѕяИяВя№яїяИяјяАяУяМя®яЇяАяЧяјя«я¬яёя±яРяѕяВяѕя№яіяЕяЕяАяуяЬяГя·яѕяЙяКя»я®я°яќя§я¬я¬яљяІяЎя›яЁяµяҐяЕя»я±яҐя¶яЗяИяЫяЗя§яЉяЉя€я|я€я’я‹яmяpяwяxя^я•я®яџяўя±я–яyя{яЁяѓя‚яЋяЉяђя™я€яpяyя~zNЩ3пф6ШIvGF щ е Ж ѓ h ( + @ ' ( $   яц яЦяЖя·яБяµяҐяЅяЈя‘я›яќя§я¤яяўя‡яЋя«яЎяяћяЊя§я‘я’я“яyяnя­яяЏяіяЇяўяќя™яЄяќя“я¤яЦяҐя±я±яЈяЁя©яІя¦яВяЅя№я©я¶я яґяЄяџяЈябяѕяЈяЇя­яАяИяЕяќяЇя°яјяЕяєяјяѕя¬яЅяНяНяВя¦яҐяћя»яЇя±яЖя·яБяТяµя‘яњяЙя®яњя™яИяКяњя—яіяНяГя¦я–я¦я±я·яПя±яЎяџяПяТяАяґяБяБяєя¶яМяЛяІяНяёяіяГяЗяЕяШяЖяЦяКя·яёяДяѕяЅяҐяёя·яєяШяКяЕя­яЗяЪяаяСяеяѕяЕяТяМяОяЙяСяМяЧяёяєячяаяФяпяаяТяЗяПяОяпяуяФяТяШяЫяХя¤яИяФяРяияжяуяюяшяпяхяВяЬяняХя»яЩяхяаязяеяг  яьяряжяняъяляЬязяЯяКяа яыябяйяж ялякяч яйяйяиябяЪягяСяжяаяЭямяцяхяхяэядяЭяЬяйяТяьясябяияШяояо яцяояПяЩязячяЩяВящяояЮякяаяТяЩяФяТябяБ яеяпяФяЮял ямяояРяБяЧяКяНяФяЭяУявяЪяБяЙяъяэясятяЩяШяжяПяНяйяаяѕяПяГяБяВяКяШяЕяУяПяГяЖяВя­яНяЕяПяДяАяХяПя©яњяКяРяєяЕя·я я¬яИяЕяєявяЦяФяШя±я¦яјяЕяХяДя›яЦяЩяЧяҐяОяАяГяїяјяЕяСяКяМяґяІяЗяАяХя»яЕяжяЩяеяЫяеяАяИяЙяГяіяія°яЗяияояИяряЫяЕяВяёяНядя»яЛяАяКяЧяёяДяЄяёяТябя»яОяЕя·я›яПя№я¬яШяЙяўя»я«яЁяјяШяДя¤яАяµяЛя±я№яРяХяХяєя¶яўяїяЦяЬя·я¶яёяЄя”я’я«яµяµя¶яҐя яДяЫяЎя™яёяЛяаядяБя§я‚яѓяљя¤я“яҐяuяvя}яя—я§яёя¶я§яђяgяmяvяђя‘яzяxяbяЉяҐя|я†я“яЉЅ{_\жу‘' ъ		 Ћ i 2 : *  яыяПявяіяея¤я§яљя¦яўя›я¶я®я§я°я±яЕяЅяёяя‡я–я¤яЎя¦яія‹яњяќяєяЄяЏя„я‰яЄяЉя’я°яЅяВяїя№я№яПя›яљяІя¤яџяњя›я›яєяКяЖяћя©яЁяџяЄя’я°яВяЩяЛя¶яяЇяµяѕяРяїя«я«яЄяЁяя»яКяДяјяАяЬяЛяЪяМяїяПяФяВя»я©яјяЅяўя­яўяБя·я¦я“яўяШяЧя©яќяјя°яёя©яёя®яёяІяєяЛяКя°яҐя­яГяЕяКяЄяіяЕяќяјяМябяшяЗяЙяЮяЁя©яСядядяёя°яјяТяїя¬яПяЫяКя­яВяЙя»яјяёяШяИяЅяДяЖяАяАяВяЬяЫяЖяХяНяЦябяЫя±яВяШяШяЫямяЖяїяаяСяМяНядяОяЫяЯяДяХяЅя»яЩядяряІяІяи яТяЭяиянясякяьяюякяЪяЧядяЪядяй ясяжяуягяФяаяЫяхяЯязясянясязяОяЬямядяШяЪяЪяЯяцяеягяьяюяаяаяаяВяШяЭядяйяояеябяаяняряЮябяЭяФяМяИяТяйяЇябяаяуяЮяѕяГяТятяУяТячяХяПягязязяряйябявяЪяЙяВяТяияОяйяИяЙяґяѕяТяЫягяЦяёяАяеяЬяЬяЪяКяЛяГяЅя»яаяХя»яЙяХяЗяЯявяаяЕяаяФяпяфякяфяРяДяеяЫяЩяАя¤я¶яТяНяФяЩяЫяЪяЗяЪяРя¶ягяФяЗяЭябяияБяЛя¶яИя›я–яґяѕяОяЅя±я¶яБяЛя№я№я·яЕяЕяїяДяЇя¬яБяЕяКя»яДяµя№яўяАяОяФяјяЅяІяВяЯявяЛяПябяБяМяБя¶я¶яЗяФяЪяЦяЕя»яЗя©яњяХяХяКяЅяМяХяПяєя·яќяІя­яћяЕяЗяґяёя¦яЁяґяњяИяїяѕяиямяЖя±я¬я°яµя·яВяјяќяљяњяіяІя±я¬яёяЄяЖяРя§яzяЙяФяїяЛяЕя›я‹яђяЎяЌя‚яЌя{я{я‚яlяЋя‘яЁя±я§я—яѓяnяxяtя†я[яpяЉяsяxя‡я¤я‚яsэ[ЦtЖО@UA d V F A  	 яеякягяШяѕяџя°яЏя¤яєя­яњя‰яђяњя«яія“я•яўяћя’я|я€яЌя»яЈяія°я™я°яѓяdяћяјяЈяІяЯяЖя›яўяЄя¤я°я—яГяРя•яРяВяіяјяМяЛяџяЇя«яёяІяВя®яГяИяМяЦяАя»яГя¤я“яЗяЛяя«яІяёя¦яµяОяЅяЇя¬яЈяЇяЁя¶яДяЫяОяЙяѕя­я¦яЄя¬я яЇяіяІяЧяХяПяАя¬я яђяєяМяїяјяЄяЅя±яБяьяаяЛя±яЄяСямябяЧяЦяМяіяєяИяѕяХявяРядяЪяµяЄяґяДяСяЮяЕя®я·яВяСяЗяЧяЪяйяМяЖядяµяЄя°я±я¦яЛяТяЁяёябяБяЙя«яБя»яЫяаязяЧяДяѕяПяЕяУяояжяТяЛяМяЕяЭяЯяСяЮяУяХяПяФяИягяТяОя°яѕяИяеякяияяявяфяУяїяПяаяляаяЫямяЫяЧяч яряряеячяшяряфятяЫяшяцяз  яняуяшяыявяОяЫядяЬясядяЧякядяРяШябяРяаядявяэ яЮяеятявяЮяЮяЭявяЗяЩяжяЪят яияЕяРявяйяжяСяОяЬякяВяТяжяуяояшяр якяКяЫяаяКяЦя»я»яЩяТяВяТяаяЅяжяояЖяЭяЩяЩяЩяЬяЙя№яАяШябяіяЪяЛяіяИяёяРяНяаяШяСяёяКя­яЄяґяИяІяРяЩя±я±я·яЩяАяКяНяґяЦяјяЅяУяМяІяг яъячя№яЙя»яБя­я©яЄяФяПяБяДяЈяґяєя©яЕяВя­я«яИяёя№яЖяЕяХя№яМяЙяєяДя©я№яЕяСя¤я»я§яВяјяОяГяИяЙяТяУя№яґя¬яНяГяФяОяТяїяТяДяЁяКя№яАя»я¶яГяБя°яБя­я¶яАя яЙяЛяЧяЗя¬яія¶я«яѕяСяїяЬяЗяЯяґя·я¬яѕяєя©яДя«я°яя°я°яЈя¬я¬я®яґяўя‡я”я№яГяГяКяБяћя‘я—я›яЃяlяrяyя}яfя}я«яІяњя°я±яЃя‘яЌяwяяyя`я„я‹яЃяaя~яЎяђяѓ1Ь„ьл*Ы.*LAW+ я в ]  3 H 4яйяРясяЕяНяЈяљя‡я§я—яЋяјяЅяџя¤яЈяћяЉя±я яљя–я€яЌя¦яЎя›яҐя•я‡яҐяЃяЊяЎя•я®я«я®яЇяЕяЛяєяҐяіяјяўя™я№яЛя±яБяЧяёя±яМяµяјяАяљяЈя№яЕяјя°я¬яґяґя№я©я§я¤яІя±яѕя±я°яґяЅяЅя©яіяјя©яґя·я яћяІя±я¶яХяЧя§яњяЅяЛя¬яИяјя¶яАя­яљяЊяЖяїяЙяБяОяҐяЖя¶я»яѕяЇяДя»яўяґяКя·яЕяЫяПяВяЅя¤яјяЕяЁяЇяяЁяёяЪя·яБяЖяая»яЙя®я№яСяИя¦яПягяПягяБяЦяµя№яЬяХяЬяМяґяСяюяЕяГяЕя»яНяЗяЖяЖяЪяСягяЭяЬяАяНяЙякяъяЧяЬяРяПяЫяйяряыяняЧяняМяжябяЛяБяоязяхяШямясясяЛяПят яряХяпяеяпяпяРяЛягяЖяжяьяйяЛяеяыядяЬяояЮяэяхяфяПяеяЯямякяцязялякяЫяЧяЫяОязяЪяж яэ ягяаявяЬяЫяхяъяЛяХяряпячяияЭявяпяояйяЯ яЙяСяНяНясяьяХяПяЦяУяЯяЗяжяЩяЧяЫяЖятяМяБяияЧяЙяеяјяМяКяРяЗяЯядяТяЦявяИятяэя»яЙяняояЮяЭяГяПяРямяжяЅяхякяёяНяЩяЕяШяЩягяУяСя¬яія±яЗявяЭяЩяЩядяГяГя»я»яЫяОяЙяЅя¬я±яїяИяияПяХяЛяыявяКяєяєя®я©яя­яјяёя«яЅяЁя·яЭяСяўя°я»яГяОяияЩяЖяґяЄяЗяЅяТяЮяйяЛя©я®я»я»яАяЖяІяµяЗяНяєяОяЕяГяУяияМяЗяСяВяДя»яєяРяПяЧя©яЎяІяЕяДяїяДя№я¤яДя­яЗяЅяЖяЄяЁя§яЇяїяГяЪя·яряґяГя¬яѕя”я›я›яњя яµя№яўя›яµя°яЄяёя±яЁя¬яµяЧяѕяЅяПяЖяљя‹яЏя€яџяyяiяhяyяsя‘я®я±я®я»яяoяzя‚яxя{яnяsяѓяzяqяѓяЌя‘яvцкХУВї† ы Ш$ ъ Ф д њ C 9 0 яыяЫяфябяЭяЅя›я‹яђяљяя‡яБя®я№яЈя—яґя±яіяЊя™я•я€я§яя±я¬яўя”я я№я•яђяЏяЏяҐя™яљяЇяљя±яҐя®яІяёя·я’яяДяёяЇяОя№яАяРяЈя©яєяЖяШяАяжявяєяЄяќяґя°яґяџяњяґяѕяЖя­яўя«яЁяЄяЖяЮяХяЇя±яПя№я°яўяҐя»яєя‘я»яЖяёяНяОямяМяЙяія§яГяСя­яРяОяБяµяФяѕяжяЮягяМя¦я¬яРяјяЎяЗяШяКяМяЩяЧяФяКяґяіяёяПяјяїяСя°яїяБяЩяЙяДяРяЮяляЫяТяЦяЁяћяБя°яИяКяїяТяёяПя·яЪяЬяляЦяёяОяНяЪяРяРя№ямяЙяїяРяРяЭяЮяОяГ яыячяаяЧяБягяЮяЗяЛяУяеяОяъяХягяЧяяящяюявявяЫявядярян яъ яряйяцящябязяЧя№яЬяЭярявяляЮямяияШябярясяйяп япяХяе ящяшязяп  ядяаяшяш яюяряъяп яояоязявясяКяЫяФяЭяшяьяжяЯяеяфяЬяМякябяЩягяФяЭязяряЯяФяНяТяЬяДяЛяЧявябяЦяГяЬяПяЛя­я№яСяДя№яДяСяЭяЖя±яТяЬяСяЯяіяёяУярявяЗяАяЦяЧяжяцямяпяжяШяШяСяХяЙяТяшявяЙяПяНяМяГяВяАяЭяпяЮя§яІяЄяЖя¬яЖяГя№яєяФяѕяЙяМя­яѕяНяДяЭяЛяјяјяБяѕяЗяѕяѕяляОяёя«яИяЗяЖяДяµяЕяїяјяЗяРяРяїя яјя»я·яОяЗяАяЭяЯяЪяѕяЪяШяПяЗя№яГя¶яЗяНяаяЕяНя»яґяЄя­яБяЪяГяГяЛяЫя°я«яёяЛяЕяЕяШяНя©яҐя·я±яРяЫяЗяЗяЙяѕя«я»я·яІяіяњяАяЇя№я›я›яЁя¶яњя®яџя«яія№яіяњяљяїяґяњяеяШяЬяХяЬяКяЈяњя}я€яЃяѓя`я“я‘яjя{я яДяѕяёя®яЃяgя~яяoяuя`я—я‰яoяwяzяaя|»ЏМЭ¤ЃU  с Р д ї Т ? "яъ  яряВяОяШяПя·яіяўя§яЂяѓя¦яЁяўя§яќяёя‰я‡я я»я—я–я–я’яЗяЄя§яўяЏя¬яЊя«яЎяіяёя¶яЁяЁяјя­яЊяљя®яЅяѕя§я°яџяўя›я¬я№яІяЛяЇяћяДяАя·я­я°яАяєяЮяіяёяµяХя»я™яџяЄя¬я§яѕя№яўя®яУяЪя¶яЇя™я±я±яМяРяїяШяЖя¶яФя®яГя¶яµя±яГяЕяЅяТяКя°яѕяКяЅяІяёя°яСяЩяФябяєя·яСявя¶яяЇяјяЖяЦяЧяїяЖяЬявяНяВяЕя±яГявяЬяµяАяГяґяёяВявяСяјя¶я»яВяДя№яИяЖяЇяЛяЫяНяБяЙяјяНяГяРяЦяняЛяИякяФяУяХяУяояХяЩяпяЫяЭяЩяБяШяияУя»яШяЭяНяеяеяк  яЪяпяЯяияШяняЧяеяѕяЪякяЩяРяЧяжяеяеясяняЪяТягяляшязяы явямяРятяфяфяъягяТяФяШяжяо  ятяСябяъ 
-яа   ятяФяк  яу  яыяшяйянялятяфявяФятяуяПядяУяТяЧяыязяняфяъяуяЭяФяияУяхямяРяУяЯябяТяКяНямяЦяБяИяїяБяЛяСяУяѕяРяЛяЧяФяТяаяуядяЫяЧяДяОяїяЭяИяѕяВяїяѕяЮяияЛяЛяСяЧя»яОяЙяГяРяУяТяДяГяЭя»яІяЁяЛяаяµяеяЙяНяЫяНяКяСятяДя№яЅя­яіяЅяїя®я©яѕя·яѕяНяЕяЮямяЧяЮяМяЬяїя»яіяќяјя№яЖяТяґя©я№яіяЗяШяЩяЧяФяёяЖяНяЛяјяЮяаяГяРяїяЛязяУяЖяЮяЮяВяёяЛяЬяЧяеяВя§я°яія¬яМяФя°яћяґя·яµя·яЗяЄяАяаяВяіяљяЄяБя¶яБя§яЗяЫяЕяМя±яЖяЙя°яІяєяїя®яЖяїя яЈя¤яўя«я°яія’яќя§я·я§я§яѕяЎяРяСяЮяеяияОяґяІя„я•я“яђяЂя‹яuяtяЇяАяИяАяґя¤яqяNяpяvяЉяrяwя‘яgя{яЌяђя~я‰h5ЧъйЖq и ъ Ф ћ ‘яэ $  2  яШяеяУяАя¶я№я€я‹я‡яўя’я€яЁя±яҐяя«яЇяїяЖяяўя€я{яєя—я”я›яЁяЄя‰я”я›яЄяАя№яЗяѕяєя°яџя»яџяяЅяВяќя·яЄяМяЦяјяЕяјя›я®я°яДяёя»я¦яПя¤яЗяАяґяБяђяЈяИяВяяёяјяЖяАяґяЙяНяНяЇяЁя®яёяУяГяВя·я­яГяБя±яхяЫяХяѕяЈяјяЇя я§яЦя°яЄяѕяДяЛя«яЦяряЙя¤яІя±яєяµяЗя¶яєяФя¶я»яГяХяРяЙяµя¬ябябяµя©яДяёя№яЙяєя»яДя±яЦяЖя¶яЙяряОяЧяЖя™яВяія№яёяјяґяПяЪяЖяГяЯядяТяТяЙяЮямяФя№яНяЯяЬядяНяЖяЙямяБяЬяЬяМяОякяояЩяояЧяЭяляияияляЧяЧяЦяеяУяпяфяУяЅяШяЪяГяжягяляЯяЙяЬ яаяояжявязякябяп    яяямяФям яЮяЬ яхямявяЩяпяДяЩяпяеяляйяНясяеяХяоязяХязязяЩябяряеяХяРяОязяыяьятяеял  яшяйяляыяЭяЕяпясяаяеяСяХязяЮяВяЩядяЯяТяРяУяЪядяйяйяаяЪяКяОяЭя№яаяЮяхяФяРяЪя»яјяЫяуяФяЖя°яБяКяеяОяБяЙяйяЩяРяіяёяУяЩяЧяїя®яРяЇяМя»яЯяЭяИяНяХяЖяШяјя§яШяЕя±яЅя°яЖяЕяЫяЪяШяЅяРяТябямяїяйяМяјяЛя№яјяЦяґяМяЕяїяЙяРяОяВяЄяДя°яГяФяЦяРя¶я¦яёяѕяГяШяєяФяХяµяСяФяПяјяСяБяИяЖя»я¶яНяІя№яГя»я¶яЇяІяіяНяЖяЬяЖя°я§яДя°яЅяПяСяМя­яёя«я·яия¬яДяЌя±яІяЛяаяЦя¶яВяИяВяВяЙя¬яЎяћяњяўяћяњяЁяІя­яНяПяІяЇяХяая¬яяПяЙяМяЪяпяЛя®я›яЇяЌя‘яЋяЎя–яѓяЂя‘я¬яІя°я—я‰я}яhя]яxяuя•я‚яvяdя|я“яxя|я€юДІќFR\" ж Ы Ы Ж Ф Ґ T E ! 
-яЦяХяµя­яУяЗяїяЈяyяЊяћяЎяћя±я©я«я¦яЊя‚я–я©яњяљяњяЏя”я’я„яЎяЋя©яєяљяЎя“яЉяќяЇяёя¬яЁяЙя·яњяЕяҐяћяіяЛяБяЄя№яМяЄя я™яЕяЙяЕя»яљяёяЙяЯя»яБяЄяДя¤я яЈяДяґяЈяРя·я§яЬяБяАяВяїяјяЁяџя­яВя°яёя¬яѕя±яБя¦я•яїяЕяЇяҐя°яДяЛя°я¶яџяІяФяЕяСяЛяѕя­я·яЄя¶я№я№яЅяОяВяКяйядяуяёяКяГя¶яљяґяХяЖяћя яГяШя№я¬яѕя»яЁяІяТяЙяЙяЖяЯяЧявяЅяФяРяМяМяЖяАя±я­яКяПяСяФяШяПяГя№яЕязяЯяЖяйябяФяХя»ядябящяЩявялякяСяйябябязяДяѕяБямяЦяаябякяйяПяЖяС ябяЕяЅяЦяШяОяЫяФяйяЙяЮящ  ямяояй ясяпячяч яцяЛяЦяуячяаязясяиядяняОяШятядягяр яряьящяЩяиязяЦяхяхяляняШячяНяняЬязяЮябязяЧящяуямяРяфяЪяляхяЮяняЮяЛявяеяНязяфяЫяіяИ яаяПяМяЦяКяЭяШяУяМяёя¶яБяЙяЮяРяЪяПяйяєяМяняеяаяияйяЕяСяХя»яаяМяЙяёявяжяСяЕяФяРяжяЪяЕяІяЛяБя§яИяјяМяАявяОя°яёяЕяЙя¦яКяШяФяНяЙяАяХяєяЁяЖяіяїяєяРяЛя»яґяГяФя№яШяМяјя»я­яояЬяЪяеяЮяйяЮяЦяБя»я¤яЗяПя­я§яЁяДяёяЪяЗяНяИяЬя»я№яМя®яµяГяЭяОя¶я¤я¬я№яїя№яјяМя–я№я№я·яШя·я»яґя№яҐя±яџяія¶я№яЖяіяЗяуяѕя«яМяњяКяШяРя¬яАяОяНяЩяЗя«я¬я±я©яЇя¬я°я¤я§яЅяїяЅяШяЅя§я«яЅяИяµяћяПяряРяСяияОя¬я‘я“я¦я”яђяnяwя•я§яћяДяКяНя¤я¬яљяgя[яhяrяsяpя€яuяtяsяЊя•я‰Яр†^ЈЂ>V  Ь є а Щ ® j Ґ (яыяЩяпяЙяїяКя©я¦я°яБя°я©яћя—я…яЁя·я”яяІя‹яvя‡я я¬яґя“я”я•яҐя’я’я—я®я»яя•я—яяЁяўя¤яВя­яЅяЗяГяИя»яЇяІяія©я яџяія§яїя–я я¬яОяРяїяОяОяѕяНяѕяµяґяћя¶яКяВяЇяџяТяЙяЕяёя¬я яДяІяЏяЙяЖяЅяїяПяШяСяЗя¦я№я¬яЕяМя№я¬яІяҐяИяТяЕяґя¤яМяРяОяЛяТяіяЅяГяЗя§яєяєя¬яґяПяЅя±яНяАя¬я±яЧяЗяґяНяЎя±яёяЙяояаяЛя¶яЙяМяЗяіяХяЬяµяШяГяУяАяія·яЅяЮяИяјяјяЦяЗяХяШяПяряляияЛяаядяМяЫя·яЅяпяояїяЛяѕяѕяЅяПях яняЭяЩяйяХяфявязяояМяДяляыямяЮяжяЙяМ язяряНяляряЧяв яляаяЧяАяЦяжяЧяНяжяйябяпяхяеякяояэяыяцядякяияю  
-яэяШябяаяЩяФящящяеяеякябяъящяэ якяп  яч  яЬяЯяМяляМяУяжяпяЯяНяРяХяеяРяшясяияЯядян яэяЪяУяляЦяДяЙяЦяВячягяРяйяЖяєяАяКяЦяДяЕ ябяНятязяЧяїяШялясяеяЛяМяєяЮя©яЛяґя»яІяпяШя»яѕяїяіяДяДяЛяЕяОяГяѕяЕяЮяДяЕяёяЅяМяІяЇяКябяХя№я¦яАя±я­яДяжя­я¶яЕяНяМя№яВяМяЅяВяОяМя»яАяОя±яЅяБяМяГяДяЪяОяЪямяєя»яЄяєяОяПяЮяВя¶яїя·яёяМякяляйяЩя№яѕяЁяАя¬яКяґяѕяЙяОяНя¤яЈяЧяЖяѕяЖяіяКяУя«яЃяЁяія·яЗяБяёяѕяФяХяТяЖяµя·яµяНя»яєя«яЎяІяЧяЩ якяИя§яµяИяЇяЄя«яњя§яГяёя©яЎя¬яЙя­я«яДяПяџяЫяняжяЯяияБя°яяЇя¶яћяя…яЌяЊя‚я—яЄяџя°я¤яњя”яkяkяhяzяiяcяvяtяzяpяmя”яgkѓАї+i1 н& µ џ « Ч Њ € яЪябяЧяїяІяЧяїяњя«яИяћя‡яnяЇя„яАяТя®я¬я™я“яЏя яЊяЊя›яёяћяђя”яЁяЉяЎяІяеяЩяёяљяЎяБяЄяўяјя¬яЈяџяЊяўяљя‚я¬яјяѕя™я«явяМяЄя­я¤яДяµяЈяѕяѕяЗя»яія¶я№яЇя»яњяВяҐя™я®яЪяєяЌяЛяёяЁяџя»яЫяєяСяНяМяНяКяїя®яѕяЛяїяЙяСя©яЅяХяМяІяДяЗяЩяЛяНя»яЦяЮяЪяДяїяОяЛяДя™яляЫяЕяјя·яИяаяМяЇя¬яКя¶я°яУяЪяёя±яҐяТяЭяєяЄяТяяяЦяЮяЈя¦яТядяШяЙяЫяряШяИяАяВя»яЪяѕяєяЙяЅяЦяеяЪяЫяояЩяФяФ ямяКяПя·ябяПяХяйяЦявявящяряИяЭяеяЦяЩяЮяХякяХяОяМянячяд  яТяТямяпяшяТяеярятятядяняхяФяКяряЭяШяфяняхяеяЙяЪяъядяЕяФяяяЫятядязяняФяИяТяняняояняЮяЫягявяцяцяуяояу яШяЮяляюясяфяыябящяцяУяЯяПяРяЛяуячяХяёяГяШяЬяьямяряЯяхяВяЧяуяСяпясялясядяЧяияЯябяояряВяЕязяЧяЮядяЩяЕя»яКябяУяРяНяВяСяНяЬяеяеяЭяЖяХяЛяЕяРяШяІяЅяЕяЕяјяјяДя№яЩяИяхяЮяІяјяДяЛяНяеяияВяУяЫяЭяеяУяГя№яТяДяЅяєяЇяµяЖяКяѕяКяЛяЖя®яКяУяРяТяјяВя¶яѕяФяґяЩяЬяУяјя¬яШяПяОя№яДяѕяјяКяІяЕяЬякя¦я®яµяЛявяНяўяїяІя¬яІяіяОяЙяЛяНяКя»я°яПяЕя«яґяЅяЕяєя©я§яЖя¬яіяјяЙяєяµяѕяВяѕя»яВяїяКя±яХяЛя•я©я№яҐяѕя№яКяРя®яХяЬяИяЇя±яџя·яїяЧяЇяЈя»я я яЅя¶я я‘яаяЩяЮябяКяія¬я‰яћяєя¦яѓя•яљя•я•я—яЗяГя№я¶яЄяyяzяyя{яwя\я^яIяtя†яxя€я”яx›r[<i1X р – Ґ љ € m ¶ яаяЦялякяОябяія¶я—я¬я—я‘я}я яљяёяНя©яђя•я¬я§яѓяzяЎя’яЎя¬яҐя©яЁяњя¬яєяГя¤яѓя~яџяГя§я±я®яєя«я©яІяµя№я­яРяФяПяЁяЏя®я·яҐя·яЙяЦяєяТя»яєяєя¬яЇяµяѕяФяеяІяµяўя®яеяЧя„я™яАя±яЌя•яњя¬яЖяµя§яБя»яЕяµяїя§яєяЗя¤яАяАяЇя¶яќяљя¤яµяЛяБяЦяСяГяµяёяТя№яНя¬яїя¤яѕявяЛяРяВяйяаяМяґяєяРяёя©яћяМяія¬я·яНяЙяЮяГя»яїяіяїяСяКяЕяЪябяМяАяЧяКяХяШяЬяияТяјяФяыякяНяФяІяЪяая±яИяЫяНяхяСяЫяЦяЭяХяХядяшяЛя»яКяЦяпяряЛяКяЕяПяияТягяЯяЛяМяЦяаязяТяйярявязятяъяхяпяЛязяляЭяГяЯ яряаяуяУяПядяояяяяяй яуягящ 	 яЯяЩяхяляЩяияр  яяяэячяэ    яюяШяияюяя   яЪякямяч яуяъяяяХяЙяуяояУяО яэяцялямяияШяЪясяпяЭяєяСяЖяОяЯяжятякяФяЯяЭяпяЮяДяНяјяШятяРяБяГяЖяЖяПявяЦяБяёяѕяКяНяХяєяуяПяРяЗяФяёяАяВя»яїяЛяШяИяКяСяЩяЦясяПя»яµяКяряФяСяЩямяОяЦяКяЅяЅяѕяѕяµя¬яЛяљяѕяЅяНяТяИяМяЛяСяЅяФяЦяЬяЩ яЬяЇяДяЅяРяґяєяЁя яµя№яЇя©я®яЗяРяТя¬яПяЯя±я°яІя±яХяЯяїяїя¶яРягяОяџяЅяЪяЗяАяЖяРяХяляЪяѕя»яТяПяІя«яДяµяЈяНяОяХяќяјя¦яҐяЖяЭяНяПясягяХяЕяЇя¤я±яҐяЄя”я№яИя¬я¬яѕяєя­яЁя©я·яДяЧяўя¦я­я—яяВя­яЇя°яТяЯяЗяРяаяјяея¬я¶яњяЌя—я№я§я§я±я§яВяГя¶яСя«яnя…я‡яЉя{яbяvя~я•я¦яЃяjяЂяѓчвиvґЂтщ © Х Ч н ѕ ќ ‚ VяжяРяЅямяИяЇяќя–яіяЂяuяЋя~яbя¤яcяљяіяЌя•я§яЏя€яҐяЅяЁяїяЄяҐяІяіяћя~я™яѕя¬я­я«яЇяўя­я«яўяЖяўя«я–яЄяѕяјя°я¤яЖяЖяёя¦яКя°яЙяЕяїяёяЎяѕяЕяЭяСяИяЛяЬя№яНя¦яЅяєяаяЕяУяСяµяћяАяИяµяАяЇя·я¶яёя°яФя·яАяЖяЯяїяаягяіяФяОяЗяЦяіяВяЕяЕя§яЈя“яќя»я«я›я»яОяЙя¶я»яџяКяѕя«яјяКяТяЗяІяДяЫявяЛяКяѕяияУяЯяёя¶яГя№яјяГяЖяЅяБяЛяЩяПяКяЇяІя¶яВяБя°я­яВяПяряйявяРяГяјяСяГяУяСяХяПяёяГяЕяєяВяГяОядяЬяГяАятял яп яНя«яЧяУяЩяцяЯяч яфяПяЪяРяЙяжяЫяУяаяПяыяйящ ягяиямямяМяхяжяпясяляы  ябяфязякяКяйяпяЭяфягяш язяЫ яияЫяпячяшяпяиясяуяюяеянячякяТ яцяп яыямяи яыяоябянязящ  яТяЮяияаяМяЩяЕяъяеяФяЬяЧяЪяПяЯяТяюяЯяГякяЫяйяЬячямянязяЮяХяРяРяБяЖявявясяЪяОяЧяМяЛя№яЛяЅяЙяаяТяАяОяЮяЗяЕяЦяняЬявяШя№я№я®яНяМяЛяЅяЗяИяГяаяёяЙяФяєя±я°я°яІяѕяБяєя№яѕяГяЩяїяѕябяїя°яГяФяСяРягяБяМяГяМяјяЪяПяЙяИяЇяФяЅяЗя±яёяЫяЁяєя№яЙяГяКяЦя®яОямяЯяОя°яУяїяЬя»яїяМяёяВягящя»яАяЁяБя®яАябягяфяЬя№яЁяјя¶яВяГя№яОя»яБяЧяНяЕяЅяҐя·я я±яуякяЈя«яНяЫяАяВяДяВяВя±яўя»я©я±яДя¦яҐя”я яџя±я№яЁяЄяЇяЏя‘яџяџяіяјяЩятяеязяГяЎя§яїяЕяСяАя†я¤я}я—яљяЈяЙяВяАя¦яўя“я‡яpя|яyяvяtяqяnяnяaя}я{яЏ«D¬3' ѕ № љ Ў ¦ І ђ  яГяляЗяСя®я¤яЈя¤яѕя‹яhяRя–я›яzяЃя–яЇя¤я›я яxя‡яіяїяа  ясяВяљя’яњяя я®яҐя‡яћяУяЬя©я“яЄя©я­я•я±яµя±яЁяєяЄяБяАяЇяЖяВяµяЕяёяЕяјяўяєяљя®яёяЕяµяЏя±яБяЕяЛя»яјя¶яџяЌя©яіяїяБяИяЙяГяЧяУя­я¤я·яҐя®яДяЗяРяИяАяЖя™яўя»яДяБяжяВя|я’я–яАя®яЏяЙяЄяАя№яМяЅяЫя·яЫябяЇяјяБяГяИяЮя»яЕяЪяЖяґя¶я¶яАяЙяДяФяРяИя»яИяйяОя®я·яХящяНяЧяЕяЧяЦяРяВяЛяряУящяОяґяМяЙяКяТяИяЭяИяёя¶яЖявяДяИяГя°яиявяпяЭяПяляПяЙямяЯяХятяЦяляхяияФяияЪягяНяБяДяЧяЗяЧяЩяЦягяУявяЫяФяВямяйяаясяиякячяя яЬякяйядяц  яуявявяцяк япябяняцячяъячяхягягяЪ яЯяЯявяуяЧяЭяя яцяяяьяс  яьяЯяияЭяцяНяияяяЮяХяйяЦяХяЯяЯяЭяЦяЛяКямяяяьяЧяПяЮяЩяЦяСяМяЪяРяДякяыяняШяУяЮяЫяЫяЙяШяняаяаяЦяЙяЮяУяЬяДяёяПяМяЕяфяЧяОяФяПяРяїяУяФяЬяЕяЛяИявяляЖяДявязявяЪяИяМяШяАяјяџя©я®яєяБяпяФяСяЧяЁяіядядяТяЙяЮяХя¤яБяЦяМяТяјяаяУяїяАяµяЭяЖя№яЕя¬яЗяЧяЪяПяќяіяМяЦябяМяФяХяАяИяСяВяАяЅяЛядя±яЖяВяжяИяЗяЙяАяИяІяџяія№яБяБяЗя¶яЅяЩя¬я­я©яЮятяРяЖяБяµяЙя¦я¶яёяјяКяЖяПяОяґяЅяЅя¤яјяУяЕяЅяµя«я·яКяИяЗяєяµяµя№я›яЂяќяСяБя—яґя­яўяЇя±я¬яоядяЯяХяРяҐя°яџяПя¬я®яЎяєя“я”яҐяҐяея№яЫяАяђя‹я|я…яZяkяЏяyяWя|я{яrяЉя~яhЁ_^5'0Ґ Я © ‰ ї њ † v 'яЖяжяЛяёя¬яєяwяћяЎя«яія‘я„я€яzяљяѕяЅя±яџя’я€я€яЌяЋяф ќ І AяЛяҐя¦яія›яЎяҐяјя­я’я°яµя°яєяѕяїяѕя»яЇяўя”я­яНяБяЗяОяЖяЅяіяЧяёяДяЗяПяКяАяЛяДяЖя®яБяЈя¶я”яВяИяСяЩя№я·яџяІяЙяВяСяјя¶яЄя¬я§я«я­яЅя№яљя±яЕяСяЧяХяЖя¶я°я©яХя¶я®я°яўя®яНяѕяІяњяЈяДяАяВяїяДяѕяІяПя»яУя·яўяЖяаяЩяГяНя яјяйяПяЗяЦяПяПяЦяЭяЅя№яХяРяРяѕяЗяФя«яКяµяая­яЩявяжяЧя°яДяШяСяХяКябятяЖяЄяКяЙяКяјяБяМяШяСяДяжяеяКяГяЛябяуяЮяДяаяИяЧяЧягядяЬявярятяЗяУядяїяСяФяЩяЯялях ясяТябяцяояиящяДяпяФяхяЯявяйячящябяЭяжяХящяСяЧяияшяф яяяю 	 яряшяеяьябяЙяаядяаяояя яьяоядязяйямят  яйяыяйягятяыяаяхяоязяЫяФяпяЬяяяияляхяТяжягяляЪяЭякяЅяЦямяЦяЕяЅяФяЯ яЮяжяОяЛяЯ 
- яОяїяЪяГяВяНяХяЭяКяїяБяляЩяжяоякяеятябяЖяАяХяУяЅяёяаяјяТяКявяЖяЮяМяИяиясяеяЭяШяЈяҐя»яДяєяЙяЯяЮяЮяХяЛяОяЯяРярякяЯяАяКяВя№яБяМядяЙяСяЪяµяњяМяжяБяТя»яРяТяСяЭяСяЅяУяІяЦяХяЧяµяµяЅяДяёя·яКяГяИяХя·яНяОяЗя­яЅяѕяУяНя яЅяµяјяєяІяѕяјя·яґяХяБя»яЪяРяЅя±яєяНяНяВяїяИяНяЬяУяЙя®яёяВяЕя№яµя¬я±яёяЁя»я¶я»яГяАяАя±яИяДя«яџя¶яЈя­я­яЁяаяґяЄяЅяЯяТяЪяЪяБя±я°яЇя­я§яІяЇяЅяґяЏя†я•ясявягяЙяљяwя]яЋяyяЋяЌяѓя„я†яѓя”яyяЉяiO2"Гјѓ ¦ ‚ v t Џ o Y dязяИяРяѕяКяќя•яЌяЉяsя•яѓяxяЏя“яџя—яјяќяxяя€я™я}яЋяП O P +яжяИяЛяДяїяєяАяЎяя©яёяЗяѕяџяІя©я°яЕя¬я»я«яДяКяћя»яєя»яДяГяТяёяКяєяПяРяєяќяКяеяуяВя¶я­яќя°яЧя±яЇяґяДя«я°яњя№яўяѕяЖя«яВяАяКяЕяМяҐяѕяЬяЇя¤я°я¦яёя®яЎя¶яія°яґя·я·яЎя¶яВяВяРяЅяФяВяДяояЦяМяаяУяѕяќяЖяєя±я¶яГяОяЕяАяґяЧяГяБя©яјяФя·яІяВяёяЅя»яЙяЅяФяДяїяїяИяйяѕяЅяНяМяЫяПяјяЗяДяБяГяЗяЅябя®яЙяБяЧяПяхяЪя±яёязяш яеяІязяЧявяНяќяШяіявяЮяю яхяьядяжяияЬяжяаяэядяйяЪяЖяУяЪ  яаяс  яюязяляыяЧ яюяаямянямяЅябясяоячяняаяияняШяпяЬяЦяо яьяяяжяШяЧядяЩясяХях яп  яеяц яяяы   явяьякяЛяИяц яаят яляМяияфяъяеяхясярятяляпязяц яЪяаяЮяЦяХявяпям яьябяЮяЙяСяУяСяШягяЩяояэяэяХяЦяРяВяШяФяБяДяАяПяНяЙяЪяДявясяЛяїя»яЅяЗяСяНяДябяКяєяўяЗяаяПяРябясяЩяКяСяИяВяЪяЕяКяБяИяАяЖяєяЖябяѕяПяЫяШяЛяКяЛяйяФяЮя¶я№яШяШ яНяµяГяЧяЖяБяЦяъяЧядяЖяТямядя©яЎя¬яЖяЯяЭяѕя¬я­яЅяєяёяЦяїя±яДяОяЇяјяУяДяЙяШя№яЁяЫяРяБя¬я»яАяњяєяЖя·яАяґяПяйядяґяЅя±я›яДяФяДяЕяДяСяГяёяёяЇяЦякяИяВя¶яєяТя®я·яМяЎя“яБяїя–яЇя»яія¶я§яЗяСяжяЩяЩяЛя·я«яЁяџя¬яџяњя©яєя®я”я€яhяЭяЪяМяФя‰яяZяtяpя…яѓяЉяxя‚я^я‡яdяlяђ'+Fч‡°± · Ї ¤ j i J < яµя—яМя¤я§я›яя{яcяxя”яяyяfя}яЋя§я­я‰яnяsя•яҐя‘я{яіяНяо  яµяєя©яБя¬яіяҐяќяИяЅяµяµя—яЁяѕяЅяЄяЅяєя№яПя­я–я±яґяОяѕя°яєяЖяїяІяНяАя¬яЛяЮяПяРя¦я«яҐя±я№я¶яЙяЯяЄя©я¬яЈяЁяОяўяҐяСяПяХя¶яґяЗяЗяГяПяеяЙядяЙяПяµяЙяУя·яіяЇяМяЕяЙяЧязяґяЁяЭяїяЗяМяРяјя±яіяеяИяЅя·я«яґя яЇя§яїяГяМяХяЭяЅягяСяЙяТяФягядякяняУяєяВяРяґяїяСяёядяеяКяляТяИяТязяЭяОя·я¬яСяПяЦяЅявяПяІяКяХяХямямяЛягяЯяТяјяЪяуятяояЕяЗяУяМядякяняМяШяыяыяЗяТяЙяЬявяЩягяНяЯ яэ  ящяЭяХясяэядяЪякябяЫяЭяЪяаяЧяНяляь яьяЩяУяШяФяХяс ятяы яаяйяд яъящяфяпяЫяп яю якяя  яш  яьяпягязяляпяЮяМяРяЭямяк  ягяъякяляЭяпяЧяфямянязяняцяѕябяЩяияжяОяКяе яоявяЯяДяВяОяняУяјяГяЛясямяХясямяжяЅяМяБяЦявяЮяЙязяЪяХядяАя№яГяЇяЛя®яІяѕяїяКяѕяИяйяЙяТяЖяКяпяЫяДяЙяНяТямяРя·я¶яХяіяєяАяЁя№яЖяУяІяЅяїя¶яАягяЯяЦяОяеязяПяЮяАя¶яЕявяУяґяјяЧяИяїяТягяЯя­яГяЩя®яИяЗяІя¦яЕяёяјяјяґяДяЄяАяјя°я–я я±яЇяёяДяБяЙягяУяКяЗяВяВя®яНяОя я»яІя©яєяТяСяРяЗяµяґя›яµяїяЖяБяІя©яЖяЈяЗяУя¶яТяВяіяѕяіяЅяЕяҐяѕяДя·яіяЗяёя¶яµяќя¶я©яеяУяЗяМ яСяёяЁя№я°яєя±я¤яІя†яЏяяУяЮядяЗя†я€я…я|яяsя€яvяgяpяЋяЉяpяcяknK*ъжЩКI м ^ « • Q Q w :яГяСяџяљяћя­я·яћя~я…яpя†я…яЂяяѓя­яЅя—я™яЈя№яљя я«яІя€я°я¶я«яўя­яЏя»яГяѕяѕяГяЬяСяўя­я®я­яґя·яјяєябядяСяїяєяНя·яІя®яєяїяЧяМяЗяіяАяЧяУяїяѕя№яОяКяѕя¶я¬яЖяґяГяЖяБяМяЇяДяЖяёяСяОяАя№яіяЇяЛяГяНя№яЇя№яДяФя«яёя·я№я•яЄяЅя¦я®яµяµяЈя¬яБяѕя±яѕяЄяИяЫя©яіяКяБяЈя¤яїя¶я©яҐяЖяТяїягяПяЅяПяЭя»яѕяВяЙя°яКяИяЖяНяЬяЮяРяЗяЮябявяПяЛяБяЕяИяјя№яЕяаяфяМяЦяЭяФяЛяйяЭяЫяУяїяАяТяјяЫяПяЧяЧяЛяФяјяояпяШямяЧяЯяВяВяеяЩяИяЗяляЯяЮяюячядяояляияяяхявях  яю 	яряеяъяфяНяд яеяцяйяТяеяйякяьяняг язяу яц  яьяь 	 яЦявяйяЩяОяйяояжяаяЪяф яхяыяо яс яуяйямяпяеяняхягяЩяКяЬ явяЧяЯяпяняняйяеяЮядямякяшясяияЬяЩяОяКяЛяЗяОяЛяВяСяе яьямяЧякяьядяОяиябяияПяЬяСяЪяХяияЪяТяНяЕяуяШяЬяМяУяЧягяПяІяИяЗяЩяУяЫяКя·яЬяКяЬяаяЛяТяХяэяОяКяДяЕяХяАяЗяНяЗя­яОяГяЩяјяјя»яѕяЧяЖядяґя§я°яЁяБя­яєяєяКяЙяАядяеязяРяЬяМяЬяОяєяјя¶яЦявяЕяЗяГя яЈяїяІяХяЛяМяЕяіяМяДяТяЗяЬяНяЖяёяґяјя©яЪявяКя№яЕяДяЖяЩяАя№яіяЅяВяБяҐяЄя¤яЛяКяґяВяМя©яµяЗяґяїяјя§я¤я°яїяЎяљя»яСя®яИяГяёяѕяКяЦяБяїяЙяёяЁяЇяАяЮя©яЮяУягяЧябящ яаяЙяЄяЇяЁяЈяґяџяїя™яя—яТяЮягядяДя–яЇяњяzяsяЂяpяя‰я‹яЃяgяmяtв¶НХЉA– ґ — Џ 4 / n F !яОяШя¤яЎяѕяІя¬я–яўяjяjяЁя•яђя‹яѓяќяќяЊя‚я†я”я›я яЋя”яЌя™я™яёяЇяЎяџяБяєя»яµя§яБяјяАя‹я я я№я¶я¤яєя¶я·яХяЩяЙя№я®я­я№яДяИяљяБяЪяѕя¦яВяДяµяДяѕяїяБяНя¤я—яјяЖяЎяЗя¶яЁяЄяєя»я·яИяЪяЅя»яЛяѕяЅяБяВяЄяћяєяАяЇя»яёя®яЯя»яПяГя™яіяЙяЕя­яґяЕя№яІяДяЈяЇяґя»яїяіяЕя®яЅяИяЖя±я¶яБяЛяПяРяЅяЕяѕя©я®яјяЩябяУяЮяЫяйяИя«яЙяВяСяМяКяДяЬяМяЖяЕяйядяІяЅяВяАяПяЦяняЦяЫятяыязяНяЯяцяВяјя№яїяИяЩяаяКяУязяйяЯятязяЩяЪяЖ япяШяшяыяиябядяЩяЬяРяшяряляТяйяияЛяРясязятяь  яПяЭяб    яш 
- ящяъязяояфяоямяъ  ягяШ  яр ясяшяъ яцякяд 	 ядяеятябясяуях  	яхял ясяЯяаязящяляняЭялявяЩяаяЬяаяфяОяИяу ящяїяУярятябяпяЧяШятяНяМяЙяЧяЫячяш яъядяЭяЙяъяТяЪяуяјя№яЖяїяЗяГя¶яёявяЕяБязяняСявябяёяКяЧяЗяЕяЛяКяЬяляКяПяЖяЖяЦяОяІяЭяЫяЖяаяµяАяЗяЕяхяеяЗяЁяєябяаяФяўяЄя№ябяГяАя№яҐяТяЗяВяЇяДя»яТяИя®я–яЁяѕяЦяАя№яУяХяСяШяИяХяАяЇя«я·яСяЫя№яџя»яАяЅяЅяНяќя яУя·яЅяПяУяФяёяјяАяѕя·яГяПябяМяСяШяОяХядяНяМяШяЇя«яГяНяЯяјяЖяЅяЈя«яҐяДя»яєяАяЇя«я»яЙяЖя я©яЕяОяІя­я¦я·яФяДя№яя»я¶я©я©яЬяПя»яХя©яїяЪяуяхяая®яБяҐяЈяЄя¬яҐяђяЊя‡яЉя¬ямяцяНяеяЖяЏя“я‚яя€я‰яsяyяyяzяѓяqяuяѓc2дтgA ~ „ i ‚ y F /яьяВяјя™я·яєяљяяsяўяwяѓяљя’я„я{яя•яГяЙяЋяЉяђя„я¤яљяѕяЎяњяµя¬яҐя†я№я¶яўяЅяЛя№яЎя–я•я­я»яІяИяОяІя±я›яІяБяИяИяµяџяЕяђя«яґяАяЅя»яРяёяРяѕя§яЬяєяЇя¶яіяѕяўяҐяєяґяЗяїяеядяЧяКяЕядяНя±яёяЇяМя»я·я»яѕяЫяДяЈя¶яЧяМяґяДя¬я¤яГяґяјяРяЖяГя¦я±яГя°я°яѕяРяДяЯяОяЛяШяЧяЅяІяєя№яГя»я№яУяЪяВя·яІяДяНяОяляаяЧяИяояЮяЕяєяБяаяЭяУяѕяЬяаяЧяЖя»яВяПя»я№яєяЗяВяѕяЛяКяМяНядяПяЬябяжяТяЙяЕяЗяШяЖяжяшяЮяЭяЦяЬяряДяХяЧябясядявяуяояПяЭяцяояФяДяХяПяаяряьяряКязявяЭяЪяуяхяЛягябятяеяжялятявяЬякяЩ  яКяТянякяш яю 	  ямяэ  ящяЪяняэяьяэяряъяляшяюясящяфяцяуяняе  яъягярямяхясязяряСяеящяЬябядязярявяпядянягязяляряЦяШяБяаяЮя·язяи   яряэяХяМя»яЭяЫяжяИяШяМяДяНязяЙяёяй япяыяняляеяУяСяЖя®я¶яТяляЯяЦяХяЧяГяЧяФя±яЕяЙяЄяѕя®яКяЙяЭяЭяЛяЛяряпяЬяУя№яѕя«яМяЛяГяМяБяЄя­яГяЮяСяµя¶яЄяДяКяШяЮяАяяЈя·яияЙяНяЅяУяЭяЯяЛяЧяОя·яЪяКяёяЛяїя я°яѕяШяЦягяёяњя»яБяЖяІяЁяЗябяєяЖя»яХяОяЗяЁяНяаяјяЖяЬяЕяЕяая№яЅяЙяГяЇяњяДяТя©я–яіяГя яћяҐя¦яІяµя­я·яЅяЧяМяЕяЕяєя°яўяЁя·я°яҐяµяНяїя¦я¤яјяПяІяµяјяЬяЙяСяЬяеяёя·яЕяёяІяИя¦яяљяЌяњя®яляияЫяЩяСя§я‡я я“я›яђяbяўяnяѓяuяqяЉя{С–А;ЏИ`% { ѓ 8 ] >  U я¦яЄя№яЄяЅя‰яUяLяµя яXя^яyяkяbяyя„яўяЇя»я™я{яќя›я¬яія«яЇя·яЄя я’я–я™яЁяјяВя¬я‚я—яИяВяЅяїя¶яВяВяЄя¶яµяќяќяДяПяЧяЛя•я§я±яїяЩяЧяГяЧяЅяЁяћя©яГяЙяґяЎяћя»яНяКяєяБя¦я¦яБяИяЁяјяЁя№я§яКяµяЄяЅяЙяІя©яНящяЭя­яГяЙя»яёя¤яєяБяЅяҐяєя¶яАяДя¬я№я¶яЗяЗяОяµяЕяїяИяЗяДяЅяґя–я¶яїяЕяЅяНяЗяїябяЫя»яЅяѕяЅя­яЅяИяЭяТяЕяРяМябямяФяУябяЕяФяµясяЧяЩяЛяшянядяГяЙявяЩяЩяФяїяїяјяАяУяЗяШяЦяЙяЫяпящябяРяЭяИяХяРяЙяЦяЗяияЮяаяаяЩяЧяБяКяЯяшяояияЩ  язящяЫяМяаяаяЦяФяБяая·яЕяТяИяняэяи  ячяйяЧяЬяпяЧяЬяеяеяУякяяязяПяь яцязяыяияЬяр  якям   яшясятярявялятяыяэ яуяляэящяъянядяРяЭян яюяъяЭявяТяЮябяЭялязякятяУяШ яоязяКяВяЯяЪяо   яУяЧяКяОяСяаяЙясяХяЧяМяЬяОяТяБяОяСяКяКяОяКяЦяйявязяЬяЗяЦяЯябяЗяФя°яІяёяєяБяРяµяВяЇяЅяБяСяЙяТямяЪяня»яУяїяУяѕяТяТяєяЛяТяєяБяЈя°яЙяЩяТяПяѕяИяЛя°я­яГяИяЇяРяјяДяЛяФяаяСяа яРяЗяЙяМяѕя«я±я±яІяАяняЛяГяТяґяДяЪягяЅяКя»яЕя»я®яўяїяФяЕя№яНяГя¶яЛяМя»яЅяЫяЧявяВя№яія«яГяКяѕя±яЁяµяѕяҐяЎя«я¶я±я»яєяЇяҐя°яїяЗяёяёяґяВяІя·яџя¬я±я–яЋяµяµя№яРяЖяШягямяхяфяНяДяµяія«яґяпяїя№яя›яЎяїядякяШядяМяЎя‘я|я¦яћя’яrя„яzяxя•яyяvяp—щrЈ`џ7 ф q R / < ? 5яг я·яџяµяћяЄяЂяpяjя›я}я_яcяhяtяЂяѓя™яєя‹яЎяwя‡яЌя—яяАя•я№я±я­яЇя«я«яУяЗяЯяµя·яЁяВяАяГяїяЙяНяґяЄяёя·я я®я«яУяЛяГя«я¶я№яЩяУяВяЛяБяїя­яІяСяря°яАяҐяЄяёяЯяЛяИяВяјяћя­яая№яЄя±я§яЕяѕяіяґя®яµя¦яґяєяЕяёяЅяЙя·яґя®я°яЈя яіяЕяЅяЧяпя№яВяїяБяОяйяЫяАяќяЅяЅяРяєяНясямя©яѕя«я«я»яДяѕяіяОяЕяњяµяАя¶яёябяЮяЩяЛяАяНяЦяияЧяІяєяКяРяИяёяеяЯяШяДяЧяРяРяВяєяМяПяГяјяТяЮяЧяёяЧяЪяеяжяЗяВяХявядяХяЯяЭяЅяІяЯяе яняјяР яц ятямяЮяПяЫяХяЩяЩяЬяЦяляРяЬятязяч  яФяВякяеякяиякяЩясякяя яюяфяуятяь  яшяияОяЭяыящяряяячяшяз яшяпясякяж   яяяы  япяЛя»явяъяеяяяуяЭяф яляьяЮялякях 	янятяияияШямяУяСяйяеящябязяояпя»я¶яХяЛяЧяЭяуяояЫяХяОяЭягяХяСяПясяяязяЅяРяияЮяПяБяЧяЁяЩяєяХяЫяТяЮяКяЖяЛяХя·яЗязявявяУяТяФя«я·яПяМяЫяСя¶я»яµяЭямядяйяЖя·я±я®яия©яДяЪяКяТяВяЗя¬яЙяПяЙяµя®я¶яНяХяУяЄяБя»я¶яГявяЪяјя»яУяЩяс яЩяМяЮя°я·яЄяя©яБяГяІяЧяЛяЗяіяІяёя№я»я°яџя яёяГяЅяЦяляПяАя¬я¦яїябякяЭяЈя«яјяСяИя§яЅяЇя№яИяИя«яИябяТяНяія®яІяѕяЇя»я®яМяїяџя™яЈя¶я«яµяНяаяКя¦яЯяХяґя¦яёяџяљяµяЗяёяЭяляляЭяЩяГяЅяОяіяўя«яДя­я¦я®я‘яДяэяыяояляЦяѕяёяЋя яџя‹яuяЋя„яЏяxяtяeяfаШЃDPf Р$ X Z 9  яю #яьяћяџяoяЊяя•я_яѓяXяdя€яЉяOяbя…я‰я€я–я°я§я•я я–я›яўяІя©я“яёя¦яОяЛяґя¶яИя«я»яЙяїя№яЈя­яїя«я·яѕяРяГя¬я®я¤яИяЛя»яяЗяёяѕяВяжядяІяњяЙяаяЫяРяОяЅяЛяЅяЛяАя¶я»яЭяиямяЬяАя¶я±я«яґяДяєяґяяЄяЄя¶яІя¤яҐяјяНяНяВя№яёяµяґяДя®яЖя»яЇя»яія№я©яґяѕяЫяКяЖя–яџяґя­я¶я®я°яНяПя±яЄяЮяЦяФяЪяЦяјяЇя№я°яЙя©яѕя¦яѕяЙя№я®яОяЫя№яЖяЕяфяТяряЧяаязяЯяИяВя°яВяЪяГяОяЧяґяёяХяРяМяЪяТянямяШяг яЩя°ящявядяЭяЯя»яСяЬяцяЩяЯяЪяЗяДяЯяЮяж яьядяияЦяЫядяОяЩяняЫяЩядяр  якяЪяпяряСяХяыяЬямятяфямяряо ятяхячяя яфяляуясякянязявяхятяуяляяятяЯяфяцяуяжяс ясяъяыяояЭявяняЙяФябямясяШяРяйяйямяЙяаяСяДяЩядяхячяНяЕяЪяйяляшядяпяЬяНяЙяШябяСядяЗяУяояРяСямяжяЦяЧяМяжяЦяКяАяНяЪябявяМяЧяЧяЕяЗяРяБяЦяЩязяСязяуяаяВя©яШяГяРяОяШяЕяІяГяЛяеяјя»я№яЅяАяТяЛяУяїяЗяЗя®яХяХяПяЦяНяХяєяЛяРяїя·я¦я·яЛяёяАя°яГяУя№яБяХямяЯяЩяПяГяЦяЧяПятяея±яУяОяДя±яЇяИядяСяЫяПяЅяЅяіяЇяГяБяХяРяЕяµя¶яјяСяРя¶яЛяТяЯябяРяХяПяняГяУяАя¶яѕяЛяІя±я§яЕяЈя®я°я›яАяМяКяЅя»яЇяҐяИяµяОяСяёя«яЄяўяґяЗяєяАяКя«яя­яЎяІя«яљяўя·яѕяКяАяСяЦядяЙяТя я№яМя¬яІяЅяЈя€я–яљя•яѕ   яп яЇяЋяЇяЎя†я‡я‹яzяuя‹я®я—я’яxҐjA, µ Ы I , W D *  яшяќяЁяrяѓяЏя’яїя†я[яgяAяaяgяXяjяyяЋяxя—яЌя‹я›яя•я–яєяДяґя»я¤яјяЄя±я¬я­яЋяєяєя°я…яµяЛяЙяїяЁяїяєя°я·яѕя°я»яҐя¦яОяПяѕяЮяЛяЙяЧяХя°яѕяЛя§яМяЙяОяЕя№я№яђяёяѕя¶яїяЄяҐяЙяµяџяҐяШяАяґя№яЁяЁя·яјяоякя»яїяїяИяАя·яИяЛя¶яЯяѕя«яМяЪяЛяѕяўяЇяЄяАяія¶яЙяєяІя¬яЉяЁяЖяБяЩячяЙяіяеяЩяОякяЩяжяЧяШ  яЮяґяјяЕяЖяМяЩяляєяКяНяѕяЙябяЮяаяТяЕяУяАяАяЇяЖяЈяИяМяЧяОяКяЦяЫяВя»яїяЧякяая»яШяРяЭяїяЯяцяСязяЛягявязяпягяЩяЪяДяСяеящящ яйяЧявяЬяНяняйяиязяШяяяеяй ятяуяпячянязяЬяЮябяЬяояояйяэяэяу   
-яьяЦ яяяцясянячяъяю   яФяч яряфярящяпяЭяу яЫяЫяЬяряъяьяпяняаятяЪяФяМяУяЪяОязядяэящяояФяР  яЯяХявяЫяяяшяжякяЮяДяНябякяряХяАяФяияЫяэяуяйяр язяХяЩяЧяЗяЩяйяЪяХяЬяЫяЙяЗяХяИяХяїя­яАяхяЯяРяЫяияТяНяТя»яеяеяГяБябяІя«я±яГяЮяуяЩячяСяЖяАя·яМяЎяДяЅяПяёя±яЩяЯяняоя¶яШяєяКямяУяРяєяµяЦяРяГяјяЩяЕяЬяѕяія¶яБяСяЙя·яЙяЯяµяґяЛяФяЧязяФяЙяДяТяЗя¤я·яЫяУяіяјяІяОяНяАяЗя­яёя°яЗяєяВяЛяФяЭяйяДяДяБяҐяµяїяµяКя°яјяНя«я©я®яіяЬяЩяняСяНяЕяїяёяФяНяЭяЕя«я©яБяГя©яµя¦яЁяёяґя»яФяЖя¶яҐя®яЗяЛя§яиягяаяХяОя¦яћяЁяАя·яИя­я я«я¬яіяН яо яеяОяћя¬я’я•яЏя‡яjяqя’я”я’я€яrяЉ¶j:Z ч-. Э e L   5 O " 
-яЋяяџя§я­я“яЃяqя~яя‚яvяЃяяyяsяЋяћя§я­яћя†яѓяЅяРя±я¦я‹я™я—яёя§я§яЕяНяИя«яЁяаяјяёяєя©яєя№я­яДя±яЙяЯяБя°яМя­яІяЅяІяАяЙяпягяјяЕяЦяҐяёяПяОя®я°яѕяЙяРяДяЧяїяУяЛя®яЖяїяВя‘яІя±яІяЁяЖя°я¶я©я°я¦яЗяДяГяМяјяИявя»яіяВяУя…яќя±яєяЗяѕя§яґяБяеяИяЖя№я№яЮяЛя№яЕяТя«я¦яДя яЇяЅя¶яФяжяИяјяЖяШябяШяЦяГяЯяФя¶яИяЗя¶яИяЖяТяДяРяєяБяряйяЩяЙяГяЧяЯяВяТяТяИяДяІяЄя¤яНяДяМязяЬяєяРяЗяОяєяЭяйяЦяСяХяШяТяЕяШякяЕяЦявяЛяЧяПягяЬяйяояЦяхяояУяз яЯ яХяйякярязяэ яфядякяряияцяэяуяСяСяьячяыяъятяшяояеяуякясяйядяэ ямяЫяФят ябяряЯяЯямяШяЫян ячяцяъяряЮякяфяХямящябяЪяШяЗягядявям яЬяЯ яеяОяпяь яаяшяжяЬябягяу япяаяеяаяТяЯяУяПяЩянявякяЩяояУяХяляЯяСяАяУяЦяияјяОяЬяНяЬяОяЩягяЅяѕяЬяГяІяКяЭяНябявяУяРяОяДяАясяСя яТяія·язядякяДяЇяГяДяНяИя·яіяцяЙяЛяЬяЧяєя»я№яМяЗяаявяОяЗяЬяЛяТяЅяХяѕяПяУяИяОяЪядябяЦяБя¶яЬяЩяИяРя§яЦяНяїя¶яЁя°яёяїяјяЕяШяЭя¶яМяјяГяЗяїяПя»яКяАя°яіяОяШяЩяЙяЕяВяОяАя°яєяІяВяХя»я§яµяµя№яЈяЁяія·яДядяйяДяїя­яЕя§яёяАяЛяїяУямяЄя±яЄя±я©я±яПяВяДяБя±я§явя№я®явяЭязяаяия°яњяµяіяІяЁяГяКяєя©яѕяГяряуяЩяЬядяҐяљяµяџя–я‘я’яЏя“яќя}яЃя яЊћ5*• у К % 1   / *  яЄяяяxя‘я«яkя›я–я‹я`я{я~я‚я…яяЊя“я€яЈяКяИяёя°яДяЈя№я·яµя¶я”я№яОяЈяіяљяЄяёяВяАяЁя©я¶яҐяҐя§яµяЌя¬яТяИяђяАяЦяВяЅяНя·яµяШяШяКяРяКя±я­яЅяЖяНяОяґяАя№яКяЕяЖяЭяёяІяµяЕяСяµя°яЄя¬я«яХяЕя”я№яДя»яДя№яЖя°я“яБя»яґяДяЛяМяІя®яёя»яєяРяняйяБяияШяеяОяґяЇя§яБяеяїяія™я§яВяКяБя»я·я·ярякяЛяйяЧяУяЕяёяЮяіяБяІяСяДяЧяжяОяЪяТя»яРяХяМяАяіяОяЧяЫяГяЬяія№яИяЫяТяХяЗяЫявяйяияТявяРяПяЮяЬяТяНяЪяляыяТятядяияжяШяЗяХявяРяхяОябяЭяйяхячяЩяъянясязяїяТяг яаятязяюядяШяЭяЯяиятяЬяуяъяЯяо  япяйяъячяцяыяияняъяыякязяЩяЭяШяЫяояжяЯякябяюяуядягят  яцяцяжяЩягяТяШяцящярявяеяаяЭясядяЧяпячямяияЪящяхяЦяШякясяЩяряд яфяжягяФяЯяШяеяуяжяЫяБячяэяЫяЧяюяцяЪяцяЙяРяуявяРяВяКяєявяияЮягяЬяпяЭяЪяМяКяЯяКяТядяЫяСяГяЈя¶яИяОяґяКяеяДяЮяЬятяая№яЭяХябяЦяФяДяЩяКяБяµяёяЗяЗяГяРяєяЦяЕяЙяЫяЮядяЗяіяСяёявяМяЇяИяШябяФяХяКяЧяКяґяЙяИяЙяКяКяјяёяФяняГя№яВяЖяЙяјяїяЙяёя°яјяЙя«яіявяНяЎя яАя¬яЩяЮяМяґя°яГяГяГяМяєяИяЅяїяФяЙяґяАяБяЕяґяІяГяляЖя№я¶яНя®я«яЗя·яєяїяґяБяЭя·яЈяҐяВя·я¤яєяАяХяОяУяВя±яряуяк яЯяГяЅяЫя»яїя§яҐяҐя®яяяµяХяуяЩяЪяИя›яіяРяјя¬я®яҐя®яҐя™яwя…яЂя‡:_p ъ с а ј  
-  _ ят  я­я„яuяdяsя”яљяґя—я‹я€яxя|яnяkя]яћяљяћяЋяЎя§я°яІяЖя–я№яРяЇяІя·я¬яЎя¦яВяБяІя“я©я°яЇя®яўяјяѕя©я»яќяєяјяјя«я”яќяЕяАяёяФя­яµяТяѕяЕяяµяµяДя­яКяґя»яЙяМяєяіяЇяВяАяКя°яЁя»я»яДяіяЄя”яґяїяҐяМяЅя¶яЙяМя·яЖяБяЧяєяЕяЪя°яЎя±яёя¬яЅяЙя±яґяБяѕяЕяу яъяУя№я¶яДяПяМяЙяНяСяЅяВя№яДяЧяИяєяНяЧяЮяЦяНяШяМяТяРяЩяМяїяґя¶яХяЛяёяУяёяіяЕяЗя¶яія·яЄяєяЛяПяИяЦяЕяЖяЩяЕя»яµяЬяуяыящяуявяоямяияКяЭяуянямяЧяжяЮяЧяКяОяЪяфяПяµяПяЛ яфякяТяЪяЪяжяЪяАяЧяУяДяЅяЭяъяОяНявяШялясясятяСяряцявясятяй яояляияеяЫяаяТяояф   яйяфяеяПяЭяФячяеясязязяЪяияиярямяШяоясяхяз  яшяп  яряЮяшячяфяр  яфяЪяЦяуяСябяояСяЬяШякяляаяНятяЪяЩяЦяЛяЙяСяйяЧяТящяЪяЭяЮяПяЦяІяµяґяОяЫяЦяеяЦяфяРяФяРяЖяУяКяРяНяУяЮяШяХяфяряїяУяСяТяїяМяХяДяОяТяЧяКяЗяКя©яКяОяЦяЕяЦяЩяЭяРяЪяКя»яЖяЭягяПяЬяЗя±я¶яПяРяХяЪяжяСяЈяДяаяДя¬яДяМяЪяНяСяРяИяЩяУяёяµяШяЦяТяЗяЛяВядяЯяПяЛя»яЩяЯяґяІяЄяЇяПяМяїяўяЛяМягя¶яЕяОяТяМяйяПяІяєяФяИяµяЙяаяЕяІяГяЅяўяЙяРяµяЕяЅяЖяµяИяЇяµя¬я©яБяіяЬя№яјяѕяІяія№яБя¬я°яЙяЗяЕяІя¶я©я«я№яЄяЙяиязяЩяляаяЁяЄяЇя¬яіяДя№я·яўяџя яО яйяЫязяаяґя“я я©яџяџя…я™я™я„яnяoя}яu`xEB с Ц ч P 8   L , яяяшя”яuя]яЂяvяqя‚я‰я…я^яzяLя|я—яyяяЉяўяЇя±я¤яљя•я–яћяўя›яЄя’яЄя¦я™яњяЇяїя°яЗяЎя¬яЙяВяВяОяЙяґя©яія¶яОяЫявяµяЅяѕяОяјяЄя›я№яЕяЛяЕяЇя·яЧяЪяЙяґяїяјябяХяАяµя›яБяДяјя№я“я¦яЧяБяѕяСяЬяЛяВяЇяџяЇя¤яґяТяРя»я«я«я©яёяЊяёяДяЕяѕяБя®я¦яВяєяїяЅяДяЪяляаяЙяТяДяјяіяияЯяПяГяИя™я»яЛяЖяояНя«яГяОяІяґяЖяѕяїяЭяЙяХяБяМяХяµяїяРяЬяЖяОяИяЧяТяїяїяИяїяЛяЯяЛяЙяЩяОяЗяаяаяИярярябяЛяЧяЖяХягялягягяояМяЖяЩяМяЦяЦяБяЫяфяцявяй язядяТяФяНямякяпяЩя±яЩяФ  ясяо ядязяьящямяЮ  яоязян    яыяпяпятяляйяуяЬяуяуяшяняЪяЬяЮяЩяЩянямясякяэящяжяЯятяжяпябяКяЭяЭяЦяЯяч   яюябяйяэяояЯ ячялячяъяьяжяляЪяЭяляляЬяХяняФяняуяюяаяШяФяКяПяняПяПяСяЪяъякяТяЭяХязяЯяьябяЧяЛяОяжяюяЯядяфяеяЦявягя¶яЧясяЙя¶яµяРяЮяГяСяЩяЫяУясязяЩяТя¶я№яФяОяЗяЛя°яѕяСяБяІяБяЖяЭяняряЅяЁяЛяНяЦяВяЯяШяБя¶яТяНяПяЭяШяФяГяЗяИяИяЗяАяУяЦяСя­я«я·яёя­яВяМяИяВяЦяЫяВяИяРяЛяєяЙяѕяУяЕяВяЕяТя®яШяаяЧяЪяЬяѕя°яўяАяШяЫяМяеяїяЩяОяГяёяЖяСяПя©я«яГя­я›яПяћяЁяіяКяВя¬я©яІяЇяІя«я№яёяДяЖяПяјяПяСяВяВяіяњя яЅяМяТяёя яЗяѕяЛяґяПяШяШяРяаяГяТяая·яґяЛягяЬяћяљяґяР яоязяуяьяµяљя¦я¦я…яЏяЎяћя§я†яyяUяЊяќ©hs ш ћ X 4    # яхяРяsяЋя„я„я_яkяjя‰яlяrяяVяuя•яoя€яЉяяЗя“яњяњяђя яЋя¶яЁя©я я я‘я–яЁя»я®яМяЪяІяИяЙя¦яЙяияѕя¬я«яЄяўяЇя®яЅяЪяМя»яЗяґяЕя»яія™яЄяКяЄяДяБяЇя яћяИя°я¬яМя¶яЄяія®я¶я«я»яЙяЖяМяµяБяАяѕяияоявя»яёяѕяАяКяЦя»яіяУяЙяДяАяѕяџяґяБяИяРяІяєяґя±я»яЙядяСяКяИяМявяУяўяЛяєя яІяДяµяЁяЫяТяјядяКяёяКяґяҐяЮяДяРяВяДяЛяЩяВяЦяНясяюяжяОяХяОяЬяЫяГяЪяЙяОягяЯяУяЛяЗяїяЙяеяЧяЬяЧягяв явяЅяСяа ябяияйяФяЖяСяАяНяуяЪяМяНярябяЕяНяЙяДяЕяЩяпяцяЮяйяЭядяЭяЫ  япясясяу 	 яряияьяЩябядяш   яю яЪяаякяЦяе  яояЧянярясязяЬятяъяШяЭяшяяяряъязяЬяияряш 
-яйяЭяйягяаяс яъятяхяеяФяЫяаяОяЪяСязяуяЭящяуягяХяУязяЭяЫяЭямяЫябя®яМяЩяСяляКяЕягяяяляЧяЫяцяОяЛяияЭяЛяЮ яеяЙяОябядямяТяЫяЪяКяМяЖяёя©яДяЧяНяМяёяЙяПяШяМяЦяЬяЧяЖяБяГяНяѕяМяЩяЪяуяЛяЛякяЬяХяНяТяЬяояояЧяёяЩяшяёяХяЫ яЩя·яКяБя яБяјяДя¶яЅяПяМяДяКяДяЧяЗяІяџяґя»яЕяРяЗя№яґяБяЯяЕяБяЖяёяЙяряИяёяВяєяТяјякя№яГя°яЖяШяРяЕяЕяЧяКясяНяџя·яЅяЬяХяЕяжяНяЩяЄяЁя»яїязялядяГяЗяТя§яДяВя¶яВя№я±я®яСя№яєявяШяСяЯяЧяѕяѕя°яЖяВяЧяїяІяєя¬я©яжяСя№яЬяаяЭяЛяЩяїя±яПяЮяУяЅяНя№яЋя‘яВяЗ яЩяЮяшятяЙяЗяёяІя“яЄяЊя­я§яЋяЊяѓя“яЏ Р ·8I ‹ ё ‹ 0   яюяцяЬ я‹я{яЊяhяyяЋяxяfяOяhяmя[яЃяqяЃя‘ядяЄяіяќяАя®я¶яВя°я°яЈяІя¬я«яєяЛяИяЦя·я«яЁяґяѕяјя№яНяВяИя яґяјяАяАя®яёяЯяВяИяўяЁяЫяМя±яёяґяДяЖяІяЕяЇяєя»яЕя¶яВяЩяАя¬яПяЄяіяяЇяМяДяµяеяѕяАяУяВяОяЩяЖяРя№яґяОячяјя§яёяИяЇяґяµя®я¬яАя§яєяФяНяПяјяµяія±яЙяОяТяЮяГяЫяТяРя°я±яєяЖяНяВя®я·яЯявямяЫяжявяГяіяЕяИяєя·я№я¶яОявяТяЮяйяЪяГяПяїя№яжяУяМяЪяйяМяЮяФязявяПяНяияияАяХякяпямяеяЫяМяЦяїяОяЭяияЩяЮяБяИяТяРяЩяТяцявяияЯяМяВяЖяИяФяпяЮяХяЮяСяЯяцяьяцяъяЯяэярянятяяяэяЪясяюяч яяящяеяъяЯяКяжяпячяУяк  	  
- як   яхяпябяпягяцяэякяЛяЫяя  яЦяЪяЕяряХяч яняцякяЯяТяЬяйяЮяШяРяе яЩянямязяЪяПяг яфягядяряюяняшяш  яйяЮяЬялятявяЯяыясяТяЗяоягяеяПяЖяУяЖяЫяЯяРяЫятяЩяЙяПяжяУяЪяЦяґяУякявяияСяжяХяѕяѕяШяВяРяМяЙящяХяЮяМяФягяЙябяияЦяЭяШяѕя®яѕяҐяґяЙяЇяКяеяГяЖяВяґя»ябяЛяРяСяРяГя°яіяјя¦я®яВяЕяВяЇя°яРяРяАяВяУяИяБяТяУяЫяФяЕяїяКяМяШяЩя№я¶яјяБяЕяєяЙяЕяВяТяПяЙяўя¤яѕяНяЙяЩяЬяЧяХяЕяЕяМяМяЩябя№яЖяёяЯяляОяВябяЫяояёяЇяІяіяёяЄяЎя®я¬яєяЅяЅяїяґяЈяВяКя№яґя¦ябягя«я”яҐя»я”я›яµя¶ягяИяЗяЮяхяЛя¬яЧягяряВяСяАяДя­я№яМ ячяЧявямяІя«яАяЄяІя¬я“я‘я±яҐя®я†яѓя„ ¶ Ф Є љ ќ Ґ љ яю   ячяюяЙя{яЃяyя~я]я…я’я‰яgя]яYяwя„я~я—яЈяћяЏя‹яАяґя®я§яҐяћяћя яЎя¬я¬яМяЕя¬яЛяЅя¶я±яёяµяБяЇяІяПяЈя·я®я”яЄяЁяµяµяЎя®яБяЧяµяјяјя©яјяјя яҐяµяеяЧяеяОя­я±яїя±яЁяУяјяЛя·я®яїяЅякяАяіяЗямяґяґяІяДяЕя©я”яҐяТяГя№я¶яіяАяІя¬яьяЯяЗяМяѕя©яШяїя¶я¤я­я­яїяжявяДя·яѕяБяѕяОяУяСяјяВя·яЙяєяЖягяИя·яЭяХябятячяИяУя®я№яёяДяАяµяВя°яіяБя°явябяФяБяДяХяОяСяДяІяПяПяж ядяЛяШяияНязяряаяґяЕяЦядяШяряЩяФяЫяОяЪяЭяцягямяУяУязя¶яОяЧяояШяІяЛягяЯядяьяш яРяЯякяеядяЩяИяЭяыязяояаяфяжяХяц  ябяЮязяуядяляюяшяняЧяйяю ятявятякяЭявяЯяю 	яляъянялябяЛяПяъяэятяеяжявяияъ яю ясят  ясяпяШяЯяОядяъяРяЧяРяуяЮяЭяпяуяЪяв яб яЪяТяфяфявяХяб язяФяяяияаядяРяШягяыяХяјяпяЙяјядяЬяеяюяляСяјяОяияЬяёяўяАякявяРяеяТяЮяфяЅяОяХяМядяРяРяЙяИяВяЪязяпяФяОяЖяияТяеяЩяДяЧяЖяЗяАяВяЗяЧяРяЛячябяЩяхяляГяЬяОяЇяєяПяїяєяґяйяѕяЙяЗяИяеяСяЗяіяЙяЛяµяОяФяКяЕяГяЭяИяДяГяѕяјяКяЪяВяЅя®яЇяЛяИяёяµяµяаяЯяИяИяЖяУяєяЪяЧябяЬя»я§яВяАя»яНя®яёяКяИяіяЦядяШяЗяєяДяОя­яВяЩяТяМяУяЕяТяУяёя®я©яјяМяЅяря¦яЇяџя®я¬я–я¦яЬя¶яЮяЦяЙяиязяЙяСяёясякяОяёяЁя­яёяИяО ятях яЩяЄя»яґя«яґя«яљяѓя–яЇяњя‹яwя¤ Ъ © ™ ‹ s > e # I 2  яхяЩяФяІяќя}я”яЌяaя1я]я_яeяЊяSяnя…я…я¦я¦я”я¤я¬яІяґяЅя—я›я±я©я¬яіяµяЗя№яІяєяХяЇя я№яЕявя»яЗяНя¦я•яЅя яЛя¤я·яёяЦяјяЛяЅяїяКяДя–яЈяЕяСяГя®яєягяЬяМяЙяЖяЅя·яўяОя»яѕя¤яИяФяРяЧяЙяћя«яДяТяЛяѕяЎя яКяОяВяљя°яЈяєяєяЅяѕяєяЪяНяОяаяїя­яЈяІя«яєяДя·яЩяЫяЮяґяЧяНяёяЈя¤я°яґя¤яія»я·я±яјяМяЭяЗяИягяКяЪязяЯяЇя№яґяЫяЪяЖяЕяЛяЖяВяМяУяМяѕяГяЕя·яГяЙяКя№яВяЗяФязяЮяШяМяо  яФяПяЮявяЬяЙящяряХяшяСяЦяКяЗяУяХяЙяЦябякявя»ядяжяЦяХяјяѕядяаяЬяйяняаякяояЯяЮяш яияЮяоях   ятягязяеябяОяУяуяЮяу   яхямян 	ящяЛяжябяСяляняуяэяЯяцяхяУяфямятягядяЩяХядяы яю 
-якяияъ 	яя  яЮяТяРяТяЬяфятяйяТяояцязяфяЫяуях яэяфяхягяияиявяЬязязяРяПяЖязязягябяСяУяцяЧяРяляПяјяЅяКяРяЪяйябяГяаяЧяЪяГяєяБяВяЛя»яЇяБяфяПяГяєяЬяляляЫяФяУяРяјяБя®я¬яІяТяЧяЪяЄяАяЩяСяЙяФяХяМяАя¶яІяЛяаяТяжяЛяФяБяАявя¶яЕяјяГяБяЖяёяЕяИяВя¦яДяАяТяХяЩяґяТяПя¬я¦яѕяЙяЦяЗяЫяРяГя¶яЁяЅягяѕяХяЬяРяёяњяіяРяїяФяїяСяИяЖяНяКяДяИяБяЦяЕяіяСяЮяВяія¶яЬяГяј  яШяјяФядяёяўяЕяўяБяЕяОяїяѕяжяЛяЇягямяНяАяЅяїя№яЛяЖяИяЗяµяСяГяГя±я·яВяияОял яряёя»яЮяЦяЙяБя№яЙяѕяія®яµ  яу яеяІяЧяИяєяѕяДяёя я­я§яЁяҐяќяђ v o У а ( ` & { 2 .яЭ  яляся”яyяoяxяЉяQяaяNяQяsяkяЇя~я{яя|я{я–яІяќяѓяЎяБяўя›я®яЙя©я¶яЕяЗяЁяћяЈяџяМяҐя»яЗяЅяЅя’я­яВяУяєя»яІяЙяСяґяїяДяРя·яЗя©яєя»яЅяЇяВяВяЛяёяЇяЮяуяУяЁяЗяЙяєя»яЬяияСяЙяія»яМяИяГяІяДяРяИя№яёя¬яХяФяЕя¦я·яєя±я°яЗяЯяФяЙяРяїяВяПя¶яГяояНя№яµяїяПяЛяЗяБяЩяКяјя№яєяТяШяАяѕя»яАяёяВяёяДяНяЕяПяЙяРяЛяЙяИяµяАяЬяояКяёяіяСязяЮяРяЖяАяАя±я°яБяЛяЫяµяКяСяЧяюяйяПяЯяьябяРяЮяІяКяЦяТяЭяНядяЭяЪяПяВяПявяХяаяпяЗяёяЭяоя№яіяПяЫяОяЫяаяеяГяЙяЩяъякяЮяЦяжяЭяЪяЭяйядяуяЮяЪяШяХяеяШяьяуяряЪяояъяшяжян  язяЩясярятямяЩяйятяляйяо яюяеясяя  яэяЭяияъятям       яфявямяяяЮяаяфяо  яя ягяжяфяэятяїяСяМям  яуяХяРяЪяпяшявяСяШяЛяляцягяЭяЕяШяИяЗяЬяЧяАяЮяЪяАяЩянябяояЦяЯяЖяХягяКяЗяКяЙягяйяКяЛяфядяРяЅяµяЖяЅядяСяЖяЮяНяАя№я°я®яµяЅяІяОя«яИяЯяГя­яЙяКявявяФяѕяїяїяРяФяеяХяЙяµяЗяОяШяияжяєя¶яУяїя·яГя·я±яНяЫяУяЪяЛяЪявяШяїя±яВяРяфяСя»яЫяЛяєяИяМяХяаяжяѕя»яўя¶яЇя®я·яЬяМяВяіямяТя¬яЭяЦяЭяЧяСяАяЅяЙяєяїяЙяЙяїяґяЦяНяТяОяЁяВяЕяРя°яѕяЪяыяуяеяИяРяЩяЧявяіяїяПяВяєя№я·я±я«яТяХяГяЁяµяЄяСяТяШятясяРя±яТяЖяЎя¬яАяРяМяЗяДяЬяияжяж япяґяѕяєябяШяЖя яџя°я№я¬я¦я™я­ ў … л Х у ¬ b " H ящяЮяЛ яэяЬяwя\яbяWяwя€яiяmя‡яfяdяjя‡я“яя‡яЈяЋяќяКяёя¦я¤яўяЇя№яўяЇяВяФяЗя©я«яёяѕяіяјяґяѕяјяўя±яЄяЎя°яїя№яХябя№яЖяєяњяџяїяРя±я¤яЪяИяКя·яКяЇяБяНяЅяґяЗяєяМяИяІяПяАяёяЅяЄя¦яіяаяСяЛя·яґяјя я¦яАяБяВяЖяБяјя°яјя®яШяУяФяЙяЛя№яАяЄяІяµяєяКяЛя¦яБя»я·яКя¶яЗяПяНя¬я¦я®яІяґя¬я®яЛяАяїяДяЄя§яЇя§яКяКяЫяТяЦяґяИягяХяЧяаясяЧязяШяЪяМяДяЕяДяКяШяСяняЦяфяЙ яояТяСяМяйяЦяЕяТящяСяЦяЙящяНяТяІяФяляЪякяЫяв яцяляеяхяЛяТямяаяЙягялядяНядямяРяМяЧяюящ  яБяЕяхяшяуяляЪяЙязяХябякяяядягяя  ящящяпяпяояШяЧяъящяъ яыяряи яъяфяэяняъях   ! )яш яю яЯявячягяЯядяеяняш яияУямяЦ   яыяьяуячяояляАяНяЧяляпяяяпябяЭяЮяШяряфяхявятяжягядяь  яйяЩязяшямяЩязяЦяЫяняуясявяРяГяГяУяДяФяОя№яМяТяїякячядяуяьяЙяЗягяУяМяУяИяОяФяВяМяМяЗяАяМяЗяЗяЭяРяСяШя»яЅяКяСяѕяЪя»яПяґяїяЧягяОяОяФяТяЛяЗявябя©яіяТя»яИя№я­яКяµяДяµяДяУяЕявядяЭяОяХяЮяфяЭя»яДяДяАя®яДяВяјя±яГя»яХяЩяЅяУяСяЖяЖяЁяБяНязяф  яияЯяѕяЯяЧяЕяіяіяКяОяАяѕяѕяУяИяЕяГяЦяОяїяСяѕя»я»яХяГя»яЈяНяМя»яєя©яЖябяИяЗяИяКяВяґя±яїяїяєяРяѕяюяГяНяЮяИяГяЩя±яІяТяИяБяЩя©яЇя¤я¦яеягягяяяияСяЅяБяЛяАяБяБяёяµяљяЉя¦я—я— ` ѕ Ђ "яс ] \    яѕяЎяПяљяzя€яkяuяЋяoяvяhяTяBяЃяЉяЂя‘яя†я¦яҐя€яњя®яЄяіяЁя›яўяљя±яћяјя«я›я¶яОяЮяИяНяЬя°яЦяСядяИяїяЅяЛяКяРяКя№яДяЅя®яџя±яїяНяјяЙя»яЕяµя±яѕя°яјяґяіяѕя№яµяўя»я»яҐя»яЮяЗя·яВяЖяЖя№яЎя’яТяТя°яїя¬яҐяїяЫяХяЗяДя№яМяХяАяіяЩяОя°яєя­яёяЄяыякяµяДяћя¬яГяЙяИя®я«яїя№яћяљя§яёяПяЕяєяЅяґя«я©яСяЩяШяКяИяеяЮяµяЇяГяДяОяБяКяШя№я яµяРяКяЕябяЩяЭяЗяСяЦякяУяояЦяЬяцяряЙяЧ  яеяОяЬяФя¬яІяБяВяБяЩяшяыягях 
-япяпяШя»язяЩяф яСяСяНясябяРяЪяи  яыятяь  яуяияЮяФяЬяРяєязяФяжятяЦяняьячяјянягяояьяцяьяпяУяЧяЯякязяпязяы      яэяз 
-    яэ ящяряъяЯяУяеятяияЫяХяЬяЫяСяюяцядятяу язяляеяо   якяфяеяМяМяеягяюятявяряжяеяФяйяЭягязяСявягяЧяМяуяЯяЙяФяЬяаяБяМяНяХяаярявяШяШяТядяйяМяЗяФяЧяБяМяЛяУяыяЦяѕяЭяЬясяЖяШяЭяПяНяЩяся№яёя№яёяРяМяНяЮяЭяняУяКяЇяёяЬяКяРяГяЖяКяЪяйяЗяХядяСяВяжяВяПябяряКяЖя­яТяУяАя»яґяряляЛя¤яЁяИяЪяРяјяАяјяЬяляёябязяЩяЅяІяѕяЅяИяеяХяЗяМяКяЙяДя§яГяОяУяЛяРяЬязяжяСяЪяаяНяЗяАяЛяПяТяТяЬяІя»я¶я·я±яіяСяўя°я›я§я®я»яЙяИяКяҐя№яЕя¤яЄя±яЗяКяХяряЦяЬяАяєя§яµя­яјяКякящяы япяЬяЫяМя№яЛяЇяЖя¦я¦я§я”яЃ  яЮяЯяеяґя·я®яћя¬яѕяѕяВя·яҐяџяќя±яЏ Г § Ћ O K ]   яЬяпяуяЙяЇяёяФяяqяђяgяuяoяwяdяeя8яTяJяrяbя¦я•яёяЄяћя‚яЃяЃяЋя“я­яДяµя№яВя™я«яїя·яҐяіяаяПяГя¦яЅяВяЙяГяїя№яИя·я°яАяИяіяЙяСяИяµяЖяОяЪябяЗяЖяЄяќя¬яІяЅяФявяДяҐяєяняЖя№яКяґяИяЅяИяўяЄяѕяаяЦяёяІя±яБяПяёяія“яєяШяМяЬяЗя¶я§я±яјяФя№яЅя яЄяґяЙяхяПя·яЬяЮяЫяОяЖяЄяФяёя®яЅяУяХяЄяµяКя·я§яґяЇяОяјяХязяЩяТяїяіяТяЫяШя°яµя­я­яТяУяЬявяЩяЦя·яСяеяияТяНяПяпяоярявяґяѕяЗяЯяПятямяВяАяЩяЪя¬я№яФяняГяДяПявяэяЪяЧяняОяИяиябяеяд яХяжягяЩяаяХянябяуяз яъяэ ящяъябяйяУяияЩягяФяхятяЦяъяЫякяуяуяряпяЦяЭяйяряеящящяхяияМяЭядяш яыяв яяяюяю 	 яо 
-яхяы  яляъяияшяуяняфягяЬяШяляяяпямяцяэябяЬяСяаязяЯяТядяЧяряляняЩяЗяЮякяаяфяцяряояаяУяЮяЬяЬяЧядяТякягяЕяТяНяляиямяЅяЦяЯяуяйядяьяе яТяБяЛяаяЮяляЦяХяХяОяеядяляЗяХяУяДяАяЙяЧяЦяТяїяНяАяИя¶яЅяПяБяКяЫяЗяїяОяЅяеяОяТяАяАяУяляЦяИяМяОяєя­яЧя·яБяЬяжяаяЭяТягядяПяХя¶яБяЧяМя¤яҐяЮяХяНяєя·яЙяеяЯяЧяЅяПяЛяМяЯявязяИяБякяЭя±яєяЅяГяЕяіяГяНяЗяФяСяЅяЪяаяХя±яАяѕяєяЗяШягяѕяЇя°яХяДяјя»яГя®яѕяЕяАяҐяВяАяёя©яія«яЁяёя¤я«я¶яБяКяЅяФяЫяТяТяИяБя«я°яѕяЦяеясяЪявяхяЖя·яЖяМяµя№яјяГяЧяЖяЇяє яьяуяоясяИяДяВя•я‘яіяІяЈяјяТяАя©я›я¬ Г z o L R ) <  яйяЯяЯяТяыяУяЦяЎяqяuяFяEяYя|яeяOяPяKя@яPяђяђя яќя№я¬я я¬я”я“я“яҐя¬яїя¶я·я–я¦я•яіяЕя№я®яНя©яБяЙяАяМя¶яЕяНя¶яїяЦя®яЖяЖяЗяГяёя®яЛя»я·яОяія»я“яЎя°я·яИяКя©яІя¶яТяСяµяґя«яРяЛяЦя¶яѕяВяЅя·яЛяФяИяГя№я»я­яТяЯяОяЛя№яТяЭя·яАя­яЄяГяЕяіяёяНяЛяфяеяАя°яЕяЧяПяОя©я·яЛяЗяёяЬяТяСя°я­яЖяБяАяТявяЙяЙявя№яЖяСя№яЅяВяВяЕяГяДяФяЇяЅяМяФя±яКявяъяИягяЯямяФяЧяняяяЮя№я»я·яЗяФяЪявяГязядяАяЪяТяНяТяеяуябяУяЩяЦяЯяФяЫяояжяйяцякязяфяьявяляЧ ящяхяляьяряояцяч явяЯяЭяЮяУяјяюявяЮяш   яыяыяпящяьяыящ яюяв   яйяЫяьяаяЮяКязяс яеямяояЮяояЪяъ яшяфязяняпяшяпяняр 	 яыяьябяцяеяняпясяйятяъ  (яряэяэяаяБяВяаяШямяЪяФяЛядямяфязяьяюягяЕяуячягяияояЪяШяЦяТяаяЩяаяНяЫяляхягяРяКяЫясяРяЦяКяјяПяйякяЧяпякяояеяПяУяФяЮяЭяцязяЗя§яКяАяаяЭяияХяИя»яјяОяПяжяЛяЗяѕяЦяКяняняЗя·яЅяГяЧяаяТяЮяжяМяИяЩяБяшябяСяГяЧяМяѕяеяќяєяЕяЗяИяДяєяУяЬяНя«я№яМяЖяЛяЕяАяЫяляКяВяЗяДяЕя·яХяДяЅяБя»яАязяёяжяЦя¶яґя­яШягяЧяЗяЖяИяШя»яОяняФяШя¦яЙяЩяСяИядяИяТяґя·яµяДяИяДяЛяёя¤яІяЩяБяЕяИяѕяОя¬я­яЁяЫяµяґяЖя¶яНя«я©яПяјяйяТяТяыяыяєяБяПяХяУя»я¶я¤яяёя·яр яряр явяДяія­яІяДяШя®яія—яµяАяЈяљяГ y '  9 5  8 ( яОявяеяЁяАяжяЏяZяGяjя}я—я|яqяSяRя‹яgяlя‚я­я я«яГяЗя«я«яЕя©яИя»я·яНяўяјяЖяЇя®я®я®яµяЕяйяУяПяДяОяКя«яѕяРяЦяУяТя°яњяАяѕяМя·я°я«яМяЅя°яўяіяўяПяїяАяўяЇя®яєяВяЖяДяЅяєяЁя­яВяВя©яЯя№яЙяЛяТяАяТяЦяЪя«я№яЗяµя¦яїяѕяГяЕяВяШя¶яЖяЅяУя№яАяЛяБяНяОяЇяҐяУяЖяТяАя¶яЕяКяХяКяШявяОяїя¶яјяЈяТяРяГяЈяЛяОя№ядяТяёяіяОяАяЕяёяУямяШяаяСяМя¬яТяРяХяЪяРяМяЯяБяНя№яЖяЯяФяаяКяЛяДяСяВяГяЮяйяЦяЕяЙяМяЭяАяЖяъяоящялятяцязяФязяµяјяаяТязязяйяряШяѕясяЮябяЧяЮяЮяШяЛяЭяляеяУяЦяеяд   яияхяоятяЬ яюяияЮязяЯяЩяи   яуяцяоятящ 	   яйяжяцямялязяуявямяцяэяФясяюяряжякяя яУярязяыяуяояфяюяшяоявямяжякяляжявяАяХявяпяйяЧягякятяжякясязятяуяч  япяф  *яшяЦяГяТядягяшяЩяЧяФяйяфяЧяЬяїяЛяЗяНяМяОяЮяняляПяИяЯяиячявяЧяЦяДяѕяФяЗяѕяОяЗяѕязяХяияЭяПяЮяаявярясялямяйяНяШяВяЩяЭяЩяТяїяЬяґяЙяЬя№яѕяіяјяУяДяШяЭя»яёяјяЖяХяІяОяОяКяЗяФяДяЮяПя·яНяГябяБяИя¬яСяЪяУяѕя°яѕяЮяЧяјяЗяЕяїяЕяєяДяНя¶ясяЙя»яѕя§яµяХяяяМя°я№яАяЭяПяУя»яЫяГя¬яЕяЮяТяаясяЕяАяЫяїяІяЕя«яЛяХяЗяЙяЕяјяОяЙяєяёяЁяљяџяСяТяЛяЙя№яёяЗяіяјяТяйячяеяыяжяєяЗяёяѕяЅяёяЅяєя±яАяґяз  яфяш  яѕяЅяБяИя·яКяїяѕяќя¤яїяґя¤яћ ; x ™ C '  яш    
-яМяЌя«я”я•яoя`яiяяyя‰яoяЏяђя€яЃя–я’яќяАяµяvяµяКя°яѕяЎяћяІяЎя§яСяЛяєя№яµя•я°яЁя¤яДяЧяЬяѕяГя±яµя·яВяРяЩяЙяЛяЪяЛяјяїяЩяґяҐяћяµяГя°я‘я№яЄяҐяИяФяВяРя¬яєяѕяїяЖяІя°яМяІяя­яНяЦяЖяѕяѕяјяТяЧяГя¶яДяМяХя«я»яМяіяјяЦяіяЖя№я·я±яЯяјя±яЇяЇяїяґяНя№яОяРяКяЬяТяКяЗяЩяЙяѕяЙяКяКя¦яТяРяЦяЯяµяТяТяїяЙя·яїяГя±яОяЁяЎяєяЙяЭяаяПяЅяПяНябяПябяЕяЗяПяїяЬяияоявяЯяЮяЬяМядяЫяМяТяСяняПяЩяжяЧяЗяМяЯяЙяРяЬяХямяЪякяцяф яШяНяйяйяаяЬяхяХяФяКяИяЪяШямяиямяьяиякяояняюягяНяЬялясяц  яжяжясяНяияфяляк 	яЩязяЫяу    ясяуяшяюяляфякянянянявяжяояеятяяяОяйяояаянямянямяхяЩяжяхяыябяМякяфящяпяЫяЮялямявячяжяхяЫяМяУяияояЧяуяСячяЬяНяЪяНяЮяЧяГяНяЧяЪямянявябяЮяШяЫяРяФяЮяРяФяеяЭявягяряфяпя№яУяЖяЯяйяСявяДяИяГяєяЗяйяРяйяняЦя¶яАязяИяЪяДяряГяЙяЛяЗябяФядяйямябяЕяКяХя·яЯяЪяНяґяШяеяЦядяТяДягягябяЩяГяЖяёя©яЩяЅяЗяеяыяЙяУяєяКяАяЕяЩягяЬяФяЭяКяряДяИяёя«яВяќяЛяЪяСяОяЮяЧяЖяЩяСяЭяЬяЫяияНяія·яєя»яСябядяПяєяҐядяМявяМяРяИяАя№яУяЯябяряЕяЮяЗяЬяНяЮяЙяґяµяТяЙяВяБяИяЕяЇяЇя°я§я–я¬яЖяУяСя·я®яВя№яµяЗяуяйябяЭяЦяБяЈя§явяЖяСяёя¶яЖяіяМяЛятявяю ямя»я№яЅяФяµяЄяіяµяЅяЧяЁяЄяБяљ +  7     яДяк яйя»я­я“я†я…яUя]яiя–яѓяeя`я{я§я†яЂяtяћя©я™яЏяКяРя»я·я­яГя»яџя§яВяДяВя¤я¬яЇяПяТяёяЙяєя¦я«яяБяЖяёяГяЅяЅя·яЄя«яЇяѕяЫяояИяРяЩя№яЄяЄяЇяЙяЦяБяЁя§яљяТяЫяГяјяЩяЦяЗя¶яЮяАяµяєяјя¶яіяКяМяЦяИяШяЧяЗяґяїяРяАяДяОяжяРяПяГяПяНяЕяКя¦яІяЙяБяСяµя№яЪяжямяїяУя­я·яїяФяѕяБянябяЮяЩяЫяУяГяКяХя»яЕя¦яДяЦяія¬я§яЁяїяГяШяёя·яУяЅяЇяйяШяБяВяЭязяёябяЗяЛяеяеяпяпягяСяЛякязяЬяСяМяШяМяМяЬяЩятяЫяАяиякяДяёяПяряжябяДяОяхяЮ  & 6ясябяаяСяПяФяЧяУяКяЬяшясяЫязяд яЬязяРяЬяряпябяш   яшяхяэ  яхяч  ясяряжяеяХяц яняфяхячятяляъяпямяюязяюящяьяияэяжяю ячяаяляыяюяфяс    яаяЧяРяУяаяЭяаяляр 	ярятяа  яшябязяшяп язян 
-яхяЧяеяЬягяГяпямяЯячяпяеяТяЩяПяЩяХяЭяшяфяеяфяНяаятяЬяеяцякяУяЛяПяЩяЛягяаяКяСяПя»яФяБяПяНяФяЬякяТякятяняЦяжяДяЗяКя­яРяАяМяЦяЩяєяШявяФяЛяХяЮ яЯяЕяЮяшяэябяояфяЖяѕяѕяИяАяїя©я°яЛяЧяЧяИяЦяЩяїяБяСяЖяМяТяИяхягяЧявяАяЕяЛяБяВя№ялягяКяјя¤яПяТяПяЕяАя°яФяѕяАякяІяјя°яМя№яУя№я·яКяјяДябяФяјяДяГяАяЛяІяЖяТяЧячягяДяШяОяЙя¶яШяряЪяєя®я°яЇяКя®яАяєяєя±яГяЦяµяєя§яќяґяКяЧяЙя±яЦ  яйядяняПяЗяІя·яІяјяёя»яГяИяВяЮ яхяъяюяжяМяЫя»яИя©я­я§яЄя®яµяѕя§яџяЄяЅяы       !яДяЁ  я«я°яеяЅяЌяzяyяPяnяcяtяFяlяwяmя~яmяwяќяњяљяќяјяя”яџя№яєяЖя›яҐя·яЇя­яЗяЮяВяія¦яЅяЇяБяНяЕяБяАя¶яЅяЙяЕяАяјяЅяЙяїяБяЗя я·яФя№я«яРяјяґяЗяЦяЫя±я©яЄяёяЛяЖяУяјя«яШяЄяУяУяКяЦя№яґя¶яЅяБябяЬядяБяЙяБяґя®яЕя»яДяЪя»яґя№яЦяґяБяДяѕя¬я яљяЯяйяМяВяАяМяДяПяБяЇяПяЗяДяДяЄя»яИядяЫяФяЛяЧяГя»яФяаяЬяМяТяЛяБяОяВяБяОяияЅяХяЭяВявяДяіяБяЛяКяЧяЩяіяїяЯяШяєяЙяУяОяЫявян яПяТяЗяТяйяыягяаяфяцякяЩяРясяпяйяОяЫяЭяцяы  ѓ і Ђ яцяТяГяЭяяяцяжятярягяйяаязягяьямявяжябяЗяЛяјяр  ягяыябятяЦяЛяпяТяляояХясяч  ядяояеяЦякяряаям яеямяо  яхямясяФ яоячяхяыячяРяЭяжяоякяыяяят     яч  ялят яйякяЫяу яяяаямядябяи яляПядякясяЯязяЬяхяЗяе яняЪяШяЧяОяєяЧяЧяйяЮяХяМягяэяИяЩяХячяЕяХяПявяияэяХябяжяПяФяСяєяЖяКяРяьяЭяЯяЧяУяУяФяряЭя·яЬяЖя»яЦяряЭяояПязяОя№яНяжяЬяпяЭяРяѕяУячяняЕяЗязяЪяЪяВяГявяЦяТяТяХяКяГявяЫяЪяРяїяРяРяЬяВяИяжяЕяШя№яПяЬя№яјяФяЧяБяРяКяЙяДяЖяёяТяЭяПяЖяТя°яґяДяВяБяЗяЙяёя№я¦яЙяОяДяЦяЩяАя§яѕяЅяЦя¶яЇяЖяЕяµяТяТяЫядяјя¤яПя№я¬яЇяєяµяНяРяПяїяЅяЅя«я¦я·яВяёя¤яяЛяіяИяѕя¬яАяЬямяняЯяДя®яќяџя«яјяПяСяБяјяЅяїяхяЫяЭ  ядяСяЩяПяЦяУя¶яЖя¶я±яўя™яНя° 3    >  яояЯяЅяляоя©я‘я{я¤яPяЎя–яWяuяaяUяlяSяoяtя?яaяqя’яҐяЎя„я я¦яёяЋяєяЅяєяҐя№яЈяЇя«яКяЦя¬яя©я№я‘яяБяёяСяАяґяїя°яДяЦяёяЕяРяТяГя»яµя¶яМяЩя·я¶яєяµяѕяЄяХяЁяЛяНяДя»яЅяёяОяµяІяїяХя±я±яАяГяјяЈя®я¤я‘яБяЙяНя№я¶яПяЮяУяАяЛяГяёя­я№яїяОя¶я№яєяҐяљя¬яёяАя°я°яЖяЅя±яНяПяјя¦яіяЖяНяёяТяЯяОя®яґяУяЖяВяМяЪянядяеяСяЭяЕя№яЯя№яЕя®яґяЧяМяѕяЯяїяЎяЙяРяЛяјяПязяояБяКяИяДяляаяЩяЭяояеяЭяХяСяЗяФяЕяЛяКяЪявякяФяЫяаяФяКядябяТятяй " ™ )яч яэячячяЩягяиязяОягяШяПявяЯяЬямякяЯ яюяэяЩятяс ясяняю    яэящяЭяжязяХягятяпяаяуяцяЯяОяьяи  яг  ящ   яеяияаяшяр  яЧяеякядяч яюяцяэяпям 
-яъ яиящяъяжяеяфяпязяЪяжяЯякяюядяЪяояьягяояюяеяуяояХяБяияЬязяЦяяяЯясяряЮявяНядягяФяЙявявяУяЫяНяРяЕяЗяѕямяАяьяуяРяПяНяеяЬяЪяеяјяЙяСяаяЩяЙяБяМяхяжяЫяОяЙяШяЙяЅяаяїяµяКяБяПяЅяРяъяжяЙяФя®яОяРяУяµя¶яСяХяРя№яЕяияЬяЛяВяѕяµяЧяХяЖяЧяеяХя»яѕяУяМяЩяІяМягяПяјяФягяаяЫяїядяФяхяъяµяЧяАя®яіяСяМя»яАя©я«яФяЭяЭя»яИяіяЕяГяґяРяјя¶яѕяїяПяїяёяХяБяПяоядяыящяеядяКяШяНяГя«яДяґя»яОяКяФяЅяЖяМя·яІязя°яЕя·яяІяЖяЅяжяеяКяЩяЮяхявямяЙяіяќяљя»яёя¬яІяўяњяІяТ язяш яхя№яШяёяЈяПяїя°яТяјя№я›я°яєя¤ J @   яЙяняўячя·я“яЏяЁяАяwя›я…я†яzяrяiя_яjяoяЏяuя~яuя„яЎяљя’яєяµяҐя§яђяДяµяЙяЧя»яБяЛяКяЗяїяМя«яГяЗя—я»яБяѕяПяФяЙя»я¶яАя»яЅяѕяґяЗяКяЦяМяѕяЅяУяПяОяЙяУяжяАяМяБяКяЕяµяМя·яґяЇяРяОяЙяЖяєяїяТяґяіяГяЅяјяЕяСя¶яЖяГяЁяјяГя»яВяєяџяЅяЛя¦я¬яКяФяДяАяСяѕяія»яВяёя§я±яИя№яФяЖяКя±яєяМябяПяаяРяУяЕяЖяБя¶яЦяѕяЫяКя»яжяНяСяіяёяПяРябяОяЮяеяДяЖяыячяЦяїяДяУягя±яОяеяшяеяЬяНяЫяПяєя¶яСяЁяЪяЮяйяжяМяБяКянякяЦяЯящяв  яфябяйяФяЪяєяЯящ < Q 4 яцяфяйягяжяфякямяЯягяЮяЪяияхяЩяЭял яЦяНяЭяЬяЫ  яляпяпязяеяЦясяаяб яуяпяшяЬяХяШяряп  яыяз 	ямяЯяфязядяояъяшявях  яфяняыящяпязяо яЯяКягяНяч яйяНяУямяуяХясяЯяШяФяняЮяч  яьяЭяЧязяяяЫяЮялящягяхясятязягяеяьячятяуяцяаяВяБяЯяОяДяТяХяияСяПяЬяЮяаябямяѕяДяШяШяОяіяМяжяняшяМяёяІяјяЛяЦя«яіяЙяЖяХяТ  яЩяЮяУяПяеяГяЪяЫяУяМяАяёяІяИя¶яЬяХяУяжяеяДяШяРяўяѕяНяЗяЯяЦяПя­я°яЖяЅя№яМяИяЇяМяТяЕяИя“яЅяФяЩяЇя®яЭяНяБяГяНяКячявяФя±яІяЖяХяЖяЇя·яГяЅяДяИяЬяРяёяГяЇяЇяВяДяїяµяєяµяЕяЙяЕяЖяЕяµяЕяСяЙяјяУяЩяМяВяёяєяКяГяЗяѕяЄяЧяЙяёя»яµя°яіяјяЇяµяґяАяМяµяµяВязяЦя°яияфяаяц яыяїяёяПяБя№я­яЇяљяјяѕяЗяряъ яъясяЕя©яѕяЇяОяѕя®яБяЅяЅя»яҐяЈяџ   g @яГяЛ  я”я;яФяяzяkя{я“я„яЃяyяQяSяRяYя7яяя я¶яЊяqяЁя”я€я’яЖя™яљяµяБяДяМяЅяЁяОяЧяМяґяРяДя­яґяЄя±яКяЛяКя«я±яµяЕяѕя±яСяБя°я§яЇяАя±яІяІяИяјя­я·яЅяјяЙяІяЛяСя¬я¬яћяНяµяЇяµяїяјя¶яєяя±яБяДяѕяЗяМяІя®яПяБяАяµяГяЯяОяЛя яЈя®я±я¬яЁя№яЗяНяія»я¦я±яЈя±ятяЗяЖяІяияЖя№яУяЗяЅяЅяуяСя¦яИятяУяІяряЦяРяѕяЖяРяРяеяРяЙяФяЇяДяЮ ямяФяѕяХяляЪяЭяжяФя»яДяїямяЛяЬяАяЛяОяФяФяпядяЩяЗяЬяЪяРяСяёя№яЛяЩяјяїяфяИяхяУяляъяБяИяиявяЦяЪяИяУяр яэяфякяпяу ягяТяЭ ячяяящ  ятяьяояаяфяУяПятяр яряЭяцяияэяряняшячяхяьяюяоянячяэяхях ядяз   яьящян         яяяе яшяфямяОяЦял  яляыязяаяляпяп   	 ямявявяляяявяЯягяьядядящяфягябяЦяуяйяУяЪяЬяхяЮяОяхяЧяЫяЯяжяЧяЕяХ явяНяЯявяаяпяжяЩяЦ япяДяґяЦяляЅяВя»яШ яХяСязямямяЧяМяеяШяХяМяѕя¶яВяѕяУяияыяЦяНяЗяКяЅяОяеякяФяЬяЙяМяЕяШяУяЬяВяєяДяаяЧяЗяПяјяняряхяХяТяЧяТя©яўя¶яЕяКяЙя»яГя±яГяЮяЗяёяЗядяСяЙяѕягяЬязяжяєяМяЙяЩяШяОяґя±яУяЯя»я»яЩяїяія­я®яЕяЦяЩяРяТяКя·яеяИя№яЙя·я№яјяЖяИяїяГяЙяУяЦяДяЗяЗяґяЕяЙяЮяЩяёяµяТяГяґя№яєяјяИяБяБяЎя¦яєя·яЧяояФяРязяу яшяйяуяЫяСядяКяСяЖя›я§яѕяМяг яр    яАяњяФяАяПяЦя·яіяЄя°я±я°я±яЁ       !  я–  яІяТя’яЎяџяhяbя я‰яЃя…яpяKяFяWя‰яќяҐя™яЁя{я‘я¤я©яя¤яяя¬яѕя©я—яјя№я«я«яєяІяіяЩяЛя¶яїяКя­яІяБяАяЖяЙя±я¶я яНяЮяИяњяЅя¦я·яњя яїяіяґяЇяЄяШяЖяЅяКяГя­я яќяѕяјяєяЦяИяАяИяВяЖяЧяаяВяВяєяЇя©яНяѕяєяµяіяҐяµяаяЖяґяµя°яќя°я°яія§яµя°яаяНяБяјяєя¤яєяОяЛяЫяШяЦяйяЭя№я±яїяЕяЖяѕяЅя»яЛявяЬяРяПяєяЧяОябяВяіяЩяЕя·яјяУяУ  яЯяХяйягяОяФяЮяЦябяБяСяМяФяЖяЯявяХяЭяїяІяЗяЙяНявявяЬяняјяЕяХякяЭягяФя»ябяуяляеяНяаяСяжяаяЛяФяЫяхяпявяЫяняЬядяНяЪяСякяняв 
-  яуяЫяУятяшяШявяпяаяуяЯяЩяжяжяш яюяняж ях  якяз яжяч  яяячярясязяъ яшяЩ ярясяя яяяыятятякяоязяФяиятяфях яьяиякягяъятяпяф яояЯяСяжяи яйяаяс яйяйячявяУяНялябяняк язяЦятябяжяжяХядяюябяНягяСяУядяаяЪяаяЯяхяЭяЯяЯябящяРяНяФяѕяКяЭяИяЮяжяеяжяЯяТяШяСяуяшяхякядяРяјяУяЫяНяЩяФяРяЖяОя№я¬я¶яЦяЖяЙяЛяГяйяпя»яРяЖяЕяОя»яПяЩяЫяПяВяЛяјяГяНяйяЬя¶яІяЅяБяСяЕязяЅя±яЖяЙяІяЩяѕяеяаясяПяРяаяЦяйяїяДяШяКяуяКяЖяµяјяЛяЛя№яКя№яНяВяЎяўя¶яНяёяїяµяЪяШяЅяїяДяАяЩяЙяЧяКяСяНявяЕяФяВяПяБяЄяОябяГяЅяНяБяаяГяЁяДямяПяЇяаяСяВяўяЄяёяп яЩяФяЮягяуяэямяаяЧяЯяСяКяёя­яЦябяКяЕяг яъ  яюящя·яЇяќяЅяМяїяЙя±яљя©я»я©яёяў  яД    я†я`яwяНяияЩя¬яЏя…я‚яtяvяVя<яjяqя”яlяgяqяЏя‹я‚яwяtя‚я~я»яЈя›я›я№яіяњяёяЖя¶я¤я©яКя®я яІя°яАяАяЙяжяИяҐя°я©я°я©яјяЅя§я­яўя©яґяМяГяРя·я¤я¤яёяЈяДя°яБяУяАя«я±я№яія яєяОяяєяРяФяЗяАяЙяЖяЩяЗяЈяёяїяНяµяЮяЧя¶яЅяШяЖя¬я°яѕя”я»я»явябяВя№яєяѕяТяКяПяБяєяЅяШяУяЛяЅяжяЫяГя¬яєяФя·я°яОя¶яЖяЛяЮябягяЮяЛяЖяЦяояхяЮяСяЫяъяУяµяЮязяСяХяНяОя·я¬яТяРяїяјяЦяФяјя·яЗяЙ яЪяМяНяЭяФяФяРяояъяЪягяЮяСяЮябязяЛяКяЫяЛя»яЮяЩяЬяйяЦяЫявяЦяляЬякяйязяЭял яЦяУябяйятяюяфяф 	 	ягяРяМякяйяЭяпяф ящяи яняйяЖяєяуяшяжяляфяжяеяъямяЪяыяуяШязякяНяЪян  яыяНядят  яя ! # ял 	ягялящяляиягяаям яояцяу  яфятяъяйяаяаяЬяХяЩябязязяияЩяпяцямялякяеяЬямячящяЭяа яюяЫяШящяаяияВяШязяЫяЙяМяоядяЙяНяЙяЦязяпятяЬяШяйяЮяАяХямяхяПяНяРяУяКяЗябяНяЯявяХячяияЬябяХяОя·яїяЭяОяОяИя·я¶яИяЧяЫяЧя»яГяТяЛяЦяЫяНяНяРявяФяїяЖяИяЦяМягяЙяПяБяШяЕя»яКяЪяЙядяНяПяНяЧяАяЦя»яВяЧя®яВя№ящяПяТя·яёяОя»яіяµяЅя­яјяШяея№яШявяАяўя№я­яїябяУяОя°яОя¬я»яРяїяВяФяАяЛяјяЗяТяјяФяРяаяНяОя®я±яТяняХяЦяВяИяВяЄя¦яПяјяўяЙяіяЁя·яЁя»яМяияЯяЙяояюядялякяфяшя®я»яµяЧяіяПяОя№яѕяХяч  яюявя¶яЛяЄяРяФяЬяЧя®яЕяЛяТяИяЙяЫ G  яляФяая<яcя?яТяЖя±яfя‰яєяЋя_яBяѓяRя„яnя}яЎя…я•я–яњя‚я|яЌяЊяЏя¤я°я№яєяЈяЇяёя·яїяВяЄяЁяБяВяВя°яМяРяЭябяЮяІяія·яћяЄяВяОяАяЦяЫяУя«яЕяїяЄя»яµяЮяКяИяДяія·яДяШяПяЙяВ 0япяЪяЇяКяѕяєяАяµяјяПяЭяЮяФяЙя¦я°яІяБяёяВяПя»яЛяМя«я­яАядяЅяіяѕяБяЅяЪяєя­яµяТяВяѕяЮяСяДяїяЗяЇя«яПяФяьяЮяляЭяЭяЙяХя№яМяФяЕяФяОяБяеяЫяЛяйяжякяЭяШяаяэязяЅяЗяЦячяняІяБяёяДяКяУяЯяЖяФяїяСяОяСяияИяУямяПяЫягядямябяоямяРяЪяЛязящячящяояјяЬяЖяпяхяэяьяйядяФяляЩяпяЦяеяЮяЧяйязяфяОя°яЪяъяъязяЯязяхяеяПяняцяйяияеямяЦяШяжязямяЯяйяч яьябяы яшяь ябяаяфящящяиябял япяояш яыяг 
-яьяияъ  яь яыяьячяьяЭяаяЭяфячяуяуяь  яЯяюятяЮягябягяхяияхяз  яц яы яу яфяЩяЭяЯяряоягяШ  
- якяЯяуяЮявяжягяфяояШяЛяѕяЪяояЧяВяЖяјяКяеямяояфяСязяИятяЭяЮяХяРяЪяШяОябячяюяОяФяЗяСякяЪяпяЮяОяМяЦякят яЫя№яУярявяТяВяРяыяняЬяШяХяСяйявяАя®я­яїяНяляея№я¶яДяФяКяРяХяБяНя­яёяѕяЗя»яєяЛяЙяЕяЕяІя«яРяХяЮяЦяЩяБяЬяляјяФяняФяФяТяуяГяЪянямяТяХяОяЛяКяШяЫяЖяШяеяОяГяКяФяЬяЛяјяЎя»я№яЄяняЧяґяКяУяёя»я№яИяЕяїяЦяєяҐяія¬яЄяІяёяОя¶я¤яёя‘яЇяЗяХя№яµявязяЪяЫяЮядяЧяЩяМяЕяТяГяЦяјяВя»яРяч ящ  яДяЖяСя»язяґяЦяЫяВяєяСяЗя­яНяеяАяЉяЏя5я™яIя\яѓяkяЙя«яђяѓяѓяњя]яyя”яzя^я`яqяЉя­я’яsяeя|яћя•я‡яЌяґяЅя­я›я±яАяЛяјяЛяёяГяАяїя№яѕябяШяЖяЕяєя°яЈяАяµяУя­яҐяёятяЭяєяАя¬я°яРяЗяЙяЭяЩяѕя©яёяІяДяСяСяЦяГяЮяпяЮяМяјяХяляЦяЈяУяґя»яјяЦяЧяЧяНябяШяУяГяжя»яБяґяДяўя›яѕя­яія©я№яЅяКяКяЗяґяЛя¶я№яЩяГяУяБя°яЖяОяѕяОяФяЗяФяІяҐяёя­яЕяБяВяСяЭяѕяїяБяНяЛяДя­яЬяеяХяБяјяМя°яЅяЪяаяяяЯяЬяФяНяѕяЪяАяЙяжямяЮяЗяЛявяФяЦяВяОяпяЦяОяЮяЙяжяЪяУяРяПяЗяСясяхярягяБяЭя§яЪясяэяоямяХяБяЕяСяияияжяФяєяз 
-ялячяйяияЮяЮяЛяияШятяфягязяЮяЧягяЩ  яхяФят   яыяпявясяьяб   яЯяЭяыяыяуянякякяьяэяфяЭяз 
- 
-ящянясяряПявяъ  яэямяхяшяЧяэ  яеякяэ яэяюяояфяцяЩямяфяцяшяф япяцялякяы яряжяк яьяп   яняЩягяеяряЪяЧяЫягяфяьямяияфяЩяВязяряЩяНяцяряйяаяНяДяМяняфяыяляжядяРяляЪяЬяняыяЩяжяНяжяјяЛяжямяуяЯяКяСяВяЈяТяЬятяУяТяпяеяУяЙяМяДяЙяШяИяЩяГяЧягяПяЗя¬я®яјяыяняУяГяХяЙяИяЪякяКяЕя»яєяЕяјяФяЛяРяТяТяАяГяТя”яЗятяЦяЛяХяИяНя№яґяЗяПяПяАя©яСяЦяЩяЗяУяИяЙяНяѕяАяЩяЛя¶яАяИяИяЕяУяХяЄяДяЫяСяВя±я»яДя я®яѕяКяФяжяПяІяµяРязяжяБя¶яґяЁя»яМяВяЙяЙяСяЖяЁяҐяґяИяЇяЬязяияЩяЬяИяРяЮяеяЖяТяЙя·яЪяїяМядяняе 
-яэяцяЦя№яїя±я«я№я·яТяБяДяРяЕяЄя±я·яляОяzяРяXяЇя4я’яtяћяpяSяЉя\яiяћя~я†яЃя…яIя‰я€яsяmяPяkя“я©я±яЋя‘я­я°я»я»яЧяЪяояїяѕяПя®яя»яїяШяНя№я¬яАяЄяєяЭяЛяўя¶яФяЇяРяЩяµяУя¤я“я•яИяРяҐя¶яСяЛяФяЭя¶яКяФяОяВяТяТяЛявяБя±яЁяЗяФя¦яІяШябяёя¬яМяляАяЫяЗяГяРяИяјя™я©я°ятяфяНя¶яЎяёяИяКя¶яКяГяјяѕяБя»яЅяКяЅяЫяуяУяТявяпяя”я«я яНяєяТяїяДяМяЖяЬявяЫяАяМяіяДяС яаяОяЫяМяЭяШяТядя№яУяЕяВяТяіяѕяжяляЩяПяёяїяєяАядясяряияИяИя¶яКяжяТякях ятяєяФяГяЬяЕяхятяКяКяЗяФяКяЮяояюяхяпявянягяцяЧяЩяЧяиячямящяыявяыяпязяЭяЧяЪякягяеяпяоягят ян  	яшячякяияхящ ящящятяь ячяЯяЛядякяфяЭядяжяо ядяш ятямяШящяфяс язяЮяЭяЯям ядямяы яъяжяйяж   яфяЬят 
-яняЪясящядяияХябяКяЭяЮяЧям   яияъ !яяялямяЫяМяСяУяЬяЕяфяьяяягяЦяЮяЕяУяжяЦяТяФяфяйямябятядяМяЫячяцямяшяняЯязяРяЮяНяРяЩявяјяїя»яТяТяЧяРяЧяЩяТяБяЙяЙяФядяпяжяояпяРяХяИяіяОяМяАяМяеяРяОяїяЦяАяїяШяМяТяЯяеяіяКяАяЙяДяНяюяУяняЮ  яФяРяПяЕяѕяЦяія¬я¬я°яШяѕяѕяУябяЩяЖяЗяРяОяИяВяИяµяЕя¶яАяЗяГяЦяИяЛяХяЧяЁяЈя­яФяЫяКяЪябяіяјяЗяБяЅяєяКяГя®яЇяКяШяпяПяїяєяјяХяШяХябяКяЄяЄяЅяЅяРя»яШяІя»яГяРяАяЩя±яряияШявятяряНяЗяАя·яИяУя»яјя¬яВяш яыяфятяЬяІя№яЁяУяляґя§яСяЙяЙяЦяєяµяГя№яҐя8я я^я}я¦я#я я|яpяhяbяKяwяjя€яoяЄяwя†яrяvяяwяxя†яxя”я–яЊяrяЊяµя®яЪяУяЅя­яҐя·я¬яіяёяіяДяАяДяИяјяГяЧя·яШяєяГяЇяХяДяЅяЖяЗяЭяМяСяДяЗяЙяЙяЇяЦяЗя»яЧяХяЮяАя¬яФяТяІя¬яµяѕяДя–яњя­яўя№яПя°яГя®яјяТяШя»яЁяВяЦяХяїяІяЇяІяёяЅяЙяёяЎяІяµяИяСяЎяСяКяДяУя№я№яЪясяВяБяЇяєяЗяЧяФя§яњя°яёяИяјяШядяЅяЙяБяєяµя»я№я¶яГяЮяВяЭяЫя№яДяВяАяБяйядяЭяРяРя±я¤я©я№яНяЮяляЗяВяјяПяПяЮяияаяшяјяЙяБяЗяМябяїяХясяюяХязявяВяБядяЪяаянядябящяшяэяЪ  яыяЮяуящяЭяЩяг яИяЫяюяфямяоячяэяеярябям  яэяФяЯядяЬячят ямячяояЭяэякяжяц     яляь яХявяпяю яэяэяь яШяыяь  яь яэядяоядяЮ  ялягяи яояняцяьяпяйящяб 
-яъяюякящязяп ягяхяхяЧягявяь ' 4 якяЯяЬяняЭяСяВявяь яйяЙяГяДябяЯяЙяЙяЦяЖяРякяэ яЭяРяЯяШяГяЛяаяцянядяЮяЬяляояФяшявяЫяКяЇяНя·ячяУясяФяТяыяОяЅяЦяЗяМяХяЕяДяІяїяЅяКя»яЕяКяЙяряЙяБяШяеяРябяеяЙяФяЧяЕя­яИяЮяаяЇяїяЖя№яШямяЩяіяФяЪяЕяЇяШяЪяСяжядяУяЛяняЯяІя»яУяУяїядяНяНяТяГя®яµяВяУяаяУяИяОяСяЩявяТяхяµяУяУяАяИяГяЕяЅяґяїяєяЖяЅяТяЩягяФяЄяБяЭяФяЛя№яФяБяѕя№яЕяЗяёяѕяЙяКяЬяФяДяЖяЗяїяУяЗяСяВяЖяьятяЬяУясяняЫяТяёя®яјяЙя±яґя±яЇяаячяпят яЧяГяИяЙяЅякяжяРяЅя­яИяѕяЇя­я±юШя†яUяpя›яЈяяѓяДяЎяvя[яTя`я°яњя~яiя„яiяwя‡яwяiяoя‘я‰яѓя™яjяfяvя¤яўя—яёяЕяАяЗяІя»яµя°яёяняИяЙяїяГяќяИяШяПяІяОяТяЖяАяГяОяОя·я№яѕяЛяµяДяДяХя»яМяеяРяЧяёяЇяѕяЇяЅяЧяѕя™яЄяѕяЫяАяАяЛяЖяГя»я©я›яЇяЖяЪяЗяВяСяВяПяЛяєяўя»яДяґя¬яЕяСяВя±я»яµяРяјяїяОяФяЛяїяґяѕяЯяЮяВя®я»я№яИяїяЬяояµяЅяТяИяБяФяеявяЩяу яЅяФяИяОяУяПяЅяАяЧяУявяЦяГяжямяияФяУяМяЕяТяАяЇяЙяТягяНяХяЧя№яЩяйяїяпяу 	ябяХяЬяьяЭяЗявяТяЮяояТяАяЩяЭятяЧяЭяпяЮяаязячят якяняеяХяЩядяЛяЯ ясяаяЪяРяияЛяняшядятяряеяЯятящяияЦяхяияюячяж   япяи яхябяс ящянящяьяуяыяфяжяЦ яч  	яляОяЧяуяйяь яхят яцячяЬяСябяшясяйяЭяШяряцяЧяЫябяг яряЮяняуягяояЬяп яняияфяр япяф = Щ ” 3  . яйякяп явямяЭяПяХязяЭяЮяаяЮяПяГяЭяеяЩяияеяСяЯяЪя№яТяПяояъяеяЦяЩявясяЛяНяТящяРяояДяЅяЕяеяжяаяЪяФяНякязяжяАя¶яЛяНяНяЙяВяЖяаяИяЗяРяµяЯяНя»яЖяХяєяЇяДяЇяЮяряляѕяѕяЪятяПядяРяФязяХяаяїяЇяАяВяРяХягяОязяТяМяТяц ямяЭяВяѕяПяЗяЖяЦядяЙяѕяјяаяЛяУяЮяИя°яГяЫяЯяЧяОяПяЙяЩяНяФяЛявяУя±яДяЛяНяЕяћяІяґяёяЕяРяМяЫяВяАяСяёяКя№яСяТяЛяШяУяГ яаяЭяґяОяёяјяОяИяРяНяияйяряс яыяпяВяЮяДяЙяБяДяЛяєяЅяїяэяшяю  яняОяКя¶яАясяЭя¤яџяёяµя№яДяЖяlяVяmяiяaяPяя)яЊяxя¦я¶яaяsя’яЂя–яjяVя`яoя±яЌяdяYяhяiяcяЋя‹я™я„яїяґя•я¶яёяЕяЕяёяАяµя¬яВяНяєяїяВяТяЖя±явяЮяєяґяІяія®яЈяїяµяЗяѕя±яРяґяПяЗяњяВяЬячяЛяФяЛя»яЛяПяѕяµя­яВяНяЬяРяняДяНяєяўяµяЬя·яЕяІяЬявяжяШяЩядяЇя’яГяЯяЛяФяМяµя»яПяРяЖяАяГяДяЖяєяЯяОяАяЁя»яАяЗяХяЇяКя«яБяЬ яШяИяКяЙяПяЗяЦяХяЭяВяЙяйяыяжя«яР ядяйяФяЛяБяКяРяЕягяпящязязяХяТяЕяНяФяБяВяОяХяАяФяЦяёяСямяПяМяЯяШяУяМядяУяляХяЪяШяЪяШяјяУяуямяЧяЖяШяояэяПяУяУяЭял    яЫяЮяяясяияияляюяияРябяЦяеяДявячяьяф япядяхяъяеяшяэ  ячяд   	ямязяШяЧясяЬяуякяряыяйяы   яуяпяГядяшяцяхяо  яч ясяЧятяьяЪяЭяфяэяш яуядящяжядяжят ямяСяфясях  яъябярям яуящ pA щ Tяяящ яоящяряьяб яв яуяШяряиявяЧ ямякяЦяЯяУяЩяФяяясяЮяРяЭяЫяЗяНяЙяаяЕяЦяПя¶яЅяхятяЬ яЮяУяд яЮяея»яЕяЖяјяРяµяЅяЦяхяляцяъяОяЛя»якяЦяДяГяЧяИяЅяГяѕябяНяЛяЦяряаяЕяЯяСяхяПявяЬяЦяБяЖяйягяЛяРяеяЩяґяОяЩяйяєяЕядяЫяЭяСяЩяМя·яЙяИяУяЮя°яќяќяЧяХяРяКяЫяєяДядяТяКяФяЯяХяияяяняЮяЕяоямяРяЯяняЗяТяМяЙя¦я яЅяЙяєя±яЗяУяЕяОяфябяЙяЯяїя»яЖяІяГяЖяжяИяЛяЅяЁяҐяБяляЕяЩяЯяїяРяляХяКяСяЗяѕя»яТяїяДяћя«яіях  яяяэяСяИяЇя±яУяТяЧяєяВяШяНяНяЅяЬя@яяGяfя™я`яUяяўяЊяЄяmяjяKяЊяgя‹яћяЂяUя}яЋяЄяѓяqя_яўяѓяЎяyя‰яяєяїяМяЙя”я§яќяҐяЅяБяћяљяІяЧяГя¬яУяИя­я¬яАяМяВяџяїя­я›яНяЧяБяБяЁяЇяГя¶я¶яіяЇяґяєя·яЙяДяХяНяЇяАяєяґяРяЦяСябяСяСяЕяДяёяіяФяЛяјяјя№яияМяЧяґяРяВя±яШяУяТяГяБяАяЦядяШяЫяЅяАяёядяеяія•яГяЩяЅяЙяјяГяПяГя»яЬяОяГяПяЭяНяёяјяЗяКяѕяЖяЅя№ядяЩяМя·я№яЇяЫяпяЦяХяёяјяЬяХяТявязяЮяЗяјяЫявяЙяХяЪяуяКяНяМяГяРяФярябяЧяЭяЦяјяїяояРяляЫяиясяляЖяЕяОяЯяФякябяОяБяд  яЪягяг  яЪяЮяРясящяШяГяЪядяцяпяЫяХясяЬяХящяляъямяьяюягяТяняияфяшяеяпяюятяшяЦ   ялякяэяйяэяЯягяряцяо яфяфяь   яшяьяш   яяяю яЩяъ 	яюярящяц  яжягяеямяляияц якяаяцяфяк яыякяияияпяояеяб  D ? яйякянян ячячяняШяРяЬяЫяыяЫяЙ 	яьяяяйяЕяОяХя№яЦяпяЙяЯяЫяГяХяСяЅяОяМяЫяХящяияДяЙяЭяВяЅяёяГяПягяняйяСя¶яЩяУяЫяёяГядядяЭяШяЦяФяпяРяИяНяТяХяЕяјяёяХяФяЙяЫяНяФядяЧяПяСяряЪяРяМяЦя¶яµяЅяЗяЦяИяБяЬягясяЩяАяІяДяЇяЭ яряЙягяТяЩяЩяФя®яЛясяЙяіяІяеяМяєяІяФяВя±яТяНя¶яИяЧяЩяжяЭяАяСяЕягяСяТяѕяЗяµяФя±яРяНяЗяКяЕяИяЕяСяїяІяЖяЮяЦяЧяПяґяИяЖяіяЁяЛяЦяјяєя±я·яЗявяЪяКяЧяЧягяТярябяЛяИя·яНязяУяРяАяЖяЇяѕ    % ) яХяМяРяИяДяЙяЬяИяЮяСяЧяаяЙяБя¤я—ю«яяFяfяHюеяvяЎяoя_яrяzя–я‘я]яЌяҐяяvяcяzяЂяtяwя¦яeя†яЏя¶яsяІяХядязяїяФя¶я№яЖяЙяѕяЖяґяЙяКяКягяФяїяіяБяФя±яЁя¶я№яґяФяНя§яЄя©яГяНяРя¤яЇяБя®яѕяЇяІя±яРяДяґя№яМя»я«яМязяЬяМяЗя§яЄяРяГяЖяНяРяЕяОяєяРяияїяєяЗяСяѕяёяГяАяжяеяѕя¬яЅяФяЪяєяіяВяОяБяґяВяєяЙяЅяТяОяЬяЪя§яНяФяЩяѕя±яЕяєяµяјяЮяјяПяБя®яНя»яЫяаяЗяТяБя·яЩя»яЕя¶я±я¶яБяФяАяГяЕяФян ямяСяйяПя«яХяЯя№я·яИяЩявяЕяШяЫяПяУяаядяЬяЕяЕяняъяюягяЦяаяЬяПяЦяУяЮяРяжяъ  ябяж  ящятяЪяШяЦяЫяШягячяЯяеяУяКязят     ясяОяЙяЧяляеямяхяйяпялячяряшяя !    яфяоязясякяс 
- яцяляр   яъяцяляУ  яяяэядязяуяжян  яшяфяс   яшяЪяИяуяряю   ябяряляШяяяэяшяхяпяняняхяЮяЪяыяэяъяъяияЯяыяпяхячяЯяКяЪяЙяХяч яЫяПяФяСяВяЩяРяЪяЮяЬяЛяИяЯямяШяТяфяМяЮягяЗяНябяЧягяЬяЗягяОяБяНятяпячяЬяияКяняЧяЭяМяУяТяКяЬяБяЮяНяЮяЫяеяХясяйяіяБяэяияЮяВяЬяЛяЕядяРяШяХяФяЧяБяНяЧяОяєя©я№яЪявяНяХяБяПяШяЭяёяПяєяЄяБяМяРягяУяПяНяСя№яґя№яЇяУяЮяТяЖя»яАяАяїяМяХяРяґяДяЦяЪяШяХяѕяЗяуяЩяїяѕя№я°яїяЭяФяџяҐя¬яЄяЯяШяјяіяАяЭ 
-яДяНяФяХяµяРяУяПя»яВяЖяєяіяЄяўяЦяияЛяµяЩяЭячятязяУяЙяѕяґя»яЗяАяАяГязя»яµ яь & ятяВяЅяБяБяТяјяЧяОяЕяЭяуяїя¬яјяпяјяrяSюХюцючюря€яГяѕяя§я«я№я{я}я€яvя“я\яҐяђя„я^я`яnяtяpяЉяuяzя­я¦яѕяјя¬яія–я®яґяЅяИяХяКяЅя№я©яЖяОяКяіяЕяµяЅяДяВяЅяГямягя®я№я¶яЪяСяеяХяЗя©яЇяЈяўя®яЭяЗя±яМяНя©я№яАя®я•я§яОяПя·яВяЙяЅяВяФяБяЛяЦяОяЗяНяШяХяИя»яїяОяјяЩяЛяЪяЛяБяїяїяЗяјяАяНяМяЗяЬяЕяїяІя»яДя«яїя¶я°яРя»яєяЛя№яЬяйяЪяПяПяПяОяШяЩяаяШяЗяПяЮяЦяИяФяШяРяИяѕяєяґяОяМяЪяУяЮяНяаяжяФяГяНяРя¬яЅяГяЕяЫячярязяЧяТяюяРяЫяёяАяЫяОяСямяаябяс яНяа  яЛяЕя§яРякяаяжяжядяШяЬяРяЯягяЗяляхяцяжяхягяЙяжязяшядяц яЪяпядяРяцявямяняяяцяаяйяьяй  	яя ячяЮ ягяяяуяЯясяаяоящяф   якяюячяпялясяхярятящяшящяияУяхялямяЧяДях ящявяпямяр ятяъ 	яэяйяц  яэяэ  яЭ 	  
-яцядяу   	 ях  яюячятяа    яфяРяяяйяШяЫячяпяряляТяЪяУяиязяРяоябяШяЩяБяЫякяляИягяТяНяЪяїяИяЛяРяКяеяйявяПязяфяцяЭяпяЫяМяУяУяЧяНяуяияЧяЮяЗяЄя°яВядяМяРясязяЫяЫяШяБяТяѕядяЬяШяЗяПяеяеяНяјяҐя­яОяйяЧяЛякяжядяХяРяРязяНяНяМяґяЗяНяЩябягяХяЭяЯяїяаяДяїябяЬяПяУябяДядязяЫяДяРяКяЦяЫяДяЖяєя№яёяѕя»яГяЇяЅя°я¶я¬яИяЙяТяПяГяГяЖяОяУяУяЕя»я§я·я»яОяСяЙяФяЧяЁяЄяѕяНяЧяКяТяЧяояшяляШяЗяЅяУя»яБяЗяѕяёяёяєяЩяФяЮячяъяяячяэяТяЙяјяЗяБя­яёяЙяЧяаяйяЭяєяЫяџяКяњя™яBя(яяLя•я№я®яQяVяЃя{яXя’яoяcяhя`я•я©яѓяeяeя}яeя€я…я„яkяЄя»яВяЙяґяАяјяѕя·яШя№яГяияІя¬я»яџяїяЇяЖяМяАяЅяўяЇяАяХяЛяХяЗяЪяХяїяХяПяСяДяИяќяВяБяФяїя·яјяЛяЖяЛяЛяЅяЪяЅяйядяєяЬяЙяТя·яёяГя­яєяМяКяєя»я¶яїяУяСяєяЇяЎяЄяЗяДяИя№яНяІяјя¶яјяЙяІя·яЗяТяПяФяГяЗяєя±яЖяРяРяЫяєяМя«яѕяняЧяФяряЛягяЅяЩябяЛяѕяБяфяјя·яКяОяЛяБяїяЗясяеяИяУяУяТяЪяжяпяІяЙяПяЖяЫяЮяЖяЦяИяпяляряЯ  яЫяояКяняъябящямяаяЧяѕянямяЙяШяжяияЭялявябяУяЛясяеяряЦяРяиякяеяЪяЧяЯ 
-яляаябяйямяъяяяпяьяэячялявябязяТяѕяЩяГяЮяйябяОяЭязяфявяп  ялятякяъ  	 яаясяч яуявяуякязящ  
-  яцяь яжяхяъяъяояШяХяо  ячяйяняс яЬягяСяРяйяяяыяя  яъяЭ яЮяРяр яьяряояняСякяояжяЩяияояСяцяъях яй яыяХяЭяЕяч яъяЩяшясяпяфяМяДявяПяЭябяТяУяОяа  яЩязяЭяУяФяПяМяНяЮяфяЪяФяјяЪязяЬяЩямяияыяЪяОяФяЕяОязяРяУяїяјяЅяУяйяЯяряЬяЪяшяШяМяґяјяДяПяНяОяЩя·язяЪяГяМя«я¶яБ ядяМяСяЩяДяІяХяШяЛяїяАяЇяДя№яјяЖяняЮяЫядяНяЗяОяТя«яПяУяЅяТяеяЦяЦяНяХяУяНяЬяияЭя·яВяµяЁяРяїяЄяґяЎя­я©яўяЅяЩяЛябяУяјяЖяµяФяХяОяАяХяНяЅяОяЯяХябягябяЕяАяЗяКяµяЦяЙяЧяеяа ягямявяєяЛямя№яИяЛяЕяРяая¶я¶  яэяьяыяЖяШядяОяНяЦя¶яПяПяЕяРяРяБяєяmя	яя5я<яCюЖя$я‚яЁяБяќяyя‘я\яfя–яМя„яIя`я}я{яJяbяXяtяkяЋя‰яzяpя‘яёяїяія©я­яТяЭяНяВяёяКяАяБяєяњяЁя·яЄя‘яЕяУяГяїяЎя­яїяµяјяіяІяЅяЙяёяЙяјя«яҐя­я·я¶яїяМяЗяБяёя»яєяЙяИяєяЫяПяҐяАяЧяАя§яАяЈяЄя¦яµяНяїяєяМяЩяґяШяРя¶яЅяїяВяГяјяЕяЅяїяяіяёяОяНяУяСяєяНяІяµяТяІяЕяЪяЧяПяНяЗяМяияМя¬яёяЙяхявяШяаяйяЭяЩяєяЬяняжяЛяОяЩяЖяЙягядяСяПяСяШяЛяюявяЗяїяаямяЮядябяЮяАяЬяеяХяЧяБяАяЭяхяпябязяЙяЖяЅя»ядяЬямяшяъяояЬяЫяШяаявяляЖягяЗяЯяЭяЩяняСяјяХ 	яЮяЫяряЫян ятягязя»яжярякярянярян язяФяаякяЩяЪяпяЧяЫяч яжяа яцяпяя яп яц язяЫяряэяъявяф яхяХямяхящяшяуяпяяячящяч  яхяы  яЭяо  яхяляжяэ ямятятявяЪяЩяр япяеячяжяоявяляаядяУяТяЭяб яШяЦяжярядяе яЮяРяШяРяияЫяЫятяМяСябяЪяЩяХямяляйятярявятяЪяШяЧякяЧяЧяНяСяЫяеяЯяѕяЯяШяТяВяВяОяеяФяПящяяяпяЅяЛяїяняШяФяЭяЖяДяРясяЖяєяЬякяияпяЫяИяВязяШяТяЗяЙяОяЭяХяКяПяКятяУяЛяАяЮяШяЗязяМяѕя¬яєякяЩяГяФяіяКя«яєяОяјяЙяҐяБяИяеяШяБяІяЅяЦяПяЭяВяПяжяУяФяЭяТяѕяСяЗяДяКяЬяІяЕяБяМяСяЮягяГяМяМя»яСяияОяФявяЗяѕяИяѕяЕявяѕя­яВяЬяБяВяУяКяОяЧяЯябябяЎяЇя°яПяФяЯяуяЬяаяцяуяИяЈяЇяґяјяїяѕя·яАяЕяЗяС     яМяДяУя»яЭямяХяЩяРяНяУяГяЅяМя>я7я|яюєюФя6яяzяЎяbяZя^яVя}яQя‚я—яjя_яfяяTяMя\яpя€яЁя®яія¤я”яјяєя­яЅяЙяёя яµя±яГяВяБяНяЬяЭяЖяњя±яГя§яЎяѕяјяЧяЗяГяОяИя»яїяњяЕяТяМя°яЦяЯя»яя¦яНяжямяФяПяЮявявяЁяІя№яНяµяПяЛяБяёяГяЪяСяИяАяКяРямяЛяТяФяіяјяЇяВяєяєяІя¬я¶яіяЎяДяєяВяЖяЧяЬяЩяЧяЩяХяКя±яєяЎяјяЙяЮяъяляѕяКяЭяЗяЅя¤яѕяґяДя яУя»яГяжяЧяЬялядяЯяшяХяМяПяХябяЬяВяаяЩяШяеяяячяэ 
-яЭяОяУятяияРя·яСяРяШяёяВяШяШявяЮяеяаяХяѕяЫяРяЗяЖяРяэячяЧяТя°яЖябяйяфякяУяЛясяияЯяОяЦяЮядягявяояьяляцяп  яеяУяряьякяАяояфяжяПяпяояхяеягямяняъ 	 якяюяжяк яеяпяэябяйяыяыяц  
-ящяыяьяЯяьяХяб яояъяпяс  
-яыямяшяп  яьяюяяях яояпяш   "ян яфяы ябяоягяэ яэ   ясяЮягяы ямяЦявябяТяТ  ялясяФяфяБябяуякядяыяЪяФядяЪяЯяЫялягяХяЗяХяряЪякяияПяРяаямябяПяЮяряняЭяЪяТяБяВяИя·яОяПяйягябягяьяояряУяшяияЫяХяХя¶я±яЖяѕяµяЪячязяаяСяФяИяФякяФяКяНяИяДяНяШяШяФягяМяаяляКяЭяУяжявя№яБя±яъяфяЮяНяМяГя±яµя»яїяНяБяІя·яїяВяјяёяїяЩяОяјяЦяГяОяняжяєяЙяГяТясяХяМяаяґяґяёяСяеяРявяјяБяДяГяДяИядяФяИяКяГяИяєя»яФяПяаяЮяшяОяВя№я»язяКяГяАя®яіяќяєяРяµяжяЙяЧяфяФявяИяґя­яНяјяЙяХяБя¶яёяАяТяяярян  яЩя·яѕязябяФяияРяМябяеяБяАяПя№яяEяяяюзяя/я“яwяЋяћяyя<яSяqя}яtя^яCяmяvяKяyяЃя—я‰я“я›я‘я•я‡яњя¬яёяјяµяєяїяМяЖя°яёяµяБяЇяЇя®я¦яФяЖяµяКяУяЅявякяНяКяїясяояТя­я±яїяїяФяХяАяґяВяАяУяРяЪяЕяКяПяія¦яїя»яаяжяСяЫя§я°я¶яИяПяѕяРягяМяЕя№яБяЕя¬я®я’я¦яГяЙяєяМяЄя¦яјяБяГяјяЭяНяЦяРяЯясяеяЮяРяЦяВяЫяІя№яОяНяЩяИяМягяУяЗяєяЕяјяЖяЛяЩявяїяЧяФяЧяЮяУяБяЖяТяПяЩяЩяСяЭяиячяФяЖяТякяєяХя±яіяаяюяЪяЗя№яГяйяаяєяУ яЬядяЯяеяняЭяЦяЪяТявядяйяЕяЕяМяМяПяфяШяояеятяЯяЭяияЙяДявяцядяжяыяЩяПяХяЦяГягяЬяаяЮямяуячяНяРяч яхяыяпяЩяЬяЩяояняняхяхяпязяЗяшяоярящяцяуячяшянясяуяуяияряюялям  "      яй яыяняо  ят   япямягяеяияф   )ячяжябяЯ  ячяПяЮяыяияр 	ягяЬяЭ яляЭяияаяЕяТяЦярячяъ ядядязядяияояфяЫяПяИяСяУяСяЪ    янячямяПяОяШяЬяПяМянякяЙяНяАяЕяЛяХяФяЕяЩяЩяОяјяЅяЖяХяЙявябязяЦяеяЫяеяѕяЗягяНяЫягяЙядяЫязяЮяТяЛяРяБяЖяияМяєяЧяуязяУяКябяйяФяУяМябяЗяФякяоявяЮяКяїяРяеяЬяяяПяЅяМяГяКя±яЫяСя»яЦящ яряэяИяЮяЖяЫяЯяИяОяЩяУяТяЬяМяЇяїяМяЩяаяСяїяАяЮяеяєяЛяХяАявяґяЗяБяияЖяНяФяїяМяЧяЕяИяЇяЦяТяДяїя»я¶я№яМяЙяФяПяїяЕяНяЛяляЦяУяфяуяТяХяеяЧяУяґяГяУяРяЄяҐяіяМяјяС якязящябяЦяЅяГяАяЪяЬяЩяЛяаяВяияЙяШяЮяFяDя€я€я,яAюїю›яbяjяhяaяVяdя•яkя*я@яRяUяsяqяѓя~я„яlя„яnя„я—яќя№я®яєяСяХяЗяЄя°яЗяЕяґяёяАяїяЖяаяФяґяЖя¬яµя№яТяТяЯя±яїя®яНяйяЧябяаяЫяОяБяСяИяєяјяуяТя±яёяДя®яЕяЄя®яИяєяґя°яИяХя®яіяµя·яУяѕяИяРяЖяЎяЄя®яЕяЙяБяіяўяЅяУяЖя­я¤яѕяўя§яЇяГяХяЦяйяЮяХя¬яТягяЮяРяШяКяЧяґяЗяёяїяНяјяЙяЩяЅя№яБяЙяСяЩяИящяйяЫяµяѕя±яХяияТяияјяТяЕяЪяЗяПяЅяКяЯяЬяЭяРяФяЩяЭяЦяЬяСяЙяЗяЙяЗяПяЫяЫятясяНяЩяОяїяЗяОяЪяСяЬяТяп ягяшяъямяюяу  	 яжяХяцякярядяияпяжяфяЬягяЩяТяжяЕядящ 	  яняЦяЩяняю 
-ясядяуямяияФяфязяф 
-яяяжяпянякяпяиящяыянязяьяьяшясяя яэяьяшяъяч  &  яю яяяфяч  $ 	язях яшясяъяпянячяъядячязяуяряИяо  ясяйяЬяЯяб  яэ яп яаяШязяЦяКязяЪяШяЬяшягявячяЯяряч 
- %  яЬ яЩяПяЧяи  яжяИяйятяЪяНяХямяпяЖяЧяр япяФяЕякяШяЪяиягячяшядяЩяаяЮядябяляряъяняЛяЖяЖяЖядякяЛяЧяЖяЕяРяУяХяХяПяЩяЭяЮяТяЧяФяЛяЩяСяОяХяПяйяРяОяЮяНяЛяВяДяЙяХяияЛяСяѕяИяДяЦягясядяХяиябяЯязясяФяЫяляпягяЮякяМяЪяЦяОяДяКя№я·яДяЧяЩяЄяМяЛяИяМяЧяёяИяРяЖяая¶яДяХяРяНяЩяЯясяЕя№яЧяОя­яёяйяЦяЬяМя¶яЗяѕяґяЖяЙяМяияАяЖя«яЛяЙяЕяДядякяряЯяЫяЯяУяБя¶яФяСяУяТяЕяёяѕяГяЙяіяшяьяь яЮяляЧяЄяЖяОяФяГя¶яЅяАяТяИяЗя°яBя#ютя)яKяюаюРя я­я•яEя5яќя™я“яCяCяcя…я‡яЋя…я–я’я[я{яzя€яЊя“яћяёяЙяКяЛяГяѕяґяИяЧяЫяОяВяµяРяЮяРя§язяПяьяШяжябяТя©я©яєяВяЛяДяЖя¶яГяґяµяјяЩяЛяКяКяЗяЕяІяБяТякяВя¤яѕяЧяЯябяуяЖяЁя®яНяіяїявяОяєяВя»я№я·яШяФяБяњяя­яґяјя©яџяЖяўя±яіяЅяЪяВяГяЅяЧяПяЦяГяУяШяЦяЙяХяСяВяЫяґяЕяЬяВяїяФяОяМяЫяеяйяаяеяНяаяіяЩ ямяЧяНявяУяРяСябябяУяХяЖяЗяляЛяЧякякяЭяТяЩяѕя±яХяЩяРяУязяЫяЅяряЭяЬяЧяЮяВяОяияЮяНягяРягявяЦяЭяХязяМяпяшяФяНяжяЪяЦяРячяТяцямяЬяЗяцяЧяФяояСяЦямякяняъяияЮяОядяеяйябяеяОятяшяТямярязябяЮ яу  яыяйяЫяеяхябябянящясяи  яюяшятяляу * '  яцяэяс   яъяц 	 	  яняляфящятяъябязяояр  явяЮяЯяыязядяляЪяЦяояп    ятяпямяйяпячявяуяеяЩяЪяхягясяЮяпяфяъяЛяШяаяияГял яэячяОяНяЫяжяжяЮяя яыяЩяЪяряСяцяоязямяКяРяґязяЬяЧягяхявяИякягягяуяЛяєяУягяняШяаяНяіяРяЬяУяСязяеябячяляЧяЯяЭяЩяЕяояЯяЩяжяляе яйяПяЅяГяЫяКяВяЇяДяЛяТяХяєяЙябяЛяБяУяНяЙядябяиябяВяЛя»яјяЕя·яРяЛяНяТяПяТяаяЮя»яВяояФя№яИяТяКяЙяИяєяЬяляУяПяКяЖяЯяНяјяЧяЪяьяЭяАяєяУяРяХяНя»яГякяОяЇяѕя±яБяМяИяУякяШягяФяАяЕяЮяжяКяМяряиямяуяХяЪягяКяняУяЩяЭяЛяНяТяТ     яояЮяЧяЮя®яНяДяЦязядяеяДяДяјя*я™яrя…яDюЫюСюЛяЎя±яoяzяЊяyяQя•яpяOяwяhя€яzя’я’яgяeя‚яzя}я‚яя‹яЇя»яЖяБяХяаяГяЯяОяОяСяЙяµяЯяСяЛяєя·я№яМяНяжяРяЪяєя°яОявяЕязяЧяНяЙяєяПяИяЕяДяІяЈяёяБяЛяџяёяряЗяЁяґяея±яЖяМя»яЕяжяНя®яґяЇя№я­яОяєяДяїяІяЕяИяБяґя«яѕяјяМяЅяЄя¶яјяАяєяїяіяґяѕяЗя»я®яєяјяЭязяЧяЙяПяУяЙяЬяСяѕятяИя№яЅяТяЁя·яѕяКяХяЖяСяЕяѕяѕяЗяАяШяМя»яГяГяЦяТяГяНяОяХяхясяХяуяфятяИяШяхяиящ яЫяРяЪяРяЧяляфявяЮяЧязяФяЙяСяЮясяряюяцяняНяМяаяЭячяияЬяНяЦяаяСяЭяФязядяЮяхяуяояа  яыяЧяёязяк  яХязяыянячяпяряшяЮяжяъяйяЬ яряйяуяэяэятяШяц 	яряпязяп  яряняЮяю 	ят  яыяжяс   яяяъян    ячяяяшяояпяу яняш  	ярях яы яцяиякящ ящ ятяЩяТяйякяфяняляуяя ягяхяеяп ямяУяЯядяЩяЮял яаяЫяЫякяЫяояЮяТяряуяфяояТямяяяшяЫяМяш яляФяИяЛябясяояЯяЫяИяЬяРясягяМяЛяЭяЫятяляФяЙяТясязяТяуяЛяЫяЮяЭяЕяУяЦяЖячяХяБябяЩяЙязяТяСяЧяРяжязязяляеядяПяЭяОяєяВязяЮяёяѕяјяЧяйяйяия№яНязяёяТяаявяПяЫяИябявяЩяЧяШяШяПязяЩяСяЖяаябяЫяСяЖяЩяЩя¶яЁяёяЕяБяЪяТяЫяЪяХяСяЕяЗябякяЛяОяЬяКяЗяЪяТяНяЯя»яґяЕяШяЦяЭяКяЅя±я¶яЁяёя·яЛякяСя№я¦яГяВяЧя«яУянярятяяяЬяаяЧявяпяЦяЩяАя¬яЅяМяЦ     :яъяЮяЛябяёя№яЄяДяРяЖяєяЭяКяИяРя`я+яtю¤юяюШюЬя©яќяћяЉя©я•яУяpяaяўяЉяpяpяЉяiя„яђя­яuя‚яtяѓя«я”яБяія¬яІя№я©яёяєя яЖяЖяјяЇяАяЙя°яµяЙяНяПяШяКяїяУяЙяДя№я№яВяµяЅяШяЭяОяБяЛяИяЕяУя¶яЇяАяєяЗя»яИя№я·я¶яія”яЎяѕяБяіяЅяґяБяїяёяџяЕяРяЕяУяТяЦяЅяџя°яЁяМяОяѕяЭяЯяХяЕяИяЩя·яЖя№яОяЅя·яёяЦяјяОяШяСя±я№яѕя®яВяЩяФя±яЫяМяИяєяПя¬яЖяУяЗяРяМяЧя±я¤я±яУяЯяРяПяЦяеяИяІяЭяНяЭяияняияРяпяШяШякязякятяЕяРяЙяѕя©яЦяЫяѕ  яТяЧяп ясяняоякяи яхят  яуямяаяйяяяЯя»яБябяжяфяЭяЦягямяЬяЙяияияОяЦяЙяхяШясякят    ящяпяЮятяпямявяуяыящ яыяц 	яэямятяп яжяцяфяЦямязяеяЮякяч  ямяиядяйямяъ яс 	 яцяа  ятян   ягяКялясяюясяЩ яэ   явяняжяЮ яц яряояляоякяжядяиятявях  
-язяняШяя яряпяжяыяФялябяеяФяЫяцяЦяаяхяряаяюяФяПяЭякяЩяЭяЫяЯяняхясяЮяјяЖяОяОяЯ  яъяСяЧяпяЧяЫябяУяЕяХящящяОяИяЕягяТяцяеяНяпяьяШяЙяКяИяЭяµяКяЗяЯяйяРядямяФяФякяТяЙяЯяЭяеяЦябяЯяжяЩяШяэяіяЅяРяјяОяСяЬяжяЛяЪяЩяІяФяРяуяОяЯяиядяЮяЪя№яЄяЄяИяЪямяАяТяцяняМяјяµяОязяАяЪяНяУяДяЖяХяЪяРяБядязяїяРяОялязябяЮяЙяйяЧяГяёяЛячяЧяЛяЖяГяБяПяЗя¶я­яВяШяЛяІяБяЅяЗяПяАяЙяЦясяряцяшяфяляҐяОяХяйяШяПяТяУяРяЦяд   	  .яаяНяМяµяСяеяЧяХяЙяїяїяЮявяµя/юъя(яюМяяGюХя}яKя§я†яsяwяlяјя—яmя}я}я•яҐяЊя{яЎя„яђя“я›яўя”яяЧяјяµя·яјяѕяІяБяјяЅяЙяТяєяјяДяКяСяЗя©я»яПяјяЕяляМяИяПяСяФяЫяЖяІяПя·яІяЖяСязяЦяОяЄяМяТяляОя¦яГяЅяµяЗяїяЄяДяИяАяЗяІяУя¬я¶яФяГяЦяКя·яЗя±яћя·яБяуяФяпяОяИяЕяЯяМяХяёяЁяОяВяияФяНяЭя±яАяАя»яДя№я°яВяЖяТяТяѕяВяГяЬязяЭяЬяэяшябяµяєяВяРяУяхяЭяЛяБяияЪяЪяЫяЗяХяЮяляжяйяЭяПяЙяЮяЩяЙяёяЙяАяояеяФяБяЭямяФяјяЦясяУятяТяСяЬявяТятятят &яряЧяЪяЮяШяЬяОядящяыяФяјяЕяоякяЭяйяйяЙяЫяЮяоятяЗяЛяЫяЭяв  яцяуяляЮяуягязяЯяШяЦякяаясяюяш  яюяу яЯяШях  яЯямязяуяяяяяйяы яэ  яЩяЖяфяч  
-язягясяэядяЯ  ящямяхяЬяаяь !  	ясяеяэякясяс  яч ядян    яряЭяМяЮяжяЖяи яияЦяз яэяояи  яняЦяняШяЧяЫяЯяКяцяняЮяо  ямялядяУяиявяцяхявяЦяЭяряюяЩяЮяЭяеятяжяряЦяХяЧяеяЩяБяЗяИяЛяКяРяЛяПяЮяшяияхяфяТяШяЭ  яЩяБяШяЩяПяЬя»яМяЬяШяеяЭяжяУяХяДяЪяШябяТяШяНяеяРяЮяЪяЧяЬяЛяГяняНяИяШяПяМяаяеязяияТяВяЩяПяЕяУяЧяйяЯяШяФядяСяПяРяСя¬яЩяхяТяїяЦяХяФяШяОяПяПяФяВяаяаяаядяг яТяФяЦязяЖяЛяМяДяМямябяаяЯяјяЦяЪяхяжябяДяЪяЖяЗяЙяКяВяЕяЙяУяЪяЎяШяГяІяЛяЙяЦяЖяЫяЗяЧяеяЛяКяњяёяияЦятяЩяЗяЭябяНяї !   ящяояЫяаяНяФяЙяжяляСяЖя»яєябяЬяЁяюНюqюШюця,я я]яMя{яЏяЎяµяpяяbяя•яqя¶яќяlяeяlя}я`я_я—яvяЌя¬я»яЕяЮяія°я¬я¬яАяЗяЩяЙя¶я‘яёягя»я«яҐяЁяµя№я°яЦяЕяµяАяГяЩяАяЇяКяЇяя±яЖяМяМяОяНяШяёяЖяОяИяжяОяѕя»яАяляѕяУяЛяСя­я¶яёяРяБяЫяаяОя№яКяЕя¶яЕя±я­яЅяПяЛяМяЕяСяНя¤яЈяГяАяЎяіяТяБяаягяХяШяЗяКяіяИяПяуяЧяНяНяДяµяІяПяаяѕян яйядяґяЙяєяЕяЬяБяДявяЧяёяЛяХяияияЯяіяКяТя¶яРяжяПяаяшяЮяЛяОяеяняЪянямяХявяХябямяжяУяПянялязяЫяжябяАяЬяф 	якяЗяЮяюяаявядяуяСят ядяЦяоявяНяж янякяИягятяпям   яСягяляияь ямязягянясяояуяняс 	яэ 
-ярямячяояйяь 	ящ яцярячяфяаяы  якячячясякяСярядяряк    	яр ясят ян яхяш яаяз   '  яш    	  яяяъяхяшяЦяЫящяшяцяоягягяыякяаяпяхяюязяЫябяжяПяъякяпяжятяНяУявящятяцяЩяСяЯяс яфяЭяуяояЧяИяУяЬяШяР яЮяОядяжяцяЮяНяъязяЧяЕяРяИяЫявяхяЬяЩятяхяияеякяПяРяЭяШяеяУяУяШяЗяЗяШяХязяфяЮяХяјяеяКяЭяЯяШяуяняПяѕяЛяЩяв яЪяёяЧяµяГяПяРяіяАяФяшявяЛяРяОяМявяДяУяПяияЬяМясяЬяјяОяЛяКяРяжяШяОяФяЗяРяЧяПяКяФяЫяЙяЬямяЦяаякякяЬяјяЫяЪязяжяжяЬязяияЫящяЬяЯяМябясяЪяЮяЦяЗяЛяЙяЇяґяџяИяІя°яїяЁяЅяИяДяКяТяПя§яЄяЭяЪяъячяИяЗяБяЦяУяёяТяЧяЅя·ябяЮяФ     яЮягяУяПяГяФяЛяЅяИяЕяОяТяРяРяюнюъяяяюьюПяqя¤яћяљя‰яљя©я°я‹яrя}яWяyя—яЃяKя\я[яTяPяuя¦я®яђяҐяњя­я®яЄяДяЭяеяјяґяЇяБяЧяХяµяЧя№яЎяЌя«яВяјяЛяЖяКяєяВяІя·я«яїяЋя№яЖя·яњяћя№яБяЇя®яія»я­я·яЫяЙяїяЙяПяМяТяРяе яЙяЖяЙяїяЖя°я№яШяЗяёяУяПяЅяБяПяДя­яВяКяГяВя¦яЎяГяЬяЮяЗяБяґя№яНяНяНяОяИяЯяИяАяАяАяТяЬяКяЫяшяЕяЈяЬягяТяФя»яїяЖяїяґяНяЭязяЩяйявяФяФяФяаягяіяЗяјяНяЭяТяЙяЯякяхяЮяняКяЪяЫяјяЦяВяНяйяЩяТяШяЭяЯяпяе  ядяРяЯяХяДяаяпятяИяб  яйяхяуяЪяЫяОяояляпяшяШяЮяСягялянядяФяьяыякякязягяЫяС  
-яаяаяр  ятятяьяжяпязяшякяь ясяв  ягякяцяуясячяжялянячяхяеягяк яияк   яхяэящяняю + яю япян  яя       яьяЭяэяф яЮядяияйяЭярящямязяаяп  ясяц яМяПяЭ    ящямяаяжяГякяыячяжяняряЮяЫяняыяйяЧяОядяЖяРяСяШ яйязяЪяЩяЯяаяк   	яряюяОяМяФяцякяБяТяУяЩяеяЫяИяНяЧядяЩяляПяфяояЬяж яъяШяЕяПясяПяпяьяъямяТяДяуяцящяЮяМяЯяЯяСяСяМяЦяЭяшяХяРяУя№яТяИяДяТяЖяШяѕяЯяЕяЮяуяъяТяСяЗяхяЪяЬякяЮяїяТяєяОяйяеяЧяЗяМяЪязяЖяВя®яЅяШяцяШяЫяжяЧяОяДяНяГяВявявяЙяЛяЫяУяЯяјяГяІядяняфяЫяЙяЦяТяТяЦя»яЙяВяµяИяЕя·яїя»яОяИяјяЧяРяВяИяПяияляияфяэячяпяиярярякяОя­яЁяЛяИяЦ  яч  яМяНяИяЩяЪяМяЗяІяИяСяХяЯяЮяРюЭя-яюаюшя)яoюгяџяµяѕя€яUя{яяoя~яhяxяlя†яhя|яЂя–я†я‰я‡яЊя‡яњя†я›яњя¤яІя±язягяШяУяЮяµя¤яЛяБяѕяАя·яНяКяёяИяЖяіяіяўяҐяµяЖяГяаяНяѕяѕяќяЇя¶я№яЖяЮяДя¶яЇяЖяояияАяЗяМяМя»яЦяжяКяНяРяБяРяИяИяЕяаяБяёяХяСяЗяєяБяХяЩяЦяЛяХяЕяџяїя¬яЎяІяЧяЩяїяЁяВяЛяаяНяГяµяДяФя¶яµяЅяГяУяФяЩядяЭякяоязяЧяияпяаяЗя¶яЁяУяжяИяЗяИя©яСяыячяЬяЅяЭяхяЛяІяНяжяляјяЫяЯяЛяЯяцямязяжяЮяКяаязяэяУяояряаязяаяйяЮяшяЦяЮяСязяиявяйяАяКявяжяРяЕяйяЮяЫяЫярягяыяияМяйяЫяФяХяыяляЯяч  яояЬяшяеяояхяяярячяэяыяцяЫяЪяОяц 
-яыяыяуялямядязяЬячяжящятяЯядяв    яп ящ яняНяй   яшябяэ  як    яыяияюяцяпяб  яь яляфяуяцясявяХяИяняа ятязявяЛяр    яуяеяЫяЯяЬячяюящясяуяляояйячяч  яяянязявяЩяЪяШя»яМяляоядяУяВяШяЭяПяЯ яйяпяияжяЫяХягязяСяОяСямяЯяляуяияСяЧяСяМяМяДяЅяЮявяЫяМяБяЛяеяаяк  якяШяШяжяшясяМяЩяНяОяВяОяЦяМяУяЪяУяЮяАяЯяоязяиявяМяЕяЧяЛяПяКяБяіяјяНязяПяЮяГя№я№яЖяЛяЮяюяЬяјя¶я¶яєяжяПяЩяЦяОяЪяияхявяХяµяїя»яЪяЖяаяжяЛяКяБяЛяЛяНяХябяЯягяЦяОяФяЖяИя®яєяОяйяЖяЁяБяИязягяЮяМяЬяЧяКяЕя¶яЭяТяТяёяїяАяПяСяЗяєяи  ящятяаяРяРяжятяЛяШяЅяМяДяАяб     ящяХякяЪяояПяЕяКяѕяЪяТясябяЩяЦяяzя3юфюЃюiюЏющя”я^я†я`яxя€яcя€я—я}яgяbяSяeяЊя‚яwяbя]я|я“я¬я–я}яУяГя§я№яЛяѕяіяЖяЗяЕяЫяОяМяЗяЦяХяЖя­яіяќяёяЙяАяОя®яїяВяНяОяРяЅяёяєяґяБяІяВяєяЦяГяїя±яБя©яµяОяЖяАяЗя¬яµяЯя№яїяµяѕяЅяґяМяАяХяНяЛяКяЧяСяЅязяЯя«я©яаяФяСяЖяДяЇяЖяВяТяВяЕяєяМязяПя°яґя¶яШяЭяФяЙяФяКяъяЦяЭяХяПяЈя¬яОяцякяЦя·яґяіяБяЧяЭяМяИяНяеяЭякяйяРяУяояОяШяияъягяЭяЗяЧяЗяєясяияЪяЬяРяЅяЭяияпяляеяеяХяЩяПяЭяВяЬяЭядяЭяМяхяЮяЬяїяЯякяаяЧябяЯяЪяуяыяЬяДяд яЩяСяй ямябяЦяряяяэядятясяЙяФяояяяояфяэяц  	ятяЧясящ яШяфячяеяжяХ яряуямятяфяу 	яыяРязябяфячяхяыяжяуямяу яуяжял  яжяФяЯяч яшяы  яьяыяьящяпяЯяй     яъ ядяЯяьяшяКяаящ  ях   яюяхяияс 	яыяъяЯяфяняхяеягяЪякяояояа ятяОяЮяп   ябяЪяшяШяб яЫяЫяСясяъяйяЦяЧядяряьядяСяъяЮяфятябяияф яЮяїяєяЬяЛяЧяСяДяИяЪяляЅяБяСяй  V p Lясяг 	  яЮяШяТяУяЪяояоял яеяЭяЭябяДяЯяПяеяРятяЦяо якятяШяОяЖягяеяКяїяДяПяСяЮяйяЕявяиягяКяЕяКяеяГяХяйяЬяХяояряЮяСяЕяїяНяТяЦявяляЯяДяЛяъябябяТяаяВяЯяЪяЖяСя¶я»яСявябяпяпяРяБяЦяМяЬяОяЪяЧяДяХяКяїя±яРяЧяЬяґяГяНяЮяХяъяПяЮ   	якявяФяПяРяЯяУяЙяЪяТяѕяАяЬяя    яЯяјядяЫяЛяжяЧяСяОяИяЕягясяяя?юлюфя юЪюцяяяяhяZяђяіяЉяeяnя‡яyяtяѓя_яmяfяnяCяmяvя‚я¦яїя§яќяЯя·я±яВяХяХяЅя¶яМямяШяКяѕя®я·яАя¦яўяіяЯяПяЛя±яјяХяЫяЛя¶яАяЭяАяОямяПяТяояРяЕя®яГяБя¤яДя®я¶яЕяЙяИявяЕя»яЙяёяѕяБя­яёяКяАяАяґяїяаяМяЮяЗяЫяБяѕяКяЬяВяІя·яѕя№яБяМяЖяБяСяТяСяИяСяїяДяПяаявягяЈя·яУяСяФямяЩяГяРягяБяѕяАяєяКяїяЙяЛяРяРяЛяїярягяКяДяЯяУяОяРяЙяґя¶яЮяЬяМяСяЩяШяляУяЦ яряНяИяСяаяОяшяЕяТяЛяЩяТяЩяЬяЛяояЪямясяЫяЅяРяѕяДяОяФявямяияЩяЭ яъярясямяуячяояшябяж яЮякяр   яЭяоямяк  яш  яЪяб япядясяфяэякяъяоящябящяляЦяхяуямябяЩящядягяа   ятяшяю ящяшяц    яюяш  
-язяЭ яш  	 %  ясяцяйямям      яфяцяияУяияч   ячяйяъявяпях яб 
-ялязяЮяхящ яйяжячягяжямяЗяхябяЪ яЮясяЦяЩяуяйящявявятяы ячядяЫяХяОяЕяЫяхяняпяфяеяЮяЧяЪябядяРяЛяЪ яЦяняХяуякяЭяФягяЯяЛяРяСяк gw
- 6яцяТяЭяЪяЩяуяЧяТяАяЩяУяЦяКяМяфяШявяэягяфяМяМяЭяиязяЭяНяМяЫяШяЯяаяжяСяФяЩяСяЗяМяЧяЙяјяЬяХякяГяХяряЪяМяНяУяЗяИяНяЦятяЖяГяµяЕяЗяХяОяёяМяЮяЗяХяЗяСявяЦяМяОяЧяеяйяЕяУяияыяуяНяЬякяВяТяАяМягяёяЩяРяКяЙя№якяЖяГя¬я±яµяРяЧяЕяЫясяпян якяЭязясяяяНяПяЮяМя·яЗяе ! яу яУязягягяжяТяБяпящяжявяФяЦяляйюшя`яQюЮюєюЙю™юЗяtяlя”я‘яЌяaяnя…я‚я‰я{яbя„яЃяfяwя–яyя‚яЊяЁяёяЁя‚яУяГяЅя¦яЁяЅяТяєяіяИягяВяѕяНя№я©яЋя·яЙяОяАяПяїяБяЮя·яРяАяЯяПяПяДягяаяЕяПя·я№яєяїяІяѕяНя¦я›яДя±я»яияВя»яЖяЙяЄя±яџяЈяХяГяЗяВяСяЇяЇя°яёяЇя№яЖяКяСяМяАяЕя¬яРя¶яўяµяАяКяОяЄяґяЭяжяПяЭяЇяіяєяјяСяВяЩяЪяЖяЕяДялязяЛябяТяѕяНяМяФяГя·яАяїяФямяеяЩяШяЕяѕяШяЙяДяґяШяГяѕягяняЮяаяияВяЩяЛякяМяСяЫяУяБяНяЧяШяјявягяХяЮяУяняЯядяШяаядявяаяЭяМяХяКядяЦяаяЫягяЮяпяяяъ    яцяеясяхяш 	яЫяЮяСяХяЅяжяоянячяцягягяпяшяяяхяхямядяъящягялятяуякяЬяъяпягяЭяс яэ  яфяряш яыязяляжяс ящяшяйяш ягяЧямябяЫяпяф яыяняхядяняЛявяэяя    	  ятяряэяьядядяыяряыяпят явяляйяеяя яю   
-яр 	яьяЫячяйямяьятяЪяВящ & ятятяЩядяКяаяпязяхяпяьяъ ядяпяжяЖяаяЦябяТяЬяЦяПяМяеякяуяЬявяЭяШяЬяпямяьясяХя·яКяДяеяр   рU§б Fязяы яЪяЗяГяЩяУяйяЫяФяВяЗяИяШябяжяЦяШяЖябяДяОяЬяЪяЭяЕяГяЯяляЬяТяјящяЧябяъяеяояНяЖяНяЦяМяЩяЧяЖяЩ яеяйязяМяЗяЛяЧяКяПяВя·яµяєяхяЩяєя«ясяСябяСяѕяъяняыяФякяЬякяб  	ямяЭяйяЕяЅяАяПяїя­яЖяЅяИяНяМяЛяСяІяёяНяШяјяДяѕяДя¶яОясяСяв ячяЪяЪяМядяЧяюяРяОяИяѕят . "  2 ясяияТябяУяОяЗяОяјяОяУяТяЧяхяDюШюЖю”юэюююСю»я…яhяВя»я‡яўяtя¤яrяЌяЃяЉяpяnяЋяyяyя™я яYяяќяБяЕяСя»яРяПя°яВяЛяЗяЗяЫя­я·яЕяДяЛяЮяАяЗяЩяВяАяБяµяЙяНяБяВяґяЁя±яЦяМякяИяФяОяКя§яїяОяЦя±яВяПяЧяЖяЫяЦяДяИяЖяіяНяЛяњяџя»яОяСяёяРяШяЖяЕяУя¶яЇяВяТяЛяЮяШяРяСяСяія я№яЙяПя¶яЕяЛягяряХяСяЧяЗякяЕя°яҐяОя¶яЗяѕяПяЮяІяїя¶яЧявяэ  яПяЅяУяЅяФяЫяИяЯяПя¶ядяЫяИяЫядяБябяИяјяИяГяТяМяАяШяЭяояляжяЖяНяоячяПяУяОядящязяЗяСяЫя·ярян яияуяЧяряэяТяСяПяйяеяПяѕяКяТ ящ 	яцяжяьякяряыяюяжяжяСяФяЬящяряЬяЦ  ясяэяйяаяЯядясяяяюягяф яфям яЮяояжяфяаяияпяыякяъяхям   яшяЧявяч яЫяЩяр яуяыязяч яыяфятяшяяяуяШяй ятяыяъ ячякяЯяЯяй яюятягягяш яъявяоящяфяшямяхяЩяЧягяъяняЫяЩяЬямяфяыяжягяе 
-яхях    	яэяаяи яХятячяуяряьяпяояКяУяЖяеяМяеятяияпясягямяжяояжячяСяШяляпявяз яЮяЖяПяХяЩяшяЦявяТякяЕяВяияс  \Ъg +ятяияэяпяПяМяЗяЖядя¶яЙяДяЖяЧяФяо  яєяБяЭяНяЧягяаязяНяУя№яїяРябяШяОябяаяаяЯяШяЧяїянявяЛяаяШяЖяеячящяХяжяуяьяЮяЙяРяЗяЗяЖяјяРяМяуя·яРяЪягяояюяияу явяПяПяїяНяЗяВяУяняРячяЦяЕяРяЩяСяПяТяАяНяКяПяУяіяҐяѕябяОяЯяояЦяЯяШякяЯяъяуяшяйяЦябявяЗяВяЧяИяјяЧяЯял      !яняжяСяМяляЛяЩяШяСяГяжяЬяЗяЫюСюґюхя$я юзюwю‹я—я9яђяnяrяЎя|я…яkяeя‰яzяnяnя‡яя|я—яІяiя”я…я‚яўяїяСяєяОяКя­яСя»яСяЩяМяУяВяєя№яТяВяЛяУягя·яКяЫяЦяФя¶яЙяАяАяёяЖяґяЧяѕяѕяЗяЩяіяія·я·яСяМяїяѕядяСяТяЦяГяИяїяїяДядяХя®яПяКяҐяГяµяБя­я§яАяАяеявяФяОяГяЪяПяШяѕя°я№яЛяЕяµяўяЦящягяЬяїяґяїяЖяІяїяОяЙяЮяаяТяЙяУяХяГяЕя№яаяЯяЅяияжяДяєявяХянязяЮ яЩяяяеяояИяУяЛяФятявябяШяТяЕягяШяЛяМяхятяэяйяеяляУяСяДяМябячяуяУяЗяя яеяИянябяЧяЫяЪяЪяЭяцяжяГяРяЪяЮяйяЮяСяСяАяо ящяЩяУяРяЭяФяеяшякяняляняЯяЙяаяп ямяеядях яьяПяЛяеядяиякяпяы ящяхядяняЬяцяНяЭяьятяТяМязярячяьяЩяьятяеяы 
-яняЭяйяшяЩяоятяшяьяъяцяШярячяи   яьяЭяояояг  яеяЦ  яя 	   яыяфятяюям  яцяояРязяяянямяояляняу  4 яЮ   яЦяЬяОяаядяпяЫяФязябяыядяжявяЫяояыяхяЧякяЯяЦяе   ямяняеяМял ядяФяфяПяјяЧяляляпяояПяРяјяФяФяТязяы  , H '  явяЕяАяЩяаяа яОяМязясядяряеяДяРябяыятяЛябяДякяШяЭяйяиядяШяѕяОяйяжяїяНяПяЫяШяфягяВяТяТяШяПябяЩяаяжяеяГяКяЯяФяЭявяСяжяеяСяѕяЩяЬягяняфязяЯяЭяЭяЗяШяУяЫяЧя»яЅяДяБяЪяРяЩяТяЦяЪяКяТяжяЯяБяґяєя№яВяНяћяВяАя®я·яМяПяЧяРяРяЫятязяч яряЧяТяНяЕяєяФяХяПяаясягяЮ   яс  9ятяХяјяф яЦяКясяЧяЛяпяЦяКяМюуяя!яю°югюлюдяЈя[я]я’яVяlя€яЃяwяhяdяRяoя†яxя”яlяhя‰яcяћя­я†яsяҐяєя±яГяіяЖя¶яІяКя™яЦяОяВяТяДяўяЎя±яїяШяҐяАяєяѕяєяНяФяЁя·яОяґя§я±яјяҐя№я¦яДяёяѕяєяОязяСя¶я·яЙяѕяіяБяЙяТяРяЦяїяЗя¶яГя¬я®яґяёяµя©яАяАяЙяЕягяйяъяШяУя»яЯяЪяЛяЦяеяХяДяБяМяйяБяЯяаяПяаяЫяеяняляЛяФягяЪяµяѕяГяУяЦядяЯяЫям ядяґяАяпямячяПяГяЧяЕяеяЦяЬяДяУяУяїяСяЩяРяМя«яЫяШяия®яПяОяЩядяияЦяЦяЬяУяжяЬяЩягятяФяаяЪяТяЯязяаяШяЦяряПяб  ямяМяПяФяШяйяЬяпяЩяп 	яйяцяеярявяыяхяояляЛяЪяЬяи яэяуядякяуяфяуярях яхямяЫ  ящяняНязятяуяаяояЬяг 	яояояияуяъяг яняЫяЮядяШяеяЬяЭякяЪяыяцяиясяуяоямяфящязяй яф ящямяфяСяхяуятяэяияШяхяляпям яыяыячяняфячяю 
-ящяфяЭявяаяэячяаяхяиягяп яояуякяЬям ятяйякякяпяПяпяняЦяуятяляШябяЧязяпярятяЦявяняпяряу яСяјяАяСяЮяУяняНяКяВяЫяияЮяЮясяТяјяХяняцянящяаярябяп  яиябяСяБя№яНяйяЩятяЙяВяМяИяЭяЭяИяРяеяШяаяьяЛяБяїя№яЖяЬ яМя·яПяБяЭябяляшяЫяжяжякяСяФяаяЧяЬякяЬягяаядяЩяХяПяияУятяжяЬяЭяия·яЦяояияняУяЫяляЯяЁяІяЦяЪяИяЛяДяРяЙяїяЕяДяЖя±явяюяШяЦяШяФя»яХяВяЕяМяРяКяЩяМяѕяИяУяХя№яЗяОяМяйяЪятяряжяЩяХяУяУяЙяДяОяТявяГяДяТяя  ,  язяІяЖяПязяМяЦяЙяБя¶я¦яЕяияЮю№юЕюЄяяюnюРюйяyя•яБяряґя€яWя|яkяЉя†я|я{яЃя§яSяiяzя‘яoя—я©я”яѓяЙяЧя·я±яИяая№яЖяФяЖяБяѕяµяїя»яГяРяФяЦяаяЯяКя»я¶я±яГяПяјяµяГяЅяіяґяляХяЗяЗяГяјяЗяаяШя¶яЅяаяПяБя®яГяНяГя°яБяДяѕяСяѕяАяЗяПяШя«яіяГяіяµя±япяЗяёяМяЛяМяЩяЩяЗявяпяШяЙяЁяАяјязяєяГяЪяјяЬявяи  яРяНяШяМя¦яВябяЛяСяХяэяЫяЕяєяеяЯяёяЩяЫятяУяВяЫяЭяЬяаяЗявяИяБягяЬяДя¬яБяНяЪяЙяЗяйябяЮяоямяляъяЛяєяєяОяляЮяйяПяЯявядяЧяУяоязяСяЯ яяяРяМяЬяеяЬяыяЮяРяСявяхяуяЧяеягяцяляеяЯяФяжяпяояо  	ябяфяЯямяъяояыяряЭяЬятяь язябяняьяцявяєяКяЬям яю      яоядяьяХяёяЧяшякячяя 	яъяп ясяЩяэ яф яхянятяЪябяцям яъяняЬятязяш ячяиязяжячяъяьящяфятяэ ящяъяэ ядяеяхягяеяляЬяояс 
-яя яжяЬяЦяеяияШяЭяеяряояуяЯяЩязяр яьяшякяжябяЦяФяК яфяаязяяяиящяЮяРяШямяЮяДяБяТяМящязягяаяЮяЬяФяШягяСяЫяр яфяЯяо яъ яхяКяжяЙяУяЮяШяМяйяцядяэябяЩ яаяУяФяЙяЩяЦяГяЙягяеяУяЅяШятяПяЦяЩяЦядядятяаяТятяйяХяеяУяаяЦяЙяШяоявяРяКяЙяЛявяЩяёяјяЛяаяОяЗяЧяЙяїяаяшяеявяЪяЫяЯякяФяуягяєяїяНяТяЬяЪяУяЬяэядяПяЙяЮяОяйяЪяЩяЭяМяѕяАяЛяПя«яЛяряШяіяСяХяжязядяЭясяшяеяяяцяЫяєяЗяНяЩяЩяФяГяаяУяАяё   яш якяДяСяНяНясяРяѕяЛяЙяКясяЛяЇюЫяюъяюъяя0я"я”яJя•яҐяsя яjяtя€яyяjя{яІя“я…яfяџя™яeяRя–яЎя–я¦яєя·яМяДя№яНяІя°яЦяОяЖяҐяїяЛяЯяЩяОяуяЫяАя«яНя©я’я°яДяБя©я¦я°я­яЖяМяШя№яїяЛяЛяЭяШяИя¬яІяКяЮягяРяЅяФяРяКя№яПяЗя°яЙяјяРяЩябяУяДяВя®я§яіяіяјяІяЅяЇяЅяЗя·яЕяИяЯявяоямяЖяАяИямяЩяГяЙяШяПяїяЩяВяМяОяляСяЧяОяляЙяКяХяЫяияря§яіяѕяЪяЛямяСяЭяЕямяШяЪябяйяЛяШяояЧяКяШяОяУяыяпяаяУяаяжяаямяпяояжяЫяПявяХяОяъясяЦяЧяЬяШяцяфяЦяЙяуяряР яйяЯяЮя»яЙякяряКяОяХяэящяляСяЯяУяЪяХяЯяряНяУяЬябяНяШящ  ябявясязяШяЫяж яыяьяОяОятяо   яп яэяш ях 
-  яъ      яояйягяхяюяяяыяъятяняжяЫяыясяпякячясяйябяояф яжяшяхяюяаяжяф яц  яЮямяь яъяюядявяЯяШяояч ятякяЪяЫян 	 яЯяйяжяЭяряо япяцящяЫясящяУяИяМяШявяо  
-   яуяояЯядяРям яцяляМяЬяжяШяПяляЩяЪяжяІяїяЩяСяЗяЪябяТяОяПяПяЭяСяЩяЪяДядяу    яияаяЧяЧяляФяжящяяясяиякявяФяЪяЬяЦяРяЮякяЭяИябяХяГяЙяЗяУяЩ  яЭяЫяЧяЮяфяляйяКяХяКяДяТяЖяАяВяПяЭяаяеязяЦяЯяЪязяЅяґяЪяПязяПябяЗяїяКяЖятягякяаян яжяБяґяЛяЪяєяиямяняеяЩяМяМяаядяХяЩяаяТяшяЫяШя»яГяИяМяНяТяБяЛяЖя»яЯяЯяЦяиязяЬяЦяЯятяЯяЬяїяµяІяїяЭяЩяЕяУяЯяеяеявяияэяъ   яеяСяРяЧядяКяЕяЩяЭяіяЛячяюякя3юнюояkяaя—юТя"я’яѓяЃяЊяyя{яrяYяђяЏяyя1я[яpя°яђя}яvяzяkя•я–яџя®яВядяДяѕяЕяєяЅяХяЧяЧяОяЕяДя№яМяГяєяКяЈя¦яЫяпяаяЩяіяРяЖя­яСяГяАяЖя›яЛяИяЄяЅяЁяЗяГяНяҐяёяКяИяСяШяЦяБяѕяСяЪяХяТяГяҐя§я№я№ягяЬяИяЎя®я¶яЙяїя¦яёяґяµяПяНяѕяДя№яЅяЩяыясяУяХяЦяфяЫяПяГяЛяБяЗяКяНяУяПяЇя»яФяДяЇяДяЦяияляЬяБяТяАяРяЭяЫявяЪяСяСяЕяМяЩяЅяСягяшяояЮяФясякяцяЮяРяјяГяДявяКялямящяцяляЫяПяуяЬяЬятяаявяхяЪякятяШяЫяМяФяЮяЬяЩяОякяХяЕяЪ яняХяАяЬяцяъяхяТяе  
-яхяЪя№яКядяуяп 	  яыяняэяаяхяпяШяуяеяиядяняшяжяк яхяъ яь ясяПяф яняЮябяи  яиял як яыямяяягяияпяпяуялязяояляряюяпядямятяияеямядяляыящяя  яряр   яЮяхянябяы япябяаянятяЮяЬяїяЯ   якяХядяуяьяэяюяфяцякяояцягяЗяУязябяжяРяЪящяЮядяляняйямяряц яТяФяЧяРягятяьяьяЖяОяряЮяРяУяНяВявяЯяЫябяЙя·яДяРяПяНяЙяЮяЫяеяфящябяпяЙяЧяЪяаяЖяЬяшяТягяДяЖяйяІяПяЮямяЬяµябяеяЖявяЯяКяЭя­яХягяОяыяСябяйяляѕяЛяВяМяТяБяЪяБяѕяХяЦяняРяБяЛяµяМязяУяЗяПяшяЬяЪяЫямяИяѕяґяЗязяФяЖяФяФяЫяРяИяЬяЙяЦяЙяЬяхяЪяЖяѕяМяНяаяЦядяуяляПяУяЬяЮяШяаяМяРяЪяаяЛяЦязяПяѕягяыяЪяРя¶яЅяЯящянябяЭя®яЫягяыябяАяЩябяТяЅяДяЮ  яъ ящяЫяЫяжяУясяняЪяЖя±яВяАяЬ яфюшюкяюШюvяюъяяЌяzя›яЏя€я“яњяёяя¬яЌяZяaя’яљяЂя“яrяwяbя­яїяя‚яіяВяЇяРя®яАя¶яЖяЮяЛяёяМяУяеяКя»я°яџяІяіяОяУяРяАяЛяСяРя№яБяЬяИя№яµя»яГяµяИяјяЕяЫя»яРяЇяДяЭяЙяАяКяНя¦я¦я№яИя·яЫяЩяУя±я№я­яЧяЧя­яЧяЅя¦яНяИясяюяыяНяЙяјяЗяУяжясяБяРяПяБяПяЫяАягяЦяКяЕядямядя§яјяГяЅяЁяґяµя¬я№яБяЩяжяѕямяЦяП 	 ясяеяРяУяУяйяЭяДя¶ячябяЩяЧяЮяЧяМя·я»яЯяСябяшявяояляыямяСяПябяЧяияояОяіядяФядяУяияШяЧяОяјяРяХяЩяЬяШяЯяеяЩяИякявяЬяЮяШямягяуяЦязяУяПяЬяЧяЪясяф  ячяпяд   ят  яюятяЩянямящяЮясяэяш ятяпяъяуярящяеяФяЯяэят   яю яуяияЮяЭяЫясяы  яеяфяняфячяяяыяу яФяж  яьяи     яъ яряю     ядяжяцяьящязятяЫямяхязяЮясявягят яляпядяфяыякямяйяЯябязяч  ящяЭяцяцяфяОяЦяУяияеягяфярящяхяшягяь  яыяОя№яЖябядяыяеяиякяЧяТяа яхяШяЖяпяЛяЯяШяДяПяияняряйярязяїяз якяшяЮяЬяуяРяКянясяЮяЪяКяЦяняЪяМяРягяШявяЭяЫямяа яьяЯяйяляФяи яэязяьяыяаяИяДявяЧягяОяЮяШяЗяЖяјяЦякярямяеяняСяїяМяЧяйяРяМяРяРяУя­яЭяюяйяЙяФякяФяЬяСяОяЫяЫяЯяЅяШяФяВяЭяЭяРяЦяжяФяјяЦякяжяОяЙяМяЫяБяМяФяЩяєяНяряаяРягяШ     якяТяЪяФяХяУяЙяЩяЅя№яЛяГяР  !  " яЪя»яїяЗяЫяЛяСяЕяПяЧяУяШяЯяъюєюНя!яя!яюЩю—яѓя©яіяяџяiя…яЂяdяfяwяџя}я–яЉяxяqя‚я†яjя»яњя–я–я§яНяЖяТяЗяґяІяµяЛяЗя«яЯяЬяЙя·яСяЕя¶яЇяЫяФяЫяКяїяјя§яНяїяЕяёя¶яЗяШяИяБяРя°яЈяєяІяФяПяДя¶яОябяОяНяГяЩяІя¬яЕяёяЅяПяЯяіяВяБяОязяЗяПяЩя­яїяТяЛяаямяШяШяїя°яЖяияУя­яЇяШяФяИяЙяЕяаяМяВябяЯяФяКяРяКяЖяРяМя±яаяжямяЫяаяКязяРяЬяЦяХяйяЧяХяЩяДяжяХяпяюяНяКяияЗ яняЯяЩяЧяЙяЩящяпяйядяЭяЬяКяжяЬямяфяуяюямяхяРяАяіяОяЫяыягяйявяФяЮядятяШякяЮяНяняЭяляЪяояэ якяРяУяЬяюявяаяияряЫясяЬяч ягяОяжяшяьякяняйяОяЯямяояйяф  яфяэяжяияряшяу яеяйяь    ! яяяшяаятящяияюяъ 
- яъ    яр  яуяияеяс  ( 
-яцятяуяуясяйятярякябяЮяюяыяя яняыяеят яшямявяв  ячяТясял 
-яхяЯямяуяияцяояеяэяр яэятяияъят яияу яи яФязяиягяюятяоясявяЧяЕяояшяжяйяНяїякяШяЙяНяЬяпяФяУяЦяФяфяЩяУялятяцяЧяшяыяШяМяШяЭяЦяШяЫякягявяФяЯяЗяСягяЯяЬяйяСявяХяФяСяЫяКяЅяЧяЬяияряЮ якяМяКяеяшявяыяияЭяЩяуяаякяуяКяїягяйяЮяФяняЫябягяЦяЫяРядяЭясяыяфяНяМяЬяМяТяШяеяСяЩязязяЩяуяняЯякяжяаяРяОяИяаяОяЅяЩяОяЅяУяЪяЮяЗяШякя±яЙяСяЙяЗяИя№яЕяСяїяБяЕяІяЭяВяЇяїяЙякяэ яуяцяЫягяаяПяЩяНяЭяФяХяЮяЫяЯяШяыяы # ( #яояМяИяКяЮядяОяияЗяАяИяХяЦяЛюмюЪюкяяaюоюЇюія“я‰я•я•я‡яVяbяnяяgяsяЏяhяqяeяuяЃя”я яmяђяќяќяњяІяёяБя¬яЗяМя»яйяѕя§яЈяШяЕяЕяВяРяµяНяХяЗяїяјяµяєяБяѕяѕяКяМяјя»ягяСяіяЪяМя®яВяЦяУяЯяЭяРяµяєяЅяУяРяМя°яјяµяЖяЫяРямяПяРяЦяЬяЫяОяПяЛяТяОяЕяРяВяЛяряФяЛяПяаяЕяИяУяЅяЦяµяЩяПяСяРяАяµяОяЕяѕяШя»яЦяЕяЦяСя±яґяВяпяОязяДяЧяЅяјяжяФядяЕяЯяв яйяШяЗяЖягябяияШяхятядяМяїяЯяЭяЫяШяЭяаяЪямяЬяояляэяюяеяпяеяъ  яуяряпяхяияЩятяЫяЪяфяфяшяъяояпячяеяцял яйягяояс ятяиявяжяс яЮяРяЭяФяТяе яйягят ябяМяп язяТядяОящяъясяыяСяГяЮядяеяеяЯяф  яэ  яцяч яэячяЩяЮябярялябямяшял     ят  яы яьяэ  яъяэят     яцяуяжяПяеяяящятяряияэяъ   
- яюямяряояояляЯябяз ятяр ящяеяъяжяпяУяЫябяФяЭяЭ яхядясяеяоякяЫябяпяюяЦяияЭябяЦяЪяДяМяеягяСяСяф  яйяРяЩ  ясяХяЪявяЩяЩяИяЪялягярякяыяЭяк   яряьяЫяИяаяРяєякяЯяЮяоявяЛяеясяТяДяМяПяЛяЕягячяФяГяФяаяХягяЗяУяХявяТятяУяЦяВяЖяБяЯяряЫя»яСяЭякязяЙяпяШяЧяЕяСяШяНяФяЬяпяжяЭямяНяШяЪяЮяЦяЧяьяцяФямяляэяпямяПяЅяПяЪяОяЬяФяНяСяЖя·яЅяйяЩяЭяЖяМяКяПяВяПяµяВяРяПя¦яЙяТяРяДяУяМяБяДяМяМяф 	 якясягямяПяхячяьящяояОяЗяЙяУ   3  янягяДяїяМяХяЕявяКяЫяЫяЛяЩяАюЖюЭюІюЅя6юбююёяЈя™я‰я—яjяZяQяoяrяpяeяqя‘яЈяuяЊя~яя‘я~я«яЈяќя¤яЫяЫяЁяЅяЗяіяГяОяжя·яДяЛяОяФяПяУяЫяЙяїяџяЇяЙяЬяОяЇя—яЖя¬я¬яХяВяЕяЖяµяНяЧяАяЖяПяЇяЗяЛя­яєяНяЗяМяИяУясяЙяГяґяДяКяФяпязяШяНяЫяРяЗяНя№яМя°яЫяЯяФяЖяјя¶яДяМяНяЁяИяжяЯяСяРяїяУяУяПяИяКяЫяѕяВяКяшягяСяХя±яГяУявяЅяюялямяЙяЫяВяІяХяМяЪяйяояЧяпяјяСябятяЫяЧяфяияХяИяЮяЭяШяеябяБяряжяТяФяОяЭяЙядяФяАяЦяЧячяшядяЦяняняЪяцяЪявяр  ях ядячяфяъябяУяЦяеятял яряСяи ятякяШятягяЧягяФязяъ яяялядягяляияЧяАяСяЫяХяЧял   ясясяаясяп     	яъязяляэ яжярягякяъяюяЧяґяИяЯяр  ягяяяяяц ящяйяцяияЪ   яцяояфяу   яфяияУяНяыяш  ячяЯяояэяь  ятяыялясяхяфялякяы 
-  ясяфят яюятяияхяфяЬяЯячяпяяядявяэяЫяияхяйязяМяЮяЬяУятяПяЬяЬяоясямяХяЙякяЮяЬяъяеяхябяуячяьяЫяСяЪяжяЩяаяНяляцямясяШяєяВяеяяягяуяГяБядяСяёяКякязясяЭяд  ятяКяФяЪябяМябяБяхямяЭяСяцяЪяЯяШяЯяФяпяуяэябяЮяуяШяФ ямяжяАяОябяеяЬяГяЫяаякякяжяляЭядяЛяЗ  яжяЛяеявяЧяняаяИяЙяКяояляряЯяеяняаявявяРяХяСяУяНяЫязяняХяУямяаяНявяляЭяУяНяїяРяОяЙяЭяЩяЗяРяЪяОяФяИяХяХяфяю яйяшяЙяАяМябяжяоядяТяјя§я°яШ   &  яЩяЫяияаяЬяУяЭяЯяРяДяпяСяПяГяяюэюЬюйюьюsюїяtяDя›яЊяKяZяqя€я‘яљя‚я~яsяlяя|яcяAяhяXяЁя§я¤яяКя·яЄяІяУяШяМяАяКяёяКявяФя­яНяЦяСяєяІяґяµяНяЖяѕяїяія¶яЭяЖяРяТяНяЭяОя°яНяЩяаяЛяјя¦я«яИяаяЁяВяОяҐяЁяРяаяЙягяКягяОяШяеяЇяєя¶яБяВяЕяЖяЕяЦяЪяФягяµяЛяБяАяЬяФяТяКяУяИяДяЕяпяУявяЧяРяояЫяЯягяПяіяґяШяцяКяЦякягядяЮяНяРяЬя»яАяФяЙяЬячяляцяЦяйяКяТяН яяяйяиязяНяХяЭядязяЭяЮяфяЭядяияЮяЪяаяаяъяУяИяПяряЩяЩяыягяГяЙяЁяМяѕяєянящяЭяЩящяияхяцякяеящящяжяняу яЦяЮяуящякяжяцяюяпяхямяИяОяИясяы  ячякяЩяэяШ яь  
-  яхяЫяуях ясяняиясясязяеяеяНяш 	яояияжяыях  ялявяфяоял яняфяцязяуяцящяйяэярясяъ 	ячяжяю   ясякяояуяшящяш   яхяляХяЫяш 	 яе яь яуякяю ябяШяиямячяэях  	яс яояс яЧяНяаябяЪяцяЫяпяояаяьяояияляеяЧяГяЦяэясязяояТятякяъяжяняъяфящямяТяЕябяЫякяшяЯяСябяТяЬяШяаяляЦяЩ ядяФяжяиягяЧяИяТяМяЭяМяСявяпяЦябямяЯяЖяШягяЛяЧярякяряЬяЛябяжяОяПяЙяФяжяеяЪяЯяояЬяЩяєяЖяМяФяЭямяНяУяєя°яСяЧяСяДяГягяыяцяэяжяЪяЧяЭяѕяІякяКябяляЮяъяояняЫяЕяУяЛяїямяЧяпяИяУяОяЧяЛяЖя№яВяЖяУяУянягяМялядяХяЧяПяЬяояНяЩяЪяНяЖяљяўяЖяКядяэяЬяояеяМяµяїяъ яуяюяюяЧя¶яГяЩ    / 	  яЮяьяияъяаяиязяыядяЮядяЪяТя€юсюЮяmя%я)юю–я–яђяўяёя№яjяMя`яwя†я’я‹я‹я[яя–яmя›я¦яmя яҐяњяЁяёяјяµяЩяЯяЩяЮяШяаяЪяТяёя¶яїяЕяНяТяжяіяґяИя«яЎя№яЧяШягяТяЖяШяєя№яЄявяСяґяїя»яКяЪяАяџяњяЪяЮя¶яЕяАяїя·яіяіяТяЪяЬяВяХяЖя«яўяєяјяАяЙяЩяРяЫяеяХяЗяІя№яКя±яЮяКяуяюяаяµяГяз   яЪяЅяЛяїяЕя­яУяУяГяЗяВяШяжяфяИяТявяёя»яЅяюявя»яГяЅяРяНяЩяИяЬявяРяҐяЕяУяЭяхяхяняЙя«я№яєяКяМябяЕяЧ яэяЬяРяъяхясяуяояНяЮяЯясяПяЙяСяп  яФяТяжяаяХяЗяЯяЮяЪявяляыяняфяцяЩяЦяЫяжягяйяояУяс яШяеяр яляЧягям    яжящ 	яэяеяйяЩямяляь явягяшяьямяеяЯяияъяжяш 	явяЧяЩявяцялятяяяяяьящ  яжяпяаяп якялядяи     ятяы  явяЯяфят  яю  - ягяэ  ящяцяйяуяэяыяиящ яш  яуяъядяуяцяьяшяяяьяпяляжяъят  яМяИяМяаяъяъ 	ядяЩяуяшяыяжяйяжячяьяояЫяЧяыяьярягящяияЯяйяляпясядяжяШяШяЪяОяШяЛяЬясяЮяМясятядяЮяЯяфявяияфяЫяТяЧяхявяПя©яБяЪязящяЯяняШяЯявязяЮяЬялячяПяФяЧяеяняаядяояюяцяЯяжячязяш яЦявяКябяЧяНяХяйяцяйягяЯяЯяНяБяДяуявя°яИяаяляЭяРяУяЩяДяТяµяЕякяЧяЗяНяжяЯяЩяЫяЩяРяКяЧядяХяюясяЦя№я»яКяІязячяэяжяТя®яДя»яСяЭяПяЕяДяїяряыяюяЅяїяµяµяТяйяЩ  яоякяТягяИяйягяЫявяаяЧяНяРяПяй - A # - яЦяХяеяСяЛявякяИяОязязякяРяЯюВюЙюъючяя5я'юµяqя}яjя…яUяfяzя–яfяњяя€яuя–я—яjя‡я…яkяя¦я±яЎя¬яІяґяіяјя±я®яїяБя¬я»яФяЖяЕяЮяЙяЁя¶яЪяНяОяДядяЙяёяКяЛяѕяИяЖяЬяЗяЖяЗ яаявяЎя¦яВяЩяПяВя»яЫяїя·яДяµяµя±я—я©я«я§яМяАяТяЙя°яЁя·яєяїяМяляЧяКяЙяЅяТяБя±яЄяЇяФяПяїяЖяХяЙяДябяеяХяЭяЧяШяЛяАяИяЦяФяїяЛягяОярягяФяцяЛяЙяёя¶яЗяЯяїяИяИяРяЪяеяХяОяИяµяКяНяЬяхяуяСяУяХяиявяэяПя±яЦявяУяКяНяОягяПяЙяєяВякяляФяПяЪяПятяЯяжяХяєязяняЪяЪягякяйяю яряЧявянячяияЩяЛядяЖяЬяпяю яаяЦяДяОяр яЫяляЯяй яьятяцяыявяРяЧяхямяфяю    яляьяр яз яфяхясяйяп    яр яряч  яф ян яф      яыяйяляшяяянягягяяяф яю 
- яояъ    яхяъяш   яшях яьяуяя яяяхяыяуядявяа  яюяфяьясяцяжязягямяйяШяя яжяэяЭяЯяйяояйяиябяяяпяТяпяшяеяНяІяЕяляаяоякяияш 
-яжяЩяФятядяйяфязяаяЦядяИяШяЫяЮяряляй  яияЬяяяЪяЪяЯяу яШяУяѕяВяХявявяТяРяияШяЩяЮяЬяШяКябяляеяВяТяМяЯяЩядяжяфяш ясяфяС яыяТяияЧяЫяиямяТяКяДяУяРя»яаядядяЯяЩявяЬяЮячявякяляЬяМяСяЦяЮяЬяКяЧяїязяЪяЬяУяЅяЅяБяЖяОяЬявяЫягяЛяКяеяшяНяряияяягямяШяЛяЗяеяЦяИяШяНяµяЛят яУяЙя·яНяРяюясярям яняжяйяляЭякяЩяфясяЭяМяияЭяМ 	 '  ятяшяЛяИяКяЛяЭяРямяЮявяпяпяЪяеюѓяюNюмя'яюхю’яЅя{яiяGяVяћяЏяwя_яќя–яЋя„я|яxяЌяlяpяyяҐяБяјяяђяѕя©яєяЇя№я·яЁяАяТя¬яДяЖяРяїяЇяѕяУяјяЗяАяАя№яЖяЧяБяЙя»ямяЩяОявяХяёя¶яКя¬яѕяЕяіяГяВяїяКяµя№я°яҐяѕяАяЕяНяжяФя¤яіяСяУяВяѕяјяНяєяµябяШяЦяРяУя»яМяТяЛяЬяЅяёяБяАяјяФяДяЪязяряаяЛяШяКяМяјярящяжяЬяЩяГяЬяшявяКяЮяЩяШяПяТяЬяЬяЩяьяКягякяТябяЮяФяк яРяКямяСяЪяТящяМяДявяЦяБяМя·яТяСяо яЬяЬяьяАяПяХяпяЬянятяЫяйяаякябяАяёяГяаявяуябяЪяЭяЯяШяМяЦяПяЯяняряпябяУяЮяЮяЯяйяняпяж яэяЛязяЪ 
-    яхяю  яюяэязяйяаяд  яэяюяш яЭяшяЯяОяЯяуядялязяйяоямяьядяняйяч  яояв  яы яляяясядяыяьяэяояу  яя   
-яйяйяЭяеяоядяСяОячяу 	   якяв яШяжяПяЭяеяЗяЩяЬяияляжяж 
-яэяы 
-яшябяОяЮядяв яуякяйяляЬ яЫяуятякяЮянябявяФяШяУяпяЫяжяпяаяояияшяУяЧяХяСяйяиянямяеяШядяЩяЛяияРяяядяЫязяЫяТяЦяОяУяояЧягяТяХяЦяАяЕялямяСяЧяАяЮяЯяЧяМябяЙяЧяХяМяИяОяЯятягяШяДяеясянящя№яБяВяИяЦяЭяФяЫяЯяЫяШяСяняп яФяГякяЭяЦяВяЩяОяЭяСякяКязямяияТяЛяЙяЛяКяуяЦяБявяЪяЕятяКяЅяУяИяКяВяГяЗяЧяЦяЗяЗяояФяЬяхяюяЬяжяцяЫябяняеяШяЩяЧяг ятяияЩямяЙяЮяШяЮягяс ях ядяПяияШяУяДяпяжяУяЗяЬядяёяя &   ямяДяЪябяйяйяЪяояйяЭяЯяШявяиюзяяXяюЙюРюмюєяPяQяљяњяЃяpяbя`яyяџяџя}я…яљяЊяя…яЌя™я‡я°я¦я«яЋя§яГяѕяЦяЛяШяаяШяОяЗяПяПяФяКяСяПяБяЦяЛяФяµяёяЦягяЦяРяФяПяМя·яЅяВя№яЕя»яїя¬якяЛяЙяВяЛяЧяЙя®яОя±яаяСяєяіяєяєя”яГягяВя¶яµяИяИяЫяСяОяВяЄяЅяЅяЕяжяКяјяСявяМяЯяПяУязяУяјяѕяХяЬяляЩяй 
-яйяФяШякяХявяеяДяЧяЕявякяЬяЯяаяжяВяЗяПяЛяРяЫяЦяЩядяТяДяЦяСяёяЫязяшяЩяРяЭяПяФяЯярябясяјяЖяЖя¶яФяЬяКяЬяЩяЩя¶яЦяјяйяеяЬяУявяЙяФяО яюяхякяйяКяЪятяПяСяЩяТяНясягяЦяцяоявяХявявяъ ярясяъ  яш  ~  Ќ V - яХяаяуяеяс яфяеяк  яшяхягятябявяляЙятяеяэяыямятяЩяйячяхяцяпяояряняляш яяяряр  яъяияе  	яшяуяняжяфящяпяс   ясяр  ячяъяьяъяь яр  ятяпяь  яцящячяояз !ячяэятяпяпяеяхябяЭясяЮяСяЭяъ  ярябяс яШяХяЮяФяеявяряхягязяЩяМяЪякяЧяп ябяЫях ярячяТязявяояжяЧяжясяжяЦяЭяд яьятяеяцяЩявяХяХяаяЯябянядяцяияУяШяЮяЭяЩяРяФязягяЧякябяФяЭягяЕяЛяПяляХяСяЕяЕяЧяляЦяПя№яТяЮяѕяжявяЖяМяєяаяЙятяз яняЕяКяеяЧяПяЦяЛяУяУядяюяУямяияЭябяТяЦяѕяФяЪяИяБяЦяФяИяјя®яйявяПяжяКяМяЙяРяЛяЗяєяєядяряуяоязяЦяЕяЪячяеяОяЧяУяЬяЦяУяЙяГяУяФяшяЛяЗяДяХяяямяш ядяВяЦямяеяШ яаяЙяШяЮяКяШ   " яюяЭябяСячяГяРяЅяЦягяняуяИяияЬю‡ю§юИюВюЉюуюбяя¶яњяpя<я`я€яxя9я„яxяeяoяaя~яЊяўяЂя{яhяsяЁя±яДя§я†яњяµяМяМяКяХяИяЯяЧяЮяЯяЧяФяјяјя№яґяЄя¶яРя¶яБяЭяЖяЙяАяЕяЗяµя±яСяЬяКяТяПя°ядяТяЪябяГяаяШяКяЩя±яЖяРя№яРяЧяїяёяІяОяНяГяєяґяДяРяЕяАяѕяЄяЫякяЩясяБяЗяЦяЛяРяЭя№яЗяйяШяЕябяЦяМяОяјяЛяУяИяЧяЦяаяЯяКя·яѕяЧяКя»япяЯяУяЮяЬяляЬя±яЛяЙяуязяМяАяЅяСябяЧяНядяЭяЫяФяУягябятягяИяхяйяВяЙяЩяЧямяияыяйяХяфяЦяЯяЩягяХямяХяУяКяіяЦял  яняжяЧяЪямябяП   яЮявякяЬяШягяъящяъ яСягяш яя   »н—ѓ 0яьяЭяеяюяюяеяряняияКяШяч  яъ яияъяняояйячяЩяеясяияхягязяеяряняляжяз яияр       ямявятящ яцячяы  яяяя яляаяе яя  яряйяхяйяшязяШяшямянящ   яуяояфяп яыяцяеяыяуяОяХяс 
-    яшяи   яйяЦявясяюяЯяхяаяияУяјяБяЖяХяПяЮякябяш 	 ямяжяияц яьяцяЭяФявяпяляШяЪяСяЩяПяКяСяЯяЪяУяЧяЯяоякяРяИяФяХяУящяхяОяПяЧяьящяжяЫ ясяГяЬяЭяюяЧяЪямяжяЮяоядяКяюяляояОяНяВяйяияэяЪяЧяїяКяиягяЩякяэяняфяНябяЛязяляРявяМяЩязяРяХяЬявяЦяНяЧяЫяФяЛяУяЕяРяЪяШяЅяЧяЧя»я№яѕяЄяАябяЯямяляХяСяЙяеячяюяЭяЬядяОязяОяИяЧяЗяЛядявябяеяВяґяеяиящяэяпящяояе ящятяЛяФяПяЯяляляуягяЮя№яш     ящяОявяФягяФяояэяп яцяЯядяияОюЋюАюжя.ютя@яя3яRяЊяvяgяYяlяЂяPяPяяlяhяVя_я®яµяwя~яMяlя°яіяЄяћяУяШяНя¦яїяЬяОяГяОяЭяШяИяКяВяµяѕя°яЅя·яЅя§яБяЙяМяЛяШяЗяіяФяУяЦяОяжяЬяияИя№яСяЙяНяјя°яШяКя№яВя№яБя§я¶яМяјяПяИяДяЯярявяНяЅя·яЗяЛяїя»яјяµя»яЕяЪяМякяАяСяЦя·яГядяЯяШяЪяЙяОяЦяЪяОяТяФяйяЙя»ядящяпяЪяЦяЛяЦявяДядяСяХявяЮяляРяШяПяфяжяДяЮяляжягяЪяЮяШяЭяСяХяс  яЭяаяЗягябяЬяпяляХяЪяйяьяяядяСял ядящяЗяеяЪяпяХяЮякяхяхяЬяи яЪяёягямяШяояеяОяаясяияняжям яг   яы . ятящ FА	C	m‰п Wяыяэ яьян язяЬяйяпядяФясяьяяяыяъяфяч   яляьякяйякяьяуяЩяляъяяяьясямяьяпялятяь  	яцямящ яьяцяшяэяэяуяф  яц  
-яЬяСяу 
-   ' ярягяжяРяЪявяпяЬяяяя  	  яьязяЮ  ярягякяб  яцяэяхяПяОяэ  ятяжяЬ ятягярядяжяБяняяяляЖян яуяЮяеямяляьязяХяъяаяыяуяояе  ящябяСяХящягякяЩяпяфяЛяµяДяМяЪяйяЙяЩях яряляйяняЛя¶яЗяЗяляцяЪяЪябяс яряляжящяиямязяюяыябяйяЫяъяаяЇяУяуящяеяТявяИяЦяжяЮябялякягяЫяРяеяЙяоячяРяШяЭяеяюяЧямязяВяВяСяЯякяХяДяЛяЭяьякяЧяДяШяжяРяХяЗяВязяЧязяняияЛяФяШязяЦяУяУяВяЙяЫясяЭяУяЭявяРяМязяРяЬяВяпяЫяЮяЫ ящяЯяъяцяж ятяРяХяняМякягявяЪяШяЯяЭ  ! (  яаялябязяИяжяШябяъяъяЭяШяШяЪюяя'юЖюЮюЗюВютю¤яuяaяlяЂя«яњя/я1яuяrяeя`яgяzяЂя”я‚я•я¬я…я¦я»я­яґяЛябяУяБя±яЅяВяГяїяХязяНяЫяеяеяТяДяїяМяіяОяТяНязяУяКяєяКя·яЕяЈя¬яЁя±яНяРя¬я®яРяЩяµя­яєяИяѕяБяёяґя»яЛяЕяІяПя®яУяФяХя±яѕяЁяћяІяАяЗяаяЭяЩяПяЯяхяЗяЧяХяГя«яјя©яёяХяёяҐяµя§яЪяУяєяТяОяГяЭявяЯяИяШяпяЪяйяЬяаяпягяСяжякяжярябяЦяХяаяФяУяЧяИяМ 	яЦяЪяИяМяЫяЬяЦяШяДяЦяЩяпяЬяЬяїяуяъяЮякяЮяЫяжяХяЛяЕяеяЦяЮяХяЩяЅяГякязяшяПяЪяЪяеяфяЬя·яУяж ятяц яы 
-яфятябяК яЯяХямяЯяЦяЯях ' ) x}Зo’‰ J яояяяэяъяжяъяЧяуяюяняйяш яюясяцяэяфяьяэяеяуяуяс яряЯятяф  яЮ   яюясярязяя    ячящ яцяфяи  	яы   
-яыячяю яхяуяъят яуяЮям яяявят яъяфяфяе яфяцяцяшяь яЩяеякяжяЩяеяшяЭящяшяфящяпядяФяЛяжяМяЩяйяЮ  ячяжязяжямяУяЯяЮяляц ягяОяЕяиятяжяе як яжяЫяу   ягяНяняъяЫяЪяжятяряряФяЦяы 	 ящяЦяуязяСяЙяЬяиясяуяй  ягяйявяЩяояыяЭяляняЦяХяЭяЧяУяЫяШяМяёяЬяЮяЭяЧяЙяпядяЫяЭячяЬяПясяГяНяХябяРяПяЙяХяМяХяЮяХяэяЦящяоязяЬяяяояѕяаяняйяАяМяояхяяяаявяеяФяЯябяШявяуявяЅяЖянямяЮяжяияЛяэябязяУяТяЩяОяжяЙяеямяТяЕяХяКяФяуялящялящящяэ яЪяЮяняСявяЩяБяЭяЫяЭ  H ! 4 9 JяуяюяЦяЬяЯяъяц яыяхяфяЩяйяИюШяюЩюДюЮя3юлю¤яµяwяhяvяnяZяѓя‰яrяnяOяfяSя_яvяЉяЏяѓя¬я›яјяґя©яЈяУяЕяЅяЕяКяЫяжяЩяјяґябяляФяЫя»яґяСяЫякя·япязяЛя¶яВяГяЧяРяКявяґя·яґяДяїяЯяФязяєяДя¶я¶я¬яЗяияФяряКя»яЗяИяЙяЮябяЪяКяВяјявяЗяЧяжяТяЗяЬяжяъя±яЬягяіяРяУяОяБяДяЕяШяіяјя»яТяЪяИящяыяУяїяЭяЖяЗяЩяФяряУяцяЖяРягяЖяЬягяЗяВяфяиялятясяКябяЪяБяЛяСяГяЮяУяаяшяЦяДяЖяУяИяЬяТяЕя·язявяфяыяШяЬяЮяэяю яняНяФяьяЯяаяВяляЩяаяЬяЮяцяТяуяЛяЧяБяИялябяняЯ  
-ятяЩяРягяЮяЧямяйяу  ядяо 	    UЩ	ЫL Ј  яцячясяы  яюяпяфяаян  яУяЯявяэ 
-яшяшяпят ящ яОяо 
-  яюянящяш  ячяъяю  яэяряЩ  яы     ялякяу  яияъячягяияюяъямяд    яняцяняжяш   яыядяЫяЯял   	   яяяя   !    яуяряЦяКяЦяЙяЖяФ 
-яфяшяряхяфяжяСяряуяжяЪяаядяжяъ  ясярябявяп янян ягяЧябянявяЧяЬявябякяЭ  яшяйяДяЩяЦяУяЭяРяёяа яЦяУяШяЭяЪ яряфяѕяеяиярямяияыяуяРяИяОяЭяЪяТяШяСяРянявяЮяеяЙяГяСяЦяЙяЯякяаязяыяШяіяМяЯяЪяаяРяВялязяЬяНяКяЫяЩящяняняЧяЭямяФяОяЗяЧяІяКяЩяияпяЯяЩяьяЮя¶яЖяѕяХяРячякяСяЦякяХяЪязяЭяфяЭяфяЭяСяЖяНяЕяОяСяияпяпяЫяСякяйяФямяуяуяфяняпяЪяСяХяВяЧяЩяУяжямяняб  "  
- !яЮяжяЪяъяфяъ яняУядяЩяЛяДялюАя1юҐюjюыюАю“яяЋяKяNяsяtяzяnя‹яєяyя{яyяsяYяhяrяяwяЃя‡яЄя«яџяўяАя·я±яјяСяпя·яЁяїяЕяЬядяЛяИяѕяЗяВя®я»я­яДяґяЙяМяОяІяОяЬяХяТяґяДяРя№яЕяЭяЭяПяАяНяДяая»яГяТяІяМяјяУяИя­яАя±я№яФяКяѕяЗяУяЕяСяНяТяЅяЕяЕя№яХяПяТяЅяѕяГя°яГя¦яЕяЪяОяИяДяОяеяЮяКядяРяВяјяєяЗяТяОяпядябяХяЦяІяБяФяЖяЩябяэяФяряЩяјяЫяЮяЩяМяСяїявятяЦяХяЧядяЛяїяЪящяяялягяЖяГяЮ яуяЦ яф   ятяЗяЪяРяКяФяХядяАявяЯяЩяЪяШяияаяХяаяпяиякяОярягячяпямяцяуяояя 	ядяЩякяняпяЧяф яц  ? « « o 0      ямяеясяхящяэ яьящ  яоятяяяьяыяФяФясяе яхяи    яшяьяСяЭят        яшящяеяч 	 яюяшян  яьядящяюяряоярящяу ятяя  ячяюясязяэ  язяеякяр яфяояхяы яп яо  ялявяЭяяяЮяУяПячяЧяЦяв 	яЪяЪяКядяиязяНябяхяЖяыяцямяюяжяхямяиятяйяеябяиякяЪяпячяцяЯяЅявячяЫяжяфяЮяЬяпяЫяСяµяЫявяЩяѕяЫяЦяРяИяСянябякязяЪяЦ ятяЧяЩяьяв  яуяЧ  яжягяйяШябязяяящяЫяМяЩяТяРябяРяЭяГяХяуячяияпянявявяФяя 
-яЭяаятявяФяОяјяСяЧясяЪяЛяРярябякяЧяМяЗяТяТяНядяЮяыяяяЩяНяЛяЖязяФяЭяЩясяпябяЮяияеяЩяУязяОяШяЧяИяЙя°яШяЭяЩячяпявяТяуятяьязяй яшяьябяКяЦяияЛяЛяжяЧяияЦяГяв     ямявяжякярязяияжядяЙягягяТязя5яGюжюїяюьющюѕяnяxя^я~я=яTяwя{яЏя—я“яtяwяrяyяFяhяoяqя`я§яҐяя›я»яЛяЪяЪяЛяХя№я№яќяёяИяЖяЬяУяФяБяБяіяФяЦяКяАя№яМяЬяюяЙяДяЗяВяаяЫяХяХяВяЅяЁяЩяЗяНяѕяЦяЫяТяЖяДяЛяЩяпяняБя±яЩяЙяияШяСяиябяЭяГяаяШяМяПяИяЙяПяДяТяРяЬяЮяЙяРяТяЦябяїяЪяЭязячямяКяОяєяЗяµяѕяКяКяРяаяМяХяЯяпяЖякякяСяЩяДяЗяУяЙяЛяТяшяЅяПяХяКяЛяеявядябяаяШяЗяЮяияЛяЦяЪяИяИяВяпяоядяояпякяхячяеяЅяКясяаяеяаявяЯ яяяцяУяфяСячяжяМяйяШяж ящядяУяеяУяПяаяляю яляОяляяяшяо ягяьянят  яы ял 
-ярясякямяцяияхяы  яфях     яцяЭясяъяч яюяцяуяяящям   яъ якяяяьяьяшякящ  
-яяяы яъ  " 	 яшяш  яыяъ яфяо яшяы 
- яцяжядяеяЯяФяШяЯякяъяшяхяЭяляЬ ябящ  яЪяЩ  яЪях   яюяуяоябяряЪяйяряЯяФядяжял яэяшяУяЧядяЩяфядявяШяьяряяяцяяядяЬяйябяЮяПяЮяряг яяяЦяНяФятяШяеяеяеяеячяеяч 	яЯягяцяЗяѕяЭясябяаяОяЩякятясяЩяияйяЪяхяояУяСяСяУяЗяпяояъятякязяеяУяияияХяЬямячядяДяжяЦяЩяШяМяЧяКя»яёяФядяияЯяСяняЙяояЬяЩяйяб яЧяХябяЪяЮяЙяСяИяЦяЧяжяЕяжяЪятящяМяЙяаяй яряжяняУяНящяХяК ягятяеяеяЖяЦяЪяЗяИяїяЯяжяґяБяЦяСяѕяпяе  яЭ   яЫяЮявяуямяЫяояОяУясяняи   &  яфяЯяйяняшяаявяТяЫяйяВяТяряЕяјюяю®ю¶юююпя	яюQяBяYяxяея„яrя¬я—я–я‰яfяkя…я“я—я…яЉяsяeяhяќяєяія¦яМяЧяЙяЧяМяІяѕяЅяЯяНяИяРяЩя»я·яѕяКя±я·я¶яБяїяЦяРямязяЫяРяЗяМяѕяЗяСявяїяряняПяАяЄяЩяЪяЗяИяЅяЛяГяняЩяЦяПяЦяряТяУяГя°яЅяЖяЙяЖяґяїяЭяЪя·яЭяФявяЮяНяРяЬяИяГя№яРяняняТяКяТяЦяЩясяДя¶яЭяѕяµя·яВя·я»яЛягяЩяя яУяРя°япясяШяляОяЕяЛядяУяляЪяФя¦яЦя·яЅяЯяКябяиябяхявяЕяїяаяп  яОяШяжяЭяеяЪяЪяэяюяфяэяЬяЫяшяояКямяфямяфяняыябяжяНягябятяеяляаязяэязяшяшяс  ящяыяЪяъякятяж яШяЙ     яи   ямяЫ язям   яюяъяцяь  
-ясяУяЬяж        яяяЬяшяьяпягясясяе  яо  ящякяояф 
-  
-  яыяЩяЭяш    ясяк яюян # яуячярярящяфяЬяхяуяыяжяяяпяя  яюярякябяцявяряЯяЧяжяэ яцяяяэядяжяЯябяЩяЛяНяХяЯяЫяф яьяз  яфяЭяэяся№яЯ  яъяЪяЩятяЦяМябяхябяїяЮяьяюяхябяЪяГялядяи  ягяУяЭяшяЬяхяЬяняряУяАяСяЕяНякяШямяояШяляйягянядягяЪяЮяЬяЕяЯяОяеямяляНяФяНя·яДяЩяЮяжятяьяЧяжяРяµяЕяояляКяняЦяСяЛяеяЬялят  ягяеяэяТяЦяыяц  яЕяЅяЮяЮяьяЦяСяЖяјяМяХяМяйяояГяЧяуяФяОядяеясямяуяХяїяа яъячядяФяИяняяяЯяЩяХяЗяВяТяЦяґя№яСяЯяЯяЯярях 
-яряо  явяляояЫяжякяЧяЬязяяяУяЗ     яЯяьяшящяЭяЅяѕяЙяЦяПязяЦяЮяЮю™юєючяюБюпяюЧя‡яbяxя[яQяNя:я‹я‘яЋя–я”яЂяzяWяIяVяfяXяpяЁя‘я•яџяФ 
-явяЕяіяµя·яЗяРяЩяїяШяРяЦядяЩяМяёя»я»яЪятяТяТяЅяґяШяМяЅяУяЗя°яКяйяРябяЯяШя®яіяЕяЗяКяДя®яµя№яҐяЩяЩя»яєяЭяШяля«яНяМяУяСяЯягя»я°яБяНязялязяІяЗяГяКяШяХяЙяРяМяЪяЗяНяЛяПяУяНяРяЬяэяЫягякяЬяИяМяуялялякяьябяШяСяЕяеяЪяСяЯямяЙяЧяСяЛягяъяаяКяЖяТяСяЭяиячягяжяУяЩяШяЭяюяэякяОя»яияцяеячяХяШянятяуяряЫядяНяШяняЯязяКяЪянядяШяЭябяфябяф  ячякяоякятяфямямязясяеякядяъ яцяъяПяТ  яцяс як 
- 
-ямяляуян  	 япяЫяШяК ящяфяхядяФяеябянямяУ  яфяж  яъ яфязяе  ях яъяф  яеямяняюящяняяяь     ятячямяиямяхяляЪ   яЯярях яряр   яяявят 	    ячяп яц явяи яфяя яояйяяядяйякяняяяхяжяёяЬяф яэ  яКяТядяБябяЭяЪячяжяжяЩяХ якяЮяЫяжяЯяЧяШябяЯяЧялявяЩяд  яряляЬягяляЮяжяРяИяУяЖяжяняйяаяЯяхяыяЫядязяжяйярясяияцяшяфяМядяхяТяГяЪяРяЦябяЯяояхяЯяуяЮ яняб ящяп ящяыябяфяОяе  яшявяЧяКяЬядяьяЯяЕяЅябяжяЧяжяняТяФяЫяаяЭяЪяйяеяГяТян яояТяФяцячяЮяжяняФяОяЪяияхяияЮяйяьяУяЖямяйяояУяЮяЪяЩяАяйяКяКяйяи яхяю  яхяЧяфяХяр  яъявяхяюяЧяИ #   яНяНяс янябяНяЯяЭяВязяиячяуяЮюиювюЯюрюАяяюЛяUяYя я†я‹яjяGяTя‡я^яqяqя“я§я_яYяbя…я}я€я¦яѓяҐяЈя·яОяЩяИя№яњя¤яїяШяфяЦяСяЦяИяМяМяРяЫяИяШяТяНяЫяЛя¬яҐяТяЪяАяїяНязяЯяЬяѕяЩяЖябяСязяияеяЅяЅя№я»я®яБяаяЦяВяЖяАяЭяГя¶яИяДяЙяОяЧяјяїяјяґяКягяИяСяряЮяЩяЦяРяЫяняЫяФяляТяъяыяжяОяТяНяЙяМясячяЭяШяЮяаяЅяЅяОяБякяоявяФяНяЕяЧяОяЩягяФяФядяхягяфяЯяИяµяБяФядяеяняхяЛяйяаяЭ  янямяЭяЯяСяУяПядяШяа   яь яЧяЗяЙяж   ядяЖяд яляхяяяъ ятяуяс яхяСяГяЕяаязяыяХябяр ящяцябяП язязяъяэяряьяжяфясяЯ яряУякяияиящяе яьяоякяНяЦяфяуямяйялянякяТ яяят ях   ясятяояыяшяьяпяь ячяъясяпяиящяХяъящяуяъ  яфящяэ  яшяъяс яф яфязямям ящяцяхяц  яыяу 
-яжяф     #яояЯяэяу ябязяЧяжямяЧяуягяи   яряъяэяаят яжяЮ яйяпяеядяУяияпятяияй ячяЦяТяи ябяряЧяпяЬяЬяг яЧяЯяжян ям ябяияТявяияхяЪяшяцяЭяЫяояж  яЬяМяФяФяжяряРяЪяу  ячяРяКяЖяеябяряюяРяъядяЯяЯяйяЫяТягяЫяеявяхяЩязящ  ягяФябяЭяХяШяияиятяжяОяаяШяляцяЬяШяПяч яИя·яДяХяЪяЦяАяЅягярянябягяЧямяЮяЯяояшяхязяояуяПяЕяЙяЬягяЛяУяЩяЭяЪяТяЬяЭяЯяЩяшяЬяяяЧяФяояоямян яНяъ  яйябяряЦяТяЭяТяФят ятяП яю 7 '   яуяхяЯякяцяШяНяЙямял яе ювюПюљя"юЌюEю”юеяЁяёя…я|я’я·яўяЂяЃяVяyяNяrяuяoяjяnяqя…яlяяЊяя№яЧяОяЗяОяаяЛяОяИяФяеяПяХяЛяИяёяЩя­яџя»яТяЗяЗяЗяШяЖяїя±яЗяАяјя¶яЛяПяТяЫяУяКя№яЕяјяИяМяЩяЩяХяГяМяМяѕя»яГяЈяјяФя№яЬяГяЕя»яѕяВябяСяїяТяЧяаяµяХяЬяКяЇяВяЭяЯяДяЗяНяЩякяІяПяФяЛяВямяиязясяЧяЖяСяѕяЧяяяОяЦяТяцяжясяОяФяаяВяДяШякяЫяЅяЪяЙяаяКяЗязяЦ яЫябяуязядяЭя·яВяПяьяряЕяЛяКяЦяТяТяМяЩяЯяЭяЭяШяжяСяЪяжяйяпяЫяМяТядяЛяляЫяюяЩяйяуяЬяїяАял   яыяСяаячяМядяы як  яэяояЯякячяшязящямял яюяйялял     явяОязяеяЯяэ яъ 	яуяРяЫ   яйяч  яюяЪяъ як 	 яъясяыяфяы   !яыяйяэ 	 яъяэяы    яя  $    яыядяПяаямяфяу яэягякяляуяфяыяцяйяр   яш  яояеягягяэяляъ яхяЭян яеяряеябяяяэяьяуяъяяяэячявятявяшяляпясяуяпяйяиядяЬяйяяяРяАяёякядяФяШяЫяНяаяеярящяяямяряЪямячявядяЪяЭяляхяРяЮяпядяаяЦятязяСяЭячяъяйяЬябяЮяняаяЧяВядящяКяЭяШягядяьядябяОяМяеяшяЙяе 	 ядяЦякяЯяа  яЪячязяйягяАяЦявянянябяв  яЦяИяЦяиясяпяЦяОямяцяняЬяЭяОялясяфяояЭяМяЯяКяЫ  яыяПяаяряЭязядяы яаяЗяаяСяияеяЪяФяНяЮятякяЮяэяОяЬядяляНяЧ  янярячячяТяНяЙяХяЬяЛякягяОяк   1 5 яУяХяЦяШяЯяляуяиядяжягябягяпя%юnюЬюШяю{юТюля•я\я%я9яQяQяYяUяљя}я‚яќя‚яЂяZяaяtя}я›я’я~я’я¬яПяЗяЪябязяЙяИяйяЩяЦяВяЦяЬяЖя·яРяОяКяРяЫяУяёяАяЗя»яѕяОяµя№яБяїяАяТяОякяжя«яµяРяЕяїяМяУяёя°я®я»яляЭяПяпядяёя»я¶я­яЬя№яѕяµяОяФяНяГяНяЬяЕяЗяЩяШяАяПяЛяЮяЄяШяйяШя°яЖячяжязяєяЖяЧяТяОябяёяОяТяОяСяРялязязямявяВяБяБяМяКяъяояЪяЯяЩяУяЪяряИя±яЦяаякяЮяХяТяСяЦяЭяжяияеяу яеяЫяРяТяЦяСяѕяЦяйяЯяляКяс яаяУяйяхяТябявяйяОяояфяъяОяЯящ яцясяЯяГяМяСябяФяОяНяЯяияу   яюяюяСяаяЮяняуяшяэяхяпяя    яйяш 
-ясяфяжягяйящяхяр   
-яфяняЮ   яеяряю    яхяряцяияуячящ  #яяямяюяыях яъяцямяфяь  яфяэ     яфяуяуяфякяжятярязяняыяяячяхяю   яьяояЬ  япяэ    яУяХяр  язябяхяэяЩянячяп яияиягяляояЪях  %   яаязяыябяжяжяпяпяФ 
-яъ яр  яЛяЫятяг яляояояояияСязяжяЪябяНяХяШяЩяеяцяШяЦяИяпядяЧяХяРявяЪяТяЭяеягяЪя»яЮяд яэяяяпяЦяПяьяняаяияРяняЖяЬяаяаяряфякяПяЬяХяъяЩяЩязяЯяаяЛяЫяїяФяЖяБяЗяВяМяжяИяИяу яюяеяеяВязязяЛяо яФяЭятягяояояаяхямямялякяляжяФязяИяПяЫяфяь якяъяЭяаякяЬяФягяуягяйяъяУяЮяфяХяХяЭяа  япяуядяЫяПяСявяЫяУяХяЖяШяЩяс      	яаяаяЧян  яжяьятябяаяояЭяДюїю–я7юИю№юЯяwюшя„я^яcяrяґяXяdяeяЌяlя~яyяvя“я„я‡я†я…я~яџяўя¶яЁя©яЕяхяВядяЯяЕяеяЙяПяЭяКяДяЧяПяГяНяёяєяЪяґя®яСяЖяѕяТяРяШяаяНяЄяёяФяіяУяБяАяЧяОяЯяцяУяЖяПяБяТяёяТя­я¶яВяОяФяБяІяЕяПяГяФяїяЮяжяЪяЛяЕяОящ яЧяХяИяОяЭяяябяПяЦяЩяЅяУяЩяШяияТяРяИяПяёяРяряОя§яФядяМяПяыяЛяРяСяНяДяЬяЫяѕяДяёяҐяФ яШяЗяЧяРяЅяЙяСяРяМяляйяЫяРяЪяБяВягяхяЧяйяЩ яряЦяДяСяФяЙяОяОявяДяеякяЭявяЯявябяшякяуяЮяжявяеясямях  яляМябяхяжяЭявяЬякямяняоячяшяЮях яДяЯях ячяцяХял ятяжяоясяТяјябяпяияО  яъ  яъяэящ  яняйякягяъядян $ 	явябячяхяыяъяяяФяЦярямяшяр   ячяэяэявяХятятяя   яэ  !   #   
- яш ярясяцяняеяляояй  яшяпянят  яряцяы ят язяхяп яыяьяфясяоядячятятяюямяжяряЭяняф  язяыяшяРяИяЫяаяШ 
- яуянядяъячяпячяСяЦямябяЭяляьяр 	 ятяеяжяляй ядяХяэяхяЪявяяяняйядяжявяыяияаяЫяПяЦяэяйязяСязятяьяцяЬяУяґядяняхяряцявяГяЙяНяЯяЪяфяляуявявязяНяЭягяЮядяоядяТяЫякяъяСяЕякяияЩ яУяйяряеясяПяЮяз  яьяТяЧяляляЪяКяХяЫяЮяьякяИяФядяп яЧяжябяїяЧяц яйяняцяряТяЩяЪяЩяк яцяЩятяияаяея¶яЅяпявяу    яйяряЪядяаяэяМяИяЭяиям 	 ;    яшяеяЦяшяЩяфягяСязяфяЗяЩягяСя%юТюИюЄя юјюяюряЏяkяQяsяsяZяMяђяlяfяsяsяЁя‚яxяjя‡яvя`яЄя»яґя‰яҐяПяТяЛя¶яНяУякязяЦяЙяЫяїяКяВяЗя»яЅяФяЛяХяБяїяИяБяПяЮяЅяЖяЯяаяияУяаяФяЦяТя±я®яЗяЖяҐяЇяШяеяХяИяёяџя­яФябяЫяїяМяЛяТяВяЖяГяЪязяЛяНяЧяДяїяБяЙяеяЫяОяцяжяТяБяЖяИяМяХяѕя±яЛяаяЩяъяУяЦя·яјяЁяЫяѕяКяЭявясяйяхящяпяжязяДяШякяняюякяцяияЭящякяЪяЖяНяеявяМям ягяДя№яЙяНяеяЦяляМяЩязяСяГямяЕяЫямяпяхяшяЮяляСяКяояйяЪяТяЦявядясяйяЪяФяП яляаяиясяШяеяоябяЦяЬяХяцявящяОяЪяъязящякяЭядяДян яуяфяц  яцяиялящящяКяФяеябяПян ятяфяьяъяыяаяе яэящячяюяцяояэ   яшяыяряб 	яш    яфяо яъ яъяьящ яь ятяояю  яюяцяьяъяя   яюянялящяэ яьяшяь яияс 	ящ   
-яэящяоямят    якяф  яЮ ямяйякяч ячябяяямяш ял ясяъянядяз яняТяв яяяф яфяПязяпяцяеяхяШяЧяТякяжяняиящяй    яжяряиясяряЩяя  ябяНяЮямяюяжяряйяЪ 
-яляияияжяЧяж 	 ямяч ямяНяЦяшячяп ясяЫяЮяХяХяПяояфяЫяЮяЮяРяЖяЛяЯятяЫям   яу 	яфяуяияжяияШяг яяяЪяЮяЧявяэяжяияряПяЮяТяфяфяЧяНяЬяшябяаяАяЧяэяеяЮяШяжяЧяа яъяъяпяЯяЫяуядябявяжядякяЯяЯяПяеяэяОяжязяАяф яф  яы ящяжяШяЭяряЭяЫяеяФяп     яняи  яляжяфяряз яжя·яБяРяФюДюБяюёю юџя юЂяrяbя:яtя‰я}яIяaя]я_яOя~яЂя‰я†яzя‘яdяdя†яя—яЉя™яФя©яіяАя™яёяаяляЪяДяЪяЮяУяїяЖя№яЪяЩяІяіяУяУяЩяНяЛяКя яЭяаяУявяпяЙяґяЪяЦя»яФязяЖяХя–яОяОяХяЭяШя»я¦яґяЛяРяфязяЖяЫяЩяЙяїявяЭявяМяРяжяЧяХяОябяоязяИяМяНя№яКяЮяЪяИяТярятягяСяСяЮяФяУязяСяЙяЧяЬяПяЪяШяУяГяйяпяйяаяъящяГяТяКяйяияИямяЧяш яхяЯяъящяСяРяМяШяЪяояфямядяЦяєяИяХязяояыятяАяПязяУят яыяЩяаяЪяпягябяЬябядяаявяы 
-яЬяФявяЩяняы  яляЙяУяМяЫян 	   ячяэял япявяняцяъ  	яцяпямяЬяыяфяп  ятяряьяряШяјяЭятяйяжяьяъяцяъяряыясяпяъячяояЬяЮ  яяяЮяы яэяеяЯяЪяляйяр  яуяе япяЬямяъяы     яь  яъяеяо    	яю ях яэяояШяЦябяЮякяПябяеявябян  яеябяжяпящяаяШяйяйяшяи яъяж    яыяЪяоям яияы 	ятяаяФяй яфядяшябяцящяеяжяняшягязяпяиявяОяаядяфящяшяуязяшяя  яхяъяфяЪядяЩябяжяЙяЦ яюяряляц   яняЭяа яж 
-яЦяСяШяЯязямяп яЫякяыяЬяЦяЭяаяТяПяШяЫячяжяЪяСяа яряЬяяяэявяТяляЯярящяуяжяШябяЦяаямяХяУяШяеяяяэяфяфяи 2 <яьяУяєяШяЮяляжямяЩяЫяФяКяЛяЯяд 	яь яхяпядяНяЩяЫяЮяияЫяПяБякяЯязяЧяЧядянямяЛяи  яяякяд яйяпягяйядявяйят ягяШ  
- "  яуятяшядяеяояЪяЙяШягябяШяияЪюъяяюЕяюЈюўя
-я‚яsяяoяvяiя|я›я–яwяќяњяяWяiяbяљя–я–я‚яЎяЄяЁяЎяЯяБяјя·яєяПяМяПяѕяЙяЙяРяаяЖяія°яЦяояЧяЦяьяЦяЙяЮякяФяКяжявяГяЭябяЫяСяФяФяЪяГяЯяГяГяЖяОяєяЩяХяжяБяЩяПяѕяСяСяжяЮяйяЯяйяЬяЯяСяГяГяЬядяЗя®яЇяЩяПяЕя·яЪяЪяЬяряЩяТяШяияНяХяСя¬яєяЦяЪяиятяГяПяЮябяСяцячяЪя»яЪяЦявясяЫяСяЭяРяГяаярягяжяЩямядяЧяХявякяйяЖяаяс    яыяХяЦявяжяЙяУяряѕяжяжяЦяшяз   яляїяШявяОянясяуяхядяЪяЮяпяЮямяйямяЗяЩ яэяш  яУяЦяОябяТ ячячятяжя№язяуяаяъяьяэяйяЮяФ яхяЙяъ яьямямяяяСяе 	 яйяюячяяяыяфяю ятяыяуяьяф  ящяляь   яч  яъяч якяп ящязяу  $яыяюяпяюяу    яояляц 	 
-яоярятяы ! яъ ящ ящякяуяу  яр  яфядяч   
-  яряУяЫ япяняШякяъяняо     ясяю  яэ ят якяияц   яз яъ яаяЩягякяжяъяэяЯячяияю ялятябяняФяЫяряЭяУяфяхяЮясяфяхяу яхяыяаяЫяюямяцяЕяДяФяОяцяш яфяЪяу  яшяряЫям ягядяоязяСяСям  яфяФяУяэяоязяеяШяХяыяшяъяаялязяияняаяХяКяЫявяМяТяэянявяшяеяняЫ яЯяЪяШяеяляеяеяя › ґ 9яжяиялягяЬяЭяэяШяЯяЫязязяРя»ябяжят  ящяшяняияЭяЪяЗяїяИ  япякяИяОяЭядяЦяыяхяляй яьяю яжяЪятяьяйяяяшяЪ яфяА   ' яЭякяляняжяЖяПяЯяцяьяХягячяаяхюбю•юДяю›юйяBюбяoяrя‰яЉяpяЏяnяWяћяЈя~яЊя–я©яtяwя–яUяaяpяЈяїяЄя‚яЕяµяёяЕяГяёяАяїяОя­я»яЄяБяНяѕяЅяЖяВяИяґялярябяЧяЫяЪяСяКяЅяїяВяКяЗяРяУяЅяВяЛяйяТяАяПяДяГяѕяЗяДяЅяєяјяГяаяиябяУяїяЪяпяЩяєяЗяЇя»яКяЬя»яИяЦяЫяЩяВя»яСяУясязяЮяуяпяУяАяШядясяхядяЙяПяЙяКяУяЯяОяЮяшяияЕяКяЫядяЛяДяЪя¬яУяйяЩябясяНя°яЙядязяяякяряФяд яжяшяеящятятяйяФявягямяЙяЭяПяжяцямяэяп яцяряПяхяЬяйяЭяЬяжяЪядячяшяняЫячяаявяЮяФяЮяЪяжяьяяядяйяояоямяжяняаяр якяЖяЪявязяЮяряояуянясябяа яюяцяъ 	яцяТ 	ях  яхязяляп  
-  яхяо      яцяШял      яияф ятяя яцямяеяр  як яфяъяюяняц яфякяжяряэяч  яц   	  яъяыяфяхятявякях  яояеяйячяь яуяЩяи яу 	   яряаяЦячяо  яшял  ям яХяпят яШ 
-яы  яцячяЪяЪяБяЯяЭягятябяФяИязядяшяЮяЮяб яляхяиязядяЫяЦяЛяЮяЧядясяияЮяЦяЯяы 	язядяНяфяЮяДяЦяуяЦяЛядяъяйяХян   яЬяеяЙяЕяЬяыяШяжяЯяОяфяТяМяхяцяжятяеяПяЖяЪяЬяЪяляуяТяВяжяЦяСяОяшяяяЬяФяЩягятяхяфяЮяЭяЫяйяЮякях ^ ~ ;язяеяЩяжяж яюябяс яэяцяХяЦяЛяжягябяпяуяПявяУяЦяФяЅядяПяряэягяыямяЧяСяЕяеяряйяо 	яцяхяхямяъяфямяЪятяняаяЯяМяЯ  - 7 +яцяХякяняфядяеячяуяеяСяНяХятяшяLюЈюЬяюѕюЈяяyяwяeя–яjя\яgяyяeяfя‚яђя—я‘я”я«яNяя}яяїяўя®яћяќяЗяеяИяЪяшяЮяняЩяаяЩязяЮяєяѕяУядясяАяґяёяЩясяХяЖяХяРяЦя­яЅяЛяµя¤я·яІяѕяГяєяБяµясяляЫяМяЫяЪяЬяЩяЪяЖяОяХяєяЬя¶яНяСяЭяМяїяґя№яЙяУяаяЪяЦяТякяГяАяЯяняТяаяХяжяФяЯяияЦяПяЅяРяНяЙягякяфяеяЧяНяИяМяКяуяЪяЦяЛямяьяряояСякятяПяБяЭяЬяКяЪяЬяѕяНяРяъяшяЦяЮяЪяУяЯятяЮяЙясяЭяИяхяжяПязяфязяГяаяшямяЪяе яЫяШягяеяьяЭ 	ярядяр яляСяФяфяжяжяляоябяояжяФ 	яшяряЧяМяляРящ   ячяюяэяэяьяь 
-ят яфяЫяпягяуяюяЭяТяТядяфяФяы 	 яЯяЬ  яьяо 	  яшяэ    ядяПяъ яу 
-  яхяпяЮяж яряйячяаяХяж  ящ ят     яцяЫ 
- яюяп  яэячяшяю      яьях      яхякяв 	   	яяябяхяю 
- яы  'яъящ яя ях яняэяу яляз яыяцяъякяцяряфяыяняСяЬязяЮяняЩяФяЩяУяаяхяляряф 
-яь  ятяЮяЯяРяаяЯязяЬяпяЯяЧяияМяжяНяУяТяВяЪяЬяуяСяЦяЬяо  ярядякяЯямяфямяЦяЪяЫяияФяФяеяцяЮяхяЫяПяЩяуяеяуяеяЮяЧямяЬязяъящяЬяъяюялягяа ящягяк яаяНяоятяЦяМяж явязяЭяуяояЫяшятяЯяЛяЬякяхяа яя    яЮяБяЮяЮяжяо яЬяТяЧяжяХяРяияшяыяшяЦяЫяКяЩяѕяѕякяПящ  япяжятягябяияыямяфяаяМяЯяРяР    " $ яояъ яояЩяшябяляШядяяямяпякююДю‹юРюТюДюДю‹яkя©я«яPяqяяpяLяrя–яя”яѓяяkяNяdя„яwя‰я—яЏяђяІя­я±яИяєяЅяЅяХяЭяЦяЗяПяаяФяДяВяЛяеяЖядябядяАяМяАяжяЯявяќяИяТяЁя¦яґяЅя¬я­яїяКяКяОяаяія¤яЕяЛяМяХяЧяЦяШяэяПяШяЬягяґяЖяаязяГяЖяГяЗяЪяэяляЯяЫяШя¬яЙяияЧяИяѕяЕяв яжяФяїяСяІяЧяйякяВяЧяжяГя»яУяЧяїя¬яРяЬябяояйяФякяЧявяфя»яЎяЙягяЯ яюямяЛяпявягяЬяияхяТяХяЭяТяРяХяеятятяляЧяЯяЫяЛядясябяЪяУяЦятяЕяияЛязяхяЫяЩязясягяцяыяТяКяКяжявяЦ ятяцяЯябяуящясяЭяеяч яю ' яМяояяяжяжятяияш     
- яшяуяыязяЭяеяшяляо  япяхяыяшязяс яцяпяэ  яз яшякяхяю яыяЧямяфяр   яф       ямяпяфятяф ясяч яшяыяя    яы ящяуяэяэ яуях    яр   яр  язяЮящяя ярятяяяияуярярярящ  ящ язямязяияйяЯ   
-ячяс яцяЭятякяЧял 
-яуяЕяЩяеяЩян   яаятяцяхякяТяУяЗягяЬясяуяфяиягяаямяЩяЯяо яляМяЪяЫяжяьятям 	яЮяХябяпяУяияы  яуяяяъяцябявяхяьяфяфяияЭяУяУяЮ ясяеябяПяЙяЛящяояЪяыядяЗяиямябяШясячярякяэяЭяШ 	 ябячягяуяНяу  яцятям ямямяЕяеятяФяляРяуяСяыяф яъяняЭяъязяЗяСяняЭ яхяЫягяеяФяРяЙяеяс яфяСяуяБяУяОяЕяЮяеяхязям   ятясяцяЯяРяЮяояЧяШябяН * :    ! яЯявяаяуяъ яшяряцямяеяшяШю­яя*юАюpяю¬юУя‹яhяЃя’яЉя‚яrяSя‰яЁя–я™яЎяpяYяOяя†яђяvя™яҐяєяњяДя№яИя±яЗяПяОяАяМяШя±яШяФяЛяСяНя±яЧяУяТяияЛяРяЮяРяляДяІя­яІяМяФяЪяЙяИяПяФяУяЯяЙяЙяКяЦяЕяКяОяЪяВяЕяЩяЯяТяЇяПяИя№яЅяОяЙяЦячяйяРяАяСяКяЩяйяняТяРяЬякяГяЛяЕяПяКяРяёяИяЕяЅяґяаявя¶яіяЕяШяУяСяЖяЕяАяЫяфяОяСяПяъяляМяѕяНяПяЧяю яеяЩяДяхятяЕяХябямятябярящяняИяЩяйяняЪяъякязяЮябяиясяТяо 	яляРяряїяКяБясяйяфяСяЦягяляляТяЦягяРяНяЕяеян яюяУякящяъяЮяХяЭясяпяШяаяояЭясяд 
- ядяю яьяуядяюяя яхяФяи  яе   .   яяяляЭ яэ  ящ  яяямяжяляж яЯяйясяы 	 
-яч   ! яы 	 яь яь 
-яъяЭяряы  яшяэ  яъяя  яфятяи    ясярях  $  яряц  яъясячялятяпяьяеязящяпяЬяфячяЯ 
-яуяъ яч яЯяеянях   
-яи ятяЯ 
- ятяй ямяЕяШяНягяеязякяЧяХяйян якязящ  яияЪяЪяЫяйятяояаяряняхяояояйявяр япяпящяеязяшявяРяЗяµяеяцяо  язяыяэяряняояа япяЯяИяИяХяЪяжяФякяЦяСяцячяРяЕяцядяШяКяЩяоятяряХяХяЯятяияеяляфяаяеяФяияСяйябяйяюяМяСявяЮ ячябяХяХяияжяуямяфябявяЯ ячягяЫяЮяЯябяцяйяеяЦяМяояЙяЬяЖяз яыяЯяЫяФяФяКяжяуясяфящякяияцяяяпяфяхяцякяюяя яюяеяХяР  B ( 
-  яЩяОяфяъякяйяшяжяъ яеяЬяОяЩюЬяAюкюЋюЌюБюњюPяЃяfяЏя‰я‹яЏяVяBя…я‚яxяљя•яbяqя‡я”яЋя‡я‹я°я¤яЈя•яЧядяХя»я¶яґяЖяИяРяЖяЗяЫяЬяєяСяТядядяФяКяЛяТяЭяЩяШяЩяЗяОябяТяГяЪязявяЩяЯяЪяРяЩяХяеяъяОяЛячяФяУя¶яИям ядяЮяУяйяУя°яєякяЬяцякяжяРя«я¶яЧяЮяШяШяАяЅяжяШяїяЅякяОяЪяряояряФялямяеяЅяляжяыяояе яСяРяЦ ягяТяцяфяРяьявяЦяняжяЯяРягяЮяОяияХяАяКяЩяеягя·яёяПяТяВяляцяуяЫяНяИяХяЧяДяпяТядяя язяТябяЦякяЩяЩяЛяЬяСяРяжялятяняфяряжявяШянявяо  ях яъяф яю   яЮяеяляяяуяцядяМяо яЮяеяЬяуяк  ящяиях яряр 	яйяжяРяр яюяьяояуяс яэяхяцящяьяЬяф  ятяляу ! явяя  	  яшящяы  яуяйяжяш 	якябяпяуяя яояе  ям ягяхяиясяп   	   яьяцязялям  яояляь  яхяшяъ яыяеяояц ябяЛяияжяйяяяюяйяк яЭяи яы яряояЯябяЮягярячяьяияляряц   яьяеяжядят ятяя ясяжяфябяЦяШ 
-яСявяс 
- 	яж  япявяиятясячякягяуяряЪяНяояЬяйяс ящяы ящязяя ятяЫяНяЪяЯяФяряЧядяхяпяЩяшябяйяЩясяъяьяаявяшячяцячяЫяпяеяФяЪяЬятяияцямяе ?яшяБя»якяэяШя»ягяжяЪяоящяЦяЯ яжяыязяояфяЙяЭ  ящяЙяИяДяМяЯяфяЫякяыяЙяля№яеяЭядяжячяпяМяМяЦязязяшявяцяшяы яя  	ячяИяеяю  яюябябяХяч     яияюяфяУяжяпяЬяряаясязятяЫяВюхюћюxю‹юУю„юмюoяWяmяyяfя[яWяjя‰яЏя‰я™яҐяґя§яљя”я~я†яfяЂяҐяџя”я»яЯяУяТякяФя®яГяШяЩяєяРяМяѕяґяЅя¬я»яДяШяУяЅяИяЛя®яПяЅяШякяеяняЫяЙякяуяПяцяОяИяГякяБябяЬяСяаяЩяµяҐяіяФяояЭяАяЖя®язяряФяІяАяМяЗяМяУяияПяХя«яСяУяЧяСяаяЮяеяСяФяЭявяЕяЮязяиявяРяЭяШяБяияЦядяняЪягяЧяаяиятяЪябяеятяжяХяЛяФяйявяЧяРяЫяйявяжятяжяоябяЯяФябяВявяЧяЯяѕяПяжяжяµяКяеяыягяТямямязяпяЬямясяаякяЯяВядясячясяЮяКяМямяьямяШяЦяЭяКяпяЩяряЫяжяяяЧяПяЯяЭяцяь  ячязябяряяямяюятяияФямяъяэямячят яэяэях  яяяЮяРяХящяыяь     !     як  яцячяс  	ячяи язяэ   ящяэ  яэ   	   яяябяу яя 
-  ) 	 якяц  яьяэянящяиянямяя   яц яю   яжяю яжязяв  (яэяСяпямяцяуякяФяз яйяхябяЩянясяцячякячярялякяпящявячяч ятярякякяРяуявямяхях явягяуятям  яйяШяюяюяы  яЮяьяюяняЯ    яияЯяЭ яеяЭягяр ян яш  яхякяэяыяшяъялячяЪяЧяояф яйяЦяаячямямяЛяС ящяЛяЫяюячящякясяняя  яюяъяюяцяжяы яфябяляЩячяШяЧяз  яш  ясяы  яфязячяЪяЮязяпяЭягямяшякяп  яз яс яУябяПяЦяЮяиядяаяУябягяв яъяя 	ярящяы  	янятяфядяляшяЭямяж яф  2 - > яйяхякяЩяч ялядяюяряеяТяµяХю°юЬюЖю‚юЅю™юЏюЫяpяuяZяRяDяЋя‡яoя¬я•яyяќя¬яѓяЁяќяfя‹яЋя–я¶яўя¦я яЛяПяРяЅяЩяеяХяТяјяєяЫяЯяЗяИяТя¶яїякяШяЕяжяйяСяЬябяёяПяТяХяШяЩяЕяїягяЪяШябяЩяйяРяоя°я·яВяјядяЕяКяЯяояµяАяеяияЬяЬяМяЗяДяДясяПяСяляэяйязящяПяШяЛяЧякяаяГяаяжяЩяЮяЯяияЩяОяЩяЩяВяЩяБяПяБяШяТяаяЪяняУяхяыяЬяКяЯяУяЫяйяЯяСяГяЮяЯяЩяХяРяЮяФяляуяјяХяЦяЧяЫяШяЭяе яжяЩяЬяТяЮяРяаяе якяТяъ яияНяц яэязяеяыяпяпябягяжяц яияЮясябяяякям  яе яХяЪясящямяхяряияаяг яеяЛяЪяояФяјяй  
- яяяияьяЧяьям  ятяУягяжябяц яцясякяа яЭяЩябясязящ   яЧяуяяяЯ   яфяэяжяЩяйяЪян  яэяуяряпяшяьяу яэямянячяц  яъях  	    
- 
- 	ятяеяы  яэ  ямякяйямячясяр  яияуян      
-       	   яш яРязявяя япяТяя   ятяЯяб ял яуявяМядяняр 	язябяняьясякяг   яжяЮяэяеяЮяиячязяйябяЦяЬяе ябяЪяхяЧяояцябяаялям  ядяЪянярявядямясядяйяЪяЮяк   ямяЪяеявяияпядяцяеяОямяаяеяЫядякяйяУядятянядясякявялябяуядян ял яэязях  яфяаягяЭяш  яю язяДяеяояряйятяя ящ яыяа    япягяИяНяЭяы язяОя№яеямядяеяь    яьяняя яы 	язяйяйякяхяпям     ! ям ядял яъяцяхяШяляъяряЯяШюєюРяюaяюИюЋя<я©я‰яяoя4яmяoя”яЎяuяyяЌя„яљяxяsяgяЂя}яљя я’я–яЄяКяляѕяҐяЅяЪяеяЕяЗяхяЬяМяЭяФяТяїяГяїя·яєяХяМяТяФяЖяЮяИяЪяДяжясяХяїя·яИяУяОяЯяСяШяжяРякяЧяТяЗяУяеяјяЫяЖяЧяляѕяДяЭяДябяжямяЩяеяЯягянябямяяяЩяЧяЩяшяЫяАяВяЛяНяТяСяфяЙяВях яУя»яєяМякяъяляЯяЮяИяЖяЦяТябямяЪязяУяйяпяыящягяУяСяШяШяЩяЫяЪяНяЪяряУяХяЛ ящяьяряюяКяЪ яЩяТя№яЦяШяїябяУяЧяЬяжяуягяЪяляЩяЧячяЫяЯяьяшязяЫяшяЪяжярях 
-яфяЩягятяэяпяЛяЦяЦяьявяюящ ятятяу яьяэявяпясяа яш   ячяз 
- яъявягяЅяОяк  	яя яшяг яхяэ ящящ  ягяхязяъяЭяж ярящяцяъяз ях  яряр яшярянячяЭяэ      #яяяюяияпяйяхят   яс  	 яфягявяФяФ  	яю яьяуяпяняЭяЦях яч  яцясяю   яь яыяп яь     яжяюяьядяь ябяйяяябяояыяхяп ялят яьявякяч  	ярядяСяиясяЧят  яф  яЦягяЩяКяЧяеяЦяаяЯядяЯяняЦяаяТяЭяы явяпязяэ ящяч яляЦяЮяТяг яЭяцящясяпяЮябяМяШяЪякяЧяеяЫяу ямяз  язяДяµяаяьягяияЧяшялядяйяс 	яьягяХякяэ  яПяЛябяЮяхяЦяеядяпяъяуячяэядя»явяияПяыях яфяиякяЯягяц ятяшясягяоядяЅяЭянясяЭявяуяЛяУяъяэяэ  яшяЩяцяьяляжяяяцявяЭяеяЧян   %  ' 2 япячяъяяяь   яфяюяе  яюязюЄюЁюАю–ю}яюКюЉя@я<яuя‰яњяoя‡яUя…яvя”яzя“яЌяяЃя•яwяя§я»я±я»яЁяјяХяЫяЖябяЪяСяјяѕяєяВяВяИяБяБяЖявяФяџяёяяЄяСяыяряЖяЯяФяЦяТяЯяКяµяПяЗязяёяГя№яПяняпявяµяКяїяЮяЩяРяМяуяЧяУяИязяЖяШяМяМяЭяЫяУяГяХябяОяЧяУяСяУяшяряЮяЙяПяОяИягяШяиявяКяШ  яМяаяБяµяаяЭяэябяояФяЮякяЮядяМяЕяТяЛяХяЗяЯяЧяЫяДяСяХяЩяжяояЫяЖяЮяСяЗяАяЅямядядяеяФяЫяйяЩяЯяИяЬяряняЬяЭяЙяйяШямяъязяфяЯяПяаямякяЦяЦяшяпярямяЩ  ямяр 	явявятякяфяЭяЪяЩялявякяп  яЬяр  яЬ янящяь яхяр 
-яфяряаяжяь  	 яыяи 	яю    яшяшясяжяяяьязяйякядямяуяф яыяняляа   як  $   !    яя яъяояп яш  яш  яы яы ясяэяя  ял     яьяэ яыяэ яЭяи  яъяфяэяЯякяйяш   ящяфяв   #яъ   яь      яЫяхяйяьяуяняй 	яьяояхяжякяняо яэ яшян 	  яюяйяояхячяняк яаяфязядяияю яряЩяСяы   якяжяъяс ятяуяцячяыяьяЭявяж  ясяжяряЦяЮяуяСяыяояЫясяряляшяияшяЗязяыядязяфямядяДяряЫяЭявяЯяЛяКяа  яЬяжяляч яхяЯяя ягяюякякяшяьяняЯяф яияЭядяуятяУяЭяпяцяуяияЭ  ямядяЬяляуяуяуяляТяняьяюячяфяЩятяаяЖяияЯяХяияояшяаяЬ  яуяуяц яц яыяш  ягяйясяпяеяФяпяЬ  ( " яйякяэяьятянязялят 
-яЮяхяЮяйяиюъяюоюЌю»юЩюгюЬя‡я•яЃяUяyяiяxяtяЏяbяHя<яѓяvяhя{яЋя‚я_яIяўяєяБяТязяґя¶яЪяШяѕяІяПяКяЙяйяЛя»я©яВяЪяШяГяЭяАяЛяИяГяХямяґяТяЙяЦяияояжя·я»яїяУяЇяКяжяшяШяКяЫяШяйяФяДявяБя»ягяЯяСя§я­яМягяпяЕя«яЖяЖяГяЪядякяЭяРяЧя·яЛяЮяёяИяЮяТяояьядяЫяряЦяВяЦяЯядяёявяЩяБяТяпячяцяжяЬяГяЩяЭяКяДяМяТяряШяЩяЩясяояЧяНяд яыяняшяПяЯяИяХямяыяняЦяФяЇяЩяояМяЧягядязяЦяЬяЮяєяЗяЭят ятяГяряРяЬяэяШяи   ямятяФяйяйящяЯяЬяОяРяЪяоябяжяЮяеяЩяряЪяжяо яцяляЮяЅяояр яняэяцях якяг  
-яа ядяаяняояеяУяряз  япяу   ячяляэ      яъяр  ) 
-ямяф     яьякяЯ  яцяч яйяЧяу   ян        яцяюяояо   яцяпяэяляпяняняшядяуяфяд    яхят   яя яряеяу  ящ  	  ямяз  ятяЧяняЯяпян  яфяфядяп яшяхяшяняо яф   ян 	 якясяяякяаяеяЩяияаяЩяОяияе яыяфяв   яч ящят    яьяЧялякяшяряиясядяияуяфяуяЭяьяПяояюяряк 	яьяВякяьяа якясяю яьяфякяЛяояеяНярязяжяаяЪяХяиярясяЫяи якяЪяТятяУяЧяпяз яЬямяляЩяхяьяояъяаяаяЧяляьяъяеяхязянявяряСяжям  япяШяеяЫяеяЫяЙяНяДя«яаябя¶яФяЩяЦяпячячяряь   яэявяу  яряшяаявяъяшяЮяляЧ   &  яиячяпяфяьяпяэ яйяЪяЮяуяияшюПюгю¤юЩя(ю­юОюёяzяyя>яKяXяiяяnяҐя†яTя‚яќя`яfяћя|я„яrяPя©яјяЛяїяОяіяІя·язяРя»яУящящяеяКя»яНяЛяЮяХяНяЪяЩяЫяНяаяЭяЩяЛяНяНявякяОяДяєяШяКяЇя»яьябяТяЛягяЫяСяЫяЦяГябябяияТякяРяЧяРяУяЧябяаяШяЗяДяПяГяЩялятяТяКяЕяПяїяїя№я»яЅ яПявяжяояТяКяУяЩяаяВяШяйяЫязяфяняЛябяШяИяМяУяЛяняЬяэяряйяЪяЬ яьяХяИярязязяуяЧяКянясяЦяРяуяЭявяхяжямяЮяаяРящяфяЧяыямяняХяЫяЦятясяЩякяЫяжявяаяФяЫятяояцяУяТяйяФяЧядябяРядявягяияЬяЧяеяеяКям  яйяляляаятяйяЬядяЛяфялякяьясяшяуял яйясяп   яляр  ,яъящ    	  ячяъяч   яъяхяь    ятяр 
-   яъяЯякяуячяфящяфяш ячяряояфям  
- яшяяяеяуяьях ям  яояф  яляжяь     явяпяиячям  яьял  яояэяс яш   яъяр    явяНяЯянян 	яуяШяЦ    яэяфялямяпяо яшяъяс   яыяояшяТянямяЮякяжяб  ятяуяхяэяюяю  яцяЪяЭяыяЧяеяряпяяясяцявязячяеябящ  яюяфяшят яшяэязяХяэяуяряъяя  янякяъяьяШямяЭяжясяЯяз   
-яцяхящяЯяЯяцяняйяуясяаяаяЯяыяы яеяфямяЭямячяояШякяъ  яяязяФясязяРяХяШяъ ячяъяляЙяпябяАяМяЩяЗяЪяряЬяЪяѕяґяЪяЩякян ях яэ яюяо  якяняряйяСявяэ ял  # D 1 яюясямярячяєязяоябябявягяияэюїяюdю™юУю“ю‡юОяcяDя7юэяEя—яeяBя€я’яvя…яґя®яѓя‘яlяmя{яiяЄяЎяЅяЈяВяєяЗяЕяСяСяжяЯяТяСя№яГяСяияЧ  яряУяЭяЮяаяЗяЫяжявяСяѕяЎя№яГя·яєяЙяЮяОяЪяФяФяМяЧяПяЫяЫяёяЕяЬяяяуярядяЩяЩяТяНявядяРяЪянякяТяеяУяОяпяеяуяЙяЖяЭяеяФяНяЛяМяФ яЩяЧяЧяОяЫяїяцядяляКяЛя·я¬яФяГяЮяйязяПяУяМядяЩяЪяШяфяНяаямяеяф   яояОяХяЧяѕятякяояияЙяряЙяХячягяп яЧяШявяУяЬяФяляияэякяРяиянячясяояЮягяпясядяШяШяЦяЮ  яэ 
-яъяу ясяляц ящяЖяаяш яЮяряняЮяЩяЭяэ яряоявяЩячяуяяяляэ 	 	 яу  яыяляьяпябяч ях 
- яъяшячящявяр  
- ядяв  яьяхязячягямячяо   яляы ясятядяк     ! $ 
-яуяуяоящящ яхяляк ячяк  +яяяы яьяЪ яюяояпятяуяаяш яюяыяуяыяЫягящян яыяояи яэявяШявяж яя яряя  яэяиящ яжяжяляь  яяяшяю яыямяшяЯяняэяэ язябяч яояфяияояиярясяс    япячяряЯяйягят яцяш яляйякяояЯяч яэяоящярячягяю яэяъяуям яуяфяъяюяСяЧяе 
-яъяжявяэ яъямяряЭяЯяЕяЮяцяыяряэ яю   яЪяѕяряРяФяляхянялящяЭяцячяэ ящяляЯяХявявяряьяЫ яяяйяояняьяшяюязятяЬяч  яхяляияЭяТяХяЮяНяКяеяЬягяДяГядяФям яЛякяяякягясяйяШяшяцяряяяуяояСяияпяц    
- "яяятясят яжясяняЩяЬяЭяЯяу  юГюСюЯюЇюлю¬юЃюњяdяdяя3яsяlяyяя¶яЎяnя>яQяwяњяsя…я…я›яtяџяЄя·яЇяСяЭятяЪяМяМяСяСяЕяряНяМяпяЬяНяцяЧяІяЁяЩяХяХяПяЧяТяжяЕяДяРяЮябяЫяМяѕязяЯяВяїяЖяДяјяЙяляияНяѕяѕяЩязяюядяЕяЖяЫяжяТяуяняЭяТяеяФяЗявяйяЙядяРяЕяњяжяРяЧяЕяжяыяЬябядяпяЙяаял яКяґябямядяХя·яВяШяжяняыяЭяШяХяХяЫяз яаяЦясяъ   	яАякяЭяЭяхяф яЅяШяэяряЯяпяХяМяСяУяФяЩяЮяаядяуяЬяняняЦяфябяЫяШяфяя яФяТяЕяЩяЦяпящяНяСяжяйядяф  яняаяжяаяЧяаяцян  як  яшяЭяЭяЮ янясядяЯяЫяю  яиякяйяо   япягянядяФяюяхяцяд  яцяЪятяш яжядяняйяр ясяяяцяьяьячяыяШяц яюяшящяСял яфямяеясязягяйябял   ямямячякяюяуяЮян яы яъ     яф яс  япяь  $ яшяцяяяэяг якяч  яцямях яъ 	 яяяр  яэяюяо ящяф яжяьяь яу 	 як яъ ятяыятяЭяы яхяаяЬягяЭяЮяхяэяъ    яыявякяляеяхяжяоякяЫя·яОяЩяХяз явяЭяжялядявях 
- ячябябяжяЯяу япяЭян  яюяхясявягяПяв яияият   яюяжяуяаяу яаяЬяУядяСяаяяяъяИяёяхясяЯящ янярятясямяеялятяэяфяо яъяцяы япяы   
- япябяь 	 яЫ 	яэ ячяы явяЬягяРяи яъякяЧяЬяДябяюясяшяъ яцяпяхятяОясяжял яляпяРяЮяаяь 2   яь ябяЪяйяяяряю яуяояЩяжяЮятяПюґю™яюэяSюВю¤юуяyя—я6яpя‹яxяpяuя_я„я†я‹яЂяђя“яЎя‹я•яЌяwя‘я©яЁяіяИяЬяГяНяКяФяеяРяИяЬяЙяКяИяКяґяЅяёя°яЗяВяЇяєяОяГяіяєяУяЯяояЬяКявябя°яЅя»яџя©яІяµяУядя·яіяНяряЮяОяїяШяЬяЕяЬяняКяїяпяЩяУяЫяЕяМяИяЛяЦяИяЖяЯяШяеяЯяСяМяПяУяияОяЩяЧяТяЯяЧяХясякяпябяєяНяЫясяаяеяяячяЭякяШяЧяеяпяСяЦяСябяЬяа  яЕямяияфяс ядяДяйяояЪяСяаяХяСяМяЦябяЫяшявяхяОяЬявядя»яЕящябяеяЭяцяряЬяИяЬяпяЯянячяТяЮядячяыяп   , . ясясяыяфядяя яЧяЦяЫ ящяФяЪ яыяхягязяп яы 
-ябяо 
-ящяьяз  яс  яш     яф яыяя яэ  яряяярящяь   ячяч 
-    яюяъятяи якяЪяу ятясяуящ яюяу яшяшяя 
-   яжяЙякяц      
- яю  яьябяь  яя  яы  яя ящях   	ящячящ  яояоягяфяъяЯяияояыяе  яхяаяеяф   	    яяяшяфяпяряцякямяаяЧяоячяЯ яоясяшятятявяТяй    яп яь яняаяаяИяѕяЙяяяяяФяЫяЮябяляп яэящяиямясязяжяюяояляь якячязяю  яс япяХяпяняУяэ "яйяаяЮяЬяйяцяйяхяЪяХяЮяйяц якяЩяуяу    яжяЩяФяияряряжяшясякяЦяняияСяжяЪ явяр 
-ям   ябяъятяр яяяЭяаяйяуядязябяЩяЪяФяСяц яляЕяеяг  
-ябязяэятяс ясяКяНяЧяНяряляаящяз 	яьяЬяэ    
-яЧяЧяЦярягяЭяьячядяяяяящясявюУюyя:юСя-яяяяvя‚я‡яlя]яYяPяuяҐяђяxяrя…яЂя­яЈя‹яjяЃяђя¬яЄя­яДяХяДяйяяяЮяРяЩяјяАяУяьямяЩяСяФяѕяЅяХяеяИяуяјяїя»яјяРяРяЗядядявяХяПяжяЧяІя¬я·я®яЧяНяНяЄяКягяЮяЕяіяЙяЫяняУяМяЭяЫяряТяЙяАяЪяНяНя№яеяУяИяУяЫяРяЭяфяляняЯяБяЫяПяРяЦякяОяЛяйяияЬяЬяЯябяГяЛяФяГяЕяЧяпяНяЪяЗя»яЩяДябяЬядяояСяЯязяЮяНяФякяцяйяЪяЫяЪяМяТядябяуяЯядяляХя№яЯялявяѕяШяЯяУяняСяСяЭяШяряояЗябяЩяйяЫяи ях язяияляляр  1 % .  яшяояФяХяУябяЯямяЧяю яг   ящяЭ  ' яряуяцяняю яэял яя ясяшящ    ящ   *    ящяы яхяхяе    яю  яу    ям    яъ 
- ятяшяю   	  яъ  яэятяпяфяэ   яцяп яу  яю 
-   ятящ   .     яиямяняп " яп яс яэяшяц япяЮямядяШяЮяц  ямязяояряс 	яияЮяаяэяжяцяьяя яяяляп яъяЩяМявяяяп яэяяякяъящяцяф яуяоямяияхяЯякяУяъяЭяСяЖяСябяс  ягяряфядяаяц   яМяЦяуяпяХяОяШятякякяэящ 
-  ящ яш     яхяаяпяыяШяЭяц  яЫяж   яъяп яфяо  яъядяЙяЯяуяжяеяЦяїяйяюятяфяшян  яеяжяЫятяхяжяьяйяШяц яш  яы ягявяд   яжявяЭяУяЗяУяаяЪяляУяНяЗячяъяеяшяэ   *яъяТянящякяяяцязяиябяЮясяш +    (яцялязятячяеяОяб  ямяняЭянярюСю©юYюОяюпю€юЩяZяbяoя„яxяяЂяFяЂяЉяoяaяЏяЏя‰яxя~яnя„я‰яўя±я¦яяОяія»яЯяГяТяія№яХяяяСяХяляеяСяФяЩяЙяияюяшявяжяКяїяёя»яНяСязядятяияЙяАяЖяОяАяРяШяЙяЛяЖяПяФяОяІя¬я»ятяПяЫяХяЛяЯ 	яжяФяМяЪяЖяЙяпяяябяжяУяВягяцяеякяТямяЦяЛяјяЧяЭябяЖяШяыяЪяГяШяияВяГяСяЭяКяФяБяФяъят яцяеяУяояэяь  
-яПяЧяйяъяфядяДяЯяяяЫяяяЮягяэящяяяЬяъязягяряжяияпяЮягяеяРяШягяДядязяляжяЪяЮяфяхякяфяхяияд &  ящ   &  яияч 	ящяеяйяаямяь ягязяп  ящ ял яуяъяояеяьяияаяю яаям 
- 	 	 яь  	яяяу  яш   яшяэяюяцяыярягясяь     якяояэ  
- япябяк  	   яюяъяу яуяя яфяп  яэяшял     яь  	  яр яьяфяцяняояхяхятяьяшяв  ятяряхячяЪяс  ясяеям яы яоядяи    яш  яюячяыяв   ямямямязякяй  яа яЯядябяцяя 	 яч яъяв  якящяо  яЭ яоямяЯяляйяя  
-яхяеяъяхязяяяэ  яРяХяЙяТящях  яаяЧяп яляМяОясяцяж ямягяояб  яяяяяшяь яуясятямядяЯябяиябяЫ  яц яЬяряпядяаяШяТяйяояКяУяХяЯяоялямяъяшяияжязящ яЪяРятямяю  яч якяеяь яаясям яцяЬяеяЮявяЯяіяшяю ямяШядязятяляСяк яц  !ядяпячяьяояуяряыях  яыяз  2 3   яяясясящ   яв  яжяхяЩяжяюБю‹юзюпюйюкюБяtяcяЃяSяѓяMяMя%яZя€яѓя~я|яЏяЏяЈяyя|я‚яяЈя¬я‹яЄяЮяЛярясябяЭяТяМяЙяЫяжяёяЯяЅяб яюяЮяЯяЫяшяшяЧяОяЗяГяИязяНяЬяНяБяАяВяµяґяШявяляУяП яЭяСяНяЮяжяЭяНяЧяйяОяЪяМяДяЮяЦягяГяЛяЦямячяїяЩяЛяЭяОяНяияЩяЙяЫяцяьяфяняЦяЯяСяЗяПяняЪяЙяРяєяЛяЕяЫятяИяСяЖянясяЧяЭяаяеяАяГяЪяхяшяНязягяТябяЭяЦяжячящяЫяпятяОяЬяжящяоясяцяиядяЧяЧяЗяЅяХяляжяЭятяЮяЯяЬяфяЬяляэ ядяеягягяСячяояХяеяЪяс  	яфязяжяв     яояхяж яуятяЬяыяюярязярягяфяЭядяшязяч яояХяСяпяэяхяпяьяч ях  ясявяЪяи    ящ яюяъявям   ячяю  яъяуяу  яюяшяьялял   - .        '  ячян   яя  %яшяЮяхяцяы  ящяшяюяхяяяы яояЩ яс   	  яшяЮ  ятяияцяюякяЭяЬяуяыяы  	ящяюяфяряшяъяйягяэ ячяняыягяЪяляуяояряЭят яфяк яеякяь ящяьяф ячяз яхяй 	яояпяШяХяч   якяхяьяя ( яряъяЯяняйядяняляжяв ящ  яжяр яю  
-яьяъяняняШявяряняПян  яц  яияыяняЯяХяй яяявязямяияцяаяйякяйяуягямясярядяфяэяНяЯямяояхяшяояЮязяцярящяхятяч яляТяЫяъяюявяаяфяЮяэяш яэяпябяиядяняИягяыякягяХяЯяЩяьяяяЯят 	яшяуяФяЩяьячяфятягяЩямяь  яй 8 ) . + +яуязяЛяХян яъяаягяы  яЬяаюбюЫюШюю‡ю—юяяjяSяSяKяbяuяxяbяnя”яµяЃя›яyяXяzя¶яНя®яєя›яЅяЅя№ ядяРяаяУяйяЬяФяКяУяЩяЖяКяУяОяЭяряЯяВяЕяЫяЯяХяняояыяЪябяцяЪягяѕя·яЦяаяЫяТяжязяГяБяФяЛяЭяКясязяЬяЦяеякяОядяЦяСяпяЛямяДяµяЗяОяЙяСяУязяляМяЪ яняЬяЛяжяНяйянящязяУяія·яЙяняияМя»яНявясяЩяТяµяпяияляЭяЭяУяйявядяБяЪяТягяряЪяШямяаяЧяЪяЕякяляеяЦяШ яж яаяЬязяеяхяъяюямяЯяЩяФяЩярящясяфяя яжяуяхябяЭяМяОяъяюясяЪягяуяаяШяыячяаяЩяр яЫяЩягяГяЪяфяпятяъяляЩяйяф яуяШяЯяоящяюяряйяп   яж   яо яняЅяняъяцяцяШясяшяияд    яф яряЫяпяыяЧявяояш 'ячяьяэ яи    	         яъ яоях  
-яляр  яч яфяюяш ян    яжяр 	  яс 	    яфяы   яш 	яфящ !яцяр  яфяуяуязяп яляжяыяъяэяряъ  &яъях   
-   яЯяж   яцячячяляэяъяеяШяс   яняйяс яп  яоящямявяпяэящяьяоян ятяфяч яэянякячяеякяеявяияжяэ  	яй     ямяояцятяъяляъ  яряйяч  яряжяшяшяьяЩяРяЧяЭяпяю яшяияд  яуяжяРяеяЭяюядяряпявяэяпяХяияшяъябял яфявяряъ яряляьяляюяаяАяЕ  якяЪятяЦяияшядяаяяяЮяйякякя¦яф яряаяеякяЕян ясяпяфяч яЮяж яйяж 	ящягяеяъящябяк 4 $   яр ядяияюяыязядящятят  ялядюћюОюҐю±яяюйюбяoя•яvяSяpяZя=я…я„яsя яЌя’я™яnя я•яЋяќяљя–яЎя·яєяпяЭяОяЪяЧябягяУяКяФямяЭяУяЦяЭягяХяхяряЫяЩяёяЫяЪяСяШяЕяДяИяйявярягяЧяКяРяАяСяжяЙяеяляОяРяФяФякяЬяЯяЮяЛяияаябяЪяЙяЛяЧябяЛяЪяШяЪятяИяЖяМяияуяияйяюящяЯяЮяЦякяПяк яз 	яуямяЦяЯяКяОягяряЧясяЯягяОяМякягяжяПяНяияЫяхяляЙяк яляняжяЯяЧяЫяРябязявябяУяЭяЯяЩяЩяЬятяь яцяаяояеяояоян  яжян  яы   яфядяфяпяъяЫярявяФявяДязящятяшяЧяаяЭяЮярясячяжяхяаяуячяо  яо ябяЛяиячяь яыяь  
-    яжяЮямяЩятяхяъяч 
- яэ яыячяюяз  яыяб 
-яьяяяияхяпяхяйях      яш   яь    
-   ям  яф   #яьящ  $  яю якяуяч 	ят  	  яу  яЬяр яуячятяпяцяияъясяэяъясяЫяеяж яяяя 
- яьяияй яя    япякячягяжяхясяф      яшяяяя  яч ятяяяНяРяаяэяш яо  яя  яляхяк яюяхяуябяаяюяцящяьяЫяУяляцянязятяияеявяпяряуятяояюяияш яшяц  якянябяу яряыяц  
-яцяз яьязякятякяо яияЫяоязягяфящяюяцяояФяЩяЪяняНяЭ яШяи   яъязяэял яп яэ  ячятяьяняхяояяяДяТяч  #яыяфяьяъякяе ясяияпяняЫятямяЮякябяъядяо  ябяв яъящ  яняиямяряуягяо  яы  , # ) 0 *яр  яьяш яьятяьящясям ячяою»юЗюйюЋю©юцю‰ю—я°яFя8я*я^яPя™я‰яxя„яiяЃя’яtяяЄя§я„я“яҐяЁяѓяЖяКягяЧяЫяЖяїяЛяТяЬявяЫяПяйяЅяВяРягяЖяНяРяЖяЗя­яБяµя¶яЭяЅяИяЩяЙяЕя·яРяЯяуяая±яјяТяЯялязяГяУяИяаяЫяЩяЭяияЧяПяЖяляРяїяВяУяЖяПявяиякяЩяСяНяГяРяЩяеядяЯяЪящяъ яьяняЪявяцяеяОявягяРяКяЪядяУяРяжяЦяюяЬяЩяхяКяХяРя»яЦяЫян яЩяЅяТякяЬяеяЧяЅяИяЗягявяЭяняХяИяжягязяФяИяУяНяд  яряхятядябяия»яЕяЕяеяЯял $  яъяЪяЛ   яуяи  ясячяи ях яо яйяУ ящяряу 
- ящяяяЭяЭяшяжяуяеятяЭяь ятяряс  яряияч   яьящ  & яуяжяя яъяф  яъ язяЫяЬ яыякях 
-  яфям     яч   ятяЮяу  яэ яя  яояфяЬяс  	яр  яыякяхякяв       яЫ   #   янямяс   '  яя яъянясяу яю   яэяа      ягян  яшяхям яфяю   #   ящях  яхяфяхяь  яшяд ят   ял 	  яь яюяэяеяц яЧязяЭячяс    ярямятяэ     яъясяЫяаящ ящяпяы яйяЦябяаялядяжяЯябяйяляПяп ясяя  
-яшябядям яЮяЦяЦяаяЦяїяЖяЛяоябяряеяИябяы  яюяхябяж яя яэ 
- яп  яюяряЯяж        яь яц ячясязяияряз яляуяэяъяСяХяШятящ 
-  яя яоязящяияЭяуяияаябяУяняо * 0   #яеяЩяк яляфяляеяуязяфятяьясюDю–яюЭю}ю”ю©ю·я†яgя‡яvяmя[я„яЉя°яўяўяrяnяuяµя‘я¦я†яҐяҐя·я±я»яЕяФяПяиядяЫяляЭяДяЛяЪяЕяКя®яЗяПяПягяЮя­яГяРяИяЯяЭяПяЕяјяХяЩяая§яЇяКяБяеяеяЛя§яµяЙяКяЖяТяНяЙяняТякя·явяуяЛяЫяРя·яёяЫяйяжясягябяЩяХяИяЮяШяШяпяОяЪяияКяаяаягяьяряЬязяцяцяеязяУяБяєяНяВяЧяЯяфяЫяляч  яЭяУяпяШяг   	япяСяЦядясяэяИяпяЬяУяЕяУяняйяняуяРяКяМяЦячяняяяяяйядяц  ясяШяЙяаяЫяйяЪяЪяЪяйяЩяУяжяъякяоягяяяэяШяэяяяз   яхядягял  яыямяояб  яняпяоявячязяЫязяКяФяр  якяя  ялягяляь    ячяьяэягяйяы ящяя   яхящякяояз             #яъяш 
-  яф 	 ятяя    
-ядябяы 	    яняд  4 .      
-       яюяшяюяляряжяхящяй яф ягяюяв  яляиягясяфяк 
-  яуяи  яэ   яьяюяьяЮяхяйяшяюяф яя  яхяхяеяаябяьящяш ячяУядяц    : яеяъяэяЯяряр  яэящяр  
- яЬяр 	    '  ямяцяц яр яояй   яйяч япяйядяЩядяЪяоябяк  $яэяц яэязяшял  ячяояляняеявяляфяИяряс ячяш  яцяцяЭядяЪяЯяъятяояфяьяняЪ  яияо  яуяЬязяояэ яцякядяфящ яъ  ячянязятядяф яфярячяеядяэящящ   
-    яю яь 
-ячяс ятяйяз 1 (  9 "яюяЮякякяеямяф яеявящ яъ я=яю«юГюЄя3ю•ю|яzяyя€яTяzяRяwяlя€яЉяzя”я‚я“яЋя‘я…я[я–я€яЏяЎя­яўя»яОяшяЯяОяЗяЯяМяЖяПяµяНяАяЬяеясяАяИядягясяХяХя­яія№яЙяЛяЖяОяїя»яЦяЯязяляїяГяУяЦяСяСяЛяјяРябяияХяхябяЪяЛяЧяУятяЭярябядязяФяХя»яПяфямяЩяРяУяХяияЩясяюяЪягягяЧяЗяХякяЯяЫягямяПяАяЪяхяЪ ябяЫяСядякяжягядяТяРяЮяф яХяБяЧябяаядякяпяцяШяОяаяюяфязяЭякяЯяТяЫяаяЯяЬяИяпяУяйяЯяЧяЩяРяЦяФяйядяцячядяЪяЬяР яцяйялягяИяж  
-язяЧял ят яшяеяояъ яюячяр  яПябяш япяйясяэяйял  ях яцямяфяряТяю  яэ язяляшяфяэ яыяч ярядяаят   яхямясяэ   яы  яь яяячяф 	  яцяюямяй      	   ялябяц  якяо   яф яфяп # 	ят яэяЦяы  !    яъяу  	 	  яыяфяф язяъяеяьяэяняИяЦяь     янязяояс 4   , ях       
-яыяпяъяЭяз ятян  яу яляжяЧяияр   ялябягянящящ  яэяряш яэ    яЭяу  
-яъяпяаяхявярятяьяняоячятячяШяЮяу   янябяняыясяп   яц  ящятяЩяояэ 	ясяляеявяюяуяу  яяяаясяъяу  яцямяЯямятясядяЯяуячяУяЩячятяоящяы яУяЧяЮяТяцячямяЯяляш яляпяЮякясяЭяЮяФяжясяюяМя¶яХяШячяфяхял       ят   яэяыяш ясяияЪ (  5 > , 
- яцяхяряаян яЮяЫячябяюяпюЖюµюnюyюНяNяю{я=я—яlяZяяяTяpяzя„я“я~я‚я‡яpя„я’яyя{я·яЫяБя»я±яЩяПядямяЫ яЯяияФягяХяЩяЩятяЯяЧяПяЄябяЯяєя»яПяєяЇя©яЕяРядяаяОяТяХядяЪяКяфяияСяНятяпяЙяёяляеятяъякяЭяеяияЭяЄяЄяѕяѕяЯямяЭясяШяОяЦяЩяФяЧязяРяняйязяуящяЬяняюяЫяСят яряжяфяШяДяЧящяаяШяжяп япямявяБяеяЩясягяСяаяПящяияфяиятядяч   язягяоясяй яыяеяЩяЬяЫяЩяСяояуяшяуяшябябяэяп яы япяеяЦяТяЪяЪяЫязяХяиящ яэ янякягяжяс   яшяоядяьяЫяхят ячяьясязяцяЛяоящячяЬядяряоячяЮяц  яияуямяояляъ яш  яияу  'яъяъ    
-   яъяяяы  '     яъяшяч      яц  '    яуяфяю    яцяш    ! яю   яо    яЫ  B яю  яя   )  япяэ  яу  яя   	 	яюячяоявяи яь  	  # ячяъяпяяяшяхящясяу #     
-яцяЫяХяЬякячяюях "япядясяэяс 	яяяеяъягяьяъ яфяц язяюячяэяыяхяняяяц " япяшям  ящ яыяяяояГяняУяняйяЩяжяеязяаяуяс яъяжяряпяжяжяы  яЦяеятякясяияхяхяпязяц 
-яъ яш 	  яу ячяряиямябяй яы  яьяуяцяыяхяАяп ящябясямяЫяоясяаяг якяЫяйяЫяъ яэ яшягяояйяЮяжяяяьяъяЯяХяїяЛяНяляд яяяп  яч  яц  яЧяиязявяХяЪяо $  " 3 яЮяйяфяряяярякялявяз яЬяэяуюЖюЄюкюФюїюТю¤юмяЋя–я‘яxяtя[яsя—яЈя‡я‡я‚я‰я“я‰яbяЂяяqя~я®я±яЕя±яЦя·яЭяЯялябяСяУяМяНяЬяЮяРяФяОяШяаяХяжяеябяЛяВя®яЪяйяЩяОяНяЫяЯяјяЧяУяЇяЗяМябягяъядяЭяУяЧяЙяпяряОяЬякяояцяжяЦяНявяеядяфяРяЮяИяИячяОяЫяСящяЗяПяфяШяжякядяКяСяьяцяжявяДяХяЪякягяияУя°яЦяряияВяНяаяЭяьясяЪяцяЯяняаяэяйяг  яф 	яаяШяФяжяБяБяЬякяшяЮяВяНяляняеяДяЫясяЫядяЮяСяЮ  яъяйяеяц яьящяэяояЫяшяЮягяТяЅяжяуяЫяв 
-ях  якяяяь якяКяЧягяжявябям яеядянящяЯяэящямяйяуящяЪягяфямяЮяо  яжяц  яю     
-        яч   яь    яфяуяыятяп  	              яэяуяфяп 	 
-   ящябях  
-ячяя  ян  ящ  яряляьяъяы яэяь  	 яя + ях яо яъ яюячячяь    "яь яъямяр 
- яояз  ятяи 	 .яш   
-яцяшяю яьятясяпячясяк 	   ял яяятяжявяъясяш  яяяняэ  яйяч  
-ял яп   яь яЫяЩяЮяпяяяк яЧ   яъяъяц яхяияШяю янягяЩящятяь язяТяь 	яляНяШ   яуяхянядящяьяь  яюяшязятяй ящяд ялясяфяы 
-ялянящ   яы яняцяяяЫяс #яыязяъ ятяйяеяхящяфяляйяеяЪясятяфяЮ яаяШяЭял яъ    	яняп  яэяояеяъяияЬяаябяи 0 ) 3 4 >яуяж  ячяуяшяьяяяфяхяк явюНя'я$юЯюSю…юѕяяJяQяYя6я;я8яEя^я™яія±я¬я яЕя™яwяђяђя—я€яіяДяП Юi vяаяляеяОяСяТяжяоявяаяУяФяТяТябятяФят яЦябяз яЫяёяЩяияЫяШял яРяРяЫяМяМяХябящяжяИяЭяЯяуядяНящяшяЭящяЧяояГяШяАядяЪяЙяаягяпяияХяЯякяЫяВяЯяйяСяЭяЧябяйяЧяЫяыяояЩяФяеяКяРяЦядяСяеяеяуяЮяБя№яЗяняЙяояэясяЫяЬяСяЅяЦяЫявяКязяшягяфяаяЦяЩяцяз ябяТяфякяНяЕябяРягячяйяфяояэяяячяояжявяпяцяяяяяаяЦяияЕяОяЮ  
-яфян яй яояШяЭяляуяч яЫябячяяятяжяыяъ яЬяТ  яЯяпябядяу   як  яняц  яч яияйяЫ   ялях  яьяэ  яя яп     якяя   яф    
- яц     яряьяь яюяк ят  яшян  
-   яжяю ял   яч    
-ящяшяцяы  ятям      яэ   	яя   яз  яы ягяеяняф  яшяияряъяш яьяч яиясязящядядяуяь яЪядяЬяч  япяеякяб якяМяТяс  яы ятягяжящяияъяэяпяЯ   янякясяхяЮяъямяеящ ях  ящяэ яжял яояЧяцяцяхяс ячяыямядяе яоягяъ яжяэ  ящяНяУяйяхящ яйяб  ямяЯяьядязяю яуяхятящяяяк яияъяю яЬ 
-  яляпяряф 
-  яч яъяЪяйяЪ   
-  яюядяю  ятящ якякявяя яжякяеяЯяйяуяеяц яц     	  язяхящящяуяхяз  2    яу ят яьяеяшятякяЯяк   ю(ю?юЖюFюKюgяяяCяHяwя•яmя`я6яoяЊяuяћяќя§я‡яxя|яЈя яµяёяќя»яЅM… FяШядяЫяТяµяЙяЬядяХяаяШяёяНявяЮяЧяЦяг  яЪяНяЧ  яЮяЙяЯя®яЩяЯяЯяуяЩяДя я»яЭяеяЦяФяЬяЦяјяѕявяеяФяЪябяУябял яЯявяйяЕяияРябяйяцяняяякяРязяЯяЫяняиям  яюяшяЭяБяЩясяНяаяеяЪяМяЮяияЮясяеягябяНяВяряЩясяШясяияуяв  яЩяняЫямяЬяЩяОяЬящяСяЭяцядящяэявяЩяЯяЭяЖявяф яЫяюямяЕяЭяояжяБяЪяеяиящяк 	яьяЧяЗяЛявяэ яцяцяЭялях ямяляКягящ яэязямяЬяз   яхяыяр яаяъяРяЬ  яФябяФяшяюяшяпяСяТяьясячяояїяу яя яшяпяшяряляЯяз яюяпяшячявямяиявяс яшяр яя    яшячяя         яр  ях *   /яьяъяц  
-    яояоящях язябяэ   
-ячящяшякяч   
-яъ        яо явяЬядяеяияя яш   яэ ячяхяъ  !яюяшяюяОяМяо   яйянясявяУяо   яэяз яй ясяэ яу яюячяпяьяьях  яяятяж яу ячячял яъяшядяь ячяуязяЬяхяс япял  яхятявяЭяПяьяЮял   якяаяс ямяияШяш  яу ямяО 	 яшяЮ яшяюяъ    	ясяЪяцяоян яе 
-яляь яш 	яъякяЭяфяшявяаяуякяэ  яб  
-  + яь  ямяФ язяфякядяШ яэяняпявяояя яфяЭ яыяшяс  ятям яы яв    
-яп  1      
-ях  яЩясяъ   яжяияхятюHюѕю‰юлюмюиюею§яіяgяxяЊяяЎяjяnяѓя«яўяuяЉя‰я€яія±яµя—я«яЎя«я”a KяЫяШяјяУявяияЯяцявя±яГяїяляФяШякяйяХягяФяияїяёяЖяЗя№яТяуясязяХяФяЭямяжяЦясяЪяТяЦя№яНяМяЧяН 	яйяаяФяРяКяТяияЧяФяияЪяЫяКяЖяБяояпяКяп &яЬяЫяФяЗяЩяШяЦяпяЧяЦяФяМяЩяЭяТяМяЪяЭяйяйяЗязязяЧяляТяЩялящяЧязязякяЧяРяряЬятяшяШяцяжяХяЭяеяЖяЭясякяюякячяняЪяЦяэяняУязянявяОявяъяаямяуяуяеяФяряуяь яшяояЯязяМях ясяФяьяЧяцяпяеяЯяс яыяь    яыяэяу   яМяШяз  яхяояо яыяЭяь яя  яуяеякяцяэ  
-  	   якяфяы       яяяцяЖягяч  +  яфяхяы    яц            яю   яп     ят  
-  яьятящяк ят  !яяяяяю  яэяь  ящ яъяэ яф   яс  ' яоямякяЫяьяэяъ    якяе 
-яф    яляж  яф 
- ят    яыямящяняч   , 	яю яэяцяЩяс яфяе  яцяе  яь яняряхяняЫяХяиятясяу  яю 	  яюяыяы ят 
-  ямяЯятяпяияф    ябящяа  яьяхящяуяф  яЯяП яыяыябяйяяяТяЩяг яж 
-ямям ягякяя  яд 	яъяуях яуяияняц   ящяпяТ 	 	 яцяу    язявяшяц япяуяСяЧяЅяйящяЩяЪявяЮяЪяуяе яьяи  
-   ям 	яэяшят ячяж   1 "   ячяляЫяы  янящяЭяц  #яуяЮяряZяюьюПюХю‘юЫюУя„яMяpяЊяbя?я6яUяnяpяђя™яђя„я„яҐя·я‰яЋя‰Е DяГяПяЯяИяКяШяШяШяїяЬявяРявяМяКяЕяеявяСяМяНяјяХ япяеяаяАяЦяМяЭяфякяЬяЬяФяЗяЭяРяШяйящяфяУяХяГяЧясяв  яаяМяаяЯяЕяНяЦявяОямяняЭяПяЩяйяоядяфяЪягякясяЦяеядям якяояЧяляцяЭяНяУяХяВяРяЫяияЛяжябяЕяг яТячяиязяХяпяцяЗяШяРявяЫяОясялямясяЛяСякяряняаядячяЬяЭяЭяз яНянягяНяояьязяжяи  	ядяЮяаяФязяыяТяжяРяцяйяояф  яъяЩябяпясяСяЩямявяуяцяЯяИян  
-яъяцяс  	яляз 	яояц яляЯякяз яь яЫямяхяЧяе ян    яояи  	яцявяпяэ   яняяяяяьяс  яФяУяу ячясяяяц 
-      яыяЯ яю      
-  яхяъ  	  яцящянясяя    яшям  яьяя  яйяояьяйяз 
- япяв     яю яъяСямяъ  яю   ям  " 
-яц яяяфясяш  япяЬяжятящяп 
-  ят ядяд ях  яэяъяхяшяыятясяняхящ ясяч   ящяю яаяЛяу яэяпятяы      ядяжясякятяэяиясярябяияоячящяы !яхяжяхяшяюяц ящ янятяхягяряяятяйящябяЪящ      яхяУял яь яцяйявяЩ  яуяпякяф 	ягяйяжяЯяЯязяЭяж яцяЯяы   яу 	 яЮятяюяхярякяняр ягяДяЩядяряЮяЯящяняояыяд  яэяояСяс ясяя язяЛяй  $ I ,   яуявяЗякявяиятяцязяаязяЬябяью­юію€юћю’юЎя8юсяqяWяMяKяkяwяOяjяЉя€яpяnяѓя°яҐя«я«я¬я«я„яКяГяїя¤яДяЮядяцядяЩягязяйягяЪязядяАяЩяСяЛяЯяьяэясяряряаяОяЧяЙяКяляяяПяЧяЪяоядяЯяГяЖяКяЫязяЩякяфяЯяАяЬ яЭябяМяЅяєяЬяЬякябяйяСяЙябяфясяЯячяШ  явяряЯягяияйяИяДяФяЦяЙяЪязявяДяУяОяЩягяР яь  яъяляЧяЩязяЭяуяляХяжячяТяФякяаяцяеяуязяЯяЗяМяИ  яХяПяаягяй яяяняЪ янянявяфясяхяояхяч 	яь  якяьяж  яэ ябяЫяхязяЬя¶яСяю  яцяфяхяшяняПяУяеяъ   яфяюяъяп ям  язяиятячядяиящ     яеяФ  яояэяйянязяыяпярян      ящящ яьяряпяцяъяыяцяьячямяд       яцясяь   яи  
-яьяя             яыяы  
- яы  яя 	яоят      #  яяяюяъ 1   ях   яъяяяияш 	 яц ях    ящяй  яьяп   яаяряряч  ябял яаязяняь ятяь яэ  яу 	 #яэяшяияф яэяъящяляфяняц    яьящяхяр ятяу якяуяй  ярярящязяяясяЬякягяьяюяяяф  
-яы  яняы    !яю ян  яъяяяэ яы 	яя    ячятяуяшяЦяцятятяпяъ яфяЭяьяъяцяфяЬяыяЯякяйяжязямяфяшяя япячясясяу  яцяОяЦятяляеяляжямяи яуягязящяняпяш  яюяш   	 яэяж  як  	яяяХяаяж    2 5 C яЖяи 	ямябяжяы 
-яыяу  язюјюмяюЗюКюЩю·я#я‘я‹я…я¬яMя4яNя\я‡яЊя†я’яќяя®я–я©яљяµя©я®яјяЙяН   яъяТяНяаяЮяр яняЛяШякяЪяБяЅяОяжяъядявяЮяШяЬяЫяжяОягяСяШякяКяХяЭяЮяФяФяЫяияЬяняъяняЧядянямяЮямяэязяёя±яєяЕяЦявяЮяшяпяхяпяФяеяЬям ячяжяуяряКяЬяФяИяБяГяияеямяЦяКяеяЛябявяиябяНямякяцяйяэяд 	яыяъяляв яряэ яояфяаяФявябяияЬяЩ ячяхяЩяЩяёяЛяХявя№яМяряЫяЦяЮящяш яэяЫяЮяеязябяс  яП   язяляеяФяСяд яняШяаяч  яу яУявяе   яс яжяй яляаяы .ях  ям язясях  яйяв  ячядяияуяэ яХяЭяь      
- яфямяЯятяпяжяэ   
-ячяс  ячяшякяо яьяуяшязякяшяи       яияр        	    )    яшяяяцяеяэ   яшяш  *    яы     яуяоящяу ясяфяряф      яс  яэяуятян яяяцяу  яЭ  ячяюянягяьяьядятядясясякяп    4 яы  ящ яфяьяъяш 	яш яяяч  ' яЩ  ят яфяяяяяшяхяюяцянящ   ) яцяляд яфяя яэяхяфяф яъяь  	   яц  яЫяьящ яуят 	ят ял яо яшяУяъ яяяояеяШяэ яэ  яфякяСяЦяЙятяоядяфяо яЯящ яцяш яЮяфяуях    яъяпящяь явяйямяЩяйядяХяняЭяЦяЭяЯяЮячяц  яюяъ яу яьяч яыяд яряляыяняб  3 , ! "  ярякяшяряс  яьяыящ ящялюаююМюЈюжюхя$я1яaяgяJяsяXяRяDяWяЌяЊя§я·я…яњя€я”яЄя•яsя—яБя¶яКяфяы яДяРяЩяЫяЧябябяеяРяЫяЖяВяЬябяй яуяЪяЧяХяТяЮяЮяЧяГягяЦяЧяхяНяЫяМяЦяЬяеягяФяЧяЗяЕязяЦяСяЬясяЭяХяъясяЪяТяЮяЧявяЦяРявяэячяХяФягябяЬяыязяияцяЩяЪяляЧяеявяЦяфяЭяНяляЫяняХяФявягязяШяй яж  яЪяОяХясяеязяцяъяЯяияияУяжяНяЙятящяЯяЯяляоянявяоятяЬяЯямяшяяявяУячях яхяюяк  яс яъ  ятяУяЪяжяфяыяяяяяфякяЛязяЭяУ  ! яЯ ясярятяхяЪ яцяч яЮяЫягязящяр "    ящяцяляы  яжяляЧялятяюясяыящяцяЫ ятяЮ    	яуяы  янящяхяшяоярящяъяя   ящ # яю    яч  ячянядяи  яэяяяюясяфяч  яьяхяш яхяляйядяряяяэящяюяч  яъяпявял   $   яхяцяп яэ 	 ян яэяу        яяяьящяь 	 2яяяуяэяо  яы 
- яяяю 
-       ящяаяШям 
-   R ? :  яыяяячяюяйяцягяпяс     явячяцяияз    яхяояй  яюяыяэ яъ    яюяы (    ! ящящяцят  	   яь    яч 
-яцявяф   яЧяПяб ядял ячяИяхяхят  яияняЪяИяФяеядям ям яцяф якят якясяуяаял  яш яуяряйяыяиягяияЪячяж  ячяюяЧяйяняф 
-яч  яфяьяняаяояхяЮяцяпяъяжяз  яч     ! * як яь 
-яъяо 
- яцякяъяияжюKюoюУю~ю“юдюМюзяeяRяeяcяTяHя@яYяЂя}яЏя°яsяUяUяiя©яҐяЌяљяСяНяИяСязяЭяПяЅяФяѕяТяНяЫяЯяЭявяЯяиясяЭяРяцякяЖяГягяояСякяЪягяеяСяСявяГяѕяМязяЮямяи  яьяляФяЧяе  яхяСятяияЧяьящяЬяСяЫяЮяЪяцяЯяняхяеяояэяю  ябяпяШяЬяЕяТяу яьяаязяуядяЮяСяОятяПяБяРяйяСяхявяэяьяЪяДябяеям яжяВяИяъяжяОяъяяявяг яыяРяАяЭяуяь  
-яжяляхязясясяуяфян  язяФяэядяхясяняю яляъяЩяшячяцяияаяЗяОясялягяц  яЬямяЯяряияшякядяЯяЬядяеяОяюяфяняэ   ящ     яяяэяфязяШязяф      яыяшячяЪягядяб *    ял         * " яу яэ       @ +   яыял  яояф   яь  	     яэях  яя     яяяч яу  	   яьяэ   яэяъ яъ яъяж 
-   
-яряяяыяь    0   яг   *  ящ   яфяп яъяь яц $ ячям   яшяоятяц   [ H 6 (   ят   яш яъ яь  яЯяЪясяпязянящяыяуяю яяяияыяуяу 	       язяфяь яьяю явяь  яшяияь  + P * ) яыяЫяп    * яшятяцясяияф ялябяЯяЦяЫяЯяяящяыяхяМяч яоябяыяь яыяыяшявяч яш явяу яы     
-яшяцяляЧяТяЭяЦяу ящяоямяшяЧяш яьяфям  яъ яюяЭяжяХян яяяуяыям      ( 1 4  ясящ  яр  ящяуяьячяжюьюДюЦюаюјюЪюВяя^яJяvяqя„я>яЋяhяwя–я±яГя—яЊяђя–я|яnяЊя°я«яяјяґябяПяВяЪяъяЫяИяШяЗяУяж  яЬяояцяЪяЅяЛягяДягяЦяЭяаяЭякяНяНяШяЗягяляаявяцяЦяУяыяЮяВяЯяляЩягяОяРяЖяЛяРяШяЩяЩяЮяъядяйяфяЬяЫябяЦяШяУяцязячяаяЪячяЪяЬяБяєяДяЩяЦяЬяЩядяЮяЦяаядяъяХяЧяФяХягяУяхяеяеядябязяняьящябяжяпяТяЯязяд яЯяЪ япяЦяПябяОягяеяЪяОяЭяЮяЯябячяеяляеябяпяляэяпяШямямяу ящяуядяй яфяи якямяхяпяЪяХяияь  яхяе ясят яъ  ячяжяхяа  яэямящ   яаяЬяояю ящ яяяс         (   яюязяпяеякящяю   ях яяяф  яь  & яъ  	     яф  яш  
-   
- яю 
-яяяьяф  	 & . яфяШядяь яяяэяэярябятяц 'яъяц  яряьямядяэ яфяш ясятячяш   яфяляЬяЬяе   яхящяп  яэ  яхяфяп    яэ   )  	 яыяч  яюяюяыяю   япян  ! яцяияю    яъях яоян ятяЧян   якяоятяряр    яьяа   
-яляпяй  яШяфям   яфямясятягяЧячяс ям $ d : яр яр 	  ямяшяд яуяцяжяуяч    яя 
-  яояЩ яфяхячяеяСяряшяцядяЮяняпячясяяячяь яы  яЛяо   ящях 1 яЛяЦяряияпяяяСявяояеяШяжяняляояЩяйяы  яояЩяъяп       ясятянят   * 2 / @яь  яЬяпяняЯядяфяОязяЪяЬяЪюЅюxюїюнюЌю­юМюмя>яNяeяWяmя‘я]яђяЎя­я©я«я яЊяЇяЁяtяЌя~я яЖяіяОя§яјягяЯяРяґяАязябяТяЗяФяРяеякяеяИяёя·яЧяПяЧяЛяКяПясяйяѕяРяеяхяЭяоязяЯяжяфяляЗяПявяРяЧявяЛяФяЦяцядяЛяфяЭяЩясяСяЦяТяеяЬязяюяхянявяЦяЖяи 
-яЯяПяряЭяряРяВяЫяЪяУяЧяКяЮяляЬяняфяьяляйяЯ язяФявяуябяъяояу  якявяЯячяоябяэ яюявяъямящяаяыяЫяхяьяаяб якясямясяЭяряеяя  яряШяъяюяуяу ящ яь яЯяляюяцяэямягяФяьящячящяЪяч яряаяэ яф &  яйяТяж   яь 
-ясяц яшяУяШят  япямяшяь яюяК   яя  яшяхячяуяОял  яш  !    яфяс 
- яцяк  & 	    яп  яюяъ   яшящяб    яы 
-  D !  яь 
- #    
-яяябяь    яуяряцяю  яыяя 
- яю  $   ямяш  
-  	яЮ  ячяп яэяояпяьям  яцяряр   як  яю яъях  . яцяЮяйяъяэяп  яьяш    '  'яяяс    !ям  яаяояо    яоязяэяы  ( яшязясяшяу 	 яьян яяяЯяКяеябяцяоязятяуят   яцяияф яч     яъ 
- ячятячяы    яэяфяхяэяыяэягяжяэяу яэяЯяъяпяфяцязяКяаящ  якяч    яьяЬяЦяЪяз 
-яш   	ягягяуясяряшятяЪяЯяеяряЩяхягяпяияляь  яыяуяйям   
-   яэяр ! $ - 6 ;яуяеябяу  язяаяеяояЯ яхячю]юIюѓюмюяя,юЩюдяXяяcя†яXяCя‹я{яЌя}яџя‡яЏяЌяњяjя~я™яpя§я№я·яОяЇяЩяЦяЭяОяСягяДяИяАяИявяжяЪядяЪядяфяхяжяЩяБяЪяЙяЭяМяхядяРябяГядячяЫяк яряШяРяїяТяґяЩядяХяНяфякяПяЧяаяОяГяЗявяжяЪяеяияФяЙяняСяёяМяТяВяПяЭяЧяыяляЧяЯяХяляѕя»яМя¬яИяжямяаяу яу явяъяЬябягягяс яЩяґяы  яЩяжяЯяНяЛяЪяЬяЩяМяеяхяояЪяюяЭят яуячяаячязягяуяхяй яхяияЭяЬ яЬятяуячяг  яряияшяпячягяш яс 
-яфяЫяв    яьяаяя яй 	яуяи яфяо яряояэяя 	 яхячяЧямяз      яшяэяхясякяя яюяо  
-яцявяъяэяч  	  яуяц   яъяПяч   яъ  яя    яю яю 
- яь 	 ял  "  яо  
-   яшяфяяяйяш + яьятяшямяэ яцяияи  яь  
- яш ящятяьяпяь     яряЩ   яп  яяяжях яыяц   яп 0  яцяъяс язякях  * яшяю  яюяхяп  яюяй  ,ящяфякяу  яь   яр   $ яьяшяояьяояляЮят   ятяъян    	 ят яяяй  япяФящяжясядяфяпяъ 
- яыязяю 
-ясяь   яыяъял ящ ящ ядян    ятях яйятяфяр     якяз яшяфяпяеяжяы  яияйямяеящяыяпяп   ясяыяЦ  як   яыяняоядясяйяуяпяуятяпяф яъ ятяю яняяялям яняеяиян 	    ячяЮ  )  * ячяЫятяшяяясямяя  якяы  язюЗю·юeюџю“юcюfюАяWя,яsя[яOяZяЏяhяђя|я¦я яВя¤яЏяЂя’я®яБяџя§яКяНяЄ яЪяНяияЧяжяФяОяДяцяхяъямяжяояшяшяхяшягя№яТящяЫяс ячяЪяРяеяОяфяця¶яШядяеяјяМяаяояЖяКяДягябяБяДядяСявяаяаямяяяцяжяяясяЯяЧяДягяаяряаягяФяъячяряЭяеячяШяЬяОяХяСяаячяряМящ + яЦяфясяаяШяпяЕязяЪяЬядяфяыяаявяшясянянящяЧязятяняпяРяш ясяр яыягяУяЩяаякяпяЯяЪяхяУядяЯяц ябяфяч яЮяшяЫяЬятяэяряяязяЩясяжяЫябяЪяаячях  янябяТябяаяояпярябяояЯяшяьяУ яляч яСяДяУячяэ  яшятяряф яцяф ямях яьяс   ят яю      язяйязялях яь  
-     яы   яц  	 явяъяяяьяъ " яэяы яч 
-       	яяяс          яьявят     	 	ял  яляняЪ 	 " ятябяй   ятягяс 	  ях   яэ яхятяяяэ яп   	  яояъяфямяч  яъял   яя 
-яьящ     яц 
-  яуяч яъяз   яняС     ят   	яч   яр 
- яыячяхяыяф  яЪ  ящ  	 яыяцяеяыяШ яеяРяьяояпяЫяфяхяхяеящяъяя  яь 
-яэ  яц  яЭявяь яйямяйяо  яь яояоящяЭ  яияуяуяЬ яш яцяф    яыях  
- 
-яуяцяйятягяЯяхядякяРяТяпяеяояшяфяц    	яь 
- язяч яйяФямяЯяряЫяъ 2 4   ядяяясядяеяшяЪяц яЯясяцядяЮюЉю`ю™юйюїюЖюєю–яzя„я·я|яfя€яЄяuя{яЉя—я•яўяђя«яџяЁя†яҐя яФяµяјя­яц яеяАяАяХяјяСябяУязяшяЬядяЙяґяНяЭясяХяЬяБяояЮядягяѕяЪяЮяХяияХяРяАяГябяЯяЩяСялязяъяпяЮяЩя№яНячяцяЮ ямяъяиякяо  ябяФяЛяЛ  яляЦяфяуяэяъ 	ягяжяЪяьясяоямяТяряЪяЖяФятяЛясяэяояБяхяляЩямяняЬяЭ  янякяЪяЧяИядяыяо ядяИяж  яМярявяфяъяоятяЛя№яояц 	   як яфяжяКяЕяыяюятяц яьялящяряияжяжяэявякяпяЬяЭянячяъ яуяз яфяЬяуяеяжяЯяйяеяжяэяЧяцяряъяы яояыяу  яфяъяяяю        яжяЬяЭяз  !   яяяфямяя    яэяшяс  
-яф   яяяцяЪялям  япяп яшящ     яч    - '  
-        	  яс  
-яп    яюяэяхяхяэ   яя яю   'япяо яояшяиябяТяс     яг  	ячящяэ 	  яияй      ячяф яыятяэ !яь    яхяшяцяц     язям   
-яе яь  яряаяхяз           яь   ям   ящям яь ятяняч яъ ям     яъяйяСяпяояф  яуязяйяЫяияшяъ ящящ   яйяпяняцясядяк яяяЯяояжяПяыяТ  	яе  якяя ярядяЦяКяияп яуяеяю     яцяшяъясясяуяэящягяуятязяОяляЬябях  яб яя яы  ярягямяЬяЭяп  яХяЯ  3 , 6 яЯяй яшяЯяе   
-  яиягяфяаю№ю юлюЊюію¶юЎюzя;яbяsяhя]я‰я“яzя¬яяњя–яЌя™я™яwяЃя‹я“я”яґяДяИяЙяаябяоямясязяШяряжяУяУяСящяЮяОяХяЮяая№яУяШяИяУяляЩяЫяЬяояЧяЮясяНяСяХябяЫявяэяФяЗяияйяЭямяжяЧяЗяоящ ян 
-ядяШядярякяЫян ящяфягяжяЦяц яйяф  яЫяШяняияфяЮяѕяУяЙяЛяРяХятяЭяжяЪяхясявяКяНяняРяпяпявяяяф япяЭяЮян ясяэяжябяфяйяУяю яЭямях яяятяб яъящяуяьяпяюяЬяЭяпякякяняТяУяо   /ят яляЪяцяц     яияйярядяряъяляпях 
-яняЪяж яц явяЯяояр ясяфяш яр   яыяь  язяояя      яфякяуяэ  яаяйяв       ямяу яыяэ # яьяЪ яе 
-   яэял   
- ящяъ  @ яэ     "   # 6   яы  	 ябяч            яь        ящ 	 ял   &  яэядяъяс яшях  яхяыяъ яъяьян  ясяуяф 
-яэяш яь   яжяояяяюяхяфяэ    яюяс яцяйяцяэяр  яяяжяъ яъябях  яо  япяпяйяй     #яияы  яйячяяяц яс 	яряояс япят   яюязяд  яияП  яеяюяьясяш яъ   ячяб      ячяЫяЯяТ яеяйяьящяч  
-яЩяъяэяъяйякяэягяф яц ян   яь  яьяо яояшяфяхясяыяпяУяеявяРяеяъ  яшятяЪ ям 
-   яюяцян яфяф  яъ  9 4 яшягякяляжяЦяч ягяМяЮябярячяою‡юиююLю‹юГю¤юZя_яHяXяbяoяZяoяbя®яљя”я‘яќяЏя{яѓя’я}яzя’яєя§яВя«яГяЮяУяЩяо  ящяхяуяУяЙяОяЪяЯяЖяПяЧяйяЩяаяНяжягяояЮяРябяУяеядяФяжятяРяЛясяЫяЦяшяЫяЪяПяМякяНяРяаяЮяхяФяЩяияЫяЛяЪ : 5яш яояияЪябяпящякяЩядяЧяряФяЧяжяуяжядяЯяУяряйялянямяЧяшягятяХяПялякяоясяь яЬяЪяляряУяоязясяп яняяяляеяЯяКяляжяЕяШямяу   яцяЯяЛяЧяжяи  яхясяЬяжяЪяйяляояиящ яиящяЭякяАяТяыяжяЩяЫяМябяя '   яняэяфяияЬяЭярятятяояйязятяуяЮямяЫят   язяг   	яыяШяй ятяюякяуяь    ящяч    яъ 	яюяъяш яхяъяшякягяЫящятяшяжяж яы яш   $ яуясяо яу  ящ     ! 
-яя   
-   яыяъяф яч яь     5  - 7  яаяняч    	   #  ящ      яюятяя яэяп  ящяэ  яцякяЭ яфяьясяк яшяэяхяв яя яхяш  япяфяя 
-  япящ   яяяц ябяч  
-ясяЪ яшян яцяя яе     яф   яу яю    яояряпярят  ящящ  ячяэ яьяЮясяняз    яй   яя 
-    ящяцяхяч яыяряряю   яэячябящ яляляф язяпякяеяХям   яы яфяцяшяъяы яъягяЮяжяцяЯяжяиям @ячяыял  	яъяБяжяжяояь  ятябявяеятящящяуяияюяйяЗяыян #   ) яъяъяляжядяо яэяпязяТяеятясюГюЖюіюсюҐю¦юэю•яcяmя(я.я™я?я|я”яџяkяgя’я§я¬я”яЈяlя€я€яЗяѕяІяСяєядяшямядясяпядяАятязяияЮяаяпявяЬяЖяСяЮяЩяЮяЯяеяЦяояьявяЪячяеяМяз  яЮяТяэягяпядяояояйяГяОятяйяляВяеяуямяфязяїяЖ яИя°яЩ  япяоячяхядяпямяРявяѕяпяк ялямяояояу яСявяЯ яЭяуяЫяа  яИяУядяЬяеяЫяаяу яряляюяШяРябяуяюяпяьякяЬягяЧяпязяЕячяэябяЩяХяряряЫягялян  язякяъ ямягяьяч  япяЪяШяЦязяьяэяояхяц 	яьямяЩяс яэязяї    яыяя яйяйяЯяр яйяэяжяЧяе   ячяш & (  
-яояхяфяъ  яхяЪян  -яэ  ящяюяряь  яшяп 	  яюяЦязяьяы       яхяя яя &  яя  яю    $  яя   яшяъ    яю яъ 	яэяюяюяу ямяч    )яшяз   	        ячяъяш яъ   
-ящ  # яюяъ яфящяняуящяш яя  яьяъяняъ  ячяшятядяъ     яя 
-    ям   ян яьяхяш  )   0 яи     яыяъяхяшяо   	яу       явячяп    яряр  ямям   яц    
-яп яэяояЭяш   яэ  яояяяжяряияюячядяц   $яфяояэ яэякяс     ящям  яьяуяхябятяаяэ яцян  япяп  яУяЩяЯядяыяеяМяЮяр 
-яйяЙяЛяЬяЬят ячявяуясяоял ятяйязягядяЙядяЬ -  $ "   яуяаяьяъязяяярящяЫяэяфяЪявя_югюМя юЮюЊюЏю°я‡яљя|яrя]яmяЏяyя®я¦я“яzя¦я“яџяёяЊяzя‹яЊя¬яКяМяЯяфяйясяЯяЭяТяЬяЩякяЯябяжязяяяЪярябяпяХяЙяШяЫявяЩяИяКяЪязяФяШяФяИяРяЦяКяу ямяЦяиязяФяаярякясяЫяНяТяДякяЩяЯяЯяНяЮяЧяНяаяХяЪякясяяяХяЪ яшяЧяцяцяцяйязяФяъяыяЯякяеяляияляЮяв ятяияЧ яя яОяпяшяжяпяцяоячязяЫяжяЦяляэ  яХяыяЭяйяжядяУяЫяЮяжяжяЯяНяъ япяияэяы 	яыялядяляЮяяяыямяЩяряляйявяэяяяфяляу яп яряхяуят     яеям  	яы  $ яэ  ямяняшяаяаятяц   ям  япягяш ян ях яъяяяч - яы япяцякяьяш   	  
- "  яшяляь      
-     яч   ! 3 ятяэяюяы     1     
-    яы ясяюяь    яъ     ятящ яьяяяц  язях  яъяу  яэяюяляияпяч яш   яшяь яц  яияу   ящ ягяо  8  яуяыяОяъ  яыяхяьяь яц ячяъят   + яхяфяояи      якяыяхяз яж  яа  яю  
-    ях     яо      яхяпяИ  
-ям    яЬяляэяьяцяпяш      яъялягяХядякякям   яр    яЮят  ятяш 
- 	 яы   ! яуяС яяяьяеяаяшящяю яояЪял   яЮямятяряшячяжяияияюяЙяУяХяы яЯяюяяяш ямятяЭяиядяЯ 	яьяляыяюяк   &  . ящямяЯяыяфяя  яфяэ    юёю•юПюЌюХюІю•юVяxяhяMяXяZяЃя~яnяpяЎя¬я€яѓя›я‘яљя—я‹яќя›яКяІя—яяФявякяЩяняияЧяХябяЅягяЦяЧядяояОят  япякясяхявязяТяРяеяЧяЮядяУяОяКязяйяыяия¶яПящ яЭяЗяНяЫяМяюяГяЙяаягядяжяляЫяфяЪяжяеяыязятярягяРяоязяжяюячячяХяеяТяЮ  яШязяЮяпяУяояляТясягяЮяеяаяЮязяЭ яхяУяП яШяХяняеяаяРяШ яояжячяьяУяЗязяРяЬяфяуяцябяэ яХящяаяФякяояЭячяжяЩяюялягяШятячятяояэяфягяояУяЧяп  яцяжяъяыявяжяУябяыячяЫ   & $  яъ якяфямяяяпяНяеяьятяй    яп     яи яеяояоящяняояэ    
-яэ 	яю  
- яхяьяк      ян         & ян 
-   яыяь 	ящяш  
-       яч           !яш   яьяр        яъяъяы  яя  яэякян      ясяк  ямяя   ятяеяеякяц  язяй     ящяу      ящ   ! $  	яьяо        яяяь   яцяц      яфяь  яюясяы яь     яр     
-  ямяояьяв      яыяф    яыямязяяяф ягямяо яляЫяияц ящяяяяямяеяряхяэ  ял ях   !    яя  яцяДяк яяяпямяу ясяюяряХяШяжяюяеяфяуяняЙявякяЮяйяеяляЬях  яхяюящ ящяпясяляЭяияз  япяЦяфяЪ $ / 2 $ яЯяи яю 
-ятячяЮяЮяяяз яжяэюЮююю™я	юќю¬ю™юПя яџя†яЌяЋяhяwяѓя‘я”яЏя‚яћя„яЄяўяЋяяёяЏяІяѕяЄяµявяЦяШявязямяЛяСяОяряЦяжяЩядяЫяСяЬяшяаяНяаяОяДяЪявяМяВяЖячяляеяняУяЬяг ямяеяЬяЮяЩяжяАяГятяжязяЮяЩявягяОяз 
-яояияжяпяцяеягячяшягяжям яэяжябящячяУяЫяд  яуябяф   ясяжяФягяжяЮяр ятяляы  яйяДяЦ 
-яш     яняйячяшяряЭявяйяжягяЫяняляРяЧяы  яя  ясяШяЬяМяфяЩяиясящячягят яу  яЪяХяНяЛяРяю яжял 	ях  яуяыяяяч   ятяр  яюяы яы яияЭяйятяцяюядяняюяеяю   ящ яояХяЫ яфяЮяСям     яаяяяэяюяю яъяя яфямяшяюяшяяяе  ясяэ      яъ           	  (яы    яъ  ящ  ячяь    
-     	 яю        1 ят     яч  ян   як    яу яэяпядяшяыяк   ящяэягяШяияьяъ        "яы яц  ясякяьяш  +яч   	   
-  	  яч       яэ яь   яэяз яыяф      ящям  яъяр яьясяхяй яэяэ     яз  яэяляи ! яняЮяояъящ   ящяЪяяявягяг 	яэяняяяь ячяяяя 
-ярятяр  яряр яс яя     яшяаяыянячяц яьячяфяЮявяй яйябяЩягяЖяЭяляцяпяйяояшячящяш ямяк яс  яйяЦямяЫ  #   яЪятяуяжяЮяЬяаяаявяпящяфямяуюбю•юшюВюќюћю†ююяhя\яpя‡я‹я‡я^яqя•яќяћяҐя‹яЎя›яcяiя‹яўя±яЖя«яЄяѕяЧяЩягягяе яЛяБяЙяХяЯясяъяшяЮ язяаяЦяЦяйяУядяуяеязяУяГяЩ яб яхяияЩямяаяЩяЭявяЭяЧяРяйяюяъязяРяРязя·яПяДяЬягяЭ яшяуяЮягяСяЬяэякяфяы ярядяОяЧяСяжябяЬяЧязяпяе япяФявямяъяиячяЮядяеячяряч яйяхяхяЯясяйяьяуяЯяЗяняйямяРяРяф яфяШяуясяЯяЪятяояняу яЮяУящяиякяЭяшяр  яыяяяю яеяцяЭяаяЧяоякягяХяз  яу 
-ятях  ячяч  яжяа   
- яяяь 
- яняФяе  яуямялядяъяыяй   
-яфяшяь 	ячяряшяч 
-  ях  яфяч  яы        яз яхяф  яш яяяэяу  " яр   
-     яэ   
-   
-      яшяь    яням  яю    яеяоясяэ    яоячях  % . яъ  ярящ   яп    яь  яйяр   яояэялябяуяцяо ятяэ 
- 
- ягяь  яцят    ' яэяэ яхяхяшяю   янячябясясяуяшяыяф   яь  як  
-   ятяшям        яя   8 %    яп      яэяфях яхяа  ял  яь яз  яэ ящ ясязяшящях ямяуяшяьящ  
-ясяшяф  яь 	яя   !яыящ  ях яыяьяЦ яэягяжялякяг   яуямяряБяК яяящ яояояФяЩ  яЦяияж ячяцяаяжяи 2   &яляз ячяняЯяжямяУяряэяяяйяыяоюmюЌюZяющюХю.юgяTя`яsяgяlяMяtяMяіяяњяњя‚яЎя|яя”я®яєя‹я«яёяНяУяДячязяряЫятяфяояЯязяСяВякякяе яяявяДяйяЭяЮяЯяЬяЛяФяЬяЦяляЭяЬягяеяПяряуяЫядяжятяЧяеяьязяшяжяЮяРяМяЯяУяэят яТя·яХ     яняЫядяЪяо ячяеяеялявямясяеяЭябяЦяняжяйявяСявяПяняЮяз 
-япяЮ  яПяцяуяУяйяю яхягяЧяРяаяц  	яюяЫяРяЮяЪятяя яе ят яшяляЮяояЫяс  язяряуяцяг 	яьяьяп яняшяуяфячяеяы яьящянян 
-      яуят ясяжяо яюяфямяс #яы   ятячяцяйяжяЩяы ятяъяюявяя яояцялявяфявяфяыяяязяй якяЯяя   !  ял  . яш яя яхяэ    яэяняь яь ят яю )  яяяояцяфяр  4    % .   яшям 	ях      '   ,    яя    яшял яю  ящяэ          яюяц  яуяеяш   яшякяеяцяыяеягяы #     
- яуяч  %яш  яЕяхяь        яц яц язятяыяфяй яхяю  яияЧ  $ яч  	яцяыяф   ящящячяжяР    
- / яъ  	яр *  
-  яэяр яьяэязяю яь  яяяйяоячяцям  яъ яэяэях яюяояыяЯяпяояшяцяы     яряц  
-     ясяэ .  
-  ят  ягяоящяч   яхяцяняФябяо  япяыятяьяиял   ячягяч  яояь  (  5 6яеядярякяюям ярях 
-ятяьяцяеяГя"юВю№ю†юОюоюРю_яCяcя€яdяgя'яKяoя”я|я¬я¤яѓяЃя•яЌя•яЌяeяoя¤яХяЛяіяЩяеяеяояхяц  ячяц ядяФяОягяАяЩядямяПяЯяжяиягяЮяФяКяТяЫяЖяМягяЯявяХяСяжячяЬяТяояЦяОябяйяЪяряТяеяЧяЮяжямямяюяХяНяШяЫяЫяфяеяЫяОяРяуяфяРяОядяияшяьящяфяуякяхяЬяЖяЮяляЗяЪяыячяыяиямяРяы ям яГяхяъяеяьяыяфядян ядяп янякясяаяуяьяъяюяъяьяияуяЩяЧ  ячяхян яэяыяйячяияЯяояняэяйямяш яшягямяЦяляяясяйяюявяц ядяцяяягяэ яяяЬяеяшяп   яю ях яр ям яю яшяй  як  яьярятяы    ячяж   яу  яч  ящябяяяняэятящ  яъяжяфяя       яляфятяхязях  -   
- ячят    яш      яэ    "  
-     O J > '  	 яя яюяи    ящят  
- яыямяю     	яфял   ,  яЯяСяч    
- як яфяряф   !яыяЫясяя яяяяят  *яшят " яшяюян    	яфянящяряк  яъяф яфяоясяляц     # яю    яц  яыямяйял яъяшяняц      	 (     яо яя  яъ яцяц 	 яя  	яя 
-  
- яу '  ятякяжяОяо  
-ящяшяу          яЩяЛяу  ,    
-яяяряфяояйясяуяъяы яхяжядяаяаяПявяп яо ясякях  ягязяС яряц ящяеяТ  3 3 /  ял яюяд яряОяЪяьяэ явяЮюмяюйюЫюъюеюМюЄяЏяqя?я3я‡я‚яKяoяЋяЋя”я“я–яѓяrяuя“я‰яћя±яВяЕяИя¶явяЭягяфяпяЮяляЮящяьяаяЩяСяняуяХ ящяояаяЬяФяЯяЧяЪяХяуяфякяЦяМядяуяЮяКяНяЬягякяЬяаяюязя»яФячяляРяКяеяЭяиякямяфяояуяхяряряияСяЖяУяС яфявяпяняШят ясяЙяХямяЯяУяв яфяЭяпяоячяш язяц %  яЧяеяеявяпяя 
- яц ямяя яряЧяЬяы    яйяЬяеяряхяъякягяь  яо яняхяъяьязянявяыяняуящяфяцяь яъяжяьяцягяЯяшяпях  
-яыяь  #  ядяляляч  	яаямяыяуяэяъяп яы яЪяФяьяо  яцяь  яцяц     ячяшяояэ    яхяыяч  яя   	       яц     яь 
-   	  ' 5   яь ят яя 
-       яхящ   яъ яэ    L = 8   яы  ящяу ящ яояы яэ   яляыяыячяояшяьяъях 
-яъ  яЬяляъяхяшяояф яъ %  ят  яъ  яь    яя  0 $        ячяыяэяояу     яоячяы  
-яеяляо яп    #  яйящ яю яхяхящяц яъ  	яю   яф  яэ яряю  яъ     япяыявяэяюяьяхяыядяш  яыяю   яю  яфян 
- -   яьяц     ях ячяляя   -ясящ ясяыяюяаяияьяцякял   яъяЫяЗяЩяШяз   ядяцяэ    яцяЭяЯядягямяюяфяс % ' 3  яаящ яфяшяфяыяеяЦяЭ яяяоявюгяJюШюЦюСюљю}юtяЋяoяZя‡яmя_яvя9яђя‰я‹яuя¬яќяЈяuя„я‡яњя®яљяіяЅя¬якян  яФяЫямяУяѕяТяйяйяы яш яы япяЭ 
-яаяОяЯялятяЇяеяшякяЭяЩяЭяияЬяШяРяЫяСякяЬяз яияояняьязяюяъяаягяуямядяшясямябяЮятяыяв яояжяф яРяаяаяНяхяч япяЫ яч ясяйяияПяляОясякядячямяпячяШяляЅяЦяъял  япяхяуясяЦяЪяРяияХяЭяшяцяяяьяъяфяЯярям яэяпямяфяыяшямяэяфяжяуяРяО ящяЯяЦязяйяы яфяЫ  яхязяйяЫяуяРяЬяц  ясяш  япягяь 	 яьяХяП 	 яфяц  яЪ яЬяйяъ  якяе  $  ях 	яяяъ  яьяц ясяъ ям !   яъ   "   	   ях    яхяэ  язятяц 	 яШяф  
- яэ    яэяуяя  8    яю * &яеяюяш        &       яряьяк   ят яш   	   яс    яы ян яяяы ящябям  ящ   яы 
-яь яь    яй      яь    
- 
- ячяф  яс яяяуяы   
-    яр яя яч  яч  
-  $     яц  яряю      яжяц ящ        ях   
- ясяжяряьяыяпяюяэящ    яф  яш яр    яияцяц  *  яхяаящяшях 
-яъ  яояь       яьяяямяв яфяояЭяаяшясяэ  яюяЦяЪящяняьяъяыякяТящ ящящяЩяаяу    яъ  2 , : *япяЯяц    ямяЪяэ ячяыячяюю‰я/ю¶ю·ю·юЉю|юИяЂя^яuяlя•яhяWяaяўяљя™яѕяѕя—яjя†яЉя“яєяџяїяёяЛяЖяЬяПяУяѕябяЫяу яЧяЮяЮягяЫ  яУяОяЮядяЫяМяряИяпяняэяЮятямяМяУяОяДяУяЭяряцяЮям яШямяЭяЧяШяРяЦяжяйяЬяс  яцящяЭяЭяЬяаякяряю яРяЯяф якяжячяуяШяУяуясямяеяняоялякялявянятяяяуявяхязяг  яТяжязяд  яр яжявяФяуяЬяЦяЭ яЩякяьячяЧяжяжяйяпяф ящяыяЮяу  яч яХягяш яъяс яхялятямяфягядяряЮяъ яфявятящяшяияЖятяе 
-   яжяЫявяъяЩяЫятяыящ яжяб (   яряпяцяр яъ  яэязяжярявядятяч  
- &ят   ящ        яхяь яр   яъ     1   яф  <  яш  ящ    ях яс   	  яцяъ 
-  $    яь  яняэ ятяэ %   яияфяц  яшячяю  5  яяяфяю      ял  яз 
-  яуякяЯяы ящ  яыящ  яьяояц яы язяпялящ  яч   -  ящ       яа яыяп   яфяц  яиящ  / #яияйямяйящ  яяяыяп  & яч яр  яеямяю 	 '   'яэяг  яя  яэяшяф    ях  яЯ    	  	  яю   япяляхяэяъ     	    яЬяв  	    ясяояляЮ  яьяняь ядяЦяаяТябяуяэ яЮяУяйявяЪяояц яф яжятякязязяшягяо яя   яЭявяЯ  $    ямяояяяыяряцяп 
-  ябяСяюяфяя9ю¬юИю¬ютюЦюЎяcяpяxяuяvяkяdяVяҐя€я—я¶яѓяяЉяљяЇя™я…я•яєяРяИяёямяИяМяЭябяЫяпяжяЙяДяµябяияюяияЦяи 
- яцяОяОяаяШяШябяШясядямязяеязяТярязяУяСязяюяоязяИяЫяОяПянядяЮяпякяфяйяшяжядяш яЭяЮявяаяЪядяЫяа яю яэяяяцяЧяЫяЩямяЪяФяжяфяояояжябяЪязяя яъяыяоягяпязяяяЯяьяТ яц 	 
-ялядяжяшягяЫягячяоявяйяф  ячяяяаяэ  яхябяЬяя яряряЬ яцящягяоясяфяЭяряуяЬяй  ях якя¶  яхядяхяа  < яжяе  ящяЦ  яя  яцясяь яэ   яюясячяшятяшяшяйяЯявяцявяЫяъ   
-яч       ячящ    яюявяляп &  
-   ' &яыяя яшяу   
-  	ячяу    
-              6 #  1 ) яч 
-  ящ    + яьяь     	  яч   яр  яы  яфяюяняй      яряъ яы !   яя яц  ящ    яо ясяр  яь  ятяяяю $ ямял ящ   яэяп  ямядяр    яъ яъ  яъ   яыядяс  %яь  	 +  ятях 	яэ     $ 
-   яэ    яйяэ яы яэ 
- !яс    яьяшяюяМ       
- ячяы  яфяыятяш явятяояд 	ятяй   (  яыяеяйякяхяцяыяъясяь яЮябяйяЪяь  ятяаяЬяйяйяжягянящяя яляа   яыяьяг ящяеяояжяояС  8 ) 	 яТяЬ яъявяЫям 
- ящяэяъясяую6юsю—юyяюјяяnяdяkя†яiяfяqя?я]яЌя’яґя яtяўяxя†яяҐя¤я­я·я«яЁя»яыябяаяжячяцяаяЪяЖяАядябявяХяЩяОяфящяряф ящ яЯясяЫяЧяОяРяуяШяїяИяНям ян яряряе  яжяеяшяфяЛяШяХ ячягяояеяШяйясяАяТяЯяТяМяШяЭяФяпяъяб  яъян яияВяКяк яФяЩ яеянябяЩям   ягяхябяю яфяЭясялятяШяВяуяцяъ  ят ящятяпя°яЙяжяьяюяюяШябяаяо яы  ; яЯягязяояжяояШябябяэ  явяжяыяъ  яьяюяъябямяъяЧяеявяияы яэяй   яияняю 
-  яияыяняяяу яп 	 яфям яюятяцяфяьяяяу яояш   яюяхяеяьял яшяы яэ  	 !яъяж яя яяяя   ядяя    яя 
-яы  яя      яъ 
- $ яю %   яф  яьяЫяъ  + !   !    яцяяяыяь 	       , #  ядяэ   яеякяЧячяцяпяэ     яяяс    яь   яя !     &яяятяХям     ях  
-ях ям яюяэ 
- яю    яхяШяь  3   яц яь  / /ях яьяфяЮяЬ        яй 
-   ящяэ яэ "яыяьяняняь  яН  ! яь   яя   яо яя  яд  	   яюяыяуяп   яп  	ящяряцяняйяю яюяэ 	яшяаяз  яЯяг яьяпяц     яЧяЮявякяжяояцяеяЗяаяФяЦяфяс ячяюяюян   яь 	ячясяжяияпяУяуяШ 6 '  ! язяуячячярямяэ   яшяняЬяп ю|ю‰юНююю/ю“юЩюРяeяgя.яGя–яЇяXяbяўяјя я›я‰яђя«яЄя¬я‹яІяя¦я®я«яЖяыяЧямяЧяЫяЩяЧяШяюяряНячяФяфяьяЭ ям яъягяДяЭяряыяшяа яЭяЬяѕяРя»яПяЦяш яьяйякяеякяьяуяЫязячяЯяЭяояж яъяЯязяжяу  яряя япяляЫ  -ядяжяэяжяф яаяЭяЦяЯяф яя яЪявяляняс яяящяняжяЧ  ятяняиячярячяТяЪяаясясялядящяо  яцяа ял 
-ячязямясяь  яжяеяляхямяЭяеяряпяЭяиящ ясяЭ   ят  ячяйяЭяиял   	    явят яояс ятяз яыят яжяц ямяЮяЬяп   яу & 'яХяй    яряо яю $     яяяч        ' 
-   яя  0  яэяю   яцящ   )         ящ    $ "ят 
-    яыяр  	  #   ял   як 	    '        / 6 яы яяяяяхях     яж   ячяп яш      яз    + 	      яхяфятяс      	яяяи  яю  # яжявячязяп "          
-      ящяф   яя яшящяяящяю  ях   ! яяядяъяЬят  яъяу  яч    	  яы яуяцяпяьяеяряс 1   яы яыяд япямяяяЫ  $яьям  яж яцям  яъякяяяр яцяЮяЮяфяояиянядяяяШяаяаяояЬ яфяЫягяияояб  яцяъ       %яъяйяыяыяряъяляФяйяж  & "  ядяЮяйяхяияняхяЭях явяФятяхя:яTя&ю¶ю©юtюЩю°яwя]я“яvяpяЉяяTя’яІя¬яzя»яЄяТяћяћяџяrя~я¶яАя°я»яШяїяЪяЫяЩяпяуянясяМязяжядясягяжяняУядяжяияЧяСяЬяшячяЭ яЦяНяаяшящяяящяжябяуяФяеящясяаяУяУяЯяЬяояйянячяШяПяЫяЦяЫ ячязягяояояляйяпяП ямяя   ящядямящяуякярярявяыясяняШялякяпятяояПяСякяЧяШ яРяНяляьявяю ясяЮяф    < яц яуяфяояъяфяц яляРяцяю яыяьяняьяъянякяняляСяИяЭяряЮяо 	 яХяпяжяйяПяФяЙяиячяшяяяы     якяСяИяИяуяйясяч   яЭяЪяьяяяю яжяю   явяхящясяуящящ яя        яцяияч    
-япяю 	  + /   
-   	   
-ящ   
-  яу  яр  !яы     яп 
- #    # яэяЬ  яо 	яч   $ яэ '  ящяэ яйяц  0 яцях     	   якякямяйяъящ  
- 
-яц  ящяц   яряя   $  яьяю 	  яцяц      яояь     ях   ,   	яь   яю ( ят ямяю   ясяыяр    яшяч    
-  ямяояцяаяь   $ # яъ   	ях  яш 
-яф   яшяф      ,     яфямяУял  яю   	 яЮяпяыяШящяЭ якяыяъяэ  ях   ягяпявях яф яьяш яцяЦяияъ яьяю яояЖяьяляФяДямяы  . яф   яяякяяяшяъявясяшяш 
-яг яэяв  ( 2  яжясяЫябяйяп  яояХяфяъяеядюЋяюіюКюµю‘ю”я+я~яpяhяnяPя’я±яZяЉяhя‹яєя№я’яћя‹яzя{яЌяѕяЛяБя°я¶яфяЫяЪяХяЬячяфязяЪяк яЯяЧяОяЖядяФязяй  явяйяшяы  ягябяИяйяЯяхяФяэяйяЮяФяцяцяЭяоявяЪячяаяИяв  яоял яняЯяуяд    яхяТяпясяЩяф  
-яЬяъясяшяЮяьяТяж япяэяКяняуяЯ яш яняйяйяПял яЪяОяЪяз ячяЫяеяряоякяшяшяцяЮяш  : #     яряъяжяЩ ящяйяеячяияуячясяй яЯялясятякязяЯяаяз    япяЯядяфяояВяЯянях    
-   яо  япябяе ял   	яъ    ящяю яряъ   яыяэ     яш      )  $ #   	    	ямяс     0 %     
-яь     ятяъ  	яояняц    $  яэямяя    "  
-     ясяф  яъяц  яъ 	 яияъ ятяЬяцяч  яэ  ( 
-  
-яьячящ ятях  ( 	яп   
- ях  !  *  яь "  яь яйяьяя  яцяпяэ 
-  яъ   яеяя яр  яэящяъ 	 ' )   ) *   яЮ 
- якяюячяояцяэ 
-           яд    	ясяцяъяьяэ   
-   яшяпяьят  яряы  яь        яъяьяьяф    
-   $яшятяеятядягяц      0яшям   " язядяц яъ  яфяяяэятяыяюящящярячякяй 	ятяаясячяфядяю      
-ясяъяЬяеядяфяю  яуяшяСяЯ 
-  5  9 0 ямябяПяюяш якяняд яяяэяЩяою”юТюМюЕя!ючюАюўяVяLяWяMя‡яnя‹яZяЉяrяЂяћяЏя¶яўя™я«яЏя{яАяУяПя—яНямяШябягяо язячябяЬяХяй ябяИяяяцяЭябяМяпяэяЭяв ябяЪяфяЬяняМяОяУяНяжяжяУяЩяЪяэяляЕяъяьячяЬягядяТяжяДяг   язяшяЮяэякящяЯ 
-яфяЬязяШятяЭяс  яняЭячяляьяляуяыяуяЬяжязяЪяфяняяяи 
-яюяпяояпяр  
-яЩяЦ  яыяОяЫяхяляаяш  яЮяяяоят  ятяпяш  яшяжячяйяняуяаясяцяцяияряОябяЭяияХяЦяЬят яняуялядяМярясяРяаяиямяуякячят  яюяб  яяямяжяф 
-  ят           яь   
-  ябях   	 яьяп   якяь   ящ 	ягяъ  	яцяп   	  яряю 
- 
-     4     	   $ ,яхяляв    '  яу  % ( 
-   яъязяы    яъ     *      
-  
-   
- 
-             яуякяь ящяэ 	 " "   ях яэ 
-ях  яь  	 
-язяжяю яъ 
-  яо   яуяыяц яьяэ      яуяу   яо  якяЯявяхямяъ яэ  яь   2 яъям яъ  яшяф 
- яч   яфящ  (яъяфяу (  яп яп    яъяу  яояр 
-ящяйякяфячялячящ   яу    яфящяс япяияъяюях  яуяСямяшяф  яюяц       яйяхяэ  яняаятяеяЫяГяЗяеяп    яйяе ящяляшяп 	ятяЫяЫячяы "  $ ; - яш яэяЯям яЪяряЩяОяЛяаяПю—юОюЗюЯюзюЕюэя.яNяfяlяGя6яlяKяZяvя€яЊя„яҐяµяВя‚яzяњя–я‘яљяЕяЙяЖячядяляояу яИядяпям яхязяшяЯяуяпянягябяХяшяхяфяРяхякяМяп яояЛяпяэящяЧяХяеявялязямязяЮяъясяэяшятяжязяоязяоядяе  яляоятяг    !ятяФяц  ярящ   яйяжяш ячяцяшяЩяцяхяеяэяьяяяляояЯ яыяъ 	яхяюягятяУяЙяМяИяЪяз  
-яхяуяояк  яц яйял 	яьяуяю   яй  % ячяз яьятякяэ  ятяфяуямяк яуяфяЧ яЬяв  яш    ячяс   ящяряЮ  яшязят явяы  ящяы яыяэяняк  яу %ячяояхяяячязяуякяя    яжяЧ  !    5 "яъяю якял    !   яыяйямяряю   яю   ях   яюяя   яц  ящ               & яь  $яя       яя яхяпяя яуяй             ящ ях 	           яъ    ясяЯямяэ        яр      
-  яфяуяюяоямяц    яюяяящяш 
-   	     яэ     	  )     яш     
- яэяъяя     яэ яшяуян яр яцядяп ят 
- яп яьяляц  ях    яц  	яняяядяк   ятяяяч 	яъяхяо яюяв  яляяяфяо яяяуясяц  	яхяЫяВякяфясяЩяю #   яаяояхяи ясяУяЯяб яжяШяа    * * яюяхяс  яъяЪяр яияШяПяЮю™я ю›ю›яяюиюцяVяRяUяuяЋя]я^яMя™яzяЏяѓя“яАяЏя¦яЇя‹яўяќя¦яґяјяЙяШягяЫяШяЫяояляэяФяЙяйяияЙяфявяюяюяфяуяфявяияоявящяя яуяоядягяеяЬядябяЭякящяоякяЬяЫямяйяЮямяъ  	яыяряыяпяйяоямяэяряПярячяхязяи ячяуябяэ яяяяяшяцялябяш 
-яУяЬяеяъяиявяхяэяб яэ  яуяжяб якявяояуяхяпязяэявяй 
-яхяаяЯядяияняЮяшяряиясяняг 	яфяф  яюяэяляо яъябяс  ян  
- яюяыячявяуящяы ясяаяы  ячяю яхяняю   яяяцяяяшяшяЫям ясяЦяо   	  яЫяЫ   яэ     яЧяУяЭ яы    	япяэяц   
- % яэяжяьяъ  яыяЬяз          яя  # " $     ячяр  яцяы    
-          * 
-яьяь   яэяуян  яф  яуяу    6     $ " яя  
-яы   яц      ятяаяэ        
-яя    .яшялясяш   яш    %     яжяь     яы  .  *   яояъ  ямяю   яшяа  яфяс 
-  'яяяШяу      
-яя     ) ящяю ящяьяр          яъяы  
-  ятящ   яй яы  яю     яр  яЫ   ячяюяъяфяч  яэ     яэ яю яряЯяЩязязядяъяшягяпяф ящяняПяМяЩякяЮяйяь    ячяэ якярячянямяияЫяЧяЮяняЫ  9 #  5 ячяпяйяЭяЬяТяляияЭяияняЯяжюЪюКюЃя$я
-юЪюјяяpяZяlяjя"яbяmяYя“яЉя€я™яњяІя­яЈяГя»яљяЂяўяҐяІя·яояЫябямяжяНяЛяеяляЪяТяГяКяфяЮяХяжяхяьяЯятяуяоязяеябяыяияЫяеяЪяЩяы яцящяЧяН яшядяняъяш яЭяе  	яЪяхячяжяоявяв  яюядяЧяд  ябяыяЩяаяПяшяЯяНяьяуяояеяы  яаяжяэяфятяЯяРяЧяЦяй ящячяцявяЩяе яу яф яя  яю яь яйяФяеяъяыяРяКяжяияЯякяЯяц   	яй $    ягякяэ  ясяц яюяфяд  ) ял  яуячяф     яе яъяпящ  ящямяфяфяюяю  #       ящяцяыяз  яыяо     ядяш   яш  ят %  
-яя     яуящяэ яэ яьяц 
-   	яэ     яы   яяяцяцяъ     яеяр  )   яхяж  яя    яр      яъ   $    ящяйяъяя &    яы           )        $  %  
-   0 &  ( яьяж яэ   	 яц    ятяяяя яь 	 $           9 ( яуяюяч           яп яцяюятяс    
-   яд !  яэяеяьямяъ  яэ яоях  яъяряш 	яфяэ  яйяхяч   ящяояьямясяъяряряы яу яу  яйяйяаябяд   яш яЯ   "  яь   яшяфяц яряцясяьяОяю ячядяаяФяЯяуячяыяг  ячяйяыяп  яьяю 
-янявящякям  O  #      яеяЫяЭякясяк & ярябюжюЩю§юыюЋюСю¬юня2яAяя3я~яWяOя яѓяtяђяjя”я±яГяГяђя•я¬яБяИяЧяКяКяСяияЪяжяЪяЫятяяяряФяоясядямяйягяШялякясяФяр яъ ятяфяшязяЬяКям  $ яуябяж яфят    яцяс язяяясяуяшяияэ  яфягясяЫяфяЭяЮяшяЮязяЮ ящякямяяяыяп ячяъяЪ    яояЦяйяПяЩяфяж яюящ яаяиядяСяхяфяьяЯяняи  яЩяхямяЭяп  яжяряп 	ячяп яюял # янярячяаяу 
- %ямякяя яияо яыяб 	 
-яшяп       яжяъ  яоям     яэ  	 ямякяъяц   #  # яЯяш  ятяОяаядящ  	ящ  яш яь &        яряц   ясяп  яьяцямяж  яшямям яэяцяп  ! - '           яя  
- # яы      яш  яэяшях    ! яь  яш    $   	  яяяяящ  ящ           
-    яб  (  яуяыяя      8 яы     ( ящ  яр  /  
-  / #      яыям яо   ' яьяэ    "       2      $яйяоящ  %   
- 2   яь    яыяя "  яь яьяя 
- яш   яхяъ яюяъ яяяч 	  	  яф    яйяшяыяъ  яияйярятяе     яряйяя 	 яшящ   яъяшяюяЩяряшяшяъ япяЬябяВяВяЧябяя яу  яяяуяяязяюяЭясяэязятялякяЮ   $  + ! +   яхякяаябям 
-яъ яу янюоюКюгяюиюхю’ю«яqяjяPя^я0яsяZяbяrя†яя«яЬяДя°я…я“я’я яeяµяјяКя»ящятяжяшящямятягяъяояляк ят язяЯяьясяряЧяиязящ  яшятяюяЭяйяъяЮяаямяояляэяяяЫяйяСяояу  яхяЬяЫябяЦяцятяю яюязяйяиятяжяч як 
-  яоях  яцятяыяфяшяьяХяУядямяЬяШякябяНякячяшязяЧяряэ   
- яшячяДяєяеяДяъ яъяЯ   ясясяляЖябясяЦяияряеягяжяжяю яеяуяояр !  яряуяфяияЭязямяцяр ячяюяюяаяшяцяшяряш     ял   яь яюяьязямяхяфяэяшяфяуялях ячяюяю яшяъят !  
-яьяэ яц    ящ 
-яыян 
- яч яфяяяъяряп     яы   яжяц яш    яп      '  яж ян          
-   яу      . , яяяю     %  яляч " :   
-  яь ях яэ  	яя    яю   
-   $  "яэ      	    "  ящяш   
-яхяш   	      "  яняъ   яхяъяч   яы яряияы   !   яч        яьям        яь  яш ясяэячяцясяь    яфяу  ящяц 
-   яр        япяъ   ямяняд яуяпяряыяняиясяэяяяц    яЬяиябяф  ят ядяИявяцяф  яхяхяуязяряДяЇяхял  якяйяляы  яояц 	яняфяиязяЩяряГ 	 . + ' &яфяряЯясяжяо яхяЮяШядяу  ю€я"юЕюёюЈю»яюУяЌяmяoяiяjяKяVяZя”яя§я©я™яћяјяZя’я°яўяѕя°яўяЈяјяояыяжябяж 
-яняаякявяЩяЪяаяЦяпяЯятяляжязяШяХявясяшяряо  яляЖязяжяЭябяЫяляеяияпяпяпязяцяюяыяэ яцякяТяжяцящялякяаяыядяыяшяОягяЫямяч 	яэяЛяУяо  ясяФяЬясяЯ  яп яыящярявяуядяъ ячяиящящяЦящ  яхяЯ яняШясяьяпяЮяюяфяс  яяяэяюяй яыяыялян 	    	яю ящяшядяйятятямяШ яч  
-яшяхят   'яю яняЮяд  ящяъяч 3 " " яш 	ячяюяцяьялятяяятяфяляюяу    яш яр ях яэ яц          яп яяят ятяъ  яъ    	  ящямящ яэял яэяэ яфясящ   "     ящ   ' $         
- яэяя яляэ 5  яы 	      	  6    & (    #     яшящ     ) + яряЧяЯ   
-ящяйяыяоякянят 
- яь яшяш  яс        	яуяюяэ   	  яэяф     (     яэямях   !  яю   # яШятящяьяя  яляу  яэ   ямяу  яняц яя яьяшяшяоящяфящ  ял  яъ  
-яыям    	  яэ ящ   ячяш яняи    яяяф ящяэяуящяу   яряц ян ящ ямяжяуяЪяюяЦяеяняъ 
- яняъянявяЬяМяС яу  яыякяиягяЯяЫяИяО  яю яюятяь '   8 яэяьяд яЧяняиямяЩяпяояпяэяЭющюсю†юЊюРяюЊюЧяQяqяЋя’яuяrяyя‹я”я©я¦яЄя“я–яqяџяЙя¦яЅяЗяЛяЅяЖяѕяУяЙяЖяЪяйяыязяжямягяЩяаяхяОяЯяЧ якяхяЬяаясятяйяЪяЩяс яцяояиягяйяьяияНяХябяляЭяъязятяЮяп  
- яояЧяШяйяъяюясяуяаяъябяняаявялябящ яф ящяЫяаяюяФяпяЯягядяхяс яз 	яшяю яьяЬяЫяю   ягядяж  яу  яшяю   ящяФяаяляч   яюяцягяпяпяк   ядяпяу яф яаякябях яаяняо яшяеяЬяЭяУяиялясяй 	 ящяфяеяжяфяляъ яь  ям 
- яо ! ,  ягяу  яэяцяэ    яи  яя  яхяф  ян    &       	 яяяъ   
-  ! яяяг ярям  яь   	  ) 5   яюяо    	 яяяэящящ      яыяо яъ  	 яэ  ям  яьяляи  яхяшяю  ящ   ;    . 4 %   	     ! . яэ   
-япяр   яыят  
-   	 % яяяь ' *         , ' яю            яу       яяяы     ' яфяС ящяюяч          &яц   ,   яюяхяж     яы    яъячящ   яы  ях  	яя ях    яд   яы 	  яф яцярян  яя        &  яыяы       яНяФ 	яояЩяеякяяясяф якяјяЙязяяяЧяряхяц яУяПят  яфямяеяй яуяй  язяь $    яяякясяЧяеяю яйяТяляЯяйятяоязюЛюћю•юіяюµю›юҐяZяNя|яuя|яhя—яeя¶я©яЈя©яњя¤яЏяћяҐяњя яяОяКяїяЙядяи яаяГяЛяЫяЩяцяйяКяуяляЫяшябяяятяшяуярягяЪямяяяжях яъямяхяЩяоясявяУяФяПяЮяЧязяияю яюяЫяш  яаяМяЮяЭяФяПяИяПямяуяпяЮяхяыямяюяыяняуяЧяияцягян яп яМяРягят  яыяч яъяфяфям яюязяэятяч  	ягяряч   яряряЯ   яфяыяэ яФяэ 
-ягяуяш  ян  
-яс " яжяцяс яляйяъятягяъяпяхяУяняж   яляояэяйяЩяоядяэяя  
-  яцяо      яфяю яъяеяь ящят ятян яыяф  &       1 ящ язяряряр    'яя   яфяшяэ  # )    	яя яшяь         яхях ящ  яэ    яй  ( ' !      (яхяф яь    $   яляц  ях      #   (   , яюяюятяя яю            яъ      '   1 яф ' ( 
-   $ яь  яя яъ  яэ 
-  яояояц  5      яыяю  яя яьяняс яъ  
-яс 	яш  яф     яш      яьяш  яюяхяю # *   яэяю яьясят   !  *      	яъяэяфяЯ  яцяхяь   ясяьяЮяряьяпяеякяэ   # % ящяф 	 яр  ,яюяряе  ' .яляиянящяРяу яояЫяНяШяняюяьят   яфятяч 	ян  яаяхясяЬяеяг   . 2  ( язязяКяЦяЩяпябяыялясяпяцябянюѓю”юЎюЮюЭюАя0юояIяTяKя8яRя^яkяiя°яМя”яvяtяЊя—яёя‘я“яўя‰я·яБяїяЯ ямяьякяЮякяыятяЬяЛядяОяшящяяяаяєяТяэяйяпяжяЦяняо яяядяаяЮяляфявяЦяѕяДяЦямяКяюяъ ям якярят 	 яеяОярял  яжяжяшятязяжясяяяняаякяряфяхядявял яняд 
-яшяйяЩяпясякяЯяеячяп яйяЮяяящяпяяяоял ям   
- явячясяеяЬятяйятяряйяляряь  "  	    явяхяряхяш    #   яо  язяНякясясяф    яЭяцяэяжяЫям  яю  
-   *  яьяфящяж яь яыячяыяю  яяящяЮясяш   
- ящящ яр      яяяъ      яу          яияшящ     яэ япяо   $   
- 
-  	                 яъ 	 яхяыяч   & ' яяяц  яш   яеяш   яь    	  ! ясяи   	  #  	 ях 
-яы   яч яэ 
-   % ) 
-   # *яя       яр  "   яцях )   яэ   
-      яэязяю   яы   ячяф " яц # "  япямяуяк    
-яояхяя  яю яьяыяцяъ    ящятяяял    7ятяиян яшякяюяс   +  %яъяуяэящ  	яояэяйяу      яояяяуях   яэ     
-ях  яЫяпяяяыязясячяЖяВяЕякяияп яц   яуяпяЛяОяЬяз яСящяиягяцябяе - . F +ятячяпяНяЬ яЮягяаяР яоязяуянюуя,я[ю¦юxюПюЗю§яPя.я7я\я‡я$я_яoяµя—яёяАя“я¤яҐя‘я“яђя‘я’яРяЙяНяЮявячяыяеяцяцяйяТяФязякяфяеяаядяпяЬяЮясядясяВяЕяЭ яуяыяпяиявякящянябянягяСяЯянямярясяр яняНянясяЩягяХясящ  яйяЭ яэ яЯяпякяцяыян яч  
- 
-яб   яыям  япяФ яШяояьяряю япяю   яыяъяцяу ядябяшяЫяцятябятяряйяаяп яьячярящ яз  яыяуяцядяжяШяХяъ  $   &  япяп яъятяыящятяр ящ   яа ятяряц  яф  	яюяяяуят       
-   '   ячям  яэяу   яэ " яз   яэяшяд  ят          яэяняъ % 
- яж яя яь  яч , * 2   
-  + 
-яч  ' / & 	  ял   " %      яя   яч    ятяр    яь   яя яьян   ячячяы  яхяпяьяу  ящяхяу   ясяфят 
- яп      + ятяц 
-  яляф     	 &       P ( ( *   ямяы    яс       %          " яп  ян  & 
-   	 	 ящяяяю  яа   +     яьяъ яф яь 	   "  $  яэяияч яй   (  яю 0 яряряЮязяк  яъ  яэ 	яляйяжятячяп  яьяЯ яя 
- ябяд яеяйящяж  яыяФяаядяюял яюяп   явядяйяаяк  яцяЩяьяэ  яряа ' ! 2 2 яиящяияЯящяхягяс  яуяЭязяыюЏю‘юЉюjюUюъю‡юїя~яiя|я‹я†яqя­я®я©яґя­яћя‚яЇяўяЅяҐяЅяВя’яЄяХяЯяЫятяляЭяОязяЬямягяПяжяЮящяюябяЬяХяняэямяЬяНяшясяфяюящяояшяЬяшяюяшяцящяМябях яяяхяЬяияояьякямяеяияъяеяЦяфяо  язяхяйяч яьяйяшяюял  $ятяшяояе ядяу  яояиявяы    	 яъяжяояйях яиядяр яцяйящ яЫяЫящяЫяаяаяяящяяяляЯяжяЭяэ яъяйяШ ямящяняйяшямяэяуяу   яеяПяЫяз ячяъяьядящ    яЮяЪяу     	   яхяи яс    яеяжяк ящяъ яъ яю   
-    яшяэ % %       " 
-  ясяояя  & #яэ яъ яляы яя      яу   
-  яэ 
- яъ        яюязяу яю     яфячяр   яф    яыяк      ябяняцяпящ (      	 яц   яяяю   яс ях     яю ях  яъ  	      ' !   яц яэ      ят   $  % 6 $ яь  % # япяя             0 (  яь  * ' яэ 
-яш 
-яЭяы        яшяь  яуяЫ   яф яяяю  	 яюяуячяп 	  ! #  
-ялячяжячяц          яшяояЩяс  	яц яш  яп   яъябяи    яЯявяяяя яьяЯяпяы 	яуяЦяЭ  явяХяЩяпяЦяЬяляЛяв яюяцяьяояфяляЪяпяъяэях  япяк " # яя яцятяжяеяшячяу ячяпяОявяЩяЗюіюыяюѕюТю¦ю”юКяqя~я]яqя5яTя`яmя§я¤я„я†яЏяxяЂя›я®я«яqя•яІяДяУяЦябяняцяеяЯяМяЪяЬяояеяияУяИяаящявяняъяЯяяяЪяьяаяЭяхям яЭяПяЧяйягяЬяоядяЭяу ящяь  яйяп ял ясяХяЭяаящяч яйяШяйягяа яыякяЦяЮ ящямяЮяеяшяпяЮяфяйятямяиякяПяЗявяцясячяЪядяФяаяЮяжяаяШят  " яыяжяъягяпячяояшяш # яряшяа яю  яыякяхяш  яюякявякяояЮ 
-  $яу ящятящ яеягяЦям  ян  ясяяяЮяи  яыяъяо   яйяъяляр яхяр   яъяпяцяяяуябяч    ячяьяФяш   яы яшяяящ     $  яхяьямяьяъ      ячяш     яюяцят 	     яцяяяцяэяфяя яю    яюяйяч        
- 	   ' яф 	   яцяйяв      яэяш  яю  (     '   ' !  (  яю ятяю $     яшяэ ячят           
-     яя !   
- ясяш   
-    " яъясялям   яя   яй яь #      
-      яыяьяцяшяф        яхяюярятяр яь якяЮяхяф (  
-ячяъ яы  
- яы    яи     яц  яфяяяъ яйяэ ячяэ яфячяЦ   яхяь яь  
-язяп !яшяияЩяЫян   яЭяъяр яшяШяг  яЪяаялядяБяЧямяеяфяы  япяу ясяп ячяь  яуяЬяѕ    $ (якяХяЙяСяьяУяЩяРягяэяэяНяДяЭюдяюВюыюию±юЯюђяWяЂяђяKя€я<я/яgя•яµяџя€я„я“яqяЉя«я–яoяЎяёя¶яДяёяЫяйямявяиявяГясяЮясябяуян яъяъяЫяЗяЮямяпяляцяСямядякяйябяРяЫяъяЬяъяЬяЛ 	яфяЬязят ятяуяЧябяЯ  ягяпяыячяОяЕяеяН ябяфясягяняфячяЦяэ    яЭяияр  яЬяьяуях   яняЫяжясяйяуяняОяфяляфящ   яояляляя  
- ятях 	 яжяуямяэ  яхяф яляо  ячяшяряФяЧянящ яЬям яч "  яляояоямяр яо  ящ 
- яо   якял  яюят яжяъяряы  яояЮяляя  ящяЧяЬ      яю     яц   $ яу   яю   як 	 яш  0       $ -яшящ  яэяуяъ               
-      яь           &    %   яю      яь  	   яэ ят яхяф # &    яб 	   & яфям     
- яч 
-   ях  яэян      / яя      яъях 
-    0 (    яш яю   яя  	    -     
-   яя       	яуятяя  яц  8 яу ячяэ     ящ    яь  	 	     яшяд   яхяо    ящ яъявяияьяояя     яфяэ   
-ям  яо  	яЮяюяыякяг яь яыящяъ яняпяхятяиячянягяц ящяряТяЧягяѕяЮяуявяЪяеяияйяъ &   яшячяцяняЦябяъ <    яц язядяюяЩяШяЗяЖяцяшяЗяѕяЮю}юГюЧю±юуюїяю†яBяNя–яWя<я{яrяrяЎяИяЎя®я¬я“я›яЁяИя‡яЊяяѕяКяЛя»язякягяШяжямянясяЮядяУябящ яьяояМяОяЩяйяэяхяеяИяЫяЪяЦяЯяс ясямяляжяОяЧяпяСяаяйяйярязяляэяпяю яцяКяеяф ячяряйябяояеяыящ яъяы ячяФяфяуяэ " яяяеяЬяу 	яфяЦяьяЙявяй  яеяшякям  яв    	 ям яъяояояхяя 'яяям ягяжяяяюящ    яа ясяЫ  яхяняъ  яп якяуяя яуяу яц  яф  яэ  ядяи яэ яф  ясяе ятяэ яд  ял  "   ят     
-    
-  $ ящ    ящязяе  
-  %   
- - !    
-       
-яь '    % %   	      (      - -  
-  ящ  яь  , # 
-яь    & ячяь   ящяы     яя яц  яояц  * ян  яо  0 !   яя   яряя  :   яэ   яй    
-яш  ярясям  яя  	  !   %   яяяь 
-яц  ябяю   яъячяш     яьяу  яю      7  яъ      яляюяь  яь  ящ   #     +   яр яр      яуяо   яц яя  ядярят      !  !  яюятяяяя ябяЪяъ  яняйят   яю ягяъ яъ     ягяхядяЫяаяй  ящяияняТяЭяШяаяе  яЧяЪяу  яфяьяхяфячяя яюяыявяф  ,    яфядяляэяЯяЮязяняСяЩяфяфязяЙюяя0юбяCя юаю¤я.яSяљяyя`я[яCяaяoяђя|яІяЄя™яЌя”я±яµяя›я”я®яГяёяВязяЯясяцяияпящятяэятяЦяЪямяюячяс ячяйяжятябяХяаяЫякяХяЭяоящядяОяЩяфяьямяяяъяЅягямякяйяЫявяояиякяоятяляЦяаяТяляТяДяЬяЫябяъяпямябяьяняю  яхяуят  яхяпяляЭяуяЩяляшягяф       яя яЭ ялясяьявяхяф   яр яюящ яэ 
-яуяляу !яъятяр ярясяфяаяияуяляцязяЩ   яляияв  яяяь  яъ    яс ял   
-яп   яы ятящ язяшятяш яы 	 1     ят "   	 
-яояя   	   яляняэяряфяйяляжях    яюяи      яьяпяйяш   !  яю яы      яфяш         
-            !              
- " "  !  яцяляпяю яя  %    яъ       ят 
-   яы яч "  яч  яр яу япяфядям         #яэ  ! 
- яы  "   
-  $  #   
-ян   яъ 
- 	яояс як    - !яш   япяЮяд      яэяьякяю яц яя 0     !яляъ  3     !     япяфяы        %      	  $ япяз яшячяжятягяляш 
-   япямямяы 
-    яшядяеяэяжяуябяб  яжяЪядяТядягяшяъяф яъ  ян яяяпяэ яю   яляояц  " / ? яияняНяЗячяЬяОяКяХяНяИяпяъяЕююю}юNюЧя)юэюэя;яeяVяSя;я‚яdя‚я±я¤я°я›яњяwя†я¤яђя я©я¤я¶я№яИяР янящ япящяюяи яяяэ яяяляНяч 	яфяяязяЭяйяыягякяк яЬяСяЫяняМяЪян яэяуяМяЫяйяРямятякяуям яюяцяпях 
- ялящяъ  яо яэ яуяпяРяЩямятяЭяЫяТ  яп  ямявяняцякянявявяХящ яь  	яЬ ягям яц 	ясяиязящяч яряПяьях    
- яхяняеяю  яшяш яфяуян яыяеяляюятяЧязяняш   яцяьяуякяъ яы ядяш ясяпямяу  яуяцяцяЭяшяш  ян    яф     "яыяю    
-     1 !  	  !  яшяь ящ   яы    яч  яшямярях яф  # ямяуяф  	яэ   	 яи  , 3   яш 
-   яя         0 ! -    яя яэ  + яшящяш  1          яш          яэ 	япяь     яьяо    
-    1 (     яюяй           ятяр     ях          	  яс   ясян  1 яэяч яя   . 
-    явяо  ящямях яу ятяз     
- яэяъ  ящ   ящяряжяк  % $   яюяэяс      яч  яЪяняряьяфяъяш  яфяъяжян   яу ям  япяояоянягяПяОяу яшямяъ яй  язял ям     %яч яфяхяъясязяиявяьяа  . . 3 #яыяхягябялякяояНяуяСяКяТяЭ юиюБюzю¬я(юБюНю{яEя}яZя яQяVяdяeяҐя°яѕя§яЈяyяћяђя…яІяґяќяЄяЦяМяП яЭяЦязяфяряПяаяяяЬяЬящясяЯяЙял 
- яьяЬядяояэягягяЯян япяЛяряЫязяляряяяйяСяияч   яюяЬящ яЯякяхяляфяпяцяЩяеяр яэяыякязяТяУяЯяояцяЬяЭяЯяЫязяЭяф 	 яшянясяр ясятяЮяряр ядялях яияЧяояъяЧ  яеяхяч 	 яыянядяПяи     ят ямяж  якяы  	як ял  яэяеяе  яу   яоямяу   яжяхяг ят      яс  яы   &  	 5яюячяф   яцясяы  	   яхяю  ! ! яс     	ямяыяш 	яуям   яс яляк  яо 
-   	  янях    ях        яьяъ  9  яы  	   -   яэ    '  
-  
-яйятящ 	 яъ яэ    	   	  
-     (      
- '   ! 4   * яэ  як яы   , яэ 0     яъ  ?  
-    яо  +  ,  ячяхяу яэ    яя        ятяЮяэ !       яс  яц яяяыяю 
-яо   яю   яяяы   
-     %  яяяшяр   яч  ящ   яъ яьяы  яняю  ях яняя яяял % яэ яюяряч ясяп  яя яьяо ячяШяляФ яняшяЯяч    яьяфяряЪяКяЪялящяЫяаяу яЭяНяхяч ящячявяЫяйяФяХяцядяпяЩяфябяЩяуяХян   6  ячябяиямяцятяфяФягяЭяП  ясякю±юуюсюаю™ю}юєю›яQя‘яя—яMяBяeя“я…я„я•я’яЋя¤яґяЇяГя—я§я‚яЎяЎя®я§япяряЮ яцящяЙяняояЮ яЧяёяТявяаявят   яуяжяЪяияЪявяч 
-яжяжябяЧяПячяЩяУячявяЩятяряя  яз яэяпятяю  яЪяу яю      яэяьяУягяэ ябякят ятяпяь %ящ  яшяряШяоян 	 ябяэяояя       ямядяп  яЮяеяняшяшяэядяияуяЬяо    яе  яШяьясяяяхяуяу ят 	  
-яюяляъяч    яъяфятяр  яхязяЭяяяю    яцяфятязяь      	    ябяп яь        яя    яыяйяцяяяьящяюял    
- & яу   !    яф    (   	 яы яш  !        !   &  
-  # #  "     	    яэ   яя  &    яЭяш 	 "  ят      ячяфяяяяящяыяч ят 	  &   & * %       	яя  яя 	 (  	яияк    9 -яц     *     ях          
-   . (      
-   
-     ящ    яэ яляъ   яэяс         !яцяуяшяь  5 яэ     ям яь 	яыяуясят        /  
- яэяр ящ  яцяряы  яя яыяу 	 яы         яшян      яч    % 	яъяряФяЬяв яьяОяЦяйяЮяаяЯяШ яюяэяияпяшяфяЦяЮяу яляЭяЦярятягяд   яю Lячяцялящ яуяЫяЫячяцяз яяяЩю§юЦя(юЛюМюЛюІюБяяzяbяyя|яXяяrя¶яЉя¤я¦я›я“яИяxя€яёяЈя®я©яўяѕяТяцяояфяЭяЭяТявяряр  ятяпяЦяЬяыяфяыятяэ яЩяйяЖяйяг 
- яшяФясябяЩяЭямякяЦяИяпяъяпяЧяюяняъяЬ  
-ялямяцяэяряшяхяхяИяСяы  яияЩябяи     яняйяТяъяэячяы ягяъяя     ятяюяч япяряпяЪяфяцящяп  яняя  ясяк    "яэяшяхят яыяыяш          #     яэящяцядяняйяояжяЯяяяъящяЬягяЯяэ яь   'яцяп   яюяр  яь  япяэящяяяВяш 	 )      яфяфясяш яф   яЯязянящяюяняэ   "яжяояы  !  %   	яыяо   яя   яяятяъ    * 0 $   яэ яэ   
-  яу   яыящ яф  
- яяян яь ! 
-      яьях ясяжяьяя 	яряю "   яп 
-яьяхяюяь   	  яо    	      яъ         ятяю       яъян     
- 
-яняэящ   яь 	 " $              $  % 
-яшясял    ящ ящ 	    	       
-ям  япяоятятянят     	  5   ях          яч   яъ %ящянявяЯяояш яояь   яч    яь   яэяж  "яияшячячяЮ яюяьяояияСяь яЬяйяаяШ  яъяуяэярят  #яьяйяхядясягякяш     + 9   $яеяояхяЮясямяТяѕяУямямяжяОяГяюСюwюъюкюђюцяя‚яzяcяMяjяrя“яRя”яњяЊя‡я—я­я•яmя†яЌяЎяdяАяµяФяїяйяфяуякяаяЧяЭ  яиядяояряляъямяьяпяУябяЦящябяряпяуякярявяояхязяяяЕяи  ям  ясяш  яйякяжяЦядячяцяИяпяпяъ ясяЩяЦ  яшярял яъяхяшящ   	яеяЅяЬяфях  яуяЫяЭяе язяыящятяфяйяфясяж яо яяяэ  (ячяж  яш яьяц ян яю      !  $  яц    язятяюяэятяьящ яеяеяЧячяыяя яряЮяЮятяы ' ( 	яюяпяиякяр  	 ясяц яю яуяюял   
-ячяхясяш 	       # 
-ях    	яь яр  яя  "   	яю яхяуяуяк        ящ  яцяФяю        яфяр )  #    яь    ятян яшяю яъярян якяс яюян       +  0          яю   & яьящяш  & яшят яь  . %  язян    5 %   яяяфящ яняэ   яюяъ ящ  %       яу яъяю       )     
-   ячяр яыяч      6яняф ям  яэяфяэ яэ     	 яч     яуяж   яя  яд яъяЪ  
-  яь яч ящ     ят  яу яцякяу  яюяуяЭяфяу   япядяьяч яе    яэ   ят  яуяюяШяШяаялябяеяЭяєябячяе    	 яьяя " 
-яс  яряшяСялямяшямябян #   
- япяФяХяЪятяЦяЫямяЪяґяЩяЭяДяБюФю7юћю]юШюЭяяяVяEя9яvяvя¬яlяfяЇя­яљя”яљяЉя я®яЉяћяЃя†яБяБяСяРяуяЪяРякяПяСяЧялякяп яфяХяШяСяаябяеяЩяряЦяняляфяьябяеяШяЬяЩябяъямядяаявяжяРял яо  яияРя»яояЯясяшямяляюяхяъяЮяОял яфях 1яч    яхядят 	яе  яю яйяпяяяц    яояыяуяДяэямяыяз  яэ 
-ящяю яф яияцяняшяч яжяп япятяЮяЦ  )    яъ   	ящям    яьяя яц яШяЪящ  яы   ящ & )   	якяыяыяШяйяэ ятяУянякяяязяэ  яю 	   
-  яф / ях яйяэ   ) )      
- як 	  яояш   
-яьят     ' %      яыяш                    	   яыяфяп   яь  
-   яэ  $    	яп   + B ? ) *  яф   
-ядящ  яюящ     &   	   яьяю   & C        яы  ! 
-   ящ    !    яхяоящящ    ,           4 	 
-   яэяц    яю   ) 6  яцяп  '  яц     яэ  яхяп  /  яюяняЩяъ  	 
- яхяуяя яъяе  ящ яч &яяян 	яъяЪяэ   	якяыяи    яя     яояЧясяъ яеяняряляпяч яшяцяряюямясябявяфяуяжягяйяРяряТядяц   
-яЯ  яНяюяюяШяхяфяд явяЮяеятям      яСябяРяМяХягяцяеяцяаяИяјяДю…юіюЕюЕюеююЈюжяaяJяTяEя§я8я{я‰я®яЈяЉяЊяtяГяЂяЎяЌя¬яќяћяВяБяєяЛяняїяЫямяаящяпяЮяняы яШядярякяъящякяЪягячякяЪяЙяЫядяжямян яуяЛяХяияъяфяеяз ячяХян яэяа яв яь  яняцяцяНяТябяп яфящяЯягяь  ячящяь яняаяж яЮ яю яЯяъяыяЛяСяхяюятяЯ яляпяфясял 	яьянякящяйяЩ  яюяТяШяЬявяЮяияшяу     , яняОяю  яюяэяю  яйяыяф    ят яхяа     ямяшяд   
-  ( 7   яю ящях яз 
-яэ яя > яэяй   яы яя  яяящ яъян 	            #яъ яу  (       яы        яэян         ят "    яю  % яшящ   яэ  яф    6 '  яюяпяфяу  яцят % +   "яч       ял яфяу   ях    
-ях   яэ        %   #   % # ярян яыяъ -       & $   яй яряпяы   	    ящ   яы           
-        ' ,  яъ   яю  # $ япяв 	 ячяр    % ядяЩяыяэяхяюяъяЭяцяляъ ящящ   яюяряъ яцяо  яуях 	 яц япяуяк   яцяа яеяЯ  яю  яь якягяЮяьяшяюящ  яияЩяМяЦяФяР 	ящяШяЪяЪяряняпяшяуянящяеяОяч  	яцят яяяаяфякяняу   )  %яжяЦя·яКявяФяХяЫящякяуяпявяеюВю,юFяю›ю_ю±юНя|я_яzя8я5яGя^яuяУяєя~яЂяљя“я‹я¤яЎяvяЉя{я«яґяєяКянятяЪяДяШяняТ  яэямяЭяХяю  якяМяняиядяп   яуямяняр   яяяшяуящяжяьящящяъ 	яъягятятяи  яцяйяяяхяХяфяаядяшяЭяъясяпяияъ 	ядясяжяняэяхяШ    яшяяяЩ  яЭягяЪ яияиявяеяу    яеяфясяЭяв   яряь ящяе     яеяояЪяо ; яц яч   яэявях яряя яч яцяш ячящ 	   
- яьяюяуяф яч      $    яшяЧ явяцясяю   яц  ящяш яц ядяэ    яф    яп      яшяю       яьяс    2          яю   ях  1          яу  $   !  	    . (яя   
- # яф  яч яэ   8 5  	    # яюяьяъ  яюяъ        % ял  )      5 яэяхяэ   ямяэ   яхян як     яэяф     яцяцяьяя яэ ящяы  ящ  ) 'яя    яч ях    яш    8 ? 9 	 % 7 "яь  
- яъяь     яр  
-ящ яи    
-   . 	яъ  яэяаят  яняя   яюяр  яф 
-яфяэяюяпяуяуяыятягяШ  яяяюячяуяю ясяряб   	    ям яь  ясяеятяпягяыяЯяаяЦяъяняјяЧябяЪяуякяХяу 	   янячягяъяаяаяняуягяХяЪяк яэящ  яЭяЕявяпяряЫядябявявяФябяпяЫюКю юљюќю°юvюАююяsяPяЃя]я_я_яbяxяљяЌя‡я†я§яѓя„яяuя…яяљяѕяєя·яДялякяфяйяПяНяо яйяЭ яъях янямяхятяряъяъяфясяеяьяеяняпявяыяэяж яхяаявяЯяйяуяаятяияюяшяу яфяЮяОяйяпяй  #яняр яьяу  ярятяъямякяиящ явярясящятяъ ясяшягяеящ  япяфяМяжяцяюял    ячяляс  япяЖяшяуяМязяхяаяляз яюяр  яуяы  3 $  яЭяряяячяоятятящяняя   яуяе яэяшят      ях   (     	  ямяз яжякяа     % яряьярячясяя яф            ях  "       	  	яцяюяряшяъ     	 - яэяч   яь 
- яоящ ) &   $  яь       
- 	   яь 
-    яюяъ        
-               '         
-яь    !  !  	  яюясяъ ят  яч     
-яяяеяЦям    3    *  ях ямяц " ) )        яс яьяь & яэ     яю 	    ' яя    ! 	яэяю    яэясяш  яф яш  яхящ яр  - яц    "яыяэ  япяз 	 	  ярячяк    ягяФяцяр    ядящ  яэяы %   яч яю  яф  
- "яя   яйяъямяуяЯямяХясяеяЪявяЗяКяЫя°яг 	 яжяїяояэяъявяд 
-яйяЭяШябяжякяэяЩ !  ! ядявяЭяЮяояпяжяЧявяЬяЧяжяЯяЦяШэцю]юєю™юЗю”юЧюњя:яMяTя]яdяIяQяSя}яҐя™я¤я я¦яЅя•яzя”я­яґяИяЖяаякятяляхячярядяЫ яеяОяНяняХ  яшяЬясяЮякязяоярямячяЪяЪяшяСяРяеяцяШяяяшяояьяаяЭ яуяжязяу ямяЦяшяШякяп яп ямящ яд  яя яляляцяУяъ ящ  	 ярягяшяю  1яряляэяу  	япячябяг    ял  яу   яъяияъябящяйяыяй   яюяияаям    яъ яш яр     яеяш 	 ян  !ящ  яъ   0 яыяи   
-    яъягязяф яряяяояРяЮ 
- яу    яэяеял 	яфяя 
- яс % яяяы     яюях 
-  %   !ят 
- яэ  яз  яшячячяф   
-           (    яя яц япяхям   # яяяъяы 
-  яьяхяю   "  	  яы                 ящящ   
-  яя # яэяэяьяы  ящ  
-якяяяп яюяъяэ  яя  яъящ   	 яы   ял     ,          яюяьяъ якяшяяяряч 	      яы       + ящ  яьяхяъ  яъ   яя яю  яжяюячяряЬ яеяи  
-яя ячяэяь яю  ят яъ   яь    яюяЪяч  яуяьяэ  яхяЦяп  ях  ят   &яйяТящ    яю яфяц  яЮягявяЭяХяпячяЯяфяЛяТяйяиячяьяЮяъят   яфялябяияляцяояняжяуяъ 
-   яЩяПяЦяюяфяеяЙяаяэягягяГяјяёяЪюHюжюЬя ю|юЉюъю®яPяЃя‚яЏя]яPяЂяeя·яЏя«я§яАяЄяєя¦я•я|яјяЇяВяЅяДяШ яыяЧякяояхяняняляаяуяя япяя ядяояжяЮяфятяэяьяуяНяряняЯяэ  яеяоядяаяЫяТябягякяУяфяю яъяТяїяРяПят яхядядяюячяэ ях   яиядяе         яПях  яхящяяяфятящ яй яояв ячяыящяо ядяцяйяп яю 
-яэяаящ  янях   яцяЫ яю ,япязяу яяяЮ яь яюяюяхязяЮяюяьясяьяч 	 яшяЫян  яъ яФяпяю          ях  & ,   яр     яз  яф  
-        	 ях    яяяряояпябяпяъ яь   !   ячяь  яъ   яя C 2     
-  %  яяячяыяшямяфяюяъяю яц    ям   	      
-яхяя 	      яшяф      ямярятяряу  яюяяяю  яъ   ясячяю     
-  яъяш   яя  яш         !   яя  яряюяряф  . &яц яяяъ    яф 
-яю      яняя /        
-  яъ     	 ящящ     яшяу яуяьяь  ячяй яхяъ яояр    # 
-    ящят  япяы  язяю    
-яьяэ   "яйяи яияУяб яхягяы   яц  яуяняз яшябяшяьяс япярягябяэяе  яшяеявяаяпярявящяияДяЙяж яЮяЫяЬяОяОякяйясяряняв яс  яэ  яЭягяШ явяЅяМядяЩя»я®яБяИяДюЂю»юґю югюиюmюФяlя‹я^яuяeя]яdя#я€я©яЏя‰я«я‚яІяљяћяЊяєя‘я©яґяЖяБякяЧялякявябяляаяцяцяш яфяш язявяляюяэ ятябяъяЧясяпящядяЮяхяЫясяияряи яя  яЭяОяЮям ях  
-яФяряеям яияю ял   япяряхяпямяэ яюятячяЮяъ ям       яйяыяюяб яшяч  яъ ял яюяэяя $ ял   яэятявяз   ) (      яэяц ' яо     яояъ яш яхяьяъяцяф япяуягяр    
-яп яю      # 	 	 
- 	яп 	яЫят  яьяляйяф %    ящяШ    ягящяьяюябяш яжяь  	ях   яя    & ( яс    яэ яш    # ян   яр  ящяю    яфяьяы  0    
- яь       яхяю       яъ    
- 1 #   яф   яу #яю  $ яя 	    # # яп        яь 
- яп яуяф  яю  *  яи 	 	  ] 8  !      & #  (  яь 
-   	           !   ( 2 яу  
-    ях    яэ яч яю   яряУячят    ' яц   яы яхяьяы яы     6  ят   яяяэяаяы яъяпяп   !яюяк # . яЮяхяч ясях ямябяя  яяяф яяядяляляеяю ябяляжяшяуямяХяжяТяЦяняяяуяФякяеяЛяфяуядяШяЯяляхяЪяо яцяРяаяъяняжяЪяэяьяо     'яцянябяРяпяЯяМяГяЕязяд яЩяеюїюйя ю›ю|юњюЋя)я_яWя›я]яoяPяTяOяeя|я¤я’яљя•я‚я¬яАяІя§я±яКяјяПяѕяПявяЪязяЫя©яУягяФяеяпядядяняШяОяеяфям  яЦ  яПяЮяияЫяРяеяыячяЬяЭяъятямяняЩяпяпяЮябявяПяШ 
- яНягяЪяХяЭядяа яряаяияъяйяйяОяФят  яюяМящ  
- яюяЬ якяй яю  ящяСяш   ясяшягяхяяячяя яю   яЬ яъячяъячяьятяя   4  яя  	ят       
-  ящ   яшяе   яцяьяфяР   
-ячяф   !  ясяс     яи  	 яю   яняы яч     яп     ,яыяуяш      яояояЯях  яю      $  яп  	    яя ящян   	   
-  2 %          яняхях 	 яя 
- 	         ятяпяцяь        	  +  3   яыяы яп  яюяэ        яэ    яЬяф ! 1 . $ ,    ящ 
-      #     
-    & " яь +   -         "     яъ "ям  яъ   ясях  4ят 	ячяояфяхяояъящ ясят     (     яжяс     ят  яъ япяп  яу   яы    ян  яшяф  яшяжяы      ягяФяе   # яхяюящяыяъязям  яЪязящяхяьязяЭящял яюямябяп ямяТякяляпяоящяЩяЯяаяШяжяЫяяяЯязяь  яЩязяфябянядядяфячяюяЯяляр "   + яЯяжяЮяФяТяояьяюяЮяияляЯяжявюѕю–я(яя юДя(юдяџяOя`яDя(яHяЉя“я•яmяњяАяБя•я±яљя‡я›я¶я‘я®яЫяєя·язяжябяЪязямяФяИяЛямяояйяияьянявяи 	 яйяЭяъяЮяТяЬябямяЦ  яз яняиядяшядяюяняжяюяфягяйязяЩ ятятяїявяйяаяиящяЧязямяпядягящяЮяч   # яфял  !яяяяяояняяяяядягяшяйяб +   ян яб ягяъ  ят яхяэ япяряю яляЮяшях 	   яхяЩ  яз  	яеяэ    "    ячячяч яйяыямяг   яш     1 яч яю  яюящяфяйяхяб    "яфяп  & 
-япяв яы  2 $ясяйяш  яп    ясяу   яь       	яй яыящятяуяф яь   яю 	    яч  яъ  #    яъ     3яю 
-   -   яьяч  ( 2  	     %      ! яеяэ   яы  яю             яы  яаяэ  &  !        яу       яэ           
-  *   ящ   яЯяэ ' " яч 
-     яшяч  )яюяэяч яш як  2 5 яо 	ял  яя #        -яяяш яЮяу янящ  ятяЮяжямязяъяряс   	 ят 	яу       
-  %            	 ящяцяз яцяъ яъ  ясяч   яляэ -  яияШяЧяхяжяПяОяХязяъядяУяФяТяЯяУяМяияРяНягяьяэяюяПяйяОяцяияЙяЧяЭяиян яч яьянятяэяу 	яэяеяЧяЧяшяСяЮяЯяКяФяс юЭювюбюБяюнюзюаяYя_я[яkя]яWяUяMя‹яҐя›яЈяЊя¬яЈя–я‹я›яіяІяЫяХя±я¤якяюяПяЧядяжяПяряряряФяКявяШяияЭяцяляб  якякяЭяЯяХящяцям  яьяюяЫяшяиязяЬяцяоячявяЮяЦяояияфял яюянябянязяПябяояаяХяяяфяю яляряпяфятялятяй яхяйяу яъяхяояуяаяэ   ярячящ  яфяю ябяжяЧяеяф 	ящ  ятяияфяы ялят  8яэяшяу яцяэ яуяя яй    язяйяняхят    	  	  0ящ  яоян   яэяъяпятякяы яг $ яйяэ    	яы ятяхялям  ят       яыяяяш   яя  яп        ятяю  ячяыяйяы  
-ял яз  яы          яшящяы     яш  #   	   яяятяе      ях  " /   " ' # япяэ яч     ятяю      &   	  
-яр  . '   яшяй яряуяь  яыяэ    	 
- /  )   язях  яю 
-   2 5 яы яуяь       &     ; O  B D 2 "яш        яш       ямящ яо   .  "яяяч %  яуяуяъ яяяш  # яфяч  яжяц    яь    яр яъяыязял яцяхясяэ яэяхяйяоясяуящяфявябяйяч яъ ямят  "    яьяк яйятяЛяЩядямяюяЦяёяСятяяяЦяеяыяЛяЭятяфячяФяняе яЦяЅягякякяУяСял    яяяХяяяьязяРягяМяШяУяОяЕяїягяЧюЛюpюЗюЕюуяю†ю‘яuяbюря<яя!я"яtяџя·я…я†я€я…я•яlяЉяzя–я©я±яЇяСяЛ япяМяУяїяияРявятяуяЭязячяУядяЬяияТяР язявяШязяняѕяЯятяЪяШяфяо якяЩяЮяРяЩячяЦядявясяфятям  яряжяйяб яцячяьяСятяЙяТ  ясяжяи явяжяЬяпяуяеяшяняг яэяЭязяъ  яюяз  ящяияш  , 3ятяж  яы        яйясяп      яу     яч яя  яы     ( язян яь   & &яф ' яояьяг  ' ' яы      яэ  	 * & ясяы   япяияу        
-яъ  0  /  /    ! яу    яэяцяцятяш    ян 
-ящ яцяэяр      ятящяш ящяя   яя  як 	  %   ! ящ 
- 	        
-япяя 
-  &    ! $ 	  2 яя    1 "  яы       (    яи яь      яшяъ   , ) яфяп     	 *       
- ят    !   "яш  -    яы  # 
-   яэ 
-   / 5 2      
- яьяю 
-   
- 'яляь       яы   ' !ящяш   яЬяляЪяыяя      $ (  ячяй  ящ    
-яшяляю    яояЫяеясявяояляШяъях  	яа яш   яхяхяьяыясяы   ятяъяюяыяфяьящяЧяйяЪяйяжя»ятяняОяЫяУяВяЬяЩяоям  яцяЯяѕягяЩячяхяКяОяЧяЩямяу  
-яэ яуясяняпяляу яжяЗяцях яФяИяеяЬю’ю¬юГюъяMющю\ючяhяMя_яNяUяIяVяuя©яІя‡яЉяђяїяІя«яІяАяЖяјяЕя°яИяПяеяУязякяшямячяУяЪяеядяю  яхяняфяиямяеябярятяХяЕяПяСяфяАяЙяЛяЮяъяояЬящяХяряжяаяЭяЯяЭяаяСяыяу яцябяуявяуяЭяТясяю  яэ яюяи язяюябямяьяхяКяояояЪ  
-ябягяуяк  яЬязяя   яы   яч ярят яс 	яу  
-ятяжяШящянясяряхябяжяо   явях яв  	 яэ яя яиякяряфят       яш 
-яцяюяж   яряпяряэ   яЯямяу  # *яыяпяю яц яс  # яы  ( ясяшяы    ямяи яхяк    яЯ               яч 
-яуяцяп  яъ   яы   яц         
-яфяо  ,  	 яьяю ящяц    $          &         %     	яя   ;  яюяу * =    !яь яп   яч         $ячяы  яь   5  	  яь          " яж   яч   (     
- " $яхяъ !    
-яьяцяю     ящ яч      8   яю   яыят яйяб     
-яы    ячяы  яцяе  %яю   яс  % )яъ    ямяряэящ  яюялях  ящяЯят  
- яшяляэяд яй яуяШяи  яияйяыяЦяНяОяШ  якяЩяеяЩяуяЪяТяжяы   
-ямязяняояьяияГяЪяняшяляояЯяХ     &ят яНяЫяйягяАяРявятяЭяйяФяЩюююдюљюzю‹юЗюэюЏяZя&я_яoяlяJяjяXя›я—яяЈя§яґяЃя§яїяЄяБя¤яАяєяЬян япяю   яхяуямяЦявяй 	яУяц яжяэяьяЭяеяЧязяЦяояЮягяЖязяю яьярявявяжяыяуяняцяЯяшяияжямяуян яияЩяИяЪяляШяВяРяч   ялям   яъяЧяжяняпяняЦяж   якядяУяЩяи яояе   язяы  	яфяияуяпяй яцяйяф 
-    япяеян  	яхячяояп  1яцяшяы яуяш яю  ясяыяаяуяряЧяФядяэячяэят   яйяи яц   яэяэ  яэящ яы ящ яояъ  ящ яряй  	 яя яю  яи ядяе   яцяю  яьяи   яф    яс  яш '  яъ    ) 
-        яи    B  яэ   яо   1   ! яя 	яэяы     "        яя  # &           яя         (яюяцяя    яэяь  #     яу  яя  " /   яя   " яя    	 ян         	 яьяу        ! 	     %     яп    яияняъ    	 яю  #  якядяы  яю    
-   яоят  яц  $ яэ яояк   яо  яо   яш   яЮяп   янячяа яэяуящ яяяп  ящ яхяс япяряъяж 
-яъ яоябяЦяш яУячячяЗяЕяОякяэ  яЫяХяДяМяЭяйяьяйяхяояШясяЪяРясяЮяЗяФяшяЯясяШязяцяпяы  7 .  яуяЩяРяІяияЩяПяЖяНяШягяЩяОяµюНю–юЦяюЯю§яяяqяXя#я7я3яEяIяYяћяҐяђяЁя•яѕя©я я—я¦я’яя±я§яЇяЭяьяо 	яфяуяЮяШяЧяГяЭяляжяиярябякядямябяЭяЪяЦяЫяЩядяПяе  яыяняШятяШядяряуяж ясяхяш яэяшябяФяЭяпязяпякяк  яэяз яю яфяяяоязяъяа яэ яфяияЫя±яляыяняняфясягяїякяшяу  ;    '  яЭямяе ял яя 	ят  яйяшяь яя 	 ял 	 яэ   яы яы  яуяряняц ялян япяияыял яняхяв # 
-   яфяй        0 яр 	     яф  яд  #яч      	  яю яъяш  яэяэ      яояняпязяфяш         яьяф  яыяхяъяя     #  яэ  * 7 ! &   яъ яюят   $  (      	 яж   яы           яъяф    яэ : %            '      /  
-  	   яй 
-    	ящяьятяшяш яя   яъяэ  яя  
-    
-   яЮ      ,     яЩяЦ 	 5   
-            яю   'яь япях  
-ящ 
-   яяяцякямяп яъ  яЫяняуяяяряч  ядяЪяю  яияш яфяЩяляэ           яняняк   яъ  ясящяч ягяф  яы  яляеяСяэяг яэ   яж яэядяаяУяШякяцяЭяОяЪяшяЫяЫяряш    ясяхяОяГяХяФяу яфятяк ядяг  яя яйяОябяСяјяаяЙяЅяАябяЖяЙявяПяцюѓю›ю¶ю”ю†юЎюљю©я"яHя#яJя[яЋяmяaя}яoяvя™яЃя…я‡я§яЁяя™я¦яАяПяБяЗяЪяцяз яйяйяЕяАяЦябякяеяляэязяряЫяХяХяоямяжяЦяняЬяЫяж  яз 	яч 	ясяъяжяШяняяяфячяШявядямяэ  яеяЩям яюял  яьях   	 яшякяляряо ялялятяЬяняЦянярязяд ячяЫ ябятяиячячяы     яя яц яйявяЬяШяуясяпяяяя    яэ  	 яс     яхяцяы яьягяШяы яъял  ян   яя   яе  яояф  яхяфящяю яьяэяю яояоянязяш  яцяы  яы   яяяо 	  яияо "яя   $   яр         !          яя    яшяц     яъ 	ялян  яь    %яш  яс    яц   яч $       яяяхяц  ямяц    яряш   	яъ 	 % 7 %   +   1  ' яр      	ят  яыяьяэяц      ! яъ  яф    яряя яы яфяу      яуяя 
-  4  !  * " # - (       / !  	    яряряу  яюяу        $ яя  ящяъягяйяф     яы   яу яэящ   яцяъяо якячячяь 
-  #ячящ 
- яф  
-  яжяюяьял яйяїяЪякячячяЦял яъян  яряк яц яояиям ямяШявяЮяЮящяЪяµяДяХяИяёя­яТяаяЪяжяояряЯяЩяОягяПябяЮяЙяХясяпяыяз  яжят яОяХяПяЭяТяИяБязядяТяряшяЦяЬюхюгюЛю‹ю•юrюђю·яRяyяyяVя<яя.яPя™яДя›яћяЎя°яjяRяqя}я’яЎяѕяєяєя»яЖяРяКяиязяняЖяИяСяШяряс яоям  ящяпядякяцяаяЭяШяХяЪяйячярявяняаяняпясяНяХяЬяияряХяЕядящяЩяз ятящяхярянясяр яфяляФявяЬяьяРяКягяъ   яыяляцямяняуяюящяц  яяяч   яыяп  
-якясях  якяъяшяряйяи ягяФяч    
-яъяс  ямял яш яняо ящяЪ  	яфяЪяЩяаят # )   яъ   япяу ях  яр   яяяпяпяняъ яъ 	 + 
-    яэящ   яляг   (яч    яш 	яы  яЭ  ящяэ  
- 
-   &     яэ 	        ячяю   + , +    	 '  яы яц   
- 	      ящ        яц яц     	 8 $ яф  	яцяяяя ящяяян         $       яъ  	яф      яэяьяъ   яаяс   ящ       +  * '             	яцяь  яс       5 3   )    '    яяяу  ячяу   ,  # ятяь  	           яЭяж 
-    яч  	   яь -   ях  яуяуяя яОящ   янятячяэ ятяэязяфякяц #яняпясяш яьяхячяп яояТ 	ящ    яыяъяяяшяЫяСяЧягяЬяЫяряжяДя©яЛяјяЙядяхяйяПяуяЮядяеяЫя°яЅязягяЦявяЫ  яЭяшяэ 	 яы  яСяЕяЕяЇяХяУяЅяЛяйяФяТязяояКюыюћюјяюЂюіяютяFяOяLяaя'я&яPяBяя’яћя§яяЃя яћяmяќяјяёяўяЁяТяёя¶яМяДяЯягяжяйяояеяОяМяЧяЭяряйяъяЪяЭяояЯякяЯяц ядяЭяЩяшяъяояуяряпяуяяяжяТящябяНяі ящяпяъясядяб    яияк  	  яоянядял яряняжяв  !  яаяЮяЙяШяеясяФялярясяч яъяЧяр   ятяцяъяЫянятягямяю   ящяо  	ясяеяхяэяъ ят   ящящ  яы     яя     $   
- яцязяжяс 
-яш  яюяк % яъ 1   *     -   	 
-язяц яняы  яняф      яэят  яъ       . % ях  яэ   яшяэ             )    
- # - 5 ячяь  яя яшячяу 	  
- яу            яя   яя  ,      !     / яю   .  
-     
-     8    &яшяжяняъ яп  
- яю яь  ( "яяяьяс   ! 9 яюяч   ) &   яъяуяя  . яляЪ     яъ  
- 
-    яьяф      яя 	яш      яь  яояяяъящ    	        ябяс яшяЮяш  7  яш яряьяр яяяю   
- япяб      яш ян    ясяшявяч яШяя ящ  яеяиякяияФяРяж яюяфяэяняъ ятяояЬяЭяМяЭяцяШяжяЛяЙяМягяШяеяпяшяляхябяцяаяОяМяЭяЪящяояъятяЪяиягяи   яьяцяляъянячяДяЇяЅяЅягяОяТяЩяыяЕюТюїю§юњюСю±юЕюєяяяvя’я,яя‚яIяљяҐяЋяЉя}яџяћяЎяЏяЂяzяўяЛяЇяИя¶яїясяаяляияЫя№ятяняЮяИяКяеяЛяеявяЯяпяЪядяЯядядявяаякявяиякяэяляьяЮягяуяЪяЬяиязяфяОямяОясяю  яэяйяш   яияоячяхяцяЮяа яф    яъяъяэ ящ 2 6 
-яЫясяцяоявятязяЯяы 
- як яя яьяь  яэ яияз    яЯяцячяйягяЪяШяняъ   &  яъяеяъ ящяъяняЮяэяр яхяхяоякяр   яряяяюяч   яы яу  !яэяю  ян  #ящязябяцяя   
- яы яфяп яхяуяпяя    яэ '  яшяо яы  ян    	   яфяш яч  яь    яфявяэ 
-              	  яхящ  як    " *          #   " *     " 
-   	 ят  ? 2  яъ      *  яц       ,      0 яю ячяч  яю 	  яряя ячяуяъ   ях    	                  !яьяы яь   як 
-яь   
-ях 	    яжяэяряэяжящ  яуяияяяряп яшяояяяю         яэ      
-як  яь        
- яюяуяцяэ язячяю     япяряеяйяр  яэяляв     яаяйяшяояы яхяняъ яьяняхяо     яъяУяЦяСяаяСяЦягяДязяШяЦяЮяПяЫящяз ятяч яЮ 	яШяКяШязялязяУябягяг    	 *яЧяСябяйяЫяОяВяЯясяНяУяМяЩяМююЈюҐюЧяюсюТю©я?я-я8яQя]яCяaя†я я–яќяЃя„яЄя¶я«яѓя~я­яБяїяРяјягяМяи яояняФяВяФяЭяЬяЦяхяЫяШяцяфящяЯяЭяЮяЮясяяяьяпятяЮялявят 	яЬяаяЬямяжяНяж  яуяЯязяеяЫяЯямяъ яы 
-яцяь    яя    яШяп 
-  яу  яыяЯяъ   яМям  яюямяЪ    ятяюяхяЮяияУяб   яжялясятяз яФякякящ    яЮяж 	 -     (яляы    яь   ях яляяяеям  
-яъяь  яяяЧ яюяэяя  
- ящ    ) " / ямях 	 "яя   яю &   яя 	ях    яш   #  ятяшяъ   / 0ягяцяя 
-  яхяэ  яаяь  % яуяц    !            # $             ящ        яч       ( %    яя    ят  " # $   .   ящяр  
- ! )   $ ях       яэ 	япяяяч  
-   яч   	 "яь  = яя 	      -  яяяу     
-яцяпясям     яэ   ячяфяъяьяь  %  яю   
- ят   яЫяр        "  
- яыяв  &    *    яьяш  ! & яш   яряэ яс  % яням  яняг  ягяфяю яа  яц яшяеяЮяцяцяЩятяояшяуяряЬяаяьяа ябянярях яфяЯяСяФявяжяЯяс  ябяНяУяНяЖя№я¬явяЧяяяъяиязяряЩ яНяАяИямяцямяЬяЮяХя·  	 & "  яПяЮяЪяыяФяЖяЯ  яыяПяЪяЪяИяПюQюLюЪюуюџю¬ю{юВя"я+я!я.я9яNя†яwяЈяxя‚яѓяmя{яnяqяІя‘яяЄявяїя­я¤я·ясяЩяЯяБяРяаяеяШяаяЪяЯяйяЩяЯяЪятяляэямяФяаявяляЭяМяЪяляй 
- яЯяЮяЯяУяЭяФядяХ яф !  ямяФягяш 
- яы  яаяюяЯ яи яя ягяы   ярян яияшяУяЪяс   яеяуякяяяляряоякяпяуяъяыяпяжячявяЪябясяц 
- яыясяияяяь яю ятяя яю яя  ячяя 
-яляцяц   яуящ ящ  ядяцям       яуясяи     ящ '    яд   " 	яюяпяйяя яаяъяпяп    !      яш   яф    
-яь    	 
-яф   !     яъяРяк  ящ     	 #   яшяя яъ  + ! яц  %     ящ    яы 	   'яэ  *          "    * -   5 (    яя  #         
-  яэ  
-  -       
-ял  яя  	     	    '    , *          яэ  яю  %        ящ 
- яч яч     7 +  яу яь  язячяыяь   'яэяуяъяч   яп  0 яь        ятяп   	яфяьяияэяЫяУячяьяю   )яъярят  яьяшяя        яюяеяОяЯяы яЧ   якяпякяъяйямядяж  ясяа яйянясяляэяНяВяаяаякяХяоядяЙяаяЦяРяТявясяс ямяюяняцяСяеяжяыящяуяУязяЯяР $   2 ятяДяЬяояжяЬя»япяМяЭяКяняСяЩюeюxюЛюҐюєю=юЂюvяRя:я.яzя8яUяmяJя±яўя‹яtяrяrя‹яяќяЏяя­яМяВяЅя¶я©яєяМяЛяРяЪяжяКяЕяЯябяаяНяФяБяэяъяЭяЛяСящяФяЭяЬяХ ялязяЭяияЪях яЧяхяляШяНядяаябяХяряцяаяЪясямяояъякящяи 	яюякяЫяуяд япяЪяМязяхяьяэ яш  яй яКяояуяуяшяЫяч 	ящ  , ягябяп  яй  ящ    	яхяь  ярятяфяо яояжяч яьяняы  " яч  яя  #  яуяз яь   яр ячяц яыясяя    $  яюян яэящяцяшятякяюяе 	яняс яс язяжяняэяуяя яр ял ящ     ял  6 !     " 	      яьяюяияшяи    яэ   - ямяыящ   яы як   ящ яшяу  %          яьяэ  
-    	 !         яь   яшяь 
-яяяэяю     # 
-ядяу      .   яу        
-яйяуяряч  # яэ  яю % "      яь   ящ яи  яя ящях яэяуяю  яф яэ   яяяъ      #      яняюян   яч яйяц яЯяа  яъ   яо ,  
-   (  $ $   яЪяй  яэяпякяЪяъяЧяШ    ) яжяжяцяюяэ 
-ящящягяцяшяъ  яьяуяпящяк 	ясяйяЕякямяйяняюязяаяьядяе  яаящякяаяп яшядяЫяЫяСяХяуяпяияЧяТяѕяХяЯяЩякяжясяэяь 	яляояЯя·яЇяНяияЮяЯягян яъ  $яаягяЛяіяСяйяояЮягяБяРяЯягяЯяюя!юЏюѓю®ю›юию›юняPя3яOя@яDяя.яXяЏяя я«я›я‰я”яЌя™я†я†я·яНяБяія¶яМяоявяуяФя№яЮяляжяЧяФяияьяЗяУ  яляЛяТяшяляэ яшяШяляЗяЫяЯяЯяч  яйяхяЯ яряч яъяЬяЦяуямяаяФяжяЫяуяжягяя  яЭяфяЗяфяУяЛяЬяжящян ядяОяПятядязяуяу яьяф яияж яуяу яяяьяхяпяжязяъ яц 	     яхяуячяэ  яяяэяц    *  ящяэякяй 	    яы   яф яы 
-     
-  ; ятятяр яфяп  яи 
- 
-       ячяфяч #ят ящяь     яы $яя  1 0 яь      - & яняяяб     
- яшяъящ    яу  яяяляя   !    
-   яь  	  *     ( яч  $ -   яю     #   0 $  	  яяящ   яэ  $  
- 
-  ят яю      (     5  
-    1 !      яя   яъ  "   * "  яуял   8 *          !  яцяь  ящ  яш    яэячящят ящ    !      !   яш    яяяьяю      ятящяц яъяь  ящ 
-   яь  яюяшям 	яляюяояйяЮяц  
-  яЯяуяф язябян   яэяэяцяЫяХяыярярябяф яРяЦяЭяшяцяы   ящяыяшяР яияХяЯясяпямяЯяЮяЦяияуяряаябягяєяияхятяШяЭяТяШяряжявяуяШяТяЙяЫяЪяпяШ яй  	    яЬяюятяЯяЭягяъяУяЭяУяряЙяФюxюИююБю¤юћю­юiющя2я1я7яSяZяяя†я‡яя§яјя­я•яzяЌяҐя§я¬яѕяѕяїяГяБяуягяЭяЦяхявяЭяЯяДяй ячяФяЬяляфяаяЯяуяЪяЯяшяеявяЩяРяк 	яшяОяПяШяЭ яняфязяпятявяйяхявяжячяЯяпятяыязяляу  яюяшябяЭят яТявяЬяЮяЭяуяъяЫяЩямяъ ях  яч   яю   ящ  яшяя   яняшягяуяцял яшяяякяряы яхяжяйяжяэ   яй ячяояъ  яуяъятяр яя 
- яр  яш     яняпяхящ яй    яр    
-        яш    яыяф    яр     # & яшяд 
-язяо  1 # яэ  яряэ  ; %    яСяя  + / яю  3 +    яы            яцях   яэяя  
-          # (  
-    (    яя яэ             яъ  яп  (  #       "    
-     *   яь  яэящяы " яш 	  (           	 яъяяясяп яч ! 	яряэяр 	 
-яхяц     яъ # яъ яу   як     яъ 	яш  яъ  яу  
-  яляхян    яцящ    	язяояюячяюяш яияъ  яю   язящялячяцяЯяж якязясячябямяыяпяхяЭячяеябямяыяцяяяЩяЩ   
-ядябяляе якябяюяяярямяЯядяэяляЦяа яаяБяХяОяЯя·яЧяРяЪяЮятяЧяЩяияРябяЪяРяЯяеяЦяеяияняхяч яшял  ячяТякявяряМяЖябяняОяФягя»яЖюёюеювя	юЙю§юЗюея,я!я'я2яaя/я+яfя¤яЈяЁяњя™яяҐя”я я’яЋяђяЕяФяИяћяІяияЩявящяы яЬяЫяКяряуяцяияЪяЯяЙяОяЦяЕяЙяДядячямяеяжяфяъяЪяЯяйяуяС яж яжяЧясязяюяз яыяФяаяояэятяпяс якяфяпяпякяхяЬяжяХязяя  явяЦяЦ  яъ  яжявяпяи    яыяы   	яя 
-ящяяяк     яъяЪямях яюяфяляхяпяЯ    
-яЩяуяиян якяр яфяЬятяй     	 яхям   яэ  % ях      яп  	 !  яц   яйяяятяы   яфял   .  яъяъяш  ясяэяэ       	  ! яя ян  яэ 
-  яыяуяы     ятяр / 2 / яц ячяояю        яюяэяюятяф     ях   . 	   ясяьяэ 
-    "  *  ! 1   	 яуяъ        яь  "     & 8 5 
- 
-  ящ     яч  '    	яь яы     ящ     &     )   яъ яф    ят  яц   яц     ' *  
- яш яы    яя  ярячятяряфябяТят  	ялятяю ячяк ятяс  яХят   яхяыятяш язяяяу  яфяияъ яюяц   яьяэях 
- $ яиязяпякяяяп 
-  яшяюяояэяпяю яр яъ  яУяЕяй  ящ яЯяЛяДяя яжяляаяЧяияЯяОяУяЮяЫяъятяЧяЭятяЯяЙяИяияРян яхяряјя°яЕяФяжявябяХ ящ   ) ядябяНягясябяАяёявяхяШя°яДяю°юеюсяюьюУюГяяяqяѓя}яpяJя*я‰яЏяЋяџя‘яЃяiяzяљя”яђя¦яНяняИя¤я­явяНяНяжяЩяЪяЖяЯябяляшяоярягяШяГяеягяЩябяЫягянягяИяКярялярятяФяХядяЯяф 	яеяшясязяч  яхяГяЯягятяЪяв яуяояз 	 яцяфяфящячяр яояЪяйяюяб 
-  
-ямяияЧяеяб  як   
-   яш   яъяэяляк яь яэямяыявяя 
-яй     ' !яъ яшяьявяр   яр яшяъяц 	    & ятяч % 
- 
-  ящ яь ящяж 
-яю 
-           & / яь        яляпящ  яьяш   !  
-яыясяц яъ   %   -ян  яэ ящ        1  - 0   яяяцяя       ящяч  яю яп  #  	  	  $  #  
- яч яяяояь   = . 2 #  яя   6 )   ( ящ   яь яьяя яэ  2яыяэ   ящ ян    яя    яы        	  яы      " > - "   , яш    яю   яфящ    /  (   яыяфящ яф     ях 
- яф  яэящяф 2    яс яэям   яш  яы    	   яюяжязяняЬяЮякякяхяряЬяыяияъ  яцяуяпящяч яйяз яшяняояр яияЬятяаяч  яч яь яцяйязял    яняшящяуяняИяТяНямяляЯя·яЬявяРяОяЭяЬяЧяСяЩяжясяУяПятяйяжяЩяЛяУякябяФяЮякяУяя    	яяяТяТябяХяОяЬяЬяЯяБяЧяЛяѕя·ю[ююЪю¤юЮю†юІю±яEя8яXя!яEяFяяяsя–я~я€яђя€яsяљяЂяњяџяћяЖяГяЅяїя®явяЮяПяъязяаяЕяОяс  яаяФяФяйящ яаяХящяьяСяШяРяКяИяРяНягяъяиязятяфярящяеяйяйяп    ялям яляЭякябяняЫясяЮячякякяуян яъяжяЬяпябяк яняу   %   яьяуяжяф 	яи    япяйящ 
- яъ  ятяняьяю 	 яшяояЮяйяъяцяуяъ яйяъ яю ячяс    яъ  яхясяЭягяь  яряъячявяш  япяаяЭяфяш   
-  яю яш яы  % яъ  яу  
-яч     япящ          "   #    яо   - ' 1  
-яь    яь    яя   яъ    /   	  ( %      , ' 
-яц      яояхяэ  яш  1 -  ( яю 6    
-  яь   %           яя яы   3  яш        яю 	  яэ *  яй       яя  *   , 6 *   % 1  	  	  яфяс  *  яъ  
-яьяы яъ     /  	  яь    яя     ( яш  яф   < ' 2   яь япяЬ ят   яьяьявяЕяц  яяяляаязяуяРясяо   яя яэящяъ яяяу ярярятякяъ 	яжяЧяжяряЦяНяж яеязяшяш  яияряяяряЬяЯясяеякяшямяпяияшяъяояХязяНяаяЗ яияьяШяЛяВяїяХяЗяЬ 	яЫяФяИязядяЯяЮяжятяряэямяЪяПяЭяч  (   ядяоябямя­яЕяЮяЖяУяКядяЯяпяёю[юњююфю°ю’юtюБя?яCяmя3яGяjяGяOяЃяtяlя™я›яЎя|яvя„я„я•я‰я©я¶яЧяЇяўяУяЩяОявямявяЫяаяНяАяояйяь ягясяряеяГякямяжяЧяЬ яЩязяЫянякяряЮяи яряЬяМяФ ядяХял ябязягяКяЩяЦязядяъящятяо 
-яШяаягял   ял  яцяй 	  яХян яъяхячяд яб 	яп      яф яя яю   яц    язясяс  яэ   яияш   
- яуягяц  яц ящ % яфяф яь      яыяь яыяъ   яьяряэямяяяш        яюяпяр  (яы    яю   	яыяыяш яш    2 ям  яляЮяъятяг  	  яэящяы   $    
-яя  ях                 яу    	         яу  	             яыяш     .       & яю      !    	     	    	яя яоят   яэ     -   
-    	 6 3  
-яш % яю яыяф   
- 
-      ! 0 &      	 # (   ян          
- ящ  яы      &  	 	     яяяп  яЬяъянязяняц ягяОяюятяцяуяЩяЩяйякяъяшяфяъ 
-яф яфятяняъяХяфяьяуяШяояЯяаяхям ячяНяФяЬящяЯяуяэяояШяУяъяъяРяЪяляйяъ яюяЬявяояняляњяляхяиязяНяФяжяЯяцяпядясяляЬяуяКяОявяЬяЦяЮяЬяпяияЮясяз     яляЦяПяЫябяТяФяаяХяиясяРяДяРюHю‘ю¶ю…юЭюЦю†юІя„яxя]яnяIяѓяhяIяЛя§я}яЂяя™яoяsяЈяІя·яљяАя±я°яўяµясяыяТяМяР яо яЪяСяпякямяияияЭязявяЛяияхяСязягян ярящямяряйяЮяйяояфяїяЖярярячяЭямявяЩяЕябяьяюяеяияъяЙят яЯяаявяЛящягябяьяхяд  яс 	ящяхяпяуяи яаяЯяхяи  яфяаяш янянятяь яэяхяЪяпяжяъяияфяъ     яюямяь  
-   яс яи яфяо -   	 яю  ят     яЯяг  яцят  яэян     яс        яи яЪяряуяояуяуяш  !  2  	яьяуяу ;   яьяояя  
-     яэяояш  яю  яц      яш  яд     ящяьяъяряьяэ '      яэ яц  $   "  яэях     яЪ 
-           #  1 !   -    яыяэ "     +      яэ    яшяы   ! 6 яю       яшящ 
-      $ (     ячяъ 
- яъ     	   /     .      яяясяУяляу   яч    яфяпящяйяк    
-яш  8     
- яо       яя   яя 	яъ  	 яьяш    яхявяъяьяц ящясязят  яКяОяжяеявяы яы  яэяСяВяЗяЮяс ясяияр 
-ячяцязялягячяияЧяряляцялякяляляЫяј ядямяОяИяШяєявяря»яЩяы яцятяРяПяцяхяЙяШямярямяляляа     яЛяаяпяЦяОяИяаяШяПяояляБяСяДюіяюАюґю·юБюЙюЉяlяяя&яKяeя-я)я‹я~яЇяЎя_я~яЎяќя•яЇя‡я€я»яЅяЛяОяЖягяЛяУяЮят якяжяЪявямяюятятяфяХяуяхяШяЙяФярясяхяЯябяЙяфяЭяФяЮяхякяьяйяЭяъятяляояжяжяияЦяйязяЮ 	яп яяяэ 4 яляУяЮяФяхяляеяМягякямяеяеяъ яш    яояаягяЫяу яч  яряуяр      яя яфяЭяп ябясяшявясяж  
-яъ яхякяш 	  яняа яшяу яу  яаяЧяуякяеяыяс   	 	  яуяч     * яцяьяя   яя      яэ   ящяиясяъ яч         * ,япящ    *    яхяч 
-   
-       яъ     * %  &   яюятяняфяэ      	     !  яцяы    ящ     яь  $ *яьяы    яыяо  , :       
-    '   яъ   $ )   яэящ          яь  -    0 + ! 8 яч 	 -   *      	  4      яъ    %    * 	  ям яь  	   яъящ   	  ( $яыяф яы яь   яуяр    ямян     яэ яъяк  яц яыяч   яцям   яя   	 . ятяь   яшяШяйятяЯяеяЩябявяжяфяляЮям  яряЭ  яэяфязял   ягяпяляУякяцяжяЬягядябяфякяЬяХягяПявяляЯяйяРяРяХяЯяШягяс якяйяСяФяЧяйяЮяХяїяояХяХяляйяЭ     яюядяТ  ябяЇяБяЖяаяЗяЪяНяВяаяЩю«юЉюїю·юnюВяRюхяџяpяя=яCяFя9я;яbяЏя я”я±яЉяўя•я}я‘я­я­яія яѕяЪяОяш яЮяеятяЦяЗ яЭ яЬяЪяфяияШяЛяѕяЧяпяГяЬяфялян ядяЮясяпяШяЦяряояияМявяХяЫякяЯякяСягяБяЖяПяояляв ячянябяаяйяшящябяЧяг яцяфяа язянясягяъяьяНяряьяЯячяйяХяЯ   яф  яшяп  ядяъ яЭ  яуяряхяпявяь   ялящявяж яь  
- ятяъяфяь 
-яфяч яяяэяыяьяьянягятяцяц ящ  яю   яэ  !ячяч     ятянязяьяэяь        # , яэ &       яхяй       
-    	яфяъячябяк  6 яц        яхяь      
-  яы               -      яч  $ * %    # ! 	      0  яд    
-   ! 3 	ях  9 0 
-ям        яъ  яр  $ !         яэ   -яю  #  ' #  . )   
-           
-  яы +       яшятяъ    яь  0ях  ясяц ям  	 ящ       яяяыям яй     ясягяц  яЬяпятяхялял яьяьяияьяс яъяляшян  якяэявяЭяэ яыяЦящяь  яюяняБяж яряшяТян яФяНякяйяуясябяряЭяФяФяэяцяюясяшяляфяОяДяДявяжяыяэяыяЪяЮя®яАяряняйявяшяУяуяуяняжяпябяк ячяжяОяЫяйяЗяю   яя ячяряМя»яЖяЭяЮяКяБяЕяµяКяИя_ю›юхяя_юЈюЙяяNя9я=я\яіяFяLя,яЉяЎяёя~яЌяђяЌяlяtя‹я’я§яДяПяШяНяГяцяпяс яЛяБяУяаяз  	яэяжяФяЬяфяХяЦяъяфявяЅяЙябялямяПяРяияЮяЗяшярягяю яъяияуяияХябяЦявяе яч ятяЧяХяУявяюяуяеягяЭязяиявяШятяв язяш  яд  яш яъящяьяьяяяу яэяПяу   яшящяеяряц  яу яшяб    ялячяъ  яцякямяь  яшяъ 
-яыяз   ягяв 	   	яь  яц ящячяюятяр     яцяяялябяляцячячяю  !яы   яюяняд яя 	  % "   )    
- яЭ  ят  яю   яэ   "яяяя         яуяфяф     яияч       	яуяь   
-      $  яю яь   % ;   # яо  " яш  яю     яц яш           ящ  	 	 яь   яя  ящ  *    1   & яь яы яэяю # !         1   3 Q  яэяыяуяь    3   	      яцяцяь   &  - 4 ' яоян 	 яхяц  яз  яэяь яэ яю    
- ящ яхящ яю    
-яю  яшяФяцяэ  	 ящяцяш яэ яуях    ятяаябятябях яуяпящяшягяояыячяФял яйяяяхяяяяяняцяйямяЭяЯ  яхяЬяпятяцяЧяѕяЮяѕяМяияФяЛяЩяЮямяияЪяїяЯяВяКящяЫякямязяьяф  яояНяЮяРяИяЭяЮячяьяйяуяняь ) , язяЙяЗяЦякяШяНяХязяжяШяМяеябяю¤яюUю·ючюююЪяSя%яUяeяiяdяOяbя‡яЏяЏяЈяя¬я…я яќяВяќя’яјяДяаяИяВяШяПяЦяЅяЬяшяняр язяцяпяеяСябяУяжясяеялявяЛягяОяЫяїяХяояъяІяЩявяРяЩяцятяе  ягяЪяШяЩявяй яьятямяУяфязяняЦян яюяхякяиямяпямяжяояе  яояхяъ япяпявящяуяшяяяюяйявяняэ  яыяаясяуяшяеясямямярячямячягяаяь  яэяТямяЮ яыяо    яьясяяяъяъ   яыяу ятят     &  яцяжяы ят ячяь ячяч  6     !яф  яняцяьяЯям     ящяп    яц         , 	  яп   $ #  1 '   яхяюяэяюяя      $   яю     яы  & яь  яы      яп         ясяп  
-    &    !  	    яфяф               %  яя         яэ     ( * A !  % (   яыящ       +  	    # #        яыяйящ    ;  яс   ' явяеяъяп  
-яфяняняЬяйяЯяч  
- 	  яыях    # яяяаяэяы   ящ     яшяняэ    	  ящ   яч   яфяУяеяфяъ  янябяйяхяеяияъяц 
-ятяУягяСяЪяШямяцяй "яэяХязяЬяШячятяЫяжяояпязяТяФявяЫяояЅяСяняШ яТяИяНяАяЕяБяКяУяУяг ятяжязяияъяШяДяСядяияШяжякят   яу яняйяјяЕяЛягяВяХяЛяФяВяФяУяїяЫю€юtюўюЮюоюсю§юяя8я.яPяLя"яrяJяkяЄяЌяyяњяя¦яЌяЋяmя|яЏя|яМяїя»я¶яИясяЪяЭямяЮяУяШяояияТязяояПяБяНяУяТяСябямяряояфяЅяТяЫяЮяжяШяУязяГяСядяЕяЕявяняояХянящяеящяуягяШяЮяряПябяс яяяЫяеяЯяеяшяХяЪякябяРяЭят    ярящ яыяЬянязяляЪ  яляЭяп  яаяпясязяъ яу  &   япяШядяяяияъягячяйяШяч яч яяяцяЮяь   яьяхяяяьяр     ясяы  яяяьяж яшяч яч    ят      яэяэ     	     ятяя ях  япядяь   яФ  "   
-ящяя    	яэ      '     яъяь !      +     * !   яьяэ      $ (   
- +  & 	  (  " / !              $ *    яыящ  ) / $      яшяэ яр яю     яьяэ   	      яц   8    *     	  
-яляэ  0 % яфяя     
-  -        (     ( яы яыяи ящяяяф 	 1 ( яы 	язяеят яэях 	 япяз     яьяояр       ятят $ ' яояи  яшяпяаялявяРяы яияэяйяюямяуяцямячяг яэ 	ящящяп 	яыядям   яаян яр (яняшяпяйявяШяХяЬясячяеяСяКяТязяЖяаяаядяЦяХяляжяЩяуяЫяияРяжяЛяфяпяЮяЦяЕ яняаяЭяЫяЦяЭяй   ян яЬяВяУя»яЗяЪябяїяЖя»яОяйяЮяСюЄюЁюeюAю†юЛюеяяiя?я\я9я$яfяUяя’я–я™яія§яzя’яўяpяzя„яќя¤я©я№яЅяҐяияряеяэяхяюяйяИяОяЬяояляняжямягяйяпяаяХяТяЩяЭяЛяияйякяЙяУяеяШяЮяЩяФяЩяТяЦяНяЫяж яьяЦяТябяляЬяМяЮяйяЧяШятяюяьярячящ яэялягяо ясяХяуяияФяЪяф яжяряиямяфялямяь  
-яъ  яяятяф    яаяуяияшяняняо яэямяй  &ясярях яыяц "яшях  яь яняияб яэяяяхяЙятяф ящ  ятяс 	 #  яч 
- )  .   ям     яъяш 	ях  )    яэ   ясяо     ящ  яи           яз    ях 
-     яя 	        (       '    &   яя        (  	 "   -    , = яь    яю   &   ) ' яяящ  & яш   яя  ( =   !  /    %    ях  !  
- 1         %  %  яьяя   	   яф      !яя 
-яы   	 ) & " "  як      яъ  * явяхяпяя            яю   яу  яьякям  яы       	 # 
- яь яцяфябяш  яыяЭяТ +яшябягяЯяпяуяюяляч  яжяпябяпяЙяФяШяэяряыяч  яняияЭяз яцяуяцякящяЙяЮяХявяняРяЙяжярягяяяы 
-ятяЩяЪяШяКяРяПяКяНяФяЕяВяыяряЫяЬяыязяЬязяГяЙяЙ яшягямяияЫяЦяЬяМяняу   яхяхягядяФя¶яГяія¤яЕя·я¬яАяЛяјююОюнюБюзюђя#юzя2яkяgя-я?я/я>я яLяxяlя„я”я®яЃя’яkяzяsяђя¶я»яЇяя›яѕяЧягяжябяпягяНяЮяхяняВяПяеявяЧякяЮяЮяЯятяЧяЅяІяШяУяУяУяСянясяяяЮяЙяЫяВяШяКяЬящ яляЮязяЖяб яжярящяаякяЬяк яя  яцяСясяеяь яь яъябяСяЭяЬяЦяфяпян ятяьятяж  ях  яяячяЫ ячяояшяъял  яюяпяе  ящяь  яю  яр 
-яыяцяйяи яю  	яЭяж     яЭ  ях яуяьях    
- & яи   ячян ящ 	 %     
-яхяж  !         ящяя  
-   .    
-яж яяясям   
-  +  %     	     
-яляь   ятяо  яя         яь  яфяпяш        /                 9 # 	     яэ      яьяы   3 яи 
-   .     '   "    3   ,  ят  яя   яя   5 	 	яйяк        % 7 ,            яэ ' " ящ   яи  яъ  ящ  яу  яюяу 
-   ( яцяъятяъяш ясяьяыяя 
-           яаяр     ямяу яияЩячяк ярязяЬяе  яьяшяпяЙяЯяз 	яэявядяЯяо  яд  ячяияСяэяфяЭяЪ  
-яхяшяжяляи язяЦяЪяряыяЮяЫяЕяОямяыяцяЫяЭяѕязяОяряиягяыяаяЮяГяЗяТяХяСяаяряФяЙяЭяРяйяШ "  яфяъ яЮявяЪяЦяБяПяЬяЙяНяЧябядяШяОюФюОюOю©яю“юаюІяYяiя4я)я=я]яяNя™я‘я©я€яfя‰яЋя‘яЉя‡яЊя}яµя–яјяҐяЌяуяияЬяДяЪяЖяЪяБяЫяИяГякяУягячяуяЪяйяЛявяиятяияЕяХяМяЩяЧяЪямягяХябягяµяґяЩяЮяПяЩяРяцяаяШягятяияТяйягячяъяСяияхяю яю яюяЫях  язяияоякяъ яЦящящяъямябяр яояЭял яы яиякяф    яйямяуяияхяияяяф ях  яц ячящяхяхявях яъяк ямясяшяю " , яя     ямяфяпяь   яц яы яэяХяияь 
-ящ яъ     яш ящ  яю   яю 	 	яю   ящ      ячяе 	  яр яч    4    яряп  ) !           яп         )     5 &    	        ящ     #     ) +  яя  ячяяяюяюяя   
-    # +    .  яя     "  яя    яэ     ( 9 ,    яя якящ $ ях  $ 6        яч  	ябяш     
-   
-  ящ       як   ящ     % -   	 
-   (  яу яя 	  	  	яцяСяШ   язяц  яцяч  яляыярямяуяф     
-   яЛ яЬяЫякячяэят   
- яняуяляФяЙяыяаяЧяРяйявящяъяхяляРяПяОязяШяЧявяЭящ як яэячяйязяЯяТяСяКяНяТяЖяЗяжяыяЯяыяЫя¬ядяиявяЦягязяжяБязяМяЖяИяЅяАяХяФяЪяу a  яю 6 &  яыяТяРяЕяЭяЙяЛяпяЭяОяСяОяеябяКю™юЕюpяюуюПюЩюИяCя4я/я<я0я>я3яяnяnяЃяЊяrяpяyя~я‹я~яpяrя©яџяБяєя©яВяЅяУяДяЖяФяЛяОямяЭяпяТяз ях яс 	яэяЫяЩяп  яЪябяОяХяаяФянядяЧяияКяЩяЭяхякятяЮяЮяХ яхяпяеяХяЧяб  яцяюяйяЮяъяыяняШяЪявяляцяМягяряЧяжяняфяхяЭяъ 	яуяшяю явяЩяы яэяпящяляа яыяоячяо &    
- якяЭяОяф  ян  ячядяь яЧяиякяляъяыяя ячяуякяд  яфяя яеяу       яюяъ  
- ящ  яэ     яЭяфячяя    яп     яэ яя 	    яу  %   "   %  !яь  ,       
-    1 '        "    + яшяы        	   яы    ' #  " # яъяияш 
-       ) 3         ямяю ящ         ячяы  яояю  яыят   / 2  !   
- 
-        )яряшяряЫ  
-  &  
-   яы  яь  $ яэяшяю 	 % 0 яш     япяу   яяяЯян      '   яф 
-     яц яч яя  яр         явяеяп     ях )яь 2 яу ял яьяяяоячядягяу  яыяжяцяяяояЙяЯясяъяияРяШ як яляыяшяЫягяЙяЧяояЯяпяЬяжяо  яхясяняфяжяШякяЖяЫ яШядяФяЩяГяряняГяТяПя№яЎя»яФяЯяЫяиябя№яЖя±яґяРяНяµяГя·яДяеясяЯят $яр 
- яояєяНяЛяЖяЛяКяПяЄяЕяЕяВяПяЖяѕюИюЕюШюмю“ю­юУя>яgяmяяюэяяяMяЌяќя›я{я{яяЈяія’яЏяЋя‰яЖяЅяєяЖяІяЛяТякяЕяјяЧяОяРябягяЪяжяШяЮяыяфяЭяФянядяояЬяЭяыяуяляЩяЧяНяЭяЪяПяФяѕяіяИябяЮяэячяняь яяясябяПяжяЧяи   яяяжяОякяНяЮяЦяЩяЯяшяЩяаяжяШябяМяеятясяЩядяцяхяхяЯяй янявяняШяЮ  	яЮяЫяяямящ      яияьяпямяюявякяэ яфяШясяыяняхяяяыяуяъяя   ящяэярян яю яф  %  
-  ящялярямян   $яф  яояя 
-яэяя   	  яь ягящ  яы     
- яу 	   
-яю ян    яс ятяэ # " ятягяк   яыяЯ     = ящ  ячяя    ядяя яюяъяю   яь япяняй  !    яю       
-     	       , )   %      	 ) * 5    * ях    &    яц        ! 6 %  0 .  яш             -      8 &  ' яы 
-   яхяэ ящ  "   	    яч        яяяъях ящ   9     яо    
-    %  яр яням 
-якяЩяз  яф яыяш    	яъямяз яЩяЖяеярячяяязяряз яыясяйят яояляфяжяояЛяцяняХяЖяСяэяцяуяхябябяеяЬяЙяшямяйяДядяГяОябядяМяЬяЯяЛяКяСяТяБяПяЮяАяГяНяМяЙяЩяуяЩяФяе яСяЁязя­яІяЩяйяЯя±яЮяУябяОяСяч  
-яряояГяЫяЬяЙяЁя®я±яБяЙяУяЦяїяПяЯюСю¦ю«юБю“юеяю·яяяяOяMя4я яHяђяЌяЏяђя’яя€яoя~я”я`яeяАяЇяїяВя«явяСяляияРя»яЦяЫяУяВяпяняуяДяРяЪяЪяСяЪяјяОяЩяняаяйямямяСя¶ядяЦяаяЕяХяМяЙяЪяШяЬяУяиягяЮяхяЯяцябяЮякянядяФяаясяпяаяТяЭямяжяЗякязяШяцяъ яУяъяыяшяэяэяшягякяфяфяуяя  яюяияпяЛяаяц  яыясяяяиямяюяуяуяб яыяюяхяяямямятяо  & &  яэяш  яшяы 
-яжяшяыяъяЬ яч  ядяхяе ял  
- яшяхяя +   яш   яэ яь яь  '   яя   
-ясяъ   яъ   яч  ! % ящяэ яь яч   
- & яш   ян    & +   - &      
-ящяфяйящ 
-яф    ядяэяр    ; яхяу яяяю   ящ  яэ    + %   
-  "  явяжяя яцяо   	яя    	   &    ,  
-   яю       &   6 "  % яыяъ      & 0 $ яц          (    яч   
-   яяяцяыяь   яшямяр     яэ      ящяпятяч  яш  яс   яо яъяя яшяЮяцяЬяж ях  яряМяф ямясяяямяш яияц яыяжяуяс якяэ яж  яняняляи яш  
-ятящ яуяа якяэ яс    яЭяПяаяаяЫяЦяеяУяояляЭяыятяАяТяе яУяПяЛя№яЦяеяАяРяЯямяЯяјяѕяЫяЗяКяѕяЛяТяµяЧяпягяеяШяШяЪяПяЗявяняСян  яюяхяыяНяЦяЭяЭяМяВяЗяШяКя¦яГя»яѕяБюУюўюYяюНю„ю›юояяя5юья$яя+я@яzя~я~я„я¤яxя{яяnяѓя“я~яµя±яДяСяБя­я­яФяИяаяЯяЗяЭяНягяияъяжяЗяШяЮявяПяаяГяКяєяТяРямяЭяеяаяЭяеяЮяЗяеяґяЯямябяЗяеяЬязяШяцямяМяЬяШясяЫяУяйяа ячявяд  ячяСяеятяйяюяп  яйяг  ящяХяляцяяявяцяЫяпяэязявяляэяуяф яш яуящяляСяо     
-яЧявяи яеяд  	 яэяеяцявяэ        )яъятяыяу      яфяэяс $яэ яъяюямяЫят #яп  $ яьясяе     ясяняг  яяячящ яы    яо яхяъ   яэ   яяятяыящяф 	яю ят 	    яю 
-   
-  *  
-яю  	      ' яз  як      'яяяс    " яр  ,    
-    
- %       $ $         яя   яь      яя яюяю   *  ) ях       &        яы            2       яъ .яюяэ     #  яс  &   ят    яуяш    яъ  яэ яо   яЬ   яэ  яьяф     яиярятяб яч яЭ   яЮябятякяыясяюяс яы    
-яЪ 	яяябянящяняу яыяйяяячяю яляРяЬяХяО  ясяпяняьятяаязяЪяЮяКяКятяпягяеяряЦявяЯягяТяШяияФяУяїяЗяОяЧяЯянявяЦяїя«яёяжяЭяЬяШя­яЇяТяъяеяФяЮяОяјяГяФявяз       9 !яМяШяИяМяИя№яСявяСяЧяТяѕяЖяЫя)я`я;юУюДюџюmю†я'я'яяSяTяCяя%я‹я яЏяќяtяdя‰я’я«я®я—я©я¦яќя¬я‹яЏяѕяЗягяЮяКяѕяѕя»я»яЩяШяЩяГяОяПяГяЗяляеяЧяЕяКяИяЕяЩяЧяФяРяНяКяЙям якяЗяНяКяПяУяНямяпявяЭяЦ ятяЫяРябяеяЦяЮяряЪяляаяжявяФяз  яняРяШяЧяпяъякяыяи япяЯяТяШяЩяаяОяшяэясяуяр 
-яыячяняшяЬячясявяЪяыявяхяз  яияьяхягявяйят  %    яюяр яйяк яхящ яь яжяя      яцящяк )    ячяеякяхяйят 	яр 	ят   + ялямят    *  ярямяю  
- яф 
- ящяч 	  ящ  яыяс 	  	 $ $  )   
-  5 яжярян ящям    	яу "   (   яеят  "    (               	        	    # ;  	     	   	  яь  	    яэящяо    яэ   8    2  1  "  	   0    )     /  "         яр   ябяь   % ячяъяъ         яЪ ят   	яя ячямяр    ядяьяэ яш  яхяжяп 	яэ яъ   яаяй !  	 ячяч  яъяюяэ  яз  # 
-яяяряляюяхямяряйяПящяфяь  як явяр яµяМяЮяляЭяОяОяЭяеяКяхяоядяЪяУяЦяуяжяЮяоякяуяЫяНяШятяЫяЮягяОяьяняЧяОяЮяНяХяія№яЛяУяСяНяґяёяУяв яНяДяЮяфяЯяШяфяцяТяМ   яцяз яЭяФяЫяЄяКяЦяЮяЩяХяїя·я¶яГяДюЩюdю»яя&юеюДю“я(я'яя я;я$яяNя|я{яmяpяяGяzяЎя¦я¦яЂя”яёя·яМяІя©яМяЖяфябячяПятяЛя»яЭякяняТяляаягяЩяняй яТяЙяТяаякяиядяРяЧяЛяряЮяНяеяМяЙяЭяЬяєяЬяТящявяяяаяояЙяМяюягяФяїяияЪяВягябяпяЩ ядяояНяЦяояйяТяЮягяШяряЭяцящяояЭяаяк яхяо яяяМяЯяр яц /япяЛяеямяюявяз ях ящ  яо  як яэяпят  ях  яляцяуяц   яоян    яуябяз    япяэ   яю ящ ясяц  	яыяс ящяпяияю  ) 	яюяя ящ яъ    	   
- ! яы  яя  #    ятящяы     #        яу    яу    яь  яъ   2 , '  яйяр   яю    $ !  #  3   !  япяш   + +  & $   $    	    яьяьяя         # 	    ящ яо   яя  )   )  
- :         /яш  	ящ   ' яю    яцяз     %  4  * +   яцяхяэ           ямяяягят 
-  яр ях     ямяфяк  $   япясяф  "  яп яч 
- яюяъяйяз  яйяйяр    яъящ  
-яуягягяЦ яфячяЧяПяЭ яшядяЮямящяФяЮяжяЪяк  яЦятяхяЗябяэяяяцяуяшяъяЩяЩяняняЮяЪяйяЬяЦяиядяЬяТяЖяµяНяЕяЪяРяКяЮяйяФяЖяЖяЅяРяЬяЯяСяУяаяЩяЮяТяЮяЖяЪягяУяФяВ     .язябяХяПяБяѕяНяИяїяєяѕяЅякяНюЊюуюЅюtю…юрюжюля9я[яюШя0яяя5яjяiя‹я›яћяЋя•я‘я†я—яjяЉяћя”яѓя›яќяЅя·яИяЛямявяняыяжяхяяякяУячяЯяТяЕяЙяжяТябяряХяпявявяИя»яјячяэядяїявяжяряряШяЪямявяГягяжяЛяРяФябяхяСявяЦяР яЬяшяЮ  яыяь яеяъяоямяпяыяэяФяЩядяд яцящ яуяШях 	яЦятяеяляшяч яыямязяЩяцяы яьяжяЬяцябяы яфядящяУяи ямяняаязяшяпяЮ яю      # )яъяъ яйяъ  ял яъяъян   яяяя   яюяь яп яъяоях   	яч   яъ   яояЪял    . '     
-   яъяю  ящяс      
-  ятят      яя    
- 	 яю  яъ  ! 	    ящ 
-яю яы   %          ! /   +яэяшяц 5 >  яэ          яу    &  яцяс   яъ   '   	яы  7     $   ятяъ   & 6 яш  яыяр  
- яюяэяяяу   яжят яц  "     #   яы ях яи     ямяц   . яо 
-яш    $   
-   яю  яъ яняр   яь ящячяо   $  	якяэядяцяо яРяЦяХяи якяя яюякясяжящ яояэячяТяХяйяъ 
-яу яыяояШягяаяц  яъ яы  яЭяпяХяЙяМяияЩяЬяЩ яхяЯяЯяЧяаяФяняпяЪяѕяСяМяш яИяМяХяНяѕяеяаяМяџяТяПятяо яеяеяФядяЭяйяУяъялявягяЧ .   яояУяВяёяКяТяЯягяЙяАяДяѕяґяїяґюфюТю”яюКюјюNю¦я.я@яoяQя.ювяcя;я…я‰яЌяџяя­я›я‚яѓяuяEя‘я°я­я™яҐяћяжяжяВяФякящяТяЕяМяляияЩяїящяТяјяЩяШяЦябякяЩя»яКяТя»яМяеяеяЩяЙяОямяЫяЧяЪящ ягяМяЯяжягяХяаяъясяЯяПяМяЬяЧяЗяшяряй яшяшящядяЬяьяЭ яю яФябяхямяч яюяЮяЦяЮяв яяяЧяс  ят  яцяьящяв   ядяжяЬяЮяпяд   ядяяябяюящ    	яуягяи ящяь  яъяфяйякяаяТяв  яы  ярян яыяъяъ ялянят  яь яъ   ятяюящяя  яшяй 	 яеяеят 
-яъяу   	яхяя   0 "    1  " 
- яЯ       	яяяяяь  яя япяи  яы   &  $ яр  
- яъяя   ях    ящяф ящ  % $         $   ! "    яе    ячяф     1 -  	яы    
-  +  яф  %     	 "яы   #  яь     	               +        ят    яы   яю         яхяэ     яц      яшяц 	 	       яы  яшяуяпявяеяз  яъябябяряс якяг  яряуящяо  яуябяй   яЫяж яЮяЫяТягяъяЬ яЮяУяй яияЬяя яъ " ясяфябяаябяйяжяшякятяеягяфяяяыяеясяРяёяЪяМяІябяжяКяУяЮяЬяАя¬яЖяняуяДяЙяБяИяСяЭяшяЭяПяЩят яфяМяляУяуяхяЭ  ящяы ятяФяЕяКяФяИяЦяБя«я®яОяҐя‘я‹юxюњюeюјюЫя@юЮюЄяRя=яnя(яkяbяJя6яrяЃяoяЃя€яя{яjя}яtяrяЊя±яѕяіяЖяЭяхяпяЩяИяФяВяЙябяряцясяТяТяФяЩяИяЛяРягятящяДя©яПяЫяЯяОяТяЭяч  ядяФяЧяБяояияСяояЦяояеяйяШяЗябяШяЬяЭяф  яряШяЮятяуяТяЩяняояьяуяшяняЮяСяаяеяюяы яцятялянябяОяыяжягяя яцяаяаяЮяпяЮятяй 
-яхям яуяэяуяцяьяпяЮяуятяцябяляеяф якяФяЬяияв  яж яш яс   яфяв      	яю      яняы #яъ   $ яряю )яъ   яц 	язяняяяхяъяюяюям    # !      %       яя    % яэ     2   яуяэ $ ях  
- #        яя      (   яцяш   
- янятяч   
-  &  &   	ят  1  - &       ! 1   	   8 %   
-яъяы        '  % )  $    
-яъ  ' япяшяы     яю 0 #    &  
-     яц    #  яч 
-       $  	яф + !    яъяэ ячяч    яряэятяэяъярячят яляп яя   
-  яы  яю  яЩяР  	  ягяэ # яяяюяя  яз 
-    яьясяряо   яь  яшяшяЭявяШяцяъ 
- язяЪявяия№яВ  яияЦятяфябяѕяцяИяНяЪяняЯябяЭясяЯяЯяЧязябяаякяВяАяЩявяЪянядяєяЗяТявяпяяябяЩяТяЙяНяБяЙяЮяъ яРяІяµяСяРяЭ ямяЦ яш  яфяЛяЩя®яБя©яЛябяЫяияияЯяБяТяµяSяяюМюжю»юфюУяPяя,яHяZяTяюяяfяiяўя©я¤яњя†я†я‹я‹я‚яЏяёяљяЌя“я¤яЫязяЪяРягяЬяАяЧяпяфяжяЬякяФят якягяАяЯяаяйяляняНяМяеядяЮяЧяцяряюявяюяЯяХяаящяЪятяеяЪяНяЪяЩябябядяЦяЦ   яхяляпяЯяг  яхяаяшясяцякямяняцятяб 
- 	  яряыяеяцяйясямяшяиядяж     ящячяняв 	 + яц   якяз  яф яяяюяу  
-яхяияфяц яЮ яэяьягяюяр ящ  яу     ящ  ял    яъяэяц  ящ     якяыяя   " , яя     #яюяи 	ятяю  ящяп        яьяз     яь         % &   
-   
-  $      !яэ 	   
-  яэ        яжяя    !  	           / & $   
-   : +        яэяЩяы   # 3 -   яф     
-  яыяс       
- яы яю   яь ямяф  	 * "       ясяя  &  яцяуяю "  " ящяэяш    
-  ' (   яъ яуяь яэ яы яь  ящяФяЬяЬяэ ящ  яаяЫянят   ящяЬяэ       явяияцяхязяхяц ябягяЮяп  яы ятяцягягяхямяюяйяЧяфяьякяЫяр яШяЫяйяТяПяЩяТяШяЭямякяЪяЬ яаяаягяжяюямялябяжяУяняояСяЦяЪяЖяЧямятяояпяЙяЦяЬяняЮяряХяжяЮяЛяШяОяаявяХяЖяРяЯяояФязяЫяПят    яЧяїяГяТяЩяфяЮяЦяХяіяіяµяЛяОюqюiю|юююrю1юэя.яVяVя2яя*яTя<я6яxяjя‡я†яЊя¶я’я—я•яћяќя_я°я«яБя‘я©ямяХяєя»яПяШяЧяСяаяЧяжягяУяЛямяЯяЫяЯяряМяЅямягяРяЅяКя№яґяФ ягяЦяеяШяЮяюядяЧяТязяЬяияляХяеяЩяПясяНяМяйяфяеягяСягяРяЮязяЭяъяЪяйярязясятяляоягяЪявяЭяюятякяз    ял япяЪяфяф   яуяаяаяуяь ямявямякяЮ  яяяняпяш 	яаяу яшязяР  яфяэ ячяфясяц    яьяхяжяаяа 	яъяь яряхяуятяп  ( 0 яляъяэ 
-ят яэ   ях яъ  яуяэ G $   яфяу    яю    яю      - 
- 
-     	ят   ят яьят    .      " ящ яю  яю  яэ  яыяфян  яы  , (     # $ $ 7   яъ яэяэ        ,    % ях      яз    	   (   
- 
-    
- 	      
-яц   	    яюяя       !   'яр     	          яя  "     яу  %    яяяъяяяняс   яэ 
-   # яяяжяЧям    6   яя яэящячядяняяяояляе     	    ядяш  ( !яуяхявядяз 
-якягяЯятяйяйявяияцяи  ягяг 
-ячяэяхябяЭягяеяЧяЧяЖ яцяХяЫякяаяУяаяжяояЪяЮяЬявяИявя»яТяЧяВяИяТяЭягяШягяШяПяїядяЦяеяХяЗяаяОяПяДяОяЮяЭяхячяряРяУ якяЦяОяц    яэяъяАя¬яµяПяЕяєяЛяЙяµяАя¶яЯяМю«юHюќюlю{я?юЦюШяDяHя$яя9я=я=яяuяcя\яLяя…я яЊяrяyяPяvя яҐяВяРяќяеязяняГя яжявяФяЛяСяХяГяПяПяояЪяЧяояеяЫяйяояТяОяеяХяРягяЬяцяияРяжятяЅяАяЅя»ямяхябяУягяЧяЭ яЪяхяняп  яыяЩяляШяЬях ягяеяКяЙяЛяДяюяеяхяъявял   яяягямямязяЕяЪян 
- яыях яшяе яьяь яы яхяияуяйял ящяЦязяж 	 яъ  ящяЫяжяфям 
-яп    яыяпях #   яс   "    ! яаянямящяияц !  яыящяпяп   яняЯяп   яъ    -      3      " 0 яэ   яцяу  %    # 	   
- & 	     "  #       ! '   	 	   ящяфяфяч яьяю ,      ящ  2  #     	 % 4       	        '        яфяы 6    0      + (яц   0 "  ящяъ %   ,        	яп   )   (      $      / яя     яю       яфям    "   якяЮяЭятяя        яэяъятяъ  &яяяеяу яъяй  яйясяяяияиящячямящят   яряыях 	ячяьяфясялячяаяюяЩяЅябяь яфябяЫям  япяКяШяъябяшяр     яхяВяЪяЧяжяу  яеяТяИяЖявявяЯяшязяЪяВяЖяМяЪяУяГяЕяѕяЖяЗя±яЗяИяГяіяДяУяЛягяЫяияЪяўя·яЪябяТяЛяДяµягяЮяжяжяеяц яшящяЪякяФяКяЅягяСяДя»яГяЩяПяТяОяОююЋю}юЊюkю}юµю°ющяяsяwяя=я^яяvяoя|яwяrяxяґя›я‡яяЎя|я¦я®яНяМяїяжяАявяЪяЩяИяСяНяУяИяјяИяиясятягяРяуядявякядяФяСяжяОяШяЫязяэяЪяЮяРяфяЭяЦяеяеяЗяЦядяаяжясяэяцяйяЦяюяхяЯяЫяЦятяАяїяляы 
-ядяеяЫяЦячяъяЦяцяЯяпяоямяйяКях явялявябяЫяЫясяэяыяЦяуягяжяПяШяляхякяцяъякяЪяТяоямяр яЯяпяк    'яъяр    яш      яьяс  ящ   ядях  яо яжяы  
- 
-  	   "    яю  яы       яеяюящ    ! " &яъ   яы   /  -  ясялярячящ 
-          яыяйяэ    * %     2 *    яхяс  яь  ягяйяп  0   яш        ' 	   "    & 'яш   яф 
- яю  3   
- ян '    ) яы   яц  ( 	    9    *      ящ         	яс       	         	  яюяш     яя  ( яшяояя    	 яыяэ    яхяю ятяуяч яч ящяф яэ         язяияйяШяЮ     яя   % яфягяпяйявяжяЪяОяОяият яфяиявяеяйяЯяеяп  
-ядяХяС яьяжяЭяш яьяоясягявяНямяЩяляряЪяЦяЧяЯязякяояляЭяїяЙязяУяЦяУяЦяЧяТяяяхяъяЫяРяєяјяЪяЧяЮяПяЩяКяХязяЇя¦яПяЗяСяЖяЪяСяхяъячяеяТ  	 $ яПяАяРяЭяКяПяЪяКяЅяґяєя¦яёя№яАюЭюµюЙюЎюЛюgю=юЧяяKяQяSяяBя6яЏяЂя‰я†яҐя{я”яЋяЈяЎяјяvяя§яґяШяЗя№ягяжяаяЪяЧяРяЬяЪяЯяЮяжяРяХяЩяИяУякяи ядяаяґяШяжянящяаяШяпякяЗяОяТяЦяЖяжяшярягядяЭяЩяРяйящяцяМяГядяжяЧящятяОягяляьяУяЯяй яЗяляЮяЪ яЮялягяЧяМяжяУяжям ячяаяйяъяхяЮявяпякяю  ящяц 
-  ясятям якяУ    явядящят 	яэяцяЯяфяЪ  яъят яч      яю    ) яч     
-якяняч    
-яо   яо         яюяь   яшярях  %яюяйяз      яо яоящяряэ ял     яч      	 ясяуяэ  	      яч      	 яэ  7  яч  яэ    яяяю    яо         	    	яюятяю   яяяю         0 яьяъящ  !  яы   #             (      4   	       яыяюяряяяш     яю   & ,  ящяхяч          $     яйяр  ! " яшякямяЧяж  * яю  ялярятяы яц 	     яЩяу  ящ ячяЯяъяхяшязян ятятяшяфяЗяКяз  ятяш  япяЩязяеясяляуякяЭяЩяи ямяЩяч   ябяхягяРяфяЪяняРяТяСяуяХяЮяжяы ядяАяєяЦяµяеяляЫяЛяБяряцяжяФяЩяФяДяаядясяШяояБяЦяЫяЙяХяЫящяхяДяєя±яСяпяюяъяняцятяюясямяКяЧяЯяЗяРяКяЎяґя»яµяЙяЅяНяЙювюЖю‰юНюўюќю…юґяDя$я:я’яkя6я
-яя~я‚я•яђя|яmя·яђя‰я‰яћя‘я–я¶яёяЙяИяЦяНяЦяЙяФяХяЗяБяОяМяЩяняХяМяМяИяе яТяМяЦя№япяе яеяЭяеяжяЅяНяГяЧяМяТябяг  яияШяПяЦяНяЮяПяШяйяа 
-ящякяаяКяЛяЮяЮ яе    яфяЯяФяШямяжяшяОяхяфяЯясяхяляю як   " яяябяФяаяЦяуяш яряш 
-янятязяйяаяряу 
-яняъ яцябяйяй яп    яя 
- яьяпячяеяаярят  яэ 	 яь ямяиях   !      яэ  яъ      яч  яя   яс     	 ячятяь     / яцяф яф '        =   #  " %     яя  " яь  +  яш      яю        	          	 яю  %   "   яфяьящ  : D    ' !  
-           , )яряч       $ 4 5  % )       яъяы      яч     яс    яэ   яя яеяг       	  яъ  яфяп ! A     	 яляб яцяняю  
-  ящ   ящяЧяй яф    ямяъяпяю     (    ябяляхящящящ  ячяыяпян    яяякяЯяхяляияЭяуян яняъямязяъяы яЬяияПяЭяЕяПягяьяуяЮяо яф якяуяляЬяЬячяпяаяЭяЭямяВяЩяжяШяц яеясяпяпяЯяЖя·яЖяЮяСяИяРяЬяѕяВяжявяЬякяЯяИяАяЖяРяЗяШяСяШяЪяеяЧяжяуяояЦяПяряо   яЩяІя¬яЇяПяЙяґяєяТяЯя»яЦяИя¶юЬюфюЧюЄю™юБю¶ю!яя+яяNя#яoя0яя]яwя™я~яЊяiя‚яwяtяЊяЇя«яјяМяќя…яyяЗявяаяТяКяряЛяЮяШяЗяЅяЭяЬяХяЖяОяРязядяНясяЙямяф ябяИяЙядяЖяаяэяжяЩяЫяъяХяжяЕяјяАя®яТяПяЮяЬяТяцяхяУяПябяЭяУядяЬяэяъяЛяЮяЯякяшяХяЬяПятяьяияЪяПядяЫямяьякябяеяШяЫяуясяНяхяпяпяфяэ яфяп   ядяц яояфяш якяр 
-  ямясясясяняоясяЫясяфяоядяы яг  яв  ясяхявяияляыярязямяряъяУявяЮяш явящяэяняфяч яъяхяш яя  $яь   
- яъяу яс     яи   )   яь        
-ял ,     яц  ящ 
-        %    "   
-  яыяш       яэ       яю  яь  яю  яю яс  . C 2             
- 
- , %         
-    " # 	яь 	яю яю     ях    1   ! яуяяяояъяэяу 	 "      яю        #  %  яцявяз      ямяЬ 
- ях   яд    яряыяояояу 
-яояцякяяяшябячяюяч 	 яяяыяюяеяъ  яцяняэ 
- яшязящяЧяияэяяяыязяЭяСяЪяэябясяуяшяеяС    яняйябяЩяРяТяЪяТяияяяхяЬяжяМяаяЩящяЭяЩяШ явяуяпядяаяПяДяјяфяэяйяжяЩяЙяШяЦяХялясяфядяАяџяґяФяїяМяСяОяйяЖяЮяЧяЦяЧясяЖяИяіяАяСячяЫяЛяТяяямябяаяояПя¶яЄяХяСяБяЅяВяЫя±яґя®я¦яљюµюЄю­юБю±юяюґюђяяяяFяMя/я$я]яђя_яnяљяЁяkяzя’яwя„я~я‘яФяШя”я¤яЏяБяМявяЫяІяНя¶яЩяНябяЛяФяФяНяУямяляТяМяИяояЬяЖяХябядяЧяОякяряЭяЩяряЪядявяСяЪяЛяСяЮябябяхяПяОязящяэясядямяаяаяСяШяЯяаяРяЭяЩяОяЭязяєявяшяеяюяХямярятяьяэяЬяхяЩяпякяуяшяЯяу яуяуяк  яу  яц  	    ят ябящяъ 	 яу яияы   яуяк яь   
-яэяшяь   яэ ящ  яч яа  +   яъ   яш     	ям        яы  яч   ( > -        " яя яъ    #   	яз  '    яр       яс 	    #     яя      !  ! $   	     язясяь    !  & 
-       .    ят   	  
-          1 & 	  ; !     %       !      "  #   яя   !      ящ 
-       $  ! / 2 6 & яч   яняЬяз    яяяр   яь   *     яы   яЬяхящяьяряояэ яЯяьязязяс  яжячяеяз   яь яп   яшяяяъ  ящяияояояРяу ячягяд яъяеяЩяЖядяояояЭязясябяъясяияШяПяСяаяъяяящятяУяТяляЙяЦяСяИязязядяДяФяЭяМякяаяИяјяДяГяПяРяРяДяЫяляжяАяѕябябяВяАяшяияХяЅяїяЭябяШяряЗяЛяѕяЛяеяыяЩяЭяШяч   (  яЩяѕяјяИяЭяЕяјяѕя§яўя¬я»яАяПюьюВюўю–ю№юцюџя
-я%яяGяя+яVя^яяЂяїяЃяtяfяnяPяtяЈяЂя‘я~я«яМя©я”яґяЛяЭяСяТяЫяЫяБяЕяАяЩяЬяЛяБяНяїя№яЩяѕяЭяЙяЅяѕяСяЙяАяПязяШяшядяСяКяОясясязядяЬяъ ябяМяо  ятяйяфяйяЩяїяКяеяжяФяґяЦянятяхяжяияФяТяЬяжяеясяэяняая®яїяОяйяЧяЧяняояе   яэяляУяЮяЫяжяЬ  ялящячян  яф 
-  яэяЦяМяХяТяляц яъяд ясятяфяъяяяч  	яняЭяняияж яъян  яю яыящяяямяр     япяэяс      
-ярях   0  !яз    яы   „П Ѓяьяю  яу    -     
-яь     ) G ! 
-  яч 	        яъяй     ' 
-  яя  "   !   ! яя   ях   яьяд 	  % 
-    I 2 % $  =  # 5 %     яю яц  = 2  яшяп  " "      ( &    .         
-   1 3      ' /    яь 	 ящяп 	яш          $  	  	 "  яхяц  яу    ! яуяйяеяъ    яьяш   яеяо яяяцяФям  ябях яэяш  ях 
-яйяфяЬякятяхяф яуяпяхяс ящяряц  	 яя  яс ящячяцяпяЭяаякягяюям  яфяияЭяЮяУяжяияХяняфяв яияєяЧянясяляфяс  яКяНяОяб 	ябяТяјяаяцяФяЕя¶я©яСяЧяияРяЩяЖяХя»яГягяЫяРяґяСяТяНяѕяПяТяРяСякяеяйяеяжян #   язяПя·яБяБяСяТя·я»я»яДяѕяґяАяЫяюЧюфяюМюЏюпюпя
-я#яЉя4я6яMя[яяtяxяyяѓя‚яћяuяЋя…я{яjяmя я­я°яФяДяаяФяЮяъяЧявяеяЖяЙяХябяЬяФяыяСяГяВявяБяКядяЙяБякяИяЙяТяцяояфяаядяїяПяХяГяЖямяляьяяярякягяеяиясяЭяРяЫябяЬяЪяЅям  яСяУяЧяаяЮяг  ятянящяфялявяСявязя№яХямяы  яуягяфяиядяСяЭяЮявядяжячясяшящяоятябядяляшягяйясяыяд ямячяояыяч  $  яьячядяйяояуяряьящял яэ ят  +  ят   " яй  яю    яхяс    яьяряэ 	 яуяэ    
- 1 e i   ящяэяэ   яюяф 	    яй      	 %  ! & яъяэяь  ! &       	       яю    ящ   $      # ) ,   'яф   'яя    )    ' % # #          )       яр     ярях  : -  ясяу      яэ  	  #   яу   ' *  яряъязяуящяс   яю  яу  яу     , 
- яя      яняз  )   яЧ  яшяу      
- ях   яц  ятяп  ябябяЬяняыявяояняйяоякяи язяя    ящ  яс яэяЮясялядяжякяЮяЧяШяУяЙягягягяиягяаяч япяЭ якяхяЧяУяр яяяш яЮявязяУяпяЫязяЭяс яляЪякяЩяСякяжягяШяЦябяТяАяЪяТяДяЅя¬яґяИяЅяЬяДяЙяПяЖяЬяояРяёяЖяЖяЩяёяГяЭяЩякяЪяяяэяэямявяДяЩяЅяЕяЦяЬяіяАяМяёяВяµяµяЩю#юњю—юЩюxютя-юёяUя%яяя9яVя3я.я¶яЉяsяrяmяpяjя’я…яzя™яwяyяЋя“я©яДяОяНяТягяЧя»яЩянярязяаяЯяфягяЕямябяШяБяьяпяЕяЧявяФяТяхяЦяияеяЖяХяЪяЯяояЕяДябябяпяэямяЮяНяБябяГяЮяЗяЖяФякяшяОяЧяЩяеяШякяняьяФячямяуяфян яцяуяЫяЖяЦ яиязял яаяфяуягякявяЧялячярясяЯяФ  яЦяРяляцяЮявяе яьяуящ  яъ яьяБяояЫяаящяю яъяьяд   - яч  яг    +ящяТяс япяэяй яюятяфядяТян  яф  яя   	   яй  яуяж  як 	      &  3 "    яя       	   яч яю       яяяэяя   "  яш   & !яь  яя     яь яыяьяэяш         " 
-    ях      яяяоящ !яы  * #          %   яъяф     яв яы        ящящ    ( #  ямян    	       # ) 9 '   	 як    яъ яляк  + # яюяняь   яш 
-            яфякяв ят яз    яс  яэясяцяСяЪ     япяцякян  як яш   яю яияыябяр   яиядяияуяшяляТяШяЮяЬяшялязяЪяСяРяфяТяЦяСяшяЯяйяиятяляеяю яёяЩ ятядяЪяХяМяДяСяШяЙяЅяХяЧяаяЮяЖяйякяМяЭяЖяИядяФяряТяЗяИяСя§яёяЙяДяВяФясяЙяИяЫяСягяїяняхяхяюяряГяДяФяЖяЙяДяЖяМямяТяЯяГяЅяЇяюжю¦ю±юфяю­юОяdя4я5я%яMяя–яKя±яЋяЈяЊяuя–яѓя”я™я„яДяџяія‰яџяґяЕяЬяФяЫягяЮяЦяЧяаякяйяаячяЦябячяЯяФябябяеяЫяРяЯязягяЫяШяЦякяцяЩяОяЬяАяаяЪяЮяПяЦягяАяЩяОяпяфяЪяУяЮяЯяПяЭягяцяаяЪяояЕяЫяЦяЦяШяЦяйяЛяЩяЪяе яояцяняояхяжямяряжяТяЯяМяМяч ячячятяфяэ яяяЪяляняжябячячяняшяэямяхягясяцяъятяияжярящяйямяя  	ятяияжящ   яняъяц яю 
- яьякяу яи яъяф    	яц  яу     ямят ямяхял 	 	яь янячяфяхяп  яаяияъ  " !ямяк       $ яю 	     яф     0яъ        
-   яяяжяы   !     
- яэ     яф яшяюяы  	 яъящ 	    $ %          яьяу    & )       "яя       яэ яя    яэяэ   яю        
- 	    	    #     ящяпяъ   !      яюяъ          яияряв     яряХяо    яияъ   + яб яяяпясял 
- яэ яуяу ян 
- явяаяр  явяЩяТяСяй якятяц     
- яфямядяЬяКямяЧяаяеяпяьяЫяЧябясявяХяЩя№яА япяЗяЦягяжяцяояФяК якяЫявяАяЪяйящяЭяШяЕяОяФяПяїяСяПяМяПяВяеядяХяЙяёяјяФяХяЫяМяШяїяЦя»яЦяђя™яКяЛяЅяјяґякяЙяѕяКяОяЖ  ящ   яЯяЦяеяѕяВяНяїяїяѕяЕяГяПяЭяГяяюююЖюЙюџю‘юfяяяяHяюыюья яяЈя‰яќяЃяoя…яИя„я{яя€яµя«я‰я•я©яАяЪяияЧяМяЦяАяХяЬяЪяОязяЦяКя»яБяЬяЧяФяЫяЬяРяЬявяряУя°яґяХяЫяжяєяГяЅяЦяЭяёятямяйяЦяЪягяфяыяЮяЬяжяиядяЦяШяНягяЯяжяжяк  япяЧяЦяИяТящяшяЖяМяк  ячяжясядядячясясягяЧяп 
- ярясябяПяшяяядяг 
-яняшяжябяЭяэ ядяиятяЧячяйяу  яряжяъяцяШяЧяхяЪяиян   	язябячяхящяпярякяН  яш  	   яц   
- 
-       яы   яэ  яряЭяюяъяя  - 	яя  яя 	    ящяч   яъ яю   #   	   яу          яюяч    яыяц      ' < (  	  / 4 7 ячяюяъяпяя  % % #   ящ  
- яряряь   %   ,яьяц      # "              	 $    	   	     2 1 яя 
- яя  & 	      яЭяьяэятяя     ( яюяо 	 "яяях  	 яшяэ  &      яс яр  
-  #  ,   яэ 	     яь  янядясяияпяш яу  яъяйяаяйяЮяо ящябяняляяящят # яЭяфяхяьясяЩяюячяч    "яуяаябяв якяИяЮяЯяэяняЯяЮядяпячяиясясяФяГяЯ  яТявяЫябяхяШяБяЧябяияСяПяйяпяУяЕяБяаяДяКяаяияФя¶яАявя№яВяКяЩяЦядяуяСяіяПядяЫяјяёяЫя±яµяОяТяЙяУяЖяХяШяЩяьяяяъ   яЗяЩягяЕяґяДяСяєяТяАяЇяЙяФяЗюєюйюТюњюЩюbю©юёяAя@яCя7я%яя.яяcяЉяњяя€я†я‹яЌяћя~я‹яsя‰яЎяЛяїя™яІя¶яХя№яјяЛяУяРяКяМяфяЬяІяєяХяЭяОяЖяєяеяНяЩяаяияВяЕяЖяУязяШяняЯяУяСядявяЙяЭяРяУяЮягяЬяУямяэяеяфяжяйяйяаяпякяъ   яеяияЭямяЪян ящябяХязяъяШяЛ  явяш    яняиязязяд явяФ  яуягящяоякяеяяящяйятяеяияЪяуяуяСясяфят 	яеяУядяф яйягящяняРяр  %  	  ! яЦящ яю яЮяю   
-    ящяш  яфящяш         яюящяф   
-яыяш        %яо 
- '          яяяы  / . 4 $  .   " ятяняу " 5 яляцяз    	    ящяцяп   яюяш яфяюяь          	  0   яр        яь  
-    /  яф  , 
-яя  #яяяю       
-ятяр &  " ; ) $     	     
-яы            ящ 	яэ   % яяяыяыящяшяжящяя  %ях яуяхяф 
- 	яф    ячямяч  яаяО  	 яьяя яэяляз яъяфян яфяу    яЬяРяшяшяряЮяуяняЩяМяЭ яш яЫяФяЧясяляо ябяЬятяы 	ясясяш яйяЭ 	ячяХяг  ягянябяряяяляОязялядяЪяи яряЯяФяРяУяјяСяоябяЛясяАяЬяняЪяМяЦясяУяТяйяУяЙя»яЮяЮяКяУядяСяпяьяояЕяКяОяРяИяАяЬяМяЮяЖяПя±яѕяияєялямял 
-ям  
- яЩяХяняОяЁяЄяєяАяЖяКяПяОяЦяГю!ю‡юЬюЩюБю¶ю¦юЈяAя>яCюьюуюяюдяяmяЃяvяЋяКя•я‡яћя€я¤я—яЉя‹я“яЌя«я©яія¤яБяЅя®яЭялядяеяЩяЮяЯяЙяЇяЕяПяФяКяјяЛяТяЛяЦягяТяЙяОяМяБяРяНяЯяШяЦяЪ яЮяЮяЯядяеяеяияРяеяаяШяСяЩяПямяЬяшяШяряпяяяняЭябяВяцяФя°яЯяпяЯязямяФятяЪяпяЮяТяо   яыяхяряшяхязяЙяН 
-  яЬяФяЧяЬяеяйялясяг  яеязявяеяЧяляж  яуяо  яцяжяф яряшяояпяЫягяияж  	яцящяЦяояж  ятяз  яЬял    "яяяляд  *яцяп 	    6 явяо яя   яэяя    ) , яэяьят    яэ          яэ   
-   яы   яЩяю яыяь  яь  " яэяшят ящяыяы   яя      яь  яЪявяй яц  ящ  ! яц   # яь ян    яя 
- 	яы  (     
-     
- ям 
-ясях  
-яфяу  %  
-   яьяф     "      яш  % яш яф      яя )  яыяу  ятяы     яэяч 	 )  яя (яюядякяь  яяяяяфяйяЭяъяс      ямягяю яряьяц   яжяж  яяяжявяСяияряШ   яЭяюяПящ яоямяхяпяияОявяхячяр ямябям яьяю  яхяЮяЪяУяПяЪяНяЙязяУяЖяЕяТяЯяНязяияЬяеяЗяЙяУяУяЛяХяЕяЦяТяФяояЮяґяАяНяФяУяПяЭяояЩя»яЛяжяНяОяВяояжяЬяХяОяАяВяјяПяГяЖя·яѕяѕяЪячябябяш яаяЫяшяяяЗяЗяВяАяµя±яКяЗя®яАя¶яИяјяёяю‹ю·юЂяю юAюІююяSяяяLяяяяЋяvяЌяјяея~яlя‰яЋяџя’яЏяіяЎя—яђяљяЪяЄяЁя§яЕяаяФяµяияЦяЦяияЙя·яЛяПяЬякяпяРяцяпяпяцяФяуяЪяШяфяфябяЪяУя·я©яЦ 
-яияЧяМяµяАяёяУягязявяТяїяИячяЭяаяКяЭяуяфяЗяёяСядяКяЪявяжявяйяйя№я¦яЕяРяЦятяаяэяжяо яояЕяк яжяЬяШяш яюяыяэяЪяфяЮяцяуяояеяюящ  
-яшясяыяшякяояц ях яп   
-яуяе  яь яя   яс  яэ яшяЯ яряфяляр   яя яу яъяяяэ яэяь   1  яяям   яэякяэяю 2    $ятяц 
-яя  $ яаяь яш  & 5    яф       
-  )  ях  /     '       ящяыяя      # '  яюяъ     % 
-ядяр    яяяряо   3  & *  	 "    !     - " яч 	ящях  #  0  $  яю яы  "   *    .        & ячяю яп  
-яэ 
-яя   $     '   	яъях  %яэяш  ( яэ  яц     ящ ячяя # 	    яшяэ ят     яйяз     	  	    
-яшягяеякяЯяр      %яъ  яЙяняэятяЬяЦяЫямяЯяцяшябяЩяц  яняРячялязяЖяЗяЭяЮяПяЗяЩя°яШяеяЩяЬямяжяеяЭяНяПяояТяНяэ яфяцяеякяГяОяпяФяМяУяЦяГяПявяцяеяшяСяѕяЙяВяµя§яЫяОя§яЛяУяКяЧяГяМяРяУяХяБяКяЯяЧяЪяСяр яп 
-яоямяїяЙяГяІяЁяµяИя¬яЅя±я¦я·я±я¶юzюЅюъюќюЁюhюШюхя(яяяCя8я%юдяя}я©яњя¦яЧяЃяkя‡я‹яhяѓяЃя¤яАя«я—яЏяЧяДяЕяЅяВяјя·яНяНяОя¶яіяБяФяШяФяНяояЩя¶яЦяЪяЪяЪяЮяЙяЬядяаяЬяЙяШяШяВяТятязяєя¶яТяЮябяЧяаяЮязяъяЩяГяЙяУяЭяияйяЬяФ  яТяИягяКяТяЭячях яУяЪяляКяОяжяЯял яъяй  яуяляйяляаяЮяляЯяфяняцядяЯяс !яеяы 3 якябяч ямяРяъян  яЮяя   яЩян яшягяЬяфявяияй  яя ягямям ( 
-яу  яняь ' ян  $ яцяъ ясят    	яч 	яняЭяжяняЮяк 	як   яю яхякяо яюяч        
-  %         	       ! яф яч 	яэ  %  яяяэ    	яюяя     ! 
-   (   яю   яь  яс  яч  яз 
-  ях  яьяш 	 ях  яю         " 3   яп 
- &     & 1 $ яояъ   " яъ яь    ( " яи     яряцяц        $     ! A !    # 
- ящ яцяп яяят       яъях  яъячяхяъ     яцянящяэ - %яряэяя яцяе ячяшяфяш  
- яшяс яхявяЬяыяГяМяЯяЭяйяцяЮ   ятяйяк 	яняйяуяйямясяояыячячяцяХяИябяЬяцяхяляЗяАяЗяжядяаячяы ямяуяияаягяляЯяняляфяТягябяЭяЖяФяПяляїягяняряЛяКяЖяґяАяґяµяПябяДязяОяґянячяѕяѕяєяНяЦяНявяц 
-яъячяъ яЬяХя№яєяГяЦяНя яёя«яњяіяОяёю–я2ю{юЌюqюЧюiюXяяEяя/я„яNяя7я§яrя©я–яҐяЌяfяtя‰я«яђяЂя яЅя•я–яЄя»я¶яёяИяпяляеявяЕя¶яГяУяЩяОяґяДяХяйяЭяАяУяняЩяПяІя№яаяПяДяЛядяИяЭяияьятяЦяЗяМяЫяоябяхяеяЖяхяыяця¶япяфявякябяТяЫ  яряияцяъяЯяЮязяъяляеяжяЙяНяхягяияпяояжяиябяйяНяЩягякяЭяКяояхяЭябяйятяДялявяь    яэ ямятяФяфяю  1  % ясям яияьялякясян яшямяеяъ язяи  яояу яя    яяяф яэяч  яхяэяы   яюяс    #  	яфятяп    %  яьяюяъ 
- яфячяф  
- 
-яц   япякяш  яу ям    &  
-    ял    :  
-         "  	яы  . !       1  яяяц ях   $   яя            	  
-яъяя ' ячяс    	    яъят      яч  яюяя      
-   &  	  
-   
-     яоях    яняц        яъ  яы   ' яр  ячяЬяпякяюяц 
-     яуяц    яеяуяьяяяшяш  яхяч 	яьящ ямяо ярящяляСяг  яяяЩяЩяояа ягяш яь ятяьяРятяЯяЧяУяЦяУяЩях яшяКяйяТяняФяЩяюяоясякяЭяФяУяПяОяХяш яоящяЭяНяаяШяЫяЬяЬяжяояЧясяСяЯ ясяЖяжяЧяНяМяХяѕяСяНяЄяОяТяОяр яъяуяЅяНякяЕяПяЯяЫябяЕякяу ящяюяь   яПяМя¶яМяѕяЄяВяТя¶яГяСяЄя»я7яюЃюaюуюЦю™ю|яяя9я>яYя;я.яZя“яўяqяЌяsя€яlя2я}я—я—я°я·яЌя{яЊяЉя»я»яѕяїяРяВядяЧяАяЛяТяОяСяЙяЕяЧявяРя№яАяРяжяЭяЭяШяюяояШяТяГях яояЬягяЦяБяЕяЧяЛякячядясяз яЯяеяИяСяпяЩяХяаяФяЬяЪяеяЬяаяЫяИявячяс 	ятяояеяйя¶яПяУярясян яряЯягячяЪяж яЭяЪяПяХяЭягяЗягякяШяЦ ябяч  яняэявяКяЦ  * яю   ячяю яЮяэящяж ят  	як яь яьяняЪяе      яуяыяюяц яц яъяф       яьяь яю   яы  яш    	  	 	    %    яу   яъ яфяс  ящ ятяш   
- .   яю ( 	яъ 
- яэ   2      &     ящяц          яшяю     )  яряф 
- $ 4     $     ятяч  яп  /    
-  ях  яю 
-ятяо  яь  	 яцяй 
- ясяь  % 2    ,   	    яс 
-  # ) яфях   	 яьяч ял    	   яуяхяц яя  ящяшякяйячяз ят      яхяз      яыяэяляЭящ ! япябяЧячялямяояоячяй  ящякяи 	 яняаясязяоятяряуяп  &яиярясяфядямяСядяяяуяКяЛяЪябяЕярямядяеягяияе яфякязягяХябяЖяЦяаяЗяЛяНяЫяМя·яОяЫяЯяЖяОяЛязяЦябяЯяПяЖяКяЦяУя№яЙяЗя№я¬я«яТяЛя№яСяШяЩяЮяЦявяїяЅяАяПяОяХяЦяФяй  яю яшяЪяІяКяАяЙяАяёя¶яЅяИя№яБяТяЅ ' )яТюТю№ю«юљюCя#яя6я#южя&яjяCяgяљяя“яoя‡я›яiяЂяяXя†яґяўяўяІя›я†я№яЅяпяЩяРяЛяХяЯяРяЅя®яїяУядяЬяґяЬяЭяЅяВяВяГяЖяЯяняСяЖяеягяЮяШяЫяря»яЅяЫяЮяЖяШяДяМяияхяНяИяЛяЭяСяКяФяПяНяПяЗяХяШябяеяФяМяЪядяияСясяРяЙяУяМяКяЪяЬяВяМяуяюяцярямяыякяляу  яюяняояоямяояМящящяЬяьящяфяуяМявявяояыяя яуянябянязяш 
-яъяияьявяйяз  яь  !  
-    яеяя  
-яь   яъ яшяу      	   ' яхящяэ 
-    ясяя ят !  ' " яюящяэ  яы ящяъяъ  яцяд  яэяэ ячяьяя      	яхял      
-   !  	   ящ  яфяш  )  яе     	    яъ     
-    
- ящ  +     !  & яняояю             яф  	якящ      	  яя    	  ятял  яш ящясяьяы  	   ! ( яш   яуях   яс  яьяЮяш яя "   яхяцях     язякяряхяо  яр якяхясяоял яч ячяшяЧяШяу яэябяцяю  яч  яхясякяъяе  яыяк   	 яМяШяСяТяояб яс 
- яэ  якяДяВяСяЭяЮягяжяЛях яыяжяРяЧяЯядяБяЬямяЭяРярябяЩядяЩяаяфяГяТяЦяаяЮяаяЭярябяСяИяЙяРяХя¶я®яЖяГяПя§яўяСяЧяЮяЮя»яЅяТяВяФяжяГяОяЩявяЬягяЮяияЯячявяеяхяцябяІяБяГяЫяАя¦я©яИяЬяНяМяВяЩю‘юБюrюЊюrюыю–юЯяюияюйяяяfяяNяvя†яbяvяeя§яЄя—яrяLяIяЏяґя§яјяўя№яіяВяИяДя№я»яЩяХяЬяАяЛяєяЫяШяРя»яЅяЦяјяЪяшяу яЧяляЭяаяРяЄяИяляХяОяПяЕяЖяЧяµяЪяУяСягяаякяФяШяйящяЮяЭятяЦяжяляЬяк   яХяЙяУягяеяШяхяряКяХяпяняНяИяеяыяс яОяКясяж  яЮяыяшяаяияИяЪяМяРяКяФян яаям ядяСягяпякяУяЪяСязяЮятят   яияъяш яжяЬявяг 	     яляь яжяНяЛяляйямягячяш  яы яУяеяш 'яу   ях  0 )якяю   яяяь  	 " 	  "  "        ! яюяьящ  ящяыяя  
-яя   яя  ямяьяю  '      ящ  	яэ 
- яцяю  яхяйяо    яы ях   яьяы  &  	 	     яя   *яиякящяс         яяяю    + #  
-  ящ  : # $       % 	        яьяъ          ямяш ятяэ  ящ 	яс  (  яъяЪ  яю  язяю  	    ячяц  яяящ  ях         ятяЭяР ябяф ясятяСяЯ 
-яыящяжязяе -  яжябяп    яр яняе яшякяьяояуяПякяуяь  яТяЬяд яцял яйяйяКяТякяояЯяйяЭяЩягяКяжязяЬяУяЙяЦяЭяЕяЮягяЭяЯязяјяОяуяляБязяЪяМяµяѕяхякяеяьяояТяпясяОяпяЗяБяЗяЛяЅяХягяТяГяЅяаяМяОяЛяєяГяЦя·ядяняаяЧяж * яь яхяїя«яЗяУяЗя§яГя¬яіяОяѕя¶яЕяСюhюЂюXю”яюнюѓюџюоя"я ювяя)яHюъяЊя¦я¬яsяђяѓя}я‡яЂяrяuяdя’яАяЎяАяЎязяея©яҐяпяжяЗяЗяЖяМяЭяШяАя»яПя¶яПяЫяКяЛяОяТяЫяЪягятящяЮяЫяЙяЧяєяіяУяюяЭяЬя°яСявяеяФяАя°яЧяоябямяХяФяФяуяхяЩяпяЛяФяфяшяЪяФяпяЦяь  ятяуяшябяЬяшяияг япяЛяУядяЯякят яияь ядяЮясяЫяЙяПякягягяФяРяВяо    якябякябячяпяс   яюяцякях ячяхяФяЭяя    яняц яф яряряе !   
-  яя яр яу      	       'яш ящ   яэ    %   ям ях  ) яъябядямятяыясях    .  
-     
-яэ  	 яляы   яъ яш  яяящянячяыяъяэ 	  яхяюяэ   * яшящ  яы      (яяяэ * яЯян    0   1 "      	 яь       
-яшяы янящ    '  	  яы        'ящ  ( + яс   яд яцяь    ' &яя    яояэ яыяр 	         яж     "  яьяш   яэяцяы      яШяг 	яляьях яряояъ ячяЫямящяуяояФяй 
-ят яиякяряеявяПяояхяЭягяйярялядякягяряеяляцяряшяс  ядяфяЯяПяояияжятярярявяУявяряЯяаяоябяхякяцязявяЭяУяеяЯяеяТяЩяЬяХяСяПяЖяјяИяГяСяСяТяЫяЭявяОяУяЬяеяЗяЦяВяХяЫяРяНяСясяшягяЦяПя©яГяХяЪяЮяияФяУяР  яъ яЩяНяЖяЕяХяЖяФяЪяжяНяЅя«яєяИяСю·яuяяю‚юЌюzю•юяяMя=яяюъя	я(яя—яљяtяЁяҐя{яXяsя‰я•яЁяїя·яіяµяЅяСяКяЗяЅяТяРяјяЯявяЛяИяНяЗяЙятяаяияЧяДяЫяЫяшятяЛяжяпяЧяµяМяИяМяЫяЪяИягяєялязяряжяЭязякявям яуяЫядяУяЙяияйяаяаяСяХяуяяяжяаязяЭ яьякяэяйяфяяяд ящяаячяЪяпяжяЮяаядяЭ ягячящяШяуях 	яьяояхяДяляй яжяняф     язяуяхяФяЦяу ян яЬяеяЯяц   	  яхяу яяятяжяияр   яцям   язяы 	   $  яляпяпяЯяяякяЭ        %      яя 	 
-   7 '  яр  ящяяяяяж 	  яъ  + !    яц      яю   яя    яъ  яьяшягяцяыяыяъячяыяк   $ ягяяяэ яляяяя 
- яы  ящ  )      яцяияшяп 	яуяф    !   "яс ' '   5 + # "   '         2  яя яу  	   ,яъ  
-ят   # 1 2 & !     "    ' ,    яя  	   яЯяЭ  яя   	 ,яз       яняЭяЬядяыяшяь  
-яцяр яъ яЮяЪящ 	 	 	  япямятяцяьялясяь яуяшяоязят    яФяжяЦяПядяняшявяЧяеяр яч  яН ябяа  яшяаяф 	яаяМяиядяПяЭяфяНяЗя·яёяЗяФядяЮяЭяЧяЛяояЫяйягяЛяФяЮясябяіябяЬяУяСяЬяХяГяНяЬяЭяПяИяБяПяЁяЖяЫяГяКяПяЮяБярятяПя¬яЦяЮяКяµя§яНямяЦябяЧ 
-яшяняя ямяЪяРяГяјяҐяОяШяШяЫяёяѕяѕяаюјю¦юѓюёю°юсю®юјя#я3я.яяя я*яOя“яnяnяя\яmя`яkяjяя™я†яіяµя©яІяћябяаяРяЕяЪяЯяНяГя»яНяАяМяЪяЗяЪяЫяШяДя№яКяБяЫяцяряпяпягяоябяПяСяияияЪяБяЕяШяОяЯяЧяюяиязяЫяУягячяжяеяйяжяГяЅяХяфящясяТяаяЖягяЦягяНяЪяМяо  ясяПяЬяхяжяхяэ  яЪяЮягяЯяЭяЩяояюяояаяпяяяь  	ячямяуяцякярязяИяШяпяжямят   	яЯяс яяяя яяяояеяуяшяш яыяяяыяцяняы  	 ясяняо   яряляцясяшяяяняю   !яэягядяы яыяЭяЭяыяю 
-    яряэ   яр 	  (    # ( !      яюяя яю     	 
-   ячяыяр  
-   яю 	 *  
-яшяояцяьячяя  яп   & яъ   ях яъ   яс    яф      
-      
-япяшязяЦяЬ    ' " ,      яю    
-       # 2      яьяцяп 	 
- яюяфясяш яэ $ $ ) &      яяяю  # 
- 
-       яьяч    	 яц ях    	   яу ял яф яя ятяляп ящ ян ятявяы  яЩяе  ясяъ    ячяьяЕяїяк ярямячябяхящяняЮяв яояк ядяЯяЩяжяп 	якяжяИябяЫяПяъяцяЛящяыяОядяжявяЩяЬяояляЯяЪявяЫяЪяеячяЦяХяФяМяРяУяЮяСяЖя¶яЧяЧяияЭяОяЫябяХяЙякяЦяХяЧяЬяИя»яЖяЫяЧяШяЩяЖяЫяЭяУяґяПяПяИяїяТяк яи  яй   яляня№я¬яЗя©я©яЇя±яЫямяЮяЅяЈяћяѕюљюSюmюГю8ю‘юМюЇя)яAя9яяяя3я	яIяxя…яяѓяЂя„яЃяѓя†яXяkяњя…я‹яяњяЅяЅяЗя·яёяГяЪяЫяХяЖяЛяИяпяЫяМяЗяЖяСяЖяОяЖяЪяГяЛяЅяе яЪяЦяКяияЖягяняояМякяЙяТятяеяШядяЦяЮялятя№яЅя°яОяЕяЩяжяЧяЧябяЮяФяаяояЧяИяСяЖяГяв -язябяРяМяЭятяояоятяляняЪ язяУяЭяюябяО   ямяуявямяЭяфяхязяЯяхячяяянягяб яэян ямяЯ   "яф янях яхяФяеящяуячяуяб яхяо яы    	яд  яияЬячяьях яц   
-  яу  	яряфяю $ ?     ячяеяьягяс # $  '  	   яыяцяр  0 !  яьящ ящяъ  яр      яь        )    	     ят  яы     яэ             яляфяоян  
-  
-  ялятяяячякяп  яю 	     яцяп  $ 	       яъ   %       яь яя яю              #    яс 
-    ' яю яшян  яш яцян    ясял яы #яъ        яъящ 	 як   , ящяоябяы   яь яыящяляеяыявяаян   яъячяшяЩяаях ядяь  яшяпяш яэяаячяЬяЪяЮяияЕяФяйяЦявяо ялягяияу яняпяУяхяЯягябяаяояеяиятяЯяояОяПяРяїяЖяЦяТяГяОяѕяТяПя©я±яБяіяГ яаяВяМяАяёяєяЯяеябяМяЬявяИяряшяєяЯяЦяЕяЇяВяЭяляШяояц  яьясяЪяМя¤я©яЋя±яЖяЧяЩяЪяЫяЗя¬яЇяЪюcю†юЪюоюЖю№ю§ющя`я'я$яюгющяяяHяjяbяpя†я{яЉяoяSя}яЉяµяФяПяБя¬яЎяЖяРяїяєяГяАяРяФякяОяёяЗязявяЦяОяДяБяФяєяЦяЕяЭясяАя»ягяГя§яЗяЮяПяЫяЯяСяи янятяТяЖяРяРякяЮяБяПяДяХядяТяХяЪяВяЫяняцяЭяаяРяФяИяЦяфяШябяняЧяйявяМяеяЫявяХябякянясяпяЩяЬяЙятябяаяЩявяц  яж  яжяляпяпякясяхяцящ яр яояаяН  яс   яаят 	япялядягякяСяъ яряляняюяц   яояр яуяШян  
- яуякяЩяЩяф яояь яь яю   
-яыящ  + явяЛяЮ    : яэ  	     	 ' - * 4 & ящяф     	    $   
-               &яюяч  	      $  ящ       яэ  яъяы  
-яьящяь яшяш              	   	яю яцяняю яэ 	       $ %       
- яр  2    * ящ     яы  яы  3 япяю      	  	 яэ  яцяю 
-      яяящ яш    яяяцяь      
-яряеясяоярясяуяхяияьяо 
-  яяяъяыярям   яряиярятяуяхяшяЫяияуяЩяияуяЯяЯяФ яЮяКяшянякязяцяаяу  якярякябяоявяхяыяшямялячяЗя¶ябянялячясяцясяояЦяЭяУяаяЙяМяєяИяЫяНяЦяШяляШяКяЧяЕяДя·яєяЄя±яПяЕяМяТяСяТяШяйятяНяЮячябячятяЗяЖя»яіяјя№ягяРяТягяц ( !    я»я¦я№я±я·яЯяРяВяЙяёяЁяІяѕяЩюсюxю€ю¬юЃю™юКяя,яюаюяяяючюсяcяxя”я—яiя яЎя“я‰яЁя•я©яћяГяОяЅя›яЧяїяИяЦяЁяјяНяЕязяјяЗяІяЙяСяпяЪяЧяСяДяаяРя№яјяЭяєяјяУяЛяёяЖяГяГяДяЖяПязяСяЙяХяЮяНяЩяЦяРяУяБязяЭяйяУяляжяаяИяЖяєяКяеяыяШяЭяГяЩяьяШяЮямягяряТяЩяЭяЧяЮяхябяЖяДякяЯяПяЛяЩядяаяЦяДяШяжяы яф 
-яыяэяхяпяряЩяыях яйядяцяЯяхяф яы   яп япяхяйяпяшямяш    ясятяч ягяШ    
-   ягяы     $ яаяуяъян  яьяйяэ    яю ! *  яуязявяЯязяЫяк    ятяэяь  /яэ     яч #  3 $ яо 	  якяр яж  яе    $  яяяъ  яяяф      (   .     
-  яряю    яыяцяяящ яи  яфяц  яцяя                + @ 	ятяъ   " яч        яп яъ 
-   % 
-  # яу  ящ 
-   яя      яь  '   яшяъ     яу ) яы 	 ях   . )        
-ясячяр  
-яъяьяы  ямяэяэяу ясяч яъян            яхяояжяЧябяЬядяХяпяэяцяо яю яаяжяЧядяняшяхямяТяаяфякятяряъяшяаяЛяЩянябяляФяґяЯяйяНяЗяеяЗяНядяфяТяЫяТяБя™яєяЙяРяЫяГяРяЯяхяТяНяЕяїяБяАяРяЙяТяХяпяРяФяµя°яЙяУяАяБяНяГяЧяСяЗя»яЫяпяЗяЦяЧяШяТяаяуяч якяйяоячяёя¬яБяЛя­яФяЗя¶я°яЙяРя»яАяИюЭюђювюЏюБюґю»южя+я!я%яюйяяOяRя›яяsя`я¦яѓяѓяѓя}я†яtяeя–яБяАяЄя­я­яІяјяЯяТяНяЬяГягяЭяЙяСяіяНяЭяФяУяДя©яїяСяФяЭяЙягяОяЦяБяЗяКяИядяБя­яЦядяХяїяИяАяУяЮяХяЕяСяїяЛяХяЧяОяєяРяЫяеяРялязяРяЯялявяКяЬяцяняЯяуяпязяШяйяхяйяцяЪяч яйядямяЬяыяЭяЧятяшям яжяЫяп ятяЩяЮяюяшяйяїяЩяРяШяпяфяюяхяхяЭяуясячякяЕязяю ) якящяы яняе яйяеяЧяЦ  якябяЫявяэяш яъ 	ячяш    ятяуяюяояэ   яь    яя       яь    яс  $ яцяч   
-   яхял яш  яыяЯяу яэяэяц яояуяэяьям   ях  ях 	 ящяняияъ  яр ясяу    -   яшячяш яю  яцяЧяф   ясяы  
-  яэ    яь 	 	 &    )   * %   ,    $ 	  $  	   ! .яь ящ        ! ! яхяъ  ( !         ясяп 	   яя "  ячяц яъ                $ 	язящяс ямяр 	   яояияжясяЦяй яь яуярягяхяя  ябящ  яляй яшяеягял  ядяш   )яжяояф  якяъяцяпяияОяИяМяояиягямявяЭяЮяЬяЫяСяИяЮяХяняФяш яЪяЛяУяДяМяТяуяйяъяляЕяПя­яјяБяиякядяХяУяЮявяияЖяЕяХяШяЖяЪяШяРяФяєяІяЁя­яіяЖяТяияпяЯяЦяИяХяЗяєяЩяВяЇяОяцяЦяЫяПяцяпяч   яПя±я¶я¶яСяЙяµя яАя¶яЅя¬яєяію›юќю€ю юАюСюtю±яя	южюъюэяlяя яnя…яЏяrяЉяjяvя¬я‘я2я?яmя¦я¤яµяµяљя«яШяЬяЛяЖяµя»яояЮяняАяДяФядядяЖяУяАяРяжяРяЪяФяёя»яіяТяаятяМяияияГяШяРямяШяПяЩяЗяНяьяляжяЖяНяЗяСяляеябяТяияыякяХяТяИяХяьяеяПяГяМяОяЩягяЬяЯянядяняъягягяПяэяжяИяияяяъяхяцяояуяь яРяНяЯяЬяняцяЮявяэясяйячяс 
-яояеяЭяо  яЭяъ 	яю яояг яыяЮяф янячямямяпяняеях  яьяшяр  ятяа  "яцямяюящ  яьякяияпяляяяч    яя   яь    	 яч  	 #   яфяхямязяэ  яъяхяш  яь яц яы , яяял  яъ    ящяняшяэ яъяр      " яю " 	яы яьяхящяфяйяш  ядяэяш ящ яс    # яя  ящяо       
-    
-  
- яы     ядячяя   " язящяя  "   яи яяяч  (  5 7 	 ( 1  5     ят яю       
-яыяь  яьяц  $ яч 
- %   яю  яь    )яйящяхявяч   яэ   
-     !   яюяфят   яхяЬяЧязяз 
-яэячяж 	 ямяияпяъяжяпяь  
- яуябяияйяя ямятядятяУяэярямяхяаяюяъяп яшяияоядяХябяТяияЩямяуяцяияи ябяу яняЮякяРядяїяЬяХяЫяж  яеяМяМяУяЭяЙяїяНяМяїяЯяРяЖяДяТяПяБяєяЗяЙяЖяТяЕяЭяЕяёяДя®яЙяАяЖяґяйяХяряйяЬ ят   	яЭя±яЈя—яЄяМяаяҐяЎяЇя­я°я№я№юбяю¬юoюєюЗюЈюЙяюуюлюляяя9яяIя;яhяgяЉяЉяЃя€я©я’я‹яyя™я›я–яџяќяєяНяЭяЗя­яВяєяШяЦяЬяЮяДяіявяєяНяЪяаяЖяЖяКя»яЮяКяЇяОябякяея©яФядяаяКяаяеяТяФяЮяСямяяяаясяряЮяЧяжяУяАяНяпямятяІяЕяЖяєяШяряТяРяВяиягяЫяЛявяЮяМя№яХятяХядякяЪяТяЗяТяЗ  ясяФяыяыяняЮяЗяЫяЭямяЦяжяеяЦягяаяю ячясяпяйяЮ яэ ятямяэящяаяряТяНяй  яЯягяеяй  -  яюяо 
-яц   'яыяфяч  ядяэ яюяпяш яь   яфяФяЫяуят    ячяЫяо     )           7 -  яь яяяь  яъяш 	 *    	  	  яй яу  яьяхяс            	яфяпяюяь 
- ях        
-    
-яъяхяы   яияш яэ  яс яшямяэяь    )   яцящ  
- " яр  
-  
-         "  
-   " +     #   " яя   
-      яь    	 яъятяч  яз   .      яьяь   
-       яя яфяаяцяъяо  яюях ятяы  яЮяЛязяТяф  
- ямяжяю  яйяч  янявяу яшяйяЫяияМявябябяыяфясяЬяпяъятяц яЬяФяДявяЮяхяв  
-якяЯяЪяЯ  ячяЭяКяРяґягяЭяэяЫяЭяЬятясячяЦяЮягяняяяЩяЙяаяля·яґяКяРяЪяГяїяКяГя»яµяЈя«яЕяЖяЮяГяБяВяРяµяДяЙяХяЪяФяЯ ямябявят  "  	ячяЩя яѕяДя»яЬяЫя»ябяАяЗяДяЇяҐюљюUюКюЮяюыюgюЈяrяFя?я&яюШюгюбяaяsя{я}яЂяTяpя~яЎяія§я~я§яіяАяїя‡яҐяЛяХяјя»яґяЄяАяКяХяЬяЛяВяБяСяМяТяОяЩяЫяАяОяИяВяЕяїяБяЧязя«яёямяЛяйяцягяИямяляСя¶яЪяХяеяЪягяЯябяЬяЬяАяЪясяЬязяеяЙя«я№язяРяШяпяь ялябяияфяНя·якяЯяїя№яЮязяняФягяКятяпяЭяу  яфябяхяЬяаяояЮяЪяШяпязязячяоягяряояЗ  язяс ящяХякяйякяЬ  яш  яияеяш яъ яэ  яц    яняШяш яя янявяк ят 
-яряЬ яр   яияуяд 
-яы 	яц   яэяцяч 	яц яу яэят    яш     	 	  яфяп яю яряь   яцяняэ яы  ячяйяшяя   яшяьяе  яы яъ     яьявяб яяяъяы   %  * !    яь  яъяы  яъяфяуяш   $ - ! 0  яч    	яэяи    /   "      яы    !    #  #       & яю      яб  !ящяы   яш яф    яэ яцямяд       яс          яь яыяф 	  язящяб  
-яфяц   ! яэяц яэяРяйятялян  якясятяъяеяэяцяЩягяоябяпябяуяч яляъяъяфяПя¶яСяЖяд  ямяШяпяФяРяХяГяЕяЮядяфяияЯягяЛябячяляСяЧяГяКявяэязягяряОяэяжяЧяЦяЅяНяОяХяУяУяµя¬яНяНяГяјя±яЅяЄяЁяЖяНяИяСяНяЙяјяЗятябяКяШяояыяеяляш 	яфябяшяьяеяСяПяјяОяИяїяњя–яЈяРяПяПяѕюЅюююеюИюю®юґю^юуяCя)я!я:я/юяюсяlя}яяqя¬яњя{я–яЋя–я•яяЇяЅяЈяµяќяєяЅяЙяТяСяДяТяШяЛявякяйяёяБяіяКяГяЙяЮяая·яЅяµяїягяЮяУяШяЕяКяЖя»яѕяія¶яБя№яУяНяУяБяАязяляУяОяЭяЖяряряУяУяШяЮяЪяЙяИядяьяПяКяШяъ явявяОяИяряЯяЧяЖяЧяИяЦяСяНяїяШяя  яЦяьяЩяИяТябяхяъ  яиягямяЫящяйятямяояэяхящ  
-яшящ  яз яйяТяЩягяд  янякяЩяп яояъячятяь яЩяц  # $ !  ядядяуянял яияэяъяюяЩяо   	  ячяф     $ярян   яеябяш    яаяу   якяк  "    яюяо  
-яэяыяшяэ  яэях яю  яю  #яяяш  яч  ях яэяфяыящ 	яя ящяэ 	   яияжяцяр  	  # !  яюяю          яр 	    яч  яш 	      ящ 	 яс  "    :  
- & 4   $    /  3    4 &   ' ях  / /   . 	  	   япяъяфяя яляшяя ! яя   яэ яжяг       ящяъ яп     яфяд яняЬ ян 
- яляЯяюящ  
-яч 
- япякяэяяякяоячяряЧяЯякяФябяъяыял  ямяжяНяьяфяЬяМяТяьяфяЪязяЭяьяБяйяЪяЛяжяжяОяияляФяЧяМяїячямяЪязяМяЙяЫяЬяЫяЩяЪяняцяряЧяЮяы яЮяОяµяМяИяФяРяМяПяЖяМяЗя‹яИяѕяЮяЄяЩяЖяїяЅяіяЬяПяГяНячяпясяЦяЖяКяїяіяЖягяУяуядяе 
-  язяЭяВяЕяєяєяУяКяБяМяЗяЗяОяЙяЅяёю‰юЉюЯю…юџю”юЕюрюпя/я#я
-я(яEяяяfяfяcя’яњяЋяyяЉяЋя†яzяЃя°я‘я“я›яДя­яШяеяПяёяХяОяЗяЅяНяЕяЪяХяЦяЙябяПяГяВяЗяСяМяИяЛяЫяїяЗяЛяѕяСяпяХяЙядяФяЯяПяМяПяКяЗявяаяХяШяЦяЪяпяЪяРяєя»яДяЙясякявязяряЩямячяняЮяКяІяЛямяйяряхяхяс #ядя¶я»яаябяЧяпяѕяРягяряНяцяя язявяэяхяЖяИямяЯяЗяЙяХян  яь яя  яжяЯяъяцяйяеяц  ямяо яс (яфяа   яч  +ящяс 	яп   яцяЧявялящ !яяящядябял яэ   яъ яцяй & 'яцяхях   $     яряыяшяш   &              	  яэяь       " & * яу яф   *  яояш      ямяы  яыяцяфяс     ят     ящ  ящямянях       яьяъ   яуяъяь    & - яя  
-яи  яь   яяяш 	яы  " ! 
-  9     яшянякят       '     яш 	   яяяю $ ' 	  . 0 +   ящ   яыяс      яс   яйяэ    якяжябяУякявяхяЬ яф     яю  	яш  
-    яЮяыячяяяЩяйяхяъяуяшяЩяЦяуям  яф ядяжяжяоятяЦяй  яЕяУяэякякяЬяЦяЙяПяа яжядяОядятяШязявягяхягяЩяк яф  яРяјяІяИяєяЕягяЦяИяЩяМяЕяВяВяЯя°яХяЮяАяЛяЛя»яСяеяЬяМяОяЁяЁяЧякяЪяЦяАяБяСяГяјяШяа  яФях    ятяГяОя·яЦяМяїяЪяСяГяµя¶я±яµяВюЪю{ю`юЬюАюњюМяяюхюкюЦюнюьюЗяяяtяЃяЌя~я_яdя”яЄяђя~я‰яЁяґяЇя€я­яАя»яЭягяІя·яКя·яјяГяЛяКяЖяФяїяРяВяТяЗяРя®я»яјяЛя»яВяСяНяЮяТяияю 
-яжясяСяКяіяЛ яОяЯябяУяОяѕяХяЯяНя·яАяЛяХяМяЦяВяЬябяЧябяјяЅябяЙяРяйяряЪязяТяХяряняляНяДябяжянязял яв яеяХяХяРявяч   яияЮябяв яцяЦямяыяаяпяУяПявяпязяеяъ  	 ятяцяеяеяхяс  #яю  яняь  яю янявяп  яьязяз ящяь яряХягяЩ 	 	яф  )яшяп  яьявях яъяляэ 	   яЭяШяЭ  * яуяй  яц (    яц   * "       	     яэ ялямяьяю яияе яшяьяцяж   яе яюяя як яфяю       # #   
-яя  яыяшяъ  яеяъ    яыяфячят   яя   	яю   яэ      ят   . яхяхяы     яъ  "яп яяяпяз  яу    япяя    $   	  (яъяы  ! яьяу  яы       1 (    яеяк   
-яйяКяОяШ 
-  яуяпящяляпясяЯяЯяъящяш яю ябяЪяУябяыяЯяк янящ  яряхяЯяпяыяМягяжяЯ   ямяияЩяиятяоядяаяФяъ ябямяхяьяияЭятябяфячяШяыяФяФяняняЭяЅяНяНяыяояГя·яжяТяБяЪялязяЯяРяЖяєяпяеяТяШяИяУяїяЖяХяВяОяЖя§яєяВяБямяЬяДяХяШя№яБяКя¬яЖяЩя¬яґяНяПяёякят яняюян   яЫяІяЇяНя»я¤яБяХяБяЦяТяАя·я»юЪюўяюѕюдючяюуяя[я$яDюхюЬюшя5яЃяpяwя~яІя†яpя‘яhяDя€яџя±яЋяЋяЉяіяєяИяУяјя­яјяµяїяµяГяОяЙяЖяБяЕяЛя±яєяЙяєя·я№яїяКяЬяЙяУяЅяЩяТягяЭяНя»яТябяЦяјяРяИяХяЅяКя»яЗяЧя¤яЖякяаяЩядядяе яЬяЫятяояЧяїяИяУяфяФяЖяв яЯяЪяКяш япяУяСяЕяКяляЪяУягяйяч  яшяия±яОяЗяжясяя яФяхяыятятяляшяйяоясянябямяляряъяняь 	ясяЬяв ябяуяЩяоязяц 	  якяъяу       яжяхяЪяпязяз яряф     ! 0 , яэях яш  
-  яцяэ  & " яф  яы      яр яйяжяпяы   
-    яс     *    яф яцяю яьяъяр яь      якяъ яэяя    яуяю    яю яцяхяь  5  	      яхях яяяйяз   яю яляы  яыяы яч            яя         .  -   яь яняыяэ    ( яп   " 5  ящяп ящяц яэ    .  яляъ    $ яс 
-яэ  1  яы  яу  )    яя   яю   ( яц яэязяХяиясяюяЪяАя»яП  яя яяяояцяЮ  якяЩяг яляв яэятяхяшяеякяжяояу  ядяНяФяжяуяпяЛяЦяпяШяОяЭяЅямягяйясяпяйяІяЫяТяРяЙяКяЪяСяЭяРяФябяЪяїяґяЩяуязяПяБяВяГяКяСяШяЩя»я®яћяІягясяГяЛяЯяЦяЅяія¦яЁяІяјяїяФяЯяЩяИяеяФяШяЫ  яшяйяяяУяјя¶яѕяТяЙяѕязяДяИяУяНяія§юђюбя ющющюбю”ю¤юзяя/яюняюрюТяzяyя—я}яyя†я†яlя‚яЂяgяђя яyяя›яГяОяЮяЦяЧя©яВя¶яеяЧяЪяэяЦяБяАяВяТя№яѕяляЩяКяШядяпязяЧяИяїяПяСяшяшяУя»яўяјяЯяЦяХянядяРяґяУяЮяЭяЮявяЩяЦяЮяЦяОяРядядяНяЦяояЬяХяЛяц яЧяШяфягяТяЙяЦяЯяьяЮябякяЭяЮяКядяряЪяТяцяЭяОяъяэякяуяПяЮяСяЧяъяуяЮяы яЪяаясяьясяряф яюягяЬян яяяряюячяЗяТяхяя  ядяпяп  яьят    яняряш яхякяуяъяк  ячяк ячяю яыяя & яъ яю !   % яшяц   / якясяп  	    * яь  	яъяя  яыяъ %яыяп  якяуяюямяю  )  яю      яуят   яюяфяе    яэ  яцяц  яюяЪяйяс      ящяэ     яэяряцяъяю  яьяр    яь  яя  яшяъяпяш  
-     &   яы    яю  !    	    яо   F  яю яыяы       #     	 яъяя   яы     5   якяс   яфялям    	 …F -  яияр  2 яь яюяеяЯ   ятяуяюячяюяряЭяЮяЬяряфяшяуяояеяшядяэ яжяфядяъяаяЩяСянядяъят  ящяьяьягяФящяпяТяияояшяпябяЛяпяПяРябяЯяюяыязяЮябяхяУямяЪяЛяПяВяµяБяДяФяОягяКяїяЯяшязяЗяГяДяАяѕя»яЭяКяїяѕягяЮяДяГяЖяѕяєя·яјяЅя№ядяНяРяВяОяЪяаяляъяьяэ  явяьязяїя±яїяУяЛяЅяЅяЁя¬яЖябяФяµяµювю¶ютюВюРю‚ю­юуяяяюЛюСюмя$я5яtяgяЌя„яcяnя‰я‚я«яaяrяsя†яќя’я§я№яЪя№я»яДя­яІяµяЗяГяіяЭяЭяіяЛяЛяЮябяТяУя¬яјяЕятяМяШяЬяШяѕяЕяОяеяшяУяСяУяРяВяО яЦябяьявяПяЕяРяЭяЮяСяФящячяаяЮядяъябяРяУя©я·яЦяряХяаяУяеязяЮямяуяхяфяСяРяд яляиябяаяЫячяшяаяЦяьяйявяЫяОясяяясяаяхящdV BяЬяОявятяояъ  яЮяцяьяСяШязямямяЭяъяо  яц 	   яаяэ    
-якягяЫ 	яьяш  " яюяпящ яфяч     яъяъ       яэ      	 яю = +  ян  яуяя  яч  - яр    яэ 	яь    яб     &   яьячяуяряэяъ    яю яъ    
-  )     	  яюяэ 	ящ    
-     яяяуяояы   ятяэясяэ яфяа        .яэящ яэях ячящ яь          "      	 / % яи  C .   
-   - $    &     яяяф   якяы яо      яыячящ     яняняэ      Y    яэяэятясяяяЩякяняяях яЪяв  яэячяхябяУяУяОяр яжяаяр яияцяхяъ 	яЧяЫяЭ яуяСяЩяЬяЩям   яйяОяьяЩяО явяХяЧ    яояляРяРяйяпяуяюяъяЭяня№яНяЦяОяМяВяПяЩя¶яЄяПяТяДяНяряюяЬяКяЖяГяИяѕям яАяАяАяУя№яТясяФяЬяДя¶яЫяБяіяФяґяВяЛявяМяЪяХяФяЯяу яеяияшяляЗяЖяѕяія±яЁяґя§яєяЕяДяЅяЖя«ю=я
-я'юўю”юВюбюОяqя3я3яRяvяѓя яяvяjяuяzяbяЉя‚яXяљя яЃяvяўяЛяЄяЋяџя»яЫяВяЁя­яЇяєя¬яґяГяМярягяИяФяЅяДяСяёя»яШяєя№яІяАяияияляјяЙяпяхяИяНя№яЖяМяняъяРяПягяДяОяДяЩяШяАяГяШяШяИяИячяы яБяАяСяОя»яЫяеяОявяКяґяНяОяТ яъяаяХяЮяЧяРяЮяЙяряцяцятя»яФядяЮясяыяФяЬяъятяияЬяйяР # !яЫяУяуяэяьяЯяпятяояЯяэ $яЦяи яЪядяЯ ящякясяэ  яэяцяу 
-   	   яъящяЧяЩ  яЫящяхяцяляояЬяъ    яяяз  яр яяяьяхяя     ( , #   'яф       яы  ясяцяхяч   яй       яь  	ящясяфяжяияУяхяъ  ярял 	яъ яшяшяэяшяняъ      яш   яхят  
-яэяц #  ямяйях яюясямятяц 
-    яч  яцяыяэяляуяфяч    	яюящяэяш    ) яэяг  	  яю яуяь  	         
-яю     яяяс     яфям    ятяпясяя яе  	    $ +  яэ  яъяп #  0 яяяь # яе 	яф яфяхяяяэ %ях якяд  "ятяуяЬяи  яеяс ятяЧяУяьячявяФяаямяя яаядяЦяЧяЮяпяфяУядяоязяжяцягябяВяУяЩяУямяш яХяюяЭяЩяМяИяеябятякявяжяйяИяРяЮябяЬяШяияЬяЛявяияЯявяхянясяПяЦяЖяґяјядяЧяѕяоя¦я©я¬яЖякяТяГяґяєяПямяЯямяРяОяХяСяёяЧякячяияа яя  яюяхяКяіяКяЅяРяФя­яҐяКяНяєяАяАяІю|ю‡юЕюбюµюШяюоя!яюыя*яяюнюйяrяhяpя^яVяЉяuя}яdяcяrя‘я¶яЖяЕяЈя¤я№яЫяФяБяДяТяІяЕя¦яиявяшя·я·я»яФяЛяёя№яСяпяШяїяЖяв  яПяПяїяґяЗяЩяОяеякяГяЩяпятяУяЖяЬяЭяЙяХяПяМяйяТяЯяШяЫяа  яхяЧяТяґяІяЖяяяряЛяЮяЦяяяКя№яЛяжяфясяМяТяЕяНяняэяТяЛяжяЬяц  яш  ядяЭяНяПятяпяеяаяпяьячям ящ яс яЯяДяь  яЮяняПяЧяЫяпяряляо   	яХ     яьяЮяч        *    яняъяуяъящ   яя &яфяьяч 	  яю яб 
-яп яэ  яэякяу        8 5 !  яя 
-   яэяыячях  яняш яряк ях 	ягяЙявятяпяжяь    $      яряпяк  ящяфясяхяюяэ     	яыяю  яюяфяс  	 яэяфяу       	   #        ячяеяэ    яфяф  0  
-    9 яп           
- 
-     яс  
-  
- +      ят       яя    	    0     $ яюяы  + ящ  яш  	 яшяэяояьяцяшяъящян  
-   яхял  яр ят   яы  яйяи  яоягяш явярямяояшяяяр яряЧяСяаячяоядяЦядявяЧязячяюяояаяйярязяШяАяьямяеяЪяжяпяЫяХяняшяп я¶яНяцяжямяРяДяµяЪячяУяФяРяВяґя·я№яБяјя«яґя№яМяХяЕяїя»яКяЖяЗяФясяБяѕя¶я·яАябяеяуяЧяНялячяъяь 
-яЦяІяґя¦яЛяКяМяєя яџя°яЇяЗяБю‡ю®юїюџяюВюДяHяя(юєяя>я#яяяuяя`яEяђя“яPяlяpяѓяtяoяџя—я№яҐяЉя©яѕя±яЇяФяЪяЄяКяаяЩяНяСятяияЩягяГяФя№яёяЕя·яєяѕяВя·яІяНяШяОяУяЫя­яЕяИяДяМяЧяшяЮяїяУяОяјяХяеяТяФяЅяНяШяАяЭяЫяЯяхяаяМяЧяЮяняляЭяняфяцяОяҐяАяКяфяОяХяФятяшямяшянягяояЭяЪяшязяаяйяо яЮяюяуяхяжяПяЫяаядяЪ яьяляч  яиязямяН   яияЩяЬ яьяияц  	 яфяжяъ яляг яь %   
- яыядящяс    яъяяякяй яыяцящ ячяняпятязяь  яаящяаящясячяы & яю яьяс       яуяэ ! (  ят   яы   ящяъ   ятяъяфяи   яу    яфяьяю яэяя   	яя    	яп   /    ян яэ    яч     яяяфяйясяь       ям     "        яюяяяуяо  
- яыяы ячяь     
- #  ! яыяь   $   яэяэ  /   	  ях  яг   яъ #             ядяфяйясящ  $ 0  яш    % ящябякям яыяйясяю    яыячят  ят   яцясяз 
- ! ' 	яыяйяэяшяшяюял 	яюядяяязяояпянядяуябянячяУяняЬяйявяняж 
-яюяЬяФяОяс 
-япяЩясяСяЮяв яфяРяПябяШяЧяЭяфяяяУяФяОяЩяЕяЙяЫяКяИяДяв явяЧяУяѕяІяЖяЮяУяЗяЯяМяГяНяѕяі ящя»яОяБяЬяЖяУяЬяЫяЦяёяеяиякяэ &яЪяіяЕяТяГяіяњяІяµяАя·я·яШядюOюЭю¤юаюкю‚ютюgяяя
-юЧющюЯя я3я‰яeяwя‚яbяiяvяrяЌяяcяwяҐя•яђя”яЌяДяЦяєяґяўяњя·яРянякяјяУяКяЗяИяїяєяЖяЙя®я­яТяКя­яїя®яїяАяЯяеяЮяШяФяуяйяРяЩяНяй  яжяаяПяЗяОяяямяХяЭяКяЅядяйяЯябясябяЩяОяТяияюяцяЮяОядяНяеядяБяряряэяЮявяЩяСяЕяЅябяЗяМяТяляЬяеящ яляЩяШяляфяжяжяцячяшяю 	  яфяряжяияйяо яъяд яш    ятяи     яыясящ яояш  	яЭ  ясяюящ   , 8 '  ях  яуяаяя  яряряы ях    яъ 
-  яц  ящ  яряы  яш ях ящ  9   - ях  яЧ  яъяшяр     яя    яюяфяц  ятяю  яф   	яяяъ      яш  '   яяяъ яя 
-яшяц         яц      	   # $  яяяъящяияя    яняы    
-   8 2яш  яу   5   яц  	 яи       
-       яу     яыяцящ  - 
- яы  ят         ( & яэ     яЯяз 	  яяяц    ямяЮяхяо яъ * ях  " яяяйявяУ  ящяйявяояцящ яы 
-яч  ямяйяряхяхяЮяп яуярятят яэямяЭяэябяЦяеявядяЫяхякяЪяйязяЕяЮяГяХяЦяМяЩяшякя№яїяЖяОяИяјяїяБяПяПяИяйяЩяЕяЩяПяµяФяСяЛяУяЅяНяШяОяХяНяЛяѕяБядягяЫяґяДяµяЪяЅяСякяжяиязяы    +яеяѕяояСяЩяДяєя°я¦я±я°яјяџяЁюtю‹юЋюею‰юФюњюKюфяюфюЫя*я@я6ютяhяSяNяnяѓяTяgяhяaяtяџя‹яЇяЊяЋя§яћяЪяжяЧяЬяѕяШяКяРяИяУяБяНяЯяЛяУяґяЕяЦяряХяМяЖяЛягяМяЙязяУяХяРяїяОяЪяуяХяХяеяляляЦяхяЮяЕяХяЦяоякяЮяФяОяцяляЦяФяШяЭяЪяМяРяУямяЦяЙя»я­я­яМят якяюячяняСяЬявяЬ ящяОяНяняйясяЪяПяЩяаяЭяЧяуяхяЫяЧял  яХяПяряс 
- " яряЦяц ' яОяняэ яЫяр яяяСядяо   $    яляа    	         яйяк 
-яуяШ яы  яЯ   % %яяяь         !  1 A 9  	яь   яя   яш   яъяь     
-  яняъ      яяязяпяяяк       яц яь яэ  яс   яя яюяы   '   
-        
-    	яь  ярят      яш   (   яэяш   яъян   #       $    ) +      яьят  )  
-  яя  яюяляы 	  -    
-  яу   яьяъяуяо  яя %     3  *  
- яцяф    *     #яняЩяы яеяТ  яХ   яшяшяр яЭямяс   %яхяи   ящярям    ябяЦяХяияЯяеяияаяСясямягяЩяжяжяЫянясяРяЦяцяЫяЯяаяЪяйяЖяЧяЬяЛ  ядяЮяФя°яЧявявяЖяЯяОяЬ яЯяМяЫяЮясяЧяШяШяУяЧяВяБяєяЇя»яГяХяФяАяЈя°яДяЫядяЗяНяЖя­я»яІяФяеяЕяЁя°яєяИяТяаяыямяЭяЫ  яояоящяФяСяШяГяЁя°яґяєя°яёяХяХяЗяЅюkюmю{юшяюSюaю^яю·юлюсючюмяCяяhя`яmяЋяrяAяjя‰яrяlяЂяЊяћяђяя‘яДяЫяЙяЬяµяїяёяїяМяИяияЕяЅя№яЛяСяПяТяСяЪяЕяѕяЩяШяаяФяеяґяВяВяЛяЗягяЛяНяИяїяШяЪядяАяЖяШяЖяНяШядяЩяХяµяЫяЩяВяИяияояряТяЧяфяТязяЬядяПяЩяУязятяФяояЩяыяряЩяфяЬяряняМяЧяжядяЭяиякяШяТяйякяыях  яжяпяМяцящяЭяйяьядяоячяияпянячяЧ яЯ язяРяХякятяф яяяфяняряуяЮяцяфяюяз   яляфяаяпят яъяы     яыяшяияь  яхяь яюяч  яэ   
-  янягят 	 ясяю яю   яю   	ях ян      яняням "     
-яь     яъ    
-  яЬярятячямях ящ 
-       &   "   #    яэяйяжят     ящ  яцяфяюяэ      яяясяс 
-   яэяя    2 ;  $       	     
-  
-      "   яюяя       	  яыякяк 	яш  
-     яс % ячяыял яц  #      ялядян  яЭяняэяыяц 	яю   % ян  яъяЩяКяй !  яъятяьяы   яьявяЬяеяФяфясякяп  яюяхяъягяпяыябяУясяняЭяОяѕяіяРяСяЗявяжяШяЭяЯяхяПямясябяхяЦя¶яляляуяРяЭяІяТяияЙя©яЗяТяНяЦяЮяЮяЬяоязяМяїяАяѕяБяПяХяеяСяЅя№яКяЧяуяСяОяЮяЙяЫяЭяЯяґяЗяєяјяЙяНяЙяеяу яйяжячягяпяжяйяПяЖяХяМяНяКяОяняаяНяГяПяЙя®юјюљю™юХюhюҐюМюЭя+яя%яяя(яя1я8яvяcяjяя\яIя…яЂяTяqяrя—яўяЎяЌя™яФяѕяояЮя­яБяНяВяСяѕяИяіяЄяМяМяОямяияЮяЖяДяБяАяЅяДяЪяЖяЙяЖяЕяВяЕяјяЅяїяЖяуяпяшяЬяіяЛяЇяЅяЦяияйяБяЗяТяуятявяУяЕяЗяКяЖяеяЪяЛяМяНяРяЛяЖяЕявядяАяляКяѕяфяЬяояФящяЭяОяЩяШяРяЭядяГяЩяОягяеяЮяз яуяНяНяЯямяюяй 
-ящядяаяфясяцямячябяЛяю %яэяЧяыяч яш   яю ятяс 
-яцягяюяыяЮяуятяс яяяеяй  ясяш  3   (      яч яцяХятящ    . /   ящ  	    	  ях яс яфяю  япяфяь  	     яд  ятяю  яя  + 
- !   яжясяя  #  
- 
-ящ          
-  $  	    ячяжяу    яэ  яфяэ   &    ,  	 
- яы  яоящяэ #      ' *    яэ яя %  ясяю  яэяыяю     ! яч  4 ят   ят   яыяхяш       ! яу 	  ях   "яояэ  ,  #       яч  яфях 
-ябяэяцяняияй   яю  % 	  явяюяуяъ яг яы   яияПягяе ямяТяМяжямяфяц яхяряЬяОяфяЭ  
-яХяюяяямяляЯяь  ябяЩяЫяЯ яцяс 
-яЩяшяуяЩяшяШябяЖядяряЮяЯяЫячякяЩя®яЫязя¶яёяТяєяБяЕяКяКяБяґя­я»язяНяСяЪяВяЦяЅяДяЪя±я­я¬яБяўя»яБяДяЭяїяИябямяеяЯяеятяЯяаяжяНяЩяЕяРяЧяЁяІя·яжяЦяРяЦяМяЪяЅюwю¬ю|юЛю™ю­юеюgяюсюгяюпюбяFяNяЋя©яЋя…яяgяЂяuяpяwя^я_я‘яўяЇяЄя–яБя°яЗяІяёя»яСяпяЫякямяГяїяЯяѕя·яряУя¶яіяЛя№яЙяМяКяГяµяШяВяКяУяЕяЯяТяПя¶яКяЫяояЯя°яЛяпяеяїяєяОяЖяПяпяцяЭяояРяВяЙяХяЪяОяПяхяЮявяБяЯяЪядяеяняЩяояйяХяПяйяфяЯяТязячяЯякяэякяСяЖяХязяЦядяаяцяияияЮяляияКягяияЪяТяЭяШяЙ яэ яъяояЮядяхядяйяйяаяшяеяг яс  япяляч ян яыяж ясяпяляа " ян  % яэячядятяпял   яш  яияч   - яц  яЮяе     яч    яы ях  	 ялят яцяЭягяряфяч     яь        
-яя  яп       
- ят яц     5 :   - 0 > 
-яъ      !  & 0    яцяыяюяъ  	  
-язяОяхявяю яы .  яэ -  	 &  )  # '   яэ     %  ( 0    янящ   яю           '  яы    яч       	  !   # 3      	 = 7 ! 	яйяи  яс   ялягяэ   * яжяияъ    	яшяфязяц яхяШяСяуящ ящяк ячярян ягяЪяо яеяйябяэяТяЬяйяляюярянязяцяхяшязяеяпяУяКяВяеяфявяЪ яаяЭядяПядя»яЭяцяыяяяжяЯятяюяпяХяАяИяияшясяЧяСяРяФяЕя°яЇяЁя®яТяОядяЛяЖяѕяОяРядябя±яЅя°яјяДяЯяИяЖяхяЛяСяояфянясяФяыязящяояЯяВяНяЄяЄя«яЖяСяМязяїяґяГя№яЛюmюMю¦юhюСюЈюЂяяяюэя)яяя
-юеяЉяtяnя‚я—яnяzяЋяЊяeяiя•я яђя™яЋяўяПяЕяµяїяВяИяЗяМяИяОяОяГяКяияЗяБяШяЪяЧяЅяЩяКяґяЛяОя®я№яВяЛя№яБяЛяСяМядяеяБяЪяряІяЁяВяѕяЧяТяфяСябячяИяµяВяЩяМяОяОябявяРяЯяДяґяОяФяЖяНяВяБяОяАяПяаявяЩямядяЧяЬяЬясяуявядяЩяаяУяѕяэямябяЖяСяняняйяТязяЩяьяляф  яряКягяЦяФягяэяряЭящяуярячяс яшяшяфяыяпяс  ябяляаяэямяя " ядяЯяЭяШяЧял яюяя     ящяуят   яь яь яьясяю   4 яыяу ярясядяш   
-  яуяу  =  яяяч  	ям  якяш      яряс # 	     яы 	ящ  
- яо      яфяэ яъ   !    3 ;   , ' =        яю (       яцяыяряфяъ  яшяпяряъяцяу       яфяе    6 # - *      яш   $     	яь     '    >   " 4 6 ячяш   )     * )   
-  (  	       яы яхяф        ячяз яяясяляшяц  яь    ябяПяъ яняОяЩямяряЭ 	 яояйяи яЫяСяЭ яеяЧяЪяЙяЭ язяияНявящясячядяЪяЦяЬяЕя±яИяЧябячяДяЕяияЛяц  ямяО ящяЪяюяь 
-яляе ябяУяЕяЅяѕяИяЕяРяЩяЛяЖяБяМяУяШяХяЬяАяГяЦязябяНяВяЩяГяЙяґяіяїяШяµяДяЅяМяЗяТяЫ яояЪ яъямяЫяаяЭя»яЏя•яЛяЩяБяєяШяїяЄя®яІяЧюКюЉю„ю‡юНююzюЪяQя:яяя;я<яяяяrяfяSяvяkяUя‹я‹яhяяgя±яЌя–я§я°я¶яёя·яєя·яЦяЗяЕяЙяТяйяаяµяІяЪягябяЮяШян яЮяПяХяНяЗяДя·я©яАя¬яХядяїяМяСяйяСяЛяАяўя»ягяШяЕяОяГяЯявяТяФяЫяЖяёя№яМя¤яОяВяЦяНяЪяТяЫяЦяФямяїяЕяєяЬярявяЫяЧяЕяЧяФяЦяЦяФяХяРяИяМяЮяУяЗяјяЖяЧяВяЯяЮяМяМя№яЯякяр ямяряЭяйясясяояцяЛяи ясяфяч   яхяоящяТяпязяСясят  ямяняцяФяшяняю !   
-   	яф  яэ  яя   яь  	ятяя   ях  яз    яю     яяяь    (  	  
- яч   '  
-  #            	яс      яяякяфяьяу 	      
-  
-    ( $  *   % *   ' 2     *   яц    $ 3 яя  + яфяняхяж   яф    ' яляо              
-яц   	   * 
-     0 &     яр  	  " 1               
-яхяц яд яяячяъ  ялязяояыяяях яя   яр      яч  яъяФяп   яшяэяеяпяьямянялятяз яю  япяуяфябяцяюялямядяпяшяЭяоякят яоядяхяцяЩяДяаяиякяйяХяляфятячягяЮяряияуяхяЬяѕяѕяЯяЛяєя»ямяйяФяТяТяѕя»яЭяЈяЕяГяХяляОяЧябяЦяъяояТяПяѕя®яИяЪяЕяМяГя§яЬяЛяГяЉяЈяЛябяЙяйяЖя№яМяШябяЪяеяь  явяШяјяµяГяЕяѕяЯяЕяМяЗя°яКяияТя°ю@ю®юПюҐюЭюИяю”юГюЧяяя&яюфюУя“яlя[я‰я}яяmя‰яwяЃяvяTяя–яљяЈяџя¶яЇяАяБяµяЯяЛяЄяµя±яЛяПяЪя№яЛяЩязя яєяВяЬяШяЕязяЯя°я·яУя№яОяёяЅя·яЖя№яґя¶яіяРя№я§яВявяеяЅяХяУяЛявязяСяЅяРяТяИяЛяВяОяЭяЪяияМяДяРяїяТявяаяАяОяЪяДяѕяАяйяияФяїяыяняУяуяляПяФяУяЮябяе ятяшяд   яыяЬяляьязяЫяоякязяъяъязяСяЮяпяяягяуяр яиямяу яуяжяряцяШ   #яюящясяЩяо 	яыяъях язяеябяс   (  яьяш яиякяк яо   яъял  яй як яп  #яч    # яо  яь       	     %яряояыяЭ     	яуяю   яЮ    
-      + / .  ! : <     - = ,   )  5 /  - ,   яю #  яяяь яя яш  яя 
-яшяъ яь яш  ячяф   яэ 
- !   яу      ящ   яфяа 	      *   #      	           0 яф   
-яю  %  яю   !  яъяа ятяч   
-яы     яя яю яляу яъяэяьяэ яцям яхяъ  	яэ  яЪякяуясяь  ящяЬяьяцяыяшяЬяН   ядяшязяЮяр  яцяпядяцякяцяьяУяЮяУям 
-ягяУяШя»яМяПяжяпяфябяУяЙяЩяЁяіяДябяМяИяРяЖязяйяЪяЪяФяШяЫяаяґяУяОяЭяГя·яЅяїяЛяЅяГя±яБя·яЮя¶яРяЬяСя±яСяГяРяїяјяЅяЙяЫязяІя‰яіяШяэявярящяуяояеяаяЦяДяёяТяМяЕяЎяАя°яћя·яЗяЙяµяюРюfю”юsюкюжюЈя<яBя+я=я(юРючя;яtя“яYя…яђяiяuяrя€я†я`яЉя’яЉяµя¬я™я¬я¬яЅяДяЧяСяДяМяЪяЖяЖяГя№я±яЛяФяОяДяКя±я®я¶яЅязяКяїяЮяРяТяеяЖяЁяАяЦяГя°я¶яѕяЯяЬяЩяЕяВяГяЧяФяФяЮяЯяКяЩяеяУяЛяТязяЪяЩяДяЗяЖяФяЗяТяГяАяеяояЮяЬяНяжяСяѕяВяЗяЧяЮярясяКяОяЯяояЧядяШяЪяд якяВяНяйяйяояЭямятяьяг  яляияРяШяняуясяхякяхяэ ясяояпяШ яеян яыяцяЧямящяиявяфяЖяа  яь   япяЬяэ    яйяы  ячям  яуяш яуяб  яЬяеяияэящ  " (   яыяю  яъяя   (      
-  $   ящяэях ях  яю   
-  *   +    +  яя    !      D   . ` 6   " / # / < ( =  " яэ 
-    яь & ! яЬ 
-   яп  яояьясяч      яхям 
-  яояоящ ящ   яяяшяцяэ   ясял             яэ     яэ       яю яяяйящ   ящ   	 ятямяя яъяЭ     ! &  . яфяжяияфяэяряйяьящяеяЮяяяю ям ятякямяСяЯящяс яояйяяяи    яряЪяхяЫяжяПяСяЙяю ял яцяЬяТяДяЭ якяеяжяь явяЕяМяПяЦяИясяЮясячяЗяЛяфябязяЪяЮяЛяйяЩяжяояТяЖяЗяТяЧяШяКя¶яЕя¶яИя«я¦яІяБяїяПяшякяРяґяЖяЦяЛяЖяµяЙяАяЛяФяУяЅя±яЄяГяЮяЮяµявяняСягяНямямячяоядяТяБяЧяаягяЕя·яЁяµяЗяаяЧяЄя№юvюµюВю‹ю•ю’яю“яя$яюляя=яя6я~я¬я‹яЏя§я€яkяHяhя{яWя|яћя‘яґяІяsяіяЖяЩяШяияОяБяЕя»яЪяФяѕяЗядяЕя»я»яБяїя™яЖяЖяЯябяЩя»ягяІяЩяМяЧяСя·я§яДяїяеяЭяХяЬявяЫядяёяІяЛягябяЧяЫяРячяМяВяЖябяжяЧяИяЫяХяе яфяхяМяхядязявятяЬяРяЙяйяЯяы яПяГяйяЩяЮярямяЛяеяляєядяняЦяаяд якяТяУ яЦяЪящяэятяжяРяс ящяОяЧяЫящявяаямяоядяояпяЧ яь  
-яьяПяйягяф яшяыяряляйяфягяШяъяэ яь     $ ' яьян   яц якяя яшяи     (  яюяь 	   яч      ях   яр    	 яыящ яжяэян   яя яряЫямяшяюяц       
-    - 3 a 7 ; 9 ? L K N K B T ! " # ( # - , N # 	  4 C   
-   яэял    яу яы  ячяс ясяхяю 
-яьяъ  яц яы яъ  язяъ 4   як   "    $  яя  
-            яш 
-  яь  5 яь яфяф  яш яыяХ ябяр  ' 0    / яя яыясяэ яз   	яхяьядяхяч # * 	яш  яияьяиябяйяЫяЯ   яь    яъяпяУяфяжяч (   япяцяе яж  яляЫяЯяхяЩяЗяЙяЩясяияляЪяЗяЛяШякяТяШяЭяУяхявяЗяпяпяИявявягяКя»яБяСягяЬяшяХяѕяЦяБяґяВя§яєя»я±яаяПя­яДяРяЗяПя»яЭяояТяёяія™я®яТяБяХяЛячяыяЭячяИяСягяыям яЮя±яїяЕяИя»яҐя®яХяєя»яЖяўя”я7юsю`ю%юHюЬя3яючяюЫюШюЦя	я*юия]я’яЈяµяђяnяYяIяoяяqяsя‰я‹я®я­яя·яОяия»яѕяЛяЧяЇяЅяЅяУяБязяЮяНяѕяія№яйябяШям  ягяЕяБяДя·яНяІяОяаяЖя»яЧяїяНяфяМяКяфяЫяїяґяУяВяМяЛяГяєяЯ яЯяияЛяЮявяШяДяМякяЫяняйяаяВяХяМягядяп яэяБяѕяеяпяУяШячяТяйясяШязягядяияияЙяОяЧяЪягябявячятяфяияф  яьяжяЙяґяЩякяжях яс 	яляаяНябяиял  яЩяаяуяс   ящяЯяняъ   яц  яф ясятяь   яь               	яю ят яш   яэямящ яяяя   яЫякячяюяфян  яХяо  яйяд  ях яюяо     яьяляю ялящ "  
-яя    !   . 7 6 ? =  . B J ? J  @ * *    / " # 8  * 7 6  яэядяъ  яэяояэ     яю    "  яя   яу  ) ,яыях      #   2    
-яфящяъ    яэ ятяю # ,  яяяя 
- 
- 
-   яъ яяяу    ' яжяряыяуясяе         ящялябяояйявяяяняйяшяы    !      " яШяеяшячяйяЬяпячябяэяояыязяЧ  яряэядяЫяф 	   	яэяиякятячяйяйякяТяЩяФяфяуядяЪяЯяФяЖяПя±яТяхяЙяЄяБягяЬяИяЕяАядяЪявяМягяТяЭяЮяПя№яСяаяцязяѕяХяРяОяйяФя№яКяВяЅя­я§яєяВяМяЧяАя¦яЇяЖя«яѕяёя№яАяЇя¬яґяТягяНянявяфяыяЯяУяжяаяёяЙя±я¦яИя°яёя¦яКяГяЕя¶я€я%юjюYюsюѕюИюєюМюФюгюьяяя4яюся-яzяЂяЈя”яzяiя¦яlя|яЏяЂяћя§яћя яЇяВя«яБяјяѕя®яДя°я·яаячяіяїяГяФяСяЭяЗяУяЗяЫяСяШящяЧя®я¬яјяБя»яШящяйяПяВяКяЦяЖяИяНяКяВяаяШяняияЭяЫя­яҐяіяТяЬяУяСяЅяїяМяжяйя№яЧяЪяэяляХяБяѕяЭязякяО ячяРясяйяЫякявяНяЧяЧяЮяЯяя яю яЪяЛяОяЧяояЮяр 
-яЮяСяФяйяНяЪ ямяУяЕядяуяфяпякякяРяыяюяхяПяП  яуяЗячяыяхям яжяЦяр    япяэ  ! ячяр 
-   яыяч ясяЯяа          яхяс #яя  яяяе  & *    яъяояу   яж    яя  	яэяг        яШяляв   яьямяшяу      '  
-  2   , O N < 3 H i [ ] m t r L 5 ) R ? 5 A " ( 1     $      	яяяхяфяцясяъявяояш  яцяхяц     & " ! '       ях   яю  %   	  &   яы  ! яэ     #  (        яо  $    яэяс  /   
-  яьяьям   яя +     яьяд   ячяШ  ячяьяйяу   ях яэ   яшяя яю ящяояЮяЬящящяияОяйябяЪяй    яъябяхяЧяЯяжяояеяеяШяПяЧяЫяЭяШяЭяляЦяЧяжягяияЧяХятяСяеязяаяуяНяЪяЬятяцящяЗяїяЛяоябяФяМяЗяКяЕяУяЖяСяМяИяЕяКятяйяЦя­я№я№яґя±яБяУяЖяФяМяєяєягяЦя¶яёяєя·я§яЧяряхяэякяряыяюяШяцяЪяєяЖяјя«яЎяя©яЧяЭяМяљя±яќюпююёюsюІюиюпю—я&яяючяюпяяяiяvя§яЁяяЂя°я№я`яUяwя{я яїяІяЏя¦яїяЅяЙяЛяДя®я»я§я·яХяХяИяДя¶яєяЬяёя№яєяГяГяИяЧяРяПяµя±я®яЅяЛяРяЦявяЛяЇяжякяЫяГяБябяБяГяЖяОядяШяАяµяІягяХяХяПя№яВяФяЫяТяьяляЖяпяуянядяияТяПяЦяжяЙяаяСяеяжячяЯяМяТяПягяляряЭяЭяТяеягяТяЬясяЫяЮяцяэ яхяю яюяжяЬяфясяЦяг 
-яш яаяеящяляЯящ   яуяэ яояЬ     яъякяОяЮясяТ  ( яшяз  яу   яьям яхятяУяг    
-яьяу    яг 
-  яфянялящ       яряу      яю яйяЬярят  	ягямясяшяТяЮ яйяияйяю     5    * ! "   , . b k R F C d _ K o Ѓ { k e c  g j Q Y M @ 6 = .   %         яц 
-  !  яы яэяцяюяэ 
-   
- "     ясяю  "    яо яъ яя          	  яцяуяс  яф яэяъ     яеяхящ  
- 	       7яыяяян     язяс  )яЪяъ  яьязямяу ях     яф яцяюяыяш яя якяь яц яеякяп   яЬ ялярябят  яц   яцяЬягяцяЧяЭяляшягяа яэяряфяпякяЛяХябяУяеявяЪяЫяУяйяЪямямяЬяцяСяЬяЩяеяФяПяь яТяБяПяїяЮяЮяХяєяДяЕяляЦярякяНя№яЬяПяЙяШявяйяЛяЖяСяШяЕя­я«яУяЙяЙяјяйяЗя¶яЯяхяеяєяЦядякяцяыяУя­яМяМяЙяєяГяµяЅя­я§яµяЁя©яTя юiю»юПюЃю¤я	яя8я[я#я яюЕюТя‚яvя‰яxяЃяsяhя{яxяЂяЏяuяАяЈяљяћя”яТяЅя¬я±яБяіяНяСя№яИяґяќя“я©яєяеяѕяѕяГяеявяВяРяОяРяЯяйявя№яјяуягяГяБяТяНяјяБяФяјяИяЗяЖяЧявяЧягяЖя¶яВяпяШябяЦяТяУяЩяЛяЩяЪяХяРямяЗяГяґя­яµя¶яЯяЧяЭяБяСямяЩяФяЦясяЫябяХяйявямяюяьяЬяЧяряэяэяиякяи  язяЧяЕям яЬяояЯяс  якяжяЬяШяфялякяиягящящ яъ яуяЭяэ  яжяУяЬясясяюяЩяЮят яжям яьяю  яд  + !яхял  яы    яш  ящяю !   яш ял    !        ячяг 
- яя  
-яюяфяъяь   !    яхяЬ  ящяуяш  ячяШяф     2  !  / = 6 E d r j S  € ° » § ¦ } ќ Џ ™ Њ ћ { H N \ N -    / 3       # . 3 
-                яд    	           ) (  '   .    %яю        5 2       яш     : # яь   0 %  #   яъ   ( .   	яоящяу   ящяеяшян  яхяЫяя яЫяуяш   яыяоягяцязяц  *  яъяхяЮям  яшяыянясяюяяян 
-яй  яляу яфяЯяЧяЦяХяЭяФядяияиявял 
-ягяОяЕяеятятясяОяНяЪяСя·я»я№яИяЪяю 
-япяУяЕяНяОяЪяЮяїяОяняЩяРяЯяУяАяСяКяµяПяОяФяаяЭя®яєя»яНяЁя°яБяТяѕяя€яіяЦяёя®яІя«яПяЭяняыяС  ях яыяХяРяіяЎя†я¬яЁя№яДя»я№я°яљя°яюґюсяюИюаюdя(юяяюгюуя(яяMяя„яfяѓя[яYя@яMяfяuяaя€я…яЌя€я‰яђяљяїяЗяЛяаяЙя·яВяМяёяёяѕя»яЛяіяїяІя¤яІяМ  
-яЦяЗяКяФяІя¤я­яҐяГязяИяЩяЅяЅя±я¶яЖяояФязяУяОяЮяИяляЧяГя¦я№яЙяЦяЪявякяЦяјя»яЭяЧягяаяЦяХяЧяФябяэяРяХяЦяРяЙяФяпятятяШяСяРяХяНяЫ ясяряияВяЧямябяСяКяПяМяшяьяЫяш  яШяйянябяяячяк ям 	яйяСяТямявяхяЙяч  яд  ях  яЮ  )  ядяряш якякяъятяц ядяжяжям 	       	яцят яс яцяи !  яз яфяц 	   (  ,  яряф   )   янял  яъ ячяшяи   
-  	яцяеят  яш     	ян  " -   % D @ J Y { n x ’ ї w ‡ ¦ ё Д є Б И Њ ‰ } l \ B Y N > : ' , 5 % 1       %   	 ярящяиящяфяю   (   #         + ячяр        яч 
-  яъ яцяс    1 0 
-    '         " &      яыяь   яы яьяя  
- "  ян 	яйяЫ  
-  ' *яфяЭяжяэяьях   9 " явяц яс яяят   ях яцяш 	яФявяэяч 
-яюяляоямяэ яы яЩяж 	яМяо якяЩячяйясяйяЯяРяЯяяяОяТящяХяфячяняаяЯяфяЪяПяряЬяцяаяйяПяЫяЮяМяМяУябяХяЬяФяКямяЛяряЩяУяЩяНяЅяАяБяМяияЩяБяПяНяВяЦямяФяёяЧяШяЬяСяўя¬ябязяѕяґяҐя¶яйякяцяляЯяыящям  яйяЙяіяяџяІя·яЕяДя¬яЇяЙя®яГюЙяюуючюФюЖюfюкяяющюцюкяяяяIяQяђя~яљяyя[яxяѓяjя™я¬яГяЃяЃяљя¤яїяПяСяЖяєяЙяШя¶я­яРя¶я·яАяєяТя№яїяФяЛяПяїя·яВяДявяПяШяТяАяЧяЗяБяДяХяФяКяјяКяЩяЦяјяѕя¶яЮясядяшяАяЅяґяОяпяЫяЯяпяЫяЕяКяЮяїя»яляряпяЧяФяЅя·яРяѕяеяЦяояаядяУяГяБясякяЬяУяЮяЩяЫяЛяШяояняхяЭяЯяюяВяК   яыяэяЩяЪяЮяНяЩяРяшятясяняяяцядяЬяьяаяаяЮяиясягяы    яляьяЪяйязяя  яцяцяпяя   яя яияняЫ       яуяэ 	яшяе  . яш    яфяэяэ *    яэяляш  $      яы   
-  язясябяфяы "   ясяж  яб яш  яоячяч    - 3 - B ( O l N _ “ ґ · Ћ · Ю б ц б З З Б ­ Џ ‡ p p O ; Q 9 ; - / 8 - .  яуяю яьяч ) "   яъ яияй  % 3  (яя      яыях   !  8 ( ) !   .     яяяк  	яя     яы    яъяч   	  	  ,  ясяъ       	   ! яя якяй     
-   яияпящ яъяфят      яФяз  яя япяъяияЮяЧяхяу ящ яняй  яцяШяУяТятяп  яляж     яЧяУяыяЭяияъяс яЩяТясяЯяряТяр % ясяЩядяэяыяоягяияИяґяїя№яОяаящягяШягятящятяУяФяШяЬяЧяИяЅяЗяХягяЙяФяШяјяИяШямяняЖяВяїяЙя яЙяняШяАя»яЙякяЩяЯявягяхяш  ягя№яВяВяќя°яЖяИяАяєяёя°яФяЁяјюЦюАюwюњюµюОюОюЕяяЉяTюъюСя"яяяeяsяfя[яcяpя•яЋяeяMяmяuяњя®я·яѕяґяГя·яЈяЗяГя«яµяёяЙягяјяОяґяЅяКяжязяЧя»яНяЖяНяЦяаяГяУяГяІяТяШяЭяЪяМя·яЗяая§яЗяЪяВяїяХябяУяИяГяїяЛяЬяфязяЪяЮяЧяЫяЗяёяОяоябяеяЧяЗяАяЖяЪяуяЬяШяЦяЮявякяЮябядяЬяЫяжяЬяаячящяв яШяжяґяЯяияЯяґяЗяЧяляъ яиякящяЭяХяМяфяъяяяияо яЯяЩяняэядяШяХялямягяйяшяпялям   яЧяаявяЛяжяюяэ 	ящяэ ян  ях  
- яшяр  яъям ящ   
-яч   	  яп яц       (   яц           яй  яю 	яь ямязяаяСяуяюям   ятяъяы    ящ яЯ   U T N -  Q ~ — ¦ · ґ А · к.&B ь х Ц ґ › Ћ ђ — k Z Q ) ( 0 ! .  ' + 	  яряф яэяф  яр яь ящяьяы             %       5 ящ    ! 
-  
-  ятяряь   яы яяяь    ях    ячяыяш     	         # * яю  яю яя   ящяъ     
-яш яяяхяэ  * (  яхявящязяю  яояю яйянячятяы яь яяяэяЯяЕяЪяуяЫяТяюяяяояц яйяФяуябяИяуязяЫяцяхячярямящяЩяУяб яЮяµяИяУяХяИяЪяСядямяияµя»яУяняЅяКяЮяЮяжякягяьягяЦяЅяГяїяЯяЩяЮяЩяґяГя©я°яНяЖяОяИяЈяјясяЕяјяТяАя°яЛяКяХяЭякякян ятяояфяляЬяФяСяГяНяјяµяѕяїяаяєяЅя яБюгю©я>яюЈю†яюНюќюїюря!юйюбяя@яmяwяhя§я~яzяsяQяhяuяXяЏяНя¤яЈя’я“яБяВяОяОяЛяАя¦яєяЫяЯяЅяУяИяГяСяЬяпяПяСяЙяНяШяНяМя№яГя®яГяЧяй яЩяµя—я¤яШялязяШя·яаят яЬяТяГяНяЧяУяхяаяЭяХязяПяЮяияЦягяжяаябяКял  	яеяТяБяТяЯяьяЭяЮяаякямяЯяУяДяз ямявяряряНяЅяСяеяшябяйяУяояяяЭяЛяШягявяЫяОяжяКягяс яш яэ яЦяйяТяз яояЬяАянямябяНяЪяпяЯяюяыящярябяф 	  яс  
-яы яэяыяй 
-япяюяняе   яц    як яЯяЛяыяш    & ятяю  "  - яъяя       яы   яъ     яфяъяъях   
-ян яю        ) 3 g J 4 ] s ‹ ¤ Ѕ Й µ г+PlCF9 м Ф џ “ u Ћ x Z F N B D 1 ) 
-ях       & яш     ящяьяш  ящ      ящяр  )      2 )   $ !    0 
-ян   яъ   ! ясяь  !  яь  як   яцяю $ +      7 яйяэ ящ  яя      5 #  ям   яю ! явяжясят 
- яняуяъяк     $яоямягяф  яЕяЪятяжяЯяь яюялявяТяДяЬяаяЧяаяуящяо ! яняаярямяЪяФякяаяпяхяЫяь язяНяЯякяа яъяхяЛяУяляйяШяКяДяЩяОяЧявяСяБяЧяЧ ящяВяїяЪяЖяИяВяИяВяПягяЗяіяЕяБяїяўяЁя»яЦяЅя±яШяУяМяОяаяєяјяАяИяФяХяРяЭяКяЪязяояъ 
-яжяАяјяєяіяµя я«яҐяёяСяКяґя·ю«юvю№юеюлю…юєю€юЦюЄюияEяIюрюЧюгя`яwя0яVяwя‹яuяzя…яsя‹я“яўяЄяСяёяёяЭяДяЦяояияКя яЗяЩяјяЕяѕяґяёяѕяПяЛяЪяЮягяМяЧяНяТя·яћяїяЬяРяПя№яќяИяТяВяШяШяСяОяЇя›яѕяЕябяЪяКяйяНяЖяРяЦяГяѕяУяшяЭяъяоякяНяКяСяЪяЯявяТяТяЮяЦяЫяШяПяаяЩягявяЬяуяояЩяУяФяЦясябяЮямяеяШяКяляуяпяЦяШярячянявяПяЪяЪяБяЯяияЩяЦяыяжяфяжяйягяЬяНя¶яОяТяЪятяСяЮ  яХяЭ  якяТяеям  яи  яяячяьяй   яфяч    
-ящ  
- яыяг   
-   япяйямяй  
-   яп ящяшях   яуяцяфясяъ        ямяю   " яуяс  яцяы % - 	  !   # ? G r f U ‚ › ± Ц Щ п%Zf ШйЭЌ`6 З § ђ n x B # 6 ; : / 3   * &   яоям    4 яряю     
-  яю яуят  !  
-         3 -   яф  яэ 
- 
-  " ,   яюян  6 %яя  $     &      яц 9 + ях 0 %   &  
- яь ят      яцяияЩяыяъязяшянях   яэ   яцятяыяняы ям  язяЦягямяе      ят яЭяиясяояуяс 	яЪякязяОяуядяф   яЮяЦяЛяз   	ячяРяЇяЪяьяфяуяЬяЯяиядязяУяМяЬяЛяКяјяСяыягяЪяРяЕяАяФяжяМяТяЅя­яїяУяЪягяЛя·я¦яАяјяЕяЕяВяФяМяЙяНяПяЧя»яЬяЗяіяія­яРябяТяЖяФяи яжяФяЮ 	яЕяІяЅяїяѕяµяќя¤яҐя°я°я°яџя±ю4юю±юњюЋю…ю§юѓюпюмюыя#яяCяDяя‚яyяzяhяNяѓяЊяrяqяrяmя„я©я’я…яєяҐяИяБяЦяВяЅяўяЄяїяїяЯягя»я¬яҐя°яМяїя¶яЗяПяЗяЕяЖявяХя¬яКяШяТяУяФяЮяШязяРяЙяЕя°яИяРяЖяІяЅяШядяЗягявяЧяЧяЫябяЯякяйявявяЯяцяЙяФяЫяуяляЮяИяИяТяЛяЧяеяЗякяйяЙяЬяЫяряаяаяЫяЮяЯяШяЦяЪя»явяиядядяеяияуяШяряЮяЛячяэяьяРябядяКяФяоявяч  	ясяРябяеяКяСяцяюяЯяХяТ  яшякяняЬяряцяняц  ящ    яь  яхяф як 
- 	яояп 	яы  яляшяо 	 " % яы яъяуяэ    
-яс   ясяь     яя  ятящ  2 яь яцяя  ярят  & .     !   *     4 ` S R w І Н У ъ=`џе9vpm	ђL ь Ю ™ r ђ S J ? 3 .     яюяя  $ " , яа 
- яы        !яь  % #яыяф    '  "яэяц   0      &  ' 0 *     0          яяяжяъ  яу  ятял 
-        >  яу     ящяф !     яфяияу яяяияъясяэяшяпятяи  яэятяы яфяя яьявяЮяъ яш 
- яеяЯяЬячяКяОяаяфяцяыяияЩягядясяеяЬяЗябяъяЪяЧяЧяНяеяЬяияЫяЙяєяСяШяЩяЮяЙяИяйяЧяНянязяЫям  яцязяХяЫязяРяЭяГяМягяјяІя¶яГяКяЭяцямяШяХяхябя·яђяЎяБяСяГя¤яЅяЦяНяОяВяЕябяЗяїяЖяЯякяЭяс  яйяы яТяЕяЧяДя№я®яНяЄя яњяЎяњя–яЎя	ю„юфяяJюЮя=юКяюоювюяюцюуяLяя^яUя\я\я|яЂя‰яZяOя`яqяeяњя‹яѓя яЋяїяЙяНяШяБя±яБя»яія·яїя±я±яЙявяЖяѕяЕяБяЅя°я¶яКяМяЪяДяМяТяПяЖяЧяЮяУяЕяєяОяОя№яјя¶яИяРя±я№я»яѕяЅяЗяЕяРяЫяъяЪя·яРяэяНяЕя¶яС яеяцяЫяояВяняЯяБяКяУяНяЭяЙяСяаяу 	яняхяЯяЦяИяшязязящяЯякяУяцяэятяИяу  ялявяЬяЫ яляНяряыяХяХяпяэ  ябяУяояЯяНяЭядяйятяСяКяЬяШяяяъяЧяи яр яъякяУяфяхяояс     #     яфях   ят 	    яь   
-   !  яя   яьят   яяячяу  яфяы  !       яюяе 	 яляч   яя   язяшяц 	 2 * 4 . ) 1 ; N Z ~ ” ± А й1иЌ2В°RЎр„U Щ Е † Њ Ѓ b P E G . яы     яэ  явям яь   яч   !ящяп  * ) 0 яш  % /            	яш   
-   	яыяэ  :     "     япясяф           $ &яхялядящ  !  ( - . яш          яхяцясяц '  ясяеяп   	ясяч яы  
- яюяу  яфяеяг  K янящ яЮяляяяляШяуяЩяШясятяп яфядяЦяшямяряхяг яцяц 
-яшяФяЧя»яЯяЭяцясякядяДяЪяаяьяэяюяПяЗяМяЛяНяиягяЪяИяВяТяЕя®яДяТяНя­яВяШяКяРядяЬяФяОяДяЦяйяЩяВяБяЛяаясяВяЙяѕяЖя®яЮячяеяуяк  ящяфяпячяЫя±я§яѕяЄя°яјяџяЇя»я я•я¬яИю†юљювюґюНюЗюЙяюаюѕювяяюАя!я"яЌя‹яЉяЏяlя™яєяmя^яUяgяяёяџя–яµяЇяИяЖяНяФя№яєяІя®яЦяШяєяЈяјяШяВя№яПяЫяФяЛяУязяхяфяЙяЛяУяµяЅяЦяУяГяјяўяёяЦяЛяЯяЧяВяЅяМявяЧяжяРяияµяПяЗяОяЦяЩяЪяАяшяляОяАяГяИямяНяШякяЭя№я±яДя№яЖягяжяТямяЭян  яыяйябяеягявягякяУяЛяДяняТяЧяи яияЭяЅяЕяияХяКяОявяШявяЯяыяЫяТяЫядяпягяоядяцяю яуяияЬяЯябяЬяОяЫясяъ  ядяцяцямядячяе    яю     "    "   яя   яюятясяйяояюяпяь  
-   яхяп  яю  " яе яфятях      
-яЯяь % &  яфяю            ! 8 @ W G R U ` w Ќ ’ ¶ Н*6–C.·+ПuyЛO  О О Ґ o | ~ ] Y > 1    '  'яцяцян    	  	яцяъ  $ ят  	   яю " 5 *   яяяэ яюяэ        яе    
-     яю  яы  $   (яя    ! -  яь   1 : #яряр  	   яы  (  яъ   ( ' -    яш    *  яц  яыял янямякяэ    яфяэяйяЬякявяаяюяйяЭяЯягяфяняюялясяаяк ясяьяы   яэяЮяряйяхяцяФявяцяжясяпяъяЮящяаяпяъянялягяЫяМяНяаякяНяБяВя°яЮяЮяияФяУяЮяПяХяОяЮяЗяЪяйяЙя°яУяЙяЪяЬяРя§яћяѕяЛя¶яГяЯяѕя­яєяРяИя±я№я§я«яёяУяЫякяЦяЯ  яЩяхяъяБя©яіяЗя±яЮяјяАяФя¶яАя»яґяІю»юВюєюЩюЏяю¤юІюйяюыювяютююя)яvяtяЈяЄяyя†яЇя–я‹я§я‹я°яЏя„яЎя«я¶яїя»я¬я©я¬я­я®яЛяЪяИяЄяїяЗяВяІяІяЕяеяСяУяДя±яµяйя»якяжяФяЙяИяИяГяяязязяшяСяЛяѕяВяСяТяГяДяЗягяОяЧяХяЙяЧ  	яйяРяНяияияУяЫякязяЖяКяфяЪяжяЯяЬяЕяЬяшяйяЗяСямябядящямяжяЭяЮягякя¶яёяПяЗяйяхяняЦяа ящяЮяаяЫяняТяЬяняяяряъяйяияЬяеяКяРясяч  	 япяц яьяаясяиящяяяцях   
-  $ яояъ 
- 
-яфяяячяляп   яэ  *    ячяпяЮяъ яь  яфяпяъ        яияь яяяцяш      	    
-        яуяь    !яя     / 9 3 6 6 7 2 N s p U њ ¬ Ф	UПљ(:	‚&АЦd1 б ¤ ‚ } y ^ 5 4      
-яыясяя 
-      яф   якяю    яэ          $ ; 	   0 ) ! " +   
-яфяя         "   -   'яь яцящ ячял      )    яя 3 6 
-яш " C  яфяхяв   яэ 
-яыякятяы  	  яш   !  яэ     яч " 
- яй  язягяеякявядящямязяш  яьячячяяяр 	яляНяХяШяЩ  яэяияГяЯяцяаяЛяЬяеяЮяУяСяНяЧягякяТяЛяяясяМяЛяЫ яЩяЯяХяЖяЧяУяУяКяаяЭяЦяЮятяСяЩяЦяЛяјяјяёяРяПяёяЛяЛяЖяЖяОяТяНяЯяРяѕяёя«яШяйя®яЕяЫяЯях  яШяЯяхяпяряСяЯяЩяјяјяМяЅяЖя¶я¤я«я±я­я±яМяЛю©юЦяюЫюnюvюЊю}юшяюЧяяюОюУюКяZяVяxяrяѓя яѓя“я~яvяЄя¬я”яњяЏяЏя¤я я®яХяЈяќяВяјяВяЧяЙя¶яГяЬя»я¦я»яаяВя›я¬яФяЬяЕяЖяїяЧяШяЙяТяАя®яЕяГяЙясяЕяґя±я№яШяГя¤яЙяВяЫявяЪягяШяШяЖяКяеятясяЪяНяЖяУяПяФяЫяЖяТяЯя¶я©яОяЯяѕяПясяляйяЦявяУяхябяйязяаятямяЪяйявяЛяЛяйябяТяряЮяряи яЮяТябяЫ яхяяящяшяаягябяУяЙяЭягяпятязяЮяЯячясяп ясязягян   яфяояЯяряияшяп   ягяп янявявяь " ящяс яняыял   
- яЪяю      яряч   ящ     яэ    * ) 5 & #    	    яуяъяпяыял    	  яэ  #   $   2 2 R Y W P S i Y ¤ й иo	ХЁъ#	є¦›Хk1 в З З – w s Q 3 3  4 ; ; 7 & (  
-  % %         яй      яш   
-        @ < +  $ (   %яыяЬ    яэ !  
-яу   & $    $    яхядяй   
-  #   яь    7 1      " яа &   0 3  '   яэяе яъ яьяшящ   ящяшяяяоявяЮяияШяСяУяп  яяяуяИяАякяьяъяыяяяеябявясяч   яияЬяряняЫяЬяТякяняЬяєяРяЫяЦяЭяТямясяжячяпяпяьятязяшяеягяуябяЬяЧямяХяЬяЩяЦяаяСясязяЧясядяАяБяБяТяЫяйязяЧяЖяґяїяСя»яБя№яЁяґяѕя№яСяПяАяґяЖяГяЙя·я¶яХятяпяЮяляо яцякяЬяьяЯяїяіяіяіяЛяїя·яєяАяЛяјя¦юлюWю¬ю№юВюцю€я,яювюКюкяюуяяя]я^яvяlяYя‹яjяIяiя„яrяQя–я‘яvя†я“я¶яµяґя«я§я¬яђяЇяАяХя№яАяУяІяЁя±яНяКяБяТярядявяаяУявяЭягяоядяАяРяОяКяФяСя»яёяУяПяЈяњяІяЅяЗяТяея»яЮябяЦяЪябядяЬяЬяХяХяїяЫяояСяЩяЫяуядяЭяТяАяЬяжявяЬяжяЭязяЧяНяжядядязяЦябямяйяРяЫ яЫяОяУяеякяпяЫяЪяГяЙяляеяПяЩявячяЧяфяюямязяСяЩяСягяпядятяп яняияьяжяуязяляояюяцяЮяЪяС  яцяд яЧяыяшяю яф ят яш   яъ  ясяр яэ яфяЮяняв     ) > яй   ях ясяю  
- % ямящ  яцях 	 * ,  . ?  яь  )     яшясящяр    C < 8 G p U a j Љ µ а р$dХRЏ	Aцy“™вh к Л № ќ e m k 3 , ; @ C F  яляпярякян  яю  яя 	  явяй 	  ящязяяяюяя    	  ят    яя      &  яшяЬ  #   + 5 ,  яюявям  + яя  яуях 	 яф   $ ян      
-   * 	     яы  
-    5  ! '    яхяз яо ясяф      	    яъ   
-ягящяэяряияа яуяьящ  яуяф ятяъ яф  янятяРяояЮякяъял яЩябякятяЙяЯ  яеяФяЭяХяНяйяЮяЧяОяЧ яЫяЯяшягяЮяИяняфяЭяЅяИяёяБяЖяПяИясяХяЬяИяВяРяПяЧяйяХяЧяОяНяЖяОяЖяІяАяПя¶я·я№ядял 	яьяНяуядяЫяояЦяТяїя§яЈя”я“яҐяҐяїя№яєяєяГяЄюbюЫюЋюµюНюJюmюрюфюающя,яя`я,яя€я†яmя…я‚я•яћя•яjяYяqяMяoя яyяЇя–яїя«я№я№яЁя–яјяЖяЕяЪявяВяЯяфя»я¶я№яІяћя№яЯяРятяУяБяТяУяМяГяФясяЧя°яИя·я©яёяЅявяняёяНяУяКяжяпяЮяИяЗяеяуявяэяаябяЫяыядяГясяЮя№яКяЙявяЫяіяЧяЩяйяЮяияТяоябяЬяйяшяУяДяЬяХяЬявяОяЫяИяШявяпяаяОяЬяаяляУяйяжяЮяляч  	яъяыягяТябяжярязяэ  	яъ яьяаяеяг    яяяЭ яч  як        яцяп    
-  ятяЬяшяшяиям яжяц   яфяв   ях      1 яо    #яй  	яуяеях   # 	 яэ  яз           яо        # ( #  $  3 K N X _ Џ Ж Х оB№E"w™§•у•Y	 ґ Б Є “ s d C ( @ +     	  яц  3      яыяю яц  яэ яшяцяп  	 +    !   3 * яъяц             ( )   *  ящ         япяф  *     ямяя      %ят яряэяцях   яс   яю 	 яя    яъ  яьяфяням  
-ячяц      яч  яцяняэяшяюяляПяряхяяяуяЯяряжяНяТядяЬяЩяъяяяъяЫяояЯяЙяЯяняйябялявяпяйяЩяйягяДяжясяаяЭяЭяЮяИяиявяляТяТяСяьяиямяряЬятяЦяжяЕяЗяМяМяЎяЁядядяияїяКяПяхяыяНяМяЕяєяБяМяХяЅяИяјя№яҐяѕяч  яйяйяЦяЦ  якявяїяЮяИяЅяџя»яјяџяЇяЅя±я­яАяїюЬюVю¬ю`ю…юХюћю»юДюєя4яююя(юьюУяTяUяDя‚яlяQяMяeяjя]я[яWяќяЦяМя¤яђяНяєяЕяПяЙя¶яµяєяЅяИяЛяРяѕяіяЩягяДяЄяіяТяЄяЬяУясяЧяјяМяХяЮяЯятяЛяЅяЇяЗяЯяЯяјяѕяЬяМяШяЇя°яДяЫяЧяРяЇя®япякягявяВяЭяЧяБяеяжядяпяШяВяУяфяРяШязяЩяйяНяЮягясяуябяъяОяИяРяЪяТясясяЪякяЦяйяЧяЯяРяДяряжяХяЫяояняеябячяы ячяиятяЫявяжяйяцяд 
-яьяЮявяпявячямяяяъях  ям яыящяю  яц ,   яхяряЦ  <  яняЧяъ  ясячяяяуяъ  яч   яь япяхяфяя          яу    яы   ят  яу  ян  яы       яюящяяяь     ) & - i N F P W ‡ ­ Д В е;ЃФ.Єц¤|: В ® Ў s h K ? 5  . E яю        0 %   ящяыяю яя   як   яэ       (яцях      ящ      , 
-   	 
- яя  &        яш     яфящ  
- яп      # $  яэ яя  яс 
-  яхяфяы    +   ящ    ( +ятяыягягяьяоябяэ  яняЮяфянядяц +  ят  яЬяф яы   ясяйябяЛяеяЫяТяеяцяъяшядявяуячяояХякяЯяоятяэяу  яфяСяКяЖяУябяияЮяКяДяШяМяГяРяСяхяпяТя«яУяѕяЗяКяґяєяНяМяКяАя¶я№яГя­я¶яМяРяїяВяЬяжяСяЧя±яКяїя©яБяВяА яжяояу  " яфяуяЫя©я«яГяГяЯяєя¶я¬яИягяЕя¬яХяІю«юНюгюГяLюўюЌюШюМюХюмяBяючюгя(яiя_яYяgяbяaяЌя~яЏяѓя…яOя–яљяџя»яџяґя­яќяЅяеякяЩяёяЇя­яБяґяЅяВя№яЩяОяИя¤я¤яЛяЭябяЬяХяјяСяЮяПяЗяµяЗяЛяµя±яЭяаяюяеяеяБя»яРяіяњяЕяЖяНяЧяЛядяРя·я°яЕяЧяФяЖяИяУяЧяЦяИяЦяЮяТяСядяжяжяХяРяЗяЖяцячяъяЬядязяЩяЩязяцяйяСяКяФяјяМяЦяРялячявяСяыябяЫяЪяс ямяояЬяЫяЫяШяЯ    яЭяк # яляйяо ялябячякяляРямяжяу  яр   ямяж  ящ ямяп  яфящ    ящ яй       яч    
-     $ 
-яэяэ      
-яч   яяяш  яы   	яэ      яя  # ях   япяу     ) )  & 1 4 L V @ Ђ q w “ – Т х у@tµл	ьВђ`6 ш ы И № Џ Ќ e A + # - , #   7 яяяф       яцял  яя ячях ! 
-яц  яыяь     	 #  
- яь   яцяш   &  	   	яф        -  3   яшяаятяэ        !   яч  яс яэящ 
-  3   "яяяи ясяняь % ясяо 	 
-  яэ 
-  %яьяьяхясях  яю яъ   яы  яфяо    яхяеяэяяяь ярягяв 
-яЫяляЯяЩяШяЩяд яояШяо  яжямяжяаяляляыячяЩявяЩясяЫяДяГяСяУяБяФяШяЯягяВяДяНяШя·яІяІя№яКяѕяВяЛя·яіяГяВяУяВя©яБяјяАяЅя¬яµябяЯяµяЋяїяїяБяЖяѕяёяМяц    	ятяЭяпяояРяАяЅяІяјя¶я±я»яЅяЛяСяјя»я”яљюЩюњюмюбюЌюеюкюEюАюбюыюЦючяя
-юая>я9яGяDяXяTяqяOяя€яќя°я–яzя‚я§я™яЄяЕяєяёяПяйяЅяГяНяМяВяЦяЮямяРяЕяґяОяУя»ящяЧяИяМя·яЅяЧяИяРяЮяряЛяЛяНя¶яЩясяІяўяВя»яеяйяЗяєяУяЮяаяБя±яїяїяМяИяЫяЩягяНяХяЪяПяЕяЩяЪяЮяЩяШяФяеящядяЖяёяЮяжяФяПяЛяиягябясяжязяжягяїяБяЫяв яъямяяязякяйяфяц  яцямяш яы яяяяящяЪяб   яяяЪ 
-   яьяяяуябяЭясяеяюяуяЮям  яшяъяЭ яуяпящячяьяу яьяз ям  яцят 
-   ящ яъяцяъяк  #     яш  яч       "    !яцяп яйяЩятяп 
-  яя 0 3        яяяэ ! + + , 3 2 3 5 K h ‡ | Ќ ¦ і ґ й(Q‡ҐЉzQ х
- ш Г Ј ­ њ i _ 6 6 K   яю    2           яь    ' $    яэ     %         яыяш  $ 8 !    &   '  3     " 3яя            #      яуяъящ 	  яхяр  % &яъ   ям      #     !    
-яояы яцяэяа     ятяэ  "  яяяаяеямяцяЖяз якяЮ     яжякяВяЧяфяЬ яяяпяряуякяПяЮявяу язяеянящячяЯяДяТящяЦяИяБяЪядяЬяеяЕяІяЅяАя№ягяЪяїяГяКяЕя»яёяОяэяЯяОяУя©я¤я±яФяИяВяЄяТяїяЅяЅяНяФягяЙяКяКяЫяьяцякяЮ ярящяияЧяАяµяЗяНяЫяѕяЕяЄяЅяВяҐя¤яћя»яюшю®ю юsюВюаю‡юИюПюшюТюшя+я-я2я‘яrяVяDяZяGяzяyя°я~я‹яsяҐя§я—яҐяёяїяЖяЬяИяЗяµяёя—яІяПяґяґя®ядяМяЛя¬яґя°яБяЅяРяИяХяВяЖяШявяеяЙяґяСяЛяДя®яМяйяЛяЪяШяДя№ягяЦявяЧязяУяБяФяКяЧяФя»ягящязязяаяеягяаяЮяЮ яыяЛяТяняНяаятягякявясябяйяСяияРяЭяЮяУяь ядяХяняюяйяЯяЮяряХяаяЪяхяыяЯяПяШяляРяъяФяПяЬяЪяФяу яляШяТяъяе явяняфяяяйяиядяЮят  $ ябяйяэ яч  яуяьяъ     ясяд  яь    	ятятятяляжяо ящяы    яю   1 ( : " '       0        
- яэ     
-яч       ярякяр , &  " 3 3 E R Q Y u Ѓ g § И У й+2,1L0& ш ¬ К Ѕ Ѓ ѓ o 8 > 3 +  & +  яйяй      	 	 яъяя яхяЭяя  	 яч       ' + 
- яляйяп  !  яэяф 	 
-ясяп яы ямяэ  яь     	  
-     &  яэ  + $яэ             
-  & яэяс    яь         ячякян  ял яэякяюясяаяяяш яъяЯябяряр яяяьяр  	  яшяяяы ящяояшяр яеяуяшяляъяуярявяу   янякяШяСячяияфяЯябяжяЩяЧявяУяМяф 
-яеяляаячяКяЯяняПязяУяЩяНяеябяЙя¶я°я±яАяДяµяґяДяНя±я©яИяЖяЖяІяВяїяєя±я¶яШяНяДяляЭяУяѕякяоясяМяУяМяХяЫякяјяЁяЄя¶яГяЁяіяЇяЅя·яµяПяЬяЗюbю©юШюЇюіюґюћюЕюТюэяяяBяIяя%яzяiяzяzя?яpяЋя]яZя{я›я…я–яҐяєя™я«яѕя¶яЗяѕяйяѕя«яКяаяЫяКя»яФяЕя»яФяжяёяёяАяЛяеяияНяАяФяЪяЖяЅяХяЫявяЧяГяЦяЭяДяЛяСяЖяРяЩяХяПячябячяняјяЅяЇяИяСяКяЩяпяЮягяыяЗяАяхяаяаяяяияАяЭяняФяРяУязяэяЪянябяРяХявяПяЕяРяКяХяЩяняеякяаяЩяаямящяу яьяжятясяШявях ятяняЧяаяЧяояэятякяЫяэяфяЮябящяюямяХяИяЩяуяэядящяояв  яняшяюяэяъяе 
- яя  яшятяуяпяиян  *     ящ  яцябяж   
-  яю 
- 
- ясяь          !яя  яю  яыясяю  	яяяьяя     &         #  $ 2 J 9 O V b b Ћ ¶ Ш щ ъ ч
- ы
- п У Е ‚ ‚ Џ € q { E 3 7 &    
-  яыяэяэ яя    яц    ячяы    ях    $ +   
-  яц    ! яш    !    яэ      
-яц    % 	 янягяф яцял        & *        + 
-      
- 	 %       
-ячяиянящ  +   . яюяпяи яы 	яуяыях 	   яжяс якяйяр яэявящябяЪяЭящязяу яц яЬяп  яЬяЪяряЮяФяНяТяуяКяаяа ящятякяЮяФяЗяСяХяСяаяХямяаяжяЙяХяРяОяЫяШяУяЅяНяМяДя»яУяія¦яёяГяЙяФяПяДя®яІяИя№я»яГяЙяГяИяДяЙяџяГяІяЈяїяОяПяПяРяхяжягяшяояаядяЮяЬя±я¬я°я©я©яјя§яЁяґяєя°яБяЙяЗяя%юаяю¦юБю”юЯя.юґюшя0я	яя"ютяDяjя|я›я—яxя~я‚яCя¦я‰я‹я—я‘яЎяsя¦яЧяЙяКяЗявязяАяВяСяЁя¬яКяјяјяНя±яЗяДя«яБяПяЙяёяЕя·яҐяжяДя§яёяЛяШяИяИяЭяОяХяЦя»ядяФяЩяЦя»яГяНяРяРяШяИяДяїяЧяРяУяЧяЧяРяояпяУяЫяЭяЭяаяЧяЭяЪяЪяЦяЧяУя·я¬яЖяКявяЭяяяхяЪяфяйяПязяс  ягязяйяХяк яэягяЭяДяНяЫяияЪяжягяхяЭяПяЪяХягяи  ягяняЯягяц яжяЪядяеяйяЛяЭ 7    яфях ящякяЧяу яЬ  яч  яй  ямян   яч   яв " яш  яшяэяъяю яш    яуях 	 	  "  яы       
-        яш  !     $ )  яю    - ' !  F % ' # N a k ^ y Ї » Є І и д й Х В ¤ ¤ ” † v d m L M A : O $ ! % ячяфятяу  ям  	як яэ    .  	яхяф  ясяъ яфяуяшяы           яыяь  7   ( 6 $     .    яя  яю   яь  1       
-      	       * яьяюяю       $    яыяц ягяъяы $  	    язякяъяцят ящялякяч яю ятятяУяь  ятяШяТяа  ' яЫяОяЧяаянянядяЭяняцярян яняЦ явям яхяняЮяИяЬяЖяёяјяЧя»яШях яаяШяЬяУяжягяјяЦяМяЧяЫяТяїяїяТяїя•яБяОяБяИяТяѕяЦя№яВяШяХяСяИяМяПя·я·я»яШяшяјяЙяРянямяфяхятязяШяЧяцяляШяЕяёяЕя°яџяҐяАяПяЭяКяМя«юћю‡юЋюqюѓюґяюҐюуяюшюмяя$юлюияяћя~яkяaя„я^яoяgяHяvяxяџяЁяђя—я·яКя·яєя¶яБяТя»яЗяЗяСяФяЙяЎяРяияЭяоявя№яЖямяТяИяАяДяЕяЕяѕяЕяХяіяНяая·яґя·яіядявяРяШяЧяВяРяияшяяяЬяТяГяФяХябяРяряАяОяЪяЭямяЯяїяЗяТяЛяМяЖяОяНяГякяЛя·яіяПяа   яМ явяФяи яЩян яЯяАяЬяаяеяияНяХяЧяЭяЭяжяЧяЯяеяХяОяЯяЮяж яфяйяХяЮяфяжябяжябяаяпяЯ яэягяП 
-  яцяаяЖякяцящятяЧяяякячявяйякяз  # !     	    	   яьяп $ ячящязяп ячяэяш  ячях 	яч   яш       1   #  
- яю  #  !  #   ) яц  	  2     ' < 3 $ @ ^ w j  s Њ Ґ ® Ж Л — ­ Д љ ‘ ‡ d Z k X B N 9 ) 7 ( 2 яюяч  #яю 
- ям   яю  ячябяс  $яэямящ  $ 5 яюяк ят    ! ( яйящ  ' 5 # 5        ящ     $ яэяъ  0     
- ( 2   -    яйяъ яю   # 9   ящяы  ( 2     яояч  яш  $   яо   # %яю  $ янян ясяуякяш ят 	яюяш    яъяеятядяЯяфяяяШ 	яы 
-яз яЮядяЯягяЬякяЮяШяКяЖяПяъятякядяш  яъяняжяЦяУяЪяйядязяОятяэяЯяГяБяАяЩяЬяфяъяКяДяПяЪяѕяѕяїяФяРяЯяОяІяЅяПяГяІяХяЛя®яЗяГяЧяЩяШяЕя®яЦягяФяЅяБя®яЩяыяЫясяЯябящ яйяаяОя±я№яРяая№яЁяќяЅяОяВя»яЅяЇюбя&юшюАю°юющюSя юря&юияюйя,яяwя~яSяWяrяrяҐя…яzяnя[яSяћяЊяѓяђя¦яБя¬яЇяНяЗябяЙяТяЕяЗяЦяІяЈяЗяЕяРяпяєяВяЪябяФяЅяСяРяКя¶яСяЗяИя®я¶яХязяЫяШя¶яДяМяѕяХяЖяТявяУяНяыяйяТяеяаяЦяЙяЦяляХяХяЦяДяУяЩяЭяКя±яЙяПякяЛяеяФяйяУяХяШяСяПяиярявяпяшяЫяояк ясяп 
- явяуяияЩяеяРяТяЮяЧяояпяшяЧяРяМяЮяЮяиязяаяэяфяоябяаяч яэядят  яшябяЪяъярягяэ    яжяр     -  якяоябям "  яц    	яцярязяяячяъ      3 ) япях   
- яъ яь 
- !    
-   #      яъяъ ящ  "  '        	   3 & ' " 0 &  . * , G J k Y ^ G ^ ‚ ’ y n ~ ђ Љ w u ‡ N O N 2 0  C N "  =  яфяь  яряьящяе  ? "  яжяэ  7 %       ! % 	         яэ  яжяф яф   & " яъ  	    1 # 	 $   '  яьяэ 	  $ *   яю        % -    $ яш ' ,         *       #  яь 	 яо ячячяш    яяяэяхяияМяЭ 	    яэ яъ яыяряш   "яЬяияшявяМяМявяеяСяВяУян  ячяуяпяеяЦяю ятябяЧяЪямягяв ящяЬяХяСяЯяПяЭяшягяжяфяияЦяГяГязяжягяёяЅя·яВя№я·яЗя§яИягяЫяєя°яЙяСя№я«яПяЬяУяОя­я­яЇяЇяЧяпяЛяВяРябяСяТядячяряъяряняЗя¶яІяЙяЫяѕяЖя·яЁя±яЛяАя·яєя®юМюЯя9юmюKюЬюаюµя<яюыюыюнюЬя я'яnяvя”яWя\яяЄяyяsя‘я­яgяЉяѓя“я–я™яЅяНяБяЧя°я№яјяЧяЖяЈя®я»яЕяЧяЦя·я№яАя­яјяМяМяИяАяКя·яПяЅядябяШяЙяЦяЩяЗявяЖяНяёяЅяОяУяЗяХяМякявяЧяЧяГяФяµяФяФяЖяЩяиямяряияляряШяаяЫяЩяФяЦягямяй язязяСяЕяМяШяјяѕяэ яжяТяФяХяИяШяЪяЪятясяХяЦяляэ яыяаямяЯяпящяНяЖяГяЩяВяЦяЭявяжяУяХяуясясяняняо 	 яг  	яЦяШябяш     яйяя яш  яияляо яш  ! + 1 яяяв 	яшяЭ ящ яяяияр яы     (  яю яхяп   " яэ   
-  яц "  ! яю   (ят  яс яы  яШяс     ,  
-яя   %  " $ F 8 + K Q L ] { — „ n e ` v r ^ i M A K " 4 "   * ' яъяэ   яч 	 яы -        	 яр   яюяьяю     яыяюяуясяп   
-  % яя       яэ            ях     яняр  	  яы яфят   , <  яь               6 , C 6 
-ящ    яр   яыяхяд  ясятяуяхяы  яп   
-ярямязящ     яжяеяЬяЪяРян яшяСяФякяуяоядяжяМяЮяуягяЮяМяТяСяН язягякяп  яхяряъятяряуяиязяфяряУяЛяПяВяЭяКяБяЗяЗяГяеяНяЗяЛяІяґя¬яЙяФяЕяґяІяјя¶яЇяИя№яЛяСяУяЗяЕяЙяШяЬяУяЭяЩядяъяяяеябяЖяєяія¶яАя®яЖяАяїяАяРя±яґяЄя ю™юЈюЄяя‰юАяBя+яMяяюЅюфяюфяRяQяdя)яGя_я\я:яwя—яmя}я—я‡яЊяЌя¶яЅяВяґяУяЙяШя¬я§яГяАяАя»яБя»яёяЖяИяЙя·яёяЇяДяБядяУяЫяѕя·яЗяия·я¶яКяДяЗяПяЦяХябяЯяДяЄяНяНяСяСяГяЙяТяХяЧяияЪяГяХяЬяеяЅяЯязяТяЫяШягяЯяняЪяЦякяСяЦяЪяеяХяШяФяЭяЖяЦяУяЗяЗядяШяЯяОяЗякялятяфяйяпяеяЩ яиятяыяляляЪяпяъяж ящяъяЧяСяЦяП  !яч яы  яэ   яс яцяйядяъ ятяь ямяы    ятящяЧяяяэяыял  яъяч 	  яоят    яфяп яч        яш  %          яъяияы яхяя 
-яояь   
-яъяш яш  яъясякяс 	          	  . ' > G N N 7 B d R H o z L y M \ b M d ? 5    ! +  /  
-   яйяч   ях   $ ящ   ( '   ят   яс     ях 	 яэ    ( 	  яь  яь #     #     % ' ) *   2 +ям       	            "   
- 5 &  яЮяХяя яц   -   яя - 1 '  ярямясяТявяшяъ   #яы     яюяхях  яуят  яэягянякяеян   яыяняк яфядяюядяияшяФякяш яеяуятяфяуяъяеямяЮяеяЩягядяъямяояц яьяжяЧявяжявяШячяеяаяАяляТяШяЫяКяЗяКяНяЖяЗяОя·яБяµяґяЛяэяояКяЖяГяОя°яѕяµяЫяАяМяУяХя»яµягяяяеячявяаяъяшязяуяНя®яБяµя§яІяЅя·яєя яґя«яЁяЇя"юРюФюјюИюАя
-ю©яюјюхюлюТюќюҐя<я…я{я{я~я@яяbя{яwя“яЉяTяtя‘яџяРяГя­яѕяЕяЗяЕяВя¤яЈяИяДя·я¬яКяСяХяИяИяЛяШяІя¤я®я»яЪяВябяОяЙяѕяДяёя¶яЅяХяФяЩяояШяСяДяЗяРяЕя¶яИяряЭя®яїяИяИяЧяНяЗяБя»яЦяъяняЩяЙяНяЮяОяЩяРяЯяйяняняЯяЬяЫяЖяНяОяЪяЮяЗяЕяЩяЕяШяСяж 	яНяЕяняюядясяюябяЙяїяД япятяпяЮящящяхяЭяЧяЭяб    янямяняЪяЮяю яьяшяляляЬярясяб   якяв  ясяюяьяляхяёяФ  яияЭ          яьяу  яя 	яч  яуяыяЮяь  яя ! ,        # ( * яя ( !   яя   яшягяя $         яуят  $ 4 ; @ #    / - % + F f S n D ) > R W { W R 9 % K O 2 7 * ? "   I O  
- 	    "яьясяэ      ) #     &  ! 6   -  $  +      яъ явяь  яфяяяюяъ  яъ    ящ   8 $ * *  , *     	  * *     
- $  #    &      яюямяеяж яя   $       	  яияняэячяа   яЬяю  ящ   яяяеяь  &яьягячяш 	 ятяряНяа   ямяЩяФяюяуяьяЮяТягяыяр яьяоябянякязяЭяШявяияжяжяХявяЬ  яФятяхятяСяєяСяТяЙяЫяуяЬяШяЫяЪяНяМяїяЕяГяРяЙяБя°яАяѕяіяїяКяЭ ячяНяляЧяАяХяЛя·я»яЬяЫязяРя¶я№яияьямяЯяуяъятяпяияеяПя¦яОя»яЄяЇяґя§я яЅя©я№яІяїюЗюыюљюНю—юНяюЋюгюОя/юсюУювюЈюРяZя`яrя|я‚я‰яѓяxяtяeя‰яЂяЇяЅяЕяєя”я°яІяГяДяЬяЙяЙяДя»я№яАяРяСя«яЈяІяТяЭяГяµяҐяєяЕяТяјяАяЮя»яБя·язядяБяНяУяпяЮяЧяОяЖяДяјяЙяМяояияЬяКяСяВяЫяШяияНяЮяШяЦяЅяФяШяЬяфяняЪяЭяцяыячяШязяаяфяшятяйяХяЦяАябяХяпякяЩяБяМяНяЦяЮяяярябяПяЩяТядяТябясяНяБянянякяыядязядяЪязянящяУяшящякяЮяеящ  ямяшявяЫякяэямяйяуяу яШялязях яя   ягяРяФявяы      & ' #  яхяь яыяы яэяэ яэямяб   - 2 !   
-          ящ   5   	 
- яюяэ яш    яы         # $ <   , .   6 ? @ 2 3  7 ) A c Q e O @ 7 3  #   A 2 0  яя  - $  $   яйяюяф  язяж  $яряуяэяэяеякяф яряы  6   ' #    яш     1 ячяляю     
- яю     яя    яф 	    ' яуяЬ  % # ях       
-яцяч ящ        $ яяяъях    &   яжязяяяъ 
- яш  яц яняхяшяц 	 % яЦяияШякямяЩяр  яьяляЯятяяяы яьяжящ  
-яшяпяояЮяЧяаяЮяЬяХяЩяд яеяЬяЬяЩяЧ яшяЩяцяаяЫ ягядяояЮябяЭяляЦяняжяЪяКяєяияфяЬяОяЪяЭяЛя¶яДяєя¬яАя®яМязяШяЭямяеяВяНяія©я­яНяХяїя»я±яёябярясяРяь    ятяпяйяФяАяҐя№яОяФяЙябяВя°яЅяЕяёюґююжюшюряBюјюцюИюйяяAюзючютяTяqяTяpяNяqяdя{яhяGяmя–я¬яґя­я–я›я”яµяґя°яЅяіябяГяПябяЪя№яБяМяѕяКяЕяЁяҐяЎяПяШяОя°я°яЕяПяОяСяЪяряЪяєяЬяТяЪяТяЦяСяєядяХяКяГяМяїяГяРяЇяєяШяСяёяКяёя»яКяМяОяаяХягяряъяляЯяДяЧяияжяРягяияхяЗяМяеяЦяЛяАяСяаятяФякямяф 	япяОяЛяУяиякяоятяряМявяФяОябяУявяяязяЭя¶яТяеян 	ящязяФямяеяс яы  	яэяаяЫяк 
- " яжятяъ ячяряЯяояъяы ящ    яч яф  	яъ  
-яп яяяя  яъ  @ яш  ящ  ( ' "  яу яч            = > '   0 + яюяч        
-яняй     яю  $   яя    - 3 9 F > - N < @ E ) @ 3 .    %  # ,  %  . 3  	яьяцяю     "  яфяр  яп    яеят      
-  яшяя     	яэ        яц       	 
-    яьяюяу 
-      3   яю   яяясяс 	   ях    яь  яуяояэ    )  & яъ  яя , '  яс      яЪ  яэ яфяъяэяю       яЭяеящ яъящ ящ яцяюярямяаяояп яфяЮяуяФяаябяЮядяОяЬяэяЪяТяеяеяЮяШяеяОяч  яняляеяЗямяПяІяНяДяЭяфяеяТяЙяёяОякяаяГяВяёяёя¬яЛяЮ ятяЩяІяґяЖядяВяКяЬя±яєяЅяКягящяе  	яюямям ятяЕя»яя«яИяИя№яЄяДяґяћяґяјяґяяю±юЁю юўю“яTюеюуяюгяюеюияя‰яJя~я\я@яJяYяfя7яhя{яkя†я“я~я°яјя­я¦яёяёяЅя»яѕяЩяАя№яАя¶яЙяЛяјяЙя¦яЄяВяјяТяДяЕяўя¬яШяШяДяЙяпяряДяЅяµяФяИя«яґяУяоявяЖям ящяЛяЩяЬяияэяНяµяБя°яЕягяХяЛязязямя¶яєяХяЪяШяїяЗяЫязяляьяКя«яЇяОязяцяЭягялятяжяШяияпяп яцяТяаяШяУяЫяЩяшяпяоясяФяѕяЅяЯ   ятяЭяцямяйяОяНяз  япяя яляЮяъязябяаяы яъ яйяЩяй 	яэяЫяп  якяЮяфял ящ 
-ящяъяч  яу яцяШяо    
- 	  	     
-    ят   яюяьяп      ,    *   	    "   ях       яряпяя      ( яэ     ) K ) ) & W I K 4  " C ? 0 ) 1 1 $ # 
- &   ' яэ яы  яэ  
- яяяф  ячяжялящ   якяю      $яэ  $ 2   
-   %     / ,  "     яж   яу   %    яэ % ) & +     яш " 7 @ ) '    %   "   $ '  ящяуяыяж   яйясяьяйяс яц яаян  "    #  1яяяняш     яюяуякяя  яу ялябял  якяпяБяЪ   	япяЪ 	 
-яш    яцян ясямяйягяЯяиягязяЬязяЮядяаяЪяЖяЩяЗяЯяНяЬяняЭяЛягяЩяЙяЖя№яЕяКяДяЅяТядяДяЮя·яДяНяВяјяЛяМяНяЭяГяїяјяЙяЗяУяЖя»яЗяёяИяЩятянявяшяюяы  ятякящязя±яћя§яКяТя№яћя°я¤яЛяХя¶яЁяютюЭю»юПюЋяю¬юля&яNяюзяяяяhяcяTяrя‚яVяfя]я`яЊя§яqяџя¶яЁя®яѕяґяЖяєяёяјяОя¶яЖя­я±яёяДяёяСяжяФя»яќя«яГяЄя§яАяѕяПяЦяЩягяШяМяЦяОяёяМяХяЪяЅя«яИяТяТяПяЬяЬяИяЙяТягяјяЧяТягявяЩябябяТяОяЧяБякявярязяПяХя№яёяЭяШяјяЛяµя·яјяРяНяСяЮяеяЭяжяЫягяияцядяУяґягявяцяКяряф  яП яюяшяЬяс     япяь  яшяъ яд  яряы яшяуяюяыячяЭяк яш яяябявяя     	ясящ    яьязяч      яъяпяьяь   
- яйяп  ящ  %     яъ    ( . яъяыяю  .  % 2  # яя         яэ   ящяя       !    = "        - $ 6 . ; : &         
-яюяряряляр  " ямяыяцян   ятяэяя   япяфявяюяыямяп ят       яч  (      	яъ      :         '      " &   яю !     # )   B 7 K G     
-   & (ящ   ) яю   яцяхям яр ) &   #яыяХяр         яЪяэ    ячяцякяжяояыяюяояряъях  яияЭятяфячяпяеяфяЩ 
-яхяряъяЬяшянятямяЭяНяЪяиязямярядяпяояјяХ яхяСяСяЯязяГяГяЭямяШяФяОяФяДяєяЖя»яіяЕяДяДяЮяЪяИяЕяєяЕяДяИяЧяЩядяХяЖяСяёя·яЕяРяГяЙя«я©яШяЗяЮяЩяЦядяияряыяс  яхя№яїяЙяПяБяЛя±яєя­я¤я­яџя±я€юГюrя*ю€юѕюCюpяяюыяюъюэюИюзя™яUя8яcяTяEяYяiя]яЂя–я‚я›яЇяєяЊяЉяЛяЫяСя№яЇяҐя©яИяЮяЩяШяЪяЙяѕя«яјяјяІяњяёяГяБяЗяЧяИяЪягяєяЮяЗяРяБяИяуяПяДяґяЅяСяЬяѕяКяЯяМяЙяіяХяРяЙяц ( l яаяСяХяЦяРяЖяТябягяЮяЪяхяЧяїяҐяІяГяЬяЧяЖя±яњя»яНяЫяЧяСяЖяЦяНяґяЭяч 	яъ   ятяЛяХянятяляДягяпяэядяаяй  яЧяЭ  яэяеяФяшяляЦяЪяєякяЪяОяКящ яъ     ятямяжяояЯякяьяаяхяфягян 
- ямягяъ  яя        яйяяяняйяФяйяшяц    ( яя      яш      яо          яцях яы  яцяцяэ 
-            = * # & +  = 3 'яы   5 ' 8   +  &     ,яыящяэяйян  ящязясяъ  ях   яшягяэ 	яуят  	 яэяыяр ящяф   ячяфяц   ячяш 	  	 ятяф           '      	    #  	    % ) 	  % o h G    / )     	  < яй  ( ,   
-   /  ях     яя  яв  
-яляЫящ яцяняШяы    яхяс   
-  яо  яэ 
-яэямяряияЮяГяняб яшябяМяФ    явядяЮяХяСяЧяияжяйяияОяЫяШяЯяФяЙяУяаяуяЬяСявяйяФяжявяЪяОяЧяДяђяњя°яЁяЅяяяпяЗя®я»яЁяїяШябяцяПя№я¦яЁя®яШявяјяєя°яЅяТяїягяпяуязяЩ  яряе  яжяВяіяДяКяјя»яќя·яЁяјяИяНяјя
-ююuюуя	ючюШюряя=юзяя$яяяя€яTя;я@яJяgяmяzяZяeяoяwяћяЇя®я«яјяЮяјяГяІя­яЏя№я¤яЎяѕя№яГяЭяЕяЛя№яџя№яаяјяЗяґяЁяµя±яЗяїяґяЩяИяГяИяняПяѕяїяаяФягяМя¶яДя¶яСяОяЮяИяПяс  & +яюяКяЛяјяКяДяЖябяјяЧяЮяФядяШяжяШяЬяѕяЧяояЦяЫяЭяЖяДяо яНяѕяняняляОяБяфяфяляеяХяеяряюяжянямяЧядяОяјяОяж яюяояч  яияняъяц  яряВяПяк 
- яыяняфяц ящяу яряе  	яэяЮявяп яшяляряюяяяш         $   
-яъяч    яя якяшяя     яю       ямяь   	         
- 
- ятяпяяяияу         !    $  + &   1 ) (  $ 9 &  6 " 9 ) .   
-яю  + =   + яя  яэяуяжяпяыяуяйяч  '       ямяЬ яуяият    яюящ яфяч 
- яэ                 яоящяи яш    6    "    яэ     ! /яш  & C / ;    )       яю  3  ) 6   яц яя    4  яз     яьяшяю  яшяф яяяеяз яя ятяшяы     2     яояы  яс ящячяыям  яфяэ япяж ягях яРяЩяхяэящявяНявяРяияияМяляМяЬяЖя№яЦяОяеяЪяМяФяТягя·я®яПяОяРябявяВяїяЕяДя°я·яФяжяЭяЦя©я©яНя«яѕя»я»я№яРяјяДявяэяЯ яЩяеяжяг  	яГяКяРя±яІяЅяЖяЇя¶яШяШяєяЇяЁюЗюjюѕя	юыюzюЈюфюия	юкя$яюМюояяbяQяeя_яpяќя§яђя„яpяwяqяЁяµяҐя’яђяДяЗяЈяґяёя§яґяНяјяИяЖяіяєяЙяјяГяЄяЛяАядябя»яЖяµяЅяґяіяУяаяКяжягяТяСяДяСяУявяЧяЖя№яћяІяЙяСяПяЪя¶яЮяЙяаяаягяСявяАяЪяЯяПяЯяхяцяЗяляХяїяояОяПяб яЮяЪягяФяеяЙячявяк 	яъяУякяУягяэ 
-яЩяМяЕяЮязяЫ     "яцяхяйяХяя ямяЧягяэящяпяи ят ясяъяряаяФякяЮяеяи якяЩят яьятяр   яч   яъязяаяц   якяф   !яы    яю яш 
-яцяЯ   яыяб   яь 	 	яу 
-  яч  яюяуяияг    %     ,     яю      $ '   яъяя * .   
- 	 %         2   0  = " ) $    яяящ 
-    яф  яцяу     яу   # яь     яыяняуяЯяэяъявяу  1    $  !  
-яюяь   яюяцяя  &  яяяз 	     
- %   
-      
-яя    яляя  + ( 	    0 % + %яс яяяояь    яуяы яэ   % япян 	 яя  
-  яъ  яэ $ яэяшяаяп   яьяь яфямяюямяпясям   '    яцячяляЭясяняюяяячяхяФябяЦяз 	яняяякях  яляЫяеяЯяєяКяшяуяцяияИяЦяУязябяСятяЦягячявяеяЛяЦя­яїяЦяµяїяЪяЪяГя±яаяЭя№яіяґя¶яЭяФяПяТяНяєя©яЕяЛяЛя¶яЛяМяјяПяУяЩяуянящ     яояІяјяєяіяЛяїяРяЁяјяґя®я¤яҐя¶яMюію†ю«юЁюЖю­ю“юСюъюнюйюбюћюГюфяUя{яxяNя"яЂя€яZяYяWя`яLя™яћяЋяђяљя®я±я®яБяЖя№яёя¤я¦яµя«яЙяІя»яВяМяёяѕяЫя№я­яґяЄяя©яќяГяЙяЦяКяМяКяЇяЖяКяляЛяУяЦяЅяМяЖяХяЪяґяїяОясяОяЖяАяЙяАяТяГяЅяйягяаяТяМяНяДяОяГяЦятяжяряЩяЖяјяЪяБяКяОяЮяряхяояияЮяпявят  ямяфяРяРяжяМяУяЭ    якявяУяТяряияояеяйямяЩяфяшяъ  яьяТядяШящ "яцяняряПяИяч      яхяь  яюясяэ       ях ячяш  ,       яяяьях яц " ян  яч       ящ        0 ях  яъ  #ящяш 
- 
- ям          '   ямяеязяс      $ %   яч   . B D S * #        +  1 G яы  	     
-яы яю    	    	     яы 	 яэяц   "  )  яуях  +   ящяы %  
-яияляуяъяь  
- + % 	яю  	яж яюяя   ятяя - 9 4       !    	ящ  0  яъ "  яъяляпящ   , яй     яф   яъ      яч   яжяшяуях 
- 
-  ятяеяьяяяеяпядяшян    ) яняь  яояФяряъ  яцяэ   яыяаяЮяЕяТяЖяГяфяХяНяПяВяЧядяЫяАяСяЬяйямяиякясяъячяЪяАяКяняЫяГяКяЅяИяСяаяСяЗяШяЕяГяЗяХяУяХяЯяШяїяіяБяТяШяРяЇяЎяВяЕя°яЕяРявял    	 яоямяэ яПяјяЎяЄяјяѕя¶я¦яАяДяІя®я·я¬ю’яяDюЅюXя яюІюїюгюРюЯюююХяюЮяJяQя}яdяxя`я?яaяvяpяJяAя†я†я‚яяћяОяМяјя°я№яДяЙяѕяЫяГя№я›я№яПя№яИяХяШяЖя¬яЇяИяЕяѕяОя·яКя»яСяЪя±я°яНяЦ яеягяЭяЙяЦяХяРяУяТяµяКяея·яЧяКяЧяЩяТяЇяЖяЩяЕяЩяЮяаяМяХяПя№яуяЛяЕяНяОяХяУяЧяЅяСяр 	яХяяятяхяЦяФябяМяХяТяряэяюямяхяпяхяфяСямячялязявягяПяШяХяЪяЦяЬяеячядят    ящ     	ячяйябябяояк    " " ядяйяпяз  яъ ячяаяф    якяеяэ     ячячяэ   	  яяяъяэ ям     	 
-  яы  - 
-яр яу  $  # )   	  # яп     яы яшяз  (      %      яу  "    яю  ' яъ   #    + + 
-  яляю  " ящяыязяч     -   &      яю 
-   япях  ! "     + яюяуяб яю &   яюяуяы  ( 
-яш    ях     . ! 	  	 "     "  - 5 - , 3   , B *  !яъ   
-     яы яфяоятяыях  яэ    , (      
-яэяр ! яя    яЮясяс    @ ячяяяуяп  япящ     яЬ яэ      ямячясяыяояуяшях яиямяФябябяЪяаясязящяЬяляЛяЧяХяюяш  яЭягяРяНявяиявяАяµяЬяЅяСяЧяЕяОяЩяЛяПяЧяМя»яЗяЧяФяЬяШяТяЙяияЩяФяВя»яЕяЗяЮяЧя±яЄяјямязяЮянябяпяояфяцяжяВя№яІяЕяія·яЬяРяРяЛяБяґя яЈяю№юияNяяюсюхюгюсюляяюИюИюѓяCяlя{яяKяWяvя{яЂяoяjяcя“я—я™я¬я°яєяҐяµя я№яДяЙяЕяЙяБяЖя¶яµя™я›яЗяїяТяСя®яКя№яўяҐячяУяРяЗядяЬяЄяДяЫямяНяВяШяЯяёя·яЪяѕяЛяёяўяИяКяЗявяаяшяКяНякяЬяХяжяЯяыяКяФябякяѕяЧяняФяКяДяЭяряШябямяЮягямяюяЪяМяТяХяЕяЙяОяГяЩякягяояФяпяняЮяЮяЩяКяЬяояряпяйяг ямяп яю яфямяы яу яюяьясяжяч 	  яьяжябяс  ящяьяияюяуячятяыяц яэ  яряш ясяп яш яяяу 
-яяял   " яя  яряЭяйягябяъ   яя         яэяю    	 
- !        * & !яеяу  яъ $  + 2   
-     $ яю 
-       
-   * яч 	       &  1 )       явяЮяь  яя    	яю  ( яЭяи  як ятящ  яыяы           яъяр       ях     	яю   (   яэ ящяш      яф    яэяф #  !   1 #       " # 
-яъяъ  +       ; !    яъ     яюяьяп "   яф      ятящяыяк  +    ят  яЩяч  яяяцяь  яыяуяияжяЯяФяЛяЕяояэяОяАяияя яьятямящяпяфяояНяЭяЙяНяЬявявябяЮяГяФяЖяХяјяЅяµяЦяШяфяСяГяБяёяіяЖя·яАя®яєяЁяЙяРяЅябяЦяїя»яВязяАяѕяУяѕяҐяЕяЧяояхяЧящяъязяЫяЮябяыяїяіяЗяУяАяЇя¶яЙя·яЕяжяДя±яЛюЗюЫюµюeюѕюую°юђяяяяюняюжю}яUяя^я{яoяHя]яЏя„яvя‹яЋяѓя‰яЇя«яяЗяОяФяШяГяґяєяШяОяТяШяФяµяНяАяЅя№яЕяОяґяЖя«я¶я­яєяЕя¤яія№я¶яЁяАяЕяЛяёяАяйябя·яЪяЛяЄяѕяАяІяБяМяУяЫяЛяЩяЪящяШяаярямядяФяГяГ яняНяЙяИяЭясявяЭябяМяЦяняпяЭяПяаянячягяЙяеяьяняЭяФяЦяуяЛяПяаясяЪяцяияияжяпяжячямявяЭям яюяр яхяЯяйяуяъяпят 	яняЮяяяМя№яоявяуяЛяЅяЭ яэявяь ялядяияо  ! яч яя яояЬяы     якядях  яф 	     	  яю     яд  яюяя язяЯ яйяйяъ    - '         	          	  яэяэ яш    	    +     	 % " !  % / , ясяшяю  яхящ  	 яюяъяэ яя   яцяя        яю яю    
-  яю 	   	        ящ 
-      
- 
-    яц  4 8    яшяуяю      яф   % "    $ $ % (   ятяшяя  !  яцяу "  "    яхяп " & язяэ   $  яя    	     яЫяр  ячяшячяшяэ  яэяцях яр  язябякяыяы якяляшякядяу  яЬяй яьяляь 	яУяЙяЦяЩяЯяЫяг яряЭяЮяЧятябяь яцяЫяТяЩяЪяВяНяЅяµяОяЦяШяЛяЙяЅяёяЖяЗяУяџяєяДяїяБяїяЧяРяґяВяЅяЕяѕяКяТяЖяѕяНяЦяНялячяняя ядябяЩяЕяјяБяЙяёя¤яҐяЇяГяія¤яСяЇяµяѕю-ю–ю№ю«юЅюЧюля1яюяюнювюняюжюѕяtяЂяљя­я…яbяAя`яHя|яќя€яЌя…я¬я„яЇяИяРяИяДяояОяЇяДяСяІяЎяЗяСяХяЩяБяТяЖя°яБяЛяЅяЙяРяµяЅяТя№яЅя№яАя»яЛяИяпяцяЩяНяЦяХя»яЕяДяХяЩябяИя·яШяйязявяияУяаяОяЗяйязяУягяЬяияёяІякяжяЙяияЧяІявяияПяЛяНяУяХякяъявяѕяЮяняьяляпяНяЩяЭяФямяжяУяОямякяыяпязяшязяк  яьяряЬяжяйявябяцяШяЭяжяжяМяйяюячяйяияПяъяняаяШяи  яф     )     ящяуяи ягяХ  -  яб    яф   	  
-   %  %  	 яч    яъ   яфяз     яю               / яъятям  яюяяящ      
-      яюяя   (яь          & $  яияЮяуяыямяэ  !    яряк яряоярямяаядянятяч  яу  яэяш          яю      @ A + 0 , яя  
-яэ     "    яуям  #яу  4       3   !      ! "  *   4 !яы    4   1  яэ  ' яь   4 5 )     яцяшяяяпяъ яьяжятяфясядяэ   / + 	      яЯягяр   * яьяЩяЙяЮякяч ящямяфяьяжяп яюяэящячяЩягяпяжямявяЦягякякяЫявявяМ 	яляШяаяІяОябяЫяЮяНяШяЖяСя№я¶яШяШяжянядяХяўяµявяСяЗямяЪяПяАяїя§я¤яЉяµяГя»яёяОяГяц  яшяхябяъяЭяяящяЙяїя№яАя­я§яСяЖяМяйяЪяВя¶я«яѕя+юзяюшяююкяGя"юбюшюзюЙюСюСяяЉяҐяrяyяЌя…я§яiя>я6яdя“яЎя€я“яЊя…яГяЦяМяБяЅяјя­яя§яјяҐя±яµяІяјяЕя«яјяџя»я¶яЙяЖяЬяИя“я©я»яЯяЪя№яЗяїяЗяняРяЗяјяЬяйяГяОяКяСяВяЫящяРяµяСяМяГяМягяХяСявяИяШяПяЕяСямяХяъязяляЩяКяєяЫяХясязяЪя»яЭяияияпяЪяЙяЧ  яеяФяФяЦяЧядяюящяОяХяФятяРяъярякяъямяПяИяж ябяпяляаяш яЫяЬяйяШяЮяжяЬягяжяУязяуяняр яьяыяюяыяС    	 яыякяцяш  %ящясямясяьяЩятящяъяц      	  яЩящянязяс яю ятяияо    	  яыяш    
-  ям    $  
-   ящ  	яы 	         
-   яыящяш  
- яуящ   *   
-  2   яояъятяуян яи   яфяжяцял  яюяфяйяшяы яы    ' яояо  язятясяняп        *   % /  $ "ячяу  * %     ( " 	   "     яу        # " /  ях 	  , '   ! &  +    яы -      ) яуяя  ;   7 4  яхяъ 	 #  яс   / янях 	 ях яб 	япядятям     яфящян   яэяз  яюяпяцяъяЯяЯяпякяСяПян  якяжялякяняПяЩяйяНяЗяЕяжяляЯяНящяпяДяТяЧяЩяТяСяЯяЦяЦяѕяЕя«яУяХяїяКяШяыяШяФяМяЖяЙя«яєяСяЧяВяЄяіяСяРя¶яёяЭяеяОя°я®яАяХяо 
-  яеяпяюясякяЙя»яІяЅяЁяЗяЛяБяСяЦяґяДя№яБяЙю§юЂю{я/яя;юзюЙюЖюЭюЮюиюТюоюхя яaяhяiяџя–яzяOяCяYя_я|я|я•яћяЎя®я{я»я¦я¶яёяЁя±яјяБяїяТяЗяҐяЇяёяДяҐяАяХяФяГяЕяБяЫяУяЪяМяЛяХяЙяШяЭяТя¤яАяСяИя±яіяЖяТяГяИяМяЗяМяАяУяояЧяµяЅяМяЫяНядя­я±яКяляРяЙяЦяДяПякяБяЖявягяЩяаяшяРя№яїяѕяЛякяТяВяЅяЬяЫядяаяряЩяНяМяЧяояъяПяияряЪяЫяхязяуяь   ярякятяНяыяэяляуяуявячясяояуяйяПяд япяйяРяп ясяУ   ях   яш яюяыякябяняхяляъяц яыяп   !  
-ят      яюяк   $ яяяя  яя ящ яы   '     яфяп  яц   # (     яъ  яй         ячяюяшяя ящ  ящ & яхящ      яцяв  
- ячяюяъяш 
-яя  яюяфяыяпядяц 
-яьящяюяю  	яя яш  яаяй  " яяян ядяп   яюяыяя      ) 	   яэ     яь  яю яыяч 
-яя   $ явяс # 3   яц  ! < . . *   (   яь     	   &ящяьяс яьяъ       % яэ  яяясяы  $ &янягяу ят ящ  яу     яхяхяф яю  " 	яияЕяМяУяр   + яэ ятянятяЮякяаятяьяЛяжяЦяЧяряхяеябяУяЖяТянясяляЭяЛяаязяиялябяЪяГяИяСяДяЖяЇяИяПяяящяСя­яАяСяДяцяЛяСяля»яіяЅяОяВяРяЬяЛяЙяГяѕяЇяёяаяЖяВяИяЯяЪяФяеяй   яцяХяЦяЖяПяЄяҐя°яєяЄя§яДяДяЗяСяґя»яЇю¦юrя$юdюRюуюЃюЃяя,яюЮюцюжюйючяMяqя[яiяўяЂяnяeяdя|яЉяљяўя’я€я…яўя°яЅяЕяЖяЙяКя·яЦяОяµяґяХяЧяЯяРяОя»яряЮяБяµя›яАяФяФяВяЕяйягя»я§яУядяјя°яЬя·яЁяАяОяШяЩяєявяУяЕя­яАяПяТящятяЅябякядяЦяОяЖяЙяЛяЫяЗяјяБяИяЛяЩясяЮяКяЫягяЮяйямяь яаятяФяАяЧязяйяЮязяф яйяаяояжямятямясяжяхяЩяПяЬядяжямяПяйяшячяьящяфяфяыяХяАяв ячяФяЫяк яЮ  ягяШях  яиявябяч  ям  ясящ яыяшяя яшяэяиядяи  # яЯ   	  # яуяр     * !яэ 
-      
- яц  %    яф   " #яхящ     !      яъ  яы     яэяъяю  яяяш  яя   яыяш     ящ    яяяф яйяжярярягяи яуявяз     яе  $ / явяк яяяш  
-  яяяхявяеяя 	  яцяп   яь   % %яш яыяъ      
-яцяр    яфяъяы  яю   яю   2    #  "  
-яы     яч        (   ( % % 2яю   яч       
-   ях  яш  ях   + ) 3ясяэ      
- ям яч & яюяфяШяояю  япядяляа яяяцяыяЬяяящящяпякяфясяеяЯяряпяъяЬяЪяИяХяаяб ясяЗябяаявяСяТя¶я©яЖяЪяйяХяТяХяОяВя¶яВяВяёяЦяИяія©яСяаяУяЗяГяЙяЛявяФяЖяБяјяёяУягяЩяфязяпягяфяжячяняЬяРягяЖяСяФяІяЪяСяРя«я·яЦяЕя«юИюbю“ю–ю«ю^ю‘юїя(я&яя6я$яяяяRяmяyяѓя~яZя\яVя_яkяhяHя’яЁя я я™ябяБяЖяАя яїя»я№яјяГядяѕя±я¶яКяШяОяёя·яµяЕяЖяЕяЧяхяЯяуяЫяЫяія¦яЙяЮяЕяЧяЙяЭяКяДяЫяАя»яЗяЙяГяІяЙяТяКяІядяФяґяАяОяЪяТяЭяНяОяЧяеяїяЪяФяКяАяуяаящязяРяЪяОяиямяияаяВяуяЧяµяПязяЗяНяйяы яцяИяКяДяч  яняЦяЭяпялящ яйяМяиялят   яхязябячяЪ  яшямяъ   
- яъяСябяч яоямяцящ  яшяшярящяю  	 
-яъ   яхяляр   	 ял    	ян яъямяюясяр  1  яюяняы    
-яш  +   '        $ / яцяэ                 
-     	яэятящ  ях  
-ящяэяш    *    0    яъяйячяяяэяюячяэяляляуяэ   ящяюяОяЬяаяфяы ' ?   	яеяшяюяюяэ 3    яшяшяя   #    ' яь   B 4 "    & -    ! /       
-  
-яфяЪящ 1 8 + яц   
-   $ !  "  # #яъ  -  / +  3 "    '  яЫяЭ 	  яю      яцяэ % яшяс   яю  ят  яы  'яюявямяеян  якяъ яьячяряЯяЭяиявякятяй   яыясячятяжяояуяиябяЫяд яЯяФяЧясяояЯяФяёяОяЧяШяТяАяЬяНяёяИяЛя»яМяуяСяГя°яјяЕяСявяАяГявятяЙяИяляеяЗяКя«яКяБяжяЅяЙяМявяЩяЕяХяЪянятяжяКяЫяфяряуяжяЪяВяИяСяСяёя¶я±я±яїяґяёяѕя»юfю·юЁяяю®юеюўюгяющяюьяюцяяvяmяmяwяaяbяMяBяzяUяeя<яя яўяЉяЇяМяДяјя¤яЁяЛяЖя§я¬яєяСяѕяЪяЮяџяАяВяїяИяЕяЕяУяёяАяТяЦяФяДяСя¬я»яѕяІяШяДяЅяГяѕяИяАяБяФяЯяияМя·яЇяСяОяЧяВяШятяЪяЭяЪяЅяЙяЦя»яБяияХяРяБяЕяХя№яЇя¤яШяАя¶яШяОяСяЬяУяОяјяд ябяџяіяляуяц 	яеяЗяµяЬяЛяЯяСяЦяШяйяЬящ яфяОяЫяЛяЩях якяпяеяфяяяуяжягяе    	яЩясяЬязяъ  яю     
-яыяряф  япяю  $  	    ясяфяняыяэ   яу 	         
-        яю             $ 2 яэ 	  (   &яяяияю   
-    5 ; 8   яь   яч   	   яыях  ятяьяфяъ   яэ  ят  ятяю    язяч яюяэяьяй ятясячят яц  # C яшяя яю  	 !                  яъ     *     I 4 
- '  яэ 
- яч   яу  + , "    " ,     !       ящ ! E ,       	 &  $ятят     яияэ    яюяь    $  яняы  яя 
- яыяТяЮяпяя яшяб яъ  яхямяФяияаяуяхягяЪявяя  яй япягяжямяЩяЦяЛяСяЭядяЖяЬяТявяШяЫяИяКяНяФяляСяРяТяоявягяГяСяжяСяЖяЙяПяНясяЮяЕяєяјяЅя»яЧяФяЧяВя¤я¦яїяіядятяЗя¶яёяОяДяСяюятяляМяЬяняпяаяйяЮяКяєя§яєяГя«яПяМяЕяБяКяИя©ю«юµюдюцюЅю¬яCяAюлюъюФюпюрюЧяютяuяsяXя’яcяJяPя.я4яVя‡я}яЏя’яіяџяєя¬я±я№я–яҐяПяАяія—яЇяБяВяµя¶яґяЅяФяРяЁяАяНяЛяЪяХяЇяёяїя№я®я¬яГяНя»я¶яЯяЕя·яияДяґяЕяЬяпяЛяКяОяЙяЯяЩяШяИяЛязяЬяТяВяХяАяжясяЭяЗяУяияВяЪяНяіяєяОяЧяЛяОяеячяПяляхякяаяЮ яЦяЭяЪяМякяр ятяч  яуяЫяТязясялямяНяЧяЦяИяЧягяЬязяЙясябяЮявяы 
-  ят    ягясяю  яя     
-япяъяюяю  яцянящяя  (       язяЯяц    2 яэ  ящ $ 2 +  яы  яы    яшяияфяф    яь    яъяь      & * * 	  ячящ   яэяъях яэ  яы яы          яыящ    яш % 5  яъяц     ям яю 
-  ялятяц  яч  яьящяы  яь ялящячяк   
- яс      	 яс   яч   яцяоячящ &  (         ятяч яь яп  ) 6 2   !    'яюящ  	  	 !       @ % $  япяляо   )  ящ     
-  %   ! ! ! яеяо яяян яю      	  яцяи  
- яоядян  яъ  яйяеяЫ    яЮядяЭ   ялядяЭяняц ял япяпязяЧяУяХяЦя±яМябяаяЮяШяйяОяѕяµяёяБяг ящяЛяСяЛяБяСядяляЫяѕяЭяГяґяёяЗяЫяВя·я›яяія®яВяШяЕяДяАяМяЙяЙябяляеячяЦ  яшяжяШя°яґяБяЁяҐяІя¤яЕяЗя»яѕяЗяЅяћю¦юnюGю‡юvюГя/юаюµюѕю»юІюйючя#юёяcяђяcяWяgяZяjяLяMяHяXяdяЊяЋя№я®я“я§яєяГяОяґяБяБяҐяІяДяєя·яїяѕя№яКяИя·я©яЅяЪявякяЩяЕяЦяєяЁяНяФяЗяЕя©яЁяјяКя¶яЕябяїяѕяЦяЛябяЩяНяМяОяЧяпяЛяёяЬяНяУя»яµя°яСяияпяи япяаяЙяЬяУяйяоясягяКяряаяЪяеяЙяХяХяЫяйяеягяУяµяз  	яияЙяТяЭяЯянятяцяюяКяМяеясяфяуяШяНяЙяЧяУяияцяЩяояюяНяфяШяРяЧяЮяжяъящ яъяц ятяфяюякянянящ    яТяь    	    яч 
-яшяЯяЬ 
-     ягяХ   яфяч  яыяьяэяюяыяьямящ     яь     	яыяыяя  яы    &          	          
- япяс  ) яэ 
-  яэ яу   #     	 $ яфяфяпямяя  яряэяф яеяф   
-яя    якядяцяжяо           яэяжяо      
-як   +  !  3   +    *  яц    яы 	 "    1 ) +яъ     	 яю !    , 9    '   яю  
-   
- яя       ядяфян  2яэяэяъ ящян яз  яяядяс    * . яс ясяы  4  яжяеяф  !яряжяп  язяб яыяняЧяЙяю ярящяляиящяхяеяг яюяЧяЮяйяэявяЫяоятяШяЪяЪяЙяЅяЙяШяияояЬяЗяДяЛядяЯяуяОяДяКяЄяГяія©яГяЖя°яЇяІя»яБяµяАяГяФяМяСя·якялячяаящяряЯ яц яСяНя¶яіяќя§яїяґяѕяЙяјяДяјя·юНюєюю~югяюЭю‹ю‰юЁюВюаюЙя$яяяxяWя”яeяrя€яЃяtяyяrяFяpя™я§я•яљяwяИяЄяІяІяµяјяУяЪяЛяняляМяКяІяяѕяляЅяЕяТяЙязяНяµяЙяИяЙяЕяЇяЕя©яЕяДяЫяЪя°яІяЩяЗя°яЛя°яБяЙяРя№яКяШяРяЩяФяЬяЅя»ягяІяѕяЫяияаяЧяЫяИяъязяхягяЧяУяЪяФяРяЮяЛяКяЙяЅяКяГяРяияжяЦяЯяРяФяуяяямяЧяуяСяЫяТяЮяжяЩябяияфяЩяряШяжяЩ ящяпявяЭяЦязяжясямяшяСяЩяШяхящящяьяяятяю яфяеяфяю    яп яч яы  ! яуякяояу 
- яф яы      яьяЫят 	  яъ         ящ   & яц      яч      	ят           	 	 
- яш   
-  якяеямяш     яь     яйяжяо    0  
-яыяр яьяшясяеяЮяЧяю яр   яф 	  япясяз яэяхяд    
- ям      яхях  "   	  ясяыяъякязяс  яь      яъ  яцяц  %  	яц $      
- яюяеяхяь    яйяъ   &  - яы   . яы      	       	     #     
-      яш яъявявяыяюяы    яцятяЫябяд яъяа  яр  яйягяеякяу яряцяяяряЩяляжяЧявяХяЦяряФяЩяОяжякяЩяУямялязяХяЪяТяЪяЪяЦяйяОяЙяЬяНягявяІяєяѕяЖяЇя№яЗяЬя±яАяИяБя·яјяНяґяІяјяјяРяРяЦяЭяОяѕяЇя¬яЫ ясяиям яэяляФяляСяСяДяУяШягяґя±яЛя№яЛяЅя¤я°ютюля/юЧюЂюaю-юКюРяяяюмяюияяЎяbя@яJяVяdяlя^я`яЋя…яQяxя‰яџя”я‚я¬я±яёяЙя¬яНяСяжяЕядя·я°я±яРяЇяЙяТяБяРяёяВяБя»яМя№я¦яЕяРяµяЅяјяЛя«яѕя»яЛяЩяжяШяОя№яЬявяИяБяЕяФяЬяуяФяЩяРяВяЬяжявяЫябяЪяХяЫяЩяШя·яЪягяВяйяЕягяняьяУяЛяЪябяЪяУяцяояшяЯяЬяУяГя­яґяЛяПяЛяйяЩяаяуяфясяФяфяЩяШяняы яляГяояаяияеяйящяжяфяэяфяаяояаяяяя 	 яц    % яояТякякяч   яг    яуяю  яы      яыяъянях        ят 	         $   )      	   '  ! / %           ячяфяьяюяцяя яэ 
- яуяояя     яц         	яяязябяЯяш     ящяуяжяШяТяЩяц яэ 	яоябяю  (ящяЭях    япял  	яЫяЭяя           ящ 	  & ягяе яф яЩ   &   яю   $ $ ! 
-яо 	 * ! яэ  '    &     + яюяъ  яэяьяцячяы 	        яюяыяияЯ 	 *     %   яю   як 
-  ящ  яь яь     ясяш  яшяэ  % яэ  яс ярян 
-яхяйяп ящяРяпяняРявяЫяМяЮябяфян  	ямяЮяс  яТяаяЮяКяаяЮяШяЮяТяТяКяйяцяряЬяЖяЭяЧяояСяРяАяЖяЮяТякяЫяЦ яИяЇяШяЛяєяґяїягяЯяУя¬яЁя·яХяія©яАяєяВя¶я©яµяДяФяэяаяжяТябяпяЪяМя­яБяВябягя±я«я¤я›я”яїяБяЗяѕюУю‡ю«юЂююџюояя5юрюжюМюря1юиюея•я{яqяђяћяќя‹яhяWяmя•я¬я‹я‰яћя¶я яБяЩяЦяВя™яМя§яКяЫяѕяЇяЄяµяиязяѕя№яВя№яѕяМяАяґяЛяѕяјяМяОяІяЙяПяЕяїяєя­яПякяУяТяЙяїяМявяЅяНяУяФяКякяЪяБяЛяЮяхяияКяіяМя¶я»яДяЩяХя¶яОяЩяЙяЦяд яляЧякяяяЫяцязяЭяЕяЛяЛяЛяпяяяДяИяОяняоязяЦяЗяЪяШяаяИ яряаяч ясякяЗяВяЪяпяьяюяжяеяХяЬяЦяпясякяч ямяияуяьяъ яфязяб  ян яйяУяюяжяьяь  яияа " язяФяцяч  ясяюяю ящят  #  $ 2     	     " *     "   1   ясяы  "   ! ) * яч  #    яы яэяйяю  яюяя  яъяя 
-  яряш       яояэяшяюяяяояф    *  
-яшяцяняш ят 
-     
-     	 	яи 	    яр яяяпяг яь  яы яю  !     яш     	 яхяэ   ' + ! / 3 $     яфяш   $        яя '  ятял 	   %    "   &    (          яю  ян       яряяяэ яы  
-  яйях яы    "яеяляряляю ят *       ясятяу ябяиягяХяЮ  яйяояяяэяТяФяу яы 	явяЮягяЯяИяЕяНяРяШяЧяняхябяНяБяМяШянябяЛяТяояЫяХяГяЫя­яПяКяЙяЛяґя«яї ятяЯяМяВяВяКя¶яљяҐяДя¶я’я©яёяЦяцяляжяояцязяКяКяРя яТяМяРяЖяЕяјяЅя¶яБяЕяјяјяОю‘юsюёяююю‰ю’ю`юыя
-яяюеюфюмюкяdя6я_яmяЂяѓя}яkяЃяeя[яtяІяЁяњя®яђяіяЙяОяЭяДяЗяїя·яХя¦яєяБя·яЕяМябяѕяЙяСяДяДяµя®яТяёяНяАяНяїяџяµяїяЯяЭяЧявя№яјяСявяЖяДяµяМяЅяЖяЧяИяЗя«яВяШяЙяТяНяБяЩяЪяМяЩяЯяУяЩяПяБяИяйяеяЙяЩяаямякяЫяХяЛяХяКяЧяеяПяКяЯяняТяЦяХяЭяиябяляЪяи  якяЫяеяв яЬяъяляСяјяЙялябямяпяТяХяу яЬяйяуядяшяэ ямяпяиягяЦяияКяж  яф  яц 	 яыяр яиящ       # !   яьяг  яш   	  яь  яхяу   #  "  яояюяш 
- яю   яюяэ    	    яяяь 
-    
-      
- 	  яъ       	 яч       яюяя  " &  	яп ячяъ      яэ яя ящяшяЯяжяюясяьяэяуяр    яцяю   
-яъяс     %   яыяо япят яуяы  & ямяы  яю  яьяж  3 0 # явяи        яюяы  4     $ . %  $ ящ      # +        ! 4     : # 	  *      ящ  $   
- 
-     яыяь ягяняы яэяъ яъ 
-яю   яЯ яфяэ   яш  язящяояжявяШяЪякяхясяйягяЭяияйяьяФяКяуяЧякябямящяюягяСяаягядякяояХяЬяУяжяЮяВяЧяФяМяЦягяеяЮяєяМяЗяДяЪяЫяЭяБяхяШяТяеякяГяКя°я®я·яЗявяУяЦяГяаяОяШяЮячяуяс яхяЧяз 
-яРяія№яЖяйяПя·яАяґяЄяЁя¬я±я±югюњя юzю•юAюфюЧюяюаюаюаюеюІюшяBяiяaяmяfя`яѓяЊяѓяћяcяcяя—я‘я~яќяяОяјяКяФяЕяВяМяЙяЦяХяјяОя№яєяХяВяЖяЧяЬяАяЖяЄя¦яЄяЅяїяОяТяНяЭя»яКяСяЫяФяДяМя«яНяМяСяЙяБягяНяХя»яВяЬявяняЛяЦяЮяАяГяияЖяАяУяояФяЗяеяеягяЬяняеяйяМяЮяШяСяЕяАяояйяаяеязябяняТяОягяяяыяаяУяЫяЮяэ ягя¶яЙяЭяЯяШяеяиягяюяПяЖяУяДяЫяиявябялягяЯ   яшяХяоящяЭящяляояй 
- &   ятяЪяйяЪяняняоякяэяо яы    яъ яЯяч    яя      , , &   &      
-яшят  $ 
- 	    яь   +    яяящ  	 яцяу  
-    	   
- " 0 яфяч      яю  яс     яыяя яы ятяю  яш    	яаяфябяфяэяю яьяу    
- # яч    яс      яо  яц  	 яШяй  явям   яю        яъ  , K +яяядяоямясяъящ     6 яф яы     %           яш        & 3 4   !  '  &    *     )   яя   яыяьяп яю   яю > яь яэящячяняояняя яшящяыяьяьяуящяшяфяп якяхяфякяхяуяыяъяюяЭяжяояъ япяЧямягямяЭяІяДянязяДяТяюяХя№яјяТяиявяЮ яхяЩя№яЗяРяюяНяУяФяФяЦяУяГя©я±яёяµяЗяРяµяЛяВяЛяЖя»я¬яіяУяУяЫяПяВяЇяФяыядящ   яс яцямяРя±яЄя·яХяТя®яМяЬя«я›яµяѕяёяўюВю яOюљюyя>юмюµюкюЩюмяюЩюЭяяwяpя|яgя/яeяdяЉяBя_яЂяdя}я{яћя¬я™яБяАяИяХяияГяКяЮяЖяјяАяКяКяТяЯяЛяЙяЦяЙя·я°яєяЦяДя­яђя¶яҐяАяКяЕяЫяШяЧяМя§яҐяўяЛяНяЯяЕя­я№яаяСя™яИяУяЗяЗяґя©яМяЬявяЮяЯяЦяЦяНяйяЪяЪяЯяРяСяряеяєяГяРяґятяСяшяЪ яйяЭяЫяЗяшяи яяяг 	  ядясяЩягяЩяояЭ    яияняряя 	 яЫяч  яо   яЯ яьяфяЪядяЩяь  ятяуяояиян 	 ябяЫядяЯяэ  явям яя   яыях     яфяп  яжяфяя 	 яю   	       .  	 
-   яы   ял   
-   & яуяш        ( яяяюярялят 
- якяы яя яьяф 
-ячяряя  яя   яцяъякявязятятябяэяжяр яя  ящ   ящ  яяяьяюяз яюяцясяжяж  
-яуяыячячяш       яэяцячяШяеяф      яь  яц яя   # # ящ - 4 
-         # = ,  %  яю  %  ях яю ячяы   0 
-яф   $ 0 яч   1   % ' ) 3   ( %     # 3    % 1 +  	  3яэяч      !ясяп  яюянях 
- яуящ яыяФямярях   ян   ящ "   яЧяе  яняуяфябяЯяпясяШяМяГяЙяПяОяйяЫяВяјявяхябякякяШяЬяляЮяМяСяїяЅяВяМяТяШявяЯяЯяаяОяёяАя±я¬яЩябяСяµяЇяКяѕяЅяШяФяШяаяБявяѕяТямягяаяд ятяюяь 
-яЯяЁяя™яћя±яПяїяКяРяЄя яКяГюЇю§ю‚юмюЈюЁюжюИющюуя	юсюцяяюпяbяhяSя7я9яdяQяTяYя^яxяqя‚яЈяЇя¤я°яѕя«яµяЬяИя¬я¶яЗя®яўяЈяШябяХяЮяМяЩя¶яЗя±яџяЇяёя¶я±я·яВя¬я¶яЖяИяЖяФяїя°я°яТяЪяФяЯяЦяФяШяЫяЙяТяПяияВяПяХяЇяµяёяУяТяЦяѕяЙяЫявяЫяЇяЅяЭяУяКяЮяЬяёяЙяёяИятяУяШяТяйяфяхяеяХяШяояЪяъясяжядяЦяПявяЦяТяйяйяояЬяМя»яКяОяияСяФям 	ядямяйяЩябячяьягяыяшяэяцяэяЮяряляфяляь 	яняяяЭяВяјяняю  ял   ягяэ        +   яяяы      
- 
-  яч 	    #    	       ях     яу яъящ   
-      яьяцяияряь  яяяъ         яы     % '  яоящяыяэ яьякяеяЯяг  ягяа      яЯямяоящ   ячяйяу   ящяъяь      яу  
-яц 	        
- яъ  !  ! 
-яф   $ / ялябяд      . -  	     &  яояыячяс  яя 
-  яряя  " 	  " яхяс        ясяи  %яшяуят  
- 
- 5 ,  яф    #  &яы  яэ   #ямяФяоятяляиящ яьяяятяцяйяыяъях  яъяоябящ   	ящяю ящяыяняЬяЪяч ярягяСямяйяЮяФяиясяТяЦяЛяУяияРягяСяОяЗяХяЪягяШядяСямятяНяГяНяХяОяОяБяІяБяУяµяБя±яІяИяеяЫяЅяґяЛяїяМяЪяБяЛяЫяјяТяРяиящягялягяЪяж  яЭяъяеяЗяќя®я¦яїя±я­яЅяўя«я§яЅягюFюшюЭюсюДюуюжюуяюЮюиюЅюРювюТя+яiяoяSяbяSяdяѓяuяfяЋяёя‡яґяќяѓя‘я”яЅяµяїя±яСяПяЧяХяЧяЛяµя°яЖяЪяМяГяРязяЭяЕя¶яЄяЗяЩяИямябяіяЩяАя©я¬яЖяМяјяЫятяИяЛяРяжяЬяУяаясяеяПяНя©яВяЅя·я№яЛяЄя§яЁяѕяНяГя¤яГяѕяЈяїяЪяНяПяляЧяБяЩядяОябязявяЯябяжя·ягяуяояЦяяяьяляТяо  яряцяеяУярябяЬяОямяряхяЮяОях 
-яц  ясядяьяюяЫяЮяЩяк ям яцящяъ    ячяпяъяуяЪ   ях   яфяц ядячяф яя яояняэ ящяу 	ямяю     )      	  ,ят  , '   яюяч   ! !        3 !    + $ ящ  яы   яуяю  яя яьях   )  
-     
-ясяТяЮяияпянят  ящяъ  яэяоям        ят    яф 	   яюящящях     ямяияо    яфяяяу  яэ япяя яы     яю     
- яэ     яс     ' яыяьяч  	     $ ' '  0 
-        - ?       & '  !   $     
-яю ,        !  	 $ / яцяь  яьяк  
-  яю  
- яяяэ   яаяЩяФяаякязяъ яе яняч   ящямяЧявяпяляжяЩяВяЙяЧялясяЧяюямяЧяиякяСязяцяНяГяВязяПяЕяЗяЖябяСясяляФяФяИяБяУяояЭяїяРяПяФяєяМяХяЕяРяЧяТяХяЖяЮ яПяаяјяЮяРяЅяояйяфяс  
-яеяоядяэяИяБяДяОяТяНяМя§яљяїяµя°яґя№ю‹ю®юШюћяюҐюђюЄючюгюпюияEя'юЫюЪяMяyяzяxяkяMяUяoя\яЃяџя“яія‹я—я„яљяґяЕяНя§яЖяИяЙя¶я§яИя»яКяНяАяжяіяЁяСя¬я§яСя±яїяФяЩябя¬яЕяЅяЋя я№яХяЛяПяжявяЗягядяОяФяїяСяъяняЖяЛяМябязяСяУяжяГя°яЕяЪяМяДяМяИяСяЩяЪяпяМяШяеяБяЖягяш  яняЖяЖяхяХяЛязяОяЬял яфяеяДяЭяЩяУяДяДяДяляЅяЧяУяґяЫяфяияТяй  яцящяаяАявяъ яЫяъ  ящяжяйягяшяъяю % (яыяу ягяляпяц  	  яяяояп   ят яьятяьяю   яф  *  ях  +     !яч   яо  &ярям   	яшяц    яя         ( (    
-  яэяы    #  4 * яьяс   яряцяэяш 
-   !ярящ       ячянятяняъ    яу    яфяйяь  яъяЯяЬ ячяцяфятячяцяцяц  яцядякяняыящяы   яхясяояк  -          яцяу   %   
-    ящ            як  яъяч  яэ  ! яю  
- ях       !    яу  *   ( *   	 ' 3   яыяюянящ  (   яы           
-якяз  ятяуяыяы ял яр  яЯяняЭяшяюяЪязяф яхяУяєяФязяЮящяляо яЧяБяГ  ясяхяъяляЯяЦяъяряЮяйякягямяъ ягяДя±яЅя”яМяВяАяЕяїяИяцяряНяЙяЗяІяєяТяДяЗяНяияРяСяШяКяСяьяпяц  яЮяояЭ ятяЖяіяєя»я»яЕяВяјяґяіяАя«яҐю”юЂюlю–юШяGююЦютюЬюУюуюьяюЫюАяGя‘я{я‚я|яUяDяbя[я_яyяґяЁя}яqя—яЄя©яЗя°яёя»яЙяЈяґяГяЗя»яЖя°яВягяТяВяЛя·яґяїяЛя·я»яЛяаяХяСяМя«я«я®яСяєяФятяЮяГянякяЦяія·яЖяКяаяЭяЭяЙяЬяьяняоянявяБяЇяОяНяЫяОяХяФягябяЖяїяПяЩяПяЪякям яхяЩяХяЕягядяМяаяШяЦятял яляЬяЪяЦяр 	яшяляЪяМяЯяаяЧядяо   яэяяясяЬяЯяЪящятяяяЮяь 
-яыящяьяЪяЮякямяпяф яцяфяяяц ямяп      ян  яю яы 	ящ   яняы   яэяя   % ят   яя        яч  - якящ    $            ! 	    яф  #        ящ  
-яняляхяыятяю    + ятяэяуяъ  
- ящягямяОявяюячязяю    яжяЭяСяЬ   
-яьяэяяяйядям $ 	яюяцяь   яяят   ятящях яу    ящящ     B "язят     яряу   яхях  
- 	     ' ;  ! яыяю    -  яа          	язяжяэ 
- !яояь  ,       - як    ясяу     
-   	яцям 	 ящ    яеях яшящ ячяо  
- " - $ ящяаяЫяляъяю   яуясяЫяЮявяшяряцящяЭяНяИяХяуяЯяЫяФягяЬяшяю яуяЭяПяф ягяЗяп ясящяуяЗяМяЧяуяаяеяЙяїя»яРяТяНя­яѕяУяТяУяШяЩяЙяґя°яҐя°яїяВяГяјяБяјя·ягяляЮягяеялямяц яШяКяВя±яНятяГяКяДяґяїяЗя®яАя±яAюўюХюСюъя юНю‡юАюЫюъюЙюмюояяяKяiя{я~яeяSяbяsяTяяя†я я}я}яЏя‘яЛяЅяїяєя®яєяѕяМя¶яЗя№яДяёя№яКявяАяЎяµяїяЖяНягяѕяБяжяНяµя¶я±яіяГяЧяЖя“яЇя»яЅяЕяХяЭяБяМяјя­яСяЧяРяСяГяµя®яЙяЦягяЦяАяВямяОяШяЮябяПяЙяУяояЦяШяЛя®я«я­яЭяѕяШяЦяВяШяЗяДяаяжякял ядяПяЛяеяУяЩяеяСябяЫяЬяРяШяйящ яцяляЩ  яюяняЪяЬяш ягяЬяЭяш   яь якяняъямяряаяеяэ яуяляъ як 
- 6 " яяяЯясяп яняфяуялях        яц   0  яцяя   * #яэ   ящ 
- = 0     
-  
-         яэяъ  яыяъ    яц " ятяояь   ямяф    ягяы  
- яфяЭяляь  ях 
-яьям   )  & 3 ялязящяняЧяояоябягяЦявяй   яхяп   	    яЯяжячят  !    яняуял  I '        
-яф яю яыяш   яэ  ' ящ     8  яш        2 & ячяф  % !     ях  % : . 	 яъявящ яояю  0 
- яюяъ 	  )  ящ   ящяф   язякящ яояр     яп яф  ящящяпятяш  ях  яъягяляьянямяъяч  ялящ яняуяжяаяУямяляЙячяЪяПявяСяояу  яы  яияеяЯятяф яРякякядяаяАяЧяПяИяКяЛя¶яДяНяНя№яБяЩяФяХяИяКяАяјяЧяИяВяЬякяйяЭяЫяМяСяэямявяч   яъясяляпяСяія–яЕяЛяЭяЖяґя¶я яВяБяБяія'юЊюeю§юєюJю«ю‹я*юИюЬяюшющяючя&я9яYяfяTя>яRяqя’яsяaя’я¶яЏя‡яvя•яАя­я©я я±яПяояПяЅяЄя¶яµяєяБяµяДяРяИяёя¶яГя·яЬяХяЭяХя­яњяўяµя­яСяЕяХяФяЇяЮяЩяЮяСяЫяКяБяіяГяЖяЯяфяЭяПяЩяПяЗяШяКя±яјяёя°я±яЖяѕяАяЅяїяТяДяЖяРяеябязяЧя№яЭясядяЪяНяРяз 
-яЭяияю яфяцякяжяхявя¦яШяжяКяПяаяЩяНяЭяэ    ясявяпяняъялягяцямяи   яь яцятяыяч  яряъяыяюядяаяз яляеяьядяп  яъ   яч   яш !      яЮяуяляняр     #      ! "  "яяяш      яэ      2    яъяюяэячясяо    %   яуямяпяр  '       яяящяс яэ яшяь  яшяряиящ яо ятяг  яшяч  яч яЯялягящяд     яэ   япяюяюякяЪяпякяю +   ящяхяЮяШяя ,  яъ  $ яц яи  яыяияЮ  $       	яю   #  ( яы      "яюяэ  0  +     ящ      . яр 
-    яъ яы % 'яюяш  	    '     ячяь  яф   яияняо         яы яь ясяаясядяЮяк яияв яляьяи  яу яэяяяьяаял  яфясяжяЮяаягяЦягяр яъяояляїяТяСяОяЭязяЦяЫяТя®яУяияюяРяХяжяЦяКяШяФяЁя№яМя¶яµяїяФяКяЯяаяјя±яµя¤я©яїя±яДятяЮяѕяКя®яЭягявянял яхяаявяеяПяІяДяЕяіяґя©я§я¶яНяЛяія·яўя-юШюСюуюљю•юъюёюяюїюҐяя3юпюНюЮяDя>яyяlя`яkяOяcя‘яPя‡яeяЏя‰яЊя”яЊяѕяіяЇяЩяПяДя»яЅяёясяЮя№я№яЛя©я©яЈяБя”яўяјя¬яИя·яЦяЪяДяіяХяїяХяЫяЬяЩяМяєяПяКяОя¬яКяФяВяВязяЖяНяКяХяМяШящяйяюяМяАя°я¶яКяаяСяГяАяјяЭяХяОяУяШяЮяЮяУяГязяУяЪяияЯямяЦяеяСяЦяСяЬяЭяъяшясяеяХяр  
-янядяЪяеяфябяияЭявяйякявяфяжяпячядясяйягяШяЫяЫяЪясяфяжяЮящяр   яьяюяы   ячякякяп  яы       
- яхяляз  яЯяэ    ячяэяы     
-   %    	   яу   яю   #   ( . *    яяяъ   яш  )   яь    яюяъ  яюящ  
-  яъяляуяьяьяе      яь  	  яя  !яыяфяъ яыягяб  яд яш  яяяуяляю  яжяняьяжяЬяХяняу  яьяи ячяняхяп  	      ) / $   яъяо 
- яиящяияш   & яф  яю  яцяэяц       ! ! $      яу     = 
-якяы  ! $яш  яр # 
-     яп  ,   яхяъ  #  яу ! ! 
-    ( яо  ( яъ  %      	 ясяоялях    &яю яз ямяаяЭяф ях  яияжяХяляжяЩяЭягяцяиятяЦяНяйяфяъятяцяляряаяЩяжяляСяйяЮяУяФяНяШяояНяГяИяЗяУяЧяЛяЖя­я·я©яЗя­я¬я·я¦яМяияЯяЅяѕяЕяєяЩярямяьяя "яфяЯяЯяияЯяШяСяЕяДяёяІяЈя¬яИяєяіяАяАя#ю¶ю†ю–юlяя!я0ю¦юЅю·юИяя'юдюћя>яdяZяDяYяBяLяRяbяRяUя~я­я›я’я§я§яРяїяјя®я»яДяјя¶яЎяѕябяЖяёяЄяИяЛяИяѕяјяјяМяея·яЄяОяВяТяКяУяљяЙяНяЦяЛяЛяПяТяДяЕяЦяСяйяФяЧяИяПявяПяЩянядяМяРяЩяЛяЪяпябявяЙя№яЇяНяКяСяТяКявяняц яЬяЛяРяШяэяюяаядяшяряЯяняхяцяйяеяЧяЖяжятязяь  яаяЪяШяСяияэядясяэяаяшябядякяоязяхяэяч  яыяэ  яъячяЭяи яляЧяхяШяФ   
- ясящяыяз    яъ    1яъяЗ      $ $  
-яъяс  	яь яшян  
- / 5 &яе  !    "    яф    яю     	  &   5 %      яц   / +    яяяцяняпяр 	яфяж  яьяъ   яъяляр ятясял яоядям    яшяеяЙяЯяйяаяряш  яяяу    	ящяъ яи  / 
-яЫяс  ячяЮяйяъябядяфякяц     яъяр   як  !  яряз яэ  
-  яь           	   % %       +  ( япяЬ   яъ  # яу  яъ & !   " ! !      1    яьяц яэ   . 2  5     	   $        /ящяз 
-яш яЮяу яч ягял яь  яшяр   яюяХяПягяЭяНяЩящ яЩяЭяпяляЩяґяГяХяцяэяс  яйяШяг   яЫясяЫяЬяЩяїяГяЖяјяЭяЬя»я№я°яїяЄяБяРяїяЪяјя­яАяГяПяТяНяµяАяАяФямях  
-яяязячяЭяНяЭяЙяµяЗяВя®я­я·яєяКяКяїяГяёя»юЂюЭюќюДя-юЭюЛя6юНюЮя юбю{ю№юМюГяKяpяяkяiяRяmяcя_яlя[яPяЏя¦я–яЏяЁяШяЎя¶я№я»яВяЕяОяБяјяАяРяМя°яёя¬я®яОяРяЭяЯяуяЪя­яЕяКяФяйяВяµяУяГяЇяУяЧяЮяЫяхяЯя№яЫяеявяТяРяТяТяШяХяЩяЙябяВяРяняЛядяСяЬяЙяТяЧяДяБяНяЅяГя·яЮяшяеябяжяТязяг яияСяъяцякямяъямяхяЯяняБяШянялячяхяЮяДяРяТяпяфяфяы яъяфяЪяОяЯяхяпяЮяряпяв  яч яШяъ 
- $яяяхяляпямяеянят ящ    яэ яЫяНяЦяд 	   яъяаяс   	  явякяъ       
-яу   $ 4 0    )   # ясяэяы   "     &     ях 
- яняы   япяч  	     	яъяя  яяях  яэ     !яю яьях     ячяхят  
-  янялядягясятяыяю  # яыясяфяъямяш яу "  !  яжясяяяхял      " 	   &яъ  ящ    % ( + яы  / ( ясяляя 	  яя         	   % " яс   ( яр     яыящ +      	  !  ! 2 ' ! + 6 (     яъ яюяю     яряф 
-  яюявяь яу   
- яшяяясяьяш 	   яыяэ  яжяжясяьяЧяФякяыяэяцяЧяяяъяюяуяояйяь  'яь яс яьячяб  яЭяхячяиямяъяЯяИяМяе  яб ясясяСяКяЕяјя®яґяЫяЦяРяПяУяІя№ябяМяЩяДя¶яЄя«яµяЗяИяЗяєяІяҐяјяШям  ятянядяеяфявяфяКяЛяПяБяИяјяЅяВякяАяеяПя¤яАю»яюяю№ю№яя$юуювяяяюїюЄюЖюХяeяaя_я_яQя4яaя,я;яwяiя{яџяµя’я›яРяУяјяЁяДяГяґяћяФя±яЄяёяАяјя№яНяЁя«яТяЫяаяЛяряЯяДяЙя·яєяєяЙяЪяРяЛяСяМяЗяМяТятяаяБяЭяжягяКяЪяФяСяЩяµяЕяДяМяёяЛяПяЩяЬяЩяУяЩяЩяЙявявяФяСяПяДяПяШяЩяСяЪяаяуяуяЧябяЖяйящ  яоягяКяЧягямяжяЭяюяюяЬяиядяФяАяїяЯяЧяйяЬягяСяВяаяЯ ятяаяУятявяЬят  	яеяпяъясяхяжяхяп   яФяуяыятяцяеяц 
- яыяЧягяя     яыяряь ялябяшяыят 	       !    ! 2 
-    яуяс              . яш 
-яь   )  яцят        яыящязятядян   яъ    яу        яъяю   яъ   ячяЩявяжяж   яюяъяпяРяЭяаяо язях 	   яо яхяляпяиязяс   яфяэ    
-  # 'яф    "      
-ящ яюярял яч    ящ яяясяъ  , ! яп яэ  як    '  "  
-  ' $ яь   яь    
-яяях    &    #  яъячящ яо # ,   яъ    яуявяряхяф ятях   якяьятяцяи     ячяпячяэяе   ящяьятяеяцяуятяю  яЩяаяСяпяияЩях якянящяояо  ясяояояяязяжячяляжянякяЯяФяЛяЕяИя¶я®яґяПяЦяВя№яДяБяТяУяНяЖяЙяЅяШявяаядяСякяИяЫяЧяеяфясяжяФясяЩяТяияЦяРяЛяСяїяёяСяШяєяУяВя®я®яІяю‰юЕяDюФюКяяя)яющюЯюьяя5юля6я;яhяAяNяnяKяmя^яPяўяqяљя“яя—яҐяКя»яНяГяЗя¬яЈяИяЖя®яјя±яїяФяНя©яіяИяОяСяЛяЗяЬяОяЯяЖяСяЛяГяЛяЙя±я№я»яєяєяЕяЯя№я­яЛяЮя»яЕяЯяЙяЖяЙяФяц явяЧяНяЛяЯябя№яРяпяШяМяаяПяЫяъяЭяНяЧяиятяШяКяЕяШяЯябяъяуякяпяыяяявявяп яэяцяъяЪязяСяЯяц  яжяЗяряг  яэяфящяэяпяШяСяЬядядяуяцяя яьяшявяъ ядяоямяьяэяч    яъямяиясямяо яы   
- яа     )  яжяфяюяяяъяч   яу  %    яь $         яшяш     яч       ясях яыячяфяч  яъяяяз  	   0         яю   яю ящ  &    яэяфяляжяюяь     язяШяз яаябяфяоядязяШябяиязягябяЩяб  0  яцяьяляляэяхябячяъ ящ яфяйязяляр яуяпяшяляряЭяз 
-   яе  ) * 	  	 яо    яуяяяеяр           %    $     3    яр  !  &   	        яы  "    	яю    яъ    	 ящянящ яъяо  	яы яю   яъяЬяхяьял   яю 
-яЧяМяляь   
-яя ящяшяЫяЭ  яйяЯяЭяЭ  яяяуяЪяс  ядяк      ! язяУяхяпяь яеяЯяСяЙяГяПяПяляїяРяјя¤я¤яХяИябяФяЛя±я¬яЅяія»яЮяаяПяЧяФяфямям яъяЪяПяФяЩяЕя№яЅяОяЖяЛяЦяОяОяµя°яБяТяПяю”юэяEюТя>юГю—юъюіютюОюЄюЫяюкя8яKяtяkяsя`яЉя†яtяVяSя‹яvяљяџя€я‰яія¬я»яЄяЎя»яЇяїяЖя¶яАяЖя¶яБя№яљяєяИяѕяУяеяЦяКяВяЗяСяЗябяЬяВяІяИя№яГяПягядяТяаяЖяРяїязяЯяняЧя±яХяПяДяЄя»явяПя·я№яЬяЇяЗяЦяґяБяТявяЦяХяз ятяЮяоягяЬяХямябяТяф яуяЩяРяОяЧ 
-  яУяТяУяНяеяТяЫяв  яряДяЧяъяч ябякяОяеяЮяЬяжяРяСяЦябяеяшядяжякяэ  ямяпяб   яф 	  ямяф  яуяэяю     яьямяс    яъяЮяд   	  
-яшяр яы  !      яэ  ' < *         '       !яф  як    яы     	 яоям  *   ярядян   	        яшяф ! .яюяуяфядяп    %     ях    яьяпясяЯяшяЭяй ячяэядяЬяЮяшяояо 
- яй  ' яъяэяиязяг       яряряф 	яш  якях яхяЯяп яьяп  3     яьяг  яо яэ       
-яЮяз  2   E "    яяяц яъяэ яш   яс    яу ' яъ  )         яюяш       яц   ,     яю яйяпяы   яьяи   яшяг  
-яьяняъ яуяд   яиядяояэяЩяЗяЯяйяа  яьяьякяьяряЧяаязях  & ) 5 ядяияоягящяиятяаяЯяЮяОяўяМяЯяѕяЗяІяЁяћяКя·яГядя­я°яѕя©я·яШя»яПяЕяУяжяг  яяяи яуяр яЯяЪявяЗя›яўя·яАя·яѕяЙяНяЗя®яўяЗюЧюРюЮюЮюЙюіюМю°юГюЫю±южюкюЗюфюОяzяJя:я<яHяWяRяqяrяyяdя;я’я—я›я’яяГяљяЎя—яњяЇяЕяЇя§яјяўяЁя±яПя§я’яЙякяляЗя·яЈя·яТявяияЕяїяДяГяДяЧяжяПяИяµяЙяДяЪязяНяВяГяЙя¶я±я±я°я¬я•я»яВя»яШяЦякяюячяЭяОяХяряаяШяХяГяЪякяпяЬяеяйяр яЙяЗяБяОяуяФяФяГяюяняУяМяСяСяояняхяйягяшягяняШяєябям   яв  яряйяЪяТяуячяыяняуячярямях  яЭяэяк  ябязязяЫяс яэ япямяляЮяц  яшяыяфяг  яьяц          яэяю ях                        яЮяэ   яьяцяшящ яц яэ  яя 	яь    
-    /яэяы    яъяпяыящяфяэяяяц  ядяы     яняф  + 8 яэяеячяш  
-яляюящян  язяр  яфяаяЯягяаяч 	яо   яняйякяояр ятяфямяю ямязях 
-      'яцяс яьячял  яэ    	    яфяияцяь   ясяъ    & 0     	 яф  1 )       якяряы 
- яя        яу 
-    	ящ яя     ях      	    яхяцяю  яй яэ яуяэ        яуящ  
-   ящяжят ящяеяшяу ядят 
-язяШяфяряФяЬяЦядябяуянян N ѓ Ј Ј b S  ясяфяХяЦ ямяеямяЭяПяЛяСяёяёяіяРяИяОяЛяМя»яНяГяЄяќяїяЪяЙяїяјямяСяг     яняпявякяДя№яЅяжяШяБяѕяєяЅяјяёя№я№яЅюњю°юЪюею”ю±ю±юђюрюдюЧю¬ю»юбюлюЬяѓяcяgяZя~яsяaяя`я7яVяTяђяѕяҐя€я‹я«я¦яЇяЛяЖя«я‡яњяБяѕяДя»я·я®я¦яёяГяКяіяїяХяПя¶яіяОяБяЮяИя°яѕяжяЧяєяШяаяЗяШялявяЗя¦я®яЧявя·яХяПяГядяФяЩяГяЗяЧяЩяјяОяЮяпяЮяеягяЫяєяїяБяХяХяПяКяЖяаяняаяРяЙябябяЫяИя¶яеяЩяОяц яеяз   яьяояЦяМяфяы  яъ яяячяЫяЧясяляЯяНяуяэяеяЬяФягяХяЬ яы яеяс   яэ     !    яя      	ящ  яэяаяЪяцяпяЧяЧ  ,  	   
-  &  яшяэ  яц       %      
-   яшящяъяы яояЮяияш     яюяпякяф   яеяьячяъяъ яь явяс яьяпяцяфяшях  яуяш   ятяйяз 	ячяхяч    ячят якядяфяс     яы  6 яяяцяояяяуявяСям   	яъякяряьятяаяя  ямяо 	 яш яюяуяь    %яшязяъяч яшяяяо яъяц   $яя             * 	 #          яфядяъ  яшяр  !    - ! 
- 
-яыяЭяЬясяхяъяч      " " ячяъ 	 # '  +   яя 	 яш  яя  яэяя   яяяс   яцямяЦяч  яояУяЮяж яыян ятядяЯямяяячяжяЧягябяЪяЫяЗям   3 ~ ЯЃi Й v +  ячяЪяЮ яхяняЭяИяЛяЯяЗяґя¦яБяИяЦя·яБяМяІяёяіяДяіяІяЛяаяИяНяГяЗяРяй  яыяю ямяЧяШя»яµя»яКя©яҐяґя¦яРяЦяЕяІяєяєю„юµюНяю€юУюПючюРюпюЭюђю°юКюЮюкяqяuя|яaяBя?яgяfя^яUяlя‰яњя‡яЏя~я_яЇя¶яЕяјя я«яєяХяАяЙяЦяБяія№яёяКяТяЛяГяЙяСяЛяґяАяЙяВяНяЬяАяЦяєяІяµяЧяШяПяЬя®яВя­я¬яКя±яЧяЙяЪябяНябяоячяЦяТягяЪяЦяЛявяЩяТяЩяЗяТяМяЗябяОяЭяМяКяияуяЬяёяКяеябяюятяЩяаяТяѕяИязяФяъяуяз яхяЮяЩячяеяЯяеяЦяМярядячяМяояРя»яЕязяФяБяЧяю япякяч яь яу яшяг   яю   яфялябямяр яъяЭ  яояяяф  ! ?  	   "яьящ 
-яп       #    яъ         яыяюяъ яч  	 яы           *   
-  яцяя   	яюяю      	  
-яхяф  яяящ 	 яю      янякяжятябяф $   яыяЯясячяу   яцяк  яч ях яц  япяЭяЫягяс яю яюяь  ябяе   яжяеяЫяшяняэямяЮяьякяЪяляпяоясяэ    яЮ    яэ ) як   !яя  *          ,   . D %     #      яэ   
-   ят 	        ) %      яуяЭяняу   $  ясящ 
- яь ! ят    яш    ящябяш   яхяпящяляш  яыяяяш ящяОягях яэ ячяУяЖяЅякяуявяЮяк   + F €zЇ ч h # ячяцяжяЮ (яыяжяЧя»яЧяКяѕяєяБя№я±яЧяґяїяЖяХяїяєя»яґяМяЖяЛяЛяЖя№яКяИяЫятят  яюяъяыяпяЫяїяІяЗя©яЛяДяµяБя№яІяГяИяЗю·юЫюЙюСюГюмя%яяяяяюфючюПюНяJяKя\яcя`я{яrяbяdя]я~яaяљя–яЏяЏяsя›яГяЗяМя№яЕя«яЖяБяїяЅяИяЛя­я§я¦яЛяНя±яІя¶яҐяПя¶яЖяЪяЛяДяІяЇяЄяћяЁяПяияеяМя®яЧяжяОяУяэяЫяЖя№яЪяПяОяЮяПяЬяјяЩяХяЯяцяЯящядяНяУяУящ 	япяЕяЛяеяфяжясяуязяСяЩягяэяжякяВяєянягяЦ яйяаяДятяхявядяхяю  
-яэяеяц  ятяЯяИяияШягяеяЭяп ячяляъяПям   яшяаяфях   
- 	яжятяаяМяз яфяцях яняь   ям      ячяц  ягяч  	япяп яы   яъ яя  $  ях      яя  ' /    яь  яюяж    яюяпяхяя    
-   	     яэяюяуяшяэятяя  яуяояэяняаяц 
-  яцяляк     ( 	яиямягях яцяхявяЦяи  яьямяф яцяэ ' 
-ячяхяюяъяу  ячячяь   яъяс ялящ  -  яяяжякяш ! якясяшяь     
- 	 6 
-яаяЭяж   яфяш   	яя   &  	      яе        яц яъ   ящяь  яь        "             ящ 
-       )    
-ящяш      япяф якяйячяЩякяйяНяаяф  якякяйяхяЮяжяеяьясяюяТясязябясяХяЭ     ! N —}фc Ы m яМяЦящякяк 
- яЭяФяПядяЮяряМякяОяЗяТяШяИяАяєя«яЅя©яёяГя¶яµяАяБяДяИявяз ялячяеясяхяряояШяґяБяјяЗяЅяШяОяРяЪя±яИя°я°ю–юЛю·юрюцютюІю†юАю¬юоюЕюєю­юкюПяeя`яJяKяWяzя яfя?я~я‹яiяђя”яЊя‰яќя™я·яБяПя»яЄяЄяіяГяДяЄяЅя­яЖяЖяГяЗяѕяЛяБя®яКяЕяОяюяхяЙяјяѕяЧя·яЄяїяЙяµяєяЗяСязяея©я№яѕяРяЬябяСяЅяОяјя·яУяУяЩяряпяЭяОяРяєяГяШяияияЫяОяЛяЬяЭяФяПяИявяпяЩяСяјяЗяЩяЦяЙяЗяОяЛязяВяОяжясяйяжячяяяояияаямядяЖяпябяпядядяляРяш  язясяЯясяуяояЮ  яьяЫяу яэяфяяяч    яряияя       яу яляияояц  % яъяс яюящ   )яэяйяш 
- яч 
-           яцяоях 
-   ятяь яыяфяъяь  "       & явяэ  яфяс  яш 
- яъясяь 	яэяч  яэяуят  ящяуяЯям  яъящях       яъяь  яыяу  (  яйяЭязяь   &    яэяюяс   яЭяй   яжябяняяяяясяд 
-    яШяй ящяХяЩяя    
-       
-яш    	яь яъ           	  
- ,     яъ   .  	  0  
-яы 
-   яшяъ  
-яп         
-      	    ' .     
-   
-ят 	 яыяы 
-       яляляРяМяОяс ясямяф яч явяХяЭяхяаядяп 
-яъ яюяо яшящ  P { » т § f яХяјяСяу яхяЮяНяЗяЧяМяХяОя·яБяµяГяЕяЗяЛяЕяЕяјяГяґяЄя®яГя»я¶я°яШяЙя№явяь яуя¶яГяхякяЮямямяТяЖяЅяЪяЪяЪяПяЖяЅяЕяЗяїяЄюіюМюМяюУю·ю№юПюгяя"юбю•юию¶юЁяwяbяHяYяЊяOяbяvя‰я­я’яxя¤яџяЋя–я—я»я№яјяЗя·яНяУяЛяµяёяЄя¬яђяЎяіяЅяјяЗяїяёя±яИяияШяМяЩяЙя«яјяАя»яОяЭяЙяАяЩяФяЬяЅяКя¤я№яАяЪяКяБяСяЗяіяДякяЪясяояПяДяЗяЦя»я»я«яСяШяУя№яШ яаяНяЯяЫя·ягяпяпяНя¶я°яЯяЧяЭяФяЯяйяй яЭяЭяЩядявяэ    япяТябяжяв яяяфяьяЭяТяГяЬяСяЦяРяг    ятяШяШ яыяЬяСяляПяЕял  яьятяж       яцяъ  яшяч  #    
-   яъях    яу   яэ    яэяфячяф  яя  )      
-   яхяэ & яь 	      $   (яыямяьяияжяэ  %  яю     *  япяЯяцяс ятяляЬяЪяу 
- " ! яъяыяо ясякяз яыядяЮяляэ яьямяпяш 	 яЯямяфяляЪядяф яы яы     яряъ яэяс яхяюяшямяхяпяъяЬяЮял   яю  яыяы 	яъ     ячям    
- 
-  
- 	  яя яэ   ящ  "      яы  
- 	   # #  ясящ    	 
- #  яф    & $ #   0 ятяЫях    яяяхяю яь яяяшяЬям 
-  ял  яу   яняхяцяйяп ясяШяояэях яХятяляЭяеяХяЭяЪяЦяжяняжяыяэят  , $ # 0 Z i f 2 ябяшяжягяЪя№яЦяМяБяЪяЫяЕяаяУяѕя№яПяАяЙяЯяДяОяЙяСя¶яІяЅяНяЭяхяЬяеяФяНязяхяюящяЯяТяЧясяЦяЩяСяОя»яКя»яёяўяєяРяЗяЫяЦяµя«юНюИя,юЙю я3юПюЭяю юњюКюѕюДяюгяHя\яNяMя[яDяpяzяxяqяPяaя‘я‹яЌяЏя•я®я¦я«я«яџяєяЙяХяЅяАяўя™я®яЪяряЗя°яїяГяЙяґяµяМяЙяБяСяЮяАяјя¤яХявяАя§яИяЭяИяІяАяЈя±я¬яМяОяЎя¶яЧядя°я№яЛяЛяВя©яµяІяТяХяЭяНяГявяЪяОя®яЛяОяМяЗягягяФябяаяШяйяыяЮяАяІяФяУяшямяы  ядяТядяе  яЯяЮяюяляпяХяШяъяеямячякямяЫяЙяпяшяияпящяъящячяляаяЯяьяуяояф  ячяпяояд  якяе " яъ ' ( яъ   яэяцягяу     яь         "      !    	  яц      /   яюяь 
-     
- & + яэ  / = !   	ях  	   ящянячяы яйяняъ   	       яъяяяуяеяхяияжяЯяпяляЮяц  	 яъяюяняжяияоягятяч яэяЮяРяФяс  яы  яхякяшяняряр  яэяояу    яйяКяеяаял  
-яЧяд  яфябятяп  яы  6 яияфяуяСяц    яхяшяи     яс яхяъ яыял  )яуяУ      
-ясяЬ        )       яя   	  " : "     ! $яяяя   яуязяияъ           яхяь яц      яыякяуяряряыящячяляЭяЫ   яъ   	яЬячяряпяЭярящяЧяЫяЫяюяа  )     ) яуяЮяРябяшяЫядяеяеяЬяЧяЪяЕякятяЫяПяЕяЗябябяфяЛяМя№яЖяЗя·яШяМяОяИя°яїяИяЛякяряуявясяЯяСяЛяКявяаяКяЅяияѕяЄяЄяІяёя»яАяЬяНяЩю­юЗю€ю»ю·юсюЅюдю¦юЄю®юЮя(юКюГюµяQя\яtя‰я_я_яђяҐяaяhя5я#я{я—яІяѕя¦яљяћяўяКя•яЋя­яДяЙя¦яєяХявяМяЛяБяГяЎя¶яЕяєяДяЙяПяЦяєяОя·яїяГяПяИяСяЅяЕяѕя«яУягяАяЙяЕяияыяЯя¶яЕяјя–яЛяХяЮяжяШяєяґяКяУя·яЖяЬяЮявяЯяаяйяЙяХяСяпясяхяеяЖяВяКяПяґяЛяЩяЭяШяпящядяаяояЕяЬяЯяш япявямяпяЭяояпяе   яхяъ яьяуяхяп  
- яюяйящяшяюяжягяк    ящ    яуяпяхяюяпямяфяЦям 
-  ят   	яяяц 
- яяяы         
-    яхяь  & !        
-    яцяю  яю       япяц #   яияс  яояуяряояэ  	яцяфяш 	яхяъ  	   япяч     яы    яяяняияя яыящ   яцяеяцяюясямяэяяяч 	язяюяыяпяуякяяящ   япяжяЦ ядяр  
-ях    ядяв 	язяю 2 яюяэяэ ,   яя ядялящ  ящяь   ясямяцятяю ял   ) "яуявяь    яфящяцядяэ   1 ясяЭяр     яфяю  яч  
-       
-     яц    ячяд   "  ( 	яь   2    япяр   )    яшящяряюячяйяряЩяр   яТязяяяч яиячяуяцяъ    яЪяыяЮявяЭяЮяшян  	 ял  ящяъ 
-  яияеягяНяояряйяияияияЮяГяХяЙя¶яКяМяИяЦяФябябяДяЛя»яРя°яТяляРя§яЛяЙяЖяоявявяд ятяХяЧяяятяХяЙя¬яПяЖяЖяЧяАя°яћяќяѕяЛяїяюаю€ю|юzю¬юЬюФюДюЗюеяюшяюЯюАяVяfя?я^яЃя‚яpяLя?яEяhяvя—я”я©я­яяҐяЄя±я¬яџяіяµяЭяИяЁяУяЮяЧяЇяКяЅя­яПяЖяУяїя¶яµяїяЫяЭяСя»я¶яВяАяёяЖяМяµя¤яµяБяИяѕяНяаяеябяХяТяјя±яіяВяЙяЗяеязяЬяјяИяЫяЭяШяѕяКяАяЦяяяфяЮяЙяСя»яАяЦяУяЬяЯяХятяЪяДяяярящяшязяЦяЖяЫяПяаяг  янящяпяЪяДящяняЧяЩяСяи яняеяЦяИяияь ябяХяаяфякяйяьякяряпяеякяЭяляъ  яэяо  )    яшяи  яшяшяъяф яч яьяфяр     "        яъ яьяьяь яъ  
- $ *  яиядяю ящ  яь     яэ + яэ     яяяЬяаяеязяю    явяояж  яияеяЬясяя   яэяьяьяыяюяч яъяряияр 	ячяп яэ   ячярясяЯяцяхяшяы    яш    яияыяэящящят $  яэяэятяыяшяюян    	  	    )яояияжяфяпяюяыязяъ  ) '  & )яояо яя 	   (  $яшяс 	ящ   япяяяэ ящяц    яь   ,      яь яю яяяу     язяж      ям  % = 	яэяш    - 1  ябяс 
-  ' яэяр  % 	 яюяъякящяняц якяпяЯях   яэ    яляшяжявяюяц 	ясяОяЮямяШ яьяЙяЯ   яяяЯявяняы 	 яряэ яОяЦ 
-яэяпяаяШяоягяЎяИяБя·яДяСяОяґяЗяляШяЬяСя№яБяЄя—яКяОяЭяѕяІя±яРящящ  яляиягяъяеяряРяЇя»яјя¶яВяЅя§яПяЪяГяїяія№юГюґюsюfюДю¤ю`ю”юђюХюЙюЭяяюШюЬяXяNя0яLяQяNя_яTяPя—яqя¬я‘яtяЏя¤я{яёяНя§яЁяГя°яНя№яВяДя­яЬяФя·яјя№яЛяµяМяЖяСяОяХяЧяЧяДяѕяАяѕя±яҐяЎяІяВяЙя»яЩя№я»я№яјядяЩяЩябяЩяЗяРяЯяІя«яІяЫяѕяПяШябяѕяЩяйябяЫя»яЗяСябяяяряляЧяЛяМяЛя¦я¶яаяНяЅя·ябядяряпяЦяґяѕяРяЧяшяйяЬяЧяЭ япяГяИяХясян яяяфяЮяк   яйянях 	 яэябяЧ яЬяф   яуяо яяящ  
-яъяжяу   
-ящ    ящян яэ яу  яйяе     яьяюяэяьяц  ящяы " $        	       яюяшяо    1 ,        *яъядяъящ  
-ях яыяиях    
-ясяц   якяз  &  
-яя 
-  яляеяп   ясяж яэяеяк яэ яшяъязятясяжял 	 ямячяэяэяряу 
-яхяшямяф  яуяЬяиякятяХябящяЭяЦяаяюяЫяпяя   ятяпяю  яйяйяс   яняаявяя "   7         /  яэяюяшяъ ясяуяы   
-ябящ     '   яыяя  $      %     ящ     яяяъял   ячяэ яэ  (   яп  
-      яЯяш !    	яфяняляоян яйяЭяияь      яг 
- % ( яияйяь яЮян -    	яяяшяуяеяШят яшяняияцяпяЭ  !  яШяояуяяяояФяСяЛяћядяЧявяжяРяѕяіяТяхяЯяЯяЕяЪяЮяЦяРяµяПяФяЦяІя®яМявясячяяяжядяфямяжяФяХяѕяїяҐяЇя№яГя№яЧяЧяѕяБяЕювюaюOюю“ю­юЮюаювюаю·юБя!яюгюсяЉяMяVяPяEяWяiяgяgяrяЋяgя‘я|яoя„я€яЕя±яќяјяЕя­я»яЮяЧяЩяДяЖяЅяїя¤яМяТяїяОяУяЧяЗяґя”яґяєяЗяЛяНяОя¬я·я¶яЅяДяМягяВяЙяЦяЫяГя§я¤я¶яИяМяаяТяФяМяВяьягяИяЅя·я«я«яБяЛямяРядяКяЙяпяняеяІяМяХяНяГяЅяСязя®яКякяуялядяБяУяпяфяияяязяляеяыямяфяе )яэяЧямясябяЧяаялясяы яч    яояояпязяыяц  
-яыяс яю  яэянязяъ 
-яляхящяш яКяьяь яюяр     яляюящ  ятяы  яэ    "          	яр      (      
-яц 
-  + 5     явям    яыяш яыяцязяп  " = -     яч  " яя %   яюяряЮяхяоятяэяо  явягягяфятярящяняляЬяШяы   яэяхясябягяюяьящ  ядядяпяпяхягязяэямясяшяХябяд   яю           
-    яи яъяфяъ  яэ    ятящ  - 'ящяэ ! яэ  яуяя     $    )       ялях яя яш     @ -   B  яуяш     ячяя  
-  #яо яыящ  $ ящяЯяю  яс      ящягяеяю  яс яеяфятяг ядяляъ   яшяр   -    яъ  яъяояЧ ящ  
-яюяэянягяояуякяпядяЬяХяАяЛяЙяКяДяВяДяОяМяЖяАяУявяЙяОявяєяЙяіяЩяЗяЖяјяИяГяМяРяЮябяфяя 	  яфябятяхяуякяСяєяСяОяМяИя®яҐяѕяєяЪяЕяКюєюЋюХяю‘юОя'яюёю¶юБюиюЮюќюОюСяyяYяFяЂяfяuяqяuяeя‚яaяmяlяoя‰яЏя–яЕяВяёяБяКя«яіяЖяґяБяЇя­яДяЙяѕяМяЭяЈя»я§яЄяЈя«яёяµяЄяЕяПяЦяФяЅяМяЯяБя¶яВя·я¬яїяйяШяЬяЗяГяКяУяЧяЬяРяДяЭяЕяДяПяАяПя¤яґя№яЯяЪяЭяЖяЅяУяЗяЕяДяФяХяМяЗяЧяЦяЅяЧяпяряюяъяСяЖялямяЭяв ят  % яьяюяЯяЙятяшяПяСяяяояЭяж   
-яъяуясяШяк  яжяаяЪяПяаяуях  %     янят яцяэ      яХ    яэяяямяуяп яю        %    яы  &  !        
-  
-              /  #     яыящ яш  яъяпяр      $       явяуямязяаяо ятяояк 	 &   явяиятяояшязяЬяЮ яэяряюях  яеядяэ яуяшяЮялях япяаящятяояэ яъягяЛяТяняйяШ   яф яъ  
- яоязядяшяц     яцярямязягяк  ясяпяш  яч яхяо яь      яуяз 	 -  яо  , 
- 
-  "      	 яъ     
-        &  яъ ян 
-яя   ятяэ   яцяъяйятяь        
-   3ящ  ял яьяь  яцяпяФ    яяяхяЭяъяшяк яф яр 	ям 	яьяцяжям яьяияъ  яеядяпяжяЛягяЯяХяияжяКяпяЪяЪяРяТяцяЭяЬяфяФяМя·яБяТяВяјяґя№яЅяКя·я¬яКяЙяјяєяЧяТяуящярян  яояЭябяпяМяЫяЖяМяІяЮяѕяГяВя©я°яЛяЙя®я:я ю№юПюцюҐя6я=яюЕюПюќюЈюъюФюУя`яPя:яkяpя„яvяjяSя?я`я`яљяqяuя™я­яИяАяИяЇяґяТяЙя№я№я·я«яјяАяДя«яІя¶я°яєяХя§я“я»я°яјяМя·яТяКяЭя­яШяФя°я№яГя№яЦяФяЯяТяіяЄяѕяІяія±яЇяЙяШябягягяПяУяВяМяКяЬязяюяЦяЧяЩятяЬя»я№яФяСяМяеяЦяСяОях яфяпяняфяаяЫяТяЮяу 	яояХяляхяшязяй яХяЭякяжякяй 
-яч  яу яъяЫяияэ   яряеяияаяШ яояшяъяйяяяуям  яф   яш      яляэ $ 	 яр       ял    яяямяс 	   яю   яияь  , "    ящяр  (       яяяч     % 
-    яьяю   ятяйяо        яцяЫяЦярях  яфяпяЬяУяеялядяХяз    ях  яч 
-ячяпяояЭяЩяняюяяяяяюяы  яыяяяеябяф  яыяжяфяхящяр ящязякяряЛяжяч   яь як  яьямяа   яюяыяияиях яьязяр  яя ятяуян   яьяхян         яюяю  яъ яшящ 	    яшяф       яэ  '  % яуяеябяю        яц # + )      , 	   яюяэ 
-яр   #      яь   япяц ясян       ятяк  яшягягяъяЮяЧяцязяЫяряюяСяНяе  яшяоякяМяПяц  язяЗяГяаяьяХяуяЬяряЮяРяПявяЮябяЙяµяЫяФяляФяаяЯязяНяЗяТяЩяфяжяёяІяєя§яйяхяэяпях яуязяЩяаяШяЪяХяЦяёя¶яЎя±я©яЖяАяЛяёяјюцюпю№юшю§юЧяю|ю¬ю»юЦюМюрюХючюШя^яяWяmяaя‡яYя3яFяZяPяdяzя™я“яЈяђяѕяАяБяҐяАя№яБяРя­яДяєяїя¶яЁя§яіяёяМя№я»яљяґяДяНяїяІяЄяГяЖя·яОяЭяЅяАяєя»яЏяЁяѕяФяЩяНя®я°яУяМяжяКя·яБяЧяЪяПяВяИяЦядяуяТяИяСяУяПяБяаяФяЛяаяЮяЦяЙяРяРяВяШяУящяг  ячяеяеяБя»яО  ящящяРяЦякяТяЬяТяЪяеязят якяуящябяЫ  ящядяияо 
- яъяцяц    ях  яь         ярякяэ  якясях       ят яъямяфяшяж   ячяфяп 
-     яю  $               # ятяя      яяяъяпяуяч   /        ящ     яхяз  ядяб   яж 
-  ячящ   	 язял 	 ямякяояуячятяэят  ячяйяО      	яэяч яьях ямяш яцяуяП ящ яхящяпяэ  яыяы яояпякян 
-       язяеягятяй    ях   	яы яюясящ  ящяюяьяю  + якяс  + 
-яуяэящ        *   
-ян  " 	  яьяряж  
- 1 яъяяяяяуяь  ! / 6  	    ! ' яюяф   #    яп  '  !  яняэяя   - $   яь  яш  ящяу   
-яюяФяЪя»яЭ   яу  
-яЫяЯяйяряояэяьясяуяХяХяОяаящяняШяфяЧяя ящяъяйяуяряОяРяшяПяЛяЯяЙяЗяМяояжяляЕяМясяшяеяЫяЙяПяХяЕяе   ясятяуяхяУяляШяАя¤яјяЛяјя­яҐя®яИяЧяХяїяёяIюМюVю¶ю¬юєя'ютя%юхюеюуя0яя.юря=яeяUяDяaяyя}яTяdя€яЌяyя¬я§я№я¤яЉяЄя яЎя®яЇя№яОяУя°яІяЈяІяТяѕяія·я№яїяПяПяёяХяСяГяЛяСяФяЯяАяјяјяБяѕяЦягяХяВяЇяЖяЖяУяФяіяєяМяїяЖяАя¬яёяјяФяПяЙяЮядяпяЯяЅя№ятяЭяйяЪяляЪяѕяЦяеяЯячяряляЩяЧяИяСяфяхякярябяияжямяМядявяЅяляЧяшямявядязяоякяшясяуяш  ятяУяоягяаяхяцямяеяояфяЬяляйяъ  яц     	 яыясяяяъ 	яэяЬяц   
-  	       яь     яы    
-яьяш  яы         &          яя     
- яфяЭ 
-яряЬящ   яшяо    * яо  яъ  яыяпяЭяУяа  яъяы яф  & & яфяы     яряояюяиякягяЮяЭяеяу  яо  яяяшяцямякяхяяяэяЩяаяьяйяь яхяу  яэ яфяфяц ячяпяЮям  яыяият 
-яо яюяшящяуяз ярящяцяйяф  ящяю яяяъяуяы & #     яфяЬ     ! 
-    япяо     яьящяыяю    яя 2 "  !        яцяйярячяю " "яш     	    K 5    яняп яы    яю  яу   яю 	  ятящяыяю яйялях яЮяиял  яояяяеявяцяэячяжяъякяшяояыякяХяВяцяжяд 	   
-яЫяПяхясяЮяюяояЪябявяЯяЧябяояЗявяыяЪяЭяМя°я№яЪягяЅяЫяХяЦяРяЗяБяЕяЛягятяЧяжяэяляиялябяияЯяояхяЬяСя°яТяіяµяДяєяЦя®яАяЗяКя°юбю юЅюфюњяюМюКю—ю­юЙюёяюцюиюТяCя2яnя,яRя‰яяҐяcяxяsя”яxяђяЌяљяђя©я›яҐяІяВя№я»яКя­я»я¬яґя®яДя¶я°яІяПяНяУяЇяєяЅяКявявяЭяСяТяЗяЁяёяПядяУяфябяСя°яґя±яЕя§яІяЄя©яЕя§яУяХяГяСяРяБяБяРяЦяЩяїяЗяДяБядяЮяЫяеяУяэяуясямядяРяЪякяйяъ ярятяФяКяТяЭяМядяХяИяояияТяЧязяШяНяпяеяцяЦямяЭячяцяя яДяЭяНяЬязяъяюямяюят ямяхяияк яТ яя яч ясяюят яьяы   яэ  ятяь & ) яш  яя  яъ 
-   #      яшяцях     яч  яъ   	  !  	яь       
-        ячяляюях    яйяк    9  яцясяцяы  	     ящ ! яияр ясяцяы яшяж яы ягям  яляф якяиял яц яш  яЧяМяиячязяй 	янязяЮяряыяшяЭях    ящядяш     янявяаяШяЬ   яияцяь 	яяящяы яъящямяМяЪяйяЬяРяЯяжяэ   яшязяпясячяИяи  	 	 яр  яч    !яяяш 
-    	  ят       +    1   $яь 
-яф   ! $  
-язявяг  
-          0 ячяэях  	ящ яЮяжятяъ   яжяь яшяя яряы  яф  ! яэяцяяяя    яОяфяйяШяжясяы  яиязяУяу  язяд ямяМ ямяСяОявяаяЫяМяЖяЧяСяСяЗяЅявяпяцяеяИядяХя№яПяКяЦяКя»я№яБязяФягясяьямяляжябякязящяфявяаяМяХяїяІяЪяСяЩяЅяЈя©яія±яyюфюЁюѕюжяQяю›юЧюБю·ю¶ющяющюсяlяmя]яVяIяBяcяEяfяLяvяoя±я‰яЃяwяЊяјя®яїяПяЧяЁяЋяЈяКя¶яіяГяѕяУяЬяЩяЛяЩяДяОя№яџяКяОяДяПяРяЕя»яШяИяЖя¶яЗябяМяИяАя·яіяФягяеяјяРяВяНя±яЛяїяІяЙя№яЫяЗяПяеяоябяпяФяІяїяЗягяТяЦяняоявяФяЭявязясяцяшяЪяДяФясяфябяЭяЩядяЧяШяЗяЛякязяФяЫягяИяшяеявяЦ   яяяжяьядяшяюядязяфябяФ яъяш  яЮяПяхяфяфяШяЪяЫяр 	яс 	ярял   &    ятяи ящяц   ! 	яфящяя   	    яыяэяо       
-яы ях 
-   яя 
-    %      яэяя     яяявяляфят   
- 
-   яц  ящ  яы яяяшяъяя     ящ  яяяш ямяХяЮяТяФяжякяя     яЬяу яш яняЩябямяряэяъякяЩяРяЧяаяс  яхяояы     ядяеяыяс   ) 1яфяяяы  яъяцящяняЫяЦяХяияняшяряояч    яз      
-яцяы 	 яц  яч   ящ  ясяу    ясядяъ  
-ямяч 	             #  ящ        % 	      яи       !   #      	 яэ ящ    яу  !   япяы 
- 	ящяюяо яцяюяеяю  ! яшяияляЬ ячяТямяьяняя 	яйяПяПяЕяляшяЪят яжяряеяУяєяГяБяЙяИяЗя№ягяЯяЖяШясяОяПя°яФявяМяРяДяґяКяЙяЇя»я¬яЛяЦяКяйяъял яшяряЫяоячяцяЭяияјяјяТяЕяјяХяПя·я±яЙяµяЈюѕю:ю“яяяюзю†юЪюТюсюФюнюЁюфяяoяЊя€яgяЂяoя^яRя:яmяUя3яvяwя{яЏяЎяіяДяЇя·яЈя«я¬яњяШяНяЄя®я©я№я­я¤я¬яОяЙяЕя·яЖяёяЩяГяМяУяИяЄяёя·яМяМяЪяПяАяЅяЖяИяЛяКяІяДяШяПяБя®яЛяГяИяѕяјяєя№яЙяїяµяЫяляЩяМя­я§яВяияјяМябяЭяИяёяЗяняйятяхяЮяояЬяРяЫ ясят яэяЭячятяЗяФяЦ   яняЪяХят явяя   ясяоятяюязяНяУяШячяшявяз    яЯяряэ # ящячяпяияляж      яцям яюяжяш    "  яц  
-яцяж    
-яъ          яя    - 5        яуяэяф  $яч   яъявясямяъ   яцяу яэяэяъякяф        %яыяЮяь   ячяъяфяояэ    ят  яъяеяхяляцяиярядязяч яЫяШясяйям ( 0 яц  яияю   яю яйяфям язяпяняляьяйяшяеяояшяцяь  япяояеякязякякятяь # яжямячядявяфяьяюяъяэяьяю   яэяояйяэях  яэятясяы      !ясяп  $   *япятяУ    яю   3 ) яы       5 @ 2  ' 	 ;    	яэ    яряо яэ  яь    -  	 яхяф яцяэ яс 
-  6 #  яь  ят яъяр яэяияшяш  ячяъяшявяйябяц  яя  язяшяхядяЮяПячяРяГяжяйякяляняѕяЙяЯяЪяЕяїяЕяЭяияКя»яЭягяКяЩяЙяияИя»я¬яѕяГя©я­ябяояКяјя»яЬял як  язяоялякяпяПяјяЄяСяПя­яЅяряЖя№яЕяФяїяєя.я>юВяя9яBяIя1юЮютюКюЅю¬юхюъюѕяfяoя\я>яBя@яTяpя9яPяVя=яgяzя¤яяя­я»яРя©я«яҐяАяВяҐя°я№яєяЇяЙяЇяЁяЎяЈя©яЭяФя»я°язяПяЬяЧяИяБя»яџя•яАяУяняЮяЦяЩяЅяЛяЈяЛяЗяЫяЩя­я»яСяУяјяОяЧяЙя°яБяИяПяДяОяшяоягя¶яУяйяРяЬяЯяФяіяж  яаяЦяеяыяжяеяеяаятятярязяШячяцякяйяжяДяъ  	яшяляд яаяТяэ яы яЯяЫяЬяйяжяы яъяюящ  яшякячяпяп яуяя  яьяыяи яю   яч             яоявяфяюяхяфябян  яп    #    яэ  
-яя     яхяэ  . . яэ   
-     яюяр яъ     
-        яъяь ясяЯ    ямяЪяКябяьяу  яюятяф    яуяф яыяшяяяь  якяляЪяияляпяряРязял ясяняэяняЬясящяфячягягяеяЩяСяЪяф  яЫяйяфяряТязясяыяпяЯяхяряЕявяъ    ябяй яЮяо  япятяш  яы   яиян яя   яъяу 	яы  ян   яьяя  яыяСяжяяяп 
-  
-   яю  5  ) 5 3 ятяф  " яы        &яыяя  	яоялял     ,    ( %яъ  яьяь  яэяцямяшяаяч   	    яяяхяшятясяю яэяфяаяэяУяЪячяъятям 	 яь    яюячяЯяюякяЪяИяНяЪягяРяБяВягяСябяаяЦяАя§яґяРяЭяЪяЕяЗяжяоявяПяЖяЛяєя·я“я‡яРяпяЮяЙя»яияр  яыятяйяЧяТяэяЯяєя¶яєяИяТяОя®яРяІягябяГя»яєю©юхю«юЅяюЖючюуюДюЭюЛюдю·ю°юЗюкя=яAя>яjяcяlяaяFяSя†яuяћя›яЋя–яЇя¬яЇяИяїяїя±яІяїяНя¶яЙяУяјя¶я№яґяАя»я®яґяАяДя¶яїявяАяҐяЫядяБяБяЧяПяБяВяЯяНя¶я№я№яР  яЮяПяАяШяКяБя§яµя№яЦявяЧяйязяЭяТяЙяЪяУягяТяДяЕяп 
-яхяЯяфяеявяХяТякяаяЪяИяыяояЫям ядяжячяпяЩяфяеяцялян яюяпяеяп яЭ ятяЬяСяХяпяцясячяшяф якяюяпяШяОяпяХяМяс  
-яхядямяч    яф  ятяф   яю  
-            " 
-яя   яеяи  - "  "      " ящяияэ      яы      яжяеякяпяш    	   ящ     яь  яляо  япяхяьяеяпяЯявяяяояЧяряч яфяэяфяЯяЮ   $ яфяУяо яжяЭяйяаяыямяцятямявян  
-ямяйяжяляЦяТящячяпязящ     яж   	   яя яуяЧяи яя  яшяояЯяЩяж   
-яъяЫяс !яеяКяс #ятягяр яо      " "  	 яу   ) )      ячятядяЯят яу яйяс     яю    0 )  
-   &  яэ    	  яэ      ян   "яя !       яэяэ    #   !    
-яо як  якяю яъяы  ящ  яъ яряЩяП  яя яфяояшяРяОяэяЧяКяИябяияй  яуяТяЧяЩяЗяЙяжясяряЛяГяуяСяШягяЧяДя¶я»я»яГя­яДяХяЛяНяЅяМяЫяф  яляыязяЪ ямяКя№яЅяјяЪяЬяЪяХяЛя¬яїяєяѕя»юwюю°юьюуюІя"юоюЦю¬юОюћюУюзюфюЬя{яbяTяsя„яXяEяiя‘я_яkя|я’я¦яЊяђяђя«яЩяНяВяВяБяёя¬яИяЅяµяАяћя­яФясяЙя«я®я№я¶яЄя§яІяїяЕяНяМяјяЫяРяСяјяСяФяЕяїя¶яДяЅяЗяёяЪя±я©я­яЖяПяХяСяЯячяЖяШяЕяШя°яМяШяЕяПяНяЭяШяДявяЛяїяРямяЙяДяѕяХявяпяияШяфяьяЮяЪяьягяхятязяДяМяАяЕяуяЦян  ядяеяТяб  яШя»яСяЖяЪяу  
-яЧялят   яЫягящ яш яюяляюятямяс   	  , яэ     
- 	 
- 	      яцяф  
-      яыяшяэ 	яшят     	  яшяс яю 	 / яп  '   !      яфябяшяяяь    
-ядяш  
-япяяяя яфяч  
-яфяъ яюяьяцяуяс  ящ яшясяаяц яшяпян яр   	якяшяд  яЦявяояЦякяяяпяЫяеяпяХяШ яряШяЫяШяЦяШягяя  ящягяляшяыяу яэ  ячяпяъ  ятяюяюязяф янящяю яиямяуящ    яя  яляу  яьям яъяз   ятяшяъ 	   яыясяЬ явяхяэ       
- 	ятяо яшяшяо    яы  яь    яю   I 3  !         яйяц !  
-  & $ %      "яь  '   # яу     яэяч  яояс   яэяхяя яъятяЦяпяэяшявяйявяшяяякякяпяшягязяОяжяфяуяияеяеятяїяЅявялячявяояНяСяэяняПяЛяпяжяОяВя¶я¬я¬я«яНяВяИяЦязяРяе  яъяЦяЩяРясяняцяЛяКяз яЪяМяЮя»яҐя§я±яЇя°яБюЫю—юСюБюаюПюияюМю«юбюзюЕюеяю№я[яqяbяbяCяUяLяbяyяQя^я‚я—яҐяя–яћя­яаяјяМя±яФяОяВяЙяКяЇяёяЇяяїя»яІя°я±яЖяОяўя”яіяПя№я»яёяѕяБяёяёяГяЙяЦяЅя№я±яПяјя¬яЕяТятяМяФяжяФяКявяжяНяјяЁя¶яАяУябяЪя№яЩяѕя№яЩяЪяЯяСяЪяЭяжяШяжятялядябячяЯяЩяЬяИяХяСяИяЫяОящяняЦяЧяБяЅяаямяляоящ яь яияЩяФягярягяж  якяцянящ  ядяя ящяхяс  яюятяй   яо ящ   ят   	     ясяц    яфяЯят  
- яяяс    ! яхяюяяяляняч    
-   $  ! *    	яыяюяфярятяняфяхяеябяв ящ   
-       
- яю    яфяю ясячящяЬяЮяЮяеяеяэяояхяо % ябявяйяжямявядяй  яъякяШязяьян ящяк яояЦяюяЮяуязяЩяОяйяЪябяеяцяжяч япяф    ящяхяаяеяфясяйящяюяс  ятяЫяЯ         яъ  	 
-   $ !яуяъяжяЫяю яь    ятяцяъ ял  яШядях            
- $ яЮяаяеяй   
-   
-   0 1 яш яы  яэ    '     )  яя   яю 	   яхяц яюяыяыяэяляхяш  1 . ятяыяъ    ямяЮяу   яяякяя  ямяж ятяыяляю яТяМяХяШяЯяйяжяЮязяЬяо  яеявяЯяЩянябяЪяЦяХяЯяуяжяТяЬяхяаяСяёяЪяЪяЯяйяТяЇя«яГяПяКяЫяУяОяЫ   ямяз ячяряыяняСяЗя§яґяґяИядяИяСяѕяћяљяЖя№ююДяюёяютюзяkюЭюҐюСя!яюСюая	яZя›я”яяdя\яAяhяЋя_яfя~я‚я яЄя‚яќяєяћяіяІяФявяЬяїя¬я¶яЫяДяВяКяёяћяєяјяДяґяЁяТя¦яНяФяЦяЪяІя°яУя№яЄяПяНяИяІя®яґяЛяКяЩяАяЦяеяцяОяЫяеяПяКяИяСяЭяФяДяєяляОяЧяияШямяЩяЯяРяпябяИяЕякяпянядяВяЩяъ яХяЭ яПяаякяйяьяпяЩяЫяЫясяЦяЗяояаяняияш " ящяляЫяшяш      яшятяояЬяЭяЫящяяял  ящяэяфяэяпяхяжяп  япяс яыящяцямяю  
- 	  	 яыяюягяь   ( / "   	 &            яъяы 
-яшяо яч     яы   	  яс   ' 'ясяр  яь яь ямягяфящ  яэ  	яъящяпяцяряф  яяяняыяшяф  яияаяИяЬяЩядяояЭяТяСявячярямяЭяШяаяй яЯяаяш 
-яъ  яшяХяФямян яыяхямяШяжяю   ярятятях  ячявяЬягяы " яэяэ яняд  ягяояЮяжяЮяляяячяШяж  яьяыяням яюяхяю яя яч   яжямятяе  'ящ  яр яхяк  яц   яя язятяп    яьяыяяяъ  яэ яяяьяф  яшясяъ яяяяяц  яь  яяятяэ     яЬяеяч  
-ячян     )  	ясящяыяпясятяЦяХ яЬягяъ 
-яляшямяц  яь яыяаяцябябяЕяЦяряя   яЬяФяд яаягяыяпяБябяЩяРяВяРязяйяКяЦяпяЬяЧяЗяУяДя·яЫяЛяПяНяЦяУяСявяЧяјя ягяняйячящяЭяияпяеяхяеяЭяВяВя©яєяЙяйя·яКя¶яґяЇя№яјюnю№яющю¶юбяKяяюэя$юРюМюся юкя‡яѓяBяHяhяcя@яqяdя‰яqяTя©я€яuяяЈя«я–я­яјяЪяЮяБя«яіяЕяАяЕяАяУяія¦яїяЛяія¬я·яСяРяляЬяЗяЅя«я°яЙяґяїяБя°яЩяГяґяЗяВяЖяєяія±яЮяГяія±яКяКяОяИяМяРяЧяДяїяЙя»яґяПяФяЛяАязяШямякязяРяУяЕяояЯяЧямял яЬяЧяГяцяРяМяФяЧяЫяБявяѕяйяляаяьяйяояїяЛязяэяе яй  янякячяюянячяъяыяъяпяряэ япявяь    ! яъ   яюяо      
-яюяуяпяЪ  +    яы     ящ  яь   *  
- "   )    % ячяьяъ    	 0 ябяс 	ячяп    яхяя  яэ   ящ   яю  ящяц   	ячяфяияшяш яцяпяйяряхяЬ  "яр яшяр яэяюяфяеякяю     яЪяжяъяшярядяжяУяаяЦяЭяюяюяЯяю яяяояЛяЬязямягямящяиятялям  ямяжяы яы ящяжяляЪяЬ яхямяяяяямяо яжяЛяияжядяЭялях яШял    	 ясяряюяцям яэ  яс     яп  	  яэяуяшяэ    %яъяо  
-  	   яя   яыяЪяф           	 &   
-яя 	 яяяц   яяяц  яу ят   яьязящ  " яц    ячячямяв  яцяи   яфязяйящякяЬяъ яп ячян      яшявяЬягяаязяк  яјяЅярячяоявяЧявяЩяоязяаяЗяЕядяцяЗябядягядядябяЪяМяЙяїяЭяКяЧяЖязянявяИяКяЕягякяо ящ яЬяьяъягяЯяВяУяЅякялямяИя»я±я§я©я™я§яAющю я)юЮюдюгюПюжюхюЩюаюгяюшюъя\яEя@яMяLя>яHяXя`яTяZя[яЈя|я†яЈя™яЖя±я™яГяЕя®я¬яµя«я№яГяїяУяЕяѕя„яЎя­яія·яҐя¬я°яАяѕя¬яЇя°яБяЭяЯяЅя·я±я¬яµяАяЦяЮяТяЪяПяУяыяйяЫяЧядяГягязяЪяБяНяѕя¶яЅя№яАяЛяКяЬяряцяЙяСя­яаяаяЕяґяјябящяфябявяРяТяуяхяЬяЪяТяУяЭяояряЭязяЩямяряЫяеянягяЧяняЯяЭяШяЪяЩ  яыяоящ  ягяд  яюядял  ячял    яцяхяю  яю   яфяфяч    ятяэ   яфяпян 	   1   яяяэ !   ! / '  	яъ  
-    яЭяк   2 %  ящягяо  ящ  & яыяы     
-    	     #   яуяпябяоям яшяяясяс язяияцяфяс  ябяКяняляхяъ  ячяЪяеяМяФяЯяЭяыясяпяыящякяпяк  ( яЪяЦяЭяуяФяШяжяв яряЯяУяпяу 
- яляЭябяд ялявявяцяьяаяЯяШябяияп яЭяФядяфяЯяо  ясяХяУяь   яэяняьярях   яЭяь  ящ  ' яыяьясяряс ясяпяю яйяЫ         &  2         "     &  ящ       яп   
-яъ яюяьяляш 
-  $  яэясяуяч 4 (яфяу  яФяхяъяЩяь   
- яъянямягяхяхянязяЦяи  яняш  яъяу 
-яьягягязяэямяжяияъяаядяч  яцязяХяьяКяФяФяФяйяШяјяЗяЙяМяСямяУяШяЧявяяякяХятяРяЫягяјяНяЛяЫяИяцядяЦяи 	яляаякяэядяЪяЭяЫяЙяµяґя«я·ябяЩяёяВягяАяЇя¬яћяsюfю±ю©яJяїя‹я/я юЧяюэювяюкюЧяUяrяVяWя?я6яOяЃяsяkя„яqяpя“я†яiя|яАяіяҐя°яЮяХяВя®яІя»яќяґяїяїяВяПяЗя§яѕя®яЁяіяШяЛяІяµяШяСяІя°я°яГя­яЖяЫяјяРяЪянягяияжяФяЫяЦяТяОя»я»яЙяЅяУяИяХяПяЭяФяОяСягяЬяРяДя яЕяёязябяюяч яЪяДяСяЙяЅяб яфятямяжяЫяСякяхягящяпян 
-яуяжящ   яЦяъятякядяе 	ясяфяеяЧяЪякяуягяш  яюяляр ятябят яаяш   
- яъяТ   яр 
-яуячяряь 	яъяъяу    яъякяыяряь  
-        
-яуяь   яиящ  яряы  "    	яя  яэ   яп  яюядяуяъяюяпяю     	    ясяы   	яя   яэяьям  ятяояэ яц  яуяр  яь яояЩяояряюящяфягяШящязях яияЯяШядягящямяыяняСягягяЭямяцяхясяпяЪяЪяЬятятятяя яоямяж яшящяЯяЫяняе ящякящяхяаясяйяс  янябяфящяШяЪя·яж  яЯяЫящ яяязяэ  
-яхяв япяэяъяеяи яя  яшяхяЭяф 	ях   !  # - яс    	  яьяш  / яцяу  ясяняь       якяряя  яЭяя  яэ       # * яш   яьяфядябяляу  яюяЪящяшязяь 	    	 	яУяэящ  яцяфяпячяь  яьяеяЮях 	яхяпяЧяЬяЦягяФяияПяУямяЧяЅяФяаясяЧяЯя№яОяєяуяуяаяпяжяјяЅяГяаямяЛяПяШяяяпям яряь  
- яфяъяЭяйяСяЪяѕяДяЦяёяўяґяБягяУяФяІя­яЉя юЧяAюаюѕюёяBюґюЇюЕюдяюЯюеяяlяqяjяWяWя2я;я5яRяfяZяѓя–яёяЎяљя…яРя¶я»яЦязяОя›яЈя»я¤яїяШяёяҐяГяаябя№яАяҐяџяџяЄяіяеяЯя¶я­я·яІяЕяХяЗяјя№яёяЗяЦя·я”яІяЛяІяўяѕяВядявяіяЛяГяРяЙяВяПяДя¶яіяґям яаяЬяУяјя№яДяЙяѕя·явяпян  яТяШяюяэязятяряЮяшяя якяияТягяТяРяЮячяшяй яхяб яряияЦяяяю  ябяХяЙяю 
- 	 яи ябяаяэяуявяйясямяйяяятял 
-ятяч  яю  яыяс   яя     ! яыялящ   	           яйян   яш   ясяс   / яя   #  
-   яшят  яфяняч   яэяь  ятявяхяуяиясяпяхяю  " 
-яеян     !ячяфякяъяыяъямяляъяпяКяУ   ясяйяэябявяояжяаяЧяЬ яяяфяьяя  ящяояняаяНявягяПякягязядядяаякяжяЪяя ятяПяТяЬязяряэяняьячявяряь ящятялячяпягяы яы яляфяэ  яы  яяясяиянякяц 	   ягяияУяЪяо ясяу яь  яцяъ ям  яя яэ    яц 	 яяял   *  яя   
-   яц (      ) яФ   яю   !          $  ятяфячяо ящящ яаял  ящярям  ячяуяуяшятяЫяаяэяэяуят  ятяЪяСятяаяЪяЬявябяяяЧябясяшячяаяЩяюяуяЯяЭяЫясяЗяЦяЯяЭяфязяѕя©яиякяЮяУя±яПяаяЮяЖя­яЕяЮядяеяТяпяф  %яЮят ятяь яРя·яЎяа язяЭяЛяЦядяЭяЕя§я¤юъюЗяя'юнюПя&я!ющюЕяюгююяюЗя6яЏяmя^яYяZяSяCя`яbяtяCя6яќяЇя·яµяКяЛя№яІяґяЅя°яµя±яјяАяеяНяПяТя¤яєя·яµяІяЇя©яҐя§я»язяЧя©яўяВяБяјяВяІяЋяљяЖяёяЁяЙяІяґяДяЙяўяКяЯяЬяХяУяєяКяЫягяЅяАяЩяЬяДяЬячяСяжяэяЙяИяСяЦяЩяЫяЛяНяНяй яРяаязяф ябяЯяйяряЯ яцяьячяЫяряШяаяцяэяЮябяняьядяУяфяЭяф яьяояияэятяуянякяшяыяуяняэ яаяСяп ячяр  яуяшячякяЧявяхяш яряЯяо       *   	 яэ   яуяояняряч яю   % яя    ячяы ящ          ях   яе  #   -ясябящяъяэ яэяйячящяю   ямяэ     ясяЯяЯяуяцяь ямявяйяяясяф 	яэ  яуяТяЬяйяе яФяй яьязяуяияюяьяеяй яыяЛякяуяц   яияеяеяляЩяРяу яу яшямяОяЧяНяМяйяч ятяЩярячяшяЬяЩякяфяъ ящ яэяляИяк  яжяжяуяэял   ярядяз   	яыяш 
-   ящяняеяЮяЬяряюякяояь 	    яюял   $ % 
-ясяеям   $ 
- ят 	       яш  яшяъ  #    
- )   ях  
-  ,    яъяь      яц    яяяв % #ячяюяуям яюящяуяэяиях ябял 
-ядяЩ 
- яш яэ 
-яЯяРяеящяояЯяаяТях  яияШяЩяйяйяЦяТяШяУяСяҐяЬяэячяРяЪяФяОяпягяРяЧяОяѕяЖяХяЬямяСяряХяУяЖяъ  
- яшящялядяр яжяЦя«яІяЅя¶яЖябяЩяЪяЖяія°яёютяюияюШя+яяю‹юЖюўюЫюУюЬюдя&яjяZяDя_яЂяbяuя‹яЉяqяXяaяя†яЊя‰я¦яМяЙяјяРяёяѕяЦяОяВяФявяМяЅяєяјя¶яІяГяќяґяЇяРяТяДяЕяАя­я№яЅяїя±я­яЛяУяµяЇяЖя¤я±яЗяЦяЖяДяЄяЖяЬяЖязяГяёя·яЕяЗяЗя¶яГяЩяЮяБяЫякяФяцядяСяАяИятяјяЗягяЬядяояуятяРяеямяЬяЦяФяр яШяНяр ямядян  язятятяъяьяу  яъятяыящяУяыяр  япярятяжян япяя   яыятяю 
-ячят ят  ящяыяяясяияхяЯяоях яцям      
- 
-яя      
-  яя  ямящ  яюяфяэ          яц яхяф  ящ   яь ясяияуял  яжяШян ясяоячяШяМяъ  яэ    яляж яыяс ящящяыяъячяшяЫяняшяуяояряжяжяцяпяшясяляояЯяГяЪяоячяхяИялятяеяояцяЭяоясяНяЮярягяШяРяЕяЪяхяэябяЪябяаяжяЯ ящяшяуяояжяцяеявябясяэяпяфязяОяР  яж 	 яфяояфяуяыяцяр 	  $   
- яоясяхян  яЫялягяйяЫязяь       .  	яс  &       яр    ) явяйяч   
-    
- ярям   яЭяпятяф     
-яЭ  яя      япяюяш 
-   ячябяяяъ     '  яъ  1  	яляп 
-яшяк   яйятяеяряу ясях 	яьявяУяняФяТяцяжяшяс яйяЕяЦяФяКяЫяЧяГя­яМяЕяВяЭяю   ящяПяХяјяАяіяТяЭяЅяЗяЩяДяНяЅях   яЦяояУяиямяияГяХяОяПяАя№яСяняЛявяРяЩяы юТяюЗюхюсяЎяяюлюМюўюЖюзюКяюФя[яWяIяђя‡яvяUяwяVя‚я‘яaя_яwяfяjяsя”яїяЧя±яіяЙяґяСяЁяµя©яєяјяіяµяИяИяјяАяБяЩяТяМяЦяАяїяДяЦя°я°яБяєяїяВя¶яОяЦя«яія№яїяЗяМяМяАяГяґя®яЇяЅя»яЪяеяЯяЖяДяЪяЪяшяїяКягяЪяєяМяЕяµяЅяЪяПяПяЬянядябятящяЫяЮяМякяѕяняаявях яйядяжяУяЪяд  яаяфяЩящ 
- яйяхяю яшящяЫ    яшявяц ярянях   яЬяуяыящяю        	 яыях яьяняцяь  яшядяк яьяеячяэяфяЯяф    яэ    
-   яэ 	    яц  яаяо    
-ясяш    яЬяпяеяЮяояу  яляряъях  яшяЗяѕяояуяо 
-яояиятязягямяйяф  яшяжяъяюяшяЫяияняЦяряляР  яо  яцяю яьящ яъядяЮяЬяеяаячяэ ятяЧяЬятяФяНям яМяЖягяаяпяпялявяФяЛясящящябяЫяу 	яуяЫям   яяяэ   ярявябяхяйяе ябяЮявяняхякяЬярякяеяияЯявядябяояю  яф   яж яр ярячяцяшяуях    '      яъ    "яф    + 4   ях 
-  
-     яь   яя 
-      яя    яэ  ящ  яаяЩявяъяляц яы   яоящ   "  яз    яш  	  яя  язяьяЮяи яйяЭяиянячятятябяжяэяЬяЮяцяюяояжяТяІяАяТяНяЮяЭяМящяуяжяЯяхяЫяШя¶яХяУяКяИяАяияпяояЙяЮ  яъяыяэяЮяряФяаяЯяЦяТяГяИяШяСяеяКяЫялян D ѕюЦя"я_я<яя^яю•яюкюДюФюМюАюєяяrяЋяdяJя‡яXяBяZяzя{яяsяvяљя™я–яћяГя¶яµяµяЖя№яЎяЕя­яИяТяФя¶яјя¬яРяЬяАяВяВяёяЇяія­яёяЭя·яРяУяєя»яТясяВяЕявяШяИяєя®я я¬яЫяЩяЬяйяКя«яМяГяФяСяДяЗяЇяМябяСяМяЬямяеямяЖяГяПясяляЬяпяЭяияПякяыяЯякяпяСяЙя№яєясях 	яцяцянякявяияияУяЬ  яыяСяляЮясяЭя·яЪяИяЛяЭ яы  ябяеяпяняряэ   яЧяйяцяояф яь   $      ящ яш  ямяцяуящ  яшяшях яъ      яъ     (      яэячяо  
-яч  яюяюясяъячяр      яцяфякяжяцячяэ   ячяхяр  	яуявяаячяу 
-яцяюяияаяНяЬяыяфяфявябяя яняш яэяФяЭяЮякяэямяв    яияияьяияияаябявяъ  ячяшяаяЮяЦяа яыяшякяЫяЕяТяЮяБяОяХяЦязяэяоякяпянябядяи яняУяСяляуяЪяьязябягяЫ  яуярях !  якяж якяч яуяпяяяъ   яя яьящ  яп 	яэяжясяряю 
-яхяф   яэяч  	ячяк     ятяСяаян  язяЫяь ) !  яэяъ   
-                яцяб  яю ! якяу ящ  яхяуях   	 яэ 
-ятяк  
-яе    яс   яс яЭяЯяряы  яи ятяйяЦяфяЯям яЦяояеягясяЬяЭягяУяНяРяХяФягявяЙяТяеяЙяЮятяряЫя±яЄяїяјяјяФяЙяУяпяфяияь ящяЬяХячяйяфяояшябязяРяУяИяОяОяПяжяЮяСяЖ " џюьюНюЮяюияюкю{яяяюйюѕю°юДюОяYяUяќяqяLяGя[я„я]яlяCяCя‡яЎя¤я‘я¬яЅяІяёя­яАяґяЈяљяљя»я±яФяЖяҐяќя»яЩяЭяВяРя№яЁя·яАяєя¶яРя¦я¬яїяѕяАяВяјяСяСяВяРяНяЯяИяИяіяДяСяШяјяАяляРябяГяЛяБяЖяЯяеяУя«яЛяОяЪяОяВяТязяуячяПяСявяЪякяПяЯяЛяжяцяыяйяЖяНяаяаяИякяПяЗяОяТязяЪялярягяняояР   язяыязяияЯяУяояуязяЛяУягяфяЭяТ     яфяю     яэ ячяняк    яч    яряч  $       
-   " яэяяяу     !  яряы яч яъяк   яфяш     яшяъ яэяаяняш  яч  яь ям   
- 	 яьяуяя ячявячягяЮ   яяящяхяшяйяЪяЩяи  яэяйяЬяШясяяяряцявяЭяХяэ яЦяЖяЮяуяЯяРяСязяз ясяиявявяг   	ямяхяляфяуяЬялякяц яхябяляуящяяясяХявямятягяЯяОяЪятяЦяНялячяпяЫяиясяоядяй  ятякяняъязязягящязящявяОяЧяЦяЪятяЫяняЭяШяояйяфяыяб ят 
- яцян         * ,   ясячяи   яъяияк    яхяю яч яп ящ яф   яоякял  ядяпяч   (  ямягяш як   яю 	яьяхяюямяж   ям   ящ 
-      .язяф ядяъ  яу  яляЦяп яьящяШят ябяЮяж явяряияСяаяЬяЭябяхяЗяРяЦяЪяжяшяЫяУяЧяля¶яАя°яўяБяЩяаяЬяЩяЦяХяЬякяпямяюянях яюяЯяПяГяФяУярящ ящякяЧявяЛягясюКююяяя)яЌя3юџюєюuю№яюрю·юЦюхяљя~яЊяяzяtя‰яPяTя€я‘яЂя–яЁя§я›яnяЖяјя±яўя»яЕяЈя я›яўяАяЛяЗяЁяїя±я—я«я¶я¶я±яћяЇя®яЁяўяВяќя–яДяСя¶яМяјяТяКяґяАяЙяЙяОяиядяµя¦яИя°яВяЅя»яУяМяЭяЙяЛябяеяЪяДяХяТяЯяГяКяеяЮяжяыябяляСя®яМяЬ якяряхяЬяЭяряхяЩяИямяияряыяхяояаяУяц яЯяляЪяЖяйязяЪяСядятяе  ящяЦяјяЪяряцящяюячяпяЫящ яуякят  	 яы     яф   яшяя   яъяз  ясяс  ящяыяяяъяь     яя яфяу   яшяЩ  яюяэ  " . яч яэ     яъяряфям   яшящяряряу  якяж   ятяЭячялякямяряы -  яяяф яфямяеяряо яцяЩясяч ящязяеялясяфяуязяеяаяшяь  яляъярязяу    яЩяляТяФяляяяняиякяйяш ячямятяляияр яЧявяфяляЫяЮяфясяояэядяЧяСяаяЮяЬяряЩяДяРякяюяЫяьяняс  яхяпяжяжяюяняп якяняТяс яя  (    як ячяф ятяъямяШяйяю    
-   	     яэяю   !  
-  яу  , $    яш     
- язяЬ  , %яхях 
-  : + 	   
-     ямяЭямяы  яОявязяуяя язят  яц   / ящягяфяюяияхяаяряц 
-яряуядяЩяояцяияЛяДяояш яЩяХяЪяпящяэяМяјяЮяОяјягявясямяюяШяпял яОяїяЁяШяМяЛяцябяУябяЖямяЯ яъяуяч яояияЪяоявяЗя·яѕяЛяґяјяЪяУяАявяЬяіяЇяіяя'юКяJяSя*юµюЖю©юЎюоюйюжяюяю¦яHя-яCяuяXяwяmяJяfяxяlя–яѓяђя§яџяќяќя°яёяЈяБяїяІя§я©я­я¬яЇяёяЮяѕяСяѕяпяЯяІяІя¦яјя«яБяЬяМяґяґя±яНяЙя›яІяјяЕяНяАяЇявяРявяёяНя·яјяМяЙяјяћяҐяЄяёяеявясямяКяЮяв яЪяйякяляВяЦяЗяЮяФяЦяЦяДя№яЕяЪяеяДяЅяПяияыяЧяФядявяЧяКяШяжяф яо яГяНяЙяЭячяжячяпящ яи ямязяняХяжялящяляыясяуяъяяяз   яЫяаяжяйяфяшяе  ях яц яэяы  " ях яь   яцяшяф            #    ящяыяъяь    яш 
- яляя     яэязяъ  яэяфяьяэяя ячятясялящяляояц ячяу  ячятягяияэяцяяящяЫяэ   ятяйяояряш ятяЯяд янябящяЦяЭяояояя  япял яю 
-якяРяШяояц яляаялящ яюяРяСясяЩяПяФяиязязяняфяояо яхяпяЧяЮяжяЪяШяВяВяПяСяйякягяНям  яьяыяЪяйяк  ящяняЭяхял яряЩяЫяляУявяняфяпясятяяяк  ядяЯяЪясяс  явяЯящ якяОяЬ  - яЬяПяфяуях 
-  & ящяэяыяы  %   яяяф яшяъяу        яю яю  "          : &     	ящ   ярял   яф яяяхяы  ях   	ятящяя яеятявяфярятян  яЧядясяуяхязядякявяЯямяхяю  яЬяДяПяЙяДяАяїяияХяФяыяюяшяЦяГяїя±яґяТярячябяНяИяѕятяЦяш      ямяЫякяря°я«яІяЖяНяХяБяПяжяЗяБя«яґя*яюЮяCяjяЃючюХю ю»южюпюоюаюцюия-я7яYяaя’яяzяwяIяkяZя‰яЌяѓя†яЎяЏяѕяІяґя№яЄяџяґяБяєяјяУя®яІя·я№яШяїя¶яёя°яІяУяГя®яГяЦяИя№я°яУяЖя№ябяЧяРяТяАяјя¬яґяСяияТяОяЖяїянясяјя­яґяБяТяЮяЛяЙяЛяИяѕяП  яНя·яУяТяйяЮяояЗяжяшяЦяПядяХяряояСябяаяъяъяЪяЫяСяГяНяйяляэяйяЫяВяГяЭяЖя® ятяЩяс яняЩяГяЫязяжяыяжяпяшяф  яфяЭяоямяШягяц 
- 
- 
- яъяяяэ      	    % яэ    ячян    яъ 
- яЦ 	   яч  # !   
-яояфяняфяъял   ям          яяяэ яю   яы    яэяхякях  яцяй  яуяЬяъяэях яяяуяяясяйяэядяд  яуязяаяйяояфяз яэяЪяаяЭящяэ яшязящяьяЩяМяуяэяыяъяцящ яф яшяыяпяаяфяЩяЕяйяШяЖяЙяУяЭяЩядяЮяХяь якяЧячябялябяъякяаяЩяП яя ячядябясяСяЛяОяьяфяЭяфяЬяХяЩяхяуяйяияхяияхяеяКяЦяЯ       
-   яняаячях ямяц  яу яю 	яй        	яъ     # : яэ         ' яияЭ  яы  яьяпяэ яр  2 $ 1  яъ 	   P *   ях 
-  	яч  ясяьяъ    
-  ячяцяыящ яыянящяу 
-яияряр якяъ  $  яцяы яхязяляйящясяЛяНяСяНяµяЗяБяАяИяБягяи яуяояШяѕяЎяёяб яняШяѕяЖяЯяЗяц  	    яфяЮяЭяьяСя»яёяШяНяЕязяЦяєя®яёя°я·яДюёяяAяGяZюцюѕючюГювюАюююююУюпюяTяfя_яbяmя‚яeя]яrяЉяЂя|я~я‰яyяЉяЂя®яКя¬я¤я я°я№я·я”я§я­я я•яЧя·яїяВяћяџяµяЧяеяИяїяОяѕяРяґяіяЗядяЬяЖяСя±я©яёя¦яАяГяИяєяЛяія­яЦяряйяАяВяµяЛяѕяШягявяАяЅя»яёяжяЬяЕяЗяКяЩяЧяаяияЙяКякяв явяю яиядяъ яЧяуяиявябяиявяЯяШясямяЫяияжябяуяпязялябячях  ясяч ягяы якяФ яяях  яшяжяпяуядяр 
-    яяяояыяъ  ятяняю  яяяыяцяя   яц яы 
- ятяяяяяыяф   яс яш яч  ящ     яфяъ яя   яь ябяляыяряс  
- яю     яшяЬязяшяляфяхятяФ  ямямяпяуяъ ящяъядясяыяшякяряф яЫяй яояЮяаяЪяы яыясявяй  яфяЮяцяхяюяЦяОяРячясяшяъяцяюящяЬяЭязячябяФяЬябявяк  яю 
-ясяфяцяЯяЙяЕягяпяеяаяэ яЧяЗяЫяеякяКяряеяЮяЪяряЮяМябям ячяыяэямяшящяыявясяшяк яп якяояояяяряр    ящяц 	яьяц     %яфяч 	  ят  яъ  як        	яъян яы 	       " яЯяъ     яч  $ ! яй   яя       яцяц яы  яы япяяяэяяяю    яи яьяЯятяЭ  & ят яляЮ яуяо  яояХяЩяняяяк  яйяоящяФяТяУяЩяР 	 яфяСяПяЭячяляйяй яПя·яВя¶явяэяляГяЅяЖяЅяЯяъ  ячяшяхямяЮяЯяЫяЧячяуяеяФяКяєя№яґя®яґя­яНяяюёюuюјюиюЩючяюЮюяяютяяя я~яWяUяKяeяSяlяuяiя{яrя]яя‹яЎя~яЂяіяПяЄя·яУяєяЇяЄя°яїя¦яџяҐяОякяДя№яряЖяЖяЅяЪяія»яґяЛя№яАяШяїяАяСяКя·яµя¶я­яҐяѕяЗяЦяЗя°яЗяШяаяГяѕяјяЖяНяЦяЯяЦяШякябяЗяЧяФяЗяМяЛя№яхяпяЛяКяёяЛяиясяЩяЗяПяз яшявяЮярярявяуяЧяЧяЫядяЫяПяи ящяеямяШядяъянящякятяъядявяф  % яяяд япяЫяй  ям    яйякяс яп     яуяуяю  	  $           яцяг яяяяяьяц яф 
-  яю яюяъяэ яч  яшяо  	яьяуяэяюяхях    яяящяя 
-яь  яю   яэяняы 
-яп  ямяй яфяЪяЮяфясяъ явяжяияцяпяЦяЧяъяпявяняаяхящяеямях    янятяуяыяЫяЛяр яо 	яняЬясяЪяЬяПяЭяпяСяф   яэясяъяьяюяЯяЭящясящяЫяЬядяЫяЖяФярясямяЛяМяаяпяияРягяЭ  ябяНяФячяэяф   яяяняы ясяЦяояжяю ячязягяаярящяояъ яыяо     яы яыяияояьящяЫякяьяеязявял  яы    	 яюямяч )яы   (    /     яэ         яыяш  
- яу яю яъ 	яю 	    яфяыящ яь   яяяч "  язякяя      яЮ  	       яйяжях яи  ятяХяМяЫяшяняЭяояшямянялябяЯяЛяЙяЮяц яНяїяІяМяияЫяЮячяРяТяЩяЪяВяБяЛяМяЗяЖядяОяР   ячятяфячямяМя№яПяНяОяЖяЭяЦяияФяРяРяїяґяµю6юNю`юmюфяXющя юсюИюҐюію–юДюЧювяeяYяvяrяfяYяrяKяnяlяuяtя¦яЄяњя‚яџя±я№я°я¬яµяіяЅя»я«я°яія™яЈяЙяФяЇя®яМяФяГяѕяМяКя®яѕяВяЧяКяЙяёяБяУяЇяёяДяЪяЧяДяЁяЅяеяМяИяаяНяБяФяїяЗяИякя·я·яЖядяМяГябяЮяЙяґяжяЧяЦяЭяЦяЖяЙяпядяЪяКяНяцяляКяцяояЫяРяняТявяНяМяЅяЖяМяНябяд  яняЬяРяїян яъ ящ  яфясядянячятяьяю яр яияЯяц    яд  яхяжяЦялямякячяф     яч яцяьяю ячяэяхяцяч  	 	    #  " ях  ) яы яьях  яиям  япявям яу яяясяцяк ящяю   яняч 	 !  ях  
-яияЫявящяЦябяфявябяЬялял яюяйяЛяМяхягяїяЪяпяаяФяЫ ямяШянятясякяЩягясятяияЬязяшякядяляыяляеяЩяМяСяУяЭяряя яуяняЫяаящячяф  яняЦяПяЩяОягяжяжяНяйяояЩяЫяфяпяТям   яб яШяЯяпяфямяцяфяч    яоям яхяЬяЙяшяияцябяряс  ятяЯяЩяо    яъят 
-яняеячяь  5 "яляяяеяняЮяШямяряЧяф  яьяаячяжяьячяьяюяг 	  Q ,яю    -      	       ' яъ  яшяцяг яяязяю   яняп яю  яч      яш   яояу яыяэяюяшясяяящящ яш +     
-япяЩяСяПяШяняцямягязязяЮяхяияОяЖяФяТяХяНяйясяЦяГяЖяЬяиякябяЬяНяЩяЧяѕяҐя»яТябяЮяОяр     !яу   явяЮяНяОяАяТя»яКяИяЫяУяјяАяВя¤яОюяяююћюќюЖюЮю±ю­ююВюЕюМюЕюїюґя_яdяEяTяZя—яlя?я`я=яOя?я’яДя‰я§яђя­яґяјяєяЁяЄяіяґяЎяЁяѕяГяСяЛя·я®я¬яДя±яЙяПя»яёя¦яќяІя№я·яЖяЄяЁяћяЈя«яАяЮяИяШяЙяЧяХяДяЧяаябяФяЪяХяФяРяЦяПяШяЬяЗяРяхяШяДяїяЯ яъяЧяЭяУяЯяИяЙяСяЩяїяЬявяйяХяСязяиягяЗяїяЮяЦяЙяФяЙяВягяЩягяЮяЩяРяФятяуяэ ятяХ   яуяЩядяц  япяшяш яыятяаяъяыяЯяю яъям  ящяс  япяъ 
-   ячялясяы  	   яояЭяпяэ яжяс 
-   яняхяп  " "  ящяэ 	 яыячяшяя          ямяояфяеяъ янязясяъ  ячячяжяфямядяФяЭяйяляъяпяу яыят яъяЭяг яЪяЦяЮяЩяеяЮяЫяляпямяМяјяояЩяаяэяхяйянядяп  яжяняояоян яеяфяы яяяояНяУяфягямяОяТяОяУяФяШяю #яЫяХяЧяЭяхявяЩяПяв  яуячяъяя  	яияСяМявяеяфяэяЧяЬявяфятяхяоякяь  ямяеяЫяняъясящяьязядяьяшяояляЗямяыяияп    	ямяи яыяйям яхяцягясяю   яу  яжяЦячягяаяэ яцяЯ  	    яю 	 ящ   )         3 2  "  4яя  яуяш     
- яляа   яэ  яцяйявяуячят 	 ядяпяШ    яе    яыяп  ящяняияЩ яы  ябязящ 	ягяаясяуяЬяаяйяНяІяЙяеяюяаяЭяЬямяаяЬяФяБяУяїяДяЯяСяПяТяНятядяЯ   яю  яьяЮяЦяияРяДяПяЅяЦядяЛяЦяІя§яЇяєяФяДя+яUяюЅюФюФюшюкю›юЊюЩюЪюьяюєю±яYяdяFяmяYя яtя\яAяXяiяyяљя‚яЏя“я„яІя¬я”яЎя§яЁяЖяИяЛяћя яЁяАяёяія»яЬяГяЅяјяПяМяѕя«я±я±яГя¬я±яВя·яКяМяЩяСяЛяХяµяєяЅяЬяНяСяРяёяєямяКяВяУяеяЩяНя№яХямяХяТяУяјяЯяряояъяПяЮяЖявяРяПяжяОяЙяОяЯяеязяЫязятяЮяЭяп яшящ  яч ядяжяЧяЧябяЫяняъяп  ящ    яняуяияняц   яэятяЪяряс  яо  "   яь  ях  	ял  яьяк яь 
- !  яд  ятяу   яыящ  	   яЬяп   яъяжяч  
-     
-яы    яфях 	яя якядяуяляу 	  яыяяяуяыяюяпяиясящяыяуяЯядяляеяф  ящямяфяфязяЫяфяъяЧявявяе яеяб яъяЬяМяйяфягяЮясяьяфяуяжям яхяняЩяЛяКяаячяТяВяТяфяфяЯядяРяЭ яияНядявяцяй яэяОяЬяЭяЭяуядяРяеяиязяпяФяТяЭяИяОяаязяуяеяФяЧябяЩяб яЯялян ятяи  яняЦяФяОяняяяя  ялязяуящяйяцяюявяшяфяу яш  язяряш яя яйяйякяьячяь  яояп    яъ  . ,   яя           4 яЯявяю     
-  	 ятяьяр     яэ яс яэяа  $     8 % яняЧяйяяяйяьяиял *  яоякяфящ яэямяф ядязяь  яъ  яЮяцяъяЩяНязяйязяЫяЫяняйяЖяСяиядяЬ  ягяМяОяяядягяСяїяЕяјя»яОяГяжяеяряпяэ   
-яюяЯяСяЯяпяЧяНяРяїя»яѕяЩяЪяЗяЛяЛяґяЙя»яJяя я8яя<я.юЗю»юВюЦюгюфюЩяюляkяSяFяFяqяuяЋяEяOяћя©яђя›я”яѓя„яўяѕяіяўя•яіяіяѕяОяДяѕяєяАяєяєя№яВя¶яЅяИяЛяёя­яЋяЈяѕяФяїяќя»яНяХяЭяцяФяЙяАяОяСяТяНяѕяЫяКяФяЧяЙяуяСяРя§яЬяляояЪяОяПяЪяШяЙяЧяЪя®яЄяРяПяЭярятяШяУягяЯявяЫя№яРяЩябяь  язякяряЩячящяшяеяТяняхянякяЭяйязяЧякяф  яьяряе яуясящяжязяПяРяЪяе  яц      %ячяу ящ яы яШяъ ящяцяшяч яцякяьялясяхяо        ятяюячябядяь яряояфяшяъяфяф    	яяял  яаяСящяпях  
-яцяняеях      яфяуяяяхяяяхяц ятяи  $ яъ  яйядяфякягязяЮяв   яфямяпяжявяаяРяїяЭяшяэящ  
-яряйяСязяеяЮягягявябяЯяЭявявязяЯяйяШяЯякяс ясяТяЯяжязяШязяйяХяЕярячяЯяЧяШяияэяэячязяУяхяхяляТятякяПяФ  яряо яюярящямяияшяЯяЮяТяЧяэялядявяЦяряяяляЦяУящ яъяляняъяъяю яыяхяя 	яфяь  ябяЩятяй  яь   $          яыядяъ   8 $ яляэ $    +  яхяш  	  
-          яь       	яэ 0 /  якяд   яйят  яеятячяъ 
-яфяШяа яс  ящяйяп   яцякяг яояуяьябяляЪяхяя  яияеягязяйяьяЮяЬ яыяЩяЦявяЙяєяСяТя№я•я±яјя№яѕяПяЩяЧяФяя   #  яу яЬяЪяч 
-якяРяжявяЕяРяіяСяЧяЗяЛязяЯяПюлю«ю{яюџю¦юєю™юМюОю§юЈю­юЗюцяя€я1я7яFяRяZяoяhяqяЌя‡я‹я‘яЈяyяЋяІяія¤я­яРяІя±я­я¦я¦я®явяЫяБяКяЪяРя·яАяѕяЗяБяЇя яЛяМяСяЇя™я¦яКяЪяРя»яТяЕяЦяёя¬я№яНяИяВяДяµяУяЯяДяїяПяЙя®яРяАяДяЛяЯяЩяПяИязяКяЁяНяшяеяШяПяИяаяТядяляЬяжяХякяИяЦяХяз яэ   	  яряжягяЧ япяЯягяс ягяЯяряжядяжяшяляЛяаяу  яляняХясяю   яо   яяяю яхяс        яуяряхящяЫяц  яяятяы     # яхясяъ     ящяп   ящяы яяяр     яя  #   яюяы    яяяпякяъ яцягяь   яцябяияаяф ящяпямяояфяляЬятяэ яэядяЧяцяэ   ярязяпяхяоякяэяФяЬядяъясясяЧяЫяЫяЩяШявятявяЭяСяпяЪядяпяияеяФяАяЫяыяяяхяЧязяшяр яэяйяз  яЯявяъяЬяЬ  ябяФяЮяжящяжямящяжяжяаяиял 	 яьяжяПякяхяяяияияЯяСяояЬяУяб яхяеяуяъяпяг  1 яляфяияЮяоян 
- яч ящяъяь  яыяк  яюящ 	 яцяЧяОяЫяи яч   яы  
-   &    ях  яхякяш    яэ 
-яр   
-яуяф  &  # ячятяяяыяй  яя    ян  яюял  *   яу    яь   
- япясяъяпяояЫяряш  яцяы яцяхяг  ятяжяэяеядяТяаявямязяхяЯяЭяСямябяТяЗяЦяДябяЭяЦяЅяКяЙяѕяКяЪяБяЗяЗявяс    яеяЪяеяьяэяЭяПяЗяСяжяєяПяєяѕяСялякяУюхюdюЄюЩюКяSя0яCючяя5юСю»юЪюЖюкя[яUяZяtя‹яЃяTя}яђяdяЂяbяЃяqяqяћяђяІяЅяИяКяТяіяІя®я™яія·яАяЙя·я·яКяґя°яДяФяНяІяЊя«я«яќяЃяЋя›яњя­яЙяРя»яСяБяЦяЧяЦяЗяїяИяєяія±явяШяФяЯяФяЛяёя«яПярядяІяІяМяМябяЛя№яТяЖяЖяґя»яУяУяЖяБяЩяШяХяЛяЖяйяЫяЧ ячям яфяа яцяЪясяпяняЮягяЫяняуяШяЦядякяжягяЬяэ яъяаябяыятяфяр   яя яш    	  	  
-  яяяшяюяряя 
-   
-ятяэ яыяыяя   яьящ     яуяняю  япяо     	яьяЭячяцят яъяЧяхяп     яю яояс ячярярямякячяъяляш 
-яуяэ яяяц  ях яяясяъяеяч  яяящ яшяЧябяиягяЗяСяЯязяЭякяъявяЭяУяМяМяМяПяЯяияЯяпяаятяляеящяфяьябяняъяЬяСяМяСяПяы яцяляИянякяЛяОямяйяфяйяяяХяЧябятяпячяЭя¶ян яфяеягяЙягяЩяОяЦясяУятяхяхяУябяУяч  яЧя»яДякяуяуярякяяяфяч яЦяРяЫ  яц яцяжял яцяшяояр яы   яяяф    
- яйякяояряфякяМяй    ях  #яъяэ      яюяя   , .   !  яю  # + /    8яфяш  яь    + яу     яияш 	 
-   яуяЭяР 	  яяящяц яыяпяфягяЮяхяи 
-  +яуямясягяЮяоявяНябякяеяОяВяНяЦяШяУяЙяЩяїяпяыязясядяЮяОяЯяияояжяЩяєяѕябягяФяшяряпяы   >  ядяаяеяйяжяаяЅя¶яУяДяАяўя№яѕяЕяМяЪязяюФяя	юиюУяFя(юлюТю­юҐяя%я(яяkяdяxяkяsяTяOяZяpяlяoяEяxя…я§я‘я‡яОяєя¶яЎя¤яяҐяјя¬яљяЈя±яБяЩяЇяАяВяµяИяјя¶я—я’яўяќя›я®яЅяёяҐяїяСя¶я№яЖяВяІя¶яАяЅяѕяЭяСяСяЫяГяОяµяАяЛяЛяКяВяХяОяГяРяЦяПя°я№яЪяняЩяТяРяеяЪябяМяПяКяШяЯяпяЪяЙяЧяЮяУяЧярялясяняаяфяиясяйяш яЫяФяояеяч  яхязяшяюям  ялячяр   яэяфяэяеяуяфях     яяяя  яп яй   янясяч ямяч  	 яиячящяя  ячяч        
-      яэ  яэяуяхясяояюяьябязяйяйяъ      ят   яь 
-  яъ    яэяъяйяДяЩямяияЧяияаябяЧяфяыяяяляшяйяОяняфяНяОяияЧяфят   
-ячяОяЦяЪябяыяюяыярядяПяЖяУяЛяк яяяжяјяТягялягяОяаяЩяоянябях яЧяЮяжяняЪяЪяИяЯязяЯяЛямякяЮяЯяюяб  
-яеяЮяНяСязябяОяДяУяшямяйяеяб яшяЭяуяШяляЫябяоящяэяяяЪяг яляУясяаяхяляеячятяхяЮяеях   яю  ятяЮ    ящящяэяф     яъяюях             якяя  яя + яъяу   яэ   "ящяф      
-   яэ 
-   яфяф        яр        яр   яфясящ  
-яяящяШяЦяЧяШяпяфяоявяЩямял яэявякяняРяЙяЙяЛяОяГяЬяпяаяСяйяляЛяХяаяјяЮяЫяЬяМяУяяяяяУяИяЯяьяы  " яуядяйяПяйяияТя©ядяУяСяѕяЅяКяДяЯяЭязя°ю‘юНя
-юъя=ющяя&яюфюлюЙюРюУюЩюэя]яNяIяmяVяIя~яrяKя|я†яxя†яЏяљя§яњяія¤яЅяёяЩяЩяРя¬я«яІяїяЅяіяѕяЅяЫя·я¤яЇяИя№яЕяСяЙя«я­яИяСя±яЁя№яИяЖяјяєяЁяџяВяЩяХяЧяПяЙя№я°яИяЪяїяЕядяжякяХяјяЩяУяРяГяТяЗяµяЩяВяЧяКяТябяйяДягяъягяЮяйяЯяЪяеяъяляУяцячяШякяЖяаяНяЦясяЮяу яжяШяЯяеяф яъячяФяОям 	яяяляаягяЯялягяНяя 	   яю яяярян яю яъ    яч   яыяъ     яшяйяф яш    ял      + $       яуяфяпяуяъ  ячяю яХязяп  яхяьякякяеяь  ясявяэ  ях яфяцяо   яняхябяаярящ 
-  яляЬяияь яаяряьярятявяЮяРяаямяуяЭяЦяйяЭяияЧяЫяФ  яцяЬяаяЫяцяфяцясяс 
-  яхяЪяЕяЖямяМяИяМяОяЪяШяуяЫяйяЪяТяЗяБяДяСяЬяГябяТяЧядяпяняЩ ясяЧятязяияЬяфядязямяШямяРяРяЫяЪяпяТяЖяГяЬянятяк ятяжяЮязяэягядясяаяч  яйяМяюяд  яхясяаяМяяяуяж яюяияПяЧ 	 " &  яяяь яяядякяы ягям       -  ( +      $ясяж яя яъ  *      яз  	яя  яфяю   ящ яяяь  ячяю   яйязяЫяпяуят  яряю  	  яъ  яШяеякяо    яэ яшямябямяуяжяЩяоязяЭявяМябяиябябяйябяьячяэякяЩяЅяДя­яВяеяаяЫяЩяияйяЮяг     ящявялямягяФяРяИяМяФяєяІяУявяУяѕяДяЯяІя ю“юня*я яяю¬юШюЭюшюююкюлюїюСяgяVя[яzяћяія†яѓя€яЃя™яzя…яЃяђяњя яµяЗяИя»яЅяИяМяБя№я±я¬яЬяГяДя»яВяМяµяєяСяЙяРя°я°яјя°яјя±яёяјяєяѕяџяµяІяБяГяОяСяСяИяРяЁяєя яБяБяДяЇяБяёяЧяЕяЯягя©яґяЧядяЯякяЮясяняОяо язяФяшяюядяХяЭяСяряч  явяляЧявяКяЩяДяЙяъяъяЪяШяпяцяМяРяП яо   
-яаяЮяя язяояхяЯякяъяо яь   яыяфяю 
-яйях  ям   яэяцяч  яш  ящ   	яшяс         яь 	яшяэ 	    яйяь      яюяч      
-   ячяр 
-яя 	 ячяЫяеяюяюяцяъяэяаяРяЬ  	    
- яыяжяЫ  ягяФяЭяыядяЪязяжябяуяПяпяЭяХяОятяняьяаяЦяКяЕяСяМяШяеяИяЮяеявяУяс ятяКяТяТягяЧяЪяц яцяЗяМяаяйяНяТяуяЩяц яаял яеявяПяхяУяШяЭяЪяЬяп яняхясяаяМяэящяняряоябязяЛяс яЬяоякяЦяЦяа яаяїяг  ямяняЭяеякяЬядяКяс яоявяз  яйяпяу 	яъяыяеяФяпящ  яфяфялящ яшяяяояш & яу  яй  3   яь  ябяк   !яхяъяо /  " )    & яю $    
- 	  	     ясяюяч   $   яшяъяъ   #  ясяЭяфязянял  ящ яяяиям  япяХясяэяу яшябяу   яюяеяТя»яХякядяаяряняФяАяЧяЬяияхяъяу  яхябяЯябяОяЖя®яАяжяцяияпяцяяяЫяъ    яфяЮяМяу яляжяСяРягяМябяРяОяЪяаяОяія№ю3юzюgюџюШяюзяютюѕюрюМюлюыюоюяяљя~яVяpя}яsя‹я}я^яhя]я„я«я‚я‘я™я№яУягяПя®яІя©яХяЪяуяёя±я©я›я­яИяЛяНяРяЩяКяјяЗяІяДяОяЅяНяёяЇяЅя­я®я®я±яќяєяПяНяАяСяжяСя®я­яјяїяµяЧяеяияОяАяСяЬяЬяЮяРяІяНягяояВя»яФя»ягяЛяХяАяцянявяПяОяУяЭяЫяЯяфяЧ ямяШяЫябяШяКябяъяяядятяйяпях   яцяЦяж ячяыял  
- яЬяуяъяфяпяьяяяьяшях  яу  
-яЬ    ярят    яяяьяхяояч  	 - 6   яюяояЩ  
-яъяо     " яы    яюяк   яя &   	 яряЦ яяяы  ярямяю  яьяцяеяюяц 
-яшяшянязядяляцяю     ямяйяжяЬябяжяЬяЩяжяжяЩяияеяпях ящяЧяОяЬяЪяЫяЮяпяпяХяеяр яляеяХядямяЫяРяУякяЯяЫяияпяЯяЙяЛяЩяШяйяЫяСяв яфяъяняЪяЩякяфяляЯяп ятяфяеяБяУ  яняжяеяФяЭяаязяшяпяаяояфяЦяЗяЛясябяЮяЫяаяНяЅяЛяСявязяН яхязяйяаяЮящяъяЫян ясяНяЧяеяъ  ящявякяпяеямятяЦяияэяфяьяЦяжяшящяь  яЯ   ящяхяыячяь 
-  яхяйяп    
-         (   ят      9  яю  ях яэ  яьяд   якящ     ятяляъяф яфят  	 яЮякяЩяшязял  яцяьяШямяряа яоясяюязякякяэятябяояхяхяф 
-яеяжязяЭязящ яжяНяЅяЬявяµя®я°яУяЖяЮяеяуяХяр    яяятяЫявяцяьяяяцяжяєяжягяУяµяЇя»яјяХяНяВюўюэю±юсюјюИяяюПюбя	юьюняюъюЧя_я=яDяOяUяkяpяsя^яNяRя[яЏяQя“я…яњя°я°яЈяєяіяЇяґяМя¶яґяіяЇяіяЫяУя·я¶яЯяХяХяДяЕя№яРяАя«я°яСяёя–яЪягяЛяТяТяЅя·яРягяУяПяёяјя»я±яЄяѕяїяЕя­яНяЕя±яРяФяХядяХяжякяСяЧяМяІяЫяеяЗяИяняЯяїяМяЩяи янязяЫяляжяеяЩябяЛя№яФятяЫяѕяЪяХявяц  ят яэят яю яяяеяОяЯярящядякяв  * яа япяхяляэ ячям  ящ 
- яЦяНяг   	     	 
-яп     ящяпяш 	   яц   ящячяьясящ       ячяр   янякяоякяу      яюяш 	яюящяцяю яцяоячяаякяЭ  ятяжяыянямяЭ    яйяняфяряыящяеядяаяЭяг ящяяяуяхящябяняЪяХяжядяаяжяЮяОяЮягяШяьяиябябяХябяряйяуяПяЯящяЭяпячяЧяоялящ ясяЩящяпяЮям яаяЅяСяЫяЩябяхяЫяОяКябяЛяЫяъ ядяНяјяЦятятявямяьяЪяХяЖяЯяъяъяСяоядяЭям яшяш яняФяЪяияжяпяжяф яШяЬяпяСясяшяш яОяжяйядяс  яояю 	 яяясяыяу     ящяк яяянящ      яэ %яюяшяэ    ясяШящ '      , ' %яь    яь  яуяй  * ян 	ятясяляп  
- ямяжяэяо   яцяж    яч  
-яхящ  яряЛяЯяшяШяКяЛяр як яе яЫяДяЩяНяЛяйяеяєяЗяАяеясядячяЭяѕяШяНяНя»я¶яБяГяЭятяыяЖяѕ    яцяыяфяряияшяеяЅяеяЮядяПяѕяГяАяЕяЮ яЦяТяLюГяrя6ююя7я@яpяюбюзюЦю«юѕюуюъяќяQя>яoя{яFяPяMя]я`яOяPя…яyяsяЉя“я°яЄяЁяХяНяµя“я яђяєяћя­я¦яћя¬яГяВяДяЖяГяБяќяўя»я©яјяїяІяІяРяЅяєя«яДяјяТяЦяЫяШяЩяІя›яБяТяляЅяёя·яНяЙяЮязяБяЄя®яДяЭяЯя№яєяНяЬяФяУяСясянягяпяаяіяИяєяїяРяаякяЙяа  яйяияиягяляэязяЫя№яг ятяряуящ  яъяияю  $яп яяяь яняш  яшяыяряз  ятяо яряфяЫ   #  яьяф ясяояя   '   * яэяяяъ   ' " 	   яр   яю 	яьяхяш  # $   "  яя яыяьяуяпясяя  ячяжяэ ящявяСяЦяЫяХят яияйяшяхяуям яь ячяы  яцяц явяжясяйяъяуятяъ  	яу  якяаяЬяЩяЯяЪядябяфяеячяеяСяУяяяйяУяюяхяаясяЫяаяоядявяЮяЧяияЛяжяЩяЪяМяЦязяКяОяаяЩяпяйяцяыяняЬяХяИяБясяЮяжязятякямяЭяГяЦяЙяНяЧяьяояФяДяЮяЩяШяЬяЬячяУят яЪяцявяЫязяо яряияляцявягягяЖяЕ  яуяЫ 
-ятяэяиякяжяэяюяо яфяшяэям яыяфямяюяряШяэяь   ящялящ       ян ящяь яэятях  ! яы      яэ яь яыяп    яяяэясяряьяшяэ  "яч  
- "яя    яю   ям   яыях  яъ     
-   ясях яфящяхяВявябячяь яю  ягяЧяЮяШяЗяЭякяжяЮяЧяРяЧ  яйяЬяЧяЦяХяОяїянявяЮяьяьяЕяЛяя  яя 
-  яжябяЯяшяЦявясяЪяпяцяТяТяёя»яєяДяЙюЕюМюЫюИюЭяя-ющюЛюНюеяюљюТяюьяnяHяwяwяvяtя`я{яmяЈяЏяKяkяkя•я©я¦яЅяјяґя№яСяИяјяя¤я­яѕяЕяўяћя¤я¶яНяКяУяЄя™яЎяіяЛяНяФяФя·яв яЦя—я¬яБя±яГяєяєя»яЛяАя¶яЩяПяНяЯяАяЅя°яБяЫяїяАяЙяРя№яЛяєяТяОяцязяСяЖяйяпяСяйяняЪяЧяєяѕяВят 
-яшяк   якявяц  ятяояыяьячяпяхящяъябяряхяояряъ   ябяшяыяляряпял яяяшяъящяхяеящячяфякяч    яуяшях  
-  яъ    яЪяп  яюяя  яюяч           #    яц 
- яф яяяъ яяяо  	  	 яияХяб  	яяяхяЛяКяаянямяияыящяцяаяЫяеяцяыячяс   ясязяЫязямяряцямяХяТяЭяояф  япяКяОяШяЙяФяТяЮят яляХяСягяы    яШягяеягяЬяЫяЛяГяВяРяЮяйяъяШяїя яёяшясялязяаядяФяЭяояСягякящяХяѕяНядяВяС яцяеяЬяЫяЭяйян 	яояЫяОяТяТяляСяч ях япяЭяшяяяпяя яхяцяхяйяЦяШядяояпяшягявяоясязяРяияЮяНящяфяуямязячямявяЭяо  <  яюяШяч & 6ячяЯяэ  	 	  
-як   яшяд 
-   яя яш   яъ 
-яшяш       яо   явяъ яэ  яэяыяьяЫ   яъяы яшяр          	як 
- ) яьяцяы  яю яьязяЮяяяьяЮяйяшячябятяяясяТяЭяйятяеяняШяЩядяЯяаящякяЧясяуявяы язяОябяРяВяЦяЯякяШяХявязяРяКяз   # $ яъяЦязявяЕя·яіяЦяПяЖяИяГяЙяПяЕяЪяїяЕяTюєяяDя`яюЭюКюую№юДюВюНюєюѕя"яfяQя]яќя„я€яlяRяZяoяkяUяђя†я…яrяgяІяЄяІяУяБяЎяБя›я‚яЏяЕяЇя·яѕя™яћяјяІяПяЅяЇяАяУяХядягяУяјяЖя¶яВяДя»яЙяАя№яЅяЙяіяИяЙядякяЗя»яїяЇяЗяНя»яЩяпяАяёяёяМяаясямяЮяРяµяЬяеяМяёяЗяЫяНяТяРявяЖяЪяфяфяФягяияйяр яю  яхясясяЦяЫяк 	 яаяЬявяСяЪ яюяшяя  яаяд  ящ яЧяаяи ящ  яя   яыяляр      ящяу яп яюяюяо      япяняц  	 яояр 
-  " яя  
-яи    яяящ  ящ яляь яшяуяляш яэяыящяляняьяяяляояп  яфячяяяыяияуядяс    яиявяшяфяц  яТяДяЧяю яхянятячяЬясясяеяЮяЦяСяХягяНяЪяжяЮяПяЭяШягям  яьяояЧяМяЙяРяйяЩяЗяСяЪяОяВяеякяОяЪяэясящяьяц  яЧяШяъягяАяСяјя­яПяфягяЬяз яиявяИяТяШяРяяягяэяРяСяЛяЬячяуявямяряЙямягяйяя яы 	яляУяИяЛяХябяеяеял  ял  яя яляйяЧяУяЫяЛяьябяЩяТяь  ящяы  $    & ячяуящяьяы ящ  яуяъягят 	яэяэ  ( ямяЯяйящ   (    %яъ  &    )  яф    яэ яю   ящ  яцяр  "   * 0   яъяыяЪ  ящ   яЬ 
-яп   яцяъ яуямяз яьякяб   яряу яжяеяМяМяЪяс яйяояляю яляТяЦяЭягяБяВяояпяРяЕягярягяЧяµяОямяхяю  явяюямяЭяЯяЮяЧядяряѕя©я»яТяОяИяЖя°яАяяюья	я€я]яCюйюъю«юТяю»юЙюпюцяЏяXя{я[яiяpяЂя‰я‰я•яѓяЌя”яя®я‚я„я¶я·яЎяАя¦я¤яµяІяЕяЭяКяАяРяБя№яЇя¬я¬яЎяҐя±яіяјяМяЖяАяЙя­яЁя©яПяШяМя¶яЅяБяЅяЙяЅя¬яАяМяЮяПя±яОяЮяйяШя±явяняЫяБяТяШяПяПяБяЅяјяЙяб яЫяїяЅяРяДя»яЙяёяБяПяПяЫяияТяЭягяТяляЧякясяа япяЗяИяъяуяшяняОягяПяУяЮяфяряЧяр яхясятяпябятяы   яю яа    
-ятяяяш  яюяпяч язят яъяряо яюящяхяияс    яы  & !   ятяшяы  япясяс яя   ях  	 ящяояоясяшяш  ясяцяияфяш  яьязяъ  	ясяняеяЕяЧяк 	яхяЪяояояЬяаяляЪямяЭяУяВяЯ яяякяцяю яю ячяэ ясяияЛяияУяДяКяУяЙяЪяЯяряЫяеякяняХяЪяр  яыяыяНяіяЛяИяРяаятягяЮяШямяфяияЧясяэят ящ яцяЯяХязяляшярямяЫяЭявяи  явяЦяЯ  5 яЮяНяИяДяНякяъяаяЦяыяляРяляияжяцярякяляз явяш ярятяж  яъяь ящ    язяь яхяуяхяняг  яъяйякяс яю     ях      ян яьяд 
-   !   яЮящяряь  )   ячяьяюясяьяв 	 яс $  яф  яюяъ  яъяш  яч       яшячяьяэяиягяляяяэ 	       ядяляйяЮ  яцяляЮяс 
-янярякяЩячябяШяУябяняшявякяиязячяЭяФябяеяэявяиячякяЯяЗязяЗяХ  яБяЩ    
- "яу яьяЫя¶яЖявяияУяХяГяЙяРяТягяБяКяВя,яюняюнюыя4яяяяя
-юфюшюАюУя¤яjяUяbяQя[я`яfяaя_яBя{яҐя›яѓя€я”яјя©яёя±яЛяЅя«я±я±яЦяµяјяЅяЛя»яЕяХяЅяЅя·яія¤яЅяЬяМя¶яАяЖяЁяµя¬яјя°я»яАя»яЖяВяЭяЪяМяёяДяБяВяИяГядяКящяпяЦяЖяБяЗяСяМяЮяОяЗя·яЮякявядяЦяЕясяряКяЮяСяПяцяТяЖяЩягяШяЕяЖямяЫябяЪяВяЪядяУяияъях яряая»яйящяыяеяояЩяжяУяЩязяъ      яняц яцяляЦятящящяч  . 
-яжяс    яы  	  ' &    2  $ яюясяяяр ящяэ яфяф  
-яъ яы ящяч яяяс    яйяхяпятяц  яояъ  яю  яъялякяеяЭязяъямяШяс  ятяйяхяият яуяшякяйяуяЯязяйямяж яляпяЮяШялягявяо  ящяЪяжяЧяуяшяйяюянябяЦяЛяХяМяСяйяЮяСяЧяУяУяЛяНяПяЦяЅяЫямяЧяиязякяуяУяКяВяЫяы  язяЬямяъякяЪяКяфяеядяляаяТяЦямяЩяряхящяйяпязякяЬяХяМяНяюящяОяНяЦяВяИя­яАяТяЮясяйябяеяЭяЕябяияъяЯяЕяХябяеяаяЛянянядяЭ 	 
-ям   
-  яэ язяФяЭ яъяХ яЭяЬян яьяояшяыяяясяаякяйяй  
-    ,    (яп    яуязяж  	ятяч  яшяю  	            ят 
- %яр       яряюящяю  ян яуяСяЬяъ 	 яэ  яоямяэяЭяаякячяфяНяШяняжяжяряняаяУяЧяряюяхяСяЪяХяеяЦяРяЫяЯяїяХяЗямяМяТягяюязяйяИяо      яцяъяаяИяДяМяеязямямяМяОякяЦяБя№яСяAюИю„юЖюмяяяюЮюйюэюШюКюаюЛюСя…я`яxяVяpяяcя-я?я}яzяzя‚яѓя|я›я®яЅяАя›я­яЕяБяјяёяїяЇяёя©я–яАяБяМяМя¶я®яіяўяЎяМяСя°я®яЄяТя¬яЇяЕяКяЖяИяПя±я®яАяЛяЧяаяёя‘яКяКя¬яДяНяёяеяЛяЭядяЪяМяУяјядяжяЖяДябяШяЙяФяХяТяОяИя¬яЦяряпяЯяНяБяБяТябяЯяряшяояаяМяЫяЛяЫяРяЩяПяшяцяуяфякяХяд яы  яю   яыяЬятядятяпяш    ящяфяжяияъ   ят          
- 	  япяш    -    яюяфят   , "  
-   яняхяпякяЧяпяняъ       # япяряояляи  яхяйяЭяЫясяш 	     явяЦяюяуяк 
-ящявяаях ячяжязяЫяТяояшяеяШяЫяУяМяпяШяУяИяШябягяИябяряЭяЦяУяТяиягяЛякяУяШядяГяШяШяряряЫяАяЬяЯяУяф яыяЮяЫяНядядяЦяФяряТяНяЙяеяояАяФяТядясяЬяйятяМяТяТяШяаяряряЯяляюямяХяоямяояюяОяМяЭяЭяЪяеягяЧяйяжясяшяОякяоядяШяйяжяЬ яыямягяъяояЩ    яч    яияЭ  	язяэяц яхясяпях   яю ( +   яяяоянязяо яшяЮям         " 1 яьяряхяяяьяюяшяц яяякяю   яю # (яяям 
-  4    $  яняфяр  яюял  яу  ян   &   яз  " яряш  яьяф яфяПяа   язяЭяЮяЩятяхядягяеяОягяАяЬяТяјяняВяЕяГя·яїяЖябязяУяЕяНяъ  %   яряыяоядяУяЛяЦяОяляцяМяѕяОяСяБяґяБяІяFюФюёяюЦя9юНюШюЮюґюФю”юЦяяюся‡яmяQяGяgяyяNяGяiя`я?яRяЁя–яzяoяЁя·яёяРяКяХяАяїяМяАяЈя®яія·яЕяҐя¶я·я¦я™я¤яЎяЭяБя¶яІя°яІяЅяОяФяЧяІя»я»я«яОяёяѕяПяаяУяЫяґяєяРяТяГяУяняИяЙяРяияЧяЦябяЦяЭяТяЛяняъяЫядяПяФяЧяЦяляВяЕяИяУяїяхяТяЩявяфяжяРяТяДяЙясяб ящяЦяЗяЫякяхяфятяпяьяъ  яряъ     яю  ящяжякяЯятящ яуяш   яэ яфярязятяж   яъ        "    ях     яуяцяыяк   $  яояъ    яхял  	яу  	яхяс ячяуяю як    ятяйяЯякяч яуяшяляю яфяФяр яфяЮяшяояз  яцяЧяжяняПяЦяХяоякяэявяЫяЕяХяМяУяТяШяШяЯяУямяияЯяМяуяЗяЛяЩяжятяХяРяЮяхяМяЗяПяУяеяояпяэяеяЛяРяЪяЫяз  яуяляЬядяйяФяЦяйяЫяЖямявяЪяХябяЫяЮяЫяНяЬяЫяЬяЫяОяиячяряйядяняУяБяМяЗянящягяЮяс   яляцяЮяЙяОяУяшяо  " ябяЦяряу 	янятямямяш яяяЮ  яыящяцяЯяряЬяРяЗяи    яйяй  ядяЮярятяояпях   	ямятяряъ   -  яъ  ятяйяфячяняф          ятяМ      яэяю  ящ   яфяхяи    ятяэ 	 яч яы  яя  #яюясяю яыящ 
- ятяр  яоякяУяЯяоякядяаязябяЪяЮяЬ яьяхяюяЬяБяНяНяДяЯяПяТяФяЯяЅяРяЪяҐяГяЬ  ,     
-язятяйяшяЯяПяЮяХяЩяФяВяГяКяжяьяеяляЪяKяюэя!яuя9яяЏюцюҐю­юЈюЛюаюАюБяuяяqяgяЏяSяUяyя‡я‰яbяЃяЈяњя‚я}я•яБяОяВяДя№яЄяќя»яґя¦яГяѕяќя®яЎяІяЅя™я©яґяія·яіяЖя¶яХяќя‹яЎядяфяЗя№яїя№яВяїя­яНяХяШяѕяЙяСяШяКяЕяїяДя®яіяёя№яЗяаяЙяДяИяПяЪяЬяЫякяСявяйящяхяЛявярясясяуядяШяняЫяв яЩяЯяФя¶яЛяУядяшяь  
-яыямям яояеяоящящяч яхят ящяп  яьяф 	яя  яыяняфяя    яюяцяпяшяшяэ   япябяжяпяояш % $  	яюяъ             яэятяряфяхяыяп   ящяпяуяю   ячяЪяЧяХясяяяжявяяятяжяц 	 яхящяуяпяцятяЮяыяр  
-ясям язяРяХячящ яЫявяШ ядяПяЮяЖяЧякяпяйяияфящяЭяЮяйяпязядяшяЮяТядямябяняЬякяряЮяСяЧяТяТяаяКявячявяЖяМяШяЮяуяЭяфячяеягящяояжяЩяТяЦякяжяКяЯягяЮяияЪясяпяШяПяХяъ   ячяаяЧяпядяПяТяЦяояаяЮясярярядязямяюякяЪ ящяЙяОяОяСяЛяйяо яяяряфясяцяыяюящ  ящяхяьяжяЬяояЩяСялядяЯяъяя яшяшямяояряъяю яряю  
- яя   ям           ядяЫ  яй  яхяляШязяч якям    яя  ящ      $       ях яяят  ящ яхях      якяияиящяцяъяжяХяСяйягяРян яЫяЮяЧяюякязяЪяб яцятядякяхяь яъяжяЯяяязяМяДяЪяЖ ягяаяЭяЮя№яа  
- ( " яУяйядятяЭяЬяХяЙяКяУяЧяСяєяНяШяПяИяОяюяюся9я4яTяяюбюЗюЈюЩюКюмюэяYяBяJяFяbяrяZяSяXяbяѓяfяўя”яяuяѓяњяЄя¶я¶яДяљя яЄя®яМяЙявя·яЇя™яџя·я±яѕя·яГя¶я»яВяВя©я»яГяДя®яЦябяпяАя©яЅя§я®я»яВяјяІяНяЛягя±я­яВяјяЗяТяОяјяєяУяйяЩяДяјяАяПяЧяЬяМяЗяЛяКяИяХяОяЪяМяЮяЭяЭяЦяЅяНяЪявяСяДязядяЪязяс   яяячяЮяояз яфяЭяоятяряЭяСяд    ячяъящяэ  яь яшяб  *    яяящ   яъ   яюяуяЧясяюяц  &   
- " $        яя    	      яю    яляЦявяр   явяПяжямядяцящячяцявяв ячяряляряйядяжясяхяшяэ яьяляхяо  яъятяйязяПяНяйяюящячяеяЬялят ящядяуятяСяХябядябяаяЫяЯяСядявяТяЬяЮягяЩяЦяТяХялящябяНяЗяКяЪяКяВяЭяЙяЦячяжяРябяРяФяЫяЛяИяЦяФяЗяЙяФяСяМяРяРяОяЗяРяФяк яняйяЪяЗянязяЯявяєяВял яшяШяиязягяеяВяОяЧяЦядяцямяПяояВяЭяЬяЫяаяк яэ ящяиявят ям   яхяУяИяХяжягясяь ядягях  $ 	яоягяЬяъяэяПячяйямярял   ячяЯяф яхящяю   яияэяю  	    ян 
- 
-яХяпят        яЧ  " #    1 "   яьяз  ' яяясяеяаяФяк ячяш  яяяъяляш !яхяояшямяу  якяШяЧяуязяияжяАяпяряжяЭяЧяуялякясяЬяжяйяьявяеяКяМяЙяКяРяРяеяяяеяШяаяЦязящ  	 япяйякяаяоявяЮякяаяИяЛяЬясяОяляєяЫяхяѕяјяюЭюсяpющяяHяmя	яюХюяюгюЕюЁюњя=яhяmяUя|яmя„я­яeяaяyяЏя®яђя‘я•яЈяЄяЅяЙяЖя«яЁяДя¶я”яЈя¬яВяКя®яіяµяѕяµяЎя«я“яІяВя°яЗяеяТяКяИяїяКя­яГяЗяЕя№яїяЁя¶яДя«яТяјяОяУяјя·яАя§яћяЦяРяЛяНя·яШяЫяГяЙяУяЯяеяуяЮяЫяъятямяфяЪяЬяЫябяПяш 
-яняХяМя»яГядялявягяЮяжяряэябяшяХявяжявяШяр  яъяЮяияИяХябяпябяЦяж   яоялячяпямятяеяю ! # яь   !  яфяуяи 	  ячяьяя ятяияюяшяряэяю   яш    яьяэяэяфяц     ячячянян  яяяы   яяяыяжяж яъяняряляжякяъ  яяяэ яъяСяМяЭяеятяряйяняс  K = яфяЩяжяЯяТяЭяжяеяТяєяРябяЪяПяКяУял яНяЗяСяЦяУяЭяояияЫяжяЪябямяйяляШяЦяЧяЯяУядяЮяРяЦяи яияЬяЙяПяГяЦяЩяФяУяияЫяпяХяУяРяЕяјяЫяЪяжяСяСяЛявяняцячякяйяЦяляШяКяКяряюядяУяЬяЦяхяйяняияЯяаяЕяЧяЪяюячящяЮяПяЭяЦядяНяВяеяхянясятяг  ятяЯябяЫяш ялягяоябянявяЪяПяуяЪягязяуячяцяйякяЭяЫяХяуяняЩятяы   яуяяязяЫятящяъяшяя    якягяц          	як  &яч ячям     )   )  ящякяпяг   ' яЭяцячяхяляяяйяЪяыяцяеябяш  яьяшяфявяв   яжяНявяояюябяЅяМяЭямяняЯямягяняЦяьячяф яъяЬяУяЧяЮяхяЯямякякядяфяБяФяэ   яя  ятяЧятяьяХяЅявяпябяєяКяЯяШяЩяПяШяЬяМяYюмюуюЯяяFяя!яюсюўюўюъюнюќюояdяyяRяXя‡яgя^яxя€яfяpяlя“я‘я‡яґяВяЦяѕяЅяТя«я±яёяґяњяЅяРяОяЗя·я¦яЄя·я«я§я°яҐя яЄяРяОя±яЄяҐяЎя©я¤яіякяЩяЦяЅяЛя№яЇяјяїяРягяаяКяИяЗяТяїяїяОяЬяОяпягярявязяЙяЕяаяЩяЅяБяїяµяГяфяряЅяКядязяЖяМяЦяУяЫяРякяШяХ  яыям яфяПяПяхяьяРяс  яЫярятяяяШяжяЛяЧяЮяШяйяв яъят  !   яъ яряоярякяюясян  	   ятящяряы      	яь    * &   	 яшяият 	    яшяфяш  =  яхяяявясям       яэякяЩяц   ямяюяюянямяйяжяЪяКяРяЭяс яо ях    8 ` _ !яыярявяЭ ящ яРяХябяшяк ящяХяОязякяЪяйякяряЫяряыяаяЦякяеяияКяБяиябямяУяаяРяФяЛяЖяНяряЮяЮяхяРяЫядямялязязяояЫяйяаяЬяхяяяГяЩяёя№яХяДяОякятяпявяаяфяУяЮякяМяСядяЭямябяЛяЭяряеяШяЗяЧясяРя»яДях   	яЫячящяЫяЦяуяЭяСяПяряеяшяяяюяк яияЩяф  яЪязяя   якяцяняйяїяз  яр  $   яыяшяы ядяк  
- яыяьяь яыяфячял 
- . яюяжяи   $  	          яю  яу  % , +як 	ячяц  $         % - яу яуявяояч яя яэящяйятяМяМяс 
-   яЬяпячязяляЫягяТяеят  	яаят  яэярящ яаяй яЭяЅя·яЇяМяЪятявяЛяґя»яю " $  яоячяряУяеяШяаяЖяЙяЖя«яРяМяѕяДябяНяёяГюЧяя[яяяяRяюКюУю»яювюЭюґюъяoяeя\яЃяЃяoяЊя–яfяXяgяiяЊя®яҐя—яЎяІяЇяѕяѕя·яµяБяЖя§я№яЄяДяГяєяЁяЇяїяЁяћя­яЕяЙя¬я»яЫяЕяЙяІяДяЇя®я»я¬я­яЖябяТя±яґя»яУяШяняыяПяВяёя·яХяМяУяГяйягяыяЯяІяЅяёяЗяАяСяЦяЅяпячяпяьяЬяПяСяЦяьязяЦяЯянялямязяПяиямяЬяЦяшяхяюяйяИяЯязяУяэяяябяСяпяшяяяряЬяцяеяРящяояу яъявяц ят  яф   яюяряц яп     	яяян яр   яя   &          яь     яп    L > /   (  ящяыяоящ яхяцяэяцяпябяь  яьяняшяе  ябяЦяТяЬяцяыяшяы   яя  H ђ d яияьядяУяг 
- яряХяАяТяз   яыягягяМяОяЬяьяфяьяаягяхяэялящяьяыятяеяЯясяхяЮяПяЕяЬяЯяМяТянязяЪяУяЩякящяРяаяляЧяЫясяСяРяЮяПяЙяДяр яьясяШям яояЫяияю  	яЮяѕязядя№яЙяЩяхясяЧябяеяМяЦявяТяЛяОяф  ящяняШясяыяжяМяЮяФятяОябяыядяКяуяЮямяжяЯ яъяЮяЭявяп яюявяъяйяфяу яю яыяу    % *  ( яи   яю   япяс яя яыящ 	яц яр  $   яы  
-япякяхяь  "  яо яшяш   яу 	  яы  япяЮяЮ   ягяу яьякяй яфяуякяхяпяхяе    яюяв яш яэящяеящ   яояпявяЫяЮядящ 	яЭясяхясяэяяяьясяояЙяФякяЩяЧяЪяояфяаяДяёяС  -   ятяеяняуябяЭяия·яѕяЖяУяЭязяЮяЭяАяГяРяМюъюпюъюзя)юЮяяѓяяяюйю«юхюГюЬя[яvяcяRяMяLя„яkя;я:яIя…я±яђя‹яђя‹яГя»яРяГяБяєя№яҐяЎя€яЊя­яЗяїя«яія±я®я»яЮяаяЖяРяТя»яєяЖяаяЦяЁяћяҐя®я©яєяаяЅяєяБяШяЪяИявяСяФядяйяБяѕятябяЮяыягяЕяжяЧяРя°яЦяФя»яОя±яїяОяФяйяЬяаяжяЮяУявяс   ябяЪявябяхяТясяшябяйяу яыяшядяыяЧяЬ   яи   яъ яэявяпяшякяЭ 	 ятяеяЯяЮяо  ящяс   ячяь   	яюяш    яяятясяояпяеяя    яхяоясяш      ятящ  . < )  	  яъяшящяъ ямяояъяшяцясяьямяоябяХяУядяЫяФ яъяфяияЯяляэясяфяояияхяшяЮяЧяь & яеяпяю ягяХяцясяняШяИяРяОяияхятяуяаяБяМяНяЫяъяйяЮяЗяЮяаяЭяа яйяИяНяЛяШяоячядяШяШяМяУяНяЪяЗяѕяМяНяХяОяНяФяЗяЗяїяХяАяЖяХябяЮяЮяСяЬяняШяФяОяСяФяЅяёяЧяЯяаясямяСяТяляЫяЭякяфя»яЪядяЧяъяЙяЖяЦяЬяЩяжямяк яляЖяГяЖяЬяШяИялячяСяпяюяЪяе  яЬячяьяцяхяжяу яЮяНябял яжяпяс   яюяя    яряй  	 яюянявящяш    яоязяэяу явяпяюямяхяя яяяяясян  $     	  яият ' яц      $ $ 	яя  яц  яъ яю     язят ях    яю яя  ( ящ  яю    ярякяжяшяъякяйяаяшяоярянярядяняьяаяцяфяХяИяЭяняЯявяаяПяЦяГяо $ 9 
-  яьягяеяюячяШяЛяОяЕяЙяЅя¶яѕяКяЩяПяЅясяЧя ютяяяюЕяLя,юфяюсювю›юрюрюфя‘яuяVяя[яnя]яdяYяjя‚я†яЁяЕяћяkяuяµяљяЂяєяКяГя»яАя»я™я¬яВяњяЄяќя¤я•яЎяИяФяАяєяїяЅяіяўяБя­яДяЅяБяПяАяґяјяИяЗя±яіяєяЦяјяЗяІяПяЗяХяєяБяЗяЕяёяУяАяНяЕяСяЛяЩятяРяМяІяёяНяУяПякяНяз я№я№япягяФяШяЗяЭявябяУяАяе  яюяХяЯяЬямяжяч ячякячяч яфяояряпяьячяпяцяпягяяяэяЩ яряЦ ясящ  - яъ 
- 
-яо   яыяъ     яьяцяф   яфягяЭяияо яш     , ячяфяйяю      яюяюякясяряэ  	  ятяаялятяьяжяц   яфяжярякяиявяЩяДяЪятяя япячяьясяРяЕякяняЩяФяжящяпяфяЯяЯяфяРяєяЩяхяХяЯяйярядяояйяЮяЮябяРяЬябяЙяЯяЫяЕяв янякяЩяШянялядягяЪяЪяЛяКяЛяУяРяВяЅяЯяПяЖяЦяШяЦяЖяОяряЩяПяГяОяХяЮяУяУяНя¤я©яЅяХяЬяХяїяїяЪягяаягярябяФяЯядяДяояж  яьяаяКяпягякяЩяЙядяняряэясяйяѕяЭяЭяМядяжяЫяаяаявяц ябяЮяФязяжяУяУяТял  якясяюяь ямяЪяАяПяр  
- ячямях     
- 	 яь 
-   яь яы 	япямяхяо яфящяу      ям   
-    яЯ  
-  яуяб   яьящ яя 
-   яы 	ягящ  яю        	 яв    яеяйяуяр  яюяЩяЫяпяСяЬязямясяляЫяф яфяМябяияпяЭяэявяпяЬяЭяшяОяс 	якяЮяшяШяПяф     яляз  ящяМяЩя·я»я®яёяµяИягябявяМяИюпюШяющяSюьяя5юЦюсюТютюЮюхяюзяtяQяLя_я‹я‚яQяdяRяfяFяkя§яѓя—я¤яљяїя±яЙяЅяЅяАя©яОяТяГяЪя»я¤я·яёяЇяґяЁяЁяЄяЖяОяѕя±я№яЖяјя»яіяФяПяЫяЛя°яЙяёяѕяЗяЛя·яЙя¶яОяБяОяМяЬяЫя№яїя©яАяєяµяняИяµяИяПяЭяµяКяРяпяСя§я¬яАяТяжяю яФя№яЙя±яЩяШяМяУяеягяц ян  яСяМядядяВяяяьяь яьяу яфяи  	яшяуягявяи  ящ яьятяхяряы  яыясясяояуяъ яуяьяя  яы   яч     яцяйях 
-  яя яу  % 'яэяэ яюявяжяъ  яю    яъямяпял     яфяеяъ яяяляхяшяояхяк  яыятяЮяояляф  яфяЭяФябяФяОяЮяс ямяСяЫяРяЫяШяЪяЯяьяЫяФяФяЮяйяЪяНяФяхяЧялятяЮ яъяЬяРяаябяъяхяЬябяЭяНяГяЩявяыяшящявяЩяЗяТяЪяТяЗяАяЛяЫяДяБяґяєябяїя¶яДяЧямяхятяЫяДяИяаяЖя·яАяЛяияОяИямяЪякязяЧяцячяияжяУяаяжяЫяЭяояпяЫяЩяШяСяЯяЙяаяаяЬяияеябязягяояпяояиядяэ яияйяряжякяц 
-яюяЮяю яоядяч    яъ яюячябякяхяхяьяаяхягяй  ячяЪян яэ   
-ясятяъ      # яц яы   
-ящясяс яъяк  яю  %   яч    яхяу  '   !яряю "   ямяняляхяъ яфяд   яэяэяч  яыяфялягягядязяцязябямяЬяЩяияв яюяхяфяаяЪяКяЬяЬяФяЛяСяХяШяАяІя­ядяЮяЭяфяхяп яэ   яы   
-яаяЬябяШяЯяЛяДяЫяйяНяЮябяНяЧяЭюЗювюsюЧяRяGя[я`юјюИюУюэюОюОюпюъя\яnяMяnя§яSяYяXяSяvяяЇя•я}яяџя’яµя»я±яҐя°я¤я±я©яїяєяЦяХяЕяКяОя«я•яЁя»я­яєяУя±яёяІяґяЙяєяЬяеяЅя®яБяЅя¶я»яЁяХяФяОяГяЕяОяСяШяРяПяЪяѕяґяБяёяФяКяЛявя±яґяНяСяЦяцяЮяЮяуяъяйяМяМяГяЫяЯяРягядяСяияняжяп  ядяр  яйяч язягящядяЩяаядяшядядямятясяйяуячяюячялятяс  ясяпяюяцяляхяоягяа  % ях    яжяц     яъяпякясях яюяэ     яюяъ         ясях  ятяйянягяряц      " 
-яняряйякясязяпязяляэ  яшяияъяцяЯясяь яхялябяЮякяияЯябяяяюяо  яцяняЦяЙяДяїяіяеятяуяпяЬякяЮяЫяляфядяг яфяЩягяъямядяЦяЧязяРяЩяияЩяОяияояЯятящяИяЧязязяиявяУяРяФяТяјяЙявягяЙяГяТязяЩяЧяЧяЫяаякяРяЖябяЬяЦявяЩят яряУяиятяЪяЛяИяОя№яПяЩяаяжяпяшяЙяеяЪяСяаяряфяЫяАяцяюяНяЧяУяЮявяФяПядяГяЙяКяФяЧядядяхячяЮяпяоях яфяж  
-яшятяеяш ячятячях ядящ якяйяю ясяб  ящяЦябяшямян $ яж яряй  )   яыяр            яч 2 0 яшяш    яэ   0 !     	   	  яъ  яНяХяо яьяо  
- яжяй  яэяляцян яЭяляояСяОяУяЪ яеявяЮяОяМяЖяШяПяЪядяфяшядяСяМяТякяЮяФяЫ 
-ясяю 
-яьяуяйяэ якяЯяиясяхяМяАяСяїяУяЦяФяЪяЅяЛяГяОюСюАяя3юЖюья#яQю»юфя!я<юкюиюИюояZяЉя“я|яIя>я`яЃяGя|яяkяЎяя©яћяЇяБяИяЅяЗяЅяЈяГяЅя»яВяеяТяКяИяЎя“яЁя®яАяґя»яМяОяДяЭяёя°яЇя«яЗяЕяЅяїяЅяІя я©яГяѕяЫя°я°яћяяДяЦяЦяЯяОяДяДяЛяЮямяЇяКяЧяКя№яБяУяєяияЧяСя·яВяДяЪяцяряГяЛяЙя»яЕяШявягяЩяаяЭямяХяЭяЭящясяцягячяуяТясяэящядяуяшяфяЮяаям ядяиятяч 
- яяяф яюяы ямяняу   ящяя  яь  
-       яу  *    яэяыяэ   яю 
-   ях  яыяцяя   яЭяЬяцясяжяаям  яъяЬясяжяЬякякяояЫяеяяят  ящябяУяйящяеяЧяйяияУяСяЩяРяСяняфярятяыяыямяжяфясядяляьяпяжягяЯяияЪяПядяоячяляКяЅяРяИянясяЦяОяОяЩяЮяЬ ящяЗяБяЬяфягячяЮяХяМяЫяаяэ ядяДяія»яХябязяаяДяјяПяУяОявяМяСягяНяЪяЅя±яїяєяјяЭяняЩягяЫязяШяЖязяЖяЮягяияШяеяЦядяЬяоят ярядяЬяфяЯяняъ  якяияЙясяЬямядяВяФяјяЛякятяйяСяХягяояКяп яыяф яояьяь якях  $явяФяе яцяд яя       яцяжящяя  яшяф яъяс ямяХяы  	     яю  
- 
-           1            
-яя # * яп     6      5 
- 	 яы  яы   яияъяэятяшяхясяЫяЭяЩямягяЬявяУяв яЬяВяЭяЭягяяякяУяЖяРябяпязяж  3       яояняжяФяНящяияЗяЪяјяЇяЅяЬяЛя№яЙякяЪяЫяTюьяя9яя8я-ю¬ю№юхюжяюХюЧю№юЛя`я–я‚я‘я‚я~яЃяdяPяwяўя€я‰яђяЁя‰я“яҐяія•яЇяФяЖяГя·яІяЈя«я·я·яЅяЎя¬я¤яҐяВяРяСяЗя№яЇяЛяДя¶я©яҐя§яія±яјяїяНя»я®яПяШяЧяЗяБяЖя¬яНяЧяµяЩяЅя№яЕяияУяЦяеяЯяеяИяИяфяЗяЮяюятяъяеяпяфяЫяыяЫябяЮяЮяСяйячяжяняСягякявярябяЙяж  яуягябяпябяд 
-яфябяЫявяо  яжяч ячяц яш  яфякядязяияы   яхящяя яэяояъ      
-   % яыяю       яыяя     	 ящятяя    ямяр яъ яю   яы  яп  ясяйяэятяыякяхярявяКяОяЫядяояаяЭяЮ 
- ящяляТяЧяиябяаяпяеяеяфяляжябявяЯяЦяМяЭяПяШяЮяоясяЧяЖяй яфятяМяЮяОяЖяѕяХяШяЪязякяИяГяИяЧяияЪяняЗяєяЕяЫяёяЄяПякяаяЕяЛяФяХяаяґяЖяФяИяЙяЬяняжяЫяЫяЧяСяжяеяпяЬяДяЖяЩяИязяаядябяГяБяПятямяИяМяКя·яГяСяРяНяЦязяФяУяЛяЧячязяЪяФяж   яЪяСяСяЬяЪяОяфящяЯяЬяСяУяЛясяъятяж яЪячямяНяЦ    яляфящяЮяЦяЬяш     яеяъявяИяЫ яч  яьяЫядятяю  яю яцяз яояя   яуяняь  яш   яь ях яъяшяуяу   яыяэяфявяЭяшяь   #яц          *     яйякямяы   яЮяЪяч   ям 	 0яэяч яяяпярядяжяФяо 
-яйяЦяжяаяьябяЮярябяЮяуяЬямяаяУяШяХ  ял  - '    
- яРяЙяЕябяЩяСяЫяПяЕяЧяДя№яЙяЭяФяВяўяsя<ю¶яюМяюњющяя.юхюЯюзюБя
-яvяxяgяdя_я_яlя‡я_яQя]я4яvяvя~яaя|я­яІяАяЖя±яЗяЙяЄя­яНяЬяаяКяКяяЌя“я±я®яХяСяєя¤яЅя«я±яЈяџяџя¬яПяБяёя№я«яіяЕяЕяіяјяЁя№яХя·яІяЬяДя±яЁя№яЬяряѕяёяБяляСяБяЮяФяїяВяШяЧязядясяЪяДявяНяиязявяТяхямяДяаяжяояЭяиябяїяляЯяыяуяцяю  яняЬябяПяфяпяляжякяп ящяю яшяс  яюяфясяйякякяцятяц  яшяжяцяо    яп   	яю яьяу яьят ясяш  
-  !   яхяфяЬяс  япяжячяь  яэ   "   ящ  ячяЩяпяэящясяияЬяТяЯякяХяб  якязяПяЭясяъяряняцяъ  ятяиясяаяхялятяшящ ячяояияояаябяи ясякякябяХяаяЪябяЮяЭятяРядяКяґя±яЕяКяЧяХяеяъяфяЬяГяХяэяаяіяЧяНяЗя»яияняЗяїяЛяНяиязяТяЕяияЫяЦяАяХяЭяПяєяТябяЕяГябяьяаяУячяЧяФяТяляЮявябяЩяряОяЪяЅяЛясяияДяґяЙяЛяЛяЮяЙяйяЯяСякяЦяФяЦядякяЪяЗяТящясязяаяЬяы яъябяНяЙяЦяр  ямям 	 	яйяТяУявячяэягяляэ яеябяРяжяХяжядяы ящ ящяэябядятяояяящ яэ 
-      
- яняЩяф     $ ячявясящ  ( % ящящяряь 
- ях 
- яюяьяшяп   яы яряч  яхяьяЭ  	яь   яь япящ яыяю яы   	яж  яюяияояЪядяк яЭяИяФяояНяе  яыяХяёя»яСяЮяняКяЅяОядяьяС    
-яяякятяляияряРяЮяЬякяУяФяЩягяШямямяНяДяЗюхювюШяяя
-юэяюъюзюУюёюжяющя!яnяTяoяtяџяЊяlяgяLя]яwяЃяµяЌяя~я”яФяґяИяБяѕяЙяёяІяБяШяеяШя№яЙяЙя™я‘яҐяјяКяУяХяЦяЛяєя©я¦яєяИяияШя»яЄяґя©ябяцяЦяєяЅяВяжямяТя­яўяЛяїяЕяЖяряэяЖяКя»я®яИяЮяея·яЄяїяЫяМяЩяЧяКяДям  яояУябяряцяЛяЪяЭяМяОяКяЪяЯявяаядяК  ячяш  #яъяяясясяшяуядяж яьяЬягяояы яцяы ящяь   яояд  ячяыятяыяияу   яз яыях   
- яп    яь   яфяшяю яыяр 
-   яъяфяхяйяф  яы   яэ    яхяпячяыятяжяс  ячяц  яияЫяюяъяъяэяьяЦяНятящ  яояЪяв ябятяхяйяЧяй яъяаяЧябякясяжямяШяНяУяфяЯяияпявяФязябябяряХяѕяТяояПяЫяЭяПязяияцяцямяпявягям яъяЯяЛяІяўяіяПяПяВяЖягяияп  язяНяПяБяжяёяЕябямяжягяЦяЫяЭяйяЫяФя№я»ябяеяШябяцяияРяИяГяФяїяМяняЧяіяАябяЩяјяЧяЮяЙяїябяШядяиятяЩяТяДяТяЪявяУяЩяЙяАясяЭяЦякякяУяУяояряояс   яЮяФяйяпяфяояїяИ яз   яшягяфятяпятяс   яхяв      ямяэ яэяцядяф яр яы яь        яхяо    яшяЮяЯяУяьящяш  яы 	          
-яьяс   яфяг   ятяЭят       
-   яьяжяШяЫяеякяЬяыяя яляХям  % яъядяХяГяНяа  ячяхяэяуяг      " "яЮявядящяПяряЭяЩянящяЪяКяйябяЦя°яНя±ючююя)я0я“яютяюТюЬюкя я юЩюїюзяLяaя`яxяRя*яSяqяCяVя‰яя®я”яЏяЃя‰я№я§яГяДяЕя‰я®я¬я¦я­яЙяЛяІя№яДя¤я†я“яАяУя¬яЊяЎя«яЗяЖяРяАя»яЕяГяБя±яЁя°я±яТяТяТяГя­яПяАяЖя№яВяІя№яЙяЛяеяЬяЖяЫящяИяЬяЗяХяПяЕяОяРяУяЧяФяµяйяЮягяеяЬ  яЪябяпяеячяйяФятятяЪяВяЗяЖяСяЭячяу яр ятяЩяУякязябям   яцяхямятяеяпящяэяхях  яцящяш    янякяфяы 
- 	яюяч якяыяцяЩякякяы    
-   яжязяэяш яъящ  ячяа   яфях  яяяшямятяэяьяф 
- яфяр яляЬябяряЬяЦяРяУягяэ ящяУяЬяЧят  яеяМяЫяаязяЫягяеяСяЬяХяжяЭяФяШяРяЛяеяняляыяыяоярящяМягядяЪяЖяияАяїяЙяЦяыяУяЕяеяьямяШязябяЕяЩяПяУяояуяъяНяБяРявяйяыяаяЦяЩяШяЩяь яяятяЭямяХяЖяОячяъя·яЬяХяШяояпяШяЙяОянягяЩяПяОяПяЫяФябяжяряфяСяжяУябяИя¶яЫяьяЮяёячямяИяЩяюядяТяШяфяжяуябяУяКявяОя№ятябяОяМяжязяЛяЬяряФяТякящяфяояъятямяЛяИяДяшяоябячяь ! 
-   
-як ярят ячяя 	ях яэ       !  ясядятяю    яюяю   яч яояс ятящяляХяцящ       (   
- )  #яэятясяцяс    & ялячяя  яы яю ящят     яуяЫямяияШяляяяуяфяи ябяэ    япякяЫяЭяцясяЗяјябяляв     ' яя  ял   ятяЛяЬяНяЛяИяРятяЦяЇяТяЪяїя-я9яQюняsяяMя)юЭюХюпюъюнюРю»ю¦яяKяDяgяdяRяvя]яjяuяЃяqя„я•я«яћяЄяВя®я·яВяЖяВяєя§яµяєяЈяЎяЕягяУя»я¬я±яя№яДяКяЅя»яКя№яўяўяПя·яБябя»яЎяґяЖяєяія©яБяЕяМявяЕяЛя я¬яГяДяжяояСяЧяЬяИя»яИяРяШяЙяЪяВяЙяЛяМядяжяНяґяДя±яЩяляјядяы ягяпяъякялявяЬямягяЭяЛяФяцяыяеяляш   яы яаяс  
-яжяЮяЮяя ялячяьяшях     яы 	 ячяс яняхяы  ' ягяхякяряю  якяю   4    ях ясяю    	   ягяь    яъямясякящ     яюяъяыяюящячязяйядяЦях 	 яюялявякяд  яуяняхявяаяаябязяТяЛяШяЦяРяИяЗяШяУяХяЕяРяъяпяфящящятяеяХядякяйяШяАяјяПяхяоягяэяшябязяжяШяЛяМяМяВяґя№яаяжяняЬяСяЧяляОяЙябяуяУяКябясяЮяѕяїяНявяЬяНяАяЅяНяМяЫязяЬяЩяЗяаяхяЬяТяЗяТяїяЅяжяШяТяЦяЖящяЮяЦяияШяЕяГяЛяБяЩяЭяиячящяЮяМяСямядяьяЯяБяляпяХяХяШяїяуящяНяЩяе яэяШявяляУяояыяХяГяЮяСяЭяу   яэяюяь янял 
-  ящят   ящ  ясяцяэяяяъяШягязяь   яыяряЩяу 	 яю яюяй   яэ        яяятяф        яч   ях ! якяи       
-яэ % 
-яуям      ( ясяьяЪяХяйяр  яяящяшяъяпяЦяЩ  ясяхязяЖявяы  яцяНяѕяЪяСяёяЯяеяЦяДяйяу   
-   яъяпяхяцяз 
-ялябявяЅяРяНяОяЗяЭяияшяаяАяяюѓяяlяЃя&я~яюФюёюшюфюЄюЁюЮя‰я{яUяiя–я‚я^яqяoя:яtя›яћя яҐяЇя‘яДяія°яёяёя«я¶яЇя­яНяѕяјяТяІяЇяГяИя№яёяѕя­я·яЙяЄя±яЖя«яџяЖяМяХяУяВя·яХяЕяФязяјяВяв яжяЫяЛяґяіяБяЗяЩяб яляИяЗяєяЕяПяаяЭяЬя№яЯявяШяФяСяЛяЩяяяъяаяжяЭяЧяьятяжяВяЮяуяыяфяНяпяуяюяыяыяояжяЫяЧяЯ яюяхяыяюямяьяыяъятятяф  яйяРяЪяуящ яэяи  $   яцяу  	 яыячяяяъ яхяяяуяо  ячячяя     яыяъ   ячяэ 	  явягярям яъяуяьяьящялящяияЬяц янябял яъ  яяягяняеядяЦядячяляХядяеяъяпяжяШяФяеярян  яьябяЧяЧяк  яуяй  якяаягябякядяЯяояпяЦяФяКяВя·яРягяМядягяЦяїяЦяояЦя№яёяЁяІяРяеягяЦяРяЙя±яЬяхямяЬяШяМяОядяУяЬяГяЛяЛя¬я±ядяПяЙяеяияЮяБя№яГяНяЦяЙяЛяЩяУяЬяРяОяаяИяЫяЫяаяЧяВяФяГяЅяПяеяТяЧяЅяЅяЧяЯяРяоявяляТяЮяЧяТяЬявязяаяЖяФяшяыяЪяЗяеязяд яляШяйяияЦямяряЫяЯяъ яняРявяияЮяояфямявявячяк  яъяЯяТясяы яэ  &яъян       ядяс    ялячящ  
-яч    яЫяс     яъ яцящ  !    ячячяцяц   яряъ яюяш яхяхяцяьякяюяъяе   яс  ядябяк   явякятячяжямязяряЬ  япяаяжяц яя якяСяЅяАяЗяИяЪявяЗяРяЬяСяЦ  9 $     яУяЧяЧяХяЫяеяОяГяВяЬяУяпяЩяМяцяия[я(яяHяюЫюуяя
-юџюЬюХюЪяяюгя_я{яCя7яrя[яXя8яNяeяSя®я·я§я‘я€яЂяМяВяЬяНяЅяМяИя¶яяљяњя®яКя¶я­я­яГя°я№яЅяѕяДя·я±яіяЗяФяВяРяєяГяЇяјяБяПяЙяЕяОяЦяЖяЯяЯяЮядяЬяМяЁяБяЙяёярятяыяЭяАяЗяеякяНяНяЩяЮяъ яцявяЯяЦяряЭязяНяЗяФяѕяЪяОяЧяТякявяжяйяХятяя  	якясяъ яъяяяшяхяя ящяшяШясячяфяяяшяьягян      ян  яя  яъяя     яфякярязячяЩят    язязязяхяьяеят    ярязяу   яыятяуяфятямятяшяэяы  яцяняЫяпяыятяэясяя яхяъ япяЫяФяЛяПяняъяЫяУяС яъяюяпяШяЦянячямяряжяйяжяЮяПяЩ  ямяпяыяРяЖяЩяпяшяъяБяАяЗя»яФяояжяияШяРязябяСячяпяѕяЙяЗяСяЮяЩявяТя¶яЪялят явяЬяляуяЬяЧявяПяЛяАяЛяїяИяжяряаяЬядяия»яШягяГяѕяйяхяЮяЪяУяляЫяСяЬяОяРящяхяЯяВяЪягяжяШ  	яУяТяиялявяйяляХявяЬяЭядяФяЬяДяшясяи  ямяйяЧяЕяОязяїяѕяИяЗяУяЩяРяЮяДяЦянякяъ яяяняТямяэялям яыяюясяхяляэ яЯяАяр ямяпящят   яъядяляЬямяъяо    яь        яуящ  яя  !   яшяюяшяпяІяЭ   	 яэящяы /    яьяъ  !яэят   - ящяо  яыяхядяояш     яш 
-ящяе ящян яцяюяпянят язягякяЭяЬяюярямяКяЬяеяФяжяЕяДябянятяеяЭяТяъ    - яюяеяОяЛяїяУяюясяЮяДяЗяЪяіяМяйяЧяПяёя№я–я,юЕяювюыюГюИюБюРюЦюля	юёювяkя_яHя,яYяdя`яtяWяQяCяuя“яљя“яўя›яџяЎя¬я­яўя©яµяјяДяЩяіяќяѕяЖяЈя·яёя±яґяФяТяѕяѕя№яјяГяЦя¶я©я№яµяЗяѕя·я­яРяляпяЗяЦяєяВяЯяУяСяИяияЮя·яШяЮяЭяйяШяБяЩяляёяНяРяЛяСяЪяґяИяЖяАяИякяЭяУяжяняйядяШяЙяш яфяеяфягякяСядяиядяояяяьяэягязяхянярячячякядяЭяо яуягяе яцяжямяу   *   ящяъяэяояпяиямяшятяряи  яшяояц яьякяъ ятязяляцяэ   
- яцяйяюяь яэ 	     яфящ 
-яю  яфяияа яя яЮяУянял ящяыяьяряЩяЭяюящягянясячяжяХяРяЪяФяЬягяЪябяЩяЫязяЫяХявятяфяияТяМяШяХяу ячяйяЭяЫяаяЮяжябяням  ямяо яфядябяКя«я°яНяЧяаяцящяЅяОяШяЛяїяСяЗяёяВяСямяйяЭяПяСяШяЬяЫябяОяДяКя°яёяыяЧяЄя«ябяиявяЦяояЗяЭядяСяДяХяУяояЬяНяОяйяояуяшящяияЮяФяНяѕяХяАяАяНяйяаяМяХяЪязяояфягяляЕяМядяИяфячязятямяаяс яшячяЯяРяОяеял ясяЫяъяюяЮяЯякян ячяжяШяряхяоят  
- яыяеяжятяяясядяФяр яхяЯяхяю яшяыяряГяфяояз  яя яс  % яч  + яюяшяюяэяш   яэяы яю  .   ят яюякяф 	      якяу   яюяч 	  яуяияы  	ядяс яйяз ячяхяяяжяЛякяп яйядячяд  ялявяжяФяНяЯяШяЗяФяуячяфябяаяб  ячяпяняоявяДяОяВяОяСяВяЕяДяЇяЛяЭяХяВяКядяїя>ярюхююяLяяя:юЖю‘юЄюЫюТюююФюЯя^яKяRяfяcяaя=яcяЏяtяIя@яsяљяµяёя‰я яЁя№яїяѕяєяЦяДяЕя¬яёяЮя¶я§я¤яЩя©яґяЗяШя­я°яіяЦяЖяВяТягябя№яГяЗяОяВяЧяОяМяеяЙяБяОяЛяЛяйяРяИяєяЇя»яЛяЩяНякяЗяєяјя»яјяЦяЦяЙягяЩяАяШяаяГяЩяляняФяЭ яЪяВяГяжямясяи яйяХяСязяш яияТядяЬяЯяЧязяйябябяйятяЪяф  якяюяэяцян яъяж    яв    яэ    яйяЬягяф ятян  язяЫят яыящ   ящяк яя ят  % яыясяе  	яьяляияя яЩяа  яъяЮяшяэяо  яфяФяФ    яуяы  яояцячяс ячящяпяеяеяэяыядяеяйямяцяцяюяя ясяеяжянябяЬяЧяЮявяШяРяЩяХягяЪяЦяФяШяыяряЯяМяЭягяУявяЛяёя»яКяЦяЫяУяМяЫяняЫя±яБяЮяОяВяёяЖяПяУяНяШяМяУяКяГяМяєяѕяИяєяЅяЦяАяКяшяЗяДяМяЩя№яёяФяЛяЧяШяСяЅяґя№яЦя№яГяШяШяЗяЯ ясяеяСябяояЛяФя±яАяЮяКяМя·яЛяШяЙяФябяпяПяЙяШяРяИяеяЫяЮягяеяоянянятяиязягягяп  яРяРяТяпяЬяЦялящяЯяцяоячяэяУяа  яеяЦяТяаяЫяНяжяЭ яуяь  ят    $ яо     яйяКяаяъявят 	  язяуяу  яшящ  яхятяфяч    +  ях  язяШякязяа яхямян 	 яшяшяшяш   яъ    як   яяяъ ярялям яхяояШяМяР  яшясягязяиякяХяЩяХяєяіяУяЖяТяпяйяЩяТяЕяїяр 
- !   яьягязяйяоящяГяПяЦяКяєяФявяЫяјя±яДяеяvюъя	юОючюэя&я•юмюиюїюЭюѕюеюхюРя<я<яkяRя?я{я[яtяpяTяVяqяяЋяўяћя–я±яҐяёя°яЁя°я§яЅяїяНяФяаяґяАяГяКя¶яЭяґяЇяіяёя¶яјяБяµяаязяјя№яАя­яўяЦя·яМяШяДяТяЭяЙяЛяјяјяѕяПя«я яЕявябяМяёя·яЛяКяЬяЩяеяМяЛяЪяШяМяИяЗяїяШякягяЪяЮ яжяХяЭяСяУяУяЭявяояыяЬяЪяФяфяПяЫяиявяЛяиящяпячящяжяыячяеяйякяа яхяь       яыяъ    яшяояфяи яъяк яэ   яьяьяюяъяыяс яьяфяяячящ  ящяияЫяРяжяъ    яьяъябямяПяСямящ ящ  ячяыяжявяк яюязяпяь  яоячящялятятяыяфяряеяпялязяЪяЯяУяЛяИясячяеяНяаяйяАяДяияЩявяеямядяЯяЛяДявяИяЅяМяХяЪятядяґяЦяжяНяОяТяУяЅягяуядяЖяАяЫяфяЦяДяЖяНяаяеяЫяжяУя¶яГяБяЛяНяїяЙяЗяЛяЛяРяХяВяДяПяИявяРяДяЅя®яЛяеяКя№яКяЦябябяЩяИяЙяКяЧямяЯяШядяНяЖяляОяРяуякяґяМяШяИяѕяЖяЧядяЯяЕяЕямязяияѕяЕяЮяЫяИяЭяцядяЕяЮяКяВ яйяйяОядябяЪяЮявяРяк  яеяияуязяеяо ясягяшяшяйяНяхяЭябязяуяюябяЮяеяпяЮяияьяф 
-   яяяЩ  яы  яэящ яеяй  " 	яйяцяю      +  
-ясяъяи   яы   ячяш  яняя яь    ' !яэях яляШят  яй  япяф яЮяа ясяу яуящ ящякярясяЬяп # яуяЕяХяжяйяжямяжяЩяХяШяаямяф ящядясяи  ! " & яэ яцяЭятяШяМяжяряшякяЬяЗяЯяГяХяая№яИяЗя2яяючяyювяюиюЪяяюкюИяюпяbя;яxя>я-я@я|яeяrяJяXя‡я я†яЋя™я©я®яёяЮя°я…яўяЁяІяЗя·яОя¶я±яАяѕя§яЁя±яїяІяљяљя±яњяґяІягяДяВяјяБя®яКя¶яТяЅяУяфя­я®яЖяЛяАяЮя·яЅяПяЙяИяЕявяФяЪяјяїяУяЭяЙяНяЩяМяЬяФязязяЩяёяЪяш яъяФяЧяЦявям яуявятяоящяфяЩяПяйябяЦяу ятяШякяояюяю  ях   яояш     яряъ 	 яьяояуяь япяфях ятяЯятяя   
-   яъяпяэ яыяп   яъяк   яю яя яцяняжяя яц   япяЭяяящянякяЩ   яыяй яхящ  яняпятявяДяєяПяЕяЅяй яжяЪяЭяЬяояеяПяУявяЪяЖяПяйячягяыяяязяряЬяФяРяжяпяХяЪяТярябяСяКяРяОяКяняляЧяФяЯягяЧятяЩяЪяРяУябяМяЫяЯяЦяЖяЮяЮяляТяЬяеяЙя¶яОяїяЗяляФяНяМяЧякяїяВяЧяКяФяТяКяјяНяФячязяЫяШяЩяОяЕяјяЖяФяйясяФядяСяЛяшяЮяЩяЗяЙяВявяляОяс  якямяЮяНяХяояряыятяфяжяНяГяТяЬяЪяч яхяняОяжямяЩяОяЦябявяеяЯяДяЛяЬяЯяцячяаяЮябяЬяФяЪял ящяШяИяМяляОяЮяияьяч япяйямяфяцяы   ямяшяфяфяЦяжяъяъяш яхяъ %     яцябяшящ      яляояф яояжяЪящяйяш     яэ & "  яяяц     яыяюяц   яя  яя  	       ятяу яряйяоянящ  ягядяеятяляляЯяпядяХяйяСяж яыяы яэяЧяПяс  *    ятяи  ямяыяияНяЧ яцяЦяАяЫяБя·яКяюЫяTяяяяBяYюдюСюняяюдяя
-я>яяaяPя1яuяђяOяlяkяsя…яЉя‚яќя‰яђяїяГяняОяёяЁя№яѕя°я·яВя­я®яИя¶яія¦яЅяТяЅя·яАяПя«яМяЮяРя±я¬я¬яњя·я№яёяВяВядяаяФяЅяќяВяВямяЪяВя°яПяняЯяояЙяѕяМяЄяВяИяЧяРяЛяСяеяЫяАяЫязяМякяйяия±яєяПяй  ягяШяЯяхяияю яЮ  яъ яюявяйяеяУяГяШяРязяп якялятяляЭ  	 яс 	яшяхяяяц яш 	яъякямяц яю    яс    яъяу 	  	 яюясящ  яъ 	яьягяуяуяЭяХяЫяляе  ям япяЯяляэ яш яхяэ  ящяТяыяшяияу яфямяэ яхячядяСяе  яуяляжяляЬясяпяЭяйязяУяРяияЮябяЫяХяЪяХядябя·яЖяняЧяДяѕяОяр яжяаяНяЦябяшяеяїяѕяЩяЧяюяьязяХяЗяиябяСяряЬяСяХяУязяуяЬяЪяЬяОяеяЦя·яИяШяјя±яѕяОяјяЅяЮяСяЫяМяМяМяАяГяНяРяјяДяЪяШяйяуязяЩяУяЮяЪяЯяНяѕяФябядягяМяГяёяБяаяФя°яМяЫяляЖяїя№яµяПятявяЦяЕяВябяУяШяфяуяц язяЧяЭяияЯяеян  
-яьяЭяЖяХяЭяЦяЕ яьязяюязяпяу яьядяиягяхякяю 
- яояр    япятяняжяыях яяял     янямяе  ятяьятяжял  яэ    яцяк 
-    ' яряс    яэ   яъ   яэяэ яйяр  яыяьяс  ячяр яь  ) ярямяцяу    яяяняПяШяЭяЪяћяРядяуяЮяляняХ яэянярядяКяРятяюяЮяШяцяшябяЧ  0  #яяяж яюясяюяуярятякяуяОяияояЪяоябяЛяАяряwя"я
-яђяяюэя"юояюпюЫюЮюѕюЙюБяIя<яHя[яUяYяnяbяYя”я€я¤я†яяЕя±яlя¦яЅяµяєя·яРяБя»яГя­яПяҐяёяія­я°яІяШяояФяіяГяЧяЫяЙяНяДяјя»яОяЄяЄяєяЅя±я№яИяЖяјяЬяЭяояФяХяїяЇяєяОяЩяХядяОяЪядяКяУялябяЩяХягязяЙяЩядяюяйякяняЯярящяфяЯяияжяЩяЪяйяЮяИяНяГяаяаяя ящяФяТяй яцяияжяоядясяяяЪяОяЫяФяШяХян яфяс  япяЪямяя 	ящяй  яшяцярясяц  яе  яфяЯяияфяияъ    яяяэ  яюяЫяЭяхяфяцяхяэяряа яяяшяжяЭяу   яеяжяЮяЫябяЯяцяпяпяияняы  яцясягябяхятявяИяНяйяеяїя­яБяц якяОяФяЬяЮяЬяЫяЪяЯяаяляЦяёяДяъяТяСяеяШяПяШяЦяЯяаяояляЬяы  явяХяЬяЮяАяЖяЯяпяжяТяХяТяЙяЧяЮя»яФяЛяБяЩямямяояФяРязямяЬяИя±яґяНяШящяъяияияжяпяФяЬяёяЗяЩяеяТяУяСяДяЫяТяб яйяїяОяДяЕяЧяояфяняЭяЕякяШяЦяЗяїяВяЭяряёя¦яОя°яОяТяйяФяСяБяНяУяМяЫяьяйягяБяаяЫяШ  яхяряФяЫяВяѕяТяЪяТяСяеяюяляЮяСяРях 	ячяЩяХяь  ящяЬяЭяы  якямящяэянян ясяъяЮяЪ     язяпяы     яряы   
-       
-яр    яь   
- яЮ   &яь  %  )   яэярягяз   яцяеяцяляъ   яфяеяФязяЯях яе яТяКяЛяХяјяХяяяпяпяк ябяХяс яняйяЖяОяияляМяляфяЦяЯяОяю   яя яцяжядяцяпяОяОяцяЩяЫяНяНяТя¬яЕяДяУяЖяяя/яжюэяюъюњюиюзюФюАюХюяюъюэяiяAя]яSя=яVяaяWяpя„яzяxяuя{я—я™я”яјяїяЅяАяЙяИяЖяЛяХяУяЖя яЁя№яґя°я®яґяёяЁяИяЪяМяЗяіяАяОяБяБяШяѕя·я·я«я±яЖяХя¶яИяКяЬяаяЛя¶яўя§я¬яЮябяТяАяЩяЩяХяїяЇяЅяуятявяая°я№яОяФявякяУяшяЬяСяляйяеящяпяаяеяЩяТяЫя»яеядяЪяиябязяЯязяъяняъяеяжяэятяШяояуяТяу  "   яя       ях     ятяч  яы    яыяф яу ятяю   яьяъяш  ятяЪят  яцяоятяш яьяэяуяю яы  ячяряеяшяряк   яъящяэ  ящякябякяжяЖяКяХящяЮяИяПяаякяЫяФяцяеядяРяЬязяПя·я°явяпяаязяЯябябяАяГяЬядяЗяАяЭякядяЬябяляЧяДяУяЭяаяЬязяЙяНяНяЗяЯяМяЧяШяШяДяПяЯяЬяаяЯябяёяЛяТяСяУяйяеяЛяДяЙяЗяТяШяжядямягяаяЮяХяПяЙяНяМяОяОяЙяЦяКяЮяИяёяїяѕябявяляЛяЩятяРяГяѕяЬяСяОя¶я§яЭяЧяУяЬяУяЛяЖяВяОяМяДяаявяиягяЭяаяЫябяКяЩяЯяПяКякяаяй   язяЗяЫялямяпяжяЮязякяйящяЦялямяМяЩякяжяпячяфяЬяЬяЪябяя  яряФяТяьяряЖяхяжяз ямяЫ  яхят    ящярящяюядям  яхяэ яюяо яэ  '  яюяь  яьяияшяя   $        яЯят янящяю   
-яхяияч    ящяш яэ  яшяцяЭяЧяУяЮяУясяяяъ ягяояе 
-яЩяёяЯяЧятямяЗяЖяп  яияЫяЦяж " ! яюяЩяфяЮясяаяЧяжянямяшяея¶яОяФяСяСяЩяЯяЅяEя
-ю№юьяUяWюыяюЅю°ювюрюияяюУяfя~яcяhяtяXя`яgя{я`яvя]яxяЏя“я…яЊяКяИя№яКяЫяґя¤яєяЛяВя№я¬яяВяїя№яҐяџя±я©я¶я®яІяБяґя·я»я·я°яИяґяЕяѕя¶яЙябяПя±я®я·яМяэязяИя№яБяхяояУя№яаяЧяјяДяёяџяИяаяаяЫяЩя»яїяЩяПяЬяЪяПямяюяеянязяцяэяЫяНяЭяЮяМягяЗяйяЖяОяїяж     яфяы яфяпящячятяояш яяяцяъях яэяыящ яюятябяг    ягяЭ   ятяФяю  яы  яъяаяч ящятяь яу ячяаяьяяяч  
-   яф    "     	ячяыяцяЪяляояЦяЬяъяпяЯ яуяжящяюяеяЫяИяЧягярязябяч яаяСяиямяйяЪяЯяЯяаянядядяОяЅяЕязябягяцязяЅяЪяЧяЧявяПяШяОяСяляпяЪяОямядяфяхяЭяЦяШяПяЕядяМяДяЯяЯяЁя¶яЫях яеяЧяУяСяДя»яµяШяЖяЧяЪяЖя¶яЬятяНяМятягяИяБяЪяЮяЧяияОяыяЬяйяТягяРяРяЅяєяЬяЧяЧяТяЙяМя±яЅяЮяЩяеяПяЩяяятякяЬяЕяЦяОяЩякясяЛяЮяъяТяРяСяСяєяїяЮяыязяЭябяг 
-яКяХякяЮяПядяШяФяияй яцяСямяКяЧяхяЦязяьяЯяЮяцячягяуялянят  яяяЩяш  яяякяаяЮябяб   ! B  ят  яэян яю   
-    ящяуяшядяьяуяпячяэ  яэяхяс  яю ящ яцяу  	     яя ящяя   яыяняояю   яьячяияЪ  яъяуяо яыяняйяНяЭярярялядявяхящяхяЭяЩядяоядяцяЭяЙяЩяНяКяЫ  яйяСяЫяжяы '  ! 
-явяояфякяЫяйяЬябяїяЫябяфясяеяАяјяѕяЧяаюЪюЌя4яGяљя7яя'юіювючя0юююЪюЮюРяdя`яOяPяfяЉя>я[яCяIя?яяя‹я—я’яЋяіяРяНяЅяЁя«я±я«я¦яНяИяўяЈя°яњя«я я¬яјяПякяСяµя®я·я­яџяЈя¦яЈяДяБяСя№яµяЕяЭяЮяПя»я№яПяДяШяБя«яЩядяЕя®яТящяЬявяЛяХятяаядяжяЩяияФяЪяЪяЮятяйяЕяВябяб ясядяеяяяШяФяЛяЬямядясяЭяНяияьяк 	  ямящяц яч  6 ясящяю ящяУязяыямяыяо 	 яюяэ    ( яьяю !    
- # яшяйявяуясяч яю  	     яэ      яляаяя   япяяях ящяляэ 
-язяФяШяЩярячяюяЯяЭябяоянякячякяПяИякязяЫяФяЧяияАяёяЗяаяЧяУяїяЖяЩяЪяЯ яфяЧяРяЬявячяфяляКяЖяпяияЬяЬяЕяФяЯяЭяпяуяСяаяЮят яыяояЮяУязяЯяеяСя±яВяЕяШямяйяжяаязяЭяНяТяТяЙяјяЬябяФяНяДяіяОяРяІяїяКяОяЙяРяЕяЕяѕяµяВяЧяНяАяГязясяКяСяЛяЗяЙяСяєяГя яµябяняЫяНяНяХяОячяНяДяјяєяЙяряВяИявяЧяТяХяШяУяЪ яЩяуяжяУядяЫяЮяѕяБяЭязявясявярягятячяс яряияЭяЗяЕяЦяэяряуяцяУяЅяСяюяз яЩяпярясяа   яюяняэяь 
-ячяЭятяюяь яцяЪяряияг    )  яяяйяи    	яю  яяяюяшяж  яеяЮяияМяу          	   яяяФяьям 	  яь         ящ    + ягяъ   яОяЬяиябяЬял яшязяжяи  яЩякяцяЪяЬяАяЫяНяЫязяйяЮяфяуяп    ? %яюяйяеяряияЩяДяШяЩяЩяжяЪяШяЩяЭязядяЮяБюгя юНяhяMяяCяBю—ю©юўютяюФюрю›я"яkя0яSя‚я€яsяaя@яeяqя~я’я€я€яЊяЊяµяЁяОяјяўяЅяЩяЗяµяёяґяЖяУяЅяПяАяЁяЬябя­яФяЕяШяБя«яІяёяАяЗяёяЇябяРяµя¬яµяжяєяѕяІяБяѕяВя№я­яПяФяДя°яѕяБяФяояЫяМяїяМяОя·яСяФясясяшяМяШятяеяйябявя№яіяОяняъяыяляКяЪяЭяжядяляеятяляСябяя яю  яйязяш яуяЮяЭяТячяхяюяц яыяуямяэят      ! ящ яьяю ям яцяы ясякяи яюяюябяпяпячящяюяняяяы  яряц   яфяы   яш яуяаядяы ягяФяжяюяр  язяляфяпяз яяяъяЦяУяХяЖяМяжяЭякяЫяТяияЩяЫяФяТяа 	явябяуяхяШяЧяЧяТяРязяХяняцягяаяМяЯяЩяСяЮяЩяЧяЮяцямяуяояЕяЗяПяЦяияЬяаяИяЙяјяѕяЅяФяПяТяШяЕяЅяХяцясяПяЫяуяБяСяСяЛяЗяЬябяляаяяяПяДяЪяјяїяПяАя¬яХяая»яГяЬяаяѕяТяЙяКяИяВяЮяїяКяЕяУяПягяияРяояуяьяФя¤я¶яФяХяУяХя±яТяфяЬяиякяјяёяЕяЯятяйяЫяХяЛяЩяояФяТясяияДяЖяьяаяЬяФяСяЧящяьящ яЫядялящясяъямяИяХяхяляРяЯязящяэяцяхяъятяф  
-  яъях яч яуязявяи  	яэ   @ (яняХяе     яьяп  %    '  яияКязящ     яюяп    яю    яьяЦяпяф яхяк   ячяш  
- 	     яч яч 	  яхябяФяЫяЫяйяаяхянявягяжяЯяиямяхяЭяпяояЬя§яРяеяЭяТяВяАяб 	    яфяияпяз яняЫязяЛявярямяРяШяШяояЮяжяЦя-юІяюЪюуюсяLяBя ю–ю«ю®ю№яя"юЈяlя“яqяlяZяCя{яKя'яkя“я‡я яyяЉяњя‰яґяўяЅя№яјяДяЫяёяЄя©яёяНяГяИяЙя¦я¶яЧяЙяЦяЬяПяЁяХяТяія—я я—яАяЖяГяОяЦяДяјя°я©я°яєя¬яЈяЁяёяЩяЗяЦяУяЖяґяЭяТяЕяУягяй ямяУяБяеяаяЙя»яЩягяМяјяЖяНямясяТяйяеягящяшясяяяШя№ягязяЯямявяФяУятяя  ян яЧязяшяжязяЫякяняпяь яЮям якяЛяб   	 яэятяч яюяпяыяыяьяыяюяеявядяфяъяц   	ячяпящ      ядяш  яьяжясяьяьяю яъяйяаябяпяыяьяняаяМяФяЦяМяняъяТяШялякяпяс яфяУяаяъяряЖяЪяфяфяеядявяияЬяеяияцятяПяјяЯяУяХяеякявягяэявяОяИяХяЯяЭямяМяПяйяШяХяЦяНяЪяТяЩяФяЕяїяСяНяВяЪяШяшяуяЛяМя¶яЗяПяФявяьяЧ ятяОяФяЩя¶я№яЛяѕяжяЬяЩяйяѕя­яГяУяУяКяИяЧяУяАяЖяМяфявяЛяЪя¶яХ ябяЖяМяёяїяЩяПяОяЫяъяхяЮяЮяжяЩяПяјяаячяЮяЯябяЕя§ядяВяНяФяиягявя·яїяЖяаяхяЬяу язяГяъяняёяжяхяЩяЛяјяХяняяяияЕ    яр яъяХяЛяцясяияжяйят    яъ   яаяжяляЯяияш яыяЦяТяряряЛяшяцяжяй  яЮяфяЭяРяъяхясяю яцяЫяЩяйяс  япяЮясяь % яфяу   яияйям яъятяп яп яяямяе   ячяп яуяьяняш    ' яфяжяияс 
- ятязявякяыяфячябяеяпяФяояяяйяйяЫяж яояЭяФявяЬяВязяЦяЕ   яю    явяШяфяЪяхяэяаяЬяЩяШячязяјяЧяКяЗяЛю¤юъюБяяSювяя_юоюАюАюЦю¤юшюWю¤я‡яcяgяЂяhяdя_яyяNяTяxяЉяЈя•яџяѓя·яїяљя©яјяЇяЄя¶яЗяµяџяіяіяѕяЬяєя©яєяМя«яВяИяОя¦я№яґяјяХяУяКяСя»яБяїяПя¶яІяМяЭяЖяПя»яЛямяЭяјяёяУявягяЦяЖяФяєяняхяСяЯяВяНязяияЯяляЪяСяЩяґяУях  яоярящярягяшяжяияляйяЭям яэ яхяЬяЧяФяояХяЯяС яряЯяЦяйяеясясяш   яхяряхяхяьябяьямяпячяэ 	яшяу  язякяияп яс яЭяЪяя   яыяряняш япяоячяъяы  
-яжяц яеяфяы    
- ядямящ  яъяеявяПямячятямямяпяряияояСяняряаяШяЫяпяпяьяъяляЩяРянямядяЬяПяЭящяШя±я±яКяЩяъядяЦязяЦяЪяЧяИяЬяХяеяпядяХяМякяяяжяляКяХяСяЯябяиядяЧяаяХяЗяЦяряЙяАяИяЧяЕя№яРяЪяЩяРяЙяжяЮяТя№яЕяРяЦяЖяРяйябя°яЅядяХяіяОяцяпяДяУяЧяГяЦя¶яїя®яєяЧяШяЦяМяВяОяЪяЩяФяАяСяцяЩяµя·я№яіяДяКяЖя¶яјяЧяЗяКязяЛяѕя·яЧяЩяЭяаязяжяеяЦяЮялягяЩяня»явяШяфяЯяЪяиясяЧянявяОядяияиязясяЦяЫ  0ясяґяЭящяаяЬяфяьяоятяу яьяфяьяюяЯяЯяйязяеяЫяйяпяуятяхячяыядяъяняляфяияс  ящ  яъяэялявяияуяняхятяцяэ    яяявяхяуяпяКям  &  яъяцячящяе яэятясяс      	 	яряю  яяяыяияъ яю  яэядямяоягя¬якям ям яхяуярясяаяЪяоящяфяФяЩятямяСяЫ яЭядяяяя 
- яьязяЫящяЧяНяХябям яЧяРяВяЪя±яПяПяµяЩяяя~я)юїюжюЮя&юМюнюйя$я%юзюЋю›яXя=я\яoяoяWя5я;яlяљя‰я}яtя‹яяЎяјяМяЫяНяїяЙяёяАяЅяНяїяЖяґяДяЛяяЏя«яІяФяЕяЅяАяЙяаяЯяДяЙямяФя№яЕя»яКяФяДяґя«яіяЩяјяјяАяЗяїя№яТяуяСяНявяЩяїя¶яГяЕяѕяІяКяФядяХяФяУяСяЭяеяЗяаяояч яЩядяйямяшяЪяХяЧяЮяЖяµяЭяряРяОяЗяТямяляЯяъ  
-яшяиялямямям яюяряэябяфяо   	япяфяшяйяРящ     ячящящяыяю 	ярятяяяхяз яя яэяц 	 яцяс  яц    	яряеясярябяъ яюятяцяжяХяцяъявяояц  яуяеявяуяцяфяЩяаяеясяЮяряц яфяняцякяпядяШяЛяЅяЯяУяФяХяияеязяжяЕя№яТягяЪяТяПяЮяСяЯягяЯяняЬяаяОяИяЖяБяЧяояшяшящяйяХяШяЬяПяОяЩяЬяНяґяЗяРяИяИяЙяТябя¶яёяКяЯяаяЦяЛяГяКяВяИяШяФяОяжяОяУяОяЅяЗяЗя»яїяЅяЭяОяЕяДяСяаяєяЅяМяГя·яІя¬яіяСяЭяйяЧяКяРягяшяЦяьяНяИяґя­яЯяѕяИяСяІяВяЭяэяЭяЩяЦяКяУяРяТяОяБяОяТяџяКямяДяЛяҐяЙяУяшяляПяпятявячяЦяо язяояеяняпяП яУяїяґяРяЦядям яфяжядябяыяжяйяъяЯяш ятяйярясяшяъ 	яЧяХячяфяъяф 
-  якяЩямяы яо ясяшяыяю яя яя   яцяНяЭяъ 
-ячяпяш  #    япяп  яэяиядясяняпяпяхяляъясяэ   ячяфямяиям   
-   ябяеяъяряХяЪяцяцяЭял яюяя яояаявямядяТябямяоян яхяф  %   , янячяяяМяжяѕяИяЧязяОяхясяКяфяфяШяРяня	яАяю}юеюмяяя7юзю±яюЪювютюЬя3я8я-яIяRяQяdяzяkя„я}яљя¶яЄяќя‹яqяЄяµя§яЁя¬я»я«яЖяЗяаяѕяќя®я«яЙяНяЗяёя°яОяЗяЕяєяЁяµяѕяЩямяХяТяАяёяБяНяВя·яКяГяМяЁяЗяЙяЛяШяьяхяряХяВявяХяЧяПяСяЧяЩяєяѕяЛяІяУяЗяДяПяПяОяЛяМяЙяряЬяЅяЬязяЧяЪя№яЪяЮяТяМяМяаялякяаяляояцясяОяУяаяз яцязяЭят    яЪядяЪящ    яхяэяыясяж   яю 	яхяЯяф  яюяияэ яу      яйяШяжяЬяш    яэ    ящяняц  ятяляжяхяюязяъяэ   яхяуякялямягяЬяКяТяу  яуясяЯяЬяляаямякяТяФяХягяЭяхяхяЬяХяЖяУяъябяаяХяЭяФяЦявяаяЩяРяЗяНяЙяТяШятяЬяБяКяЩяЧяЧяТяРяОягяяямяЬяжяЛяДяїя©яЎя№яПяЮяИяЦяЖяЙяНяЩяжяЯяйяСяЗяЅяІяЁяµяГяМяЕя±яїя·яЬяЛяКяФяµя»яШяЅяРя»яРяВяПяЬяХяИяЙяКяДяєяряЫяеяЪяКяјяТяЖяЖяЪяКяёя я¤я­яИяЪяЙяЦяТяЧяЦя№яЦяЙяЇяЫяЯяЗяЖяЖяјяВ яыяЮяЯяЮявяЯяВяЦяКяЮяпяхящяЫяляеяшякящ яЪяТяЫяЭяГяРя№яЧяЬяЪя»яш  яфяЪяыягяч яоячявяЩяхяфягял яюябягяЯясяыяЫяРяжяЪям яюяф яняояхяу  ясяш яцяэябяеяжяЯ 	 яцяшяжяэясяц       &яъяжян  " ятян  яц    яэ яэ яняюяы  ягяРяТяЯяПяЩятяэяшяфяэяєяй яыячяаяОяєяЪяЬяуяуяЮяхяъяч *  + *яояаяЫяоягяаяУяЛяЭяЬяц яйяШяЩяеявятяпяряЊя$яяMюъюыяя[яя юЖюбюбюсяяяЉя@я4яkяя{яpя‚яЄяrяKяњяђяЈяЉя’я‰я°яНяјя¬яіяЅяјя¦яџяїяИяЇяїя©я«я›яГяПяОяјя»яЦяїяНяНяВяЙяЪяїя®я·яИя№я·яАяИяаяµяОяХя¶яЗяЬяЧяЦяТяЩяНяѕяЭяФяїяГяєяЭяЧя№яЖяДяЕяПямяЗя»яЦяИяМяІяМяОяЦявяфяияФяЯяжяДяЪяфяЫяЮяРяюяхяляъяяяхяеяуяьягянякяь ячяшяХяфяшяхяЮябяпям яэяшяшяхящящ  яч   яъяяяъяь 
- яшяпяОяф  ячяяяояляуядяаямяэяъяю яъ яф  
-ялячяс  яцяуяюяыяыякяЯяеях    япябяЮяжяеяеяояЮязяаяляфякязяояьяьяпяляжябяЯяШяйяуяЯяЪяЫяЦяЛяЯяжямявяЮяЦяЬяЬякяРяОяЭяЬяРяМяїяЗяаяАяТяЫяЙяИясяЯяТяёя·яТяОябявяКяЅя№я­яРяФяЗя»яБяЛяоядяКяШя№яСямяФяЅяИяСяЧяЙя№яµяОяНяОяЦяХяКяАяПя№я°яЛя©я¦яѕяАяЪяаяОядяКяНяИяїяІя№яµяГяЮяєяКяКяСяНя·яўяЈя”я©яЅяСяРяГяЯяТяляйямяМяЯяБяУяЦяЪяМяТяАяй яляеяТяЫяХяНяДяЧяЩяФяШядяЬяТяШяляжяЫяняф язяч янямяеяжямяыяп  яняэяы  яэядябяЭяхяшяЦявят япяю  	ящяжявяр  яиякяс     	  яу   ял  	яаядяс  яс   якяЯяфяы 	яч яуяк       яйябявян   якяьям   ясяЭяЯяляр  
-яЖяПяОяХяеяпяуяуяю   яшяляЮяляиямяйяЬяДя»яияцячяыяхяЭ    & ( яиясяряняЩяШяЩязятяЯяШяЯякябяИяЙягяКю‘я'юдяюгюъя6яPюЭюжюЦюЬюрюЖюНяя±яѓя2яhяSяeя‚яHяcяRяcя\яя‹я›яІя‘яЯяИя№яµяљя я§яЄяЇяЅяЕяГяЯяЖяЕяєяБябяєяћя®я±яґяїяЕяЕя№яИяСяТяЪяЕяСяВяЁя·яіяє яеяТяряТя¶я§яЙяЧяїяИявяЮяПяµя¬яЬяЛяЧяїя®яЩяияЯяТяЅяПяѕяляЮяЪях язяйятяеягяуяляж ящяйячяряряфяцяСяЙяЩябяЩяу явяЧяб яЭ яыяцяпяоялядяи   яцяияняс 	   яы яъябяю   яэяэ   якядяп    
-   	яш    яхяэядяэ яьятяэ яшябяъяы   яъяляияЪяояыяъ  яъ  ячяЯяояЬяХяХяШягящ яъяуяаяжяаягяСяаяряь ярякязявягящяуяШяФяМяМяЦяУяэяЬяІяЖяЕяХявяСяВягяЪяОяИяняряНяЖяФяЬяПяУ яЮяФябяМяПяєя№я™яўяВянявяЯяјяЅяИяґяГяУяТяЕяЬяЗяМяНяКяЛя±яОяЛяЬяЫяЛяјяЛяНяЗяСяОяЛяйяЮяєяЖяМяаяїяФяПяЯяїя­я®яКяЭяЗяБяТяЮявя»я»я№яµяНяГяИяКяЧяйяСяјяЕяШяЮязяпяЩяПяЧяКяНяаяъямяПяУяКяЪяШявяЯяАяХяЬяаяПяЗяУядяшяжяХяэяхяшяйяРяеясяЭяаяы   яСяЙяр яс    яфяЫяИяуяуяп ят    яняфяуямячяфям яч  *   	 яш  0  япяцяъ  яц   
-яряюясяцяйяи  ( ясяфясяяящ яп ячялят  яшяэячяя       яи  яяячяУяОяЧяеяЬ  яшясясяиящятяс яуяюяюяояЩяШяцяи яшядях       яй   яляСяЦярясяЭяХяЬяЙяЧяНявяЛяНяѕяЉяяgюЩюпяяdяBюНюсюжючюҐюИюэяKяPя@я|я~яiяaя^яXяYяЉяЉя“я›я¤я­яѓяwя¶я яЁяИяЛяЛяЇяµяНяЕяПя¶яФяСяЮяЖяґяВяВяЕяЭягяРяЅя¬яЗя¶яІя«я·яГяѕяВяњяЙяВяєяїяЮяЭяЧяйяНяЗяЁяЩяЧяТяСяЗяЫяСяЫяЬявядяияЕяКяЪяКяШяЪяХяўяѕяЪялядяияляєяЬязяв 	яшябяфячяшяцяъяОяјяСяыяеяМяЪяЭяФяж  ящяаягясящяюясяоящямявяЙячяыяцяь яюяцярязяы     яс      яюябяШякяпяй яшяп  язянящяхяш     ячяляжячячяю  яжякямясяляряцяс яюяояияЪяияаяЭяаяЭяТяЬябяуяпяхяияЫяСяХяйяеяпяфябяеячяЯяшяЭяРятяаяляМяЙяТяТяНяЮ 	 ятяРяНяПяшягяХяая¶явяФяЪяНяСяЛяСяПябяУяВяЦяУявядяЭяСяЅяСяЛяїяМяХяЮяОя«я®яЗяЗяФя»я­яВяКя«я±яеяеяЅя®яНяЛяТяєяДяГяјямябяХябяЙяДяБяѕя»яВяЦяГяМяИяЅяИяВяїя°я§яёяНяНяХяпяТяЭяаяШяжяШяХяИяЖяЪятяРяЮяЛяШяєяОяЕяЩяЬяТяНяЧяОяЫяЩяЛяТяаяфяаягяПяВяЯяФяЭягядянясяЧяояияхяКяєяМямячятяЭялягябяпяєяНяжяояЫяЩяпяхяъяъяияи ячяЧяб яы   % яыявяю , , яфяюяняшяЭяояЬяц   яъяъяюявяЫязяч   яряЯ  ят !      $   яяяняз   6  яы ящякяп  " яшячяуяхязяЩяТякянячяхяч  ятяфязяяяпяЩяояЬязямяЧяЗяПярятяъямяжяряю ' % $ яи яыяхяняеяияфякяЦяСясяж  яАяёяУяМяВя…яaюѕюЧюЄюія6я.яючяюХювюГювюСяqяђяfяlя_яdяkя‡яѓяvяuя~я–я…яЊя™яґяіяУядяОяТяРяОя¦яЇяЭяаяОяЖяЕяЇяўя·яЗяГяЕяНяЯякяШя·яјяДяНяёяРяДяеяЪяЙяУяУяОяЙяЭяЛябяЧяФяВяЪяЦяРяЧяЙяШязяэярякядяЪяЧяЧяЭягяьяЭящяЮяЦяШяуяуяаямягяЧяпяГягяоягяфяаяЭяЯян яйяФяРяиякярязяьяяяю яуяцяы   ям  яЫявян    яь    яы  
-яюяпячяы    япяэ  яч  яйякяьящ  язяц  яы 	ядявяъяяях     ясяп     	ящяряйяЧяПяФязяъ 	 яьямяЩяПяс  язяояйяияи  яхяпяыяшяляКяЪявяеятячяжямяСяТядяОяияУяЬяЮяРяЕяіяСяфяряЖяБяОяЧя»яГяОяЫябяаяЬяПяТяЩяС яцяБяЫяХявяжяФяБяПякяЫяМяАя№яГяИяЛяЬяПяЩяМяЕяВядяйяУяЕяЈяЇя®яГяЫяНяЗяЬяЛяµяПя·яєяіяГяЧяДяѕяЪявяКяГядя®яЕяїяЫяЮяПяЩяВяРяКя№яЕяЫязявяряТяЛяєяґяСямяЮяїяЛявяЧяеяПяЯядяХяїяЇяЦябяШяЧяіяРяЯяЪятяжяЦябяОяКяТяЅяЭякяыячясяОяжямяЬяФятяряияцящяЕяСяияъ яняЮяп  яцязяъ  яч яфяе яряп 	   яе яняеяЖяЬядяпяьяцяуяхяъяьясяьяу # %яъ  яя яияЫяЩяжяэяряб #  яцяя 
- 
-яс  
-япяо    	   яэ яд 	яняйяояь   яцяц  яьясябяляуяпягяяякящ яяяйяЦяЧяЮяцясяУяЩядяеяШяЯяфямяр        яуядякяЬязятяряЯяЅяЬяСя·яЯяАякяияЫяРя.юбя яZя4яюуя%я%юХюµюЗюжюЕюЩюця^я`яaяxяLя_яњя“я;я‡яeя_яЂяlяyя‰я™я±яІяҐя¶я•яЕяОяКяЩяБя¬я®я»яІяЅяўяВяОяЁяёяЄяѕяШядяШяЧяЮя·яІя яіяКяЗя»я¬яѕяГяЙя·яМяНяЅяВяняЕя«яМяаяияхяПяТяЖяЩяЩяМяЭяОягяяякяФятясяЪяГя°яјяЕяЯямяяящяФяБяЪяТяДяїяКяМяПяЬяНяЯяюяеяъямяжянячяфяцямят 	    ях яу   яряс  	яе      яюяпяфяюячяЯязяу яяяъяъ яьяняфяыяэ  яш яфярягяч 	яэ ящяэяш   яюящяэянягяряяяляы 
-яоящ яляОяЙям яшяфяцякякяж  яжяЪ ячяЭябязяТяИяияляляеяЮяФяЛяпяжяЯяЭяиямядявяЯяияВяПяЬяЯяЕяЗяЪяЬяЛяФяжя±яАягяЛяКя±я±яХяЭяАяБяѕяВяПяХящяјяДяРяФяЖяияРяДяКя·яЙяШяОяЧябя®яДяБя»яКяаяЦя®я°я¶яПядядяУяµяєяЦяЭяОяНяµя»яМяняУяМяКяЛяЅяѕяЮяНя©яЇя®я№яШяГяУяѕяёяјяБяЕяЦяЗяХяНяЦягяЫяГяМяЩяпяЯяЛяЯяЅяіяЕяїяЅяХядяЖявяЫябяТяШяѕя»яЅяјяєяЫяоягяхявябяЭяияуяьяряояЩяеяляУяСядялях ян  яяясяряРяИяцяэяьячяжяЮяп яияЩядякяпяЫяШяияяяЯяЯядявябятяц   яЮяїяХяц       яхяхяфяяябязяц    яэ %яъяЮяЪ  якякяыяяяияеязябяляф яуяэяш   яь  яояшяйяляняи яфяэясяиявячямятях    ясяияЫяЗяЬяЬяъяыячявяУ     7 яняияРяЬяЭяСяМяЖяЯяЫяЩяияяяПяМяЮяОяЧя	юМюмюыяя^юеяmя&я	юляюДюЎю·яя]яЊяЉяrяlяzяqяяZяcяmяNяђя…яЋяЄяћяГяАяГяµяџя«яЄя¤яБяРяИяІяµяЗяБя­я”яНяФяЕяЇя·яАяЗяЪябяЯяИя¶яРяЯяВяГя±яМяОяія»я®яМя©яЁяїяЖяЫяµя¬яН яряЗяІяіяДяЅя·яІяцяХяДяСяСяаяОяЫяЕяКяЗяцяЭяУяЩязяЯяч яйяРяТясяпяжяляляДяд    яшяуяыяю 	яюяояш  ядяъяяяЪятяхяп яюяыясяя ямяю   ятяцяу  яюящ яь ятяц  
-ячяу   яфямяряпярякяя  яуят  янягяцяряняшятязяс ях   яояшяояжяжяЮямявязяж язяд яЛяЬяфяуядяУяСяУяАяИяЧяоякязяСяЦявяуяЯяШяЗяНявяуяяяУяЮяЖяµяПяЫяТяДяѕя№яїяЗяЕяРяЙяДяаякяШяЕяМя¬яБяЮяџя”яўя«яёя¤яІя·яѕяЙя·яЗяјя°я я‡я«я‘яyя‘я­я…я яЁя¶я¶яµяЇяґяЈя·я®я°яЋяЃя‘яЇя©я±я®яЁя«яЎяя­яКяЕя«яҐяўя¤я·яєяјя§я™яЃяЈя“яќяўяўя—яџя я®яЎя»яФяАяћяЎяЁя°я•яєяўя°яҐяЄя¬яЖяіяІя—я«я№яГя­яОяЗяФяµя›я…я¤яЮяХяняМябяМяФяЅяњя–я°яїя¶яћяПяоя·яАяЛя±я§яПяЬяуяфяКяЮяПяЧяІяћяЛяЦяЧяояЩяЫявяаяФя®яґяЛярявя¶яВяВя­яМяляЮяй яфял яЯяаяЦяЦяпяляИяОяЭяАяЩякяХяЮяля¶ядяаяйякяСяНяпякясяЬяляшяЭяВя№я№ягяЛяєяУ 
-яфяУяз яЦяЮяняЭяµяВяҐя·яжя»яІяѕяГяйяЦяЩяТяСя№яґяХяФяЛяЮяТяияЇяќяЙяЫяЕяТяєяЖяВяй     явяшядяНяєяАяЗяќя§яПяОяГя§яҐяСяЧяГя·яБя)я(я\я8яeя3я	я;южюфюјюєюЮюъяюыя я яюДюбюТюєю§яюПюхюЬяjя<яhяwяtя‚я‚я„яўя‹я†я€я…яЎя€я‡я‹я—яЋя»я–яќяЈяЇя№яtя~я я…я¬я¤я¤яљя}яЂя·я”я—я‚яћя«яњя№яєяЄяЊя–яЏяЈя—яяЃяђяћяЎяЄя°яГя®яЁя”яЉя‘я­я‡яЋяЇя±я·яІяДяµяђяЈяія›яЈяѕяїяџяВяЧяєя¶яЗя№яЅя™я¬яЅяНя¶яБяДяёяёяЇяЦяЭяЗяЛяляЮяЕяГяЦяЭяРяТяняЭядяЛя«яЪяНяєяПяРяЫяШяПяКядяЮяияЗя·яјяЪяЦяЮяЧяМяЮяЗяєяНяЦяТяУяУяУяКяЯядяШяКяИяеяияШяЩяЫяЕяўяЈяѕяЦяйяМяёяХякяХяШяжяЗя¶я¬я°я±яЕяНяЬяТяЕяЪяСяИяЛяИяБяЯяЯяАя¶яґяБяРяЛяАяЬяаяЧяоявяНяЄяЇя·яіяіяћя–яёяАяЄя”я’я‰я¤я­я№я·яћяЁяіяґяЕяЮяНя±яЄяЄя±я¦яќя›я¬яҐяљя—яЏя–я”я я¶я«яЄя›яЅяІяѓя“яЄяЄяЄя™я‘яЈя¤яџя‹я§яДяМяБяИяєяћяя¦яЈя¤яЉяЏя†яџя“яљя«яџяјя¤яЇяљя«я№яѕяќя¦яяёя¤я¦я“яџяіяѕяВяґяЋя‘я—яЋяЁя¦яКяјяџяБяГяЅяЌя†я•я·я©я†яЎяјя№яБяЎя яЫя§я«яјя«яКяДя’я†я›я»яияня·я¶яѕяВяјяњяҐяМяУяУяИяјяХяЭятяОя»яКяАяґявя•яВяЛяряОяЗяЙяШяФяаяїяТявя¤я­яЦяјяёяЅяєяСя«яБяСяКяЙяПяДяЧяБяЩяЙяФякяяяияВя»яКяЛяЫяЦяВяТяЦящяэякяИяїяШяЕяРяЯ яЕяЛяЭяляФяЮяйяШяЛяЯяЧяМяфяЯяФяняняНящяояЭяНяиякявядя«яїяѕяЛяФяДяГяВяЮяЮяЮяляМябяПя±я±яЭяјя№яЄяіяЯяМяЩяЫяСяёяЖяП  яь яцявяІяЄяєяєя»яАяЄя»я№яАяҐяяІяНяПя«яЙюЛяяюйюЬюмю»яюфюцяюЛяюЕя3я&яяJюмюЗю¦яюмяяBя"я8яя=я4яxя|яjя•яЂя’я–яЂяmя•яћяuя‹яєяѓя„яўяЄяµя–яяЎяЎя€яѓя”я•яњя®я”я„яќя§я¶я°яЊяЈя®яЎя±яїя¬я¦яЄяґяЁяЃя‘яЁяіяЇяЈя‹я•я©я§яџя¦я¦яЈяяія°я®яёя¬яџяјяЕяЗя®яҐяЈя–яОя¦яіяСяєяРябягяОяБяѕяґя·яБяЛяХяЖяМяЯяґя°яГяєяКяПяЪяЙя¤яМяЫяЭяЦяЛяЮяЮятявяЫяаяЙяїяЙяаяЪяТяШяОяФяУяЛяСяОяЛяЙяУяПяЙяПябяЭяЬяЦяЪясяаяЛяЛяЬяСяПяАя№яВяОяуямяЫяеядяУяЇя№яФяЬявяЧягяЦяёяіяПяЧяСяОяКяГяїя©яКяЯяЯяДя№яјяИяЭяЫяЛяВяїя¦я¤я±яЕя·яІяТяЦяКяµя©я—я›яґяЇяІя­я§я©я¤яЋя›я°я§я—яАяјяЪяЖя¦яўяґяЄяєя№я±яҐяўяІяџя¤я€яњяГя®я—я¦я›я­я’я¬я–я™я«я¦яЁя¬я›яњя’яЌяўя“яЌя™я”яѓяЃя¤яХяЮя·яІяЭяµяўяЁя§яЈяЎя©я¦яџяҐяґя«яЋяµяЅя¦я’я•я§яія¦яђя•яЁя•яЉя¤я¦яя®яя—яљяЌя„яЈя­яќяЊяџяўяҐяћяЊяґяВяКяНя¦яЈяЉя¬яОядяХяђяќяАяЅя»я«яЇяИяЅяТя·яўя«яєяґяќя’я·яЕяИяЎя»яЕя»я¶яЖяжяУя№яЕя°яЯяЬя»яІяЕяВяВяГяЩяГя§яЭяюяѕяєябяНяпявяМявяТяєяИяПяјяИяБяѕяєяРяЙяПяЩяЅяОяСяСяЖяЫябяояПяЬяяянягяеяц яляШяЛяТяьяЪяЕяляИяГяРяЖяш яеяЭяляъявяияЕяпяняЖяКяТяФяИябяЮяСяЕя®яжявямяЧяґяіяЕяЫя№яВяМяВяЭяЧяВяляАяАя»яЇяРяаяЮяГяВя°яЖяЙяХя­я¬яЩяу  ящяея«яњя¬яјяГя«я“яЏяВя±я·я›я§яєяояЛяГяВюљяюпюРяfяюЮяtюжюзювююЬюСюуяюдюгяяюиюеюµюЗяяюняRяiяVя`я}яYяzя’яђя~я}яЉя”я¤яsя‚яyя‡яя¦яя†яЁя—я\яvяђя_я[я‡я†я…яя‹я¤яЖяЈя“яҐяЁя–яyяќяяwя§я«я·я–яЎяЊяЅя¶я•я}я›яўя®я­яЋяЁя я‰я–яЕяПяБя¦яЃя±яВя§яјя§яЇя—яЄяјяИяµяБя№я­яїяёяя©яўя¶яљяџяЇяАяЗяШяЬяУяїяОяЧяѕя®яЖяБяІяЈявяЩяЩяШяДяЅяРяЗяµяГя«яЩяЛяПяВя±яіяМяУячяЩяЄяїяЪяУяЦяСяІягяияУяЛяїяГяЧязяПяЪяияЦяѕяЅяЕяЛяРязяХяєя§яВяСяВяЗяѕяєяАя·яУяЩяФяРяЩяШяЪячябяёяјяЅя№яЇяГяЬяЗя¤яЈяБяТяµя±яЙяБяБяія я°яМяЇя®я°яАяјя·яМяѕяёяµя№я¶яЛяГя я°яўяўяЏя§яЎяія¬я•я‘я¶я§я’я›я¶яЕяЄя°яИяАяљя‘я™я«я¶я©я“я«я­я№я¶яЄя«яµя·яАя яЋя”яіяЈя—я“яЎя«яѕяїяћяЄя№яґя№я·яВяґя±я«я¬я°я°яљя‰я–я§яЇя•я”я‰я’я§я¦яІя¶я±я¦яМя±яџяњяВяЗя яАяљя±я¬я‘я®яќяЄяЌя«я¶яЇя¶яЖяРя§я№яєяќяЎя°яЎяіяЙяїяЗяАяГяКяўя§я»яЎяЅяЁяОяИяЗяЄяЄяЩяДяґя°яЄяЁяДя®язяКязяТяёяјяЪяЮяїя№яїя©я}я°яґяЋяя­яИяЧягяЕяГяНяыяЭяМяпяФяЖя·яУяХяДя¬яЬяяяЦяРяДяєяЁя¬яМяЪяЮяняиядяШяЗяЩяУясядяъяХяИя®яЫярядяеяЭятящягягяЯяляжякятяТяДяи яНябяйяЫяНяАяЙяйяКяРяНяЧяРяуяАяІя№яХяСяЖя»яѕяєя»яЪяаяЦяхяня№яФяЧяАяиявя­яЛя©яўяєяёяЙяјяВяРяеяц  яэяхяЫяРяЫяИяияЩяФяія·яЦяґя¦яќя¦я®яЭяЦяУя“я}яя	я9я>яяlяюОюцяяю»ю№юОюеяюБюдюПю­юБю¶югя&я	юЯюмя6яLяSя5яDя†яІяpя}я†я™яўяЏя„я’я–яfя‰яwя|яЁя яџяћяљя•яя‚я€я‰я‘яҐяДя я’яўяљя“яoя‘я‘яИяїяњя±я¤яяЊя·я»яЋяuяЂяњя¶яЖяДя®яЅяЕяёяЙяЄя¶яБяЗяКя¬я±яєяђяЈя¶яРяґяОяШяЛяВяЫяКяЎя®яія­яїяВяЅяЇяаяЬяДя·яјяЭя§яЅяШяЪяЭяјяЗяЇя·яїяПяѕяЦяЪяЮяйяЫяФяЫяЧяСяИяРяаяСяЕяРяЗяИяйяЙяЙяРяЧяжяияЯяСяОяГяМяРяОяЛяЖяСяСяляцядяЦяОяЦяеятяаязяЬяШяЩяКяКяСяаяияОяЛяСяёяІяєяВяїяµяЕяВяёяИяМяУяЙяїяЇя»яЕяШяЧяѕяВяЛяЭявяЄя¤я я¬яАя±яИя±яўяВяЙяјя©я°яЛяЅя«яІяДя¬яЈя­яґяДяАяЇяМяНя±я¬яЄяЇя«яѕяія™я‘яҐя¤яќя‘я“я“яЇяЇя±я°яґя±яјягяУяДяђя‰яЋяЎяџя»яґяЈяЁяўя°я«я”я­яјяІяЏяџяєяія¶яВяЎя¤яґяіяµя§яљяГяія‘я©я™яљяЈяІя«яМяИя¶яѓя€яя•яњя‹я¤яҐя»яњя¦яҐя¬я›я’яёя°я¦я»я¦яњяџяјя©я¶яЄя“яЈя¶яїя·яґяѕяЁяЄя§яЕяЧяЫяґя°я№яЗяРяЮяЙя·я®яДя±я»яџя±яИя©яєяёяЧяїяМя¤яјяЗя»яЙяНяёяАя·я©я–яіяХяґяЕяЖяГяГяМяШяХяЗяІя»яЗяряТяія»яйяЦяЯяГяЪяѕяЙяМяЅяЙядяФяияЭях  яеяЕяЙяШядявяЪяДяЪяЪяЯяияЩязяЕя№я»я«яЬябяряЭяряЮяияйяеяпявяЗяйяыяЩяРявяЮяФязяЮяЬяІяЗяТяїяУяФяояЙяія®яІя­яХя¶яСяёяаяЯяЯяляѕяёяТяНяИяХявяаяляоягяГяЧяы   яю  яїяЕяОяМяЅя¶яДяНяЙяїяАяВяУяГяОя·яШяСя|яюая'яUяњяяIюЪюЫюйюаюЧюЦюЅюаюшя>ютюВюьяяюхюЙюпюЙюмя[яGя\я<яUя‰я¬яЉя я–я›яyяvя™я–яyяlяЃя–яЊяЋяsяЉя{яҐя–яЌя¬яnя~яЃя…я я–яtя‹я|яЄяЎя‘яЌяџя’яњяўя•яmя‡я¤яЈя‹яЃя…я¤яя‘я€яђя¦я‡яЏя±я©яЄяјяЮяЦя¦яЅяБя§я»яУяўяІяЇяїяВяЖяАя¦яЋяЎяУяЫяДяГяЭяХя«яЕяОяФяЭявяјя°яДявяРяАяЩяЛяЁяєя»яВяЗяФябямяЯяПяЧяжяЯяЛяВяВяАяБя»я»яМяИяВяИяМяСягяфяхяШяѕяЅяРяДяѕяВяЩяЫяЛяУяЭяляМяјяНяЖяВяИяХяДяМяЦяЕяєяЖяЫяРяБяБяПяМяШяШяґяєяЪяЗяГяДяАя·яПяИяЩяУяАяЛяМяЅяјяЅяіяєяДяєяїяФяЛяЖяїяЎя«яія я¬я·яЁяЏя–я®я©яЈяµяЖяНяЈя®яіяІя·яћя‡яЉя¤яёяјяЈя¤яўя™я‡я“я“я«яЁяµяГя¦яЏя яїя«яђя•яЇя¬яЛяЈя¦яџя яІя­я·яћяҐя я’я›яЁя»я’яҐя™я¤я­яя›яЋя‹яќяІя©яµя–яёяУяїяеяЬяЕяІя®яія›я—я•я~я—яќяЈяњя„я—яґяія®яКя—я›я·яяѕя°яЄяҐя­яњяЈяєя­я¶яЗяЖя›яћяЈяЗя¶яЕяёяєяМяАяЙяѕяЁяЅяѕя©яГяЁяАяїяШяМяБяёя№яєяёяЏя«яЦяРятяБяСязяХяБяБяєя©я–я»яРяМяКяЪяцяФяГяАяЄяЦячязяиязяЛя»я№яАя»яБяЯябяЩяЗяНяЦяѕяхяьяКяЦяеяЮяЭяЕяИяДяИядяёяІя¶яѕяјяАяГяжяЫяЭямячяЫяляЭяГя¤яЮядявяеяиябяТяЬяДяЦяЯяЙягяияХяляСяаяВяЗяаяеяТяояляЅяБяУя№я±яєяµя›яЖяПяЁя›яЬяпядяйяСяјяёяАяјяґяБяґя·яЧяГяіяЊяўяз  яя яХяѕяДяняµя©яГяОяИя¶яЕяВяїяФяХя№яћя¦яЎюсюЪяю§юШя1яpя(юУя	юоюСюляюнюиюћюЫюэюёюЛюая-юЦя юшяя яVяKяGя.яUя‰я‡я‰я¤яљя{я„яuяЄя“яqяtя“я„яЏяЉя~яЏяя±яВя«я±яЁя•я•я§яµя‰яvяЊяЊяЈяЎя яџя”я·яљя–яwяџяЗяя–я­я‡яmя«я«я­я‰я¶яіяЎя›яЈя§я‡яяЎяЇяўяЎя»яЅяБяЅяЙяДяГя»яЩяТяёяЅяЄяИяїяІя·яїя¶яЛяНяЖя¶яЦяЫяЦя»яЭяЯяЛяїяТяаяЫяБяБя¶яДяФябяйяЯяСяЫяКяЮяояияаявявяСяЬябяЭяЕяїяЩяЧяНяКяНяЧяСяЭяИяАяіяОяТяЭяЪяФяПяМяїяЧяАяЇяАяЈя¬яДя»я»яНяЩяБяЅяґяјяјяПяСяМяЙяЦяїяјяПяАяЪяЦяСяЪяЭяОяИяаяЗя¶я§я±яѕя№яОяШяГяёяЗяДяФяЫяЖя­я­я·яІя‘я†я•я­я°яґяІя–яќяГяЖя©я®яґя я«я–яя„яЎяўя»я©яџя°я­яљя±я«яјяњя я—яЉяґяЇяЎяЖя–яЉяЏя‘я я–яџя’я яќя—я§яІяњя›яњя—я«я№я¦яЁяУяЖяЇяЉяЂяЉяњяБяЅяњя·яџя–яЄяІя·яҐяЋя”я¦я‰яҐя яЁя‰яҐяДяІя’я я™я­яЎяРяТяУяµяФяЛяУяЗя»я§яЄяЗяЇя„я¤я¤яія±яњя¤я§яљя±я«яџяђяЁяЖяОяЛяїяЬя­яџяҐяёяЪяПяіяЈяНяМя№яіяАяЯяїяДя·яЧязяњя±я№я°яВяѕяЈяёя№я¬яєя®яБязяЫяќяёя«яМяАяЮяЦяЙя­я±яаяЧяРяЮяпяТяЭяШяВяТяВяЯяШяІячяаяЛяєяХя·я©я»яЙяіяЦяЕяЗяОяНяЗяµяВяЬ яРяТяняЫяЯялятяцяйяЫяЅяжябявятяШяСяияня№яШяЮяЯяЭяУяПяШявяЮяряИя¬яОяШяГяµяёяВяояХягяІяґядяцяеяряЧямяЖяЙя°яИяЙяДяИяѕяДяјя®яШяз 
-якяч яюяАяѕяоя№яТяя‚яЋяћя§яЅяЋяЎяћя›яЄяёя№я|яюКяяFяAя6яґю®юзюСяя;яюгюМювюТющюпюзюхюЙяQяюья3яя)я1я#яHя=я|яяџя|я›я–я‚яЃя†я|яpяhяћяњяЄя€яzя–яЌяЉя©я‚я€яrя“я§я­яќяҐя­яґя°яtя€я–я»я«яµяђя я‚я…я’яњя±я¬яЕя§я”яЊяЉяЇя­я…яІяћяѕяЈя’я“яЎяґя­я¤яњя™ягяеяДя¦я·я№яЛя¶яµяЛяПяМяРяНяКяБя¤яїяЫяЩяЦявяИяТяаяжя·яґяСяѕяМяУяОяЭяЬяОяШяЪяСяДяРяФяБяМяЕяГяДяПяЧяёя¶яБяМя№яЅяШявяЙяБяїя°яґяаяляРя±яВяЛяВя»яЙядяпямяСяКявяаяёя»яЩяЬяДя¤яМяъяцяѕя°яѕябябяИяБя§яўяІяІяїяШяЩяДяРяНяГяРяХяКя·я«я№яМяјяЇяІя±яўяЏя–яАяЙя»я¤я–я­яјяЇяµяќяҐяќяЈя™я«яјяјяўя«яЧяµяЁя©яѕя®я±яЄя¤я§яјя­я¤я»я°яҐя™яљя»яґяЁя™я­яАя№я­яВяЅяЕя¬я”я“яЈя©я©я¤я—я’я‰яњяЈяїяіяІяҐя№яИяљяњяИя§я я яґяєяҐя—я±яґяћяЁяљяџя›яЄя я|я…я—яљяіяїяўя«яќяя©яќяµяёяРя–яЎяёяЖя‘я„я›я©яЅяјяіяўя¶яћяЇяЏяІя яўя¬яљя”яЋя¬яГяЭяЩяМяЬяНяЎяЛяУяОя¶я—я яєяЈяўя®я©яёяКяѕяАя®яіяЗяПяИяЇяЁяµяЖяЫяјяПяјяВяѕяШяЛяєяЈя«яАяЙя»яЬяґяЪяЪяГяРяБяСяпяЦяВя¦я°яєяМяаяЇяҐяГяФяЧяјяіяРяНяЁя»яФяияЦ ядяляяяряПяЖяЧяа  яїяµяСяТяуякят  яфяцяеяЦяТяЫяДяЪяЯяХяјяЭяеяжяГяЛяЕяЦяЦяЗяєяляцябяЯяЩяПяОяВятяЧяЙяДяфяТяВя·яЖяіяЁяµяАяВяеядя№яРязяУя»я№яАяЮ яи  	яФяѕя±яАяЧяЙяњяґя±яФя®яЎя—я®я”яЉяљя•яҐя9яя)яQя=яѓяџяsюЮя(яюцяяюяюСюУю±юФювя7я\юиюЖюдютюФюяя1я>я]я[яZя†я¦яњя‡я†яyяЃяЊя›я”яЊяѓяЌяќяЏяќяя«яЊяђяћяЎя–я‘яzя яўяќяnя•яўя{яЈя–яўя•яҐя›я§я¤я я•яЏяВя—яІяГяЄя°я’яЄя•я“я–яњя’яЄяВяҐяЗяФяІя’яћяјяјя¶яіяіяЪяВяЈяПяЁяќяКяЈяІя»я»яЅяОяёяѕя­я№яЗяјяЕяЕяМяТяµя»яїяФяСяПяЮяШяТяДяШяаяХяШягяФяіяїяПяКяЫяТяНяЧявяФяАяРязяєяїяУяШяХяЪяОяАяБяЖяЖяЯяаяЖя¶яОяНяїяјя°яµяјяїяПяБяОяШяИяПяЯяТяБяДя·я¬яРяРяМябяГяФяЦяЛяБяБяФяШяѕяёяєя¶яЗяЕя±яЄя°я°яЎяЇяАя°яўяњяђяљяЈяўя¶я­яТя·я©яҐяµяјя»яџя¬яЏя°яЇяЎяЄяЕя±яГя¬яЎяўя¤я¤яҐяҐяµяҐяћя¬я я”яќяћя©яФяшяџяЈяяЏя¤яОяАяЅя яўя°я©яИяеяЦяҐяя§я®яЇяґяЕяµя­я°я©я§яҐяћя—яџяЊяЏяџя‡я‘я§я«яћяҐяёяЖяВяЗяРя°яЁяџя я±я®яџя–я…я“я®яѕяїяќяџя°яЦя¶я­яґяЦяўяБяЅя–яўя›я{я‡яњяБяўяЈяЎяќя’яЁя©я©яёяІяµяЛя±я”я€я¦яДяҐя”яДяІяЈяЏяќя—я•я®яДя«яЬяЖяИяЛяХяія±яняаяЅя¶яЮяОяКяДя¦я—яДяЗяРяия©яњяёяОя№яНявяКябяИяМяЛяґяЧяЬяИяДяРяШя§я»яЅяёяТяЪяЭяъяЪяжявяеяряЩяҐяСяо яЫяїяЙяХяєяУянядяЪяЗяБяНяДяЗя·яБяФяЮядяжяжяЬяЛяНяЖябяТяЬяАяБяаяЫяјяТяЬяХявяЭяЫяЙяДяМяМяИяКяШяФяЮязяряАяЭяЮяХяВя»яеяЯяїяТяЭя­яГяјяБяµябян    ) 
-яїя¬яЗяОя¬яЇяЕяЖямяЙяШяМяБяОяАяія“я·яя9юЦюфюжяPя;я=юЪюТюТюМю№юґюбюрю§юЕюГю—юДяюЙюжяюЯюЗюСя.я`яLяDяTяћяя‚я~яѓя‰я’яЃяlяfя—я—яzя{яvяЃяљяЉяxяqяzяњя®я}я”я–я€я•я™яіяёяґя я©яҐя›я…яЏя®яЋяНяЄя—яіяҐя·яґяя я€яЌя…яЎяя‹я–яЈяЗяЇяЈя¤я¤я»яВяФя·яҐяКя¬яјяїяМя°яҐяњяІяјяХяГяРяОяЭяДяУяЩя°я­яѕяґяСяеяЭяШяЛяБя«яјяОяЦяѕя№яµя№я±я±яҐяШявяЖяЙяПяШяЭяЛя¶яЛягяЫяЛяУяЯяУя·яЕяИяЪяЬяеяМяЩягяЩяШяйявяЛяУяЖяЪяРяёяЖяФяУяРяАяЖяпяряжяНяЁя®яРяЪяБя»яКяКяНяЕяЅяУяФяПяЅяµяІяёяЇяЁя®яБяєяЅяСядяЦяЅя¶яМяГяНяіяЁя™яЈяЈяҐя«яя‘яЈя яіяВяјя·яОя¦яђя¤яѕяЇя­яЁя№яБяЅяІяїяЧя°яЁя§я®я·я·я®яµя‘я‹я­яШяБяІяЇя›яЃя‰я¦яёя­яќяУяКяІя™я›яЇяљя•яўя¬я§яБяБя¤яКя¶я–яЎя¬яѓяњяЁяїя‘яҐяЇяЖя©я®я¤я¬яЛя­яҐя¦я»ягяµяПяћя”я­я­яћя«яія•я¦яЏя{яяЖя»я“я­яўя‹яѕяЗяДяЄя°я“я“я‰я¬яІяія°яђяњяЇяґяНя§я›я»яія™яяґяєя¤яµяёя§я°я°я®яџяЈяНяНяїяОяЗя¶яЗяўя•я«я™я›яЗяЕяояГяѕяЫяхяЮяЧяРяояПяЕяПяОяСяСяґя¶яПяЦяКяДяЮяаяШяёяХяєяЇягяБяГяМяНяЛяИядясяЦяµяТяДяјяИяТяЫяЩяХяЁяЈяЈяЕяВяАяЦяДяЦяняЯяХяыяляояояВяОяряНяТяляаяДяШябяЮяЮяЩяряГяНяНяОя®яБ ябяРяЄя·яИя±яјяТяЕя©яУяМякяБяЪяНяКяАяІяІяµя¶яГяЗяУяЫяЛя«яЮясязяЧяюящяеяц   ясяЦяИяВяЁяФяСяѕяћяЗяОяНя«я­яДя»яМяќю¶юЅяяVяsяюПяюРюёюЁюуюќюЫяюрюпюсюКюуюћюзюЎюЦяюрюыюЕя2яYяRяbяaя яяя•я±я—яЇяіяyяќяњя„яяѓяwя|я}яЂя•яuя…яЊя‰я–яўяЂяђяНяНяАяЈя©я“я•яўяѓя“я•яЌя|я…яћяџяћя я я№я¶я¦яxяyя’яЊяћя”яљяЅяѕяНяЙя»я¤яАявяЮяЕяКяІяЇя·яҐя»я»яЗяЇя»я°яОяШяЪяКяѕяНя¬я­яўя©яЗяГяаяХяЅя­яЫяІя«яИяЖяФяНяїяіяѕяеявявяіяаядяИяМя­яЕяАяСяЫяияаяНяФяЕяШяЪяПяЦяШякяЭяИяЫяНяЫяияаяРя»яЗяЧяЫяФяНяЦяУяДяёяѕяЦяняхякяРяїяЎя™я«яѕяГяїя·яСяЬяЪяЯягяМя®я«я°я№яїяНяОяЕя¬яґяЦяаяыяЫяАяОяМяЅяіяЄя¶я®яАя»яЇя§яЄяµя¬яћяҐя«я·яИяіяёяЙяЅя™яЏяЁя¶я§я¦я®яГяШяёяѕя я№я“я{яћяяЉяЉяІяДяМя«яЎя¬я№я®я™я§я—я’яќяґяЈяќя”я©яќяЋя»я©я•яњяЙя›я„я‚яёяёя№яѓяҐя­я›яњя‡я№я±яЄя№я®я¦яўя§я„яЃя…я«яЎяЈяЋяЏя¬яЏяЁяЉя™яҐя—я¤я я›я«я№яҐяія§яџя¤я”я–яґяЕя§яєяЪяЕя¶я°яЅя©я©яЁяЎяїя·я—я‚я­я®я¦я«яЕяЬяЗя¬яАяГяЅяєяЙяЦяґяµя—яяµяµяДя°я©яАя“я–я±я«я»яТя¶я‘яћяЩяНяґя»яЈяКяИяХяЪяІя¦яЖяєяБяўяоясяиячяПяХяєя’яџяѕяКя»яЬяТякяуяйяфяЬяКяЦяЅяМяЪяЯязяйяПяЄяіяИяОяЖяЫяФяМяИ  яЯя№яХяияняИяЩяВяЇяПяН яШяЦябятяНяХяаящязяБяБя·яУяхякящяЖяКяЙяАяЙяёяІяЇяОяеяЫяЭяеяЖятяМяЄя•яКяЇяОябяСяІяНяИяИяШяГяКяНяь ят  яЮяКяѕяАяґяКяЦяЩяряЕяЁяКяБя±я‘яЗяЩяН  яПючюВя,юія>яDяюМюПюбюРюёюµюИюКюзюшя ю¶ю¦юДюцюЛюгютюфяgяiяrяrяCяyя©я—я я•я†яЌяЈяљяsяЊя†яЂя©яЌяїяЄяЋя’я™я°я‰я…яЏя€я«я¤яЌяЏя—яџяЄя¬я–я‰я¤я”яЇя я­яИя±я©яНяЄяћяЁя§яҐяЈяњя©я¬я§я›яЄяИя°я№я­яџя•я·яєяЋяЊяЇяЎяўя™яўя©яєяСяЗя±яЗяКяјяЧяЗяШяЯя яЖя¶яАяСяПяЦяаяЭяТя»яѕяЕяУяРядяЭяФя—яЈяєяїя‹я—я¶яєя“яЈя•я•яЉя™я™я—я¦я’я–яЈяІяњяrя‡я—яґя¬яЄяќя›яЎя®я—я‹яЏя™яЋяЋя”яћя°я­яЈяџя яђя‡яЏяЏяќя‚яoя{яџя«яћя яҐяіяЎя™яљяҐяЉяvяЉя§яВя¤я†яrяXяbяtя‰я™я­яЁяЌя^яfяkя|я|яќя‡яyя„я›я яя{яuя~я‡я›яЉя|яя†яЊя\яIяoяЉя|я¬я{яvяtяeя€яnяvя‹яcяYя~яwяgяQяЂя‡яЉяqяiяЂяzяѓя”яќяўяrя^я}я’яfя„я…яgяlяkяpя`яKяkя{я\яiяWяѓя†яpяgяuяђяrяяЏяњя~яЉя‹я…яlя_я_я–я‰я’яvяwяЃя…я—яћя~яsяcя‚я¦я¬яґяЌяkяЃя€яfя„яfяsяqяeяiяvяѓя яЋяjяVяKяeяњя™яўяђяяtя~яeяМяґя‰яЃяZяoяЌя§я»яѓяzя¦я‰я я{яbяЃяяІяЄя’я яћя€я†я—яЯя€яЂяЕяБя яgя™яЁяµяПяжяёя‰яія‰яџяАяјя®яЁяЇяияМяІя€яЄяВя«яЫя±яї 
-яйяћя…яЈяёя‚я·яЛяїяМяѕяЪяИяяЎяДяУяЛяЙя»яІяЇяєяХяјя§я®яЗяыячяОяЛя¦я«яБярядяЯяжящяЬяАя©яЎяіяЯяМяжябяёя®яЮяРяЖяКяИяАяЕяќя”я яІяпя¶я«яіяБяЦяЗяТяъ яЦядяЫяияКяќяМя±яЮядявяЦяЮ    	  2яюя°яЫяєяСяТяХяФяБя¤я я°я¬яІяґя¬яЙяАя¦юГяUяbя:яeя(я,яgючяяюЄю¶ю©юЄюЪюыюЩюЧюЫюсюфюЯюсюГюВюсяяUяTяOяqяWя3яhяNяjяaяOяHя<яmяpяLя,я-яЊя”я_я^яcя=я1я6яMя[яXяVя>я|я‡я„яkя‡яЃя_яvяЏяiяlя_яя‚я™яxяqя{яiяxяVяcяmяfяtя`яKяlяpяzяЋяzя”я†яlяiяvяeяvя­яљяqя}я‘я§яћя‚я}яNяfя‡я{яoя—я—яxяuя›яЎя­я¤яЁя–яњяџяҐяzяwяя‘яЏяЉяЉя»я™я|я|я†я‡я«яЎяўяЎя—я¤я яЂяђяЈя–я–я¤я­я™я¬яљя„я–яБяїя®яћя“я„я‡я”я”я•яя яќя§яҐяpяђя¤яЈя™яџяЎя я—яљяћя—яЊя”я§яЎяћя†я‹я¦яЅя‹яgя{яњяµя¤яКяЈяЉя—я”яЌяЏя“яџя”я¤яћя}я~яqяeяxяlя{я|яя~яoяя‘яzя]я^яsяwяlяtяwяhяZяyя}я}яvяЃяЃяvяeяbя‰яzяёя¦я”яgяkя”я’я‹яyяnяnяyяoяsяeяeяlяlяbяЎя­яmяNя\я\яhя„я‰я„я…я‡я‹яЊяyяЊяwяvя‘яyяЉяљя‰яZяdяpя{яiя{я’я†я‹я‚я~яvяЏяяљяђя|яjяxя}я’я§я§я~яtя€яЈя†яђяяЎяVя\яѓя•яuя]яzяtяњя‰яbяxя•яuяsяnяЊя–яЃяyя}я{яZяbяYяpя›я‹яЉяќя–я“яіяЋяЌяїя±яЈяЄя™я‰яЁяМяУяМяЙяђя‡яѕя°яАя¤я•яѓяЂяўяАяєя›яњя~я›яїяЕя«я±я№яљя—яіяРя­я’я‡яџя­яТяГяЅя№яЦяаяєяџяБяфяЕяГяОяЬяБяСя‘я”яАявяДяЄяЙясяЫяДя·яняУяЛя°яАяя§яњяµяѕяйяГяЫяЦяЗяХябя№яиясяаяДяјяҐяёяУ яМяЬяШяОя§яЗяЫяАяЎя®яСяєяЧя¦я¬я¬я—яЋя¬ явяЛя¤яћяЦяЪя¶яўяіяћяєяЎя»я§я¶я№я–яєя§я­яЦят  яцяйя±яОябяуя®яҐяЗя¬яјяљяµяАяЮяНяЭяРяЙя¤я(яЈяjя‹я&яяaюЬювюцюПюпюљюҐю°юєяюДю§юОю¤юЛюФюФюФяяяяXяяJя{яlяHяTя<яEяPяlяJяZяsяњяљяRя7яcяzяZяUяrяkя-я,яJяXя‚яTяBяFя‹яЉяЏяTяѓяѓя^яhяjяGяEя{яSяJя†яяpяTя\яgяѓяqя€я‘яgяѓяvяZя±яЇя“я…яЉяmя„яeя\я…я†яЃяЃяxяЄяЈяЊяxяЋяwя…я“яњяџя‹яUяxяЋяЈя”я•я¦я„я‡я‹я€яџя–яgя“яЄяyяџяЎяќяњя†я„я¤яќяяЏяЎя яoя™я­я©я«яЎя яµяВяЄяђяљя¬яЎя…я†яҐяЛя”я¦я›я‰я•яіяґя€я–я¤я®яАя®я­яЎя’яЋяЎя«яяЋя©я’яѓяЌя€я—яўя–яЌя“я­яќя}яkя‰яЌя—яЁяёя­я‰я‘яљяЉяяЁяxяtя™яяoяaя{я|яuяѓя€яmяkяЂяbяoяkяђяљя‡яoяvя‘яqяbяbя~яbяeяjяdяUяoя‹яaя]я…яяiяhя€яяѓяЂяgяuяxяcяgяiяsяwяiяbяaяaяRяqяЋяmяdяpяiяpя§я‹яtя|яЃяgяbя[яeяbяqяqя•яfяXяuяЉяsяzя}яmя†яoяXя›яЂяЄя•яZяlяmяqя\яTя†я‰я…я|я‰я…яљяЄя·я¦я‘яTяeяіяњяqяЊяЃяpя—я‡яіяИяќяzяXяzяYяѓяЎяЊяmяlя”яњя–я’яgяqя™яїя№яіяЈя­я¬я¬я‰яaя‰яzя®яЃяѓя–яХяРяРяяqяnяќя«я‰я­яЁяЏяwяњяГя—яДя­яБяРяЇяФяъяУяЪя©я–я¬яОяЋяўяџязяЁяЇя®я°яќя“я»яЙяЗяїя­яья‘я‡яТя­я…яНя¤я яљясяпяСяп яДяµяѕяЭяПяКяЛяЄяНяВяШяФяДяЖяЫячяиягяЦяњяФясяИядяјя яДяВяОяіяюяГяНя¦яИяЭяРя«яёяЪяµяИя“я™я“яѓяxяјяМяцяаяўя±яЮямяЮя§яЎя·яІяµя я…я”яљяџя№яЇяЛян & %   явяШя±яћяЭяШякяОя№яѕяЕя»яѕяХяёя§яёяЎ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
