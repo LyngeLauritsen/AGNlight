@@ -16,7 +16,7 @@ from multiprocessing import Process
 runs = 3000 #Number of runs (arbitrary due to the gradual updates, would probably take close to a month to run)
 runs1 = 10
 step = 10. #Timestep (days)
-slopeaim = -2.5 #Slope that is targeted
+slopeaim = -3. #Slope that is targeted
 slope = 0
 mean = 140. #Transfer function
 sigma = 0.8
@@ -64,19 +64,26 @@ print data[:,1]
 
 print error[:,1]
 
-cont_days = np.arange(min(data[:,0])-200.,max(data[:,0]+100),step) #Defines the spacing of the light curve
+cont_days = np.arange(min(data[:,0])-400.,max(data[:,0]+100),step) #Defines the spacing of the light curve
 cont = np.zeros((len(cont_days),3))
 cont[:,0] = cont_days
 cont[:,1] = np.nanmean(data[:,1])
-#cont = np.loadtxt('CONTINUUM/NGC3783-continuum-slope-2-5-3')
+cont6 = np.loadtxt('CONTINUUM/NGC3783-continuum-slope-3-6')
+cont[:,1] = cont6[:,1]
+#cont[:,1][:20] = cont6[50,1]
 day = cont_days[0]
 
 data_comp = np.zeros((len(data[:,1]),3))
 data_comp[:,0] = data[:,0]
 data_comp[:,1] = data[:,1]
 data_comp[:,2] = 0
-#data_comp = np.loadtxt('CONTINUUM/NGC3783-data_comp-slope-2-5-3')
+data_comp = np.loadtxt('CONTINUUM/NGC3783-data_comp-slope-3-6')
 #print data[:,2]
+
+plt.figure()
+plt.scatter(cont[:,0],cont[:,1])
+plt.ylim([4e-15,1.2e-14])
+plt.show()  
 
 flux1 = cont[:,1] #Series of items for the Kelly 2009
 time1 = cont[:,0]
@@ -210,7 +217,7 @@ model3 = cont[:,1]
 tau = 800. #The Kelly relaxation time
 sigma_tot = np.nanmean(error[:,1]) #Kelly sigma
 chi1 = 1e100 #To ensure that the first change is always accepted to get it started
-max_jump = 0.01 #Maximal allowed jump relative to the value at point
+max_jump = 0.001 #Maximal allowed jump relative to the value at point
 
 slopeolder1 = 0 #Temporary constant
 
@@ -295,7 +302,7 @@ for i in range(runs):
                 print 2, slope
             elif chi2 <= chi1 and (startpoint1 - endpoint1) + (startpoint2 - endpoint2) \
                  + (startpoint3 - endpoint3) > 0. and (dd1_ddt1 - dd1_ddt) + (dd2_ddt1 - dd2_ddt) \
-                 + (dd3_ddt1 - dd3_ddt) < 0 and random.random() < 0.005: #  and slopechange < 0:
+                 + (dd3_ddt1 - dd3_ddt) < 0 and random.random() < 0.05: #  and slopechange < 0:
                 '''The third instance of acceptance'''
                 chi1 = chi2
                 slopeolder1 = slope
@@ -311,8 +318,8 @@ for i in range(runs):
             model3 = model2
             gc.collect()
     print P_v
-    np.savetxt('CONTINUUM/NGC3783-continuum-slope-2-5-5',cont) #Updating the files
-    np.savetxt('CONTINUUM/NGC3783-data_comp-slope-2-5-5',data_comp)
+    np.savetxt('CONTINUUM/NGC3783-continuum-slope-3-6',cont) #Updating the files
+    np.savetxt('CONTINUUM/NGC3783-data_comp-slope-3-6',data_comp)
     P_show = np.log10(P_v)
     plt.figure()
     plt.scatter(data_comp[:,0],data_comp[:,1],color='b')

@@ -16,7 +16,7 @@ from multiprocessing import Process
 runs = 3000
 runs1 = 10
 step = 10. #Timestep (days)
-slopeaim = -2.5 #Slope that is targeted
+slopeaim = -3. #Slope that is targeted
 slope = 0
 mean = 140. #Transfer function
 sigma = 0.8
@@ -58,11 +58,11 @@ print data[:,1]
 
 print error[:,1]
 
-cont_days = np.arange(min(data[:,0])-200.,max(data[:,0]+100),step) #Defines the spacing of the light curve
+cont_days = np.arange(min(data[:,0])-400.,max(data[:,0]+100),step) #Defines the spacing of the light curve
 cont = np.zeros((len(cont_days),3))
 cont[:,0] = cont_days
 cont[:,1] = np.nanmean(data[:,1])
-cont = np.loadtxt('CONTINUUM/NGC3783-continuum-slope-2-5-3point')
+#cont = np.loadtxt('CONTINUUM/NGC3783-continuum-slope-2-5-3point')
 day = cont_days[0]
 
 data_comp = np.zeros((len(data[:,1]),3))
@@ -326,8 +326,8 @@ for i in range(runs):
             model3 = model2
             gc.collect()
     print P_v
-    np.savetxt('CONTINUUM/NGC3783-continuum-slope-2-5-3point',cont)
-    np.savetxt('CONTINUUM/NGC3783-data_comp-slope-2-5-3point',data_comp)
+    np.savetxt('CONTINUUM/NGC3783-continuum-slope-3-3point',cont)
+    np.savetxt('CONTINUUM/NGC3783-data_comp-slope-3-3point',data_comp)
     P_show = np.log10(P_v)
     plt.figure()
     plt.scatter(data_comp[:,0],data_comp[:,1],color='b')
