@@ -17,7 +17,7 @@ from numpy.fft import ifft, fftfreq
 
 
 runs = 3000 #Number of runs (arbitrary due to the gradual updates, would probably take close to a month to run)
-runs1 = 100
+runs1 = 40
 days_before = 700. #How far to extend the lightcurve back (days)
 days_after = 100. #How far to extend the lightcurve forward (days)
 step = 5. #Timestep (days)
@@ -40,8 +40,6 @@ def lognorm(x,mu,sigma):
     front = 1/(x*sigma*np.sqrt(2*np.pi))
     return front*np.exp(exp)
 
-def colour(alpha,length):
-    return cn.powerlaw_psd_gaussian(alpha,length)
 
 x_list = np.linspace(0.01,1500,1500) #X-axis of transfer function
 
@@ -96,7 +94,7 @@ cont_days = np.arange(min(data[:,0])-days_before,max(data[:,0]+days_after),step)
 #cont_days = np.arange(min(data[:,0])-200.,max(data[:,0]+100),step) #Defines the spacing of the light curve
 cont = np.zeros((len(cont_days),3))
 cont[:,0] = cont_days
-cont[:,1] = colour(-2.5,len(cont[:,1]))*1e-18
+cont[:,1] = np.nanmean(data[:,1])
 #cont = np.loadtxt('CONTINUUM/NGC3783-continuum-slope-Kelly-2_5-1')
 day = cont_days[0]
 
@@ -175,99 +173,99 @@ for i in range(runs):
     '''The MCMC'''
     for i1 in range(runs1):
         '''Doing 2 loops to allow regular progress reports'''
-        cont_real = cont
-        cont_real[:,1] = ifft(cont[:,1]).real
-        plt.figure()
-        plt.scatter(data_comp[:,0],data_comp[:,1],color='b')
-        plt.scatter(data_comp[:,0],data_comp[:,2],color='r')
-        plt.scatter(cont_real[:,0],cont_real[:,1],color='g')
-        plt.ylim([4e-30,1.2e5])
-        plt.yscale('log')
-        plt.show()
-        
-        #print i, i1/float(runs1), slopeolder1
-        for j in range(1):
+        print i, i1/float(runs1), slopeolder1
+        for j in range(len(cont_days)-3):
             '''Looping over the course of the CLC'''
-            cont_save = cont
             F_N_v = np.zeros((len(freq))) #Creating the base array for the PSD
             data_comp[:,2] = 0 #Resetting the simulated OLC
+            dd1_ddt = abs(((cont[j+1,1] - cont[j,1])/step - (cont[j,1] - cont[j-1,1])/step)/(2*step)/2.) #Creating the double derivatives of the original CLC
+            dd2_ddt = abs(((cont[j,1] - cont[j-1,1])/step - (cont[j-1,1] - cont[j-2,1])/step)/(2*step)/2.) #Doing so for the three points surrounding the change
+            dd3_ddt = abs(((cont[j+2,1] - cont[j+1,1])/step - (cont[j+1,1] - cont[j,1])/step)/(2*step)/2.)
 
-            colour_change = colour(-slope,len(cont[:,1]))
-            #colour_change = colour_change/np.std(colour_change)
-            
-            change = colour_change #Finding the magnitude and direction of change
-            print np.nanmean(change)
-            cont[:,1] = cont[:,1] * change #/np.sqrt(2.) #Implementing change
-            #print change
-            #print cont[:,1]
+            change = (-1)**randint(0,2)*cont[j,1]*random.random()*max_jump #Finding the magnitude and direction of change
+            cont[j,1] += change #Implementing change
+
             h = 0
             b = np.nanmean(cont[:,1]) #Finding mean value of new Kelly 2009
             flux1 = cont[:,1] #Updating global variable for Kelly 2009
             param = [b,tau,sigma_tot] #See above
 
-            cont_real = cont
-            cont_real[:,1] = ifft(cont[:,1]).real
-            #cont_real[:,1] = cont_real[:,1] #/np.std(cont_real[:,1])
 
-            slope, P_v = PSD(freq,transfer_array,cont_real) #Finding PSD slope
+            slope, P_v = PSD(freq,transfer_array,cont) #Finding PSD slope
 
-            data_comp[:,2] = model_data(cont_real,data_comp,transfer_array) #The data after running through the transfer function
+            data_comp[:,2] = model_data(cont,data_comp,transfer_array) #The data after running through the transfer function
 
             chi2 = np.nansum((data_comp[:,1] - data_comp[:,2])**2) #Finding residuals squared summed
 
+            dd1_ddt1 = abs(((cont[j+1,1] - cont[j,1])/step - (cont[j,1] - cont[j-1,1])/step)/(2*step)/2.) #See dd1_ddt
+            dd2_ddt1 = abs(((cont[j,1] - cont[j-1,1])/step - (cont[j-1,1] - cont[j-2,1])/step)/(2*step)/2.)
+            dd3_ddt1 = abs(((cont[j+2,1] - cont[j+1,1])/step - (cont[j+1,1] - cont[j,1])/step)/(2*step)/2.)
+
             slopechange = (slope - slopeaim)**2 - (slopeolder1 - slopeaim)**2 #Is the new PSD slope a better fit.
-            
 
             if chi2 <= chi1 \
-               and slopechange < 0.:
+               and slopechange < 0. \
+               and (dd1_ddt1 - dd_ddt_allowed) < 0 \
+               and (dd2_ddt1 - dd_ddt_allowed) < 0 \
+               and (dd3_ddt1 - dd_ddt_allowed) < 0: 
                 '''The first instance of acceptance'''
                 chi1 = chi2
                 slopeolder1 = slope
-                print 1, slope,j
+                print 1, slope, dd1_ddt1
 
-            elif chi2 <= chi1 \
-               and abs(slope) < abs(slopeaim - slopeallow):
+            if chi2 <= chi1 \
+               and abs(slope) < abs(slopeaim - slopeallow) \
+               and (dd1_ddt1 - 0.5*dd_ddt_allowed) < 0 \
+               and (dd2_ddt1 - 0.5*dd_ddt_allowed) < 0 \
+               and (dd3_ddt1 - 0.5*dd_ddt_allowed) < 0: 
                 '''The first instance of acceptance'''
                 chi1 = chi2
                 slopeolder1 = slope
-                print 1.1, slope,j
-
+                print 1.1, slope, dd1_ddt1
+            
             elif chi2 <= chi1 \
-                 and slopeaim - slopeallow < slope < slopeaim + slopeallow:
+                 and slopeaim - slopeallow < slope < slopeaim + slopeallow \
+                 and (dd1_ddt1 - dd_ddt_allowed) < 0 \
+                 and (dd2_ddt1 - dd_ddt_allowed) < 0 \
+                 and (dd3_ddt1 - dd_ddt_allowed) < 0: 
                 '''The second instance of acceptance'''
                 chi1 = chi2
                 slopeolder1 = slope
-                print 2, slope,j
+                print 2, slope
 
-            elif random.random < 0.05 \
+            elif (dd1_ddt1 - dd1_ddt) < 0 \
                  and abs(slope) < abs(slopeaim + slopeallow): # and (dd2_ddt1 - dd2_ddt) < 0 and (dd3_ddt1 - dd3_ddt) < 0: # \
-                 #and random.random() < 0.1:
+                 #and random.random() < 0.1: 
                 '''The third instance of acceptance, an attempt to encourage a smoother curve.'''
                 chi1 = chi2
                 slopeolder1 = slope
-                print 3, slope,j
-
+                print 3, slope
+                
             else:
                 '''Rejection'''
-                cont = cont_save
+                cont[j,1] -= change
 
             #if chi2 < chi1:
             #    print chi2, chi1
 
             #model3 = model2
-            #print cont_real
             gc.collect()
-    
     P_show = log(P_v)
     #np.savetxt('CONTINUUM/NGC3783-continuum-slope-Kelly-2_5-1',cont) #Updating the files
     #np.savetxt('CONTINUUM/NGC3783-data_comp-slope-Kelly-2_5-1',data_comp)
     plt.figure()
     plt.scatter(data_comp[:,0],data_comp[:,1],color='b')
     plt.scatter(data_comp[:,0],data_comp[:,2],color='r')
-    plt.scatter(cont_real[:,0],cont_real[:,1],color='g')
-    #plt.ylim([4e-15,1.2e-14])
-    plt.ylim([4e-30,1.2e5])
-    plt.yscale('log')
+    plt.scatter(cont[:,0],cont[:,1],color='g')
+    plt.ylim([4e-15,1.2e-14])
     plt.show(block=False)
+    plt.figure()
+    plt.scatter(freq,P_show,color='b')
+    #plt.ylim([1e-21,1e-31])
+    plt.xlim([1e-8,3e-7])
+    #plt.yscale('log')
+    plt.xscale('log')
+    plt.show(block=False)
+    gc.collect()
 
 print cont[:,1]
