@@ -163,7 +163,7 @@ model3 = cont[:,1]
 tau = 800. #The Kelly relaxation time
 sigma_tot = np.nanmean(error[:,1]) #Kelly sigma
 chi1 = 1e100 #To ensure that the first change is always accepted to get it started
-max_jump = 0.01 #Maximal allowed jump relative to the value at point
+max_jump = 1 #0.01 #Maximal allowed jump relative to the value at point
 
 slopeolder1 = 0 #Temporary constant
 
@@ -196,8 +196,8 @@ for i in range(runs):
             #colour_change = colour_change/np.std(colour_change)
             
             change = colour_change #Finding the magnitude and direction of change
-            print np.nanmean(change)
-            cont[:,1] = cont[:,1] * change #/np.sqrt(2.) #Implementing change
+            print np.nanmean(change), np.std(change)
+            cont[:,1] = (cont[:,1] * (change))/abs(np.mean(change)) #/np.sqrt(2.) #Implementing change
             #print change
             #print cont[:,1]
             h = 0

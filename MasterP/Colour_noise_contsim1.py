@@ -303,12 +303,12 @@ def PSD(freq,transfer_array,cont):
 
     return slope, P_v
 
-def model_data(cont,data_comp,transfer_array):
-    '''The simulated observed light curve as a result of the continuum light curve and the transfer function'''
-
-    cont_flux = array([cont[:,1],]*len(data_comp[:,0]))
-
-    return sum(step*cont_flux*transfer_array,axis=1)
+#def model_data(cont,data_comp,transfer_array):
+#    '''The simulated observed light curve as a result of the continuum light curve and the transfer function'''
+#
+#    cont_flux = array([cont[:,1],]*len(data_comp[:,0]))
+#
+#    return sum(step*cont_flux*transfer_array,axis=1)
 
 model3 = cont[:,1]
 tau = 800. #The Kelly relaxation time
@@ -334,10 +334,50 @@ F_N_v = np.zeros((len(freq)))
 P_v = 0
 print F_N_v
 
+cont_real = cont
+cont_real_save = cont
+cont_save = cont
+
+data_comp_K_save = data_comp_K
+data_comp_H_save = data_comp_H
+data_comp_J_save = data_comp_J
+data_comp_g_save = data_comp_g
+data_comp_r_save = data_comp_r
+data_comp_i_save = data_comp_i
+data_comp_z_save = data_comp_z
+
+
+
+
+
+
 for i in range(runs):
     '''The MCMC'''
     for i1 in range(runs1):
         '''Doing 2 loops to allow regular progress reports'''
+
+        '''Saving original arrays'''
+        cont_real_save = cont_real
+        cont_save = cont
+
+        data_comp_K_save = data_comp_K
+        data_comp_H_save = data_comp_H
+        data_comp_J_save = data_comp_J
+        data_comp_g_save = data_comp_g
+        data_comp_r_save = data_comp_r
+        data_comp_i_save = data_comp_i
+        data_comp_z_save = data_comp_z
+
+        T_save = T # K
+        lag_thermal_save = lag_thermal
+        width_thermal_save = width_thermal
+        lag_slope_power_save = lag_slope_power
+        lag_intercept_power_save = lag_intercept_power
+        width_slope_power_save = width_slope_power
+        width_intercept_power_save = width_intercept_power
+        A_T_save = A_T
+        N_s_power_save = N_s_power
+
         #print i, i1/float(runs1), slopeolder1
         '''Changing the parameters'''
         T += np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
@@ -371,14 +411,14 @@ for i in range(runs):
         F_N_v = np.zeros((len(freq))) #Creating the base array for the PSD
         #print np.shape(colour(-slope,len(cont[:,1])))
         colour_change = colour(-slope,len(cont[:,1]))
-        change = colour_change*np.nansum(cont[:,1])*max_jump #Finding the magnitude and direction of change
-        cont[:,1] += change #Implementing change
+        change = colour_change
+        cont[:,1] *= change #Implementing change
         #print change
         #print cont[:,1]
-        h = 0
-        b = np.nanmean(cont[:,1]) #Finding mean value of new Kelly 2009
-        flux1 = cont[:,1] #Updating global variable for Kelly 2009
-        param = [b,tau,sigma_tot] #See above
+        #h = 0
+        #b = np.nanmean(cont[:,1]) #Finding mean value of new Kelly 2009
+        #flux1 = cont[:,1] #Updating global variable for Kelly 2009
+        #param = [b,tau,sigma_tot] #See above
 
         cont_real = cont
         cont_real[:,1] = ifft(cont[:,1]).real
@@ -479,7 +519,25 @@ for i in range(runs):
 
         else:
             '''Rejection'''
-            cont[:,1] -= change
+            cont = cont_save
+
+            data_comp_K = data_comp_K_save
+            data_comp_H = data_comp_H_save
+            data_comp_J = data_comp_J_save
+            data_comp_g = data_comp_g_save
+            data_comp_r = data_comp_r_save
+            data_comp_i = data_comp_i_save
+            data_comp_z = data_comp_z_save
+
+            T = T_save # K
+            lag_thermal = lag_thermal_save
+            width_thermal = width_thermal_save
+            lag_slope_power = lag_slope_power_save
+            lag_intercept_power = lag_intercept_power_save
+            width_slope_power = width_slope_power_save
+            width_intercept_power = width_intercept_power_save
+            A_T = A_T_save
+            N_s_power = N_s_power_save
 
         #if chi2 < chi1:
         #    print chi2, chi1
@@ -487,13 +545,45 @@ for i in range(runs):
         #model3 = model2
         gc.collect()
     P_show = log(P_v)
-    np.savetxt('CONTINUUM/NGC3783-continuum-slope-colour-2_5',cont_real) #Updating the files
-    np.savetxt('CONTINUUM/NGC3783-data_comp-slope-colour-2_5',data_comp)
+    np.savetxt('CONTINUUM/NGC3783-continuum-slope-colour-2_5',cont) #Updating the files
+    np.savetxt('CONTINUUM/NGC3783-continuum-T-slope-colour-2_5',np.array([cont_days,T]))
+    np.savetxt('CONTINUUM/NGC3783-data_comp_K-slope-colour-2_5',data_comp_K)
+    np.savetxt('CONTINUUM/NGC3783-data_comp_H-slope-colour-2_5',data_comp_H)
+    np.savetxt('CONTINUUM/NGC3783-data_comp_J-slope-colour-2_5',data_comp_J)
+    np.savetxt('CONTINUUM/NGC3783-data_comp_g-slope-colour-2_5',data_comp_g)
+    np.savetxt('CONTINUUM/NGC3783-data_comp_r-slope-colour-2_5',data_comp_r)
+    np.savetxt('CONTINUUM/NGC3783-data_comp_i-slope-colour-2_5',data_comp_i)
+    np.savetxt('CONTINUUM/NGC3783-data_comp_z-slope-colour-2_5',data_comp_z)
+
     plt.figure()
-    plt.scatter(data_comp[:,0],data_comp[:,1],color='b')
-    plt.scatter(data_comp[:,0],data_comp[:,2],color='r')
-    plt.scatter(cont[:,0],ifft(cont[:,1]).real,color='yellow')
-    plt.scatter(cont[:,0],cont[:,1],color='g')
+    plt.scatter(cont_days,T)
+    plt.show(block=False)
+
+    plt.figure()
+
+    plt.plot(data_comp_K[:,0],data_comp_K[:,1],color='b')
+    plt.scatter(data_comp_K[:,0],data_comp_K[:,2],color='b')
+
+    plt.plot(data_comp_H[:,0],data_comp_H[:,1],color='r')
+    plt.scatter(data_comp_H[:,0],data_comp_H[:,2],color='r')
+
+    plt.plot(data_comp_J[:,0],data_comp_J[:,1],color='g')
+    plt.scatter(data_comp_J[:,0],data_comp_J[:,2],color='g')
+
+    plt.plot(data_comp_g[:,0],data_comp_g[:,1],color='purple')
+    plt.scatter(data_comp_g[:,0],data_comp_g[:,2],color='purple')
+
+    plt.plot(data_comp_r[:,0],data_comp_r[:,1],color='yellow')
+    plt.scatter(data_comp_r[:,0],data_comp_r[:,2],color='yellow')
+
+    plt.plot(data_comp_i[:,0],data_comp_i[:,1],color='black')
+    plt.scatter(data_comp_i[:,0],data_comp_i[:,2],color='black')
+
+    plt.plot(data_comp_z[:,0],data_comp_z[:,1],color='orange')
+    plt.scatter(data_comp_z[:,0],data_comp_z[:,2],color='orange')
+
+    plt.scatter(cont[:,0],ifft(cont[:,1]).real,color='brown')
+
     plt.ylim([1.2e-25,1e1])
     #plt.ylim([4e-15,1.2e-14])
     plt.yscale('log')
