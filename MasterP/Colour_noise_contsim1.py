@@ -57,7 +57,7 @@ kelly_repeat = 20
 dd_change = 1.1
 
 '''Changeable constants'''
-T = 3000 # K
+T = 3000. # K
 lag_thermal = 50.
 width_thermal = 0.5
 lag_slope_power = 0.5
@@ -108,9 +108,9 @@ x_list = np.linspace(0.01,3500,3500) #X-axis of transfer function in days
 
 
 log_norm_transfer = []
-for i in range(len(x_list)):
-    '''Creates the list used to identify the degree of transfered light'''
-    log_norm_transfer.append(lognorm(x_list[i],mu,sigma))
+#for i in range(len(x_list))
+#    '''Creates the list used to identify the degree of transfered light'''
+#    log_norm_transfer.append(create_lognorm(x_list[i],mu,sigma))
 #Suggest:
 # log = lognorm(np.arange(len(x_list)))
 
@@ -144,15 +144,15 @@ error_z = np.loadtxt('NOVEMBER/NGC3783_NOISE_z.txt') #Load data
 plt.show()
 
 dd_ddt_data = []
-for j in range(len(data[:,0])-2):
-    '''Purely a test to see the largest double derivative of the observed light curve'''
-    dd_ddt_data.append(abs(((data[j+1,1] - data[j,1])/(data[j+1,0] - data[j,0]) - (data[j,1] - data[j-1,1])/(data[j,0] - data[j-1,0]))/(data[j+1,0] - data[j-1,0])/2.))
+#for j in range(len(data[:,0])-2):
+#    '''Purely a test to see the largest double derivative of the observed light curve'''
+#    dd_ddt_data.append(abs(((data[j+1,1] - data[j,1])/(data[j+1,0] - data[j,0]) - (data[j,1] - data[j-1,1])/(data[j,0] - data[j-1,0]))/(data[j+1,0] - data[j-1,0])/2.))
 
 #
 #    dd_ddt_data.append(abs(((data[j+4,1] - data[j,1])/(data[j+4,0] - data[j,0]) - (data[j,1] - data[j-1,1])/(data[j,0] - data[j-1,0]))/(data[j+4
-print np.nanmax(dd_ddt_data)
 
-dd_ddt_allowed = np.nanmax(dd_ddt_data)*dd_change #Identifies the maximal double derivative allowed in the continuum light curve
+
+ #Identifies the maximal double derivative allowed in the continuum light curve
 
 '''cont denotes the model for the continuum light curve, whereas data_comp denotes the array giving indication of the
 observed light curve and how the continuum light curve fitted through the transfer function compares'''
@@ -161,13 +161,13 @@ cont_days = np.arange(min(data_K[:,0])-days_before,max(data_K[:,0]+days_after),s
 T = np.array([T]*len(cont_days)) #List of temperatures
 
 '''Arrays defining the band filters'''
-K_cen = np.array([K_cen]*len(cont_days)])
-H_cen = np.array([H_cen]*len(cont_days)])
-J_cen = np.array([J_cen]*len(cont_days)])
-g_cen = np.array([g_cen]*len(cont_days)])
-r_cen = np.array([r_cen]*len(cont_days)])
-i_cen = np.array([i_cen]*len(cont_days)])
-z_cen = np.array([z_cen]*len(cont_days)])
+K_cen = np.array([K_cen]*len(cont_days))
+H_cen = np.array([H_cen]*len(cont_days))
+J_cen = np.array([J_cen]*len(cont_days))
+g_cen = np.array([g_cen]*len(cont_days))
+r_cen = np.array([r_cen]*len(cont_days))
+i_cen = np.array([i_cen]*len(cont_days))
+z_cen = np.array([z_cen]*len(cont_days))
 
 K_width = np.array([K_width]*len(cont_days))
 H_width = np.array([H_width]*len(cont_days))
@@ -181,10 +181,11 @@ z_width = np.array([z_width]*len(cont_days))
 cont = np.zeros((len(cont_days),3))
 
 colour_start = colour(-slope,len(cont[:,1]))
-colour_start = colour_start/np.std(colour_start)
+colour_start = colour_start*1e-17
 
 cont[:,0] = cont_days
-cont[:,1] = colour_start
+cont[:,1] = colour(-slope,len(cont[:,1]))*1e-17 #colour_start
+print cont[:,1][0]
 #cont = np.loadtxt('CONTINUUM/NGC3783-continuum-slope-Kelly-2_5-1')
 day = cont_days[0]
 
@@ -267,16 +268,16 @@ def model_data(cont,data_comp,transfer_array_power,transfer_array_thermal):
 
     return sim_OLC
 
-transfer_array = transfer(cont_days,data_comp,log_norm_transfer)
+#transfer_array = transfer(cont_days,data_comp,log_norm_transfer)
 
-flux1 = cont[:,1] #Series of items for the Kelly 2009
-time1 = cont[:,0]
-sigma1 = cont[:,2] + np.nanmean(error[:,1])
-time = np.insert(time1,0,0)
-sigma = np.insert(sigma1,0,np.mean(sigma1))
-flux = np.insert(flux1,0,np.mean(flux1))
+#flux1 = cont[:,1] #Series of items for the Kelly 2009
+#time1 = cont[:,0]
+#sigma1 = cont[:,2] + np.nanmean(error[:,1])
+#ime = np.insert(time1,0,0)
+#sigma = np.insert(sigma1,0,np.mean(sigma1))
+#flux = np.insert(flux1,0,np.mean(flux1))
 
-print shape(flux1)
+#print shape(flux1)
 
 freq = []
 
@@ -312,19 +313,19 @@ def PSD(freq,transfer_array,cont):
 
 model3 = cont[:,1]
 tau = 800. #The Kelly relaxation time
-sigma_tot = np.nanmean(error[:,1]) #Kelly sigma
+#sigma_tot = np.nanmean(error[:,1]) #Kelly sigma
 chi1 = 1e100 #To ensure that the first change is always accepted to get it started
 max_jump = 0.000001 #Maximal allowed jump relative to the value at point
 
-plt.figure()
-plt.scatter(data_comp[:,0],data_comp[:,1],color='b')
-plt.scatter(data_comp[:,0],data_comp[:,2],color='r')
-plt.scatter(cont[:,0],ifft(cont[:,1])*np.nanmean(data[:,1]).real,color='yellow')
+#plt.figure()
+#plt.scatter(data_comp[:,0],data_comp[:,1],color='b')
+#plt.scatter(data_comp[:,0],data_comp[:,2],color='r')
+#plt.scatter(cont[:,0],ifft(cont[:,1])*np.nanmean(data[:,1]).real,color='yellow')
 #plt.scatter(cont[:,0],cont[:,1],color='g')
-plt.ylim([1.2e-25,1e1])
+#plt.ylim([1.2e-25,1e1])
 #plt.ylim([4e-15,1.2e-14])
-plt.yscale('log')
-plt.show(block=False)
+#plt.yscale('log')
+#plt.show(block=False)
 
 chi1 = 1e1000 #np.nansum((data_comp[:,1] - data_comp[:,2])**2)
 
@@ -332,7 +333,7 @@ slopeolder1 = 0 #Temporary constant
 
 F_N_v = np.zeros((len(freq)))
 P_v = 0
-print F_N_v
+#print F_N_v
 
 cont_real = cont
 cont_real_save = cont
@@ -380,7 +381,7 @@ for i in range(runs):
 
         #print i, i1/float(runs1), slopeolder1
         '''Changing the parameters'''
-        T += np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
+        T += np.random.randint(-1e5,1e5,len(cont_days))/1e5 #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
         lag_thermal += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
         width_thermal += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
         lag_slope_power += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
@@ -391,27 +392,29 @@ for i in range(runs):
         N_s_power += np.array([(-1)**np.random.randint(2,size=1)*random.random()*0.001 for i in range(7)])
 
         '''Fitting the constants'''
-        mu_power_K = lag_equation(K_cen,lag_slope,lag_intercept)
-        mu_power_H = lag_equation(H_cen,lag_slope,lag_intercept)
-        mu_power_J = lag_equation(J_cen,lag_slope,lag_intercept)
-        mu_power_g = lag_equation(g_cen,lag_slope,lag_intercept)
-        mu_power_r = lag_equation(r_cen,lag_slope,lag_intercept)
-        mu_power_i = lag_equation(i_cen,lag_slope,lag_intercept)
-        mu_power_z = lag_equation(z_cen,lag_slope,lag_intercept)
+        mu_power_K = lag_equation(K_cen,lag_slope_power,lag_intercept_power)
+        mu_power_H = lag_equation(H_cen,lag_slope_power,lag_intercept_power)
+        mu_power_J = lag_equation(J_cen,lag_slope_power,lag_intercept_power)
+        mu_power_g = lag_equation(g_cen,lag_slope_power,lag_intercept_power)
+        mu_power_r = lag_equation(r_cen,lag_slope_power,lag_intercept_power)
+        mu_power_i = lag_equation(i_cen,lag_slope_power,lag_intercept_power)
+        mu_power_z = lag_equation(z_cen,lag_slope_power,lag_intercept_power)
 
-        sigma_power_K = width_equation(K_width,width_slope,width_intercept)
-        sigma_power_H = width_equation(H_width,width_slope,width_intercept)
-        sigma_power_J = width_equation(J_width,width_slope,width_intercept)
-        sigma_power_g = width_equation(g_width,width_slope,width_intercept)
-        sigma_power_r = width_equation(r_width,width_slope,width_intercept)
-        sigma_power_i = width_equation(i_width,width_slope,width_intercept)
-        sigma_power_z = width_equation(z_width,width_slope,width_intercept)
+        sigma_power_K = width_equation(K_width,width_slope_power,width_intercept_power)
+        sigma_power_H = width_equation(H_width,width_slope_power,width_intercept_power)
+        sigma_power_J = width_equation(J_width,width_slope_power,width_intercept_power)
+        sigma_power_g = width_equation(g_width,width_slope_power,width_intercept_power)
+        sigma_power_r = width_equation(r_width,width_slope_power,width_intercept_power)
+        sigma_power_i = width_equation(i_width,width_slope_power,width_intercept_power)
+        sigma_power_z = width_equation(z_width,width_slope_power,width_intercept_power)
 
         '''Looping over the course of the CLC'''
         F_N_v = np.zeros((len(freq))) #Creating the base array for the PSD
         #print np.shape(colour(-slope,len(cont[:,1])))
         colour_change = colour(-slope,len(cont[:,1]))
         change = colour_change
+        print change[0]
+        print cont[:,1][0]
         cont[:,1] *= change #Implementing change
         #print change
         #print cont[:,1]
@@ -426,13 +429,13 @@ for i in range(runs):
 
         slope, P_v = PSD(freq,transfer_array,cont_real) #Finding PSD slope
         '''Power transfer functions'''
-        treansfer_power_K = N_s_power[0]*create_lognorm(x_list,mu_power_K,sigma_power_K)
-        treansfer_power_H = N_s_power[1]*create_lognorm(x_list,mu_power_H,sigma_power_H)
-        treansfer_power_J = N_s_power[2]*create_lognorm(x_list,mu_power_J,sigma_power_J)
-        treansfer_power_g = N_s_power[3]*create_lognorm(x_list,mu_power_g,sigma_power_g)
-        treansfer_power_r = N_s_power[4]*create_lognorm(x_list,mu_power_r,sigma_power_r)
-        treansfer_power_i = N_s_power[5]*create_lognorm(x_list,mu_power_i,sigma_power_i)
-        treansfer_power_z = N_s_power[6]*create_lognorm(x_list,mu_power_z,sigma_power_z)
+        transfer_power_K = N_s_power[0]*create_lognorm(x_list,mu_power_K,sigma_power_K)
+        transfer_power_H = N_s_power[1]*create_lognorm(x_list,mu_power_H,sigma_power_H)
+        transfer_power_J = N_s_power[2]*create_lognorm(x_list,mu_power_J,sigma_power_J)
+        transfer_power_g = N_s_power[3]*create_lognorm(x_list,mu_power_g,sigma_power_g)
+        transfer_power_r = N_s_power[4]*create_lognorm(x_list,mu_power_r,sigma_power_r)
+        transfer_power_i = N_s_power[5]*create_lognorm(x_list,mu_power_i,sigma_power_i)
+        transfer_power_z = N_s_power[6]*create_lognorm(x_list,mu_power_z,sigma_power_z)
 
         '''Black Boby radiation'''
         BB_K = planck(K_cen,T)*K_width
