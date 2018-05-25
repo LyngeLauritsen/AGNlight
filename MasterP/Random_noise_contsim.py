@@ -12,8 +12,97 @@ from scipy.optimize import least_squares as ls
 from scipy.optimize import leastsq
 import gc
 from multiprocessing import Process
-import colorednoise as cn
+#import colorednoise as cn
+from numpy import concatenate, real, std, abs, min
 from numpy.fft import ifft, fftfreq
+from numpy.random import normal
+
+def powerlaw_psd_gaussian(exponent, samples, fmin=0):
+    """Gaussian (1/f)**beta noise.
+
+    Based on the algorithm in:
+    Timmer, J. and Koenig, M.:
+    On generating power law noise.
+    Astron. Astrophys. 300, 707-710 (1995)
+
+    Normalised to unit variance
+
+    Parameters:
+    -----------
+
+    exponent : float
+        The power-spectrum of the generated noise is proportional to
+
+        S(f) = (1 / f)**beta
+        flicker / pink noise:   exponent beta = 1
+        brown noise:            exponent beta = 2
+
+        Furthermore, the autocorrelation decays proportional to lag**-gamma
+        with gamma = 1 - beta for 0 < beta < 1.
+        There may be finite-size issues for beta close to one.
+
+    samples : int
+        number of samples to generate
+
+    fmin : float, optional
+        Low-frequency cutoff.
+        Default: 0 corresponds to original paper. It is not actually
+        zero, but 1/samples.
+
+    Returns
+    -------
+    out : array
+        The samples.
+
+
+    Examples:
+ $$$$$$$$$$$$$$$$$   ---------
+
+    # generate 1/f noise == pink noise == flicker noise
+    >>> import colorednoise as cn
+    >>> y = cn.powerlaw_psd_gaussian(1, 5)
+    """
+
+    # frequencies (we asume a sample rate of one)
+    f = fftfreq(samples)
+
+    # scaling factor for all frequencies
+    ## though the fft for real signals is symmetric,
+    ## the array with the results is not - take neg. half!
+    s_scale = abs(concatenate([f[f<0], [f[-1]]]))
+    ## low frequency cutoff?!?
+    if fmin:
+        ix = sum(s_scale>fmin)
+        if ix < len(f):
+            s_scale[ix:] = s_scale[ix]
+    s_scale = s_scale**(-exponent/2.)
+
+    # scale random power + phase
+    sr = s_scale * normal(size=len(s_scale))
+    si = s_scale * normal(size=len(s_scale))
+    if not (samples % 2): si[0] = si[0].real
+
+    s = sr + 1J * si
+    # this is complicated... because for odd sample numbers,
+    ## there is one less positive freq than for even sample numbers
+    s = concatenate([s[1-(samples % 2):][::-1], s[:-1].conj()])
+
+    # time series
+    y = ifft(s).real
+
+    y1 = y / std(y)
+    #print y1
+
+    y1 = y1
+
+    y2 = ifft(y1)
+
+    ret = y2 
+    
+    print 'HEY', ret
+    #print 'HEY HO'
+
+    return ret
 
 #ifft(s).real
 #y / std(y)
@@ -42,7 +131,7 @@ i_width = 105.6*10**(-9)  #Width of i band in m
 z_width = 122.7*10**(-9)  #Width of z band in m
 
 runs = 100 #3000 #Number of runs (arbitrary due to the gradual updates, would probably take close to a month to run)
-runs1 = 100 #1000 #1000
+runs1 = 1 #1000 #1000
 days_before = 700. #How far to extend the lightcurve back (days)
 days_after = 10. #How far to extend the lightcurve forward (days)
 step = 5. #Timestep (days)
@@ -66,8 +155,33 @@ width_intercept_power = 1. #At 0 m
 A_T = 0.5
 N_s_power = np.array([(-1)**np.random.randint(2,size=1)*random.random()*0.01 for i in range(7)])
 
+def create_lognorm(x,mu,sigma):
+    '''Defines the transfer function'''
+    delay_days = x
+    sigma_array = np.zeros((len(delay_days)))
+    sigma_array.fill(float(sigma))
+    mu_array = np.zeros((len(delay_days)))
+    mu_array.fill(float(mu))
+    exp_term = np.zeros((np.shape(delay_days)))
+    exp_term = -((np.log(x)-mu_array)**2/(2*sigma_array**2))
+    front = 1/x #(x*sigma_array*np.sqrt(2*np.pi))
+    #print front*np.exp(exp_term)
+    #print np.shape(front*np.exp(exp_term))
+    return front*np.exp(exp_term)
+
+def planck(wl,temperature):
+    front = 2*h_c*c_c**2/wl**5
+    exp = h_c*c_c/(wl*k_B*temperature)
+    return front*1/(np.exp(exp)-1)
+
 def colour(alpha,length):
-    return cn.powerlaw_psd_gaussian(alpha,length)
+    return powerlaw_psd_gaussian(alpha,length)
+
+def lag_equation(wl,lag_slope,lag_intercept):
+    return lag_intercept*wl**lag_slope
+
+def width_equation(w,width_slope,width_intercept):
+    return width_intercept*w**width_slope
 
 data_K = np.loadtxt('NOVEMBER/NOV-NGC3783-K') #'NOVEMBER/Kelly-NGC3783K')
 error_K = np.loadtxt('NOVEMBER/NGC3783_NOISE_K.txt') #Load data
@@ -137,7 +251,7 @@ colour_start = colour(-slope,len(cont[:,1]))
 colour_start = colour_start*1e-17
 
 cont[:,0] = cont_days
-cont[:,1] = np.random.randint(-1e5,1e5,len(cont_days))*1.e-22 #colour(-slope,len(cont[:,1]))*1e-17 #colour_start
+cont[:,1] = colour(-2.5,len(cont[:,1]))*10**(-14) #np.random.randint(-1e5,1e5,len(cont_days))*1.e-22 #colour(-slope,len(cont[:,1]))*1e-17 #colour_start
 print cont[:,1][0]
 #cont = np.loadtxt('CONTINUUM/NGC3783-continuum-slope-Kelly-2_5-1')
 day = cont_days[0]
@@ -178,68 +292,6 @@ data_comp_z[:,1] = data_z[:,1]
 data_comp_z[:,2] = 0
 #data_comp = np.loadtxt('CONTINUUM/NGC3783-data_comp-slope-Kelly-2_5-1')
 #print data[:,2]
-
-
-# There are signal processing package in scip y that defines filters, prob. can find lognormal in there.
-#def lognorm(x,mu,sigma):
-#    '''Defines the transfer function'''
-#    sigma = float(sigma)
-#    mu = float(mu)
-#    x = float(x)
-#    exp = -((np.log(x)-mu)**2/(2*sigma**2))
-#    front = 1/(x*sigma*np.sqrt(2*np.pi))
-#    return front*np.exp(exp)
-
-def create_lognorm(x,mu,sigma):
-    '''Defines the transfer function'''
-    delay_days = x
-    sigma_array = np.zeros((len(delay_days)))
-    sigma_array.fill(float(sigma))
-    mu_array = np.zeros((len(delay_days)))
-    mu_array.fill(float(mu))
-    exp_term = np.zeros((np.shape(delay_days)))
-    exp_term = -((np.log(x)-mu_array)**2/(2*sigma_array**2))
-    front = 1/x #(x*sigma_array*np.sqrt(2*np.pi))
-    #print front*np.exp(exp_term)
-    #print np.shape(front*np.exp(exp_term))
-    return front*np.exp(exp_term)
-
-def planck(wl,temperature):
-    front = 2*h_c*c_c**2/wl**5
-    exp = h_c*c_c/(wl*k_B*temperature)
-    return front*1/(np.exp(exp)-1)
-
-def colour(alpha,length):
-    return cn.powerlaw_psd_gaussian(alpha,length)
-
-def lag_equation(wl,lag_slope,lag_intercept):
-    return lag_intercept*wl**lag_slope
-
-def width_equation(w,width_slope,width_intercept):
-    return width_intercept*w**width_slope
-
-
-#x_list = np.linspace(0.01,3500,3500) #X-axis of transfer function in days
-
-
-
-
-
-
-
-
-#def transfer(cont_days,data_comp,log_norm_transfer):
-#    transfer = zeros((len(cont_days),len(data_comp[:,0]))) #Array with the transferred light in any combination of the continuum and the observed.
-#    for k in range(len(cont_days)-1):
-#        '''Creating the array for the amount of transmitted light'''
-#        mask = data_comp[:,0] > cont_days[k]
-#        z = data_comp[:,0][~mask]
-#        z.fill(0)
-#        transfer[k,:] = log_norm_transfer[abs(int((cont[k,0] - np.concatenate((z,data_comp[:,0][mask])))))]
-#        for h in range(len(data_comp[:,0])):
-#            if cont_days[k] < data_comp[h,0]:
-#                transfer[k,h] = log_norm_transfer[abs(int((cont[k,0]-data_comp[h,0])))]
-#    return transfer.transpose()
 
 def transfer(cont_days,data_comp,log_norm_transfer):
     '''Transfer function array'''
@@ -377,8 +429,8 @@ for i in range(runs):
         '''Doing 2 loops to allow regular progress reports'''
 
         '''Saving original arrays'''
-        #cont_real_save = cont_real
-        #cont_save = cont
+        cont_real_save = cont_real
+        cont_save = cont
 
         data_comp_K_save = data_comp_K
         data_comp_H_save = data_comp_H
@@ -400,7 +452,7 @@ for i in range(runs):
 
         #print i, i1/float(runs1), slopeolder1
         '''Changing the parameters'''
-        change = np.random.randint(-1e5,1e5,len(cont_days))*1.e-25
+        change = colour(-2.5,len(cont[:,1]))*10**(-14) #np.random.randint(-1e5,1e5,len(cont_days))*1.e-25
         T += np.random.random()*5*(-1)**2 #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
         lag_thermal += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
         width_thermal += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
@@ -441,7 +493,8 @@ for i in range(runs):
         #change = colour_change
         #print change[0]
         #print cont[:,1][0]
-        cont_real[:,1] = abs(cont_real[:,1] + change) #Implementing change
+        cont[:,1] = cont[:,1] * change
+        cont_real[:,1] = ifft(cont[:,1]).real #Implementing change
         #print change
         #print cont[:,1]
         #h = 0
@@ -554,7 +607,8 @@ for i in range(runs):
 
         else:
             '''Rejection'''
-            cont_real[:,1] -= change
+            cont_real[:,1] = cont_real_save[:,1]
+            cont[:,1] = cont_save[:,1]
 
             data_comp_K = data_comp_K_save
             data_comp_H = data_comp_H_save
@@ -625,7 +679,7 @@ for i in range(runs):
 
     plt.scatter(cont[:,0],cont_real[:,1],color='brown')
 
-    print cont_real[:,1]
+    print 'cont_real =', cont_real[:,1]
 
     plt.ylim([1.2e-25,1e1])
     #plt.ylim([4e-15,1.2e-14])
