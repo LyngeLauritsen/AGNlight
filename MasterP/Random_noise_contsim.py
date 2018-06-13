@@ -19,48 +19,6 @@ from numpy.random import normal
 
 def powerlaw_psd_gaussian(exponent, samples, fmin=0):
     """Gaussian (1/f)**beta noise.
-
-    Based on the algorithm in:
-    Timmer, J. and Koenig, M.:
-    On generating power law noise.
-    Astron. Astrophys. 300, 707-710 (1995)
-
-    Normalised to unit variance
-
-    Parameters:
-    -----------
-
-    exponent : float
-        The power-spectrum of the generated noise is proportional to
-
-        S(f) = (1 / f)**beta
-        flicker / pink noise:   exponent beta = 1
-        brown noise:            exponent beta = 2
-
-        Furthermore, the autocorrelation decays proportional to lag**-gamma
-        with gamma = 1 - beta for 0 < beta < 1.
-        There may be finite-size issues for beta close to one.
-
-    samples : int
-        number of samples to generate
-
-    fmin : float, optional
-        Low-frequency cutoff.
-        Default: 0 corresponds to original paper. It is not actually
-        zero, but 1/samples.
-
-    Returns
-    -------
-    out : array
-        The samples.
-
-
-    Examples:
- $$$$$$$$$$$$$$$$$   ---------
-
-    # generate 1/f noise == pink noise == flicker noise
-    >>> import colorednoise as cn
-    >>> y = cn.powerlaw_psd_gaussian(1, 5)
     """
 
     # frequencies (we asume a sample rate of one)
@@ -83,23 +41,23 @@ def powerlaw_psd_gaussian(exponent, samples, fmin=0):
     if not (samples % 2): si[0] = si[0].real
 
     s = sr + 1J * si
-    # this is complicated... because for odd sample numbers,
+    # this is complicated... because for odd sample numbers,ss
     ## there is one less positive freq than for even sample numbers
     s = concatenate([s[1-(samples % 2):][::-1], s[:-1].conj()])
 
     # time series
-    y = ifft(s).real
+    y = s #ifft(s).real
 
-    y1 = y / std(y)
+    #y1 = y / std(y)
     #print y1
 
-    y1 = y1
+    #y1 = y1
 
-    y2 = ifft(y1)
+    #y2 = ifft(y1)
 
-    ret = y2 
-    
-    print 'HEY', ret
+    ret = y
+
+    #print 'HEY', ret
     #print 'HEY HO'
 
     return ret
@@ -131,7 +89,7 @@ i_width = 105.6*10**(-9)  #Width of i band in m
 z_width = 122.7*10**(-9)  #Width of z band in m
 
 runs = 100 #3000 #Number of runs (arbitrary due to the gradual updates, would probably take close to a month to run)
-runs1 = 1 #1000 #1000
+runs1 = 100 #1000 #1000
 days_before = 700. #How far to extend the lightcurve back (days)
 days_after = 10. #How far to extend the lightcurve forward (days)
 step = 5. #Timestep (days)
@@ -146,25 +104,29 @@ dd_change = 1.1
 
 '''Changeable constants'''
 T = 3000. # K
-lag_thermal = 50.
-width_thermal = 1.5
-lag_slope_power = 1.5
-lag_intercept_power = 1. #At 0 m
-width_slope_power = 1.5
-width_intercept_power = 1. #At 0 m
+lag_thermal = 20.
+width_thermal = 1.
+lag_slope_power = 0.
+lag_intercept_power = 4. #At 0 m
+width_slope_power = 0.
+width_intercept_power = 4. #At 0 m
 A_T = 0.5
-N_s_power = np.array([(-1)**np.random.randint(2,size=1)*random.random()*0.01 for i in range(7)])
+N_s_power = (1)**np.random.randint(2,size=7)*np.random.rand(7)*0.0001
+print N_s_power
+scale = 12.
 
 def create_lognorm(x,mu,sigma):
     '''Defines the transfer function'''
     delay_days = x
     sigma_array = np.zeros((len(delay_days)))
     sigma_array.fill(float(sigma))
+    
     mu_array = np.zeros((len(delay_days)))
     mu_array.fill(float(mu))
+    #print (2*sigma_array**2)
     exp_term = np.zeros((np.shape(delay_days)))
     exp_term = -((np.log(x)-mu_array)**2/(2*sigma_array**2))
-    front = 1/x #(x*sigma_array*np.sqrt(2*np.pi))
+    front = 1/(x*sigma_array*np.sqrt(2*np.pi))
     #print front*np.exp(exp_term)
     #print np.shape(front*np.exp(exp_term))
     return front*np.exp(exp_term)
@@ -245,14 +207,15 @@ i_width = np.array([i_width]*len(cont_days))
 z_width = np.array([z_width]*len(cont_days))
 
 #cont_days = np.arange(min(data[:,0])-200.,max(data[:,0]+100),step) #Defines the spacing of the light curve
-cont = np.zeros((len(cont_days),3))
+cont = np.empty((len(cont_days),3),dtype=complex)
 
 colour_start = colour(-slope,len(cont[:,1]))
-colour_start = colour_start*1e-17
+#print colour_start[0]
+#colour_start = colour_start*1e-17
 
-cont[:,0] = cont_days
-cont[:,1] = colour(-2.5,len(cont[:,1]))*10**(-14) #np.random.randint(-1e5,1e5,len(cont_days))*1.e-22 #colour(-slope,len(cont[:,1]))*1e-17 #colour_start
-print cont[:,1][0]
+cont[:,0] = np.real(cont_days)
+cont[:,1] = colour_start #colour(2.7,len(cont[:,1])) #np.random.randint(-1e5,1e5,len(cont_days))*1.e-22 #colour(-slope,len(cont[:,1]))*1e-17 #colour_start
+#print 'Cont 1 =', cont[0,1]
 #cont = np.loadtxt('CONTINUUM/NGC3783-continuum-slope-Kelly-2_5-1')
 day = cont_days[0]
 
@@ -273,28 +236,29 @@ data_comp_J[:,2] = 0
 
 data_comp_g = np.zeros((len(data_g[:,1]),3))
 data_comp_g[:,0] = data_g[:,0]
-data_comp_g[:,1] = data_g[:,1]
+data_comp_g[:,1] = data_g[:,2]
 data_comp_g[:,2] = 0
 
 data_comp_r = np.zeros((len(data_r[:,1]),3))
 data_comp_r[:,0] = data_r[:,0]
-data_comp_r[:,1] = data_r[:,1]
+data_comp_r[:,1] = data_r[:,2]
 data_comp_r[:,2] = 0
 
 data_comp_i = np.zeros((len(data_i[:,1]),3))
 data_comp_i[:,0] = data_i[:,0]
-data_comp_i[:,1] = data_i[:,1]
+data_comp_i[:,1] = data_i[:,2]
 data_comp_i[:,2] = 0
 
 data_comp_z = np.zeros((len(data_z[:,1]),3))
 data_comp_z[:,0] = data_z[:,0]
-data_comp_z[:,1] = data_z[:,1]
+data_comp_z[:,1] = data_z[:,2]
 data_comp_z[:,2] = 0
 #data_comp = np.loadtxt('CONTINUUM/NGC3783-data_comp-slope-Kelly-2_5-1')
 #print data[:,2]
 
 def transfer(cont_days,data_comp,log_norm_transfer):
     '''Transfer function array'''
+    cont_days = np.real(cont_days)
     transfer = np.zeros((len(cont_days),len(data_comp[:,0]))) #Array with the transferred light in any combination of the continuum and the observed.
     #print data_comp[:,0]
     #print cont[:,0]
@@ -314,7 +278,7 @@ def transfer(cont_days,data_comp,log_norm_transfer):
         #print abs(cont[k,0] - np.concatenate(([z,data_comp[:,0][mask]]))).astype('int')
         #print np.shape(transfer), np.shape(z), np.shape(data_comp[:,0][mask])
         #print np.shape(np.concatenate(([z,data_comp[:,0][mask]]))), np.shape(log_norm_transfer)
-        delay = abs(int(cont[k,0]) - np.concatenate(([z,data_comp[:,0][mask]])))
+        delay = abs(int(np.real(cont[k,0])) - np.concatenate(([z,data_comp[:,0][mask]])))
         #print delay
         delay[np.isnan(delay)] = 0
         #print delay
@@ -382,7 +346,7 @@ def PSD(freq,cont):
 #
 #    return sum(step*cont_flux*transfer_array,axis=1)
 
-model3 = cont[:,1]
+#model3 = cont[:,1]
 tau = 800. #The Kelly relaxation time
 #sigma_tot = np.nanmean(error[:,1]) #Kelly sigma
 chi1 = 1e100 #To ensure that the first change is always accepted to get it started
@@ -406,7 +370,7 @@ F_N_v = np.zeros((len(freq)))
 P_v = 0
 #print F_N_v
 
-cont_real = cont
+cont_real = np.real(cont)
 cont_real_save = cont
 cont_save = cont
 
@@ -417,9 +381,26 @@ data_comp_g_save = data_comp_g
 data_comp_r_save = data_comp_r
 data_comp_i_save = data_comp_i
 data_comp_z_save = data_comp_z
+scale_save = scale
 
 x_list = np.linspace(0.01,len(cont_days)*step,len(cont_days)*step)
 
+jump = 1.
+
+try1 = 0
+
+T_direction = (-1)**np.random.randint(2,size=1) #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
+#print np.random.randint(2)
+lag_thermal_direction = (-1)**np.random.randint(2)
+'''LOOK AT SOMETHING LIKE EMCEE IMPLEMENTATION IN lmfit(?)'''
+width_thermal_direction = (-1)**np.random.randint(2)#*np.random.randint(5,size=1)
+lag_slope_power_direction = (-1)**np.random.randint(2)
+lag_intercept_power_direction = (-1)**np.random.randint(2)#*np.random.randint(5,size=1)
+width_slope_power_direction = (-1)**np.random.randint(2)
+width_intercept_power_direction = (-1)**np.random.randint(2)#*np.random.randint(5,size=1)
+A_T_direction = (-1)**np.random.randint(2)
+#print N_s_power, np.array([(-1)**np.random.randint(2)*random.random()*0.0001 for i in range(7)]) #.transpose()
+N_s_power_direction = (-1)**np.random.randint(2,size=7) #.transpose()
 
 
 
@@ -429,39 +410,79 @@ for i in range(runs):
         '''Doing 2 loops to allow regular progress reports'''
 
         '''Saving original arrays'''
-        cont_real_save = cont_real
-        cont_save = cont
+        #print 'cont', cont[0,1]
+        #print 'cont save', cont_save[0,1]
+        cont_real_save = np.copy(cont_real)
+        cont_save = np.copy(cont)
 
-        data_comp_K_save = data_comp_K
-        data_comp_H_save = data_comp_H
-        data_comp_J_save = data_comp_J
-        data_comp_g_save = data_comp_g
-        data_comp_r_save = data_comp_r
-        data_comp_i_save = data_comp_i
-        data_comp_z_save = data_comp_z
+        data_comp_K_save = np.copy(data_comp_K)
+        data_comp_H_save = np.copy(data_comp_H)
+        data_comp_J_save = np.copy(data_comp_J)
+        data_comp_g_save = np.copy(data_comp_g)
+        data_comp_r_save = np.copy(data_comp_r)
+        data_comp_i_save = np.copy(data_comp_i)
+        data_comp_z_save = np.copy(data_comp_z)
 
-        T_save = T # K
-        lag_thermal_save = lag_thermal
-        width_thermal_save = width_thermal
-        lag_slope_power_save = lag_slope_power
-        lag_intercept_power_save = lag_intercept_power
-        width_slope_power_save = width_slope_power
-        width_intercept_power_save = width_intercept_power
-        A_T_save = A_T
-        N_s_power_save = N_s_power
+        T_save = np.copy(T) # K
+        lag_thermal_save = np.copy(lag_thermal)
+        width_thermal_save = np.copy(width_thermal)
+        lag_slope_power_save = np.copy(lag_slope_power)
+        lag_intercept_power_save = np.copy(lag_intercept_power)
+        width_slope_power_save = np.copy(width_slope_power)
+        width_intercept_power_save = np.copy(width_intercept_power)
+        A_T_save = np.copy(A_T)
+        N_s_power_save = np.copy(N_s_power)
+        scale_save = np.copy(scale)
 
-        #print i, i1/float(runs1), slopeolder1
-        '''Changing the parameters'''
-        change = colour(-2.5,len(cont[:,1]))*10**(-14) #np.random.randint(-1e5,1e5,len(cont_days))*1.e-25
-        T += np.random.random()*5*(-1)**2 #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
-        lag_thermal += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
-        width_thermal += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
-        lag_slope_power += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
-        lag_intercept_power += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
-        width_slope_power += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
-        width_intercept_power += (-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1)
-        A_T += (-1)**np.random.randint(2,size=1)*random.random()
-        N_s_power += np.array([(-1)**np.random.randint(2,size=1)*random.random()*0.001 for i in range(7)])
+
+        if try1 == 0:
+            #print i, i1/float(runs1), slopeolder1
+            '''Changing the parameters'''
+            change = colour(np.random.normal(2.7,0.15,1)[0],len(cont[:,1]))
+            scale += (-1)**np.random.randint(2)*random.random()/100.*jump
+            weight = random.random()/1000.
+            cont[:,1] = np.exp((1 - weight)*np.log(cont[:,1]) + weight*np.log(change))
+            try1 = 2
+        elif try1 == 1:
+            T += (-1)**np.random.randint(2,size=1)*np.random.random() #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
+            #print np.random.randint(2)
+            lag_thermal += lag_thermal_direction*random.random()*0.0001
+            '''LOOK AT SOMETHING LIKE EMCEE IMPLEMENTATION IN lmfit(?)'''
+            width_thermal += width_thermal_direction*random.random()*0.0001#*np.random.randint(5,size=1)
+            lag_slope_power += lag_slope_power_direction*random.random()*0.0001
+            lag_intercept_power += lag_intercept_power_direction*random.random()*0.0001#*np.random.randint(5,size=1)
+            width_slope_power += width_slope_power_direction*random.random()*0.0001
+            width_intercept_power += width_intercept_power_direction*random.random()*0.0001#*np.random.randint(5,size=1)
+            A_T += A_T_direction*random.random()*0.001
+            #print N_s_power, np.array([(-1)**np.random.randint(2)*random.random()*0.0001 for i in range(7)]) #.transpose()
+            N_s_power += N_s_power_direction*np.random.rand(7)*0.00001 #.transpose()
+        else:
+            T_direction = (-1)**np.random.randint(2,size=1) #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
+            #print np.random.randint(2)
+            lag_thermal_direction = (-1)**np.random.randint(2)
+            '''LOOK AT SOMETHING LIKE EMCEE IMPLEMENTATION IN lmfit(?)'''
+            width_thermal_direction = (-1)**np.random.randint(2)#*np.random.randint(5,size=1)
+            lag_slope_power_direction = (-1)**np.random.randint(2)
+            lag_intercept_power_direction = (-1)**np.random.randint(2)#*np.random.randint(5,size=1)
+            width_slope_power_direction = (-1)**np.random.randint(2)
+            width_intercept_power_direction = (-1)**np.random.randint(2)#*np.random.randint(5,size=1)
+            A_T_direction = (-1)**np.random.randint(2)
+            #print N_s_power, np.array([(-1)**np.random.randint(2)*random.random()*0.0001 for i in range(7)]) #.transpose()
+            N_s_power_direction = (-1)**np.random.randint(2,size=7) #.transpose()
+
+            T += T_direction*np.random.random() #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
+            #print np.random.randint(2)
+            lag_thermal += lag_thermal_direction*random.random()*0.00001
+            '''LOOK AT SOMETHING LIKE EMCEE IMPLEMENTATION IN lmfit(?)'''
+            width_thermal += width_thermal_direction*random.random()*0.00001#*np.random.randint(5,size=1)
+            lag_slope_power += lag_slope_power_direction*random.random()*0.00001
+            lag_intercept_power += lag_intercept_power_direction*random.random()*0.00001#*np.random.randint(5,size=1)
+            width_slope_power += width_slope_power_direction*random.random()*0.00001
+            width_intercept_power += width_intercept_power_direction*random.random()*0.00001#*np.random.randint(5,size=1)
+            A_T += A_T_direction*random.random()*0.00001
+            #print N_s_power, np.array([(-1)**np.random.randint(2)*random.random()*0.0001 for i in range(7)]) #.transpose()
+            N_s_power += N_s_power_direction*np.random.rand(7)*0.00001 #.transpose()
+
 
         '''Fitting the constants'''
         mu_power_K = lag_equation(K_cen[0],lag_slope_power,lag_intercept_power)
@@ -493,10 +514,16 @@ for i in range(runs):
         #change = colour_change
         #print change[0]
         #print cont[:,1][0]
-        cont[:,1] = cont[:,1] * change
-        cont_real[:,1] = ifft(cont[:,1]).real #Implementing change
-        #print change
+        '''LOOK AT THE FFT FOR POSSIBLE PHASE SHIFT'''
+        
+
+        #print 'cont', cont[0,1]
+        #print 'cont save', cont_save[0,1]
         #print cont[:,1]
+        #print change
+        cont_real[:,1] = np.real((ifft(cont[:,1]).real - np.min(ifft(cont[:,1]).real)))*10**(-scale) #Implementing change
+        #print change[1]
+        #print 'real', cont_real[0,1]
         #h = 0
         #b = np.nanmean(cont[:,1]) #Finding mean value of new Kelly 2009
         #flux1 = cont[:,1] #Updating global variable for Kelly 2009
@@ -569,6 +596,8 @@ for i in range(runs):
         chi2_i = np.nansum((data_comp_i[:,1] - data_comp_i[:,2])**2)
         chi2_z = np.nansum((data_comp_z[:,1] - data_comp_z[:,2])**2)
 
+        #print data_comp_K[:,2]
+
         chi2 = chi2_K + chi2_H + chi2_J + chi2_g + chi2_r + chi2_i + chi2_z
 
         #print chi2 - chi1
@@ -583,30 +612,43 @@ for i in range(runs):
             #print 1, slope
 
         if chi2 <= chi1 \
-           and abs(slope) < abs(slopeaim - slopeallow): #abs(slopeolder1) <
+           and abs(slope) < abs(slopeaim + slopeallow) \
+           and (data_comp_K[:,2] >= 0.).all() == True \
+           and (data_comp_H[:,2] >= 0.).all() == True \
+           and (data_comp_J[:,2] >= 0.).all() == True \
+           and (data_comp_g[:,2] >= 0.).all() == True \
+           and (data_comp_r[:,2] >= 0.).all() == True \
+           and (data_comp_i[:,2] >= 0.).all() == True \
+           and (data_comp_z[:,2] >= 0.).all() == True: #abs(slopeolder1) <
             '''The first instance of acceptance'''
             chi1 = chi2
             slopeolder1 = slope
-            #print 1.1, slope
+            if try1 == 2:
+                try1 = 1
+            print 1.1, slope
 
-        elif chi2 <= chi1 \
-             and slopeaim - slopeallow < slope < slopeaim + slopeallow:
-            '''The second instance of acceptance'''
-            chi1 = chi2
-            slopeolder1 = slope
-            #print 2, slope
-
-        elif 0.1 > MCMC: # \
+        elif 0.002 > MCMC \
+           and (data_comp_K[:,2] >= 0.).all() == True \
+           and (data_comp_H[:,2] >= 0.).all() == True \
+           and (data_comp_J[:,2] >= 0.).all() == True \
+           and (data_comp_g[:,2] >= 0.).all() == True \
+           and (data_comp_r[:,2] >= 0.).all() == True \
+           and (data_comp_i[:,2] >= 0.).all() == True \
+           and (data_comp_z[:,2] >= 0.).all() == True: # \
              #and abs(slope) < abs(slopeaim + slopeallow): # and (dd2_ddt1 - dd2_ddt) < 0 and (dd3_ddt1 - dd3_ddt) < 0: # \
              #and random.random() < 0.1:
             '''The third instance of acceptance, an attempt to encourage a smoother curve.'''
             chi1 = chi2
             slopeolder1 = slope
             #print MCMC
-            #print 3, slope
+            try1 = 0
+            print 3, slope
 
         else:
             '''Rejection'''
+            #print min(data_comp_K[:,2]),min(data_comp_H[:,2]),min(data_comp_J[:,2]),min(data_comp_g[:,2]), \
+            #      min(data_comp_r[:,2]),min(data_comp_i[:,2]),min(data_comp_z[:,2])
+            
             cont_real[:,1] = cont_real_save[:,1]
             cont[:,1] = cont_save[:,1]
 
@@ -627,6 +669,14 @@ for i in range(runs):
             width_intercept_power = width_intercept_power_save
             A_T = A_T_save
             N_s_power = N_s_power_save
+            scale = scale_save
+            
+            if try1 != 0:
+                try1 = 0
+            else:
+                try1 = 2
+
+            print 'FAIL', slope
 
         #if chi2 < chi1:
         #    print chi2, chi1
@@ -642,7 +692,7 @@ for i in range(runs):
     print 'width_intercept_power =', width_intercept_power
     print 'A_T =', A_T
     print 'N_s_power =', N_s_power
-    print 'Temperature =', T
+    print 'Temperature =', T[0]
     P_show = log(P_v)
     np.savetxt('CONTINUUM/NGC3783-continuum-slope-colour-2_5',cont) #Updating the files
     np.savetxt('CONTINUUM/NGC3783-continuum-T-slope-colour-2_5',np.array([cont_days,T]))
@@ -677,28 +727,23 @@ for i in range(runs):
     plt.plot(data_comp_z[:,0],data_comp_z[:,1],color='orange')
     plt.scatter(data_comp_z[:,0],data_comp_z[:,2],color='orange')
 
-    plt.scatter(cont[:,0],cont_real[:,1],color='brown')
+    plt.scatter(np.real(cont[:,0]),cont_real[:,1],color='brown')
 
-    print 'cont_real =', cont_real[:,1]
+    print 'cont =', cont[:,1][0]
 
-    plt.ylim([1.2e-25,1e1])
+    print 'cont_real =', cont_real[:,1][0]
+
+    plt.ylim([1.2e-15,0.4e-13])
+    print 'H', data_comp_H[:,1][10],data_comp_H[:,2][10]
+    print 'J', data_comp_J[:,1][10],data_comp_J[:,2][10]
+    print 'K', data_comp_K[:,1][10],data_comp_K[:,2][10]
+    print 'g', data_comp_g[:,1][10],data_comp_g[:,2][10]
+    print 'r', data_comp_r[:,1][10],data_comp_r[:,2][10]
+    print 'i', data_comp_i[:,1][10],data_comp_i[:,2][10]
+    print 'z', data_comp_z[:,1][10],data_comp_z[:,2][10]
     #plt.ylim([4e-15,1.2e-14])
-    plt.yscale('log')
-    plt.show() #block=False)
-    #plt.figure()
-    #plt.scatter(data_comp[:,0],data_comp[:,1],color='b')
-    #plt.scatter(data_comp[:,0],data_comp[:,2],color='r')
-    #plt.scatter(cont[:,0],cont[:,1],color='g')
-    #plt.ylim([4e-15,1.2e-14])
-    #plt.show(block=False)
-    print slopeolder1
-    #plt.figure()
-    #plt.scatter(freq,P_show,color='b')
-    #plt.ylim([1e-21,1e-31])
-    #plt.xlim([1e-8,3e-7])
     #plt.yscale('log')
-    #plt.xscale('log')
-    #plt.show(block=False)
-    gc.collect()
+    plt.show() #block=False)
+    print slopeolder1
 
 #print cont[:,1]
