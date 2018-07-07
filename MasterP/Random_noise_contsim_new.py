@@ -10,6 +10,7 @@ import math
 from scipy.optimize import minimize as mini
 from scipy.optimize import least_squares as ls
 from scipy.optimize import leastsq
+from scipy.optimize import curve_fit
 import gc
 from multiprocessing import Process
 #import colorednoise as cn
@@ -90,12 +91,12 @@ i_width = 105.6*10**(-9)  #Width of i band in m
 z_width = 122.7*10**(-9)  #Width of z band in m
 
 runs = 100 #3000 #Number of runs (arbitrary due to the gradual updates, would probably take close to a month to run)
-runs1 = 100 #1000 #1000
+runs1 = 200 #1000 #1000
 days_before = 700. #How far to extend the lightcurve back (days)
 days_after = 10. #How far to extend the lightcurve forward (days)
 step = 5. #Timestep (days)
 slopeaim = -2.7 #Slope that is targeted
-slopeallow = -2.5
+slopeallow = -0.4
 slope = 0
 #mean = 140. #Transfer function
 #sigma = 0.8
@@ -147,6 +148,8 @@ def lag_equation(wl,lag_slope,lag_intercept):
 def width_equation(w,width_slope,width_intercept):
     return width_intercept*w**width_slope
 
+
+
 data_K = np.loadtxt('NOVEMBER/NOV-NGC3783-K') #'NOVEMBER/Kelly-NGC3783K')
 error_K = np.loadtxt('NOVEMBER/NGC3783_NOISE_K.txt') #Load data
 
@@ -168,7 +171,6 @@ error_i = np.loadtxt('NOVEMBER/NGC3783_NOISE_i.txt') #Load data
 data_z = np.loadtxt('NOVEMBER/NOV-NGC3783-z') #'NOVEMBER/Kelly-NGC3783K')
 error_z = np.loadtxt('NOVEMBER/NGC3783_NOISE_z.txt') #Load data
 
-cont = np.loadtxt('NOVEMBER/NGC3783_CONT_TRY')
 #plt.figure()
 #plt.scatter(data[:,0],data[:,1])
 #plt.ylim([6e-15,1.1e-14])
@@ -188,8 +190,7 @@ dd_ddt_data = []
 
 '''cont denotes the model for the continuum light curve, whereas data_comp denotes the array giving indication of the
 observed light curve and how the continuum light curve fitted through the transfer function compares'''
-cont_days = cont[:,0] #np.arange(min(data_K[:,0])-days_before,max(data_K[:,0])+days_after,step) #Defines the spacing of the light curve
-cont[:,1] = np.fft.ifft(cont[:,1])
+cont_days = np.arange(min(data_K[:,0])-days_before,max(data_K[:,0])+days_after,step) #Defines the spacing of the light curve
 
 T = np.array([T]*len(cont_days)) #List of temperatures
 
@@ -210,53 +211,116 @@ r_width = np.array([r_width]*len(cont_days))
 i_width = np.array([i_width]*len(cont_days))
 z_width = np.array([z_width]*len(cont_days))
 
+BB_K = planck(K_cen,T)*K_width
+BB_H = planck(H_cen,T)*H_width
+BB_J = planck(J_cen,T)*J_width
+BB_g = planck(g_cen,T)*g_width
+BB_r = planck(r_cen,T)*r_width
+BB_i = planck(i_cen,T)*i_width
+BB_z = planck(z_cen,T)*z_width
+
+'''Fitting the constants'''
+mu_power_K = lag_equation(K_cen[0],lag_slope_power,lag_intercept_power)
+mu_power_H = lag_equation(H_cen[0],lag_slope_power,lag_intercept_power)
+mu_power_J = lag_equation(J_cen[0],lag_slope_power,lag_intercept_power)
+mu_power_g = lag_equation(g_cen[0],lag_slope_power,lag_intercept_power)
+mu_power_r = lag_equation(r_cen[0],lag_slope_power,lag_intercept_power)
+mu_power_i = lag_equation(i_cen[0],lag_slope_power,lag_intercept_power)
+mu_power_z = lag_equation(z_cen[0],lag_slope_power,lag_intercept_power)
+
+sigma_power_K = width_equation(K_width[0],width_slope_power,width_intercept_power)
+sigma_power_H = width_equation(H_width[0],width_slope_power,width_intercept_power)
+sigma_power_J = width_equation(J_width[0],width_slope_power,width_intercept_power)
+sigma_power_g = width_equation(g_width[0],width_slope_power,width_intercept_power)
+sigma_power_r = width_equation(r_width[0],width_slope_power,width_intercept_power)
+sigma_power_i = width_equation(i_width[0],width_slope_power,width_intercept_power)
+sigma_power_z = width_equation(z_width[0],width_slope_power,width_intercept_power)
+
+lag_thermal_K = lag_thermal
+lag_thermal_H = lag_thermal
+lag_thermal_J = lag_thermal
+lag_thermal_g = lag_thermal
+lag_thermal_r = lag_thermal
+lag_thermal_i = lag_thermal
+lag_thermal_z = lag_thermal
+
+width_thermal_K = width_thermal
+width_thermal_H = width_thermal
+width_thermal_J = width_thermal
+width_thermal_g = width_thermal
+width_thermal_r = width_thermal
+width_thermal_i = width_thermal
+width_thermal_z = width_thermal
+
 #cont_days = np.arange(min(data[:,0])-200.,max(data[:,0]+100),step) #Defines the spacing of the light curve
-#cont = np.empty((len(cont_days),3),dtype=complex)
+cont = np.empty((len(cont_days),3),dtype=complex)
 
 colour_start = colour(np.random.normal(2.7,0.15,1)[0],len(cont[:,1])) #colour(-slope,len(cont[:,1]))
 #print colour_start[0]
 #colour_start = colour_start*1e-17
 
-#cont[:,0] = np.real(cont_days)
-#!cont[:,1] = colour_start #colour(2.7,len(cont[:,1])) #np.random.randint(-1e5,1e5,len(cont_days))*1.e-22 #colour(-slope,len(cont[:,1]))*1e-17 #colour_start
+cont[:,0] = np.real(cont_days)
+cont[:,1] = colour_start #colour(2.7,len(cont[:,1])) #np.random.randint(-1e5,1e5,len(cont_days))*1.e-22 #colour(-slope,len(cont[:,1]))*1e-17 #colour_start
 #print 'Cont 1 =', cont[0,1]
 #cont = np.loadtxt('CONTINUUM/NGC3783-continuum-slope-Kelly-2_5-1')
-#day = cont_days[0]
+day = cont_days[0]
 
 data_comp_K = np.zeros((len(data_K[:,1]),3))
 data_comp_K[:,0] = data_K[:,0]
 data_comp_K[:,1] = data_K[:,1]
 data_comp_K[:,2] = 0
 
+mask = ~np.isnan(data_comp_K[:,1])
+data_comp_K = data_comp_K[mask,:]
+
 data_comp_H = np.zeros((len(data_H[:,1]),3))
 data_comp_H[:,0] = data_H[:,0]
 data_comp_H[:,1] = data_H[:,1]
 data_comp_H[:,2] = 0
+
+mask = ~np.isnan(data_comp_H[:,1])
+data_comp_H = data_comp_H[mask,:]
 
 data_comp_J = np.zeros((len(data_J[:,1]),3))
 data_comp_J[:,0] = data_J[:,0]
 data_comp_J[:,1] = data_J[:,1]
 data_comp_J[:,2] = 0
 
+mask = ~np.isnan(data_comp_J[:,1])
+data_comp_J = data_comp_J[mask,:]
+
 data_comp_g = np.zeros((len(data_g[:,1]),3))
 data_comp_g[:,0] = data_g[:,0]
 data_comp_g[:,1] = data_g[:,2]
 data_comp_g[:,2] = 0
+
+mask = ~np.isnan(data_comp_g[:,1])
+data_comp_g = data_comp_g[mask,:]
 
 data_comp_r = np.zeros((len(data_r[:,1]),3))
 data_comp_r[:,0] = data_r[:,0]
 data_comp_r[:,1] = data_r[:,2]
 data_comp_r[:,2] = 0
 
+mask = ~np.isnan(data_comp_r[:,1])
+data_comp_r = data_comp_r[mask,:]
+
 data_comp_i = np.zeros((len(data_i[:,1]),3))
 data_comp_i[:,0] = data_i[:,0]
 data_comp_i[:,1] = data_i[:,2]
 data_comp_i[:,2] = 0
 
+mask = ~np.isnan(data_comp_i[:,1])
+data_comp_i = data_comp_i[mask,:]
+
 data_comp_z = np.zeros((len(data_z[:,1]),3))
 data_comp_z[:,0] = data_z[:,0]
 data_comp_z[:,1] = data_z[:,2]
 data_comp_z[:,2] = 0
+
+mask = ~np.isnan(data_comp_z[:,1])
+data_comp_z = data_comp_z[mask,:]
+
 #data_comp = np.loadtxt('CONTINUUM/NGC3783-data_comp-slope-Kelly-2_5-1')
 #print data[:,2]
 
@@ -342,6 +406,20 @@ def PSD(freq,cont):
     slope = np.polyfit(np.log10(freq),np.log10(P_v),1)[0] #Finding PSD slope
 
     return slope, P_v
+
+def determine_constants(cont_days,mu_p,sigma_p,lag_thermal,width_thermal,N_s,BB,A_T,T,data_comp):
+    transfer_power = N_s*create_lognorm(x_list,mu_p,sigma_p)
+    transfer_thermal = A_T*create_lognorm(x_list,lag_thermal,width_thermal)
+    transfer_array_power = transfer(cont_days,data_comp,transfer_power)
+    transfer_array_thermal = transfer(cont_days,data_comp,transfer_thermal)
+    result = model_data(cont_real,data_comp,transfer_array_power,transfer_array_thermal)
+    #print 'HEY HO OG EN HEL FLASKE ROM'
+    #print result
+    #print np.shape(result)
+    return result
+
+
+
 
 #def model_data(cont,data_comp,transfer_array):
 #    '''The simulated observed light curve as a result of the continuum light curve and the transfer function'''
@@ -464,6 +542,38 @@ for i in range(runs):
         N_s_power_save = np.copy(N_s_power)
         scale_save = np.copy(scale)
 
+        mu_power_K_save = np.copy(mu_power_K)
+        mu_power_H_save = np.copy(mu_power_H)
+        mu_power_J_save = np.copy(mu_power_J)
+        mu_power_g_save = np.copy(mu_power_g)
+        mu_power_r_save = np.copy(mu_power_r)
+        mu_power_i_save = np.copy(mu_power_i)
+        mu_power_z_save = np.copy(mu_power_z)
+
+        sigma_power_K_save = np.copy(sigma_power_K)
+        sigma_power_H_save = np.copy(sigma_power_H)
+        sigma_power_J_save = np.copy(sigma_power_J)
+        sigma_power_g_save = np.copy(sigma_power_g)
+        sigma_power_r_save = np.copy(sigma_power_r)
+        sigma_power_i_save = np.copy(sigma_power_i)
+        sigma_power_z_save = np.copy(sigma_power_z)
+
+        lag_thermal_K_save = np.copy(lag_thermal_K)
+        lag_thermal_H_save = np.copy(lag_thermal_H)
+        lag_thermal_J_save = np.copy(lag_thermal_J)
+        lag_thermal_g_save = np.copy(lag_thermal_g)
+        lag_thermal_r_save = np.copy(lag_thermal_r)
+        lag_thermal_i_save = np.copy(lag_thermal_i)
+        lag_thermal_z_save = np.copy(lag_thermal_z)
+
+        width_thermal_K_save = np.copy(width_thermal_K)
+        width_thermal_H_save = np.copy(width_thermal_H)
+        width_thermal_J_save = np.copy(width_thermal_J)
+        width_thermal_g_save = np.copy(width_thermal_g)
+        width_thermal_r_save = np.copy(width_thermal_r)
+        width_thermal_i_save = np.copy(width_thermal_i)
+        width_thermal_z_save = np.copy(width_thermal_z)
+
 
         if try1 == 0:
             #print i, i1/float(runs1), slopeolder1
@@ -475,26 +585,8 @@ for i in range(runs):
         elif try1 == 1.1:
             '''Thermal component'''
             T_direction = (-1)**np.random.randint(2,size=1) #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
-            lag_thermal_direction = (-1)**np.random.randint(2)
-            '''LOOK AT SOMETHING LIKE EMCEE IMPLEMENTATION IN lmfit(?)'''
-            width_thermal_direction = (-1)**np.random.randint(2)#*np.random.randint(5,size=1)
 
             T += T_direction*np.random.random()*5
-            lag_thermal += lag_thermal_direction*random.random()*jump*5
-            '''LOOK AT SOMETHING LIKE EMCEE IMPLEMENTATION IN lmfit(?)'''
-            width_thermal += width_thermal_direction*random.random()*jump*5#*np.random.randint(5,size=1)
-
-        elif try1 == 1.2:
-            '''Power component'''
-            lag_slope_power_direction = (-1)**np.random.randint(2)
-            lag_intercept_power_direction = (-1)**np.random.randint(2)#*np.random.randint(5,size=1)
-            width_slope_power_direction = (-1)**np.random.randint(2)
-            width_intercept_power_direction = (-1)**np.random.randint(2)#*np.random.randint(5,size=1)
-
-            lag_slope_power += lag_slope_power_direction*random.random()*jump
-            lag_intercept_power += lag_intercept_power_direction*random.random()*jump#*np.random.randint(5,size=1)
-            width_slope_power += width_slope_power_direction*random.random()*jump
-            width_intercept_power += width_intercept_power_direction*random.random()*jump
 
         elif try1 == 1.3:
             N_s_power_direction = (-1)**np.random.randint(2,size=7)
@@ -506,74 +598,39 @@ for i in range(runs):
             scale += scale_direction*random.random()/1000.
 
         elif try1 == 2.1:
-            T += (-1)**np.random.randint(2,size=1)*np.random.random()*5 #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
-            #print np.random.randint(2)
-            lag_thermal += lag_thermal_direction*random.random()*jump*5
-            '''LOOK AT SOMETHING LIKE EMCEE IMPLEMENTATION IN lmfit(?)'''
-            width_thermal += width_thermal_direction*random.random()*jump*5#*np.random.randint(5,size=1)
-
-        elif try1 == 2.2:
-            lag_slope_power += lag_slope_power_direction*random.random()*jump
-            lag_intercept_power += lag_intercept_power_direction*random.random()*jump#*np.random.randint(5,size=1)
-            width_slope_power += width_slope_power_direction*random.random()*jump
-            width_intercept_power += width_intercept_power_direction*random.random()*jump#*np.random.randint(5,size=1)
+            T += T_direction*np.random.random()*5 #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
 
         elif try1 == 2.3:
             A_T += A_T_direction*random.random()*jump
             N_s_power += N_s_power_direction*np.random.rand(7)*jump #.transpose()
             scale += scale_direction*random.random()/1000.
 
+        #determine_constants(cont_days,mu_p,sigma_p,lag_thermal,width_thermal,N_s,BB,A_T,T,data_comp)
+
+        popt_K, pcov_K = curve_fit(lambda cont_days, mu_p_K, sigma_p_K, lag_thermal, width_thermal: determine_constants(cont_days,mu_p_K,sigma_p_K,lag_thermal,width_thermal,N_s_power[0],BB_K,A_T,T,data_comp_K),cont_days,data_comp_K[:,1])
+        mu_power_K, sigma_power_K, lag_thermal, width_thermal = popt_K[0], popt_K[1], popt_K[2], popt_K[3]
+        popt_H, pcov_H = curve_fit(lambda cont_days, mu_p_H, sigma_p_H: determine_constants(cont_days,mu_p_H,sigma_p_H,lag_thermal,width_thermal,N_s_power[1],BB_H,A_T,T,data_comp_H),cont_days,data_comp_H[:,1])
+        popt_J, pcov_J = curve_fit(lambda cont_days, mu_p_J, sigma_p_J: determine_constants(cont_days,mu_p_J,sigma_p_J,lag_thermal,width_thermal,N_s_power[2],BB_J,A_T,T,data_comp_J),cont_days,data_comp_J[:,1])
+        popt_g, pcov_g = curve_fit(lambda cont_days, mu_p_g, sigma_p_g: determine_constants(cont_days,mu_p_g,sigma_p_g,lag_thermal,width_thermal,N_s_power[3],BB_g,A_T,T,data_comp_g),cont_days,data_comp_g[:,1])
+        popt_r, pcov_r = curve_fit(lambda cont_days, mu_p_r, sigma_p_r: determine_constants(cont_days,mu_p_r,sigma_p_r,lag_thermal,width_thermal,N_s_power[4],BB_r,A_T,T,data_comp_r),cont_days,data_comp_r[:,1])
+        popt_i, pcov_i = curve_fit(lambda cont_days, mu_p_i, sigma_p_i: determine_constants(cont_days,mu_p_i,sigma_p_i,lag_thermal,width_thermal,N_s_power[5],BB_i,A_T,T,data_comp_i),cont_days,data_comp_i[:,1])
+        popt_z, pcov_z = curve_fit(lambda cont_days, mu_p_z, sigma_p_z: determine_constants(cont_days,mu_p_z,sigma_p_z,lag_thermal,width_thermal,N_s_power[6],BB_z,A_T,T,data_comp_z),cont_days,data_comp_z[:,1])
+
         '''Fitting the constants'''
-        mu_power_K = lag_equation(K_cen[0],lag_slope_power,lag_intercept_power)
-        mu_power_H = lag_equation(H_cen[0],lag_slope_power,lag_intercept_power)
-        mu_power_J = lag_equation(J_cen[0],lag_slope_power,lag_intercept_power)
-        mu_power_g = lag_equation(g_cen[0],lag_slope_power,lag_intercept_power)
-        mu_power_r = lag_equation(r_cen[0],lag_slope_power,lag_intercept_power)
-        mu_power_i = lag_equation(i_cen[0],lag_slope_power,lag_intercept_power)
-        mu_power_z = lag_equation(z_cen[0],lag_slope_power,lag_intercept_power)
-
-        #print '1', K_width
-        #print '2', width_slope_power
-        #print '3', width_intercept_power
-
-        sigma_power_K = width_equation(K_width[0],width_slope_power,width_intercept_power)
-        sigma_power_H = width_equation(H_width[0],width_slope_power,width_intercept_power)
-        sigma_power_J = width_equation(J_width[0],width_slope_power,width_intercept_power)
-        sigma_power_g = width_equation(g_width[0],width_slope_power,width_intercept_power)
-        sigma_power_r = width_equation(r_width[0],width_slope_power,width_intercept_power)
-        sigma_power_i = width_equation(i_width[0],width_slope_power,width_intercept_power)
-        sigma_power_z = width_equation(z_width[0],width_slope_power,width_intercept_power)
-
-        #print K_width
+        mu_power_K, sigma_power_K, lag_thermal, width_thermal = popt_K[0], popt_K[1], popt_K[2], popt_K[3]
+        mu_power_H, sigma_power_H = popt_H[0], popt_H[1]
+        mu_power_J, sigma_power_J = popt_J[0], popt_J[1]
+        mu_power_g, sigma_power_g = popt_g[0], popt_g[1]
+        mu_power_r, sigma_power_r = popt_r[0], popt_r[1]
+        mu_power_i, sigma_power_i = popt_i[0], popt_i[1]
+        mu_power_z, sigma_power_z = popt_z[0], popt_z[1]
 
         '''Looping over the course of the CLC'''
         F_N_v = np.zeros((len(freq))) #Creating the base array for the PSD
-        #print np.shape(colour(-slope,len(cont[:,1])))
-        #colour_change = colour(-slope,len(cont[:,1]))
-        #change = colour_change
-        #print change[0]
-        #print cont[:,1][0]
         '''LOOK AT THE FFT FOR POSSIBLE PHASE SHIFT'''
-
-
-        #print 'cont', cont[0,1]
-        #print 'cont save', cont_save[0,1]
-        #print cont[:,1]
-        #print change
         cont_real[:,1] = np.real((ifft(cont[:,1]).real - np.min(ifft(cont[:,1]).real)))*10**(-scale) #Implementing change
-        #print change[1]
-        #print 'real', cont_real[0,1]
-        #h = 0
-        #b = np.nanmean(cont[:,1]) #Finding mean value of new Kelly 2009
-        #flux1 = cont[:,1] #Updating global variable for Kelly 2009
-        #param = [b,tau,sigma_tot] #See above
-
-        #cont_real = cont
-        #cont_real[:,1] = ifft(cont[:,1]).real
-        #cont_real[:,1] = cont_real[:,1] #/np.std(cont_real[:,1])
 
         slope, P_v = PSD(freq,cont_real) #Finding PSD slope
-        #print slope
 
         '''Power transfer functions'''
         transfer_power_K = N_s_power[0]*create_lognorm(x_list,mu_power_K,sigma_power_K)
@@ -597,7 +654,7 @@ for i in range(runs):
         BB_z = planck(z_cen,T)*z_width
 
         '''Black Body Transfer function'''
-        transfer_thermal = A_T*create_lognorm(x_list,lag_thermal,width_thermal)
+        transfer_thermal = A_T*create_lognorm(x_list,lag_thermal_K,width_thermal_K)
 
         #print 'x_list', len(x_list) #, x_list
 
@@ -676,9 +733,6 @@ for i in range(runs):
             elif try1 == 1.1:
                 try1 = 2.1
                 jump_change = 0
-            elif try1 == 1.2:
-                try1 = 2.2
-                jump_change = 0
             elif try1 == 1.3:
                 try1 = 2.3
                 jump_change = 0
@@ -737,13 +791,43 @@ for i in range(runs):
             N_s_power = N_s_power_save
             scale = scale_save
 
+            mu_power_K = mu_power_K_save
+            mu_power_H = mu_power_H_save
+            mu_power_J = mu_power_J_save
+            mu_power_g = mu_power_g_save
+            mu_power_r = mu_power_r_save
+            mu_power_i = mu_power_i_save
+            mu_power_z = mu_power_z_save
+
+            sigma_power_K = sigma_power_K_save
+            sigma_power_H = sigma_power_H_save
+            sigma_power_J = sigma_power_J_save
+            sigma_power_g = sigma_power_g_save
+            sigma_power_r = sigma_power_r_save
+            sigma_power_i = sigma_power_i_save
+            sigma_power_z = sigma_power_z_save
+
+            lag_thermal_K = lag_thermal_K_save
+            lag_thermal_H = lag_thermal_H_save
+            lag_thermal_J = lag_thermal_J_save
+            lag_thermal_g = lag_thermal_g_save
+            lag_thermal_r = lag_thermal_r_save
+            lag_thermal_i = lag_thermal_i_save
+            lag_thermal_z = lag_thermal_z_save
+
+            width_thermal_K = width_thermal_K_save
+            width_thermal_H = width_thermal_H_save
+            width_thermal_J = width_thermal_J_save
+            width_thermal_g = width_thermal_g_save
+            width_thermal_r = width_thermal_r_save
+            width_thermal_i = width_thermal_i_save
+            width_thermal_z = width_thermal_z_save
+
             #print 'FAIL', try1, chi2 - chi1, slope
 
             if try1 == 0 and random.random() < 0.3:
                 try1 = 1.1
             elif try1 == 1.1 or try1 == 2.1: # and random.random() < 0.3:
-                try1 = 1.2
-            elif try1 == 1.2 or try1 == 2.2: # and random.random() < 0.5:
                 try1 = 1.3
             elif try1 == 1.3 or try1 == 2.3: # and random.random() < 0.5:
                 try1 = 0
@@ -875,7 +959,7 @@ for i in range(runs):
     print slopeolder1
     end_time = time.time()
     print 'Time =', end_time - start_time
-    print transfer_thermal
+    print 'transfer_thermal = ', lag_thermal_K, lag_thermal_H, lag_thermal_J, lag_thermal_g, lag_thermal_r, lag_thermal_i, lag_thermal_z
     print transfer_power_K
     print np.sum(transfer_power_K/N_s_power[0]), np.sum(transfer_thermal/A_T)
 
