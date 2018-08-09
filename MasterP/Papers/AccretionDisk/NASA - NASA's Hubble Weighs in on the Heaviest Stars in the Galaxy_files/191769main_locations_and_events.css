@@ -1,0 +1,36 @@
+/* b:form */
+div#form_wrapper img#form_title { border:none; }	
+div#form_wrapper { margin-left:15px; margin-top:10px; }
+form#combo a { color:#99CCFF; }	
+/* e:form */	
+/* b:info wndows */		
+div#info_window { position:relative; width:270px; height:110px; color:#000000;font-family:arial; font-size:11px; }
+div#image_wrapper { width:100px; }
+div#data_wrapper { width:150px; position:absolute; left: 110px; top: 0px; height:200px; }
+div#data_wrapper p { margin-bottom:0px; }
+p#info_window_title	{ font-weight:bold; }
+p#info_window_title, 
+p#info_window_description { color:#000000; padding-bottom:5px !important; }
+div#info_window a, div#info_window a:hover { color:#000000; text-decoration:none; }	
+p.info_window_link_last { padding-bottom:5px;}
+/* e:info wndows */			
+/* caption region's scroller */
+#locations_selector { position:relative; }
+#locations_selector select { display:none; }
+/* wrap to make sure that image area is clickable */
+#wrap {  position:relative; float: left; width: 16px; height: 145px; padding-top:0px; background: #737373 url("/templateimages/redesign/global/bt_scroll_down_gray.jpg") no-repeat bottom left; }
+#track { position:relative; width: 16px; height: 145px; background: url("/templateimages/redesign/global/bt_scroll_up_gray.jpg") no-repeat top left; }
+#handle { width: 16px; height: 47px; background:none;}
+div#handle img { border:none !important; }
+/* b:customized scroller  */		
+/* b:copied from image gallery */			
+.map_holder { display:block; background-color:rgb(14,14,14); width:710px; height:315px; border-top:1px solid rgb(84,84,84); }
+.map_holder #caption_region { width:241px; height:315px; float: left; background-color:rgb(84,84,84); }
+.map_holder #map_region { margin: 0 1px 0 0; width:468px; float: left; }
+.map_holder #caption_region h3 { margin:0 0 0 0; padding:8px 16px 0 16px; font-size:14px; line-height:18px; }
+.map_holder #caption_region p { padding:8px 0 4px 0; line-height:16px; }
+.map_holder #download_image_box { position:absolute; top:264px; left:472px; width:228px; padding-left:8px;	/* total=236 */ height:59px; background-color: rgb(72,72,72); border-left:1px solid rgb(84,84,84);	 border-right:1px solid rgb(84,84,84); }
+/* e:copied from image gallery */	
+
+
+

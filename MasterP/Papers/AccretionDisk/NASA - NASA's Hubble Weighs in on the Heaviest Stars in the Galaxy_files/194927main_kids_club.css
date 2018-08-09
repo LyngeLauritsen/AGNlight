@@ -1,0 +1,67 @@
+.kc_body #footer { margin-top:16px; }
+.kc_body .header { background-image:url(/templateimages/redesign/modules/kids_club/header.jpg); }
+
+#kc_content_body { position:relative; z-index:2; margin:8px 0 0 0; width:952px; overflow:hidden; text-align:left;}
+#kc_header { width:952px; height:19px; float:left; background:url(/templateimages/redesign/modules/kids_club/cap.png) no-repeat 0 0;}
+.kids_club_home { position:absolute; top:40px; left:180px; width:88px; height:31px; background:url(/templateimages/redesign/modules/kids_club/kc_home.png) no-repeat 0 0;}
+
+#kc_left { float:left; width:12px; background:url(/templateimages/redesign/modules/kids_club/left.png) no-repeat 0 0; margin:0 0 -2000px 0; padding:0 0 2000px 0;}
+
+#kc_middle { float:left; width:927px; background:#cacaca url(/templateimages/redesign/modules/kids_club/tile.png) repeat-y 0 0;}
+#kc_right { float:left; width:13px; background:url(/templateimages/redesign/modules/kids_club/right.png) no-repeat 0 0; margin:0 0 -2000px 0; padding:0 0 2000px 0;}
+#kc_footer { margin: 0 0 8px 0; position:relative; z-index:2; width:952px; height:25px;  background:url(/templateimages/redesign/modules/kids_club/bottom_cap.png) no-repeat 0 0; }
+
+#kc_feature { margin:0 0 0 84px; width:762px; }
+#kc_feature_cap { height:15px; background:#cacaca url(/templateimages/redesign/modules/kids_club/feature_cap.png) no-repeat 0 0; }
+#kc_feature_middle { padding:0 15px 0 15px; height:341px; background:#cacaca url(/templateimages/redesign/modules/kids_club/feature_tile.png) repeat-y 0 0; }
+#kc_feature_middle img { border:none; }
+#kc_feature_bottom_cap { height:15px; background:#cacaca url(/templateimages/redesign/modules/kids_club/feature_bottom_cap.png) no-repeat 0 0; }
+
+#kc_divider { margin:16px 0 8px 0; width:927px; height:17px;  background:url(/templateimages/redesign/modules/kids_club/divider.png) no-repeat 0 0; }
+
+#kc_bottom_left { margin:0 0 0 50px; width:552px; float:left; overflow:hidden;}
+#kc_bottom_right { width:275px; float:left; }
+.kc_module_image { position:relative; width:268px; height:208px; }
+.kc_module_effect_cont { margin:0 8px 0 0; width:268px; float:left;}
+.kc_module_img { padding:13px 0 0 15px; border:none; }
+.kc_module_effect { position:absolute; top:0; left:0; }
+.kc_module_effect_inner { padding:18px; position:static; width:232px; height:208px; }
+.kc_level_none { background:url(/templateimages/redesign/modules/kids_club/effect.png) no-repeat 0 0; }
+.kc_level_1 { background:url(/templateimages/redesign/modules/kids_club/effect1.png) no-repeat 0 0; }
+.kc_level_2 { background:url(/templateimages/redesign/modules/kids_club/effect2.png) no-repeat 0 0; }
+.kc_level_3 { background:url(/templateimages/redesign/modules/kids_club/effect3.png) no-repeat 0 0; }
+.kc_level_4 { background:url(/templateimages/redesign/modules/kids_club/effect4.png) no-repeat 0 0; }
+.kc_level_5 { background:url(/templateimages/redesign/modules/kids_club/effect5.png) no-repeat 0 0; }
+.kc_module_effect_inner a { position:relative; z-index:1;}
+.kc_module_effect_cont h3 { padding:0 0 0 16px; color:#4f4f4f }
+
+.kc_play_now { position:absolute; top:155px; left:80px; width:107px; height:34px; background:url(/templateimages/redesign/modules/kids_club/play_now.png) no-repeat 0 0;}
+.kc_answer { position:absolute; top:155px; left:54px; width:158px; height:32px; background:url(/templateimages/redesign/modules/kids_club/answer.png) no-repeat 0 0;}
+.kc_students { position:absolute; top:155px; left:49px; width:167px; height:32px; background:url(/templateimages/redesign/modules/kids_club/students.png) no-repeat 0 0;}
+
+.kids_club_button { color:#fff; position:absolute; top:146px; left:33px; width:190px; height:34px;
+				  line-height:27px; font-family:"Trebuchet MS", Verdana; font-size:15px; font-weight:bold; text-align:center; vertical-align:middle;
+				  background-position:0px 0px; background-repeat:no-repeat; background-image:url(/templateimages/redesign/modules/kids_club/kids_button.gif); }
+
+a.kids_club_button:hover {text-decoration: none;}
+
+#kc_share_head { width:275px; height:227px;  position:relative; background:url(/templateimages/redesign/modules/kids_club/share_header.png) no-repeat 0 0;}
+#kc_share_middle { padding:4px 24px 0 24px; width:227px; height:205px; background:url(/templateimages/redesign/modules/kids_club/share_tile.png) repeat-y 0 0; }
+#kc_share_footer { width:275px; height:20px; background:url(/templateimages/redesign/modules/kids_club/share_footer.png) no-repeat 0 0; }
+.kc_share_break { margin:8px 0 2px -3px; width:246px; height:7px; background:url(/templateimages/redesign/modules/kids_club/share_break.png) no-repeat 0 0; }
+#kc_share_middle h3,
+#kc_share_middle p  { margin:0 0 4px 0; color:#4f4f4f }
+#kc_share_middle p  { font-size:11px; }
+#kc_share_middle a  { font-size:11px; color:#005dac}
+.kc_link { font-size:11px; color:#005dac}
+.kc_send { width:146px; height:32px; position:absolute; top:174px; left:113px; background:url(/templateimages/redesign/modules/kids_club/send.png) no-repeat 0 0; }
+
+#testYourKnowledge p { margin:5px 10px 10px 10px; color:#99ccff; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:13px; }
+#testYourKnowledge .kc_triva { font-size:11px; float:left; margin:8px 0 0 35px; color:#fff; font-family:Arial, Helvetica, sans-serif; }
+#testYourKnowledge input { position:relative; margin:-5px 7px 0 0; z-index:1; }
+
+
+
+
+
+

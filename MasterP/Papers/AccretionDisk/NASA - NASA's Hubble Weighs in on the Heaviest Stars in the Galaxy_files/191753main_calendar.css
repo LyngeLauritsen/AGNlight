@@ -1,0 +1,118 @@
+.NASACalendar div.calendar { border:1px solid #005DAC; }
+.NASACalendar.calendar_gray div.calendar { border:1px solid #434343; }
+.NASACalendar.calendar_lelp div.calendar { width:470px; height:322px; }
+
+table#calendar { margin:0; width:100%;	border:1px solid #000000; background:#002B57; }
+
+.NASACalendar .this_day_wrap { text-decoration:none; display: block; background-color:#002246;}
+
+.NASACalendar .calendar td.today { width: 70px; }
+div.box_350 .NASACalendar td.today { width: 49px; }
+div.box_230 .NASACalendar td.today { width: 32px; }
+.NASACalendar.calendar_gray .calendar td.today { width: 32px; }
+
+.NASACalendar .calendar table { height:265px; }
+.NASACalendar .calendar table.rows_6 td { height:44px; }
+.NASACalendar .calendar table.rows_6 .row_last td { height:43px; }
+
+div.box_350 .NASACalendar table { height:323px; }
+div.box_350 .NASACalendar table.rows_6 td { height:54px; }
+div.box_350 .NASACalendar table.rows_6 .row_last td { height:53px; }
+
+div.box_230 .NASACalendar table { height:265px; }
+div.box_230 .NASACalendar table.rows_6 td { height:44px; }
+div.box_230 .NASACalendar table.rows_6 .row_last td { height:47px; }
+
+.NASACalendar.calendar_gray table { height:265px; }
+.NASACalendar.calendar_gray table.rows_6 td { height:44px; }
+.NASACalendar.calendar_gray table.rows_6 .row_last td { height:47px; }
+
+table#calendar td { border-right:1px solid #005DAC; border-bottom:1px solid #005DAC; vertical-align:middle; text-align:center;  font-weight: bold; }
+table#calendar td a { color: #fff; }
+table#calendar td.today { background-color:#002246; }
+table#calendar td.event.today { background-color:#003A71; }
+table#calendar td.event.today:hover { background-color:#005DAC; cursor:pointer; }
+table#calendar td.event { background-color:#003A71; color:#FFFFFF; font-weight: bold; }
+table#calendar td.event:hover {	background-color:#005DAC; cursor:pointer; }
+table#calendar td.eventHover { background-color:#005DAC; cursor:pointer; }
+table#calendar td.col_last { border-right:none; }
+table#calendar tr.row_last td { border-bottom:none; }
+
+.NASACalendar.calendar_gray { margin-top:6px; border:1px solid rgb(84,84,84); }
+
+.NASACalendar div#tableNav_wrapper { height:28px; border: 1px solid #005DAC; border-bottom:0px; }
+
+.NASACalendar.calendar_gray div#tableNav_wrapper { height:28px; border: 1px solid rgb(67,67,67); border-bottom:0px; }
+
+div#tableNav { position:relative; height:26px; text-align:center; background-color:#003366; border:1px solid #000; } 
+
+div#tableNav span { margin:0 5px 0 0; font-family:Trebuchet MS; font-size:13px; font-weight:bold; line-height:26px; }
+
+a.backward,
+a.backward:hover,
+a.forward,
+a.forward:hover,
+.NASACalendar.calendar_gray a.backward,
+.NASACalendar.calendar_gray a.backward:hover,
+.NASACalendar.calendar_gray a.forward,
+.NASACalendar.calendar_gray a.forward:hover { width:26px; height:26px; display:block; position:absolute; bottom:0px; cursor:pointer; }
+
+a.backward { border-right:1px solid #000; left:0px; background: url(../../templateimages/redesign/modules/calendar/tableNav_blue2.gif) repeat-x; background-position: 0px 0px; }
+a.backward:hover { border-right:1px solid #000;left:0px; background: url(../../templateimages/redesign/modules/calendar/tableNav_blue2.gif) repeat-x; background-position: -26px 0px; }
+a.forward { border-left:1px solid #000;right:0px; background: url(../../templateimages/redesign/modules/calendar/tableNav_blue2.gif) repeat-x; background-position: -52px 0px; }
+a.forward:hover { border-left:1px solid #000;right:0px; background: url(../../templateimages/redesign/modules/calendar/tableNav_blue2.gif) repeat-x; background-position: -78px 0px; }
+
+.NASACalendar.calendar_gray a.backward {	left:0px; background: url(../../templateimages/redesign/modules/calendar/tableNav_blue2.gif) repeat-x; background-position: 0px 0px; }
+.NASACalendar.calendar_gray a.backward:hover { left:0px; background: url(../../templateimages/redesign/modules/calendar/tableNav_blue2.gif) repeat-x; background-position: -26px 0px;}
+.NASACalendar.calendar_gray a.forward {	right:0px; background: url(../../templateimages/redesign/modules/calendar/tableNav_blue2.gif) repeat-x; background-position: -52px 0px; }
+.NASACalendar.calendar_gray a.forward:hover { right:0px; background: url(../../templateimages/redesign/modules/calendar/tableNav_blue2.gif) repeat-x; background-position: -78px 0px; }
+
+.NASACalendar.filtered_calendar { overflow:hidden; background:#005dac; float:left; }
+.NASACalendar.filtered_calendar .calendar { float:left; }
+.NASACalendar.filtered_calendar #tableNav { background:#003366; width:710px; }
+.NASACalendar.filtered_calendar #lelp { margin:1px 1px 0 0; float:left; width:235px; height:320px; border:1px solid #000; background:#002246; }
+.NASACalendar.filtered_calendar #lelp h3 { margin: 15px 0 15px 14px; }
+.NASACalendar.filtered_calendar #lelp p { margin: 0 0 10px 10px; padding:0 10px 0 20px; color:#99ccff; }
+.NASACalendar.filtered_calendar #lelp input { margin-left: -15px; }
+
+#calendar_selector_container { position:absolute; top:320px; left:488px; }
+
+/* hide the select, a skinned javascript select dropdown replaces it and keeps it in sync */
+select.nasa_facility { display:none; }
+
+.floatType_calendar_top { width:180px; height:3px; overflow:hidden; background: transparent url(/templateimages/redesign/modules/overlay/top_cap-bookmark.png) no-repeat 0 0; }
+.floatType_calendar_inner h3 { margin:8px 0px 0px 0px; font-size:12px; clear:both; line-height:12px !important;}
+.floatType_calendar_inner p { clear:both; padding:0px 0px 0px 0px !important; margin: 8px 0px 0px 0px !important;}
+.floatType_calendar_inner a.event_url { margin:8px 0px 0px 0px !important; display:block; clear:both; }
+.floatType_calendar_inner div.event_nav_container { height:16px; }
+.floatType_calendar_inner { width:153px; border-color: #5e7e9d; border-style:solid; border-width:0pt 1px; background: #000000 none repeat scroll 0%; font-size:11px; overflow: hidden; text-align: left; }
+#floatMessageInner.floatType_calendar_inner { padding: 12px 12px 12px 12px; }
+.floatType_calendar_bottom { width:180px; height:3px; overflow:hidden; background: transparent url(/templateimages/redesign/modules/overlay/bottom_cap-bookmark.png) no-repeat 0 0; }
+.floatType_calendar_inner .event_prev {  margin:0px 0px 5px 0px; display:block; float:left; width:14px; height:14px; background: transparent url(/templateimages/redesign/modules/calendar/overlay_prev.gif) no-repeat scroll 0pt; }
+.floatType_calendar_inner .event_next { margin:0px 0px 5px 0px;	display:block; float:left; width:14px; height:14px; background: transparent url(/templateimages/redesign/modules/calendar/overlay_next.gif) no-repeat scroll 0pt; }
+.floatType_calendar_inner .event_label { margin:0px 0px 5px 0px; display:block; float:left; width:124px; height:14px; font-family:Arial;font-size:11px; float:left; text-align:center; }
+
+.floatType_calendar_inner h3 { font-family:Arial; font-size:11px; color:#fff; }
+
+.launch_calendar_page table#calendar td { font-size:16px; }
+
+/*launch countdown */
+#missionCountdown { border:1px solid #005DAC; background-color:#002B57; }
+#countdown_body { padding:16px 7px 0 7px; height:102px; border:1px solid #000000; border-top:none; }
+#countdown_body p { margin:0 0 5px 0; font-family:Trebuchet MS; font-size:12px; font-weight:bold; }
+#countdown_clock { width:210px; height:44px; border:1px solid #004174;
+				   background:url(/templateimages/redesign/modules/calendar/mission_countdown_background.png) no-repeat 0 0; }
+#countdown_labels { width:210px; overflow:hidden; }
+#countdown_labels div.day { width:51px; }
+#countdown_labels div.hour { width:54px; }
+#countdown_labels div.minute { width:54px; }
+#countdown_labels div.second { width:51px; }
+
+#countdown_clock div,
+#countdown_labels div { float:left; text-align:center;}
+#day { width:51px; }
+#hour { width:54px; }
+#minute { width:54px; }
+#second { width:51px; }
+#countdown_clock div { line-height:44px; font-family:Trebuchet MS; font-size:20px; font-weight:bold; text-shadow:#000 0 0 5px; }
+#countdown_labels div{ line-height:26px; font-family:Arial; font-size:11px; color:#fff; }

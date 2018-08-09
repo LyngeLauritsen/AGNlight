@@ -1,0 +1,177 @@
+.box_nasa_kids_club { padding:0 0 8px 0; width:352px; }
+.box_nasa_kids_club img { border:0; width: 352px; height: 211px; }
+
+/* aroundtheagency.shtml */
+.box_350_news_list { border:1px solid #005DAC; }
+.box_350_news_list ul { height:348px; border:1px solid #000000; background-color:#005DAC; }
+.box_350_news_list ul li { padding:19px 25px 19px 7px; height:77px; border-bottom:1px solid #005DAC; background-color:#003162; }
+.box_350_news_list .last_list_item { border-bottom:1px solid #003264; }
+.box_350_news_list ul li img { margin:0 8px 0 0; float:left; border:1px solid #969696; }
+.box_350_news_list ul li h3 { margin:0 0 0 0; padding:5px 0 0 0; font-family:Trebuchet MS; font-weight:bold; }
+.box_350_news_list ul li p { margin:5px 0 5px 0; padding:0 0 0 0; }
+.box_350_news_list ul li a { }
+
+/* main_news_accordion.shtml */
+.main_news_accordion { margin:8px 0 0 0; width:711px; height:379px; float:left; overflow:hidden; border:none;}	
+.main_news_accordion img { width:690px; height:226px; }
+.main_news_accordion .cap { width:711px; height:5px; overflow:hidden; }
+.main_news_accordion .cap_active { background:url(/templateimages/redesign/modules/main_news/main_news_acc_top.gif) no-repeat 0 0; }
+.main_news_accordion .cap_inactive { background:url(/templateimages/redesign/modules/main_news/main_news_acc_top_off.gif) no-repeat 0 0; }
+.main_news_accordion .content { width:711px; height:384px; overflow:hidden; }
+.main_news_accordion .content .img_wrap_grey { margin:0 0 0 8px; width:692px; }
+.main_news_accordion .active_content { background-color:#111111; }
+.main_news_accordion .inactive_content { background-color:#262626; }	
+.main_news_accordion h2 { padding:0 0 0 38px; position:relative; width:673px; height:29px; line-height:25px; cursor:pointer; font-size:15px; }
+.main_news_accordion h2.off { }
+.main_news_accordion .active_header{ background:#262626 url(/templateimages/redesign/modules/main_news/main_news_accord_head_on.gif) repeat-x 0 0; }
+.main_news_accordion .inactive_header{ background:#262626 url(/templateimages/redesign/modules/main_news/main_news_accord_head_off.gif) repeat-x 0 0; }
+.main_news_accordion .footer { width:711px; height:5px; overflow:hidden; cursor:pointer; border-width:0 1px; }
+.main_news_accordion .above_active{ background:#262626 url(/templateimages/redesign/modules/main_news/main_news_accord.gif) no-repeat 0 0; }
+.main_news_accordion .above_inactive{ background:#262626 url(/templateimages/redesign/modules/main_news/main_news_accord_off2.gif) no-repeat 0 0; }
+.main_news_accordion .active_footer{ background:#474747 url(/templateimages/redesign/modules/main_news/main_news_accord_off1.gif) no-repeat 0 0; }
+.main_news_accordion .bottom-footer { display:none; }
+.main_news_accordion p { padding:8px 0 0 8px; height:40px; overflow:hidden; }
+.main_news_accordion span { }
+
+.main_news_accordion.prejs_main_news .cap { background:url(/templateimages/redesign/modules/main_news/main_news_acc_top.gif) no-repeat 0 0; }
+.main_news_accordion.prejs_main_news .content { height: 0; }
+.main_news_accordion.prejs_main_news .content_1 { height: 277px; background: #111111; }
+.main_news_accordion.prejs_main_news h2 .rss { display: none; }
+.main_news_accordion.prejs_main_news h2.header_1 .rss { display: block; }
+.main_news_accordion.prejs_main_news h2 { background:#262626 url(/templateimages/redesign/modules/main_news/main_news_accord_head_off.gif) repeat-x 0 0; }
+.main_news_accordion.prejs_main_news h2.header_1 { background:#262626 url(/templateimages/redesign/modules/main_news/main_news_accord_head_on.gif) repeat-x 0 0; }
+.main_news_accordion.prejs_main_news .footer_1 { background:#474747 url(/templateimages/redesign/modules/main_news/main_news_accord_off1.gif) no-repeat 0 0; }
+.main_news_accordion.prejs_main_news .footer_2 { background:#262626 url(/templateimages/redesign/modules/main_news/main_news_accord_off2.gif) no-repeat 0 0; }
+
+/* leadership */
+.NASALeadership { padding:8px 8px 0 8px; }
+.NASALeadership ul li { margin:0 0 8px 0; height:77px; }
+.NASALeadership img { margin:0 6px 0 0; float:left; border:1px solid #969696; }
+.NASALeadership h4 { padding:0 0 0 0; font-family:Arial; font-size:12px; font-weight:bold; }
+.NASALeadership a { font-family:Arial; font-size:12px; }
+
+/* nasa mission directorates */
+.NASAMissionDirectorates { padding:8px 8px 0 0px; }
+.NASAMissionDirectorates p { margin:5px 0 5px 0; padding:0; font-family:Arial; font-size:12px; }
+.NASAMissionDirectorates a { font-family:Arial; font-size:12px; }
+
+/* nasatv_small.shtml nasatvwidth 350*/
+.nasatv_350_tabs { height:27px; font-family:Trebuchet MS; font-size:11px; }
+.nasatv_350_tabs li { width:111px; height:27px; float:left; }
+.nasatv_350_tabs li.tab_active a { background:url(../../templateimages/redesign/modules/tabs/blue_tabs_112.gif) no-repeat -1px 0; color:#fff; }
+.nasatv_350_tabs li.tab_active a:hover { text-decoration:none; cursor:default; }
+.nasatv_350_tabs li.tab_inactive  a { background:url(../../templateimages/redesign/modules/tabs/blue_tabs_112.gif) no-repeat -113px 0; color:#fff;  }
+.nasatv_350_tabs li.tab_inactive  a:hover { background:url(../../templateimages/redesign/modules/tabs/blue_tabs_112.gif) no-repeat -225px 0; text-decoration:none; }
+
+.nasatv_350_content .lower_link { padding:8px; }
+.nasatv_350_content { display:none; }
+.prejs_tab { display: block; }
+.tab_content_inactive { display:none; }
+.tab_content_active { display:block; }
+.nasatv_350_content .content_outline_black { height:321px; overflow:hidden; }
+.nasatv_350_content .content_outline_blue { height:323px; }
+
+a.tab { width:111px; height:27px; display:block; line-height:27px; text-align:center; text-decoration:none; }
+a.tab_350 { width:111px; height:27px; display:block; line-height:27px; text-align:center; text-decoration:none; }
+.nasatv_350_content img.nasatv { width:346px; height:260px; margin:0px; border:0px solid #000 !important; }
+
+/* nasatv_small.shtml nasatvwidth 230 */
+.nasatv_230_tabs { height: 27px; }
+.nasatv_230_tabs li { padding:0px; margin:0px; width:101px; height:27px; display:block; float:left; cursor:pointer; }
+.nasatv_230_tabs li.tab_active a { line-height:27px; text-align:center; display:block; width:101px; height:27px; background:url('/templateimages/redesign/modules/tabs/blue_tabs_102.gif') no-repeat -103px 0; color: #fff;  }
+.nasatv_230_tabs li.tab_active a:hover { text-decoration:none; }
+.nasatv_230_tabs li.tab_inactive  a { background-position: -103px 0; color: #fff; }
+.nasatv_230_tabs li.tab_inactive  a:hover { background:url(/templateimages/redesign/modules/tabs/blue_tabs_102.gif) no-repeat -103px 0; text-decoration:none; }
+
+.nasatv_230_content .lower_link { position: absolute; bottom: 10px; left: 6px; color: #99ccff; }
+.nasatv_230_content { display:none; }
+.prejs_tab { display: block; }
+.tab_content_inactive { display:none; }
+.tab_content_active { display:block; }
+.nasatv_230_content .content_outline_black { position:relative; height: 266px; overflow: hidden;  }
+.nasatv_230_content .content_outline_blue { position:relative; height: 268px; overflow: hidden; }
+
+a.tab_230 { width:101px; height:27px; display:block; line-height:27px; text-align:center; text-decoration:none; }
+.nasatv_230_content img.nasatv { width:226px; height:170px; margin:0px; border:0px solid #000 !important; }
+
+/* tag cloud */
+.grip_accordion .tag_cloud { margin-left:1px; margin-top:8px; width:228px; height:345px; }
+
+/*facilities & centers in grip - google map*/
+.google_map .content_outline_black { padding: 8px 8px 8px 8px; }
+.google_map p {  }
+.google_map ul { margin: 8px 0 0 0; }
+.google_map ul li { margin: 4px 0 0 0; }
+
+/* careers */
+.careers ul { padding: 8px 0 8px 0; }
+.careers ul li { margin:0pt 0pt 1px; padding:4px 8px 4px 8px; background-color:#474747; }
+.careers ul li.first { border-top:1px solid #000000; }
+.careers ul li.last { border-bottom:1px solid #000000; }		
+.careers ul li { color:#99CCFF; margin-bottom:5px; }
+
+.careers p { color:#fff; margin-bottom:4px; }
+
+.link_career { color:#99CCFF; }
+
+.careers h3 { padding-left:0px; margin-bottom:0px; color:#fff; font-size:12px; font-weight:bolder; font-family:arial; background:none; }
+.careers ul li h3 { overflow:visible !important; height:auto !important; width:196px; }
+
+/* test your knowledge */
+#testYourKnowledge {	padding:8px 8px 0 8px; height:170px;}
+#testYourKnowledge img { margin:0 8px 0 0; float:left; border:1px solid #969696; }
+#testYourKnowledge p { margin:0 0 5px 5px; padding:0; }
+.tykMessage { width:150px; float:left; }
+
+/* tiny content */
+.tinyContent { padding:7px 7px 0 7px; }
+.tinyContent img { border:1px solid #264355; text-align:center;}
+.tinyContent h3 { margin:0; padding:8px 0 0 0; line-height:13px; }
+.tinyContent p { margin:2px 0 0 0; padding:0; font-family:Arial; font-size:11px; }
+.tinyContent a { font-family:Arial; font-size:11px; line-height:11px; }
+.tinyContent li { margin:-3px 0 0 0; }
+.tinyContentPic img { width:168px; height:215px; }
+
+/* topical nav */
+.topicalnav { margin:8px 0 0 8px; width:224px; height:365px; float:left; /*background-image:url(/templateimages/redesign/modules/topicalnav/tpn_background.png);*/  }
+.topicalnav div { margin:0px 0 0 0; padding:0 0 4px 0; display:block; float:left; width:110px; height:71px; overflow:hidden; }
+.topicalnav div.even { margin-left:4px; margin-right:0px; }
+.topicalnav div a { display:block; width:110px; height:71px; overflow:hidden; background-position:0px 0px; background-repeat:no-repeat; }
+.topicalnav div a:hover { background-position:0 -71px; }
+.topicalnav div a span { display:none; }
+
+.tpn_shuttlestation a { background-image:url(/templateimages/redesign/modules/topicalnav/tn_shuttlestation.png); }
+.tpn_earth a { background-image:url(/templateimages/redesign/modules/topicalnav/tn_earth.png); }
+.tpn_solarsystem a { background-image:url(/templateimages/redesign/modules/topicalnav/tn_solarsystem.png); }
+.tpn_universe a { background-image:url(/templateimages/redesign/modules/topicalnav/tn_universe.png); }
+.tpn_exploration a { background-image:url(/templateimages/redesign/modules/topicalnav/tn_exploration.png); }
+.tpn_technology a { background-image:url(/templateimages/redesign/modules/topicalnav/tn_technology.png); }
+.tpn_aeronautics a { background-image:url(/templateimages/redesign/modules/topicalnav/tn_aeronautics.png); }
+.tpn_nasainyourlife a { background-image:url(/templateimages/redesign/modules/topicalnav/tn_nasainyourlife.png); }
+.tpn_nasapeople a { background-image:url(/templateimages/redesign/modules/topicalnav/tn_nasapeople.png); }
+.tpn_nasahistory a { background-image:url(/templateimages/redesign/modules/topicalnav/tn_nasahistory.png); }
+
+.box_350 .nasa_tv_channel_selector { position:absolute; }
+.nasa_tv_channel_selector_h { margin:16px 0px 0px 8px; }
+.nasa_tv_channel_selector_h div { margin:4px 0px 0px 0px; }
+.nasa_tv_channel_selector_h a { margin:0px 8px 0px 0px; width:64px; display:block; float:left; font-family:'Trebuchet MS',Helvetica,Arial; }
+ 
+
+/* inside expandable box */
+.expandablebox ul { padding: 8px 0 8px 0; }
+.expandablebox ul li { margin:0pt 0pt 1px; padding:4px 8px 4px 8px; background-color:#474747; }
+.expandablebox ul li.first { border-top:1px solid #000000; }
+.expandablebox ul li.last { border-bottom:1px solid #000000; }		
+.expandableboxs ul li { color:#99CCFF; margin-bottom:5px; }
+
+.expandablebox p { color:#fff; margin-bottom:4px; }
+
+.link_expandablebox { color:#99CCFF; }
+
+.expandablebox h3 { padding-left:0px; margin-bottom:0px; color:#fff; font-size:12px; font-weight:bolder; font-family:arial; background:none; }
+.expandablebox ul li h3 { overflow:visible !important; height:auto !important; width:196px; }
+
+
+
+
+

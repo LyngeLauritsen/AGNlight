@@ -1,0 +1,17 @@
+.prettycounter_outerdigit {
+	background-image:url('/templateimages/redesign/modules/counter/counter_cell.png');
+	position:relative;
+	float:left;
+	width:38px;
+	height:36px;
+	overflow:hidden
+}
+.prettycounter_innerdigit {
+	top:0px;
+	left:0px;
+	position:absolute;
+	background-image:url('/templateimages/redesign/modules/counter/counter_numbers.png');
+	width:38px;
+	height:360px
+}
+

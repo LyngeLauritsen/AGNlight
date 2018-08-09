@@ -1,0 +1,441 @@
+/* BEGING news archive browse */
+.ArchiveBrowse .box_white {
+	background: #c8c8c8;
+}
+.ArchiveBrowse a.linkbutton_dropdown {
+	width: 93px;
+	height: 20px;
+	margin: 3px 0 0 3px;
+	padding: 0 0 0 10px;
+	background: url(../../templateimages/redesign/modules/news/small_grey_dropdown.gif) no-repeat 0 0;
+	display: block;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.ArchiveBrowse a.news_button {
+	margin-bottom: 8px;
+	}
+		
+.ArchiveBrowse ul#news_navigation li {
+	float:left;
+	border-top:1px solid #aba9a9;
+	border-bottom:1px solid #aba9a9;
+	}
+
+.ArchiveBrowse ul#news_navigation li img {
+	border:none;
+	}
+
+.ArchiveBrowse img.left_button {
+	border-left:1px solid #c8c8c8 !important;
+	}		
+	
+.ArchiveBrowse img.right_button {
+	border-right:1px solid #c8c8c8 !important;
+	}			
+
+.ArchiveBrowse img.middle_button {
+	border-right:1px solid #c8c8c8 !important;
+	border-left:1px solid #c8c8c8 !important;
+	}	
+	
+.ArchiveBrowse ul#news_navigation {
+	background-color:#d6d6d6;
+	border:1px solid #fff;
+	border-width: 1px 1px 0 1px;
+	border-bottom:none;
+	line-height:26px;
+	height:28px;
+
+	width:468px;
+	font-size: 13px;
+	font-family: Trebuchet MS;
+	font-weight:bold;
+	}		
+
+.ArchiveBrowse ul#news_navigation.news_navigation_bottom {
+	border-bottom:1px solid #fff !important;
+	border-top: none;
+	}	
+	
+.ArchiveBrowse li.nav_number { width: 27px; text-align:center; }
+.ArchiveBrowse li.first_nav_number { padding:0 0 0 44px; }	
+.ArchiveBrowse li.last_nav_number { padding:0 44px 0 0; }	
+.ArchiveBrowse div#browseArchive { clear:left; }
+	
+.ArchiveBrowse p.top_page {
+
+	margin-left:5px;
+	margin-top: 20px !important;
+	padding-bottom: 20px !important;
+	}
+
+.ArchiveBrowse div.box_470 {
+	
+	}		
+
+
+.ArchiveBrowse div#browseArchive ul {
+	border: 1px solid #fff;
+	border-width:thin;
+	background-color: #aba9a9;
+	color: #2e2e2e;
+	padding: 0 0 0 0; 
+	overflow: hidden;
+	
+	}
+
+.ArchiveBrowse div#browseArchive a{ color: #004d93; }
+	
+
+.ArchiveBrowse div#browseArchive ul li { margin: 1px 1px 1px 1px; padding: 8px 25px 8px 7px; background-color: #e4e4e4; }
+/*Change*/
+.ArchiveBrowse div#browseArchive ul li p a img { margin: 0 0 0 0; width:84px; border:none;height:17px; padding-bottom:2px;}
+/*change*/
+
+.ArchiveBrowse div#browseArchive ul li h3 { margin: 0 0 4px 0; padding: 0; font-weight: bold; }
+.ArchiveBrowse div#browseArchive ul li h3 a{  }
+.ArchiveBrowse div#browseArchive ul li p { margin:0; padding:0; }
+.ArchiveBrowse div#browseArchive ul li p.play_button { margin:8px 0 0 0; padding:0; }
+
+.ArchiveBrowse div#browseArchive h3.h3_grey_small {font-size: 13px; color: #2e2e2e;}
+.ArchiveBrowse .box_470_cap { margin-bottom:15px; overflow: hidden; }
+.ArchiveBrowse div#browseArchive ul li { min-height:8em; height:auto; }
+	
+.search_relevance { margin: 0 1px 1px 1px; padding: 10px 0 0 0; height:29px;  width: 706px; background: #e4e4e4;}
+.search_relevance .search_relevance_sort { margin: 0 0 0 8px; width: 45px; float: left; }
+a.archive_start,
+a.archive_backward,
+a.archive_forward,
+a.archive_end {
+	display: block;
+	width: 26px;
+	height: 26px;
+	background: url(/templateimages/redesign/modules/news/archive_nav.gif) no-repeat;
+	border: solid #aba9a9;
+}
+a.archive_start {
+	background-position: 0 -78px;
+	border-width: 0 1px 0 1px;
+}
+a.archive_backward {
+	background-position: 0 -52px;
+	border-width: 0 1px 0 0;
+}
+a.archive_forward {
+	background-position: 0 -26px;
+	border-width: 0 0 0 1px;
+}
+a.archive_end {
+	background-position: 0 0;
+	border-width: 0 1px 0 1px;
+}
+a.archive_start:hover {
+	background-position: -26px -78px;
+}
+a.archive_backward:hover {
+	background-position: -26px -52px;
+}
+a.archive_forward:hover {
+	background-position: -26px -26px;
+}
+a.archive_end:hover {
+	background-position: -26px 0;
+}
+
+.wide_img_archive div#browseArchive ul li { padding: 8px 25px 8px 8px; width: 673px; }
+.wide_img_archive div#browseArchive ul li p a { color: #004d93 }
+/* END news archive browse */
+
+#browse_year_select_div{
+	width: 100px;
+	height: 20px;
+	margin: 0 300px 5px 5px;
+}
+.search_relevance #browse_year_select_div { float: left; }
+
+select.browse_year_select {
+	
+}
+
+.view_all_navigation { padding: 0 0 0 8px; width:458px; height:26px; line-height:26px; border: 1px solid #aba9a9; background: #d6d6d6; }
+.view_all_navigation_top { border: solid #fff; border-width: 1px 1px 0 1px; height: 28px;margin:0px;}
+.view_all_navigation_bottom { border: solid #fff; border-width: 0 1px 1px 1px;margin:0px; }
+
+
+.ArchiveBrowse ul.news_navigation_710 { clear:left; width:708px !important; }
+.ArchiveBrowse li.first_nav_number_710 { padding-left:164px; }
+.ArchiveBrowse li.last_nav_number_710 { padding-right:164px; }
+
+<!-- ----------------- CSS for Image Collections 5 Col and 3 Col Starts  ----------------- -->
+
+.ArchiveBrowse div#imgGallery3Col
+{
+float:left;
+width:468px;
+padding-right:5px;
+}
+
+.ArchiveBrowse div#imgGallery3Col ul
+{
+list-style: none;
+background-color: #e4e4e4;
+float:left;
+padding-bottom:3px;
+width:468px;
+}
+
+.ArchiveBrowse div#imgGallery3Col ul li
+{
+list-style: none;
+float:left;
+background-color: #e4e4e4;
+width:115px;
+padding-left:34px;
+margin:5px 0 5px 0;
+height:auto;
+}
+
+
+.ArchiveBrowse div#imgGallery3Col ul li a img {margin: 0 0 0 0; border: 1px solid #969696; width:100px; height:75px; }
+.ArchiveBrowse div#imgGallery3Col ul li p a img { margin: 0 0 0 0; width:84px; border:none;height:17px; }
+
+.ArchiveBrowse div#imgGallery3Col ul li div#iTunes
+{
+float:left;
+text-align:center;
+line-height:13px;
+margin:3px 0 0 0;
+font-size:11px;
+font-family:'Trebuchet',Helvetica,Arial;
+color:#004d93;
+font-weight:bold;
+width:100px;
+}
+
+.ArchiveBrowse div#imgGallery3Col ul li div#iTunes a img
+{
+margin: 0 0 0 0; width:65px; border:none;height:17px;
+}
+
+.ArchiveBrowse div#imgGallery3Col ul li p
+{
+float:left;
+text-align:center;
+line-height:13px;
+margin:3px 0 0 0;
+font-size:11px;
+font-family:'Trebuchet',Helvetica,Arial;
+color:#004d93;
+font-weight:bold;
+width:100px;
+
+}
+
+.ArchiveBrowse div#imgGallery3Col ul li p a
+{
+color:#004d93;
+text-decoration:none;
+}
+
+.ArchiveBrowse div#imgGallery3Col ul li p a:hover
+{
+color:#004d93;
+text-decoration:underline;
+}
+
+/*
+.ArchiveBrowse div#imgGallery3Colfooter {
+border:1px solid #FFF;
+width:468px; 
+float:left; 
+height:30px;
+background-color: #e4e4e4;
+padding-top:5px;
+}
+
+a.imgGallery3Colfooterbutton
+{
+margin:0 10px 0 0;
+display:block; float:right;height:24px; bottom:6px; line-height:24px; 
+	font-family:'Trebuchet MS',Helvetica,Arial; font-size:12px; text-align:center; text-decoration:none; 
+
+}
+a.imgGallery3Colfooterbutton { width:155px; background-image:url(/templateimages/redesign/global/linkbutton_155_white.gif); }
+*/
+
+.ArchiveBrowse div#imgGallery3Colfooter {
+border-top:1px solid #FFF;
+width:468px; 
+float:left; 
+height:25px;
+background-color: #e4e4e4;
+padding-top:5px;
+}
+
+.ArchiveBrowse div#imgGallery3Colfooter p{ padding-top:3px;padding-left:12px;}
+
+a.imgGallery3Colfooterbutton{ font-family:'Trebuchet MS',Helvetica,Arial; font-size:12px;text-decoration:none; }
+a.imgGallery3Colfooterbutton:hover{ font-family:'Trebuchet MS',Helvetica,Arial; font-size:12px;text-decoration:underline; }
+
+
+
+
+    <!--  Col Starts here -->
+
+.ArchiveBrowse div#imgGallery5Col
+{
+width:708px;
+float:left;
+border:1px solid #FFF;
+background-color: #e4e4e4;
+}
+
+.ArchiveBrowse div#imgGallery5Col h3
+{
+margin: 5px 0 5px 7px;
+font-size: 13px;
+font-family: Trebuchet MS;
+font-weight:bold;
+background-color: #e4e4e4;
+}
+
+.ArchiveBrowse div#imgGallery5Col ul
+{
+background-color: #e4e4e4;
+float:left;
+padding-bottom:3px;
+list-style: none;
+width:708px;
+}
+
+.ArchiveBrowse div#imgGallery5Col ul li
+{
+list-style: none;
+float:left;
+padding-left:21px;
+background-color: #e4e4e4;
+margin:10px 0px 5px 0px;
+width:120.5px;
+height:auto;
+}
+
+.ArchiveBrowse div#imgGallery5Col ul li p
+{
+padding-top:3px;
+float:left;
+line-height:12px;
+margin:3px 0 0 0;
+font-size:11px;
+font-family:'Trebuchet',Helvetica,Arial;
+color:#004d93;
+text-align:center;
+font-weight:bold;
+width:110px;
+}
+
+.ArchiveBrowse div#imgGallery5Col ul li div#iTunes
+{
+padding-top:2px;
+float:left;
+line-height:12px;
+margin:3px 0 0 0;
+font-size:11px;
+font-family:'Trebuchet',Helvetica,Arial;
+color:#004d93;
+text-align:center;
+font-weight:bold;
+width:105px;
+}
+
+.ArchiveBrowse div#imgGallery5Col ul li #iTunes a img
+{
+margin: 0 2px 0 0; width:65px; border:none;height:17px;
+}
+
+.ArchiveBrowse div#imgGallery5Col ul li p a { color:#004d93;text-decoration:none;}
+.ArchiveBrowse div#imgGallery5Col ul li p a:hover {color:#004d93;text-decoration:underline;}
+
+.ArchiveBrowse div#imgGallery5Col ul li a img { margin: 0 2px 0 0; border: 1px solid #969696; width:100px; height:75px; }
+.ArchiveBrowse div#imgGallery5Col ul li p a img { margin: 0 2px 0 0; width:84px; border:none;height:17px; }
+
+/*
+.ArchiveBrowse div#imgGallery5Colfooter {
+border:1px solid #FFF;
+width:712px; float:left; 
+height:30px;
+background-color: #e4e4e4;
+padding-top:5px;
+}
+
+
+a.imgGallery5Colfooterbutton
+{
+margin:0 10px 0 0;
+display:block; position:absolute; height:24px; bottom:6px; right:17px; line-height:24px; 
+	font-family:'Trebuchet MS',Helvetica,Arial; font-size:12px; text-align:center; text-decoration:none; 
+
+}
+a.imgGallery5Colfooterbutton { width:155px; background-image:url(/templateimages/redesign/global/linkbutton_155_white.gif); }
+*/
+
+.ArchiveBrowse div#imgGallery5Colfooter {
+border-top:1px solid #FFF;
+width:708px; 
+float:left; 
+height:25px;
+background-color: #e4e4e4;
+padding-top:5px;
+}
+.ArchiveBrowse div#imgGallery5Colfooter p{padding-top:3px;padding-left:12px;}
+
+a.imgGallery5Colfooterbutton{ font-family:'Trebuchet MS',Helvetica,Arial; font-size:12px;text-decoration:none; }
+a.imgGallery5Colfooterbutton:hover{ font-family:'Trebuchet MS',Helvetica,Arial; font-size:12px;text-decoration:underline; }
+
+
+<!-- ----------------- CSS for Image Collections 5 Col and 3 Col Ends  ----------------- -->
+/***********************************************************************/
+/*   Classes for  Navigation On Archive Pages */
+
+.left_totalpages9 {width: 27px;text-align: center;padding-left: 177px; }
+.left_totalpages8  {width: 27px;text-align: center;padding-left: 191px; }
+.left_totalpages7 {width: 27px;text-align: center;padding-left: 204px; }
+.left_totalpages6 {width: 27px;text-align: center;padding-left:  218px; }
+.left_totalpages5 {width: 27px;text-align: center;padding-left:  231px; }
+.left_totalpages4 {width: 27px;text-align: center;padding-left:  245px; }
+.left_totalpages3 {width: 27px;text-align: center;padding-left:  258px; }
+.left_totalpages2 {width: 27px;text-align: center;padding-left:  272px; }
+.totalpages1 {width: 27px;text-align: center;padding-right:  285px; padding-left: 285px; }
+.right_totalpages9 {width: 27px;text-align: center;padding-right: 177px; }
+.right_totalpages8  {width: 27px;text-align: center;padding-right: 191px; }
+.right_totalpages7 {width: 27px;text-align: center;padding-right: 204px; }
+.right_totalpages6 {width: 27px;text-align: center;padding-right:  218px; }
+.right_totalpages5 {width: 27px;text-align: center;padding-right:  231px; }
+.right_totalpages4 {width: 27px;text-align: center;padding-right:  245px; }
+.right_totalpages3 {width: 27px;text-align: center;padding-right:  258px; }
+.right_totalpages2 {width: 27px;text-align: center;padding-right:  272px; }
+
+/*********************************************************************/
+
+.ArchiveBrowse div#browseArchive ul div#hdgallery a{ color: #004d93; }
+	
+.ArchiveBrowse div#browseArchive ul div#hdgallery li { margin: 0 1px 1px 1px; padding: 8px 25px 8px 7px; background-color: #e4e4e4; }
+
+.ArchiveBrowse div#browseArchive ul div#hdgallery li h3 { margin: 0 0 4px 0; padding: 0; font-weight: bold; }
+.ArchiveBrowse div#browseArchive ul div#hdgallery li h3 a{  }
+.ArchiveBrowse div#browseArchive ul div#hdgallery li p { margin:0; padding:0; }
+.ArchiveBrowse div#browseArchive ul div#hdgallery li p.play_button { margin:8px 0 0 0; padding:0; }
+
+.ArchiveBrowse div#browseArchive ul div#hdgallery h3.h3_grey_small {font-size: 13px; color: #2e2e2e;}
+.ArchiveBrowse .box_470_cap { margin-bottom:15px; overflow: hidden; }
+.ArchiveBrowse div#browseArchive ul div#hdgallery li { min-height:140px; height:auto !important; height:140px; }
+.ArchiveBrowse div#browseArchive ul div#hdgallery li img {margin: 0 6px 0 0; border: 1px solid #969696; width:237px; height:137px; float:left; }
+.ArchiveBrowse div#browseArchive ul div#hdgallery li a img {margin: 2px 2px 2px 0; border:none ; width:68px; height:20px; float:left; }
+
+/******** CSS for For Media Archive Page  *********/
+#formediaselect {width:155px; height:20px; padding-left:7px;padding-bottom:6px;float:left;}
+#selectboxdiv{width:110px; height:20px; float:left; }
+#selectboxdiv .selectboxclass{color:#000;font-size:12px;font-family:verdana;background-color:#e4e4e4;}
+#selectgo {  width:40px;height:20px;float:left; padding-top:1px;padding-left:5px;}
+/**************************************************/

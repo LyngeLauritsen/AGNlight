@@ -1,0 +1,72 @@
+/* BEGIN featured mission */
+	#featured_mission .content_outline_black {
+		overflow:hidden;
+		padding: 7px;
+	}
+	#featured_mission .content_outline_blue {
+		overflow:hidden;
+	}
+	#featured_mission p {
+		padding: 5px 0 10px 0;
+		color: #99CCFF;
+	}
+	
+	#featured_mission h3 {
+		margin: -8px;
+		padding: 0 0 12px 0;
+	}
+	#featured_mission .related_media{
+		overflow:hidden;
+	}
+	#featured_mission .related_media h3 {
+		font-size: 13px;
+		margin: 0 0 5px 0;
+		padding: 0 0 0 0;
+	}
+	
+	#featured_mission .related_media img {
+		float: left;
+	}
+	
+	#featured_mission .related_media img.left_image {
+		margin: 0 6px 0 0;
+	}
+	
+	#featured_mission span.link_bottom {
+		color: #FFFFFF;
+	}
+
+	#featured_mission a.smallButton {
+		clear:left;
+		width: 80px !important;
+		margin-right:2px
+	}
+/* END featured mission */
+/* BEGIN satellite tracking */
+#satellite_tracking p { padding: 7px 0 10px 5px; }
+
+div#narrow_blue_satellite img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#narrow_blue_satellite img {
+	border:none;
+	}	
+	
+#satellite_tracking .content_outline_black img {
+	border:none;
+	}	
+#select_satellite_contain {
+	left: 10px;
+}
+select.select_satellite {
+	display: none;
+}
+/* END satellite tracking */
+/*BEGIN missions filter */
+#missions_filter .content_outline_black{
+	overflow: hidden;
+	height: 295px;
+}
+/*END missions filter */

@@ -502,7 +502,7 @@ for i in range(runs):
         jump_change += 1
         slope_jump_change += 1
         #print jump
-        if jump_change > 50:
+        if jump_change > 250:
             #jump *= 0.7
             jump = 10**np.random.normal(-4,2,1)[0]
             jump_change = 0
@@ -511,7 +511,7 @@ for i in range(runs):
             zero_val = 0
             one_val = 0
             two_val = 0
-        if slope_jump_change > 300000:
+        if slope_jump_change > 300000000:
             slope_jump *= 0.95
 
         '''Saving original arrays'''
@@ -566,20 +566,20 @@ for i in range(runs):
             #print np.shape(origin),np.shape(change), place
             #origin[place:place+change_size] = change
             #origin2 = rfft(origin)
-            weight = random.random()/float(random.randint(1,300)) #0.05
+            weight = random.random()/float(random.randint(20,500)) #0.05
             cont_fft = np.exp((1 - weight)*np.log(cont_fft) + weight*np.log(change)) #origin2))
-        #if try1 == 0:
+        if try1 == 0:
         #    #print i, i1/float(runs1), slopeolder1
-        '''Changing the parameters'''
+            '''Changing the parameters'''
         #change_size = random.randint(2,10)
-        change = rfft(colour(np.random.normal(2.8,0.25,1)[0],len(cont[:,1]),np.nanmean(irfft(cont_fft)))) #change_size) #len(cont[:,1]))) rfft
+            change = rfft(colour(np.random.normal(2.8,0.25,1)[0],len(cont[:,1]),np.nanmean(irfft(cont_fft)))) #change_size) #len(cont[:,1]))) rfft
         #origin = np.copy(irfft(cont_fft))
         #place = random.randint(0,len(cont_real[:,1])-change_size)
         #print np.shape(origin),np.shape(change), place
         #origin[place:place+change_size] = change
         #origin2 = rfft(origin)
-        weight = random.random()/float(random.randint(1,50000)) #0.05
-        cont_fft = np.exp((1 - weight)*np.log(cont_fft) + weight*np.log(change)) #origin2))
+            weight = random.random()/float(random.randint(20,50000)) #0.05
+            cont_fft = np.exp((1 - weight)*np.log(cont_fft) + weight*np.log(change)) #origin2))
         #print try1
         if try1 == 1.1:
             '''Thermal component'''
@@ -632,8 +632,11 @@ for i in range(runs):
             N_s_power += N_s_power_direction*np.random.rand(7)*jump #.transpose()
             scale += scale_direction*random.random()/1000.
 
-        width_slope_power = abs(width_slope_power)
+        lag_intercept_power = abs(lag_intercept_power)
         width_intercept_power = abs(width_intercept_power)
+        width_thermal = abs(width_thermal)
+        lag_thermal = abs(lag_thermal)
+        A_T = abs(A_T)
 
         N_s_power = abs(N_s_power)
         '''Fitting the constants'''
@@ -885,7 +888,7 @@ for i in range(runs):
 
             if try1 == 3 and i1 > 1:
                 try1 = 0
-            elif try1 == 0: # and random.random() < 0.005:
+            elif try1 == 0 and random.random() < 0.1:
                 try1 = 1.1
             elif (try1 == 1.1 or try1 == 2.1): # and random.random() < 0.2: # and random.random() < 0.3:
                 try1 = 0

@@ -1,0 +1,175 @@
+.filter_container {
+	background-color:#333;
+	margin: 0 0 0 0;
+}
+.filter_container ul.filterlist {
+	width:150px;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	padding-top:5px;
+	float:left;
+	display:block;
+	cursor:pointer;
+}
+.filter_container #materials_results {
+	background-color:rgb(16,23,27);
+	background-image:url('/templateimages/redesign/modules/teaching_materials_filter/teaching_materials_filter_out_fade.gif');
+	
+	background-position:152px 0;
+	background-repeat:no-repeat;
+	
+	float:right;
+	margin:4px;
+	width:300px;
+	height:36px;
+	font-size:13px;
+	font-family:'Trebuchet MS';
+	border:solid #004277 1px;
+	text-align:left;
+}
+.filter_container #materials_results p{
+	float:left;
+	padding:6px;
+	font-size:12px;
+	font-weight:normal;
+	line-height:13px;
+}
+.filter_container #materials_results .view_button{
+	padding:6px;
+	float:right;
+	width:64px;
+}
+.filter_container #materials_results span.totalweight {
+	line-height:34px;
+	font-size:18px;
+	font-family:'Trebuchet MS';
+	vertical-align:baseline;	
+}
+.filter_container .tab_content_active {
+	display:block;	
+}
+.filter_container .tab_content_inactive {
+	display:none;
+}
+.filter_container .tab {
+	background-color:rgb(0,51,102);
+	clear:both;
+}
+.filter_container ul.tabs {
+	background-color:rgb(0,51,102);
+	display:block;
+	padding:0px;
+	margin:0px;
+	height:27px;
+	font-family: 'Trebuchet MS';	
+}
+.filter_container .tabs li a {
+	line-height:27px;
+	text-align:center;
+	font-size:11px;
+	display:block;
+	width:111px;
+	height:27px;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	background-image:url('/templateimages/redesign/modules/tabs/blue_tabs_112.gif');
+}
+.filter_container .tabs li a:hover {
+	text-decoration:none;	
+}
+.filter_container .tabs li {
+	width:111px;
+	height:27px;
+	padding:0px;
+	margin:0px;
+	display:block;
+	float:left;
+	cursor:pointer;
+}
+.filter_container .tabs li.tab_active a{
+	background-position: -1px;
+	color: #fff;
+}
+
+.filter_container .tabs li.tab_inactive a{
+	background-position: -113px;
+	color: #fff;
+}
+.filter_container .tabs li.tab_inactive a:hover{
+	background-position: -225px;
+}
+.filter_container .tab h3 {
+	padding:0px;
+	margin:0px;
+	padding-top:8px;
+	padding-left:8px;
+	font-size:13px;
+}
+.filter_container .tab .tab_wrapper1 {
+	height:300px;
+	border:1px solid rgb(0,93,172);
+}
+.filter_container .tab .tab_wrapper2 {
+	background-color:rgb(0,51,102);
+/*	background-image:url('/templateimages/redesign/modules/teaching_materials_filter/teaching_materials_filter_inner_bg.gif');*/
+	background-image:url('/templateimages/redesign/modules/teaching_materials_filter/filter_starfield.gif');
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	border:1px solid black;
+	height:298px;
+}
+.filter_container .tab .tab_wrapper2_long {
+	padding: 8px 8px 0 8px;
+	background-color:rgb(0,51,102);
+	border:1px solid black;
+}
+.filter_container .tab_footer {
+	background-color:rgb(0,51,102);
+	position:relative;
+	height:49px;
+	padding-left: 8px;
+}
+.filter_container .tab_footer .view_index {
+	position:absolute;
+	top:18px;
+	left:8px;
+}
+.filterlist_wrapper {
+	padding-left:8px;
+}
+.checklist {
+	padding-top:7px;
+	padding-left:2px;
+}
+.selectlist_wrapper {
+	height: 1%;
+	z-index: 500;
+}
+input.setfilter_check {
+	margin-left:0px;
+	padding-left:0px;
+}
+.tab_footer input {
+	padding:0px;
+	margin:0px;
+	padding-top:7px;
+}
+
+input.viewazindex {
+	position:absolute;
+	right:8px;
+	bottom:8px;
+	display:block;
+	width:96px;
+	height:26px;
+}
+select.subject { margin:0 0 17px 14px; padding:0 0 0 0; float:left; display:block; width:208px; height:18px; font-size: 11px; }
+.selectlist_wrapper ul {
+	width:200px;
+	display:block;
+	float:left;
+}
+div#materials_results {
+	font-weight:bold;
+}

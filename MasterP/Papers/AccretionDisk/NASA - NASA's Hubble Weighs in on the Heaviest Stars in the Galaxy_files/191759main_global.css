@@ -1,0 +1,315 @@
+/* Groundwork */
+body { margin:0 0 0 0; padding:0 0 0 0; text-align:center; background:#2C2C2C url(/templateimages/redesign/global/tiled_bg_stars.jpg) repeat; }
+
+/* Global element styles */
+img { display:block; border: 1px solid #000; }
+strong { font-weight:bolder; }
+p { line-height: 1.25; }
+sup { font-size:smaller; position:relative; vertical-align:baseline; bottom:0.33em; }
+sub { font-size: smaller; vertical-align: baseline; position: relative; bottom: -0.25em; }
+
+/* Global classes */
+.hide { display: none; }
+.clear { clear: both; }
+.img_wrap { border:1px solid #005dac; }
+.img_wrap_grey { border:1px solid #737373; }
+.no_border { border:none; }
+
+a.linkbutton_on_blue,
+a.linkbutton_view_all,
+a.linkbutton_a-z,
+a.linkbutton_155_white,
+a.linkbutton_116_white,
+a.linkbutton_96_white { display:inline; position:absolute; height:24px; bottom:8px; right:8px; line-height:24px; 
+	font-family:'Trebuchet MS',Helvetica,Arial; font-size:12px; text-align:center; text-decoration:none; 
+	background-position:0px 0px; background-repeat:repeat-x; padding: 0px 8px 0px 8px;}
+
+a.linkbutton_blue_sm { display:block; float:right; width:64px; height:24px; line-height:24px; 
+	color:#fff; font-family:'Trebuchet MS',Helvetica,Arial; font-size:12px; font-weight:normal; text-align:center; text-decoration:none; 
+	background-position:0px 0px; background-repeat:no-repeat; background-image:url(/templateimages/redesign/global/linkbutton_blue_sm.gif);}
+
+a.linkbutton_on_blue, 
+a.linkbutton_view_all, 
+a.linkbutton_a-z { width:auto; background-image:url(/templateimages/redesign/global/linkbutton_a-z.gif); color: #fff;}
+
+a.linkbutton_116_white,
+a.linkbutton_155_white,
+a.linkbutton_96_white { width:auto; background-image:url(/templateimages/redesign/global/linkbutton_96_white.gif); color: #fff;}
+
+
+a.linkbutton_on_blue:hover,
+a.linkbutton_blue_sm:hover,
+a.linkbutton_view_all:hover,
+a.linkbutton_a-z:hover,
+a.linkbutton_155_white:hover,
+a.linkbutton_116_white:hover,
+a.linkbutton_96_white:hover { text-decoration:none; background-position:0px -24px; }
+
+a.linkbutton_blue_sm:hover { background-position:0px -26px; }
+
+a.linkbutton_tiny,
+a.linkbutton_tiny_w { width: 46px; height:17px; line-height:17px; display:block; float: left; overflow: hidden; 
+	background-image: url('/templateimages/redesign/global/linkbutton_tiny.gif'); 
+	background-position:0px 0px; background-repeat:repeat-x; font-size:11px; text-decoration:none; text-align:center;  color: #fff;}
+a.linkbutton_tiny_w { background-position:0px -34px; text-decoration:none;}
+a.linkbutton_tiny:hover { background-position:0px -17px; text-decoration:none;}
+a.linkbutton_tiny_w:hover { background-position:0px -51px; text-decoration:none;}
+a.linkbutton_tiny_inactive { color: #8f8f8f; }
+
+a.lb_96 { width: 96px; }
+
+a.goMyNasaBtn { color:#fff; display:block; position:absolute; height:27px; width:134px; top:110px; left:28px;
+				  line-height:27px; font-family:"Trebuchet MS", Verdana; font-size:15px; font-weight:bold; text-align:center; vertical-align:middle;
+				  background-position:0px 0px; background-repeat:no-repeat; background-image:url(/templateimages/redesign/modules/forms/go_back_sm_btn.gif); }
+a.goMyNasaBtn:hover { background-position:0px -28px; text-decoration:none; }
+a.returnFormBtn { color:#fff; display:block; position:absolute; height:27px; width:278px; top:110px; left:28px;
+				  line-height:27px; font-family:"Trebuchet MS", Verdana; font-size:15px; font-weight:bold; text-align:center; vertical-align:middle;
+				  background-position:0px 0px; background-repeat:no-repeat; background-image:url(/templateimages/redesign/modules/forms/go_back_btn.gif); }
+a.returnFormBtn:hover { background-position:0px -28px; text-decoration:none; }
+
+a.searchbtn,m
+a.searchbtn:hover { margin:0 0 0 0; padding:0 0 0 0; display:block; float:left; width:80px; height:22px; background: url(/templateimages/redesign/global/search_btn.gif) no-repeat 0 0; }
+a.searchbtn:hover {	background-position:0 -22px; }
+
+.mynasa_back { width:950px; height:293px;	background:url(/templateimages/redesign/modules/contact/your_done.jpg) no-repeat; border:0; }
+.mynasa_small_back { width:466px; height:445px;	background:url(/templateimages/redesign/modules/forms/register_back_small.jpg) no-repeat; border:0; }
+
+.contact_back { width:950px; height:293px;	background:url(/templateimages/redesign/modules/contact/received_transmission.jpg) no-repeat; border:0; }
+
+.contact_image h1 { display:block; position:absolute; top:28px; left:28px; font-family:"Trebuchet MS", Verdana; font-size:26px; font-weight:bold; line-height:26px; }
+.contact_image h2 { display:block; position:absolute; top:68px; left:28px; color:#fff; font-family:"Trebuchet MS", Verdana; font-weight:normal; font-size:13px; line-height:15px; }
+
+.error_image { width:950px; height:98px;	background:url(/templateimages/redesign/global/error_page.jpg) no-repeat; border:0; }
+.error_image h1 { display:block; position:absolute; top:18px; left:15px; font-family:"Trebuchet MS", Verdana; font-size:26px; font-weight:bold; line-height:26px; }
+.error_image h2 { display:block; position:absolute; top:54px; left:15px; color:#fff; font-family:"Trebuchet MS", Verdana; font-weight:normal; font-size:13px; line-height:15px; }
+
+a.module_close { display:block; position:absolute; width:14px; height:14px;	top:8px; right:8px; }
+.module_help { 	display:block; position:absolute; width:14px; height:14px; top:8px; right:8px; }
+.icon_corner_1st { display:block; position:absolute; width:14px; height:14px; top:8px; right:8px; }
+.icon_corner_2nd { display:block; position:absolute; width:14px; height:14px; top:8px; right:30px; }
+.icon_corner_3rd { display:block; position:absolute; width:14px; height:14px; top:8px; right:52px; }
+
+a.icons_black{ background-image:url(/templateimages/redesign/global/icons_black.gif); background-repeat:no-repeat; }
+a.icons_blue{ background-image:url(/templateimages/redesign/global/icons_blue.gif); background-repeat:no-repeat; }
+a.icons_winter{ background-image:url(/templateimages/redesign/global/icons_winter.gif); background-repeat:no-repeat; }
+a.icons_on_black{ background-image:url(/templateimages/redesign/global/icons_on_black.gif); background-repeat:no-repeat; }
+a.icons_widget{ background-image:url(/templateimages/redesign/global/icons_widget.gif); background-repeat:no-repeat; }
+a.icons_gallery{ margin:0 0 0 0; display:block; float:left; width:90px; height:16px; background:url(/templateimages/redesign/global/icons_gallery.gif); background-repeat:no-repeat;}
+a.icon_back { background-position:0px 0px; background-repeat:no-repeat; }
+a.icon_back:hover { background-position: 0px -100px; background-repeat:no-repeat; }
+a.icon_full { background-position:0px -16px; background-repeat:no-repeat; }
+a.icon_full:hover { background-position:0px -116px; background-repeat:no-repeat; }
+a.icon_slide { background-position:0px -32px; background-repeat:no-repeat; }
+a.icon_slide:hover { background-position:0px -132px; background-repeat:no-repeat; }
+a.icon_thumb { background-position:0px -48px; background-repeat:no-repeat; }
+a.icon_thumb:hover { background-position:0px -148px; background-repeat:no-repeat; }
+a.icon_popout { background-position:0px -48px; background-repeat:no-repeat; }
+a.icon_popout:hover { background-position:-100px -48px; background-repeat:no-repeat; }
+a.icon_close { background-position:0px 0px; background-repeat:no-repeat; }
+a.icon_close:hover { background-position:-100px 0px; background-repeat:no-repeat; }
+a.icon_print { padding:0 0 0 20px; height:16px; background-position:0px -79px; margin:0px; background-repeat:no-repeat; }
+a.icon_print:hover { background-position:-100px -79px; background-repeat:no-repeat; }
+a.icon_bookmark { margin: 8px 0 0 0; padding:0 0 0 20px; background-position:0px -96px; height:16px; line-height: 16px; width: 56px;  display: block; background-repeat:no-repeat; }
+a.icon_bookmark:hover { background-position:-100px -96px; background-repeat:no-repeat; }
+a.icon_send { padding:0 0 0 20px; margin:0 0 0 0; height:16px; background-position:0px -112px; background-repeat:no-repeat; }
+a.icon_send:hover { background-position:-100px -112px; background-repeat:no-repeat; }
+a.icon_rss { background-position:0px -32px; background-repeat:no-repeat; }
+a.icon_rss:hover { background-position:-100px -32px; background-repeat:no-repeat; }
+a.icon_play { padding:0 0 0 19px; background-position:0px -128px; background-repeat:no-repeat; }
+a.icon_play:hover { background-position:-100px -128px; background-repeat:no-repeat; }
+a.icon_help { background-position:0px -16px; background-repeat:no-repeat; }
+a.icon_help:hover { background-position:-100px -16px; background-repeat:no-repeat; }
+a.icon_plus { height:16px; width:14px; background-position:0px -142px; display:block; float:left; background-repeat:no-repeat; }
+a.icon_plus:hover { background-position:-100px -142px; background-repeat:no-repeat; }
+a.icon_minus { height:16px; width:14px; background-position:0px -158px; display:block; float:right; background-repeat:no-repeat; }
+a.icon_minus:hover { background-position:-100px -158px; background-repeat:no-repeat; }
+a.icon_plus_inactive { height:16px; width:14px; background-position:0px -206px; display:block; float:left; background-repeat:no-repeat; }
+a.icon_plus_inactive:hover { background-position:-100px -206px; background-repeat:no-repeat; }
+a.icon_minus_inactive { height:16px; width:14px; background-position:0px -222px; display:block; float:right; background-repeat:no-repeat; }
+a.icon_minus_inactive:hover { background-position:-100px -222px; background-repeat:no-repeat; }
+a.icon_expand { padding: 0 18px 0 0; position: absolute; right:30px; top:6px; width: 60px; text-align: right; background-position: 64px -190px; background-repeat:no-repeat; }
+a.icon_expand:hover { background-position: -36px -190px; background-repeat:no-repeat; }
+a.icon_colapse { padding: 0 18px 0 0; position: absolute; right:30px; top:6px; width: 60px; text-align: right; background-position: 64px -174px; background-repeat:no-repeat; }
+a.icon_colapse:hover { background-position: -36px -174px; background-repeat:no-repeat; }
+a.icon_minus:hover,
+a.icon_plus:hover { text-decoration:none; cursor:hand; background-repeat:no-repeat; }
+
+.icon_720_black { top:4px; background-repeat:no-repeat; }
+
+span.link_bottomLeft { position:absolute; left:8px; bottom:8px; line-height:26px; font-family:Arial; font-size:12px; }
+
+/* forms */
+.form_height { height:1%; }
+.form_post { height:50px; }
+
+form.forms { border:none; background:#545454; }
+.forms input { padding:0; margin:0; border:1px solid #868686; height:18px; width:174px; 
+			   background: url(/templateimages/redesign/modules/inputbox_white_shadow.gif) repeat-x 0 0; }
+.forms textarea { padding:0; margin:0 0 0 0; border:1px solid #868686; width:174px;
+				  background: url(/templateimages/redesign/modules/inputbox_white_shadow.gif) repeat-x 0 0; }
+.forms p { margin:8px 8px 0 8px; clear:both; }
+.forms div p { padding:8px 8px 0 0; clear:both; }
+.forms div { padding:0 0 0 8px; margin:0; border:none; }
+.forms div.notes { margin:0 0 0 8px; clear:both; }
+.forms div.form_error_widget { padding:0; margin:2px 0 0 0; width:14px; height:14px; background:url(/templateimages/redesign/modules/forms/yes_no.gif) repeat-x; }
+.forms div.pass { background-position:0 0; }
+.forms div.fail { background-position:0 -15px; }
+.forms .check { position:relative; top:2px; }
+.forms ul { padding:0; margin:0; display:inline; border:none; }
+.forms ul li { padding:0 0 0 8px; border:none; float:left; display:block; }
+.forms ul li img { margin:0 0 8px 0; }
+.forms .checkbox { padding:0; border:1px solid #868686; margin:0; width:11px; height:11px;
+			       background: url(/templateimages/redesign/modules/inputbox_white_shadow.gif) repeat-x 0 0; }
+
+form.contact_nasa { border:none; }
+form.contact_nasa input { padding:2px 0 0 3px; margin:0; border:1px solid #868686; height:16px; width:186px; 
+			   background: url(/templateimages/redesign/modules/inputbox_white_shadow.gif) repeat-x 0 0; font-size: 11px; color: #000; }
+form.contact_nasa textarea { padding:0; margin:0 0 0 0; border:1px solid #868686; width:189px; height: 55px;
+				  background: url(/templateimages/redesign/modules/inputbox_white_shadow.gif) repeat-x 0 0; }
+form.contact_nasa p { margin:8px 8px 0 8px; clear:both; }
+form.contact_nasa div p { padding:8px 8px 0 0; clear:both; }
+form.contact_nasa div { padding:0 0 0 0; margin:0; border:none; overflow: hidden; }
+form.contact_nasa div.notes { margin:0 0 0 8px; clear:both; }
+form.contact_nasa div.form_error_widget { padding:0; margin:2px 0 0 0; width:14px; height:14px; background:url(/templateimages/redesign/modules/forms/yes_no.gif) repeat-x; }
+form.contact_nasa div.pass { background-position:0 0; }
+form.contact_nasa div.fail { background-position:0 -15px; }
+form.contact_nasa ul { padding:0; margin:8px 0 0 0; display:block; height: 1%; }
+form.contact_nasa ul li { padding:0 0 0 8px; border:none; float:left; display:block; }
+form.contact_nasa ul li img { margin:0 0 8px 0; }
+form.contact_nasa .checkbox { padding:0; border:1px solid #868686; margin:0; width:11px; height:11px;
+			       background: url(/templateimages/redesign/modules/inputbox_white_shadow.gif) repeat-x 0 0; }
+
+form.formsFull { background:none; }
+.formsFull input { width:265px; }
+.formsFull textarea { width:265px; }
+.formsFull input.small { width:150px; }
+.formsFull div p { margin:8px 8px 8px 16px; }
+.formsFull div { padding:8px 0 0 8px; border:none; clear:both; }
+.formsFull ul li.first { width:140px; }
+.formsFull div.notes { padding:0 0 0 8px; margin:0 0 0 156px; clear:both; font-size:11px; }
+.formsFull div.errors { margin:0 0 0 164px; padding:0 0 0 8px; height:18px; width:259px; clear:both; font-size:11px; line-height:18px; background:#cc0000; }
+.formsFull ul li strong { margin:0 0 0 8px; }
+.formsFull ul li img { margin:0 0 8px 8px; }
+
+/* corners */
+.box_350, .box_170, .box_710 { position:relative; }
+
+.corner { width:2px; height:2px; overflow:hidden; position:absolute; background-repeat:no-repeat; }
+.corner_blue { background-image:url(/templateimages/redesign/global/corner_blue.gif); }
+.corner_dark_blue { background-image:url(/templateimages/redesign/global/corner_dark_blue.gif); }
+.corner_dark_grey { background-image:url(/templateimages/redesign/global/corner_dark_grey.gif); }
+	
+.corner1 { background-position:-2px -2px; top:-1px; left:-1px; }
+.corner2 { background-position:0px -2px; top:-1px; right:-1px; }
+.corner3 { background-position:-2px 0px; bottom:-1px; left:-1px; }
+.corner4 { background-position:0px 0px; bottom:-1px; right:-1px; }
+
+/* audiences nav */
+.audiences_nav { padding:0 0 0 10px; width:942px; height:31px; }
+.audiences_nav li { float:left; line-height:31px; }
+.audiences_nav a:hover { text-decoration:underline; }
+
+/* site errors */
+.site_errors { padding:10px 0 0px 0; position:relative; width:952px; z-index:900; }
+.floatType_site_error { padding:10px 12px 8px 12px; background:#000; font-size:11px; overflow:hidden; text-align:left;
+				   		border:solid #c00202; border-width:0 1px 0 1px; }
+.floatType_site_error img { float:left; padding:0 8px 0 0; }
+.floatType_site_error h2 { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px; }
+.floatType_site_error p { padding:4px 0 0 24px; float:none; clear:both; font-size:13px; line-height:16px; }
+.floatType_site_error p a { padding-top:16px; }
+.floatType_site_error table { padding:0; margin:0; width:98%; text-align:left; }
+
+.floatType_site_error_top { height:3px; overflow:hidden;
+						    background:url(/templateimages/redesign/modules/overlay/top_cap-site_error.png) no-repeat 0 0; }
+.floatType_site_error_bottom { height:3px; overflow:hidden;
+							   background:url(/templateimages/redesign/modules/overlay/bottom_cap-site_error.png) no-repeat 0 0; }
+
+/* main header */
+.header { position:relative; width:952px; height:104px; border: solid #000; border-width: 0 0 1px 0; background: url(/templateimages/redesign/modules/header/headerbg.gif) no-repeat 140px 6px; }
+.header_fullscreen { height: 74px;  background: url(/templateimages/redesign/modules/header/headerbg_full.gif) no-repeat 140px 6px; overflow: hidden; }
+.nasa_logo { width:140px; height:104px; display:block; background:url(/templateimages/redesign/modules/header/header_logo.gif) no-repeat 0 6px; }
+.header.header_fullscreen .nasa_logo { height: 74px; background:url(/templateimages/redesign/modules/header/header_logo_fullscreen.gif) no-repeat 0 6px; }
+/* mini header form region */
+#header_form { padding-top:4px; position:absolute; top:75px; right:0; width:812px; height:26px; }
+#login_form { float:left; width:495px; height:26px; }
+#login_form span#login_links { color:#B2B2B2; }
+#login_form span#login_links span { margin:0 8px 0 8px; }
+#login_form span#login_links span:hover { color:#fff; }
+#login_form a { color:#B2B2B2; }
+#login_form a:hover { color:#fff; text-decoration:underline; }
+#login_form input { margin:0 0 0 8px; padding:3px 3px 0 3px; width:93px; height:16px; line-height:19px; font-size:12px; color:#FFFFFF; background:#555 url('/templateimages/redesign/modules/header/header-login-inputbox.gif') repeat-x 0 0; border:1px solid #000; }
+
+/* search subform on right of header */
+#search_form { width:317px; height:26px; float:left; }
+#search_form input.searchbox { margin:0 0 0 0; padding:3px 3px 0 3px; width:223px; height:19px; line-height:19px; display:block; float:left; font-size:12px; background:url('/templateimages/redesign/modules/header/header-searchinputbox.gif') no-repeat 0 0; border:0px solid #0f0; }
+
+/* drop down navigation */
+#main-nav { width:769px; height:74px; position:absolute; left:140px; top:0px; z-index:800; }
+#main-nav h2 { padding:0px; margin:0px; width:140px; height:74px; cursor:pointer; line-height:74px; font-family:'Trebuchet MS'; font-size:16px; float:left; text-align:center; }
+#main-nav h2.nav-home { width:129px; height:74px; }
+#main-nav h2 a { display:block; width:140px; height:68px; background-repeat:no-repeat; background-position:50% 33px; }
+#main-nav h2#nav-home a { width:129px; }
+#main-nav h2.over { background:url(/templateimages/redesign/navigation/TopNav/nav-menu-heading-over.png) no-repeat 0px 0px; }
+#main-nav h2.out { background-image:none; }
+
+.dropper_wrapper { position:absolute; }
+
+#main-nav div.dropper { padding-bottom:1px; position:absolute; display:block; overflow:hidden; height:200px; background:transparent; visibility:hidden; }
+#main-nav div.dropper ul { margin:0px; padding:0 0 5px 0; display:block; list-style-type:none; list-style-image:none; background-color:#0061AA; }
+#main-nav div.dropper ul.nav-home li { width:129px; }
+#main-nav div.dropper ul li { display:block; margin:0px; padding:6px 8px 6px 8px; width:124px; font-family:Arial; font-size:12px; color:#eee; line-height:14px;
+							  background:#2e2e2e url(/templateimages/redesign/navigation/TopNav/nav-menu-cell.png) no-repeat 0px 0px; }
+#main-nav div.dropper ul li a { color:#B2B2B2; }
+#main-nav div.dropper ul li a:hover { text-decoration:underline; color:#fff; }
+
+#nav-home a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-home.gif'); }
+#nav-news a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-news.gif'); }
+#nav-missions a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-missions.gif'); }
+#nav-multimedia a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-multimedia.gif'); }
+#nav-aboutnasa a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-aboutnasa.gif'); }
+#nav-home span, #nav-news span, #nav-missions span, #nav-missions span, #nav-multimedia span, #nav-aboutnasa span { display:none; }
+
+/* Preferences Area */
+#header_pref { padding:22px 0 0 5px; position:absolute; z-index:900; top:0; right:0; width:117px; height:52px; color:#B2B2B2; font-size:11px; }
+#header_pref span { height:18px; line-height:18px; vertical-align:bottom; }
+#header_pref span a { color:#B2B2B2; } 
+#header_pref span a:hover { color:#fff; text-decoration:underline; }
+#header_pref input { padding:0 0 1px 3px; margin:0px; width:12px; height:12px; vertical-align:middle; }
+
+/* footer */
+a.nasa_logo_footer { float:left; width:140px; height:138px; display: block; background:transparent url(/templateimages/redesign/modules/footer/footer_logo-138.gif) no-repeat scroll 0px 0px; }
+
+#footercol1 { padding:6px; margin:0px; float:left; width:211px; height:126px; line-height:17px; }
+#footercol2 { padding:6px; margin:0px; float:left; width:188px; height:126px; }
+#footercol3 { padding:6px; margin:0px; float:left; width:188px; height:126px; }
+#footercol4 { padding:6px; margin:0px; float:left; width:177px; height:126px; }
+
+#footer { margin:16px auto 24px auto; width:952px; height: 138px; position:relative; z-index:2; text-align:left;
+          background-image:url('/templateimages/redesign/modules/footer/footer-rightsection-138.gif'); 
+		  background-repeat:no-repeat; background-position:140px; overflow:hidden; }
+#footer a,
+#footer p { font-size:11px; font-family:Arial; color:rgb(178,178,178); }
+#footer a:hover { color:#fff; text-decoration:underline; }
+#footer ul { margin:0px; padding:0px; list-style-type:none; }
+#footer li { margin:0 0 4px 0; padding:0 0 0 6px; color:#B2B2B2; background:url(/templateimages/redesign/modules/footer/footer_rsaquo.gif) no-repeat 0 5px; }
+#footer li:hover { color:#fff; }
+#footer li { line-height:12px; }
+
+/* breadcrumbs right options */
+ul#utilities_nav { float:right; }
+#utilities_nav li { padding-right:11px; padding-left:11px; }
+#utilities_nav a { color:#b2b2b2; text-decoration:none; }
+#utilities_nav a:hover { text-decoration:underline; }
+li#right_menu { width:293px; float:right; right:0px; }
+
+/*****************New Bookmark and share start****************/
+
+#at16psf {display:none !important}
+
+a.icon_share { margin: 8px 0 0 0; padding:0 0 0 20px; background-position:0px -96px; height:16px; line-height: 16px; width: 30px;  display: block; background-repeat:no-repeat; }
+a.icon_share:hover { background-position:-100px -96px; background-repeat:no-repeat; }
+
+a.bookmark_facebook { padding:0 0 0 18px; display:block; width:140px; height:16px; line-height:14px; text-decoration:none; overflow:hidden; background:url(/templateimages/redesign/modules/imagegallery/facebookLOGO.gif) no-repeat; }
+a.bookmark_twitter { padding:0 0 0 18px; display:block; width:140px; height:14px; line-height:14px; text-decoration:none; overflow:hidden; background:url(/templateimages/redesign/modules/imagegallery/twitter.gif) no-repeat; }
+
+/*****************New Bookmark and share End****************/

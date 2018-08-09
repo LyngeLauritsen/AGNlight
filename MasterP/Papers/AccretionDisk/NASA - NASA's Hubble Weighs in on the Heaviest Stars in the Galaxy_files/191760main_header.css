@@ -1,0 +1,231 @@
+/* audiences nav */
+#audiences_nav { padding:0 0 0 10px; width:942px; height:31px; }
+#audiences_nav li { float:left; line-height:31px; }
+#audiences_nav a:hover { text-decoration:underline; }
+
+/* main header */
+#header { position:relative; width:952px; height:104px; border:solid #000; border-width:0 0 1px 0; background:url('/templateimages/redesign/modules/header/headerbg.png') no-repeat 140px 6px; }
+.nasa_logo { width:140px; height:104px; display:block; background:url(/templateimages/redesign/modules/header/header_logo.gif) no-repeat 0px 6px; }
+
+/* mini header form region */
+/* Commented as it is repeating in global.css and was effecting the username and password input tags
+#header_form { padding-top:4px; position:absolute; top:74px; right:0; width:812px; height:26px; background-color:rgb(29,29,29); background:url('/templateimages/redesign/modules/header/header_form_background.gif') no-repeat 0 0; }
+#login_form { float:left; width:495px; height:26px; }
+#login_form span#login_links { color:#B2B2B2; }
+#login_form span#login_links span { margin:0 8px 0 8px; }
+#login_form span#login_links span:hover { color:#fff; }
+#login_form a { color:#B2B2B2; }
+#login_form a:hover { color:#fff; text-decoration:underline; }
+#login_form input { margin:0 0 0 8px; padding:3px 3px 0 3px; width:93px; height:16px; line-height:19px; font-size:12px; color:#FFFFFF; background:#555 url('/templateimages/redesign/modules/header/header-login-inputbox.gif') repeat-x 0 0; border:1px solid #000; }
+*/
+/* search subform on right of header */
+#search_form { width:317px; height:26px; float:left; }
+#search_form input.searchbox { margin:0 0 0 0; padding:3px 3px 0 3px; width:223px; height:19px; line-height:19px; display:block; float:left; font-size:12px; background:url('/templateimages/redesign/modules/header/header-searchinputbox.gif') no-repeat 0 0; border:0px solid #0f0; }
+
+
+/* drop down navigation */
+#main-nav { width:830px; height:74px; position:absolute; left:140px; top:0px; z-index:800; }
+#main-nav h2 { padding:0px; margin:0px; width:140px; height:74px; cursor:pointer; line-height:74px; font-family:'Trebuchet MS'; font-size:16px; float:left; text-align:center; }
+#main-nav h2.nav-home { width:129px; height:74px; }
+#main-nav h2.nav-collaborate { width:125px; height:74px; }
+#main-nav h2 a { display:block; width:140px; height:68px; background-repeat:no-repeat; background-position:50% 33px; }
+#main-nav h2#nav-home a { width:129px; }
+#main-nav h2#nav-collaborate a { width:125px; }
+#main-nav h2.over { background:url(/templateimages/redesign/navigation/TopNav/nav-menu-heading-over.png) no-repeat 0px 0px; }
+#main-nav h2.out { background-image:none; }
+
+.dropper_wrapper { position:absolute; }
+
+#main-nav div.dropper { padding-bottom:1px; position:absolute; display:block; overflow:hidden; height:200px; background:transparent; visibility:hidden; }
+#main-nav div.dropper ul { margin:0px; padding:0 0 5px 0; display:block; list-style-type:none; list-style-image:none; background-color:#0061AA; }
+#main-nav div.dropper ul.nav-home li { width:129px; }
+#main-nav div.dropper ul.nav-collaborate li { width:125px;}
+#main-nav div.dropper ul li { display:block; margin:0px; padding:6px 8px 6px 8px; width:124px; font-family:Arial; font-size:12px; color:#eee; line-height:14px;background:#2e2e2e url(/templateimages/redesign/navigation/TopNav/nav-menu-cell.png) no-repeat 0px 0px; }
+#main-nav div.dropper ul li a { color:#B2B2B2; }
+#main-nav div.dropper ul li a:hover { text-decoration:underline; color:#fff; }
+
+#nav-home a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-home.gif'); }
+#nav-news a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-news.gif'); }
+#nav-missions a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-missions.gif'); }
+#nav-multimedia a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-multimedia.gif'); }
+#nav-aboutnasa a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-aboutnasa.gif'); }
+#nav-collaborate a { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-collaborate.gif'); }
+#nav-home span, #nav-news span, #nav-missions span, #nav-missions span, #nav-multimedia span, #nav-aboutnasa span, 
+#nav-collaborate span { display:none; }
+
+
+/* Preferences Area */
+#header_pref {display:none;visibility:hidden; }
+#header_pref { padding:22px 0 0 5px; position:absolute; z-index:900; top:0; right:0; width:117px; height:62px; color:#B2B2B2; font-size:11px; }
+#header_pref span { height:18px; line-height:18px; vertical-align:bottom; }
+#header_pref span a { color:#B2B2B2; } 
+#header_pref span a:hover { color:#fff; text-decoration:underline; }
+#header_pref input { padding:0 0 1px 3px; margin:0px; width:12px; height:12px; vertical-align:middle; }
+
+/* footer */
+h1.nasa_logo_footer { float:left; width:140px; height:98px; background:transparent url(/templateimages/redesign/modules/header/header_logo.gif) no-repeat scroll 0px 0px; }
+
+#footercol1 { padding:6px; margin:0px; float:left; width:203px; height:86px; line-height:17px; }
+#footercol2 { padding:6px; margin:0px; float:left; width:188px; height:86px; }
+#footercol3 { padding:4px; margin:0px; float:left; width:188px; height:86px; }
+#footercol4 { padding:6px; margin:0px; float:left; width:185px; height:86px; }
+
+#footer { margin:16px auto 24px auto; width:952px; position:relative; z-index:2; text-align:left;
+          background-image:url("/templateimages/redesign/modules/footer/footer-rightsection-138.gif"); 
+		  background-repeat:no-repeat; background-position:132px; overflow:hidden; }
+#footer a,
+#footer p { font-size:11px; font-family:Arial; color:rgb(178,178,178); }
+#footer a:hover { color:#fff; text-decoration:underline; }
+#footer ul { margin:0px; padding:0px; list-style-type:none; }
+#footer li { margin:0 0 2px 0; padding:0 0 0 6px; color:#B2B2B2; background:url(/templateimages/redesign/modules/footer/footer_rsaquo.gif) no-repeat 0 5px; }
+#footer li:hover { color:#fff; }
+#footer li { line-height:12px; }
+
+/* breadcrumbs right options */
+ul#utilities_nav { float:right; }
+#utilities_nav li { padding-right:11px; padding-left:11px; }
+#utilities_nav a { color:#b2b2b2; text-decoration:none; }
+#utilities_nav a:hover { text-decoration:underline; }
+li#right_menu { width:293px; float:right; right:0px; }
+
+
+
+
+/* --- Shelf nav top menu changes starts --- */
+
+
+#main-nav  h2.nav-home-over { background-image:url('/templateimages/redesign/shelfnav/images/home.gif'); background-position: 50% 7px;  background-repeat: no-repeat;}
+#main-nav  h2.nav-news-over { background-image:url('/templateimages/redesign/shelfnav/images/news.gif');background-position: 50% 7px;  background-repeat: no-repeat;}
+#main-nav  h2.nav-missions-over{ background-image:url('/templateimages/redesign/shelfnav/images/missions.gif');  background-position: 50% 7px;  background-repeat: no-repeat;}
+#main-nav  h2.nav-multimedia-over { background-image:url('/templateimages/redesign/shelfnav/images/multimedia.gif');  background-position: 50% 7px; background-repeat: no-repeat;}
+#main-nav  h2.nav-connect-over { background-image:url('/templateimages/redesign/shelfnav/images/connect.gif'); background-position: 50% 7px;  background-repeat: no-repeat; }
+#main-nav  h2.nav-aboutnasa-over { background-image:url('/templateimages/redesign/shelfnav/images/aboutnasa.gif'); background-position: 50% 7px;  background-repeat: no-repeat; }
+
+
+
+#main-nav  h2.nav-home-out { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-home.gif'); background-position: 50% 33px;  background-repeat: no-repeat; }
+#main-nav  h2.nav-news-out { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-news.gif'); background-position: 50% 33px;  background-repeat: no-repeat; }
+#main-nav  h2.nav-missions-out{background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-missions.gif');background-position: 50% 33px;  background-repeat: no-repeat; }
+#main-nav  h2.nav-multimedia-out { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-multimedia.gif');background-position: 50% 33px; background-repeat: no-repeat;}
+#main-nav  h2.nav-connect-out { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-connect.gif');background-position: 50% 33px;  background-repeat: no-repeat;  }
+#main-nav  h2.nav-aboutnasa-out { background-image:url('/templateimages/redesign/navigation/TopNav/navtitle-aboutnasa.gif');background-position: 50% 33px;  background-repeat: no-repeat;   }
+
+
+#menuWrapper { overflow: hidden; }
+#menuWrapper div { margin-bottom: -1990px; padding-bottom: 2000px; }
+
+.dropdownmenu{
+left:0;
+position:absolute;
+top:0;
+visibility:hidden;
+z-index:9999;
+float:left;
+width:812px;
+}
+#menu_layer .menuWrapper_header {
+height:10px;
+width:812px;
+background-color:#cfcfcf;
+clear:both;
+float:left;
+text-align:left;
+
+}
+#menu_layer #menuWrapper {
+background-color:#eeeeee;
+clear:both;
+float:left;
+text-align:left;
+width:812px;
+
+}
+
+#menu_layer .submenu_box_2columnn {
+width:320px;
+border-right:1px solid #cfcfcf;
+float:left;
+line-height:16px;
+}
+
+#menu_layer .submenu_box {
+width:160px;
+border-right:1px solid #cfcfcf;
+float:left;
+line-height:16px;
+}
+#menu_layer .last_submenu_box {
+width:160px;
+float:left;
+line-height:16px;
+}
+
+#menu_layer .mainlisting{
+width:150px;
+float:left;
+list-style:none outside none;
+padding-left:7px;
+padding-right:3px;
+font-size:12px;
+font-weight:bold;
+}
+.mainlisting li{
+  padding-top:5px;
+  padding-bottom:5px;
+  border-bottom:2px solid #cfcfcf;  
+}
+.mainlisting li.last-child{
+  padding-top:5px;
+  padding-bottom:5px;
+  border-bottom:0px solid #cfcfcf;  
+}
+
+.listing h4{
+  color:#5d5d5d;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size:12px;
+ }
+ 
+.listing li{
+ color:#4F4F4F;
+ padding-top:6px;
+ padding-bottom:5px;
+}
+
+#menuWrapper a {
+color:#004D93;
+/*text-decoration:none;*/
+}
+
+#menu_layer .listing{
+width:150px;
+float:left;
+list-style:none outside none;
+padding-left:7px;
+padding-right:3px;
+font-size:12px;
+}
+
+.prev_menu_event{
+    background-image: url("/templateimages/redesign/modules/imagegallery/arrow-lt-1.gif");
+    background-repeat: no-repeat;
+    height: 25px;
+	line-height: 16px;
+    margin: 2px 5px 0 40px;
+    padding: 0 0 2px 11px;
+}
+.next_menu_event{
+    background-image: url("/templateimages/redesign/modules/imagegallery/arrow-rt-1.gif");
+    background-repeat: no-repeat;
+    height: 25px;
+	line-height: 16px;
+    margin: 2px 17px 0 5px;
+    padding: 0 0 2px 10px;
+}
+.submenu1_bgcolor{
+	background-color:#e2e2e2;
+}
+/* --- Shelf nav top menu changes end --- */
+
+

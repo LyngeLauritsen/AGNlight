@@ -1,0 +1,98 @@
+/* BEGIN NASA_TV */ 
+
+.tabs_blue .tab_content_active {
+	display:block;	
+}
+
+.tabs_blue .tab_content_inactive {
+	display:none;
+}
+
+.tabs_blue .tab {
+	clear:both;
+}
+
+.tabs_blue .tabs li a {
+	line-height:27px;
+	text-align:center;
+	display:block;
+	width:101px;
+	height:27px;
+	text-decoration:none;
+	font-size: 11px;
+	font-weight:bold;
+	font-family: trebuchet ms;
+}
+
+.tabs_blue .tabs li a:hover {
+	text-decoration:none;	
+}
+
+.tabs_blue .tabs li {
+	width:101px;
+	height:27px;
+	padding:0px;
+	margin:0px;
+	display:block;
+	float:left;
+	cursor:pointer;
+}
+
+.tabs_blue .tabs li.tab_active a{
+	background-image:url('/templateimages/redesign/modules/tabs/blue_tabs_102.gif');
+	background-position: -1px 0;
+	color: #fff;
+}
+
+.tabs_blue .tabs li.tab_inactive a{
+	background-image:url('/templateimages/redesign/modules/tabs/blue_tabs_102.gif');
+	background-position: -103px 0;
+	color: #fff;
+}
+.tabs_blue .tabs li.tab_inactive a:hover {
+	background-image:url('/templateimages/redesign/modules/tabs/blue_tabs_102.gif');
+	background-position: -205px 0;
+}
+	
+#NASA_TV .content_outline_black{
+	position:relative;
+	height: 268px;
+}
+#NASA_TV .tab {
+	position:absolute;
+	top: 56px;
+	width: 228px;
+}
+#NASA_TV .tab1 {
+	float: left;
+}
+#NASA_TV .tab2 {
+	float: left;
+}
+#NASA_TV .tab_content_active {
+	z-index:5;
+}
+#NASA_TV .tab_content_inactive {
+	z-index:0;
+}
+#NASA_TV .tab1 {
+	z-index:0;
+}	
+#NASA_TV .tab2 {
+	z-index:0;
+}
+#NASA_TV .view_schedule{
+	position: absolute;
+	bottom: 10px;
+	left: 6px;
+	color: #99ccff;
+}
+#NASA_TV form{
+	display: block;
+	text-align:center;
+	margin:2px 0;
+	color:#99CCFF;
+}
+#NASA_TV a.medium_legacy_wrap { border: none; }
+
+/* END NASA_TV */

@@ -1,0 +1,164 @@
+.bn_g_container {
+    background-image: url('/templateimages/redesign/modules/tagcloud/cloud_stars_bg.png'); background-repeat:no-repeat; 
+    width: 230px; 
+    height:345px;
+	background-position:0px 0px;
+	font-family: 'Trebuchet MS'; 
+    color:#fff; 
+    text-shadow: #fff 0px 0px 5px; 
+    border:1px solid rgb(3,30,42); 
+	overflow:hidden;
+     
+}
+
+.bn_g_welcome {
+   display:none;
+}
+
+.bn_g_result {
+	width:220px;
+	overflow:hidden;
+	white-space:nowrap; 
+	position:absolute;
+	top:0px;
+	margin-left: 5px;
+}
+
+.bn_g_result_title{
+	color:#FFFFFF;
+	font-family:Trebuchet MS;
+	font-weight:normal;
+	display: inline;
+	vertical-align: top;
+	width:inherit;
+}
+
+.bn_g_result_link{
+	position: relative;	
+	width:inherit;
+}
+
+.bn_g_result1{
+ 	font-size: 22px;
+	top:140px;
+	left:20px;
+	text-align:left;
+}
+
+.bn_g_result2{
+	font-size: 22px;
+	top:65px;
+	text-align:center;
+}
+
+.bn_g_result3{
+	font-size: 22px;
+	top:210px;
+	text-align:center;
+}
+
+.bn_g_result4{
+	font-size: 16px;
+	top:15px;
+	left:40px;
+	text-align:left;
+}
+
+.bn_g_result5{
+	font-size: 16px;
+	top:175px;
+	text-align:right;
+}
+
+.bn_g_result6{
+	font-size: 16px;
+	top:120px;
+	text-align:center;
+}
+
+.bn_g_result7{
+	font-size: 16px;
+	top:230px;
+	left:25px;
+	text-align:left;
+}
+
+.bn_g_result8{
+	font-size: 16px;
+	top:275px;
+	text-align:center;
+}
+
+.bn_g_result9{
+	font-size: 16px;
+	top:100px;
+	text-align:right;
+}
+
+.bn_g_result10{
+	font-size: 12px;
+	top:40px;
+	text-align:right;
+}
+
+.bn_g_result11{
+	font-size: 12px;
+	top:160px;
+	text-align:center;
+}
+
+.bn_g_result12{
+	font-size: 12px;
+	top:190px;
+	text-align:left;
+}
+
+.bn_g_result13{
+	font-size: 12px;
+	top:90px;
+	text-align:left;
+}
+
+.bn_g_result14{
+	font-size: 12px;
+	top:290px;
+	text-align:left;
+}
+
+.bn_g_result15{
+	font-size: 12px;
+	top:250px;
+	text-align:right;
+}
+
+.bn_g_result_attributes {
+	display:none;
+}
+.bn_g_result_terms {
+	display:none;
+}
+.bn_g_details {
+	display:none;	
+}
+
+.bn_g_container a.bn_g_result_link, a.bn_g_result_link:link, a.bn_g_result_link:active {
+color:#FFFFFF;
+text-decoration:none;
+border-style: none;
+}
+
+.bn_g_container a.bn_g_result_link:hover { color:#99CCFF;}
+
+.bn_g_container ul
+{
+	list-style-type: none;
+	margin-left:5px;
+	padding-left:0px;
+}
+
+.bn_g_footer{
+	display:none;
+}
+
+
+

@@ -1,0 +1,266 @@
+/* main vide accordion */
+.main_video_player_rap { float:left; width:478px; height:349px;	background-color:#2e2e2e; }
+.main_video_accordion { float:right; width:231px; height:348px;	overflow:hidden; border: solid #272727; border-width:0 0 1px 0;	background-color:#2e2e2e; }
+.main_video_accordion a.icon_bookmark { margin:0 0 0 112px; }
+
+
+/* accordion lists */	
+.main_video_accordion .video_list ul li { margin:0pt 0pt 1px; padding:5px 8px 5px 7px; height:78px; }
+.main_video_accordion .video_list ul li div .imgFloat { display:block; float:left; width:112px;	height:77px; }
+.main_video_accordion .video_list ul li h4 { margin-left:108px; padding-bottom:4px; }
+.main_video_accordion .video_list ul li div p {	padding:0px; }
+.main_video_accordion div .tv_list ul { height:178px; }
+.main_video_accordion .alt_color { background-color:#585858; }
+.main_video_accordion div .tv_list ul p { font-size:10px;margin:0 2px; 0 2px; }
+
+/* accordion styles */
+.main_video_accordion .cap { width: 232px; height: 5px; overflow:hidden; }
+.main_video_accordion .cap_active { background: url(/templateimages/redesign/modules/main_video/main_video_acc_top.gif) no-repeat 0 0; }
+.main_video_accordion .cap_inactive { background: url(/templateimages/redesign/modules/main_video/main_video_acc_top_off.gif) no-repeat 0 0; }
+.main_video_accordion .content { width: 232px; overflow:hidden; }
+.main_video_accordion .active_content { background-color:#111111; }
+.main_video_accordion .inactive_content { background-color:#1e1e1e; }	
+.main_video_accordion h3 { padding-left: 25px; width: 220px; height: 29px; line-height: 25px; cursor:pointer; font-size: 15px; }
+.main_video_accordion h3 a { color: #fff; }
+.main_video_accordion .hide_blind { display:none; }
+.main_video_accordion .active_header{ background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_on.gif) repeat-x 0 0; }
+.main_video_accordion .inactive_header{ background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_off.gif) repeat-x 0 0; }
+.main_video_accordion .footer { width: 232px; height: 5px; overflow: hidden; cursor:pointer; }
+.main_video_accordion .above_active{ background: #262626 url(/templateimages/redesign/modules/main_video/main_video_accord.gif) no-repeat 0 0; }
+.main_video_accordion .above_inactive{ background: #262626 url(/templateimages/redesign/modules/main_video/main_video_accord_off2.gif) no-repeat 0 0; }
+.main_video_accordion .active_footer{ background: #474747 url(/templateimages/redesign/modules/main_video/main_video_accord_off1.gif) no-repeat 0 0; }
+.main_video_accordion .bottom-footer { display: none; }
+.main_video_accordion p { padding-left:7px; overflow:hidden; }
+.main_video_accordion span { color: #99ccff; }
+
+
+
+.hd_videos { width:228px; height:297px; text-align:center; background-image: url(/templateimages/redesign/global/nasaHD.jpg); }
+.hd_videos img { margin:30px auto 20px auto; display:block;	border:1px solid #969696; }
+.hd_videos h3 { margin:0px 4px 0px 4px; padding:0px; text-align:center; font-size:14px; }
+
+/* nasa tv accordion */
+.main_video_accordion.nasa_tv_accordion li { overflow: hidden; }
+.main_video_accordion.nasa_tv_accordion .nasa_tv_chan_left { padding: 0 0 0 8px; width: 134px; height: 52px; float: left; }
+.main_video_accordion.nasa_tv_accordion .nasa_tv_chan_right { margin: 8px 0 0 0; float: right; width: 76px;}
+.main_video_accordion.nasa_tv_accordion .channels_list ul li h4 { margin: 0 0 0 0; }
+.main_video_accordion.nasa_tv_accordion .channels_list a { font-size: 11px; }
+.main_video_accordion.nasa_tv_accordion .channels_list p { padding: 0 0 0 0; }
+
+/*.nowPlaying { color:#8F8F8F !important; }*/
+
+.main_video_accordion.nasa_tv_accordion .viewing_options_list .dropdown_main_container { margin:8px 0 0 11px; }
+.main_video_accordion.nasa_tv_accordion .viewing_options_list p { padding: 8px 8px 0 11px }
+.dropdown_gray_container .select_dropdown_ie { margin: 8px 8px 0 11px }
+
+/* fix for jumpy accordion in IE6 */
+.main_video_accordion.nasa_tv_accordion img.no_border { position:absolute; top:329px; left:478px;}
+
+.prejs_nasa_tv .cap { background: url(/templateimages/redesign/modules/main_video/main_video_acc_top.gif) no-repeat 0 0; }
+.prejs_nasa_tv h3 { background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_off.gif) repeat-x 0 0; }
+.prejs_nasa_tv h3.header_1 { background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_on.gif) repeat-x 0 0; }
+.prejs_nasa_tv .content { height: 0; }
+.prejs_nasa_tv .content_1 { height: 281px; background: #111111; }
+.prejs_nasa_tv .footer { background: #262626 url(/templateimages/redesign/modules/main_video/main_video_accord_off2.gif) no-repeat 0 0; }
+.prejs_nasa_tv .footer_1 { background: #474747 url(/templateimages/redesign/modules/main_video/main_video_accord_off1.gif) no-repeat 0 0; }
+.prejs_nasa_tv .content_1 { height: 200px; background: #111111; }
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+/* --------------------- css common for popup and landing page  --------------------- */
+.main_video_player_rap_video {float:left; width:479px; height:425px;background-color:#000000; }
+/* -------------- css common for popup and landing page  ----------- */
+
+
+/*   ------------------- css for video landing Starts  ----------------------------- */
+
+.main_video_accordion_landing { float:right; width:231px; height:425px;	overflow:hidden; border: solid #272727; border-width:0 0 1px 0;	background-color:#2e2e2e; }
+.main_video_accordion_landing a.icon_bookmark { margin:0 0 0 112px; }
+
+/* accordion lists */	
+.main_video_accordion_landing .video_list ul li { margin:0pt 0pt 1px; padding:5px 8px 5px 7px; height:100px; }
+.main_video_accordion_landing .video_list ul li div .imgFloat { display:block; float:left; width:112px;	height:77px; }
+.main_video_accordion_landing .video_list ul li h4 { margin-left:108px; padding-bottom:4px; }
+.main_video_accordion_landing .video_list ul li div p {	padding:0px; }
+.main_video_accordion_landing div .tv_list ul { height:178px; }
+.main_video_accordion_landing .alt_color { background-color:#585858; }
+.main_video_accordion_landing div .tv_list ul p { font-size:10px;margin:0 2px; 0 2px; }
+
+/* accordion styles */
+.main_video_accordion_landing .cap { width: 232px; height: 5px; overflow:hidden; }
+.main_video_accordion_landing .cap_active { background: url(/templateimages/redesign/modules/main_video/main_video_acc_top.gif) no-repeat 0 0; }
+.main_video_accordion_landing .cap_inactive { background: url(/templateimages/redesign/modules/main_video/main_video_acc_top_off.gif) no-repeat 0 0; }
+.main_video_accordion_landing .content { width: 232px; overflow:hidden; }
+.main_video_accordion_landing .active_content { background-color:#111111; }
+.main_video_accordion .inactive_content { background-color:#1e1e1e; }	
+.main_video_accordion_landing h3 { padding-left: 25px; width: 220px; height: 29px; line-height: 25px; cursor:pointer; font-size: 15px; }
+.main_video_accordion_landing .hide_blind { display:none; }
+.main_video_accordion_landing .active_header{ background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_on.gif) repeat-x 0 0; }
+.main_video_accordion_landing .inactive_header{ background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_off.gif) repeat-x 0 0; }
+.main_video_accordion_landing .footer { width: 232px; height: 5px; overflow: hidden; cursor:pointer; }
+.main_video_accordion_landing .above_active{ background: #262626 url(/templateimages/redesign/modules/main_video/main_video_accord.gif) no-repeat 0 0; }
+.main_video_accordion_landing .above_inactive{ background: #262626 url(/templateimages/redesign/modules/main_video/main_video_accord_off2.gif) no-repeat 0 0; }
+.main_video_accordion_landing .active_footer{ background: #474747 url(/templateimages/redesign/modules/main_video/main_video_accord_off1.gif) no-repeat 0 0; }
+.main_video_accordion_landing .bottom-footer { display: none; }
+.main_video_accordion_landing p { padding-left:7px; overflow:hidden; }
+.main_video_accordion_landing span { color: #99ccff; }
+
+.prejs_main_video .cap { background: url(/templateimages/redesign/modules/main_video/main_video_acc_top.gif) no-repeat 0 0; }
+.prejs_main_video h3 { background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_off.gif) repeat-x 0 0; }
+.prejs_main_video h3.header_1 { background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_on.gif) repeat-x 0 0; }
+.prejs_main_video .content { height: 0; }
+.prejs_main_video .content_1 { height: 281px; background: #111111; }
+.prejs_main_video .footer { background: #262626 url(/templateimages/redesign/modules/main_video/main_video_accord_off2.gif) no-repeat 0 0; }
+.prejs_main_video .footer_1 { background: #474747 url(/templateimages/redesign/modules/main_video/main_video_accord_off1.gif) no-repeat 0 0; }
+.prejs_main_video .cap { background-image: url(/templateimages/redesign/modules/main_video/main_video_acc_top_p.gif); }
+.prejs_main_video .footer_1 { width: 280px; background-image: url(/templateimages/redesign/modules/main_video/main_video_accord_off1_p.gif); }
+.prejs_main_video .content_1 { height: 0; }
+
+/*   ------------------- css for video landing Ends  ----------------------------- */
+
+/*   ------------------- css for video pop up  Starts ----------------------------- */
+.video_pop_body { text-align:left; height:auto;}
+.video_popup {width:760px;padding: 0 1px 0 0; background:transparent; height: 450px;}
+.video_popup .main_video_player_rap_video {width:479px;height:380px;}
+.video_popup .captioning {width:479px;height:50px; background-color:#000000; color:#FFFFFF;}
+
+.main_video_accordion_popup { float:right; width:231px; height:380px;	overflow:hidden; border: solid #272727; border-width:0 0 1px 0;	background-color:#2e2e2e; }
+.main_video_accordion_popup a.icon_bookmark { margin:0 0 0 112px; }
+/* accordion lists */	
+.main_video_accordion_popup .video_list ul li { margin:0pt 0pt 1px; padding:5px 8px 5px 7px; height:86px; }
+.main_video_accordion_popup .video_list ul li div .imgFloat { display:block; float:left; width:112px;	height:77px; }
+.main_video_accordion_popup .video_list ul li h4 { margin-left:108px; padding-bottom:4px; }
+.main_video_accordion_popup .video_list ul li div p {	padding:0px; }
+.main_video_accordion_popup div .tv_list ul { height:178px; }
+.main_video_accordion_popup .alt_color { background-color:#585858; }
+.main_video_accordion_popup div .tv_list ul p { font-size:10px;margin:0 2px; 0 2px; }
+
+/* accordion styles */
+.main_video_accordion_popup .cap { width: 232px; height: 5px; overflow:hidden; }
+.main_video_accordion_popup .cap_active { background: url(/templateimages/redesign/modules/main_video/main_video_acc_top.gif) no-repeat 0 0; }
+.main_video_accordion_popup .cap_inactive { background: url(/templateimages/redesign/modules/main_video/main_video_acc_top_off.gif) no-repeat 0 0; }
+.main_video_accordion_popup .content { width: 232px; overflow:hidden; }
+.main_video_accordion_popup .active_content { background-color:#111111; }
+.main_video_accordion_popup .inactive_content { background-color:#1e1e1e; }	
+.main_video_accordion_popup h3 { padding-left: 25px; width: 220px; height: 29px; line-height: 25px; cursor:pointer; font-size: 15px; }
+.main_video_accordion_popup .hide_blind { display:none; }
+.main_video_accordion_popup .active_header{ background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_on.gif) repeat-x 0 0; }
+.main_video_accordion_popup .inactive_header{ background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_off.gif) repeat-x 0 0; }
+.main_video_accordion_popup .footer { width: 232px; height: 5px; overflow: hidden; cursor:pointer; }
+.main_video_accordion_popup .above_active{ background: #262626 url(/templateimages/redesign/modules/main_video/main_video_accord.gif) no-repeat 0 0; }
+.main_video_accordion_popup .above_inactive{ background: #262626 url(/templateimages/redesign/modules/main_video/main_video_accord_off2.gif) no-repeat 0 0; }
+.main_video_accordion_popup .active_footer{ background: #474747 url(/templateimages/redesign/modules/main_video/main_video_accord_off1.gif) no-repeat 0 0; }
+.main_video_accordion_popup .bottom-footer { display: none; }
+.main_video_accordion_popup p { padding-left:7px; overflow:hidden; }
+.main_video_accordion_popup span { color: #99ccff; }
+
+.video_popup .main_video_accordion_popup { width: 280px; float: right; }
+.video_popup .main_video_accordion_popup .active_header { width: 255px; background-color: #474747; background-repeat:no-repeat; }
+.video_popup .main_video_accordion_popup .cap { width:280px; }
+.video_popup .main_video_accordion_popup .cap_active { background-image: url(/templateimages/redesign/modules/main_video/main_video_acc_top_p.gif); }
+.video_popup .main_video_accordion_popup .cap_inactive { background:transparent url(/templateimages/redesign/modules/main_video/main_video_acc_top_off_p.gif); }
+.video_popup .main_video_accordion_popup .above_active { background-image:url(/templateimages/redesign/modules/main_video/main_video_accord_p.gif); }
+.video_popup .main_video_accordion_popup h3 { width:255px; }
+.video_popup .main_video_accordion_popup .content { width:280px; }
+.video_popup .main_video_accordion_popup .active_footer { width: 280px; background-image: url(/templateimages/redesign/modules/main_video/main_video_accord_off1_p.gif); }
+.video_popup .main_video_accordion_popup .footer { width:280px; }
+.video_popup .main_video_accordion_popup .content img{ cursor:pointer; }
+
+
+.prejs_video_pop .cap { background: url(/templateimages/redesign/modules/main_video/main_video_acc_top.gif) no-repeat 0 0; }
+.prejs_main_video h3,
+.prejs_nasa_tv h3,
+.prejs_video_pop h3 { background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_off.gif) repeat-x 0 0; }
+.prejs_main_video h3.header_1, 
+.prejs_nasa_tv h3.header_1,
+.prejs_video_pop h3.header_1 { background:#262626 url(/templateimages/redesign/modules/main_video/main_video_accord_head_on.gif) repeat-x 0 0; }
+.prejs_main_video .content, 
+.prejs_nasa_tv .content, 
+.prejs_video_pop .content { height: 0; }
+.prejs_main_video .content_1, 
+.prejs_nasa_tv .content_1, 
+.prejs_video_pop .content_1 { height: 281px; background: #111111; }
+.prejs_main_video .footer, 
+.prejs_nasa_tv .footer,  
+.prejs_video_pop .footer { background: #262626 url(/templateimages/redesign/modules/main_video/main_video_accord_off2.gif) no-repeat 0 0; }
+.prejs_main_video .footer_1,
+.prejs_nasa_tv .footer_1,
+.prejs_video_pop .footer_1 { background: #474747 url(/templateimages/redesign/modules/main_video/main_video_accord_off1.gif) no-repeat 0 0; }
+.prejs_video_pop .cap { background-image: url(/templateimages/redesign/modules/main_video/main_video_acc_top_p.gif); }
+.prejs_video_pop .footer_1 { width: 280px; background-image: url(/templateimages/redesign/modules/main_video/main_video_accord_off1_p.gif); }
+.prejs_video_pop .content_1 { height: 0; }
+
+/*   ------------------- css for video pop up  ends ----------------------------- */
+
+
+/* --- css for Add to Play List button  in video pop-up page starts --- */
+
+/*a.bookmarkbutton1
+ { width: 75px; height:17px; line-height:17px; display:block; float: left; overflow: hidden; 
+	background-image: url('/templateimages/redesign/global/linkbutton_tiny.gif'); 
+	font-size:11px; text-decoration:none; text-align:center;  color: #fff;}
+a.bookmarkbutton1:hover { background-position:0px -17px; text-decoration:none;}
+*/
+a.bookmarkbutton1{text-decoration:none; text-align:center;font-weight:bold;font-family:"Trebuchet MS", Verdana;color: #FFF;}
+a.bookmarkbutton1:hover{text-decoration:none;}
+
+a.bookmarkbutton
+ { width: 89px; height:17px; line-height:17px; display:block; float: left; overflow: hidden; 
+	background-image: url('/templateimages/redesign/global/linkbutton_tiny.gif'); border-left:2px solid #2e2e2e;
+	font-size:11px; text-decoration:none; text-align:center;  color: #fff;}
+a.bookmarkbutton:hover { background-position:0px -17px; text-decoration:none;}
+
+a.play_linkbutton_tiny
+{
+width: 35px; height:17px; line-height:17px; display:block; float: left; overflow: hidden; 
+	background-image: url('/templateimages/redesign/global/linkbutton_tiny.gif'); 
+	background-position:0px 0px; background-repeat:repeat-x; font-size:11px; text-decoration:none; text-align:center;  color: #fff;
+}
+a.play_linkbutton_tiny:hover { background-position:0px -17px; text-decoration:none;}
+
+/* --- css for Add to Play List button  in video pop-up page ends --- */
+
+/* --- CSS for Video Archive Page - Play and Add To Play List buttons starts --- */
+
+a.playbuttonarchive { width:30px; float: left; overflow: hidden;
+	font-size:11px; text-decoration:none; text-align:left;  color: #004d93;margin:2px 15px 0 0; font-family:"Trebuchet MS", Verdana;}
+a.playbuttonarchive:hover{text-decoration:underline;}
+
+a.addplaylistarchive{ width: 95px; float: left; overflow: hidden;
+	font-size:11px; text-decoration:none; text-align:left; color: #004d93; margin:2px 0 0 0;font-family:"Trebuchet MS", Verdana; }
+a.addplaylistarchive:hover{text-decoration:underline;}
+
+/*
+a.play_archive_linkbutton_tiny_w { width: 36px; height:17px; line-height:17px; display:block; float: left; overflow: hidden; 
+	background-image: url('/templateimages/redesign/global/linkbutton_tiny.gif'); 
+	background-position:0px 0px; background-repeat:repeat-x; font-size:11px; text-decoration:none; text-align:center;  color:#FFF;}
+
+a.play_archive_linkbutton_tiny_w { background-position:0px -51px; text-decoration:none;}
+
+a.addplaylistarchive_button_w {width: 92px; height:17px; line-height:17px; display:block; float: left; overflow: hidden; 
+	background-image: url('/templateimages/redesign/global/linkbutton_tiny.gif'); 
+	background-position:0px 0px; background-repeat:repeat-x; font-size:11px; text-decoration:none; text-align:center; color:#FFF;}
+
+a.addplaylistarchive_button_w { background-position:0px -51px; text-decoration:none;}
+
+.spacer{width: 10px; height:17px; line-height:17px; display:block; float: left; overflow: hidden;}
+*/
+
+.space4{font:normal 1px/1px serif;height:4px;margin:0px;padding:0px;}
+/* --- CSS for Video Archive Page - Play and Add To Play List buttons ends --- */
+
+
+/*.popout_rap { margin: 0 0 0 0; width:760px; z-index:2; overflow:hidden; position:relative; text-align:left; }*/
+.popout_rap { margin: 0 0 0 0; width:760px; z-index:2; height:auto;position:relative; text-align:left; }
+.popout_rap img.pop_header{ width: 760px; height: 53px; border: none; }
+
+/* --- css for Add to Play List button  in video pop-up page starts --- */
+.popout_rap .videotitle{ width: 760px; height: auto;}
+.popout_rap .videotitle .hide{ display:none;}
+.popout_rap .videotitle h3 { float:left;color:#FFF; padding-left:5px;padding-top:8px; width:425px;}
+.popout_rap .videotitle p {float:left;color:#474747; padding-left:25px;padding-top:15px;font-size:10px;width:120px;}
+.popout_rap .videotitle p img{width:15px;float:left;margin:-3px 5px 0 0;}
+/* --- css for Add to Play List button  in video pop-up page ends --- */

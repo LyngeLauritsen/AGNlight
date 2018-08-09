@@ -1,0 +1,13 @@
+.nasa_worldbook { margin: 1px; background: #E4E4E4; border: 1px solid #ABA9A9; }
+.nasa_worldbook p { padding: 8px 8px 1px 8px; color: #2E2E2E; }
+.nasa_worldbook_choices { padding: 8px 2px 8px 2px; height: 360px; }
+.nasa_worldbook ul { width:173px; float:left; list-style-position:outside; }
+.nasa_worldbook li { margin: 0 0 5px 0; padding: 0 0 2px 6px; color: #004D93; }
+.nasa_worldbook a { color: #004D93; }
+
+.banner_image{width: 710px; height: 98px;}
+.banner_image div#banner{width: 710px; height: 98px; }
+.banner_image h4 { font-size: 25px; color: #fff; font-family:"Trebuchet MS",Arial,Helvetica,sans-serif; font-weight:bold; padding: 4px 0 0 10px; width: 600px; }
+.banner_image p { font-size: 14px; color: #99ccff; padding: 0 0 4px 10px; width: 600px; }
+.banner_image a{ text-decoration:none; }
+.banner_image a:hover{ text-decoration:none; cursor:pointer; }

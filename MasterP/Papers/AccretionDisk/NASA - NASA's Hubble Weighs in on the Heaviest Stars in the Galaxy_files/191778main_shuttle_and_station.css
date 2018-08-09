@@ -1,0 +1,30 @@
+.article_470 { margin:1px; border:1px solid #aba9a9; background: #e4e4e4; padding:8px 8px 8px 8px; height: 1%; }
+.article_470  p { margin-bottom:8px; padding-right:5px; }
+.article_470  .img_comments { margin: 8px 0 8px 8px; background: #d6d6d6; width: 227px; float: right; }
+.article_470  .img_comments_top { margin-top:0; }
+.article_470  .img_comments_btn { padding-bottom: 40px; position: relative; }
+.article_470  .img_comments a.medium_legacy_wrap { border: none; }
+.article_470  .img_comments p { color:#2E2E2E; margin:0; padding:8px; }
+
+/* style below is not being used in this specfic page, but should be kept in case we need to use titles */
+.latest_shuttle_news .large_white_scroll { height: 735px; position: relative; overflow: hidden; background: #fff; }
+.latest_shuttle_news iframe { margin: 1px; width: 446px; height: 731px; border: 1px solid #aba9a9; background: #e4e4e4; }
+
+.large_white_scroll .track { position:absolute; top:28px; right:1px; width:19px; height:680px; background:#d5d5d5; }
+.large_white_scroll .track_up { position:absolute; top:1px; right:1px; }
+.large_white_scroll .track_down { position:absolute; top:707px; right:1px; }
+
+.shuttle_news_body { margin:0 0 10px 0; background: #e4e4e4; text-align: left; color: #2e2e2e; }
+.shuttle_news_body h2 { font-size: 13px; margin: 10px 10px 0 10px; }
+.shuttle_news_div { width:446px; }
+.shuttle_news_div p { margin:10px 10px 0 10px; }
+.shuttle_news_img_div { width:330px; background:#d6d6d6; }
+.shuttle_news_img_div { margin:10px 0 8px 55px; }
+.shuttle_news_img_div p { margin:0px; padding:8px; color: #2e2e2e; }
+.shuttle_news_img_div img { border:none; }
+
+.shuttle_news_frame { width: 430px; height: 688px; overflow: hidden; }
+.shuttle_news_frame.scrollbar_hidden { width: 450px; }
+.shuttle_news_frame #track_up { top: 59px }
+.shuttle_news_frame .track { top: 86px; height: 652px;}
+.shuttle_news_frame #track_down { top: 738px }

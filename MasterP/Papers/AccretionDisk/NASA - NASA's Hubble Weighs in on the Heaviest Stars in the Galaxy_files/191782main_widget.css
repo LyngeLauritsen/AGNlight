@@ -1,0 +1,504 @@
+/**********************************************************/
+/*tag specific classes*/
+/**********************************************************/
+.tagContainer{
+    width:auto;
+    border:1px #555 dotted;
+}
+.tagContainerTitle{
+    padding-left:10px;
+    background:#333;
+    color:#ccc;
+}
+.tagContent{
+	padding:10px;
+	font-size:small;
+	color:#ccc;
+}
+
+.trayTagContent{
+	margin:0;
+	font-size:small;
+	padding:0px;
+	color:#ccc;
+	border:1px solid #656565;
+	
+}
+
+/***********************************************************/
+/* Tag Cloud Styles                                        */
+/***********************************************************/
+#tagPatch.sidebar { font-family: arial, sans-serif;  }
+/* reset styles - qualified with sidebar does not alter the style of page elements */
+
+.poswrapper {
+	height:100%;
+	position:relative;
+    padding:10px;
+}
+.poswrapper #tagContainer {
+	position:absolute;
+	top:0;
+	right:10px;
+}
+
+#tagContainer li { margin: 0; display: inline }
+#cloudControls{
+	padding-top:56px;
+	text-align:center;
+	height:31px;
+}
+#TagCloud_content #cloudControls ul{
+		margin: 0;
+		display: inline;
+	}
+#editControls, #tagEditor{
+	background-color: #333;
+    padding: 5px 3px 3px 3px;
+    border:1px #666 solid;
+    color: #888888;
+    text-align: left;
+	margin-top: 4px;
+}
+#editField, #mergeField {
+	width: 97%;
+	font-size: small;
+	font-family: Arial, sans-serif;
+	}
+#editor {
+	border: 0;
+	text-align:right;
+	padding: 2px;
+	margin-top: 4px;
+	color: #fff;
+	}
+#editor .editme {
+    border: 1px solid #656565;
+    padding:2px 3px 3px 2px;
+	background-color: #000;
+    color: #f2f2f2;
+}
+#editor div.editme{
+	height: 36px;
+    padding: 0;
+    color: #ff8;
+	overflow: hidden;
+	text-align: left;
+	white-space: pre-wrap;
+	border: 0;
+	border-right: 1px solid #000;
+}
+#editorButtons{
+	text-align:center;
+	margin:15px;
+	margin-bottom: 0;
+	display: block;
+}
+#moreOptions {
+	border: 1px solid #ccc;
+	background-color: inherit;
+	margin-top: 5px;
+	padding: 3px;
+	}
+#moreOptions li {
+	white-space:nowrap;
+	}
+#editor a {
+	font-size: small;
+    color: #fff;
+    }
+#cloudControls ul, #editControls ul {
+	font-weight: normal;
+	font-size: x-small;
+	line-height:2em;
+	}
+#cloudControls a {
+	padding-top:56px;
+	text-align:center;
+	height:31px;
+}
+#editControls {
+	text-align: right;
+	}
+#trayTagCloudContainer #editControls {
+	visibility: hidden;
+	}
+#cloudControls ul.options {
+	font-weight: normal;
+	font-size:x-small;
+	background-color: #ccc;
+    color:#ccc;
+    }
+#cloudControls li, #editControls li {
+	border-right: 1px solid #888;
+	color:#ccc;
+    padding-right:0.5em;
+    padding-left:0.5em;
+}
+#cloudControls li a{
+	color:#69c  ;
+}
+
+#cloudControls li.end, #editControls li.end { border-right: none;  }
+#cloudContent, #dialog_cloudContent {
+    border: 0;
+    margin: 0;
+    }
+#tagPatch .list li {display: block}
+#tagPatch .list ul {text-align: center; font-size: small;}
+#cloudContent.list,  #dialog_cloudContent.list { height:350px; overflow: auto;}
+#tagPatch .list li li span {
+	line-height: 1.2;
+	float: left;
+	width: 25px;
+	margin-right: 8px;
+	text-align: right;
+	clear: left;
+	}
+.tagslistwt {font-size:10px;}
+table.listview td, table.listview th { text-align: left; border-bottom: 1px dotted #eeeeee; font-size: small; }
+table.listview th {font-weight: bold; border-bottom: 2px solid #ccc; text-align:center}
+span.separator {font-size:9px;
+        color:#64475F;
+                }
+
+.cloudtitle span {
+	font-size: small;
+	}
+.notagserror {
+    font-size: small;
+    text-align: center;
+}
+.leftSideContainerTagsPage{
+	border: 0px dotted #888;
+	padding: 2px;
+}
+
+/*  <for dialog>   */
+.tagCloudControlList li{
+	display: inline;
+	font-size: small;
+}
+#cloudControls a, #editControls a, #actions .actionLink{
+	color: #fff;
+	text-decoration: underline;
+}
+#cloudControls a:hover, #editControls a:hover, #actions .actionLink:hover{
+	color: #ff0;
+	text-decoration: none;
+}
+#tc_confirmBox{
+	color: #f00;
+	text-align: right;
+	display: none;
+	margin-top: 5px;
+}
+/*  </for dialog>   */
+
+/************** style 1****************/
+.cloudContentStyle1 {
+text-align: left;
+border:1px solid #006699;
+padding:4px;
+background-color:#101921;
+}
+#TagCloud_content .cloudContentStyle1{
+text-align: left;
+padding:2px;
+background-color: #101921;
+}
+
+.cloudContentStyle1_holder{
+    background-color: #101921;
+}
+
+.cloudContentStyle1 span a, .cloudContentStyle1 a {
+margin: 0 2px;
+text-decoration:none;
+font-family: Helvetica, arial, sans-serif;
+}
+
+
+.cloudContentStyle1 span.tag a {color:#FFFFFF}
+.cloudContentStyle1 span.tag1 a {color:#FFFFFF}
+.cloudContentStyle1 span.tag2 a {color:#FFFFFF}
+.cloudContentStyle1 span.tag3 a {color:#FFFFFF}
+.cloudContentStyle1 span.tag4 a {color:#FFFFFF;}
+.cloudContentStyle1 span.tag {color:#FFFFFF}
+.cloudContentStyle1 table.listview td,
+.cloudContentStyle1 table.listview th {color:#FFCC66}
+.cloudContentStyle1 span.separator {color:#fc6}
+
+background-color:#8ca5b5;
+text-decoration:none;
+}
+.cloudContentStyle1 .tagslistwt {
+color: #bbb;
+}
+
+/************** style 2****************/
+.cloudContentStyle2 {
+text-align: left;
+border:1px solid #99CC33;
+padding:4px;
+background-color:#FFFFFF;
+}
+#TagCloud_content .cloudContentStyle2{
+text-align: left;
+padding:2px;
+position:relative;
+background-color: #fff;
+}
+.cloudContentStyle2_holder{
+	background-color: #fff;
+}
+.cloudContentStyle2 span a, .cloudContentStyle2 a {
+margin: 0 2px;
+text-decoration:none;
+font-family: Helvetica, arial, sans-serif;
+}
+.cloudContentStyle2 span.tag a {color:#FF9900}
+.cloudContentStyle2 span.tag1 a {color:#FF9900}
+.cloudContentStyle2 span.tag2 a {color:#FF9933}
+.cloudContentStyle2 span.tag3 a {color:#FFCC00}
+.cloudContentStyle2 span.tag4 a {color:#CC9933}
+.cloudContentStyle2 span.tag {color:#CC9933}
+.cloudContentStyle2 table.listview td,
+.cloudContentStyle2 table.listview th {color:#c93}
+.cloudContentStyle2 span.separator {color:#c93}
+.cloudContentStyle2 span a:hover, .cloudContentStyle2 a:hover {
+color:#339933;
+background-color:#FFFFFF;
+text-decoration:none;
+}
+.cloudContentStyle2 .tagslistwt {
+color: #c93;
+}
+/************** style 3****************/
+.cloudContentStyle3 {
+text-align: left;
+border:1px solid #FF0099;
+padding:2px;
+background-color:#FFFFFF;
+}
+#TagCloud_content .cloudContentStyle3{
+text-align: left;
+padding:2px;
+position:relative;
+background-color: #fff;
+}
+.cloudContentStyle3_holder{
+	background-color: #fff;
+}
+.cloudContentStyle3 span a, .cloudContentStyle3 a {
+margin: 0 2px;
+text-decoration:none;
+font-family: Helvetica, arial, sans-serif;
+}
+.cloudContentStyle3 span.tag a {color:#FF0066}
+.cloudContentStyle3 span.tag1 a {color:#FF0066}
+.cloudContentStyle3 span.tag2 a {color:#FF99CC}
+.cloudContentStyle3 span.tag3 a {color:#FF9999}
+.cloudContentStyle3 span.tag4 a {color:#FF3399}
+.cloudContentStyle3 span.tag {color:#FF3399}
+.cloudContentStyle3 table.listview td,
+.cloudContentStyle3 table.listview th {color:#f39}
+.cloudContentStyle3 span.separator {color:#f39}
+.cloudContentStyle3 span a:hover, .cloudContentStyle3 a:hover {
+color:#FFFFFF;
+background-color:#8ca5b5;
+text-decoration:none;
+}
+.cloudContentStyle3 .tagslistwt {
+color: #f39;
+}
+/************** style 4****************/
+.cloudContentStyle4 {
+text-align: left;
+border:8px solid #000000;
+padding:2px;
+background-color:#000000;
+}
+#TagCloud_content .cloudContentStyle4{
+text-align: left;
+padding:2px;
+position:relative;
+background-color: #000;
+}
+.cloudContentStyle4_holder{
+	background-color: #000;
+}
+.cloudContentStyle4 span a, .cloudContentStyle4 a {
+margin: 0 2px;
+text-decoration:none;
+font-family: Helvetica, arial, sans-serif;
+}
+.cloudContentStyle4 span.tag a {color:#00FF00}
+.cloudContentStyle4 span.tag1 a {color:#004400}
+.cloudContentStyle4 span.tag2 a {color:#006600}
+.cloudContentStyle4 span.tag3 a {color:#009900}
+.cloudContentStyle4 span.tag4 a {color:#00CC00}
+.cloudContentStyle4 span.tag {color:#00CC00}
+.cloudContentStyle4 table.listview td,
+.cloudContentStyle4 table.listview th {color:#0c0}
+.cloudContentStyle4 span.separator {color:#0c0}
+.cloudContentStyle4 span a:hover, .cloudContentStyle4 a:hover {
+color:#ffffff;
+background-color:#8ca5b5;
+text-decoration:none;
+}
+.cloudContentStyle4 .tagslistwt {
+color: #0c0;
+}
+/************** style 5****************/
+.cloudContentStyle5 {
+text-align: left;
+border:8px solid #FF9900;
+padding:2px;
+background-color:#000000;
+}
+#TagCloud_content .cloudContentStyle5{
+text-align: left;
+padding:2px;
+position:relative;
+background-color: #000;
+}
+.cloudContentStyle5_holder{
+	background-color: #000;
+}
+.cloudContentStyle5 span a, .cloudContentStyle5 a {
+margin: 0 2px;
+text-decoration:none;
+font-family: Helvetica, arial, sans-serif;
+}
+.cloudContentStyle5 span.tag a {color:#FF00CC}
+.cloudContentStyle5 span.tag1 a {color:#FF00CC}
+.cloudContentStyle5 span.tag2 a {color:#000066}
+.cloudContentStyle5 span.tag3 a {color:#9900CC}
+.cloudContentStyle5 span.tag4 a {color:#6600CC}
+.cloudContentStyle5 span.tag {color:#6600CC}
+.cloudContentStyle5 table.listview td,
+.cloudContentStyle5 table.listview th {color:#6600CC}
+.cloudContentStyle5 span.separator {color:#60c}
+.cloudContentStyle5 span a:hover, .cloudContentStyle5 a:hover {
+color:#FFFFFF;
+background-color:#8ca5b5;
+text-decoration:none;
+}
+.cloudContentStyle5 .tagslistwt {
+color: #60c;
+}
+
+/************** style 6****************/
+.cloudContentStyle6 {
+text-align: left;
+border:1px solid #CC0033;
+padding:2px;
+}
+#TagCloud_content .cloudContentStyle6{
+text-align: left;
+padding:2px;
+position:relative;
+background-color: #323232;
+}
+.cloudContentStyle6_holder{
+	background-color: #323232;
+}
+.cloudContentStyle6 span a, .cloudContentStyle6 a {
+margin: 0 2px;
+text-decoration:none;
+font-family: inherit;
+}
+.cloudContentStyle6 span.tag a {color:#888}
+.cloudContentStyle6 span.tag1 a {color:#ddf}
+.cloudContentStyle6 span.tag2 a {color:#ccc}
+.cloudContentStyle6 span.tag3 a {color:#aaa}
+.cloudContentStyle6 span.tag4 a {color:#999}
+.cloudContentStyle6 span.tag {color:#fff}
+.cloudContentStyle6 table.listview td,
+.cloudContentStyle6 table.listview th {color:#64475F}
+.cloudContentStyle6 span a:hover, .cloudContentStyle6 a:hover {
+color:#FFFFFF;
+background-color:#69c;
+text-decoration:none;
+}
+.cloudContentStyle6 .tagslistwt {
+color: #666;
+}
+/************** style 7****************/
+.cloudContentStyle7 {
+text-align: left;
+border:1px solid #b1cbd7;
+padding:4px;
+background-color:#FFFFFF;
+}
+#TagCloud_content .cloudContentStyle7{
+text-align: left;
+padding:2px;
+position:relative;
+background-color: #fff;
+}
+.cloudContentStyle7_holder{
+	background-color: #fff;
+}
+.cloudContentStyle7 span a, .cloudContentStyle7 a {
+margin: 0 2px;
+text-decoration:none;
+font-family: Helvetica, arial, sans-serif;
+}
+.cloudContentStyle7 span.tag a {color:#ff9600}
+.cloudContentStyle7 span.tag1 a {color:#58aabf}
+.cloudContentStyle7 span.tag2 a {color:#359db6}
+.cloudContentStyle7 span.tag3 a {color:#ffa800}
+.cloudContentStyle7 span.tag4 a {color:#ff9600}
+.cloudContentStyle7 span.tag {color:#b1cbd7}
+.cloudContentStyle7 table.listview td,
+.cloudContentStyle7 table.listview th {color:#ff9600}
+.cloudContentStyle7 span.separator {color:#c93}
+.cloudContentStyle7 span a:hover, .cloudContentStyle7 a:hover {
+color:#339933;
+background-color:#FFFFFF;
+text-decoration:none;
+}
+.cloudContentStyle7 .tagslistwt {
+color: #c93;
+}
+/************** style 8****************/
+.cloudContentStyle8 {
+text-align: left;
+border:1px solid #b1cbd7;
+padding:4px;
+background-color:#FFFFFF;
+}
+#TagCloud_content .cloudContentStyle8{
+text-align: left;
+padding:2px;
+position:relative;
+background-color: #b1cbd7;
+}
+.cloudContentStyle8_holder{
+	background-color: #b1cbd7;
+}
+.cloudContentStyle8 span a, .cloudContentStyle8 a {
+margin: 0 2px;
+text-decoration:none;
+font-family: Helvetica, arial, sans-serif;
+}
+.cloudContentStyle8 span.tag a {color:#973a02}
+.cloudContentStyle8 span.tag1 a {color:#b1cbd7}
+.cloudContentStyle8 span.tag2 a {color:#515236}
+.cloudContentStyle8 span.tag3 a {color:#554017}
+.cloudContentStyle8 span.tag4 a {color:#973a02}
+.cloudContentStyle8 span.tag {color:#973a02}
+.cloudContentStyle8 table.listview td,
+.cloudContentStyle8 table.listview th {color:#973a02}
+.cloudContentStyle8 span.separator {color:#c93}
+.cloudContentStyle8 span a:hover, .cloudContentStyle8 a:hover {
+color:#c93;
+background-color:#FFFFFF;
+text-decoration:none;
+}
+.cloudContentStyle8 .tagslistwt {
+color: #c93;
+}
+/* end tagcloud styles */

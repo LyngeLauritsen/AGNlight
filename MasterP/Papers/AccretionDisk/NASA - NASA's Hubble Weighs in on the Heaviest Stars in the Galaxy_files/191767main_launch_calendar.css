@@ -1,0 +1,28 @@
+div.box_470_calendar { height:378px; position:relative; }
+
+#missionCountdown {  background-color:#002B57; }
+
+#countdown_body { padding:16px 7px 0 7px; height:102px; border-top:none; }
+#countdown_body p { margin:0 0 5px 0; font-family:Trebuchet MS; font-size:12px; font-weight:bold; }
+
+#countdown_clock { width:210px; height:44px; border:1px solid #004174;
+				   background:url(/templateimages/redesign/modules/calendar/mission_countdown_background.png) no-repeat 0 0; }
+
+#countdown_labels { width:210px; overflow:hidden; }
+#countdown_labels div.day { width:51px; }
+#countdown_labels div.hour { width:54px; }
+#countdown_labels div.minute { width:54px; }
+#countdown_labels div.second { width:51px; }
+
+
+#countdown_clock div,
+#countdown_labels div { float:left; text-align:center;}
+
+#day { width:51px; }
+#hour { width:54px; }
+#minute { width:54px; }
+#second { width:51px; }
+
+#countdown_clock div { line-height:44px; font-family:Trebuchet MS; font-size:15px; font-weight:bold; text-shadow:#000 0 0 5px; }
+
+#countdown_labels div{ line-height:26px; font-family:Arial; font-size:11px; color:#fff; }

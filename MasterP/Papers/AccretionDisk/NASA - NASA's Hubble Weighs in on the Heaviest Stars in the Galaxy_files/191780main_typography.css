@@ -1,0 +1,86 @@
+body { font-family: Arial, Helvetica, sans-serif; color: #fff; line-height: 1.5; /* Unitless for proper inheritance */ }
+
+body          { font-size: 75%; }   /* IE */
+html > body   { font-size: 12px; }  /* Other browsers */
+
+h1, h2, h3,
+.narrow_news_list h4,
+.tabs_blue .tabs li a,
+.dropdown_label,
+.main_video_accordion h4 { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+h4, h5, h6,
+.narrow_blue_news ul li h3 { font-family:Arial, Helvetica, sans-serif; }
+
+h1 { font-size: 18px; }
+
+h2 { font-size: 16px; }
+
+.box_230.box_dark_blue h2,
+.box_952_blue.box_dark_blue h2,
+.box_952_blue.box_blue h2,
+.box_350.box_dark_blue h2,
+.box_230.box_blue h2,
+.h2_small,
+h3 {font-size: 14px;}
+
+.narrow_blue_blinds_img h3,
+.education_article h3,
+.myNASA_playlists h3,
+.browse_archive h3,
+h4 {font-size: 13px;}
+
+.text_12px,
+.tinyContent h3,
+.narrow_news_list h4,
+.narrow_blue_news ul li h3,
+.comments_form .text_12px,
+h5 {font-size: 12px;}
+
+.tabs_blue .tabs li a,
+.comments_form p,
+.comments_text,
+.dropdown_label,
+h6 { font-size: 11px; }
+
+em { font-style:italic;}
+
+h1, h2, h3,
+.narrow_news_list h4,
+.tabs_blue .tabs li a,
+.main_video_accordion h4,
+.tabs_blue .tabs li a,
+h4, h5, h6,
+.narrow_blue_news ul li h3,
+.strong { font-weight: bold;}
+
+.dark_grey,
+.box_white,
+.box_white h5,
+.box_710.box_710_white h2,
+.box_710_white p,
+.box_710_white h3 {color: #2e2e2e;}
+
+.light_blue { color: #99ccff; }
+.dark_blue { color: #004D93; }
+.light_grey { color: #b3b3b3; }
+.blue_text { color: #004D93; }
+.white {color: #fff;}
+.small_text { font-size: 11px;}
+.bold_14 {font-size: 14px; font-weight: bold;}
+
+/* BASE LINK STYLES */
+
+a { color: #99ccff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.box_white a { color: #004d93; }
+
+a.link_grey, 
+a.link_grey:link, 
+a.link_grey:active, 
+a.link_grey:hover { color: #999999; }
+h3.sitemap_links a,
+h2 a { color: #fff; }
+
+

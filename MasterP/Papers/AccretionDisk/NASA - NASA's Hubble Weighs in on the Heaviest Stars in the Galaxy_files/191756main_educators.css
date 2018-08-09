@@ -1,0 +1,181 @@
+/* BEGIN Kids Club */
+.kids_club_small{ padding: 0 0 8px 0; }
+.kids_club_small a{ width: 232px; height: 198px; display: block; background: url(/templateimages/redesign/modules/education/kids_club_small.png) no-repeat 0 0; }
+
+/* BEGIN optional_promotion */
+.optional_promotion { height: 209px;}
+.optional_promotion p { margin: 8px; }
+.optional_promotion a.small_legacy_wrap { margin: 8px 8px 0 8px; }
+.optional_promotion ul { margin: 0 8px 0 8px; }
+.below_image{ margin: 0 8px 0 8px; }
+	
+/* END optional_promotion */
+/* BEGIN top_middle_blinds educators 5-8 grid */
+.featured_materials_grid { margin: 0 0 0 8px; padding: 8px 8px 8px 8px; width: 205px; float: left; background: #2e2e2e; color: #c2c2c2;}
+.featured_materials_grid li{ padding: 0 0 8px 0; overflow: hidden;  line-height: 14px; }
+.featured_materials_grid .resources_stars  { margin: 0 0 0 0; }
+.featured_materials_grid strong { padding: 0 0 0 0; float: none; color: #c2c2c2;}
+.featured_materials_grid li a{
+	text-decoration: underline;
+}
+.featured_materials_grid li a:hover{
+	text-decoration: none;
+}
+/* END top_middle_blinds educators 5-8 grid */
+/* BEGIN Sign up for email */
+.narrow_blue_email .content_outline_black{
+	overflow: hidden;
+	height: 283px;
+	padding: 7px 7px 7px 7px;
+}
+.narrow_blue_email h3{
+	padding: 0;
+}
+
+.nasa_express_email_list_container {
+	background-image:url(/templateimages/redesign/modules/education/nasa_express_background.jpg);
+}
+.nasa_express_email_list_container h3{
+	font-size:24px;
+	line-height:24px;
+	margin:7px 0px 0px 0px;
+}
+.nasa_express_email_list_container h4{
+	font-size:14px;
+	margin:4px 0px 0px 0px;
+}
+.email_subscribe_options_container {
+	margin:16px 0px 0px 0px;
+}
+.email_subscribe_option {
+	width:88px;height:16px;float:left;
+}
+.narrow_blue_email p {
+	padding: 5px 0 20px 0;
+}
+
+.education_email_field p{ padding: 0 0 5px 0; overflow: hidden; }
+.education_email_field input{ margin: 0; }
+.education_email_field label{ margin-left: 3px; }
+.education_email_field img { margin: 13px 0 8px 0; border: none; }
+.education_email_field h4 { font-size: 12px; font-family: arial; }
+
+.narrow_blue_email input.emailbox {
+	background-image:url(/templateimages/redesign/modules/email_inputbox_white_shadow.gif);
+	background-repeat:repeat-x;
+	border:1px solid #585858;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:16px;
+	line-height:16px;
+	margin:0px;
+	padding:3px 0px 1px 5px;
+	width:175px;
+}
+
+/*BEGIN topic of the day*/
+.img_grey_topic {
+	width: 226px;
+	height: 170px;
+	border: 1px solid #969696;
+}
+
+.filter_container .tab .tab_wrapper1_long { border: 1px solid #005DAC; height: 1%;}
+.filter_container .tab .tab_710_cont .medium_legacy_wrap { float:left; margin: 0 8px 0 0; border-color: #969696; }
+.filter_container .tab .tab_710_cont p { margin: 0 8px 8px 0; }
+.filter_container .tab .tab_710_cont h3 { padding: 0 8px 0 8px; }
+
+/* filters select */
+select.select_subject{
+	display: none;
+}
+select.select_subject_ie{
+	background-color:#005dac;
+	color: #fff;
+	border: solid 5px #005dac;
+	height:22px;
+}
+select.select_subject_ie{
+	background-color:#005dac;
+	color: #fff;
+	border: solid 5px #005dac;
+
+}
+.selectlist_wrapper .dropdown_main_container {
+	margin: 8px 8px 0 8px;
+}
+.view_no_filter {
+	margin: 14px 8px 0 0;
+}
+
+/* educators_materials_details */
+.materials_details_expanded .content_outline_black { overflow: hidden; height: 295px; background: url(/templateimages/redesign/modules/education/materials_details_filter.jpg) no-repeat 0 0;}
+.materials_details_filter .materials_outline_blue { margin: 0 0 8px 0; }
+.materials_details_filter { background: #003366; }
+.materials_details_filter h3 { margin: 8px 0 0 16px; font-size: 16px; }
+.materials_details_filter .filterlist_wrapper { padding: 0 0 0 16px; }
+.materials_details_expanded {display: none;}
+.materials_details_filter .content_outline_blue { height: 1%;}
+
+.rate_it_btn { right:16px !important; }
+
+.education_article { margin: 1px 1px 1px 1px; padding: 16px 16px 16px 16px; height: 1%; overflow: hidden; background: #e4e4e4; border: 1px solid #aba9a9; }
+.education_article h3 { line-height:13px; }
+.article_left { width: 415px; float: left; }
+.article_left p { margin: 12px 0 0 0; }
+.rating_resources { color: #2e2e2e; width: 200px; overflow:hidden;}
+.rating_resources b { float: left; }
+.resources_stars { margin: 2px 0 0 6px; width: 90px; height: 14px; float: left; text-indent: -5000px; background: url(/templateimages/redesign/modules/education/materials_rating.gif) no-repeat;}
+.resources_stars_light { background: url(/templateimages/redesign/modules/education/materials_rating_light.gif) no-repeat;}
+.resources_stars li { cursor: inherit; }
+.education_resources { float: right; background: #e4e4e4; }
+.education_resources_inside{ margin: 8px 0 0 0; padding: 8px 8px 12px 8px; width: 228px; background: #d6d6d6; }
+.education_resources p { margin: 8px 0 0 0; }
+.education_resources a { color: #004d93; }
+.education_subjects ul { list-style-type: none; }
+.education_objective li { color: #999999; list-style: square inside; line-height:15px;}
+
+.materials_rating_cont { margin: 30px 0 0 8px; position: relative; width: 398px; height: 56px; float: left; line-height: 56px; background: #d6d6d6 }
+.materials_rating_cont h3 { margin: 21px 0 0 0; padding: 0 0 0 16px; width: 135px; float: left; }
+.materials_rating_cont .linkbutton_96_white { bottom: 16px; }
+.materials_stars { margin: 21px 0 0 0; width: 90px; height: 14px; float: left; overflow: hidden; background: url(/templateimages/redesign/modules/education/materials_rating.gif) no-repeat -90px 0; }
+.materials_stars li { margin: 0 4px 0 0; width: 14px; height: 14px; float: left; cursor: pointer; }
+.materials_stars_0 { background-position: -90px 0;}
+.materials_stars_1 { background-position: -72px 0;}
+.materials_stars_2 { background-position: -54px 0;}
+.materials_stars_3 { background-position: -36px 0;}
+.materials_stars_4 { background-position: -18px 0;}
+.materials_stars_5 { background-position: 0 0;}
+
+/* educators_learning_resources */
+.publication_products { background: #FFFFFF; }
+.divider_browse { background: #c8c8c8; }
+.publication_text p { margin-bottom: 8px !important; padding: 4px 0 0 0; }
+.publication_text h3 { padding: 20px 0 0 0; color: #2e2e2e; }
+.publication_text a { color: #004d93; }
+.publication_address { color: #2e2e2e; }
+.contact_content { margin: 12px; }
+.publication_text h5 { color: #2e2e2e;}
+
+/* NASA Express signup */
+.grip_accordion .nasa_express_email_list_container h3 { margin-top:15px; padding-left:0px; height:26px; width:auto; line-height:26px; background:transparent; }
+.grip_accordion .nasa_express_email_list_container h4 { margin: 0 0 2px 0; line-height: 14px; font-family:Trebuchet MS; }
+.grip_accordion .nasa_express_email_list_container h4.big_space { margin-top:31px; }
+.grip_accordion .nasa_express_email_list_container { padding-left:12px; padding-right:12px; height:295px; background-image:url(/templateimages/redesign/modules/education/nasa_express_background.jpg); }
+
+.nasa_express_email_list_container textarea { margin-top:14px; width:196px; height:101px; border:1px solid #000; background-image: url('/templateimages/redesign/modules/forms/textarea.gif'); }
+.nasa_express_first_blurb { margin-top:6px; }
+
+/* Education Programs side content */
+.education_programs { padding: 8px 8px 0 8px; height:287px; }
+.education_programs p { margin-top:6px; }
+.education_programs h4 { line-height:16px; }
+.education_programs a.small_legacy_wrap { margin: 0 8px 8px 0; float:left; }
+
+/* worldbook side content */
+.grip_with_226_img h4 { margin-top:16px; padding-left:8px; }
+.grip_with_226_img p { margin-top:12px; padding-left:8px; }
+.grip_with_226_img a { margin:12px 0 0 0; }
+.grip_with_226_img .content_outline_grey { margin:8px 0 0 1px; width: 228px;}
+.grip_with_226_img .content_outline_grey a { margin:0 0 0 0; }
