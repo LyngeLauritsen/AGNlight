@@ -1,0 +1,351 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal Article
+% LaTeX Template
+% Version 1.3 (9/9/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article}
+
+\usepackage{lipsum} % Package to generate dummy text throughout this template
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\PrerenderUnicode{áéíóúñ}
+%\usepackage[spanish]{babel}
+%\usepackage{t1enc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{sidecap}
+\usepackage{amssymb,amsmath}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{float} 
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage{url}
+\usepackage[hmarginratio=3:2,top=15mm,columnsep=25pt,left=15mm]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{hyperref} % For hyperlinks in the PDF
+\usepackage{caption}
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+\def\textsubscript#1{\ensuremath{_{\mbox{\textscale{.6}{#1}}}}}
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+\usepackage{titlesec} % Allows customization of titles
+\graphicspath{ {pics/} }
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\cdot$}
+\renewcommand{\labelitemiii}{$\diamond$}
+\renewcommand{\labelitemiv}{$\ast$}
+
+
+%\usepackage{fancyhdr} % Headers and footers
+%\pagestyle{fancy} % All pages have headers and footers
+%\fancyhead{} % Blank out the default header
+%\fancyfoot{} % Blank out the default footer
+%\fancyhead[C]{Metallicity Gradients in ies $\bullet$ December 2015} % Custom header text
+%\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{\vspace{-20mm}\fontsize{16pt}{10pt}\selectfont\textbf{Continuum determination}} % Article title
+
+\author{
+%\large
+\textsc{Lynge R. B. Lauritsen} \\
+\normalsize University of Copenhagen \\ % Your institution
+\date{March 2018}
+\vspace{-9mm}
+}
+%----------------------------------------------------------------------------------------
+
+\usepackage{amsmath}
+\begin{document}
+%\begin{multicols}{1}
+\maketitle % Insert title
+%\end{multicols}{}
+
+%\thispagestyle{fancy} % All pages have headers and footers
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+%\begin{abstract}
+
+%\noindent ABSTRACT
+
+%\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+%\begin{multicols}{2} % Two-column layout throughout the main article text
+
+\section{Introduction}
+This paper will discuss the use of Reverberation Mapping of AGN Light Curves on quasars observed using the Rapid Eye Mount (REM) telescope in the La Palma site in Chile. The aim of this paper is to demonstrate the possibilities in using observation from different bands to determine the driving function of the quasars' as well as all relevant transfer functions. It will discuss the process of determining the light curves based on local standard stars, as well as the creation and running of the MCMC algorithm used to determine the relevant constants of the transfer functions.
+
+\section{Active Galactic Nuclei}
+Active Galactic Nuclei, or AGN for short, is used to describe powerful energetic and luminous phenomena in the galactic center that does not originate from the galactic stellar population. These phenomena is powered by accretion onto a Supermassive Black Hole (SMBH). This section will discuss the AGN phenomena, how it originates as well as its importance in modern astrophyics.
+
+\subsection{Observing and identifying the AGN}
+AGN identification and observation follow a list of observable properties. The earlier identification methods as used by both Schmidt (1969) as well as Peterson (1997) allows AGN identification based upon datasets of similar nature as the ones used in this project. These identification properties is; 
+\begin{enumerate}
+\item The pointlike representation of an AGN upon an imaging detector
+\item Strong emission lines
+\item The Continuum Luminosity varies over time
+\item Evidence of strong non-stellar emission
+\end{enumerate}
+it must however be added that the Peterson (2008) expanded upon this list
+\begin{enumerate}
+\item Strong X-RAY emission
+\item Radio emission
+\item Non-stellar UV through IR emission
+\item Broad emission lines in the UV through IR.
+\end{enumerate}
+of the latter list however it is important to note that not necessarily all items is always registered. \\
+\\
+\subsection{AGN morphology}
+It can generally be said that AGN falls into two different categories. The Seyfert Galaxies and the Quasars. These categories each have identifying points, however it is somewhat unclear to which degree they are distinctly different objects, or if the difference is mostly due to possibilities of observation. The distinction is of general importance and interest, however for the majority of this project it makes little actual difference in the results obtained, although it should be said that the available data did belong to Seyfert galaxies. 
+
+\subsubsection{Seyfert Galaxies}
+Discovered by Carl Seyfert (1943) these galaxies are Active Galaxies characterized by being spiral galaxies with a bright star-like nuclei in the center. Spectroscopically these galaxies contains both non-thermal continuum radiation and broad emission lines in their spectra. In addition observations show that the Luminosity output from the Nuclei originating in these Active Galaxies can at times vary by more than a factor of two in a year. \\
+\\
+The first Active Galaxy observed in 1908 by E. A. Fath at the Lick Observatory was NGC 1068. However not until 1943 did Carl Seyfert identify these as a distinct class of galaxies, now called Seyfert Galaxies. Not until the late 1950's did these galaxies become relevant again, with their identification as radio sources. Woltjer (1959) identified these Seyfert galaxies as having:
+\begin{enumerate}
+\item Unresolved nuclei, so at the then observational quality, a nucleus smaller than 100 pc. 
+\item Lifetimes in excess of $10^8$ years. This being concluded from the realisation that Seyfert Galaxies makes up 1/100 of all spiral galaxies. Leading to two possible conclusions. Either all Spiral Galaxies pases through a Seyfert phase, or they are fundamentally different from other spirals, making it logical to assume they have lifetimes comparable to other spiral galaxies (of order $10^{10}$ yrs).
+\item If it is assumed the material in the Nucleus is gravitationally bound, then based on the widths of the emission lines (excess of $10^3$ $kms^{-1}$) and the viral argument \emph{equation \ref{eq:Viral}},
+
+\begin{equation}
+M \approx \frac{v^2r} {G}
+\label{eq:Viral}
+\end{equation}
+then it must be assumed the Mass of the Nucleus is of the order $10^6$ $M_O$.
+\end{enumerate}
+It is of note that the Seyfert Galaxies fit into two types. Seyfert I galaxies has permitted emission lines originating primarily from Hydrogen with very broad characteristics and giving FWHM corresponding to velocities in excess of $10^3$ $kms^{-1}$. Additionally the Seyfert I galaxies also contain forbidden lines (such as [OIII]) with much narrower profiles ($10^2-10^3$ $kms^{-1}$). Seyfert II galaxies differs in that the emission observed is originating in the Narrow Line Region (NLR) entirely. This does not necessarily imply an absence of a Broad Band Region (BLR), as this region could be unobservable in this galaxy.
+
+\subsubsection{Quasars}
+Quasars, or as originally called Quasi-Stellar Radio Source, are the most luminous AGNs observed. A subset of these are also strong radio sources (5-10\%), and it was originally these objects that defined the quasars distinction and name. Generally quasars have strong similarities with Seyfert Galaxies, however they have very weak stellar absorption features and the Narrow Lines tends to be weaker when compared to the Broad Lines than observed in the Seyfert Galaxies. The optical spectrum observed from quasars are similar to those observed in the Seyfert Galaxies. In formal classification the distinction is made from the absolute magnitude with \emph{equation \ref{eq:quasar_distinction}} defining a quasar.
+\begin{equation}
+M_{B} \le -21.5 + 5log(h_{0}) 
+\label{eq:quasar_distinction}
+\end{equation}
+This distinction is however a historical construct, based upon the observable qualities of the respective AGNs, as it appears the only fundamental difference between Quasars and Seyfert Galaxies is the Luminosity of the object. The quasar Luminosity can be of the order $10^3$ larger than that of a galaxy, and therefore only at low redshift high resolution quasars will the host galaxy be observable.[CHAPTER 14 GALAXY FORMATION AND EVOLUTION]
+
+\subsubsection{Radio Galaxies}
+The normal spiral galaxies will have weak radio emission (mostly powered through SN remnants) and therefore have power (\emph{equation \ref{eq:SN_radio}}),
+
+\begin{equation}
+P_{1.4GHz} \le 2*10^{23} WHz^{-1}
+\label{eq:SN_radio}
+\end{equation}
+this allows the definition of radio galaxies of being galaxies with $P_{1.4GHz}$ larger than \emph{equation \ref{eq:SN_radio}}. \\
+\\
+Radio Galaxies were originally identified through the third survey at Cambridge, and it has since been realised that almost all radio galaxies are AGN ellipticals. Much like the Seyfert Galaxies two types are identified, the Broad-Line Radio Galaxies (BLRG) and Narrow-Line Radio Galaxies (NLRG). The BLRG and NLRG differs from their corresponding Seyfert Galaxies partly in being radio loud, and the morphology of the host galaxy, but also in the existence of mostly asymmetric stretching radio jets stretching several hundred kiloparsec or even megaparsec from the AGN. \\
+
+\subsection{AGN structure}
+The AGN is situated around a SMBH, and is powered by gas being accreted onto the central SMBH. The energy originates from the potential energy stored in the accretion disk with respect to the SMBH. 
+
+\subsubsection{Broad-Line Region}
+The Broad-Line Region (BLR) is the optical spectra of Seyfert I galaxies, and in Quasars with strong emission lines with velocity width in excess of $500$ $kms^{-1}$. In order to obtain this velocity dispersion from the gas temperature
+\begin{equation}
+v \approx (\frac{kT} {m_{p}})^{1/2}
+\label{eq:v_gas_T}
+\end{equation}\\
+a gass temperature of the order $10^9$ $K$ would be necessary. Despite the difficulty in determining the gas temperature originating in the BLR electron densities being sufficiently large as to collisionally suppress almost all forbidden line emissions, the relative line intensities of ionized gases indicates a temperature of order $10^4$ $K$. This gas temperature only corresponds to a velocity dispersion of $\approx$ $10$ $kms^{-1}$.
+This makes the assumption that the observed velocity dispersion is due to Doppler broadened due to the gravitational motion of the gas in the BLR the likely option. The BLR velocity dispersion is not constant across different observed AGN's. The BLR is a region of great diversity and the velocity dispersion varies from being just larger than the Narrow-Line Region at $v_{FWHM}$ = $500$ $kms^{-1}$ up to $v_{FWHM}$ > $10^{4}$ $kms^{-1}$. %The profiles of the various emission lines can often in a low order approximation be described as a logarithmic evolution as a function of distance from the center of the AGN emission line (\emph{equation \ref{eq:log_emission_line}}).
+%\begin{equation}
+%F_{\lambda}(\Delta v) \propto -ln(\Delta v)
+%\label{eq:log_emission_line}
+%\end{equation}
+%It is however not the case in all cases and different emission lines can vary significantly even in the same spectrum, and it is therefore an indication of the existence of 
+The large Doppler broadening of the line observed in the BLR causes many of the normally observable features of a spectrum to become blended and some features can become unresolved in the obtained AGN spectra. It is important to note that the emission lines varies with time dependent of the comparable variations in the continuum flux indicating a photoionization in the BLR driven by the central source (the SMBH). \\
+\\
+Not all forbidden lines are collissionally suppressed in the BLR. Hence it is possible by analysing which lines are suppressed and which isn't to estimate upper and lower bounds for the electron density in the BLR. Especially the [$O_{III}$] $\lambda 4363$, $\lambda 4959$ and $\lambda 5007$ is usually strong in ionized gases, but is supressed at electron densities exceeding ~$10^{8} cm^{-3}$. As these lines are non-present in the BLR it can thus be inferred as the lower limit for the BLR electron density. Similarly the only strong non-permitted line in the BLR UV/optical spectrum orininates from the intercombination of the [$C_{III}$] $\lambda 1909$. The critical density for de-exitation is ~$10^{10} cm^{-3}$, and this could hence be an upper limit for the electron density of at least part of the BLR, as reverberation mapping suggests that the strong emission lines originates from parts of the BLR with electron densities around $10^{11} cm^{-3}$. \\
+\\
+This project occupies itself with the reverberation mapping of the AGN. Reverberation mapping occupies itself with determining the structure of the BLR by observing the BLÆR response to continuum variations. The reverberation mapping attempts to determine the transfer functions governing the delay between the UV-driving function variations of the AGN and the BLR response, which is governed by the light travel-time effects within the BLR. The strength of the reverberation mapping technique is its ability to work independently of assumed BLR geometry and infer the geometry through the BLR response to continuum variations. The reverberation mapping techniques is based upon a series of assumptions as described by Peterson (1993) (FIND THIS PAPER AND LOOK AT IT);
+\begin{enumerate}
+\item The Continuum emission originates at a single compact and central source.
+\item The BLR has a small filling factor (the majority of the volume attributed to the BLR is a vacuum), hence photons are able to propagate freely inside the BLR.
+\item There is a simple relationship between the ionizing continuum and the observable UV/optical continuum flux.
+\item The light travel-time $\tau_{LT}=r/c$ across the BLR is the most important time scale. 
+\begin{enumerate}
+\item The BLR variations as response to the continuum variations is short compared to $\tau_{LT}$
+\item Significant geometrical changes to the BLR (dynamical time scale) happens over significantly larger time scales than the $\tau_{LT}$, $\tau_{dyn}$ can be estimated as the time taken for cloud of gas to cross the BLR; $\tau_{dyn} = r/\Delta v_{FWHM}$
+\item $\tau_{rec}$, the time scale for the cloud to reprocess ionizing radiation, is virtually instantaneous
+\end{enumerate}
+\end{enumerate}
+The observed light from the BLR at any given time (t) is the sum of the light emitted from all the isodelay surfaces in the BLR, with all parts of the sum being each surface reaktion to the continuum level at different points in the past. (REWRITE FOR ELEGANCE AND UNDERSTANDING ADD IN THE TRANSFER FUNCTION)\\
+\\
+\subsubsection{Narrow-Line Region}
+The Narrow-Line Region (NLR) are the largest spacial scale at which the ionizing radiation from the central engine is dominant. This region in the Seyfert Galaxies extends from $\sim 10 pc$ up to $\sim 1 kpc$, and thus exists on sufficiently extended spatial scales as to allow the physical and kinematic distribution to be mapped out to some extend. The NLR spectrum as opposed to the BLR spectrum contains emission lines from forbidden interactions, leading to the conclusion that the electron density is significantly lower, this also allows for the forbidden line emission from the NLR to be isotropic, due to the low chance of self-absorption of forbidden emission lines. Thusly it is possible by comparing the intensities of forbidden lines to determine physical properties of the NLR such as the temperatures and electron densities. An additional key difference between the BLR and NLR is the precense of dust in the latter, thus one can infer that the NLR is located outside the dust sublimation radius.\\
+\\
+The NLR shows as a bi-conical shape, owing to the presence of the dusty torus, at radii of $\sim 0.1 pc$ up to $\sim 10 pc$ from the central engine, which collimates the AGN radiation. Additionally due to the larger distance from the AGN center the emission line broadening of the NLR is significantly shorter, than the BLR, with $\Delta v_{FWHM} < 1000 kms^{-1}$.\\
+\\
+The physical conditions in the NLR can be inferred from the observed emission lines. Two key observable that it is possible to constrain well in the NLR as opposed to the BLR is the electron density and the electron temperature. In both cases emission lines originating from forbidden transitions from the same ion, to prevent bias in the result originating from the chemical composition of the NLR, is compared.
+
+\begin{enumerate}
+\item The electron densities are constrained using the forbidden transitions generating the $[OII] \lambda\lambda 3726,3729$ and the $[SII] \lambda\lambda 6716,6731$ emission lines. The $[OII]$ emission lines are rarely used in this respect however, due to the high degree of overlapping due to Doppler broadening. The electron density is given by \emph{equation \ref{eq:NLR_electron_density}},
+\begin{equation}
+j_{21} = n_{2}A_{21}\frac{hv_{21}} {4\pi}
+\label{eq:NLR_electron_density}
+\end{equation}\\
+with $n_{2}$ being the number density af atoms at the n=2 state, $A_{21}$ the Einstein coefficient, $j_{21}$ is the emissivity in the line and $hv_{21}$ the transition photon energy.
+\item The NLR electron temperature is determined by comparing emission lines from forbidden transitions from same ions at different exitation potentials ($\chi$), leading to the relative intensities being highly temperature dependent. Often used emission lines are $[OIII]\lambda\lambda 4363,4959,5007$ and $[NII] \lambda\lambda 5755,6548,6583$ although the $[NII] \lambda 5755$ relatively weak and therefore sub-optimal. The temperature is determined using \emph{equation \ref{eq:NLR_electron_T}},
+\begin{equation}
+j_{21} = n_{2}A_{21}\frac{hv_{21}} {4\pi}
+\label{eq:NLR_electron_T}
+\end{equation}\\
+\end{enumerate}
+
+
+\subsubsection{Unification Theory}
+The unification theory aims at providing a singular explanation for the AGN phenomena by attributing the observed differences to the conditions of the observation as opposed to intrinsic differences between the observed AGN phenomena. The possibility of the unification theory is based on the symmetric properties intrinsic in AGNs. The AGN symmetry is much like galaxies and solar systems not spherical, but rather AGN's are axisymmetric systems. This allows for differences in the observational result based upon the inclination angle of the system being observed. The Unification Theory gains credence due to the many similarities between Type I and Type II Seyfert Galaxies.  \\
+\\
+The Unification Theory assumes the AGN being powered by a central SMBH of order $10^6-10^{10} M_O$ that is surrounded by an accretion disk. Surrounding the accretion disk is  a region of hot, fast-moving dense gas, the so called BLR discussed earlier. In Type I Seyfert Galaxies this BLR is the cause of a significant amount of the observed Luminosity. In the Unification World view the BLR is photoionized by UV radiation from the central engine, the SMBH accreting from the accretion disk, and thusly the BLR emission lines changes intesity following changes in the UV continuum. \\
+Surrounding the BLR is a dusty region with the inner radius being the sublimation radius from the SMBH. This is also the region called the Torus. This dusty region reprocesses the UV continuum emission and emits the energy in the IR regime. Further out is the Narrow line region comprised of cool and low density gas. In this region the velocity caused by the gravitational rotational motion is of the order $10^2 kms^{-1}$ and is located at pc scale distances from the central engine of the AGN.\\
+\\
+Thus it is possible under the Unification Theorem to represent Seyfert I and Seyfert II galaxies as being fundamentally identical, with the main difference being the inclination angle of the host galaxies, and thus in Seyfert II Galaxies the BLR is only not observed due to the energy being blocked by the orientation of the Torus. Additionally it would then stand to reason that Quasars are either Seyfert Galaxies with sufficiently bright AGNs as to overshadow the host galaxy, or sufficiently distant as to have the Luminosity from the host galaxy being undetectable or a combination of the two. \\
+\\
+The Unification Theory originates in the attempt to explain the observed differences in what appears observationally to be two distinctly different types of Seyfert Galaxies. The main observationally differences between the two are the seeming lack of broad emission lines in Seyfert II Galaxies and the AGN continuum appears weaker in Seyfert II Galaxies. A logical assumption, if one assumes they are not intrinsically different phenomena, is that in the Type II case one observes the phenomena through a attenuating medium responsible for the partial or complete extinguishen of the BLR lines and UV continuum. This extinguishing medium has to operate over a broad wavelength range, and as such dust is the most fitting theory as well as block 3/4 of the sky as seen from the Central Engine, as this is the fraction of observable Type II to Type I Seyfert Galaxies. Some of the major questions to be answered is;
+\begin{enumerate}
+\item Why does the Seyfert II continuum appear to be a power law, much like the Seyfert I continuum, if it is reddened it would no longer be a power law?
+\item Why is Seyfert II galaxies only one order of magnitude fainter than their Seyfert I counterparts, despite the BLR lines being completely suppressed in the spectrum?
+\end{enumerate}
+
+
+\subsubsection{Dust Torus}
+Of great interest in this project is the dust torus found in the Seyfert Galaxies. Evidence of the existence of the Torus was achieved through spectropolarimetric observations of Type II Seyfert galaxies. In these investigations it was noted that it was possible to detect BLR emission in polarized light from the AGN hidden in light being reflected by material located along the axial line of the AGN. Thus the early evidence of the Torus was not direct observations of the Torus itself, rather it was the obscuring effect of the Torus leading to the detection. This obscuring effect is a cornerstone in the Unification Theory as an explanation for the existence of Type I and Type II Seyferts, assuming they are not intrinsically different objects. It is possible to observe the direct effects of the Torus on the AGN emission, as opposed to only observing the indirect effects. A dusty medium absorbing energy will undergo heating and will re-emit the energy absorbed as Thermal Radiation in the IR part of the electromagnetic spectrum. This allows for direct observation of the Torus in the AGN spectra as Thermal Black Body Radiation is a well known and well defined process. \\
+\\
+The Torus is powered by the emission from the AGN accretion disk by absorbing and re-emitting the energy released in the accretion disk. The temperature in the Torus is dependent on the distance to the center of the AGN in question, as the Torus temperature varies from 100 K up to the sublimation temperature ($T_{sub}$), thus the inner wall of the Torus is at the sublimation radius ($R_{sub}$), and thus it is possible from the thermal lag in the AGN spectrum to infer the sublimation radius. Hönig \& Kishimoto (2010) estimates the relationship between the radius and temperature in the Torus (\emph{equation \ref{eq:torus_T_R}}) 
+\begin{equation}
+\frac{r}{r_{sub}} = (\frac{T}{T_{sub}})^{-2...-2.8}
+\label{eq:torus_T_R}
+\end{equation}\\
+\\
+Understanding of the Torus and its obscuring effect on observed AGNs are important due to the significant altering effect it has on the observed characteristics of the AGN. The Torus obscure, given the right inclination angle, of the AGN both the Driving function (X-Ray and UV-radiation) and the BLR radiation, and thus understanding of the components and composition of the Torus becomes of importance in the attempt to understand the AGN phenomena. It is possible from the observations of the Dusty Torus to conclude that the Torus must be both optically and geometrically thick, additionally Type II Seyfert Galaxies with their Dusty Torus' usually reveal the existence of hight column densities of Hydrogen. The observed column densities of Hydrogen appear to be ranging from $\sim 10^{23} - 10^{25} cm^{-2}$. It is generally assumed that the high column densities of Hydrogen originates in the Torus, thus indicating a gaseous component of the Torus that dominates in mass (Hönig and Kishimoto, 2010). \\
+\\
+The Torus does not equally obscure all observed AGN due to the geometrical distribution of the phenomena. The fraction of Type II seyfert Galaxies compared to Type I Seyfert Galaxies can be represented through the Geometrical Covering Factor of the Torus, denoted as $f_{2}$ (defined in \emph{equation \ref{eq:torus_covering_factor}}),
+
+\begin{equation}
+f_2 = 1 - \int_{0}^{\pi/2}P_{esc}(\beta)cos(\beta)d\beta
+\label{eq:torus_covering_factor}
+\end{equation}\\
+with $P_{esc}(\beta)$ being the probability that AGN emitted light will escape unhindered at an angle $\beta$ from the equatorial plane of the torus (Mateos et al. 2018),
+\begin{equation}
+P_{esc}(\beta) = e^{-N_{0} \times e^{-\beta^{2}/\sigma^{2}}}
+\label{eq:P_covering_factor}
+\end{equation}\\
+with $N_{0}$ being the mean number of clouds along the equatorial direction and $\sigma$ being the angular width of the Torus. 
+
+%Traditionally the Dust Torus was seen as a 'Donut' shaped dust cloud, however more recent studies suggests a geometrically as well as optically thick distribution of the dust disk rotating around the AGN. 
+
+
+\section{Light Curve Creation}
+
+
+
+\section{Finding Continuum}
+In this section the process utilised in determining the used continuum destribution of the observed quasar data is described. The method used was found through a combination of reading relevant literature and implementation of numerical MCMC algorithm. At no point in this endeavor has the aim been to find the absolute Continuum Light Curve (CLC). The objectively correct CLC is of no real importance in the investigation, and therefore would cause unnecessary time to pursue. The difficulty in determining the absolute CLC is in the lack of knowledge of the actual band dependent transfer function of the observed Light Curves (LC). Additionally the interest in the project is the timelag between the observable bands, and as such the relative transfer functions as opposed the the absolute transfer functions. \\
+This section will be focused upon describing the methods used and the reasons behind the decisions taken.\\
+
+\subsection{Original Data Material and Kelly manipulations}
+The CLC is found based upon the observed light curves of the K-band. The REM data is observed in the KHJgriz bands. The REM data is uneven in the sampling and subject to several observation gaps of a 50 - 100 day period. Due to this sampling it has proved of interest to attempt to simulate the Observed Light Curves (OLC) across the observational gaps. These has been filled through the use of the Kelly Function (Kelly et al. 2009). The Kelly Function is not actually a function as much as a way of approximating the next point of the LC based upon the overall distribution of observed values. It is given by \emph{equation \ref{eq:Kelly2009}},
+
+\begin{equation}
+dX(t) = -\frac{1}{\tau}X(t)dt + \sigma\sqrt{dt}\epsilon(t) + bdt
+\label{eq:Kelly2009}
+\end{equation}
+with \emph{b} being the observed mean value of the OLC and $\tau$ is the relaxation time. The Kelly approach introduces a bias designed to pull the LC towards the mean. To counter this offset the Kelly approach has been applied in both directions of the LC and the mean of the two functions is the accepted value. The $\epsilon$ is a white noise process with mean zero and standard deviation of one. This is examplified in \emph{figure \ref{fig:NGC3783K-Kelly}}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=1\linewidth]{Figure/NGC3783K-Kelly.png}\\
+\caption{The Kelly function applied to the NGC3783 K-band spectrum.}
+\label{fig:NGC3783K-Kelly}
+\end{figure}
+
+The weakness of the Kelly method becomes clear in the second interval of missing data points (around 57800 - 57900 MJD). The Kelly Function breaks down in this area, it may be possible to adjust this somewhat by introducing a dependence of time from the points of observation that the estimate is based upon. This however is not the focus at this time. \\
+\\
+\subsection{Transfer Functions}
+In order to determine the CLC one must have an understanding of how the LC behaves from the Quasar to the observation. If one were to determine the exact Transfer Function at all times, it would then be possible to determine the exact CLC. However the transfer function is an unknown quantity and as the OLC is the result of the transfer function and the OLC (\emph{equation \ref{eq:OLC}}) (Andreas Skielboe 2016)
+\begin{equation}
+F_l(t,\lambda) = \int_{-\infty}^{\infty}\Psi(\tau,\lambda)F_C(t-\tau)d\tau
+\label{eq:OLC}
+\end{equation}
+it is impossible to accurately determine the CLC. However this project is not concerned with the accurate CLC, it is however interested in the relative difference between the Transfer Functions. It is therefore decided to assume a Transfer Function for the K-band data. Using this arbitrary function, \emph{equation \ref{eq:OLC}} and an MCMC algorithm a possible CLC is determined. This possible CLC can then be utilised in compound with the OLC for the renmaining observed bands and \emph{equation \ref{eq:OLC}} to determine the relative differences and hence the timelag between the Transfer Functions. \\
+For arbitrary Transfer Function a log-normal is chosen (\emph{equation \ref{eq:TF}})
+\begin{equation}
+f(x) = \frac{1}{x\sigma\sqrt{2\pi}}e^{-\frac{(ln(x))^2}{2\sigma^2}}
+\label{eq:TF}
+\end{equation}
+
+\subsection{Power Spectral Density}
+OLC from AGN's has distinct Power Spectral Densities (PSD's). This detail is used to determine whether the outcome from the MCMC algorithm is in fact a CLC, or just one of infinitely many possible solutions that exists to the numerical solving of \emph{equation \ref{eq:TF}}. The PSD slope is generally in the vicinity -2 to -3. The PSD is given by \emph{equation \ref{eq:PSD}} (Uttley et al. 2002).
+\begin{equation}
+P(\nu) = \frac{2T}{\mu^2N^2}|F_N(\nu)|^2
+\label{eq:PSD}
+\end{equation}
+with $|F_N(\nu)|^2$ given by \emph{equation \ref{eq:F_N}}
+\begin{equation}
+|F_N(\nu)|^2 = [\sum_{i=1}^{N}f(t_i)cos(2\pi\nu t_i)]^2 + [\sum_{i=1}^{N}f(t_i)sin(2\pi\nu t_i)]^2
+\label{eq:F_N}
+\end{equation}
+
+\subsection{MCMC algorithm and reasoning}
+The CLC is determined through an MCMC type algorithm. An initial guess for the CLC is made and the quality of the fit is made through the use of a variety of factors. 
+\begin{enumerate}
+\item Determining the residuals squared of the $F_l(t,\lambda)$
+\item Determining the double derivative of the CLC
+\item Determining the PSD slope of the CLC
+\item Producing a Kelly fitting for the CLC
+\end{enumerate}
+The code then randomly alters the first point on the CLC and item 1 through 4 is redetermined and compared. In the case of a favorable outcome the alteration is saved and the code moves onwards to the following point. The favorability of an outcome is evalueated by a series of parameters. 
+\begin{enumerate}
+\item Residuals: In all cases the sum of the residuals squared must be less than the previous alteration.
+\item Double Derivative: The double derivative is compared to the maximum rate of change of the OLC and is accepted if it is no more than 40 percent larger than the originally observed. This is done to prevent rapid changes to the CLC that would ultimately make for a more stable, but ultimately unphysical solution to the CLC. 40 percent has been chosen as it is felt that despite the OLC becoming somewhat more smooth as a result of the Transfer Function, it would be unlikely to be that prominent. The alternative is the sum of the change in the rate of change of beth adjacent points as well as the altered points decreases overall. This would be accepted as well, pending other factors.
+\item PSD slopes: Assuming 1 and 2 holds true, the change can be accepted if the PSD slope is moving closer to the accepted slope, or inside 0.05 of the accepted (so as to allow some freedom of movement of the CLC).
+\item Kelly: In the case of 1 holding true, and 2 follows the path of the set of double derivatives overall decreasing there will be a statistical possibility of 5 percent of a change being accepted IF the Kelly function provides an overall better fit and the PSD slope is no more than 0.3 out. This is done primarily to utilise the Kelly function as a method of approximating LC's and hence allowing for the use of this additional resource in providing a more physical fitting, as well as counterbalancing the possibility of the CLC becoming stable in an unstable equilibrium position due to the other limitations.
+\end{enumerate}
+It is being experimented upon with both one moving point as well as three. 
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+\newpage
+[1] Kelly et al. 2009, APJ698:895-910 
+[2] Kelly et al. 2009, arXiv:0903.5315v1 
+[3] A. Skielboe 2016, Thesis 
+[4] Uttley et al. 2002 Mon. Not. R. Astron. Soc. 332,231-250
+
+%\end{multicols}
+\end{document}
