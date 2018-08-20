@@ -1,0 +1,4 @@
+@misc{ Peterson 2014,
+       author = "Peterson",
+       title = "REVERBERATION MAPPING OF THE SEYFERT 1 GALAXY NGC 7469",
+       year = "2014" }
