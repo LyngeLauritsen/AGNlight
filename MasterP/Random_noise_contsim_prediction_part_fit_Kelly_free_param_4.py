@@ -128,21 +128,21 @@ N_s_a = 0.5
 N_s_b = 0.
 
 '''Fitting the constants'''
-mu_power_K = 2.3
-mu_power_H = 2.3
-mu_power_J = 2.3
-mu_power_g = 2.3
-mu_power_r = 2.3
-mu_power_i = 2.3
-mu_power_z = 2.3
+mu_power_K = 1.3
+mu_power_H = 1.3
+mu_power_J = 1.3
+mu_power_g = 1.3
+mu_power_r = 1.3
+mu_power_i = 1.3
+mu_power_z = 1.3
 
-sigma_power_K = .5
-sigma_power_H = .5
-sigma_power_J = .5
-sigma_power_g = .5
-sigma_power_r = .5
-sigma_power_i = .5
-sigma_power_z = .5
+sigma_power_K = .1
+sigma_power_H = .1
+sigma_power_J = .1
+sigma_power_g = .1
+sigma_power_r = .1
+sigma_power_i = .1
+sigma_power_z = .1
 
 def create_lognorm(x,mu,sigma):
     '''Defines the transfer function'''
