@@ -77,7 +77,7 @@ def powerlaw_psd_gaussian(exponent, samples, mean, fmin=0):
 
 '''Usefull Physical Constants for the program'''
 h_c = 6.626*10**(-27)   #Planck's Constant
-c_c = 3.*10**8*10**(9)          #Speed of light
+c_c = 3.*10**8          #Speed of light
 k_B = 1.38*10**(-16)    #Boltzmann Constant
 conv = 10**(-9)         #Convergence from nm to m
 
@@ -113,14 +113,15 @@ kelly_repeat = 20
 dd_change = 1.1
 
 '''Changeable constants'''
-T = 1200. # K
+T_max = 1500. # K
+T_min = 3000.
 lag_thermal = 3.6
 width_thermal = .5
 lag_slope_power = -0.0
 lag_intercept_power = 3.
 width_slope_power = -0.0
 width_intercept_power = .5
-A_T = 0.0005
+A_T = 0.5
 N_s_power = np.array([.5,.5,.5,.5,.5,.5])
 print N_s_power
 scale = 12.5
@@ -144,6 +145,8 @@ sigma_power_r = .3
 sigma_power_i = .3
 sigma_power_z = .3
 
+wl_base_list = np.arange(1,300000,1)
+
 def create_lognorm(x,mu,sigma):
     '''Defines the transfer function'''
     delay_days = x
@@ -166,11 +169,24 @@ def create_lognorm(x,mu,sigma):
 def power (x,a,b):
     return a*x**b
 
-def planck(wl,temperature):
-    wl = wl*10**(-9)
+def planck1(wl,temperature):
+    wl = wl*10**(-10)
     front = 2*h_c*c_c**2/wl**5
     exp = h_c*c_c/(wl*k_B*temperature)
     return front*1/(np.exp(exp)-1)
+
+def planck2(Tmin,Tmax):
+    T_list = np.linspace(Tmin[0],Tmax[0],1)
+    planck_func = planck1(wl_base_list,1)
+    for i in range(len(T_list)):
+        planck_func += planck1(wl_base_list,T_list[i])
+    planck_func /= np.sum(planck_func)
+    return planck_func
+
+def planck(wl1,Tmin,Tmax,planck_func):
+    result = np.copy(Tmin)
+    result[:] = planck_func[wl1]
+    return result
 
 def colour(alpha,length,mean):
     return powerlaw_psd_gaussian(alpha,length,mean)
@@ -181,26 +197,36 @@ def lag_equation(wl,lag_slope,lag_intercept):
 def width_equation(w,width_slope,width_intercept):
     return width_intercept*w**width_slope
 
-data_K = np.loadtxt('NOVEMBER/NOV-NGC3783-K') #'NOVEMBER/Kelly-NGC3783K')
-error_K = np.loadtxt('NOVEMBER/NGC3783_NOISE_K.txt') #Load data
+planck_K = 0
+planck_H = 0
+planck_J = 0
+planck_g = 0
+planck_r = 0
+planck_i = 0
+planck_z = 0
 
-data_H = np.loadtxt('NOVEMBER/NOV-NGC3783-H') #'NOVEMBER/Kelly-NGC3783K')
-error_H = np.loadtxt('NOVEMBER/NGC3783_NOISE_H.txt') #Load data
+T_list = np.linspace(T_min,T_max,10)
 
-data_J = np.loadtxt('NOVEMBER/NOV-NGC3783-J') #'NOVEMBER/Kelly-NGC3783K')
-error_J = np.loadtxt('NOVEMBER/NGC3783_NOISE_J.txt') #Load data
+data_K = np.loadtxt('NOVEMBER/NOV-NGC3783-Ks') #'NOVEMBER/Kelly-NGC3783K')
+error_K = np.loadtxt('NOVEMBER/NGC3783_NOISE_Ks.txt') #Load data
 
-data_g = np.loadtxt('NOVEMBER/NOV-NGC3783-g') #'NOVEMBER/NOV-NGC3783-g_short')
-error_g = np.loadtxt('NOVEMBER/NGC3783_NOISE_g.txt') #Load data
+data_H = np.loadtxt('NOVEMBER/NOV-NGC3783-Hs') #'NOVEMBER/Kelly-NGC3783K')
+error_H = np.loadtxt('NOVEMBER/NGC3783_NOISE_Hs.txt') #Load data
 
-data_r = np.loadtxt('NOVEMBER/NOV-NGC3783-r') #'NOVEMBER/NOV-NGC3783-r_short')
-error_r = np.loadtxt('NOVEMBER/NGC3783_NOISE_r.txt') #Load data
+data_J = np.loadtxt('NOVEMBER/NOV-NGC3783-Js') #'NOVEMBER/Kelly-NGC3783K')
+error_J = np.loadtxt('NOVEMBER/NGC3783_NOISE_Js.txt') #Load data
 
-data_i = np.loadtxt('NOVEMBER/NOV-NGC3783-i') #'NOVEMBER/NOV-NGC3783-i_short')
-error_i = np.loadtxt('NOVEMBER/NGC3783_NOISE_i.txt') #Load data
+data_g = np.loadtxt('NOVEMBER/NOV-NGC3783-gs') #'NOVEMBER/NOV-NGC3783-g_short')
+error_g = np.loadtxt('NOVEMBER/NGC3783_NOISE_gs.txt') #Load data
 
-data_z = np.loadtxt('NOVEMBER/NOV-NGC3783-z') #'NOVEMBER/NOV-NGC3783-z_short')
-error_z = np.loadtxt('NOVEMBER/NGC3783_NOISE_z.txt') #Load data
+data_r = np.loadtxt('NOVEMBER/NOV-NGC3783-rs') #'NOVEMBER/NOV-NGC3783-r_short')
+error_r = np.loadtxt('NOVEMBER/NGC3783_NOISE_rs.txt') #Load data
+
+data_i = np.loadtxt('NOVEMBER/NOV-NGC3783-is') #'NOVEMBER/NOV-NGC3783-i_short')
+error_i = np.loadtxt('NOVEMBER/NGC3783_NOISE_is.txt') #Load data
+
+data_z = np.loadtxt('NOVEMBER/NOV-NGC3783-zs') #'NOVEMBER/NOV-NGC3783-z_short')
+error_z = np.loadtxt('NOVEMBER/NGC3783_NOISE_zs.txt') #Load data
 
 cont = np.loadtxt('NOVEMBER/NGC3783_CONT_TRY')
 #plt.figure()
@@ -251,7 +277,8 @@ print cont_ifft[0],cont_ifft[1],cont_ifft[2],cont_ifft[3],cont_ifft[4]
 
 #time.sleep(5)
 
-T = np.array([T]*len(cont_days)) #List of temperatures
+T_min = np.array([T_min]*len(cont_days)) #List of temperatures
+T_max = np.array([T_max]*len(cont_days)) #List of temperatures
 
 '''Arrays defining the band filters'''
 K_cen = np.array([K_cen]*len(cont_days))
@@ -285,9 +312,9 @@ z_width = np.array([z_width]*len(cont_days))
 
 data_comp_K = np.zeros((len(data_K[:,1]),4))
 data_comp_K[:,0] = data_K[:,0]
-data_comp_K[:,1] = data_K[:,1]/K_width[0]
+data_comp_K[:,1] = data_K[:,1]#/K_width[0]
 data_comp_K[:,2] = 0
-data_comp_K[:,3] = error_K[:,1]/K_width[0]
+data_comp_K[:,3] = error_K[:,1]#/K_width[0]
 
 mask = ~np.isnan(data_comp_K[:,1])
 data_comp_K = data_comp_K[mask,:]
@@ -298,9 +325,9 @@ data_comp_K = data_comp_K[np.ma.masked_where(0<data_comp_K[:,1],data_comp_K[:,1]
 
 data_comp_H = np.zeros((len(data_H[:,1]),4))
 data_comp_H[:,0] = data_H[:,0]
-data_comp_H[:,1] = data_H[:,1]/H_width[0]
+data_comp_H[:,1] = data_H[:,1]#/H_width[0]
 data_comp_H[:,2] = 0
-data_comp_H[:,3] = error_H[:,1]/H_width[0]
+data_comp_H[:,3] = error_H[:,1]#/H_width[0]
 data_comp_H = data_comp_H[np.ma.masked_where(0<data_comp_H[:,1],data_comp_H[:,1]).mask,:]
 
 mask = ~np.isnan(data_comp_H[:,1])
@@ -310,9 +337,9 @@ data_comp_H = data_comp_H[mask,:]
 
 data_comp_J = np.zeros((len(data_J[:,1]),4))
 data_comp_J[:,0] = data_J[:,0]
-data_comp_J[:,1] = data_J[:,1]/J_width[0]
+data_comp_J[:,1] = data_J[:,1]#/J_width[0]
 data_comp_J[:,2] = 0
-data_comp_J[:,3] = error_J[:,1]/J_width[0]
+data_comp_J[:,3] = error_J[:,1]#/J_width[0]
 data_comp_J = data_comp_J[np.ma.masked_where(0<data_comp_J[:,1],data_comp_J[:,1]).mask,:]
 
 mask = ~np.isnan(data_comp_J[:,1])
@@ -322,9 +349,9 @@ data_comp_J = data_comp_J[mask,:]
 
 data_comp_g = np.zeros((len(data_g[:,1]),4))
 data_comp_g[:,0] = data_g[:,0]
-data_comp_g[:,1] = data_g[:,2]/g_width[0]
+data_comp_g[:,1] = data_g[:,2]#/g_width[0]
 data_comp_g[:,2] = 0
-data_comp_g[:,3] = error_g[:,2]/g_width[0]
+data_comp_g[:,3] = error_g[:,2]#/g_width[0]
 data_comp_g = data_comp_g[np.ma.masked_where(0<data_comp_g[:,1],data_comp_g[:,1]).mask,:]
 
 mask = ~np.isnan(data_comp_g[:,1])
@@ -334,9 +361,9 @@ data_comp_g = data_comp_g[mask,:]
 
 data_comp_r = np.zeros((len(data_r[:,1]),4))
 data_comp_r[:,0] = data_r[:,0]
-data_comp_r[:,1] = data_r[:,2]/r_width[0]
+data_comp_r[:,1] = data_r[:,2]#/r_width[0]
 data_comp_r[:,2] = 0
-data_comp_r[:,3] = error_r[:,2]/r_width[0]
+data_comp_r[:,3] = error_r[:,2]#/r_width[0]
 data_comp_r = data_comp_r[np.ma.masked_where(0<data_comp_r[:,1],data_comp_r[:,1]).mask,:]
 data_comp_r = data_comp_r[np.ma.masked_where(3e-14>data_comp_r[:,3],data_comp_r[:,3]).mask,:]
 
@@ -347,9 +374,9 @@ data_comp_r = data_comp_r[mask,:]
 
 data_comp_i = np.zeros((len(data_i[:,1]),4))
 data_comp_i[:,0] = data_i[:,0]
-data_comp_i[:,1] = data_i[:,2]/i_width[0]
+data_comp_i[:,1] = data_i[:,2]#/i_width[0]
 data_comp_i[:,2] = 0
-data_comp_i[:,3] = error_i[:,2]/i_width[0]
+data_comp_i[:,3] = error_i[:,2]#/i_width[0]
 data_comp_i = data_comp_i[np.ma.masked_where(0<data_comp_i[:,1],data_comp_i[:,1]).mask,:]
 
 #print data_comp_i[:,3]
@@ -361,9 +388,9 @@ data_comp_i = data_comp_i[mask,:]
 
 data_comp_z = np.zeros((len(data_z[:,1]),4))
 data_comp_z[:,0] = data_z[:,0]
-data_comp_z[:,1] = data_z[:,2]/z_width[0]
+data_comp_z[:,1] = data_z[:,2]#/z_width[0]
 data_comp_z[:,2] = 0
-data_comp_z[:,3] = error_z[:,2]/z_width[0]
+data_comp_z[:,3] = error_z[:,2]#/z_width[0]
 data_comp_z = data_comp_z[np.ma.masked_where(0<data_comp_z[:,1],data_comp_z[:,1]).mask,:]
 
 mask = ~np.isnan(data_comp_z[:,1])
@@ -446,9 +473,9 @@ def PSD(freq,cont):
 
     return slope, P_v
 
-def determine_constants(cont_days,mu_p,sigma_p,lag_thermal,width_thermal,N_s,BB,A_T,T,data_comp,width):
+def determine_constants(cont_days,mu_p,sigma_p,lag_thermal,width_thermal,N_s,BB,A_T,data_comp,width):
     transfer_power = (1-abs(A_T))*abs(N_s)*create_lognorm(x_list,mu_p,sigma_p)
-    transfer_thermal = abs(A_T)*create_lognorm(x_list,lag_thermal,width_thermal)
+    transfer_thermal = abs(A_T)*BB*create_lognorm(x_list,lag_thermal,width_thermal)
     
     transfer1 = transfer_power + transfer_thermal
     transfer_array = transfer(cont_days,data_comp,transfer1)
@@ -599,38 +626,46 @@ cont_real = np.real(cont)
 cont_real[:,1] = irfft(cont_fft)
 
 '''Black Boby radiation'''
-BB_K = planck(K_cen,T)*K_width*10**(-9)
-BB_H = planck(H_cen,T)*H_width*10**(-9)
-BB_J = planck(J_cen,T)*J_width*10**(-9)
-BB_g = planck(g_cen,T)*g_width*10**(-9)
-BB_r = planck(r_cen,T)*r_width*10**(-9)
-BB_i = planck(i_cen,T)*i_width*10**(-9)
-#BB_z = planck(z_cen,T)*z_width
+planck_func = planck2(T_min,T_max)
+BB_K = planck(K_cen,T_min,T_max,planck_func)[0]
+BB_H = planck(H_cen,T_min,T_max,planck_func)[0]
+BB_J = planck(J_cen,T_min,T_max,planck_func)[0]
+BB_g = planck(g_cen,T_min,T_max,planck_func)[0]
+BB_r = planck(r_cen,T_min,T_max,planck_func)[0]
+BB_i = planck(i_cen,T_min,T_max,planck_func)[0]
+#BB_z = planck(z_cen,T_min,T_max,planck_func)[0]
 
-param_A = [N_s_a,N_s_b,A_T]
+
+
+param_A = [N_s_a,N_s_b] #,A_T] #,T_min[0],T_max[0]]
 def prob_A(param_A):
-    N_s_K = abs(power(K_cen[0],param_A[0],param_A[1]))
-    N_s_H = abs(power(H_cen[0],param_A[0],param_A[1]))
-    N_s_J = abs(power(J_cen[0],param_A[0],param_A[1]))
+    #T_min1 = [param_A[3]]*len(T_min)
+    #T_max1 = [param_A[4]]*len(T_max)
+    #N_s_K = abs(power(K_cen[0],param_A[0],param_A[1]))
+    #N_s_H = abs(power(H_cen[0],param_A[0],param_A[1]))
+    #N_s_J = abs(power(J_cen[0],param_A[0],param_A[1]))
     N_s_g = abs(power(g_cen[0],param_A[0],param_A[1]))
     N_s_r = abs(power(r_cen[0],param_A[0],param_A[1]))
     N_s_i = abs(power(i_cen[0],param_A[0],param_A[1]))
-    N_1 = determine_constants(cont_days,mu_power_K,sigma_power_K,lag_thermal,width_thermal,N_s_K,BB_K,param_A[2],T,data_comp_K,K_width[0])
-    N_2 = determine_constants(cont_days,mu_power_H,sigma_power_H,lag_thermal,width_thermal,N_s_H,BB_H,param_A[2],T,data_comp_H,H_width[0])
-    N_3 = determine_constants(cont_days,mu_power_J,sigma_power_J,lag_thermal,width_thermal,N_s_J,BB_H,param_A[2],T,data_comp_J,J_width[0])
-    N_4 = determine_constants(cont_days,mu_power_g,sigma_power_g,lag_thermal,width_thermal,N_s_g,BB_H,param_A[2],T,data_comp_g,g_width[0])
-    N_5 = determine_constants(cont_days,mu_power_r,sigma_power_r,lag_thermal,width_thermal,N_s_r,BB_H,param_A[2],T,data_comp_r,r_width[0])
-    N_6 = determine_constants(cont_days,mu_power_i,sigma_power_i,lag_thermal,width_thermal,N_s_i,BB_H,param_A[2],T,data_comp_i,i_width[0])
+    #N_1 = determine_constants(cont_days,mu_power_K,sigma_power_K,lag_thermal,width_thermal,N_s_K,BB_K,param_A[2],data_comp_K,K_width[0])
+    #N_2 = determine_constants(cont_days,mu_power_H,sigma_power_H,lag_thermal,width_thermal,N_s_H,BB_H,param_A[2],data_comp_H,H_width[0])
+    #N_3 = determine_constants(cont_days,mu_power_J,sigma_power_J,lag_thermal,width_thermal,N_s_J,BB_J,param_A[2],data_comp_J,J_width[0])
+    N_4 = determine_constants(cont_days,mu_power_g,sigma_power_g,lag_thermal,width_thermal,N_s_g,BB_g,A_T,data_comp_g,g_width[0])
+    N_5 = determine_constants(cont_days,mu_power_r,sigma_power_r,lag_thermal,width_thermal,N_s_r,BB_r,A_T,data_comp_r,r_width[0])
+    N_6 = determine_constants(cont_days,mu_power_i,sigma_power_i,lag_thermal,width_thermal,N_s_i,BB_i,A_T,data_comp_i,i_width[0])
     #print np.mean(N_1), N_s_K
-    return np.sum((data_comp_K[:,1] - N_1)**2/data_comp_K[:,3]**2) + np.sum((data_comp_H[:,1] - N_2)**2/data_comp_H[:,3]**2) + \
-           np.sum((data_comp_J[:,1] - N_3)**2/data_comp_J[:,3]**2) + np.sum((data_comp_g[:,1] - N_4)**2/data_comp_g[:,3]**2) + \
+    #return #np.sum((data_comp_K[:,1] - N_1)**2/data_comp_K[:,3]**2) + np.sum((data_comp_H[:,1] - N_2)**2/data_comp_H[:,3]**2) + \
+           #np.sum((data_comp_J[:,1] - N_3)**2/data_comp_J[:,3]**2) +
+    return np.sum((data_comp_g[:,1] - N_4)**2/data_comp_g[:,3]**2) + \
            np.sum((data_comp_r[:,1] - N_5)**2/data_comp_r[:,3]**2) + np.sum((data_comp_i[:,1] - N_6)**2/data_comp_i[:,3]**2)
 
 res_A_T = mini(prob_A,param_A,method='Nelder-Mead',tol=1e-18)
 
 N_s_a = res_A_T.x[0]
 N_s_b = res_A_T.x[1]
-A_T = abs(res_A_T.x[2])
+#A_T = abs(res_A_T.x[2])
+#T_min = abs(res_A_T.x[3])
+#T_max = abs(res_A_T.x[4])
 
 N_s_power[0] = abs(power(K_cen[0],N_s_a,N_s_b))
 N_s_power[1] = abs(power(H_cen[0],N_s_a,N_s_b))
@@ -641,7 +676,7 @@ N_s_power[5] = abs(power(i_cen[0],N_s_a,N_s_b))
 
 #N_s_power[6] = abs(popt_z[0])
 
-print 'Constants =', N_s_power, A_T
+print 'Constants =', N_s_power, A_T, T_min[0], T_max[0]
 
 #print N_s_power[0], abs(res_K.x[0])
 #print N_s_power[1], abs(res_H.x[0])
@@ -650,12 +685,12 @@ print 'Constants =', N_s_power, A_T
 #print N_s_power[4], abs(res_r.x[0])
 #print N_s_power[5], abs(res_i.x[0])
 
-N_1 = determine_constants(cont_days,mu_power_K,sigma_power_K,lag_thermal,width_thermal,N_s_power[0],BB_K,A_T,T,data_comp_K,K_width[0])
-N_2 = determine_constants(cont_days,mu_power_H,sigma_power_H,lag_thermal,width_thermal,N_s_power[1],BB_H,A_T,T,data_comp_H,H_width[0])
-N_3 = determine_constants(cont_days,mu_power_J,sigma_power_J,lag_thermal,width_thermal,N_s_power[2],BB_H,A_T,T,data_comp_J,J_width[0])
-N_4 = determine_constants(cont_days,mu_power_g,sigma_power_g,lag_thermal,width_thermal,N_s_power[3],BB_H,A_T,T,data_comp_g,g_width[0])
-N_5 = determine_constants(cont_days,mu_power_r,sigma_power_r,lag_thermal,width_thermal,N_s_power[4],BB_H,A_T,T,data_comp_r,r_width[0])
-N_6 = determine_constants(cont_days,mu_power_i,sigma_power_i,lag_thermal,width_thermal,N_s_power[5],BB_H,A_T,T,data_comp_i,i_width[0])
+N_1 = determine_constants(cont_days,mu_power_K,sigma_power_K,lag_thermal,width_thermal,N_s_power[0],BB_K,A_T,data_comp_K,K_width[0])
+N_2 = determine_constants(cont_days,mu_power_H,sigma_power_H,lag_thermal,width_thermal,N_s_power[1],BB_H,A_T,data_comp_H,H_width[0])
+N_3 = determine_constants(cont_days,mu_power_J,sigma_power_J,lag_thermal,width_thermal,N_s_power[2],BB_J,A_T,data_comp_J,J_width[0])
+N_4 = determine_constants(cont_days,mu_power_g,sigma_power_g,lag_thermal,width_thermal,N_s_power[3],BB_g,A_T,data_comp_g,g_width[0])
+N_5 = determine_constants(cont_days,mu_power_r,sigma_power_r,lag_thermal,width_thermal,N_s_power[4],BB_r,A_T,data_comp_r,r_width[0])
+N_6 = determine_constants(cont_days,mu_power_i,sigma_power_i,lag_thermal,width_thermal,N_s_power[5],BB_i,A_T,data_comp_i,i_width[0])
 
 print np.mean(data_comp_K[:,1]), np.mean(N_1)
 print np.mean(data_comp_H[:,1]), np.mean(N_2)
@@ -674,15 +709,21 @@ transfer_power_i = (1-A_T)*N_s_power[5]*create_lognorm(x_list,mu_power_i,sigma_p
 #transfer_power_z = (1-A_T)*N_s_power[6]*create_lognorm(x_list,mu_power_z,sigma_power_z)
 
 '''Black Body Transfer function'''
-transfer_thermal = A_T*create_lognorm(x_list,lag_thermal,width_thermal)
+transfer_thermal_K = A_T*BB_K*create_lognorm(x_list,lag_thermal,width_thermal)
+transfer_thermal_H = A_T*BB_H*create_lognorm(x_list,lag_thermal,width_thermal)
+transfer_thermal_J = A_T*BB_J*create_lognorm(x_list,lag_thermal,width_thermal)
+transfer_thermal_g = A_T*BB_g*create_lognorm(x_list,lag_thermal,width_thermal)
+transfer_thermal_r = A_T*BB_r*create_lognorm(x_list,lag_thermal,width_thermal)
+transfer_thermal_i = A_T*BB_i*create_lognorm(x_list,lag_thermal,width_thermal)
+#transfer_thermal_K = A_T*BB_K*create_lognorm(x_list,lag_thermal,width_thermal)
 
-transfer_K = transfer_power_K + transfer_thermal
-transfer_H = transfer_power_H + transfer_thermal
-transfer_J = transfer_power_J + transfer_thermal
-transfer_g = transfer_power_g + transfer_thermal
-transfer_r = transfer_power_r + transfer_thermal
-transfer_i = transfer_power_i + transfer_thermal
-#transfer_z = transfer_power_z + transfer_thermal
+transfer_K = transfer_power_K + transfer_thermal_K
+transfer_H = transfer_power_H + transfer_thermal_H
+transfer_J = transfer_power_J + transfer_thermal_J
+transfer_g = transfer_power_g + transfer_thermal_g
+transfer_r = transfer_power_r + transfer_thermal_r
+transfer_i = transfer_power_i + transfer_thermal_i
+#transfer_z = transfer_power_z + transfer_thermal_z
 
 
 '''The creation of the different transfer arrays'''
@@ -947,7 +988,7 @@ for i_run in range(runs):
             end_time1 = time.time()
             print float(i1)/float(runs1)*100, '%', 'jump =', jump, '0_val =', zero_val, '1_val =', \
                   one_val, '2_val =', two_val, 'slope =', slopeolder1, 'Time =', end_time1 - start_time1
-            print 'lag thermal =', lag_thermal, 'Temperature =', T[0]
+            print 'lag thermal =', lag_thermal, 'Temperature =', T_min[0],T_max[0]
             start_time1 = time.time()
             zero_val = 0
             one_val = 0
@@ -984,7 +1025,8 @@ for i_run in range(runs):
         data_comp_i_save = np.copy(data_comp_i)
         #data_comp_z_save = np.copy(data_comp_z)
 
-        T_save = np.copy(T) # K
+        T_min_save = np.copy(T_min) # K
+        T_max_save = np.copy(T_max)
         lag_thermal_save = np.copy(lag_thermal)
         width_thermal_save = np.copy(width_thermal)
         lag_slope_power_save = np.copy(lag_slope_power)
@@ -1031,7 +1073,13 @@ for i_run in range(runs):
         #transfer_power_z_save = np.copy(transfer_power_z)
         
         '''Black Body Transfer function'''
-        transfer_thermal_save = np.copy(transfer_thermal)
+        transfer_thermal_K_save = np.copy(transfer_thermal_K)
+        transfer_thermal_H_save = np.copy(transfer_thermal_H)
+        transfer_thermal_J_save = np.copy(transfer_thermal_J)
+        transfer_thermal_g_save = np.copy(transfer_thermal_g)
+        transfer_thermal_r_save = np.copy(transfer_thermal_r)
+        transfer_thermal_i_save = np.copy(transfer_thermal_i)
+        #transfer_thermal_z_save = np.copy(transfer_thermal_z)
         
         transfer_K_save = np.copy(transfer_K)
         transfer_H_save = np.copy(transfer_H)
@@ -1073,12 +1121,14 @@ for i_run in range(runs):
             #print try1
         if try1 == 1.1: # or try1 == 0:
             '''Thermal component'''
-            T_direction = (-1)**np.random.randint(2,size=1) #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
+            T_min_direction = (-1)**np.random.randint(2,size=1) #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
+            T_max_direction = (-1)**np.random.randint(2,size=1)
             lag_thermal_direction = (-1)**np.random.randint(2)
             '''LOOK AT SOMETHING LIKE EMCEE IMPLEMENTATION IN lmfit(?)'''
             width_thermal_direction = (-1)**np.random.randint(2)#*np.random.randint(5,size=1)
 
-            T += T_direction*np.random.random()*5
+            T_min += T_min_direction*np.random.random()*5
+            T_max += T_max_direction*np.random.random()*5
             lag_thermal += lag_thermal_direction*random.random()*jump*5
             '''LOOK AT SOMETHING LIKE EMCEE IMPLEMENTATION IN lmfit(?)'''
             width_thermal += width_thermal_direction*random.random()*jump*5#*np.random.randint(5,size=1)
@@ -1123,11 +1173,13 @@ for i_run in range(runs):
             scale_direction = (-1)**np.random.randint(2)
 
             #N_s_power += N_s_power_direction*np.random.rand(7)*0.5*jump #.transpose()
-            #A_T += A_T_direction*random.random()*jump*0.01
+            A_T += A_T_direction*random.random()*jump*0.01
             scale += scale_direction*random.random()/1000.
 
         if try1 == 2.1:
-            T += (-1)**np.random.randint(2,size=1)*np.random.random()*5 #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
+            #T += (-1)**np.random.randint(2,size=1)*np.random.random()*5 #np.array([(-1)**np.random.randint(2,size=1)*random.random()*np.random.randint(5,size=1) for i in range(len(cont_days))]) # K
+            T_min += T_min_direction*np.random.random()*5
+            T_max += T_max_direction*np.random.random()*5
             #print np.random.randint(2)
             lag_thermal += lag_thermal_direction*random.random()*jump*5
             '''LOOK AT SOMETHING LIKE EMCEE IMPLEMENTATION IN lmfit(?)'''
@@ -1151,7 +1203,7 @@ for i_run in range(runs):
             #sigma_power_z += sigma_power_z_direction*random.random()*jump
             
         #elif try1 == 2.3:
-            #A_T += A_T_direction*random.random()*jump*0.01
+            A_T += A_T_direction*random.random()*jump*0.01
             #N_s_power += N_s_power_direction*np.random.rand(7)*jump #.transpose()
             scale += scale_direction*random.random()/1000.
 
@@ -1160,6 +1212,7 @@ for i_run in range(runs):
         width_thermal = abs(width_thermal)
         lag_thermal = abs(lag_thermal)
         A_T = abs(A_T)
+        T_min = abs(T_min)
 
         #N_s_power = abs(N_s_power)
         '''Fitting the constants'''
@@ -1174,14 +1227,15 @@ for i_run in range(runs):
         if try1 == 1.1 or try1 == 2.1: # or try1 == 0:
 
             '''Black Boby radiation'''
-            BB_K = planck(K_cen,T)*K_width*10**(-9)
-            BB_H = planck(H_cen,T)*H_width*10**(-9)
-            BB_J = planck(J_cen,T)*J_width*10**(-9)
-            BB_g = planck(g_cen,T)*g_width*10**(-9)
-            BB_r = planck(r_cen,T)*r_width*10**(-9)
-            BB_i = planck(i_cen,T)*i_width*10**(-9)
-            #BB_z = planck(z_cen,T)*z_width
-
+            planck_func = planck2(T_min,T_max)
+            BB_K = planck(K_cen,T_min,T_max,planck_func)[0]
+            BB_H = planck(H_cen,T_min,T_max,planck_func)[0]
+            BB_J = planck(J_cen,T_min,T_max,planck_func)[0]
+            BB_g = planck(g_cen,T_min,T_max,planck_func)[0]
+            BB_r = planck(r_cen,T_min,T_max,planck_func)[0]
+            BB_i = planck(i_cen,T_min,T_max,planck_func)[0]
+            #BB_z = planck(z_cen,T_min,T_max,planck_func)[0]
+            
             #popt_A_T, pcov_A_T = curve_fit(lambda cont_days, A_T: determine_constants(cont_days,mu_power_K,sigma_power_K,lag_thermal,width_thermal,N_s_power[0],BB_K,A_T,T,data_comp_K),cont_days,data_comp_K[:,1])
 
             #A_T = abs(popt_A_T[0])
@@ -1196,15 +1250,21 @@ for i_run in range(runs):
             #transfer_power_z = (1-A_T)*N_s_power[6]*create_lognorm(x_list,mu_power_z,sigma_power_z)
 
             '''Black Body Transfer function'''
-            transfer_thermal = A_T*create_lognorm(x_list,lag_thermal,width_thermal)
+            transfer_thermal_K = A_T*BB_K*create_lognorm(x_list,lag_thermal,width_thermal)
+            transfer_thermal_H = A_T*BB_H*create_lognorm(x_list,lag_thermal,width_thermal)
+            transfer_thermal_J = A_T*BB_J*create_lognorm(x_list,lag_thermal,width_thermal)
+            transfer_thermal_g = A_T*BB_g*create_lognorm(x_list,lag_thermal,width_thermal)
+            transfer_thermal_r = A_T*BB_r*create_lognorm(x_list,lag_thermal,width_thermal)
+            transfer_thermal_i = A_T*BB_i*create_lognorm(x_list,lag_thermal,width_thermal)
+            #transfer_thermal_K = A_T*BB_K*create_lognorm(x_list,lag_thermal,width_thermal)
 
-            transfer_K = transfer_power_K + transfer_thermal
-            transfer_H = transfer_power_H + transfer_thermal
-            transfer_J = transfer_power_J + transfer_thermal
-            transfer_g = transfer_power_g + transfer_thermal
-            transfer_r = transfer_power_r + transfer_thermal
-            transfer_i = transfer_power_i + transfer_thermal
-            #transfer_z = transfer_power_z + transfer_thermal
+            transfer_K = transfer_power_K + transfer_thermal_K
+            transfer_H = transfer_power_H + transfer_thermal_H
+            transfer_J = transfer_power_J + transfer_thermal_J
+            transfer_g = transfer_power_g + transfer_thermal_g
+            transfer_r = transfer_power_r + transfer_thermal_r
+            transfer_i = transfer_power_i + transfer_thermal_i
+            #transfer_z = transfer_power_z + transfer_thermal_z
         
 
             '''The creation of the different transfer arrays'''
@@ -1337,7 +1397,8 @@ for i_run in range(runs):
             data_comp_i = data_comp_i_save
             #data_comp_z = data_comp_z_save
 
-            T = T_save # K
+            T_min = T_min_save # K
+            T_max = T_max_save
             lag_thermal = lag_thermal_save
             width_thermal = width_thermal_save
             lag_slope_power = lag_slope_power_save
@@ -1384,7 +1445,13 @@ for i_run in range(runs):
             #transfer_power_z = np.copy(transfer_power_z_save)
             
             '''Black Body Transfer function'''
-            transfer_thermal = np.copy(transfer_thermal_save)
+            transfer_thermal_K = np.copy(transfer_thermal_K_save)
+            transfer_thermal_H = np.copy(transfer_thermal_H_save)
+            transfer_thermal_J = np.copy(transfer_thermal_J_save)
+            transfer_thermal_g = np.copy(transfer_thermal_g_save)
+            transfer_thermal_r = np.copy(transfer_thermal_r_save)
+            transfer_thermal_i = np.copy(transfer_thermal_i_save)
+            #transfer_thermal_z = np.copy(transfer_thermal_save_z)
             
             transfer_K = np.copy(transfer_K_save)
             transfer_H = np.copy(transfer_H_save)
@@ -1425,13 +1492,14 @@ for i_run in range(runs):
         #model3 = model2
         gc.collect()
     
-    param_A = [N_s_a,N_s_b,A_T]
-    
+    param_A = [N_s_a,N_s_b] #,A_T] #,T_min,T_max]
     res_A_T = mini(prob_A,param_A,method='Nelder-Mead',tol=1e-18)
-    
+
     N_s_a = res_A_T.x[0]
     N_s_b = res_A_T.x[1]
-    A_T = abs(res_A_T.x[2])
+    #A_T = abs(res_A_T.x[2])
+    #T_min = abs(res_A_T.x[3])
+    #T_max = abs(res_A_T.x[4])
     
     N_s_power[0] = abs(power(K_cen[0],N_s_a,N_s_b))
     N_s_power[1] = abs(power(H_cen[0],N_s_a,N_s_b))
@@ -1450,13 +1518,14 @@ for i_run in range(runs):
     #-----------------------------------------------------------------------------------------------------------
 
     '''Black Boby radiation'''
-    BB_K = planck(K_cen,T)*K_width
-    BB_H = planck(H_cen,T)*H_width
-    BB_J = planck(J_cen,T)*J_width
-    BB_g = planck(g_cen,T)*g_width
-    BB_r = planck(r_cen,T)*r_width
-    BB_i = planck(i_cen,T)*i_width
-    #BB_z = planck(z_cen,T)*z_width
+    planck_func = planck2(T_min,T_max)
+    BB_K = planck(K_cen,T_min,T_max,planck_func)[0]
+    BB_H = planck(H_cen,T_min,T_max,planck_func)[0]
+    BB_J = planck(J_cen,T_min,T_max,planck_func)[0]
+    BB_g = planck(g_cen,T_min,T_max,planck_func)[0]
+    BB_r = planck(r_cen,T_min,T_max,planck_func)[0]
+    BB_i = planck(i_cen,T_min,T_max,planck_func)[0]
+    #BB_z = planck(z_cen,T_min,T_max,planck_func)[0]
     
     #popt_A_T, pcov_A_T = curve_fit(lambda cont_days, A_T: determine_constants(cont_days,mu_power_K,sigma_power_K,lag_thermal,width_thermal,N_s_power[0],BB_K,A_T,T,data_comp_K),cont_days,data_comp_K[:,1])
     
@@ -1472,15 +1541,21 @@ for i_run in range(runs):
     #transfer_power_z = (1-A_T)*N_s_power[6]*create_lognorm(x_list,mu_power_z,sigma_power_z)
     
     '''Black Body Transfer function'''
-    transfer_thermal = A_T*create_lognorm(x_list,lag_thermal,width_thermal)
+    transfer_thermal_K = A_T*BB_K*create_lognorm(x_list,lag_thermal,width_thermal)
+    transfer_thermal_H = A_T*BB_H*create_lognorm(x_list,lag_thermal,width_thermal)
+    transfer_thermal_J = A_T*BB_J*create_lognorm(x_list,lag_thermal,width_thermal)
+    transfer_thermal_g = A_T*BB_g*create_lognorm(x_list,lag_thermal,width_thermal)
+    transfer_thermal_r = A_T*BB_r*create_lognorm(x_list,lag_thermal,width_thermal)
+    transfer_thermal_i = A_T*BB_i*create_lognorm(x_list,lag_thermal,width_thermal)
+    #transfer_thermal_K = A_T*BB_K*create_lognorm(x_list,lag_thermal,width_thermal)
     
-    transfer_K = transfer_power_K + transfer_thermal
-    transfer_H = transfer_power_H + transfer_thermal
-    transfer_J = transfer_power_J + transfer_thermal
-    transfer_g = transfer_power_g + transfer_thermal
-    transfer_r = transfer_power_r + transfer_thermal
-    transfer_i = transfer_power_i + transfer_thermal
-    #transfer_z = transfer_power_z + transfer_thermal
+    transfer_K = transfer_power_K + transfer_thermal_K
+    transfer_H = transfer_power_H + transfer_thermal_H
+    transfer_J = transfer_power_J + transfer_thermal_J
+    transfer_g = transfer_power_g + transfer_thermal_g
+    transfer_r = transfer_power_r + transfer_thermal_r
+    transfer_i = transfer_power_i + transfer_thermal_i
+    #transfer_z = transfer_power_z + transfer_thermal_z
     
     
     '''The creation of the different transfer arrays'''
@@ -1505,7 +1580,7 @@ for i_run in range(runs):
     #-----------------------------------------------------------------------------------------------------------
         
 
-    thermal_list.append([lag_thermal,width_thermal,T[0],A_T])
+    thermal_list.append([lag_thermal,width_thermal,T_min[0],T_max[0],A_T])
     K_list[i_run,0],K_list[i_run,1],K_list[i_run,2],K_list[i_run,3:] = mu_power_K,sigma_power_K,N_s_power[0],data_comp_K[:,2]
     H_list[i_run,0],H_list[i_run,1],H_list[i_run,2],H_list[i_run,3:] = mu_power_H,sigma_power_H,N_s_power[1],data_comp_H[:,2]
     J_list[i_run,0],J_list[i_run,1],J_list[i_run,2],J_list[i_run,3:] = mu_power_J,sigma_power_J,N_s_power[2],data_comp_J[:,2]
@@ -1514,7 +1589,8 @@ for i_run in range(runs):
     i_list[i_run,0],i_list[i_run,1],i_list[i_run,2],i_list[i_run,3:] = mu_power_i,sigma_power_i,N_s_power[5],data_comp_i[:,2]
     transfer_list.append([np.sum(transfer_power_K),np.sum(transfer_power_H),np.sum(transfer_power_J),\
                           np.sum(transfer_power_g),np.sum(transfer_power_r),np.sum(transfer_power_i),\
-                          np.sum(transfer_thermal)])
+                          np.sum(transfer_thermal_K),np.sum(transfer_thermal_H),np.sum(transfer_thermal_J),\
+                          np.sum(transfer_thermal_g),np.sum(transfer_thermal_r),np.sum(transfer_thermal_i)])
     continuous_list[i_run,:len(np.real(cont[:,0]))], continuous_list[i_run,len(np.real(cont[:,0])):] = np.real(cont[:,0]),cont_real[:,1]
     np.savetxt('long_run_2/NGC3783/thermal_list_1',np.array(thermal_list))
     np.savetxt('long_run_2/NGC3783/K_list_1',K_list)
@@ -1541,10 +1617,9 @@ for i_run in range(runs):
     print 'width_intercept_power =', width_intercept_power
     print 'A_T =', A_T
     print 'N_s_power =', N_s_power
-    print 'Temperature =', T[0]
+    print 'Temperature =', T_min[0],T_max[0]
     P_show = log(P_v)
     np.savetxt('CONTINUUM/NGC3783-continuum-slope-colour-2_5',cont) #Updating the files
-    np.savetxt('CONTINUUM/NGC3783-continuum-T-slope-colour-2_5',np.array([cont_days,T]))
     np.savetxt('CONTINUUM/NGC3783-data_comp_K-slope-colour-2_5',data_comp_K)
     np.savetxt('CONTINUUM/NGC3783-data_comp_H-slope-colour-2_5',data_comp_H)
     np.savetxt('CONTINUUM/NGC3783-data_comp_J-slope-colour-2_5',data_comp_J)
@@ -1597,15 +1672,15 @@ for i_run in range(runs):
     print slopeolder1
     end_time = time.time()
     print 'Time =', end_time - start_time
-    print 'transfer_thermal', np.sum(transfer_thermal)
-    print 'transfer_power', np.sum(transfer_power_K),np.sum(transfer_power_H),np.sum(transfer_power_J), \
-          np.sum(transfer_power_g),np.sum(transfer_power_r),np.sum(transfer_power_i)
+    #print 'transfer_thermal', np.sum(transfer_thermal)
+    #print 'transfer_power', np.sum(transfer_power_K),np.sum(transfer_power_H),np.sum(transfer_power_J), \
+    #      np.sum(transfer_power_g),np.sum(transfer_power_r),np.sum(transfer_power_i)
     TCK.append(np.max(transfer_power_K))
     MK.append(mu_power_K)
     SK.append(sigma_power_K)
-    print TCK
-    print MK
-    print SK
-    print np.sum(transfer_power_K/N_s_power[0]), np.sum(transfer_thermal/A_T)
+    #print TCK
+    #print MK
+    #print SK
+    #print np.sum(transfer_power_K/N_s_power[0]), np.sum(transfer_thermal/A_T)
 
 #print cont[:,1]
