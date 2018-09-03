@@ -14,6 +14,7 @@ import gc
 from multiprocessing import Process
 import colorednoise as cn
 from numpy.fft import ifft, fftfreq
+import seaborn
 
 
 runs = 3000 #Number of runs (arbitrary due to the gradual updates, would probably take close to a month to run)
@@ -251,13 +252,16 @@ for i in range(runs):
             #model3 = model2
             gc.collect()
     P_show = log(P_v)
-    #np.savetxt('CONTINUUM/NGC3783-continuum-slope-Kelly-2_5-1',cont) #Updating the files
-    #np.savetxt('CONTINUUM/NGC3783-data_comp-slope-Kelly-2_5-1',data_comp)
+    np.savetxt('CONTINUUM/NGC3783-continuum-slope-Kelly-2_5-1',cont) #Updating the files
+    np.savetxt('CONTINUUM/NGC3783-data_comp-slope-Kelly-2_5-1',data_comp)
     plt.figure()
-    plt.scatter(data_comp[:,0],data_comp[:,1],color='b')
-    plt.scatter(data_comp[:,0],data_comp[:,2],color='r')
-    plt.scatter(cont[:,0],cont[:,1],color='g')
+    plt.scatter(data_comp[:,0],data_comp[:,1],color='b',label='Kelly Interpretation')
+    plt.scatter(data_comp[:,0],data_comp[:,2],color='r',label='Modelled Data')
+    plt.scatter(cont[:,0],cont[:,1],color='g',label='Driving Function')
     plt.ylim([4e-15,1.2e-14])
+    plt.xlabel('MJD-OBS',fontsize=18)
+    plt.ylabel('Flux ($erg\ cm^{-2}s^{-1}\AA^{-1}$)',fontsize=18)
+    plt.title('MCMC Algorithm with Fixed Transfer Function',fontsize=20,y=1.1)
     plt.show(block=False)
     plt.figure()
     plt.scatter(freq,P_show,color='b')

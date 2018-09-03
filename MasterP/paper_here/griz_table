@@ -1,0 +1,159 @@
+\begin{longtable}{|l||l|l|l|l|l|}
+\hline
+\multirow{3}{*}{AGN} & \multirow{3}{*}{Standard Star} & \multicolumn{4}{c|}{Magnitudes:} \\ \cline{3-6}
+ & & g & r & i & z \\ \hline
+\hline
+\multirow{3}{*}{NGC3783$^{\dagger}$} & HD 101274 & * & * & * & * \\ \cline{2-6}
+\rule{0pt}{24pt}
+ & Tycho-2 7740-22-1 & 
+ \parbox[m][26pt][t]{1.8cm}{$13.329 \pm$ \\ $0.110$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.896\pm$ \\ $0.063$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.807\pm$ \\ $0.181$} &  
+ \parbox[m][26pt][t]{1.8cm}{$13.025\pm$ \\ $0.354$}\\ \cline{2-6}
+ \rule{0pt}{24pt}
+ & Tycho-2 7740-529-1$^{\ddagger}$ & 
+ \parbox[m][26pt][t]{1.8cm}{$12.351 \pm$ \\$0.009$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.038\pm$ \\ $0.009$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.833\pm$ \\ $0.007$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.631\pm$ \\ $0.012$}\\ \cline{2-6}
+\hline
+\rule{0pt}{24pt}
+\multirow{3}{*}{NGC7213$^{\dagger}$ FILL OUT} 
+ & UCAC3 86-422902 & 
+ \parbox[m][26pt][t]{1.8cm}{$13.995 \pm$ \\ $0.039$} &  
+ \parbox[m][26pt][t]{1.8cm}{$13.050 \pm$ \\ $0.054$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.876 \pm$ \\ $0.017$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.338 \pm$ \\ $0.055$}\\ \cline{2-6}
+ \rule{0pt}{24pt}
+ & CD-47 14075$^{\ddagger}$ & 
+ \parbox[m][26pt][t]{1.8cm}{$12.351 \pm$ \\$0.009$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.038\pm$ \\ $0.009$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.833\pm$ \\ $0.007$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.631\pm$ \\ $0.012$}\\ \cline{2-6}
+ \rule{0pt}{24pt}
+ & TYC 8438-57-1$^{\ddagger}$ & 
+ \parbox[m][26pt][t]{1.8cm}{$12.351 \pm$ \\$0.009$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.038\pm$ \\ $0.009$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.833\pm$ \\ $0.007$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.631\pm$ \\ $0.012$}\\ \cline{2-6}
+ \hline
+ 
+ \rule{0pt}{24pt}
+\multirow{3}{*}{ESO323$^{\dagger}$} 
+ & TYC 7777-7-1 & 
+ \parbox[m][26pt][t]{1.8cm}{$12.163 \pm$ \\ $0.408$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.726 \pm$ \\ $0.233$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.509 \pm$ \\ $0.086$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.451 \pm$ \\ $0.067$}\\ \cline{2-6}
+ 
+ \rule{0pt}{24pt}
+  & RAVE J130620.8-402401 & 
+ \parbox[m][26pt][t]{1.8cm}{$13.355 \pm$ \\ $0.463$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.002 \pm$ \\ $0.310$} &  
+ \parbox[m][26pt][t]{1.8cm}{$10.706 \pm$ \\ $0.145$} &  
+ \parbox[m][26pt][t]{1.8cm}{$10.067 \pm$ \\ $0.138$}\\ \cline{2-6}
+ 
+ \rule{0pt}{24pt}
+  & UCAC2 14614825$^{\ddagger}$ & 
+ \parbox[m][26pt][t]{1.8cm}{$14.092\pm$ \\ $0.012$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.955\pm$ \\ $0.003$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.365\pm$ \\ $0.005$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.965\pm$ \\ $0.004$}\\ \cline{2-6}
+ \hline
+ 
+ \rule{0pt}{24pt}
+\multirow{1}{*}{NGC7213$^{\dagger}$} 
+ & UCAC3 86-422902 & 
+ \parbox[m][26pt][t]{1.8cm}{$13.995 \pm$ \\ $0.039$} &  
+ \parbox[m][26pt][t]{1.8cm}{$13.050 \pm$ \\ $0.054$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.876 \pm$ \\ $0.017$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.338 \pm$ \\ $0.055$}\\ \cline{2-6}
+ \hline
+ 
+ \rule{0pt}{24pt}
+\multirow{3}{*}{AKN120} 
+ & TYC 7777-7-1 & 
+ \parbox[m][26pt][t]{1.8cm}{$12.852 \pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.100 \pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.767 \pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.571 \pm$ \\ $N/A$}\\ \cline{2-6}
+ 
+ \rule{0pt}{24pt}
+  & HD 290133 & 
+ \parbox[m][26pt][t]{1.8cm}{$13.104 \pm$ \\ $0.005$} &  
+ \parbox[m][26pt][t]{1.8cm}{$10.634 \pm$ \\ $0.022$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.112 \pm$ \\ $0.001$} &  
+ \parbox[m][26pt][t]{1.8cm}{$14.146 \pm$ \\ $0.001$}\\ \cline{2-6}
+
+\rule{0pt}{24pt}
+  & HD 290134 & 
+ \parbox[m][26pt][t]{1.8cm}{$10.979\pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$10.255\pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$9.942\pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$9.765\pm$ \\ $N/A$}\\ \cline{2-6}
+ \hline
+
+  \rule{0pt}{24pt}
+\multirow{3}{*}{MARK509} 
+ & TYC 7777-7-1 & 
+ \parbox[m][26pt][t]{1.8cm}{$11.772 \pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$11.123 \pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$10.878 \pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$10.758 \pm$ \\ $N/A$}\\ \cline{2-6}
+ 
+ \rule{0pt}{24pt}
+  & HD 290133 & 
+ \parbox[m][26pt][t]{1.8cm}{$11.604 \pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$10.939 \pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$10.666 \pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$10.520 \pm$ \\ $N/A$}\\ \cline{2-6}
+
+\rule{0pt}{24pt}
+  & HD 290134 & 
+ \parbox[m][26pt][t]{1.8cm}{$12.663\pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.364\pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.262\pm$ \\ $N/A$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.232\pm$ \\ $N/A$}\\ \cline{2-6}
+ \hline
+ 
+ \rule{0pt}{24pt}
+\multirow{3}{*}{F9} 
+ & 01:24:01.833 -58:49:45.66 & 
+ \parbox[m][26pt][t]{1.8cm}{$13.786 \pm$ \\ $0.015$} &  
+ \parbox[m][26pt][t]{1.8cm}{$13.288 \pm$ \\ $0.024$} &  
+ \parbox[m][26pt][t]{1.8cm}{$13.137 \pm$ \\ $0.054$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.247 \pm$ \\ $0.903$}\\ \cline{2-6}
+ 
+ \rule{0pt}{24pt}
+  & 01:23:37.779 -58:49:37.24 & 
+ \parbox[m][26pt][t]{1.8cm}{$16.473 \pm$ \\ $0.023$} &  
+ \parbox[m][26pt][t]{1.8cm}{$15.318 \pm$ \\ $0.042$} &  
+ \parbox[m][26pt][t]{1.8cm}{$14.773 \pm$ \\ $0.060$} &  
+ \parbox[m][26pt][t]{1.8cm}{$13.767 \pm$ \\ $0.895$}\\ \cline{2-6}
+
+\rule{0pt}{24pt}
+  & TYC 8480-374-1$^{\ddagger}$ & 
+ \parbox[m][26pt][t]{1.8cm}{$12.816\pm$ \\ $0.013$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.794\pm$ \\ $0.021$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.444\pm$ \\ $0.005$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.393\pm$ \\ $0.003$}\\ \cline{2-6}
+ \hline
+ 
+  \rule{0pt}{24pt}
+\multirow{2}{*}{F51 FILL OUT} 
+ & 01:24:01.833 -58:49:45.66 & 
+ \parbox[m][26pt][t]{1.8cm}{$13.786 \pm$ \\ $0.015$} &  
+ \parbox[m][26pt][t]{1.8cm}{$13.288 \pm$ \\ $0.024$} &  
+ \parbox[m][26pt][t]{1.8cm}{$13.137 \pm$ \\ $0.054$} &  
+ \parbox[m][26pt][t]{1.8cm}{$12.247 \pm$ \\ $0.903$}\\ \cline{2-6}
+ 
+ \rule{0pt}{24pt}
+  & 01:23:37.779 -58:49:37.24 & 
+ \parbox[m][26pt][t]{1.8cm}{$16.473 \pm$ \\ $0.023$} &  
+ \parbox[m][26pt][t]{1.8cm}{$15.318 \pm$ \\ $0.042$} &  
+ \parbox[m][26pt][t]{1.8cm}{$14.773 \pm$ \\ $0.060$} &  
+ \parbox[m][26pt][t]{1.8cm}{$13.767 \pm$ \\ $0.895$}\\ \cline{2-6}
+ \hline
+\caption{The Standard Star magnitudes and errors as given by the PanSTARRS survey\cite{PanSTARRS} where applicable, and as determined through this project otherwise. $^{\dagger}$ indicates AGN at declination bellow $-30^{\circ}$, thus not being present in PanSTARRS, and $^{\ddagger}$ indicates a standard star determined in this project based on single night observations due to the low sampling of the AGN, at the time of the Standard Star calibration, and the lack of good nights of constant visibility in the area coinciding with the AGN sampling. * indicates Standard Stars that in some or all bands saturates the detector to the point of loss in linearity. $N/A$ indicates Standard Stars in the outer fringes of the observed sky area, thus by happenstance not visible in the frames at the nights, of good constant visibility, that can be used for Standard Star calibration.}
+\label{tab:stand_star_griz}
+\end{longtable}
